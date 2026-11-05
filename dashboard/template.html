@@ -44,6 +44,23 @@
 .deep-unknowns{padding-left:22px}.deep-unknowns li{margin-bottom:10px}
 @media(max-width:1000px){.deep-wrap{grid-template-columns:1fr}.deep-cols{grid-template-columns:1fr}}
 @media print{.deep-tabs,.deep-link,.actions,.tape{display:none!important}}
+
+/* Broad earnings-universe scanner: same local HTML, source-backed JSON only. */
+.scan-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:15px 0}
+.scan-metric{padding:14px;border-radius:10px;background:#0b1e34;border:1px solid var(--border)}
+.scan-metric strong{display:block;font-size:25px;color:#e7f0ff;margin:3px 0}
+.scan-metric span{font-size:11px;color:var(--muted)}
+.scan-controls{display:flex;gap:9px;flex-wrap:wrap;margin:13px 0}
+.scan-controls select,.scan-controls input{background:#0c1d32;border:1px solid #52708f;color:#fff;padding:9px 11px;border-radius:8px;width:auto;min-width:130px;max-width:250px;font:inherit}
+.scan-controls input{flex:1;min-width:175px}
+.scan-table-wrap{max-height:425px;overflow:auto;border:1px solid var(--border);border-radius:11px}
+.scan-table td{font-size:12px;text-align:left!important;vertical-align:top}.scan-table th{text-align:left!important;background:#11233b;position:sticky;top:0;z-index:1}
+.scan-missing{font-size:12px;color:var(--muted);margin:10px 0}
+.scan-pairs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:11px;margin-top:13px}
+.scan-pair{border:1px solid var(--border);border-radius:10px;padding:14px;background:#0e1d31}
+.scan-pair strong{font-size:13px}.scan-pair p{font-size:11px;margin:8px 0 0}
+.scan-method{border-top:1px solid var(--border);padding-top:14px;margin-top:16px;color:var(--muted);font-size:11px}
+@media(max-width:800px){.scan-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.scan-controls select,.scan-controls input{max-width:none;flex:1}}
 </style></head><body><div class="shell" id="mainShell">
 <header class="top"><div><div class="sup">Aktien / Research / Trading Journal</div><h1>Aktien-Research Dashboard</h1><p>Alle dokumentierten Positionen, Research-Charts und nachvollziehbare simulierte P&amp;L</p></div><div><div class="flag">KEINE ECHTEN ORDERS DURCH CHATGPT</div><div class="updated" id="stamp"></div></div></header>
 <section class="kpis"><div class="kpi"><div class="label">Paper-Positionen offen</div><div class="value" id="paperOpen">–</div><div class="hint">Nur explizite Simulationen</div></div><div class="kpi"><div class="label">Paper-Einsatz offen</div><div class="value" id="paperStake">–</div><div class="hint">Keine Broker-Margin</div></div><div class="kpi"><div class="label">Mark-to-market P&amp;L</div><div class="value" id="floating">–</div><div class="hint">Nur markierte Paper-Positionen, nicht live</div></div><div class="kpi"><div class="label">Realisierte Paper-P&amp;L</div><div class="value" id="realized">–</div><div class="hint">Nur verifizierte Simulationsabschlüsse</div></div><div class="kpi"><div class="label">Weitere gemeldete Positionen</div><div class="value" id="reported">–</div><div class="hint">Nicht in Paper-P&amp;L enthalten</div></div></section>
@@ -55,6 +72,27 @@
 
 
 <section class="panel" id="tradeThesis" style="margin-top:14px"><div class="row"><div><h2>Aktueller Trade: These, P&amp;L und Erwartungen</h2><p class="small">Nachvollziehbare Referenzsimulation · Kurszeit strikt vom Analysezeitpunkt getrennt</p></div><span class="badge" id="outlookKind">–</span></div><p id="outlookText">Noch keine aktuelle Trade-Einschätzung dokumentiert.</p><div class="outlook-grid" id="outlookScenarios"></div><div class="hint" id="outlookMeta"></div></section>
+
+<section class="panel" id="screeningOverview" style="margin-top:14px">
+ <div class="row"><div><h2>Marktweite Earnings-Triage · US &amp; Europa</h2><p class="small">Die Top-5-Watchlist unten ist nur die engste Auswahl. Hier erscheinen alle tatsächlich geprüften Event-Aktien, Ablehnungen, Paare und Entscheidungen der stündlichen Läufe.</p></div><span class="badge" id="scanStatus">Noch kein Breitenscan</span></div>
+ <div class="scan-metrics" id="scanMetrics"></div><p class="scan-missing" id="scanMeta">Noch kein breiter Marktscan protokolliert.</p>
+ <div class="scan-controls">
+ <input id="scanSearch" type="search" placeholder="Ticker, Unternehmen, Ereignis, Sektor …" aria-label="Aktienuniversum durchsuchen">
+ <select id="scanMarket" aria-label="Börsenregion filtern"><option value="">Alle Regionen</option><option value="US">USA</option><option value="XETRA">Europa / Xetra</option></select>
+ <select id="scanStage" aria-label="Screeningphase filtern"><option value="">Alle Screeningphasen</option><option value="QUALIFIED">Bestanden</option><option value="DEEP_DIVE">Deep Dive</option><option value="WATCH">Watchlist</option><option value="REJECTED">Abgelehnt</option><option value="SCREENED">Erste Prüfung</option></select>
+ <select id="scanDirection" aria-label="Richtung filtern"><option value="">Long und Short</option><option value="LONG">Long</option><option value="SHORT">Short</option><option value="NEUTRAL">Neutral</option></select></div>
+ <div class="scan-table-wrap"><table class="scan-table"><thead><tr><th>Aktie</th><th>Region · Sektor</th><th>Earnings / Event</th><th>Phase</th><th>Tendenz</th><th>Research-Score</th><th>Treiber · Quelle</th></tr></thead><tbody id="scanRows"></tbody></table></div>
+ <p class="scan-missing" id="scanShown"></p>
+ <hr class="line"><div class="row"><h2>Long/Short-Paare &amp; relative Beziehungen</h2><span class="badge" id="pairCount">0 bestätigt</span></div>
+ <p class="small">Zwei verschiedene Prüfungen: inverse Geschäftsrisiken oder statistische Relative-Value-Paare. Eine angenommene Gegenbewegung ist kein belastbarer Hedge; Preisbeziehungen können brechen.</p>
+ <div id="scanPairs" class="scan-pairs"></div>
+ <div class="scan-method">Forschungsbasis:
+ <a href="https://rpc.cfainstitute.org/research/financial-analysts-journal/2006/post-earnings-announcement-drift-the-role-of-revenue-surprises" target="_blank" rel="noopener noreferrer">Gewinn- plus Umsatzüberraschungen</a> ·
+ <a href="https://www.sciencedirect.com/science/article/pii/S0148619524000584" target="_blank" rel="noopener noreferrer">Trading-Friktionen und PEAD</a> ·
+ <a href="https://www.sciencedirect.com/science/article/pii/S0304405X25000182" target="_blank" rel="noopener noreferrer">Schnelle Kursverarbeitung bei Earnings</a> ·
+ <a href="https://doi.org/10.1093/rfs/hhj020" target="_blank" rel="noopener noreferrer">Pairs-Trading-Studie</a>.
+ Nur künftig wirklich protokollierte Screeningdaten zählen; keine simulierten Erfolge oder erfundenen Coverage-Zahlen.</div>
+</section>
 <section class="panel" id="watchlistDossiers" style="margin-top:14px"><div class="row"><div><h2>Watchlist · fünf Aktien / Master-Dossiers</h2><p class="small">Kurzübersicht hier · Deep-Dive-Button öffnet eine separate Ansicht derselben HTML-Datei</p></div><span class="badge" id="briefCount">–</span></div><div class="dossiers" id="briefCards"></div><p class="hint">Fakten, Analysten, historische Zahlen, Prognosetreue und Fonds-13F auf der jeweiligen Detailseite. Ungeprüftes klar gekennzeichnet.</p></section>
 <div class="research-wrap">
 <section class="panel"><div class="row"><div><h2>Research-Kommandozentrale</h2><p class="small" style="margin-bottom:0">US / Xetra · neue Durchläufe · Bewertungen · Entscheidungen</p></div><span class="badge" id="researchCount">0 Durchläufe</span></div>
@@ -220,6 +258,60 @@ function openDeepRoute(){const symbol=deepOpenTicker();if(!symbol){$('mainShell'
  const tabs=$('deepTabs');tabs.replaceChildren();for(const [id,name] of DEEPTABS){const btn=createNode('button',name);btn.dataset.tab=id;btn.onclick=()=>showDeepTab(id);tabs.append(btn)}showDeepTab('overview')}
 window.addEventListener('hashchange',openDeepRoute);
 
-addMarketTape();renderResearch();renderBriefCards();renderTradeOutlook();openDeepRoute();
+
+function renderScreening(){
+ const s=research.screening||{},cov=s.coverage||{},all=Array.isArray(s.candidates)?s.candidates:[];
+ const metric=(v)=>Number.isFinite(v)?v.toLocaleString('de-DE'):'nicht erfasst';
+ $('scanStatus').textContent=s.status||'Noch kein Breitenscan';
+ const cards=[
+ ['Beobachtetes Universum',cov.universe_checked],
+ ['Earnings-Ereignisse',cov.earnings_events],
+ ['Einzeltitel geprüft',cov.triaged],
+ ['Qualifiziert',cov.qualified],
+ ['Handelssignale',cov.trade_signals]
+ ];
+ $('scanMetrics').replaceChildren();
+ for(const [label,val] of cards){
+  const box=createNode('div',null,'scan-metric');box.append(createNode('span',label),createNode('strong',metric(val)));$('scanMetrics').append(box)
+ }
+ $('scanMeta').textContent='Letzter Screeningstand: '+(s.as_of?researchTime(s.as_of):'nicht gefunden')+
+ ' · '+(s.method_note||'Die stündlichen US-/Xetra-Research-Läufe sollen das Universum fortlaufend erfassen. Ohne tatsächlich gespeicherte Ergebnisse wird keine Abdeckung behauptet.');
+ const selMarket=$('scanMarket'),selStage=$('scanStage'),selDir=$('scanDirection'),search=$('scanSearch');
+ const render=()=>{
+  const q=search.value.toLocaleLowerCase('de-DE').trim();
+  const filtered=all.filter(x=>{
+   const market=String(x.market||'').toUpperCase(),stage=String(x.stage||'').toUpperCase(),dir=String(x.direction||'').toUpperCase();
+   const hay=[x.ticker,x.name,x.event,x.sector,x.reason,x.strategy].join(' ').toLocaleLowerCase('de-DE');
+   return (!selMarket.value||(selMarket.value==='XETRA'?(market==='XETRA'||market==='EU'):market==='US'))&&
+     (!selStage.value||stage===selStage.value)&&(!selDir.value||dir===selDir.value)&&(!q||hay.includes(q));
+  }).sort((a,b)=>(Number.isFinite(b.score)?b.score:-1)-(Number.isFinite(a.score)?a.score:-1));
+  const tb=$('scanRows');tb.replaceChildren();
+  if(!filtered.length){const tr=document.createElement('tr');const td=tr.insertCell();td.colSpan=7;td.textContent=all.length?'Für diese Filter keine Titel.':'Noch keine dokumentierte marktweite Triage. Top-5-Dossiers sind keine belegte Gesamtmarkt-Abdeckung.';tb.append(tr)}
+  for(const x of filtered.slice(0,1000)){
+   const tr=document.createElement('tr');const t0=tr.insertCell();const sym=createNode('strong',x.ticker||'–');t0.append(sym,createNode('div',x.name||'', 'hint'));
+   for(const val of [((x.market||'–')+' · '+(x.sector||'Sektor unbekannt')),((x.earnings_at||'Datum unbekannt')+' · '+(x.event||'Event nicht dokumentiert')),x.stage||'–',x.direction||'–',Number.isFinite(x.score)?x.score.toFixed(1)+' / 100':'nicht berechnet'])tr.insertCell().textContent=val;
+   const end=tr.insertCell();end.append(createNode('span',x.reason||'Ohne belegte Bewertung'));
+   const urls=Array.isArray(x.sources)?x.sources:(x.source_url?[x.source_url]:[]);
+   if(urls.length){end.append(createNode('div'));end.append(deepLink(urls[0],'Primärbeleg'))}
+   tr.onclick=()=>{const id=String(x.ticker||'').toUpperCase();if(research.deep_dives?.[id])window.open(location.href.split('#')[0]+'#dossier='+encodeURIComponent(id),'_blank','noopener');else if(x.tv){$('heading').textContent=(x.name||id)+' · '+x.tv;chart({tv:x.tv})}};
+   tb.append(tr)
+  }
+  $('scanShown').textContent=filtered.length+' Treffer aus '+all.length+' protokollierten Titeln; maximal 1.000 Zeilen sichtbar.';
+ };
+ for(const el of [selMarket,selStage,selDir,search])el.addEventListener(el===search?'input':'change',render);
+ render();
+ const pairs=Array.isArray(s.pairs)?s.pairs:[];$('pairCount').textContent=pairs.length+' dokumentiert';
+ const ph=$('scanPairs');ph.replaceChildren();
+ if(!pairs.length){ph.append(createNode('p','Bisher keine durch aktuelle Kursreihen und Unternehmensbezüge überprüften Long/Short-Paare.','scan-missing'));return;}
+ for(const p of pairs){
+  const item=createNode('article',null,'scan-pair');item.append(createNode('strong',(p.long||'?')+' LONG · '+(p.short||'?')+' SHORT'));item.append(createNode('p','Typ: '+(p.relationship||'unbestimmt')+' · '+(p.status||'Hypothese')));
+  item.append(createNode('p',p.evidence||'Noch kein belastbarer Nachweis.'));
+  if(Number.isFinite(p.correlation))item.append(createNode('p','Rollierende Korrelation ('+(p.lookback_days||'?')+' Tage): '+p.correlation.toFixed(2)));
+  if(p.source_url)item.append(deepLink(p.source_url,'Beleg'));
+  ph.append(item);
+ }
+}
+
+addMarketTape();renderResearch();renderScreening();renderBriefCards();renderTradeOutlook();openDeepRoute();
 setInterval(()=>{if(!document.hidden)location.reload()},90000);overview();show();
 </script></body></html>
