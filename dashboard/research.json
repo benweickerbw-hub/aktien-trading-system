@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "updated_at": "2026-11-05T20:30:00Z",
+  "version": 10,
+  "updated_at": "2026-11-05T22:07:00+01:00",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -966,6 +966,86 @@
         "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
         "pnl_eur": null,
         "reference_only": true
+      }
+    },
+    {
+      "id": "MANUELL-20261105T210700Z",
+      "market": "US",
+      "run_at": "2026-11-05T22:07:00+01:00",
+      "task": "Manuelle Dashboard-Aktualisierung",
+      "decision": "REVIEW",
+      "headline": "US-Schlussphase: Nasdaq-Einbruch, IREN als Tages-Close 18,14 USD ausgewiesen; kein neuer Paper-Fill",
+      "summary": "ChartExchange listet am 05.11.2026 IREN Tages-Close 18,14 USD (−16,44 % gegenüber 21,71 USD Vortag), mit Datenständen verschiedener Provider teils abweichend. 100 EUR × synthetisch 5x, bei nicht belegtem Short-Referenzeinstieg 18,05 USD: Modell-PnL −2,49 EUR, keine echte Performance. IREN Q1-FY27 Call laut IR für 17 Uhr EST angekündigt, zum Prüfzeitpunkt noch keine bestätigten Q1-Ergebniszahlen gefunden. Kein neuer Trade.",
+      "source_status": "Web-Snapshot 22:07 MEZ; die Quote ist nur ein als Daily-Close gelisteter Providerwert, kein tickgenauer Echtzeitfeed. Abschlusskurs ggf. noch revidierbar. Angaben aus Quellen, keine nachträgliche Fillbehauptung.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT_WATCH",
+          "thesis": "Microsoft-Projektüberwachung und Finanzierung; Tagesverfall erhöhte Rebound-Gefahr.",
+          "risk": "Earnings-Überraschung und Short-Squeeze; historischer Referenzkurs kein Beweis einer Ausführung.",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG_WATCH",
+          "thesis": "Q3 2026 2,185 Mrd USD Umsatz und +55 % yoy; starker Kontrast zum AI-Abverkauf.",
+          "risk": "Nach starkem Kurssprung Reversal- und Bewertungsrisiko.",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "IREN historischer Tageskurs 5. November",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "ChartExchange",
+          "url": "https://chartexchange.com/symbol/nasdaq-iren/historical/",
+          "finding": "Gelisted Close 18,14 USD; Vorabend 21,71 USD. Datenverzögerung/Kursrevision möglich."
+        },
+        {
+          "title": "IREN Investor Relations: Earnings und Call am 5. November",
+          "published_at": "2026-10-22",
+          "ticker": "IREN",
+          "publisher": "IREN",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-release-q1-fy27-results-november-5-2026",
+          "finding": "Q1 FY27 Call 17 Uhr Eastern."
+        },
+        {
+          "title": "Massiver Abverkauf von KI-Aktien am 5. November",
+          "published_at": "2026-11-05",
+          "ticker": null,
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e",
+          "finding": "S&P 500 und Nasdaq deutlich schwächer, erhöhte AI-Infrastruktur-Risiken."
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "Vorsichtig bearish, aber nach großem Tagesverlust hohes Erholungs-/Short-Squeeze-Risiko",
+        "summary": "Nur eine historische Referenzsimulation, kein nachgewiesener Börsen-Fill. Der als Tages-Close gelistete 18,14-USD-Preis ist kein After-Hours-Kurs. IREN-Earnings nach Börsenschluss können Gap zur nächsten Eröffnung auslösen.",
+        "base_scenario": "Vor Q1-FY27-Ergebnissen und 17-Uhr-Call keine belastbare Richtung für nächsten regulären Nasdaq-Open.",
+        "bull_scenario": "Für Short positiv: Bestätigte Verzögerungen, hohe Capex-/Finanzierungskosten, schwächere Guidance könnten weiteren Abverkauf auslösen.",
+        "bear_scenario": "Für Short negativ: überzeugende Microsoft-Projektfortschritte und Finanzierungsmeldung könnten kräftigen Gap-Up verursachen.",
+        "key_risk": "Earnings-Gap, Short-Squeeze, veralteter Referenzeinstieg, kein echter Produktpreis.",
+        "planned_exit": "06.11.2026 nächste reguläre Nasdaq-Eröffnung, hypothetisch nach belegbarem Opening-Print; keine tatsächliche Order",
+        "as_of": "2026-11-05T22:07:00+01:00",
+        "mark_price": 18.14,
+        "mark_at": "2026-11-05T16:00:00-05:00",
+        "mark_source_url": "https://chartexchange.com/symbol/nasdaq-iren/historical/",
+        "pnl_eur": -2.49,
+        "reference_only": true,
+        "entry_price": 18.05,
+        "stake_eur": 100,
+        "leverage": 5
       }
     }
   ],
