@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updated_at": "2026-11-05T19:58:24.982Z",
+  "version": 7,
+  "updated_at": "2026-11-05T21:02:00+01:00",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -1254,5 +1254,128 @@
       "method_note": "",
       "analyst_coverage": []
     }
+  },
+  "screening": {
+    "status": "Aufbau · historische Auswahl, noch kein Breitenscan",
+    "as_of": "2026-11-05T21:02:00+01:00",
+    "method_note": "Initiale Alt-Watchlist aus bereits protokollierten Dossiers. Noch keine überprüfte Marktbreiten-Abdeckung. Alle Screeningzähler offen, bis die stündlichen Agenten nachvollziehbare Untersuchungszahlen speichern.",
+    "coverage": {
+      "universe_checked": null,
+      "earnings_events": null,
+      "triaged": null,
+      "qualified": null,
+      "trade_signals": null
+    },
+    "candidates": [
+      {
+        "ticker": "IREN",
+        "name": "IREN Limited",
+        "tv": "NASDAQ:IREN",
+        "market": "US",
+        "sector": "Rechenzentren / AI",
+        "direction": "SHORT",
+        "reason": "Microsoft-Projektrisiken, Finanzierung und Earnings",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "score": null,
+        "sources": [
+          "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "APP",
+        "name": "AppLovin",
+        "tv": "NASDAQ:APP",
+        "market": "US",
+        "sector": "AdTech / Software",
+        "direction": "LONG",
+        "reason": "Umsatzwachstum; Bewertungs- und Reaktionsrisiken",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "score": null,
+        "sources": [
+          "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "NET",
+        "name": "Cloudflare",
+        "tv": "NYSE:NET",
+        "market": "US",
+        "sector": "Cloud / Cybersecurity",
+        "direction": "NEUTRAL",
+        "reason": "Earnings-/Guidance-Abgleich noch ausstehend",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "score": null,
+        "sources": [
+          "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "AFRM",
+        "name": "Affirm",
+        "tv": "NASDAQ:AFRM",
+        "market": "US",
+        "sector": "Fintech / Kredit",
+        "direction": "NEUTRAL",
+        "reason": "Kreditqualität, Finanzierung, Earnings",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "score": null,
+        "sources": [
+          "https://investors.affirm.com/news-releases/news-release-details/affirm-reports-fourth-fiscal-quarter-2026-results"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "HFG",
+        "name": "HelloFresh",
+        "tv": "XETR:HFG",
+        "market": "XETRA",
+        "sector": "Konsum / Lieferdienste",
+        "direction": "SHORT",
+        "reason": "Umsatzentwicklung und revidierte Jahresprognose",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "score": null,
+        "sources": [
+          "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      }
+    ],
+    "pairs": [],
+    "daily_stats": [],
+    "strategies": [
+      {
+        "id": "earnings_pre",
+        "name": "Pre-Earnings Erwartungsabweichung",
+        "status": "nur Kandidaten bei belegbarer These"
+      },
+      {
+        "id": "post_earnings",
+        "name": "PEAD / Revenue + EPS Surprise",
+        "status": "nur nach Veröffentlichung und Kostencheck"
+      },
+      {
+        "id": "guidance",
+        "name": "Guidance Revision und Track Record",
+        "status": "Primärquellen erforderlich"
+      },
+      {
+        "id": "pairs",
+        "name": "Long/Short Relative Value",
+        "status": "nur mit geprüfter Kursbeziehung"
+      }
+    ]
   }
 }
