@@ -191,7 +191,13 @@ def run():
         target = entry * (1 + reward_pct if side == "LONG" else 1 - reward_pct)
         trade_id = str(uuid.uuid4())
         con.execute("""
-           INSERT INTO paper_trades VALUES (
+           INSERT INTO paper_trades (
+             trade_id,symbol,direction,signal_date,entry_date,
+             entry_price,stop_price,target_price,exposure_eur,
+             capital_eur,entry_fee_eur,exit_date,exit_price,
+             exit_fee_eur,realized_pnl_eur,status,exit_reason,
+             last_checked_date,score,model_version
+           ) VALUES (
              ?,?,?,?,?,?,?,?,?,?,?,NULL,NULL,NULL,NULL,'OPEN',NULL,NULL,?,?
            )
         """, [
