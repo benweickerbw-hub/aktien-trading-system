@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updated_at": "2026-11-05T21:02:00+01:00",
+  "version": 9,
+  "updated_at": "2026-11-05T20:30:00Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -733,6 +733,240 @@
           }
         ]
       }
+    },
+    {
+      "id": "US-20261105T203000Z",
+      "market": "US",
+      "run_at": "2026-11-05T20:30:00Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN-Projektrisiko bestätigt als Prüfpunkt; keine zeitnahe 15:30-Quote für verifizierten Fill",
+      "summary": "IREN Short-Hypothese gegen APP Long-Relative-Stärke; NET/AFRM/ABNB Earnings. Kein nachgewiesener Kurs um 15:30 ET. IREN 18,78 USD um 14:55:27 ET ist 35 Minuten alt und nicht ausführbarer Fill. Kein neuer Trade.",
+      "source_status": "Unvollständig: 50-Quellen-Ziel nicht erreicht; fünf öffentlich zugängliche inhaltliche Quellen geprüft, weitere Kalender/Quotes zur Triage; keine 13F-Paaranalyse.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
+          "risk": "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap.",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG",
+          "thesis": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
+          "risk": "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "NEUTRAL",
+          "thesis": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
+          "risk": "Bewertung, Margen und Guidance noch ungeprüft.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL",
+          "thesis": "Q1 FY27 Earnings 17 Uhr ET.",
+          "risk": "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "side": "NEUTRAL",
+          "thesis": "Earnings nach Börsenschluss laut Kalender.",
+          "risk": "Keine ausreichende historische Fundamentalanalyse.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft tightens oversight of neocloud data center projects",
+          "published_at": "2026-11-05T17:30:00Z",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+          "finding": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung."
+        },
+        {
+          "title": "Satellite images reveal trouble brewing at Microsoft's AI data center partners",
+          "published_at": "2026-11-04T20:42:05Z",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+          "finding": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik."
+        },
+        {
+          "title": "AppLovin stock tracks largest jump in two years",
+          "published_at": "2026-11-05",
+          "ticker": "APP",
+          "publisher": "Barron's",
+          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+          "finding": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap."
+        },
+        {
+          "title": "IREN reports Q1 FY26 results",
+          "published_at": "2025-11-06T21:00:00Z",
+          "ticker": "IREN",
+          "publisher": "IREN / GlobeNewswire",
+          "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
+          "finding": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag."
+        },
+        {
+          "title": "US earnings calendar Nov 5",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/calendar/earnings/",
+          "finding": "ABNB, NET und weitere Titel mit Earnings nach Börsenschluss; Kalenderliste allein kein vollständiger Screen."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung.",
+              "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05T17:30:00Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik.",
+              "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+              "publisher": "Business Insider",
+              "published_at": "2026-11-04T20:42:05Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag.",
+              "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
+              "publisher": "IREN / GlobeNewswire",
+              "published_at": "2025-11-06T21:00:00Z"
+            }
+          ],
+          "catalysts": [
+            "Q1 FY27 Ergebnisse 5.11. nach Schluss",
+            "Microsoft Projektstatus"
+          ],
+          "invalidations": [
+            "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap."
+          ]
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap.",
+              "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+              "publisher": "Barron's",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko."
+          ]
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Bewertung, Margen und Guidance noch ungeprüft."
+          ]
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q1 FY27 Earnings 17 Uhr ET.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt."
+          ]
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings nach Börsenschluss laut Kalender.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Keine ausreichende historische Fundamentalanalyse."
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": null,
+        "stance": "SHORT",
+        "summary": "Historische Referenzsimulation zu 18,05 USD ist KEIN verifizierter Fill.",
+        "base_scenario": "Volatile Eröffnung nach Earnings, Richtung nicht belastbar",
+        "bull_scenario": "Verzögerungsbestätigung und schwache Guidance: Short könnte profitieren",
+        "bear_scenario": "Entkräftung der Vorwürfe und positive Guidance: Short-Squeeze",
+        "key_risk": "Earnings-Gap und veralteter Referenzkurs",
+        "planned_exit": "Nur hypothetisch nächster regulärer Opening-Print; keine bestätigte offene Order",
+        "as_of": "2026-11-05T20:30:00Z",
+        "mark_price": 18.78,
+        "mark_at": "2026-11-05T14:55:27-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": null,
+        "reference_only": true
+      }
     }
   ],
   "deep_dives": {
@@ -740,10 +974,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-05T20:46:03+01:00",
-      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
-      "stance": "Vorsichtig bearish, Event-Risiko sehr hoch",
-      "summary": "FY26-Umsatz stieg zwar deutlich, die Umstellung belastete aber das Nettoergebnis. 4 Mrd. USD vertraglich zugesagtes ARR ist NICHT identisch mit gebuchtem Umsatz.",
+      "as_of": "2026-11-05T20:30:00Z",
+      "status": "DEEP_DIVE_UNVOLLSTÄNDIG",
+      "stance": "SHORT",
+      "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
       "source_goal": 50,
       "source_documents": [
         {
@@ -765,6 +999,36 @@
           "finding": "SEC-Filing bestätigt die gemeldete Lieferung und Abnahme von Horizon 1; eigenständiges Dokument gegenüber dem FY26-Bericht",
           "checked_on": "2026-11-05",
           "doc_type": "Original SEC-Filing"
+        },
+        {
+          "id": "iren-reuters-msft-20261105",
+          "title": "Microsoft tightens oversight of neocloud data center projects",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05T17:30:00Z",
+          "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+          "finding": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung.",
+          "checked_on": "2026-11-05T20:30:00Z",
+          "doc_type": "news"
+        },
+        {
+          "id": "iren-bi-20261104",
+          "title": "Satellite images reveal trouble brewing at Microsoft's AI data center partners",
+          "publisher": "Business Insider",
+          "published_at": "2026-11-04T20:42:05Z",
+          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+          "finding": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik.",
+          "checked_on": "2026-11-05T20:30:00Z",
+          "doc_type": "investigation"
+        },
+        {
+          "id": "iren-q1fy26",
+          "title": "IREN reports Q1 FY26 results",
+          "publisher": "IREN",
+          "published_at": "2025-11-06T21:00:00Z",
+          "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
+          "finding": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag.",
+          "checked_on": "2026-11-05T20:30:00Z",
+          "doc_type": "earnings_release"
         }
       ],
       "financial_history": [
@@ -836,24 +1100,21 @@
         }
       ],
       "institutional_holdings": [],
-      "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
+      "holdings_note": "Nicht verifiziert.",
       "key_unknowns": [
-        "Frühere Projektlieferzusagen über mehrere Quartale gegen echte Übergabetermine vergleichen",
-        "13F-Aktienbestände großer Manager über mindestens 4 Quartale prüfen",
-        "Kapitalerhöhungen, GPU-Finanzierungsverträge, Verschuldung und Verwässerung nachrechnen",
-        "Earnings am 5. November nach Marktende aktualisieren"
+        "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap."
       ],
-      "method_note": "",
+      "method_note": "Keine 50 vollständig geprüften unabhängigen Quellen; 13F-Vergleiche nicht geprüft.",
       "analyst_coverage": []
     },
     "APP": {
       "ticker": "APP",
       "name": "AppLovin",
       "tv": "NASDAQ:APP",
-      "as_of": "2026-11-05T20:46:03+01:00",
-      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
-      "stance": "Fundamental bullish, Timingrisiko",
-      "summary": "Management hat die eigene Q3-Spanne bei Umsatz und EBITDA übertroffen. Das ist ein belastbarer Treffer in EINEM Quartal, noch kein Beweis für eine langjährig hohe Prognosetreue.",
+      "as_of": "2026-11-05T20:30:00Z",
+      "status": "DEEP_DIVE_UNVOLLSTÄNDIG",
+      "stance": "LONG",
+      "summary": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
       "source_goal": 50,
       "source_documents": [
         {
@@ -875,6 +1136,16 @@
           "finding": "Q3 revenue $2,185m, adjusted EBITDA $1,842m",
           "checked_on": "2026-11-05",
           "doc_type": "Primärquelle"
+        },
+        {
+          "id": "app-barrons-20261105",
+          "title": "AppLovin stock tracks largest jump in two years",
+          "publisher": "Barron's",
+          "published_at": "2026-11-05",
+          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+          "finding": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap.",
+          "checked_on": "2026-11-05T20:30:00Z",
+          "doc_type": "news"
         }
       ],
       "financial_history": [
@@ -956,14 +1227,11 @@
         }
       ],
       "institutional_holdings": [],
-      "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
+      "holdings_note": "Nicht verifiziert.",
       "key_unknowns": [
-        "Q1 2024 bis Q3 2026 Prognosehistorie vollständig rekonstruieren",
-        "Anpassungen der Umsatzprognosen, Medien-/Kartellrisiken und Qualität des Gewinns untersuchen",
-        "13F-Bestände nach Fonds und Vierteljahr mit Meldeverzug vergleichen",
-        "Bewertungsannahmen und Wettbewerber im AdTech-Sektor"
+        "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko."
       ],
-      "method_note": "",
+      "method_note": "Keine 50 vollständig geprüften unabhängigen Quellen; 13F-Vergleiche nicht geprüft.",
       "analyst_coverage": []
     },
     "NET": {
@@ -1256,15 +1524,15 @@
     }
   },
   "screening": {
-    "status": "Kalender-Triage gestartet · keine Vollprüfung",
-    "as_of": "2026-11-05T21:02:00+01:00",
-    "method_note": "Stichprobe aus veröffentlichten Earnings-Kalendern am 05.11.2026; DISCOVERED bedeutet ausschließlich Name/Termin im Kalender, keine geprüfte individuelle Earnings-Strategie. 5 bisherige WATCH-Namen stammen aus älteren Dossiers. Screeningtiefe und Selektionsquote NICHT gemessen; Quoten nicht behaupten.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-05T20:30:00Z",
+    "method_note": "Öffentliche Earnings-Kalender sind nur Discovery; keine pauschale Validierung aller genannten Ticker. Kein vollständiger 50-Quellen-Check.",
     "coverage": {
-      "universe_checked": null,
-      "earnings_events": null,
-      "triaged": null,
-      "qualified": null,
-      "trade_signals": null
+      "universe_checked": 4,
+      "earnings_events": 3,
+      "triaged": 4,
+      "qualified": 0,
+      "trade_signals": 0
     },
     "candidates": [
       {
@@ -1725,10 +1993,55 @@
           "https://portfolio-terminal.com/earnings-calendar/november-2026"
         ],
         "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "IONQ",
+        "name": "IonQ",
+        "tv": "NYSE:IONQ",
+        "market": "US",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Earnings oder Research-Ereignis am 5.11.2026",
+        "stage": "DISCOVERED",
+        "earnings_at": null,
+        "event": "Earnings / Marktnews",
+        "score": null,
+        "sources": [
+          "https://finance.yahoo.com/calendar/earnings/"
+        ],
+        "as_of": "2026-11-05T20:30:00Z"
+      },
+      {
+        "ticker": "DKNG",
+        "name": "DraftKings",
+        "tv": "NASDAQ:DKNG",
+        "market": "US",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Earnings oder Research-Ereignis am 5.11.2026",
+        "stage": "DISCOVERED",
+        "earnings_at": null,
+        "event": "Earnings / Marktnews",
+        "score": null,
+        "sources": [
+          "https://finance.yahoo.com/calendar/earnings/"
+        ],
+        "as_of": "2026-11-05T20:30:00Z"
       }
     ],
     "pairs": [],
-    "daily_stats": [],
+    "daily_stats": [
+      {
+        "date": "2026-11-05",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": 3,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261105T203000Z"
+      }
+    ],
     "strategies": [
       {
         "id": "earnings_pre",
