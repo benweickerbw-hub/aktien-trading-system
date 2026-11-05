@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updated_at": "2026-11-05T22:07:00+01:00",
+  "version": 11,
+  "updated_at": "2026-11-05T21:25:22Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -150,6 +150,240 @@
           "finding": "AI-Cloud-Umsatz 128,8 Mio USD"
         }
       ]
+    },
+    {
+      "id": "US-20261105T203000Z",
+      "market": "US",
+      "run_at": "2026-11-05T20:30:00Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN-Projektrisiko bestätigt als Prüfpunkt; keine zeitnahe 15:30-Quote für verifizierten Fill",
+      "summary": "IREN Short-Hypothese gegen APP Long-Relative-Stärke; NET/AFRM/ABNB Earnings. Kein nachgewiesener Kurs um 15:30 ET. IREN 18,78 USD um 14:55:27 ET ist 35 Minuten alt und nicht ausführbarer Fill. Kein neuer Trade.",
+      "source_status": "Unvollständig: 50-Quellen-Ziel nicht erreicht; fünf öffentlich zugängliche inhaltliche Quellen geprüft, weitere Kalender/Quotes zur Triage; keine 13F-Paaranalyse.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
+          "risk": "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap.",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG",
+          "thesis": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
+          "risk": "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "NEUTRAL",
+          "thesis": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
+          "risk": "Bewertung, Margen und Guidance noch ungeprüft.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL",
+          "thesis": "Q1 FY27 Earnings 17 Uhr ET.",
+          "risk": "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "side": "NEUTRAL",
+          "thesis": "Earnings nach Börsenschluss laut Kalender.",
+          "risk": "Keine ausreichende historische Fundamentalanalyse.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft tightens oversight of neocloud data center projects",
+          "published_at": "2026-11-05T17:30:00Z",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+          "finding": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung."
+        },
+        {
+          "title": "Satellite images reveal trouble brewing at Microsoft's AI data center partners",
+          "published_at": "2026-11-04T20:42:05Z",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+          "finding": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik."
+        },
+        {
+          "title": "AppLovin stock tracks largest jump in two years",
+          "published_at": "2026-11-05",
+          "ticker": "APP",
+          "publisher": "Barron's",
+          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+          "finding": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap."
+        },
+        {
+          "title": "IREN reports Q1 FY26 results",
+          "published_at": "2025-11-06T21:00:00Z",
+          "ticker": "IREN",
+          "publisher": "IREN / GlobeNewswire",
+          "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
+          "finding": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag."
+        },
+        {
+          "title": "US earnings calendar Nov 5",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/calendar/earnings/",
+          "finding": "ABNB, NET und weitere Titel mit Earnings nach Börsenschluss; Kalenderliste allein kein vollständiger Screen."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung.",
+              "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05T17:30:00Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik.",
+              "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+              "publisher": "Business Insider",
+              "published_at": "2026-11-04T20:42:05Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag.",
+              "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
+              "publisher": "IREN / GlobeNewswire",
+              "published_at": "2025-11-06T21:00:00Z"
+            }
+          ],
+          "catalysts": [
+            "Q1 FY27 Ergebnisse 5.11. nach Schluss",
+            "Microsoft Projektstatus"
+          ],
+          "invalidations": [
+            "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap."
+          ]
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap.",
+              "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+              "publisher": "Barron's",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko."
+          ]
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Bewertung, Margen und Guidance noch ungeprüft."
+          ]
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q1 FY27 Earnings 17 Uhr ET.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt."
+          ]
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings nach Börsenschluss laut Kalender.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Keine ausreichende historische Fundamentalanalyse."
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": null,
+        "stance": "SHORT",
+        "summary": "Historische Referenzsimulation zu 18,05 USD ist KEIN verifizierter Fill.",
+        "base_scenario": "Volatile Eröffnung nach Earnings, Richtung nicht belastbar",
+        "bull_scenario": "Verzögerungsbestätigung und schwache Guidance: Short könnte profitieren",
+        "bear_scenario": "Entkräftung der Vorwürfe und positive Guidance: Short-Squeeze",
+        "key_risk": "Earnings-Gap und veralteter Referenzkurs",
+        "planned_exit": "Nur hypothetisch nächster regulärer Opening-Print; keine bestätigte offene Order",
+        "as_of": "2026-11-05T20:30:00Z",
+        "mark_price": 18.78,
+        "mark_at": "2026-11-05T14:55:27-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": null,
+        "reference_only": true
+      }
     },
     {
       "id": "MANUELL-20261105T194600Z",
@@ -735,66 +969,66 @@
       }
     },
     {
-      "id": "US-20261105T203000Z",
+      "id": "US-20261105T212522Z",
       "market": "US",
-      "run_at": "2026-11-05T20:30:00Z",
+      "run_at": "2026-11-05T21:25:22Z",
       "task": "Aktienresearch USA stündlich",
-      "decision": "KEIN TRADE",
-      "headline": "IREN-Projektrisiko bestätigt als Prüfpunkt; keine zeitnahe 15:30-Quote für verifizierten Fill",
-      "summary": "IREN Short-Hypothese gegen APP Long-Relative-Stärke; NET/AFRM/ABNB Earnings. Kein nachgewiesener Kurs um 15:30 ET. IREN 18,78 USD um 14:55:27 ET ist 35 Minuten alt und nicht ausführbarer Fill. Kein neuer Trade.",
-      "source_status": "Unvollständig: 50-Quellen-Ziel nicht erreicht; fünf öffentlich zugängliche inhaltliche Quellen geprüft, weitere Kalender/Quotes zur Triage; keine 13F-Paaranalyse.",
+      "decision": "REVIEW",
+      "headline": "After close: US AI selloff; Tapestry raises outlook, Expedia Q4 outlook disappoints; Q3 releases for IREN/NET/AFRM pending verification",
+      "summary": "No post-close trade authorized. Fresh checked documents focus on IREN execution and funding, NET Q3 guidance, AFRM event, TPR raised guidance, EXPE slower Q4. Official new releases for IREN NET AFRM not verified as of run. No PnL quote.",
+      "source_status": "9 opened documents across 7 tickers, with historical and news documents; none has 50 independently verified sources.",
       "candidates": [
         {
           "ticker": "IREN",
           "name": "IREN Limited",
-          "tv": "NASDAQ:IREN",
+          "tv": "IREN",
           "side": "SHORT",
-          "thesis": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
-          "risk": "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap.",
-          "sources_checked": 3,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "tv": "NASDAQ:APP",
-          "side": "LONG",
-          "thesis": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
-          "risk": "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko.",
-          "sources_checked": 1,
+          "thesis": "Project delivery and funding execution",
+          "risk": "Strong contracted backlog, bounce and squeeze risk",
+          "sources_checked": 2,
           "sources_target": 50,
           "confidence": null
         },
         {
           "ticker": "NET",
           "name": "Cloudflare",
-          "tv": "NYSE:NET",
+          "tv": "NET",
           "side": "NEUTRAL",
-          "thesis": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
-          "risk": "Bewertung, Margen und Guidance noch ungeprüft.",
-          "sources_checked": 1,
+          "thesis": "Q3 earnings after close; growth versus GAAP loss",
+          "risk": "High valuation and stock-based compensation",
+          "sources_checked": 2,
           "sources_target": 50,
           "confidence": null
         },
         {
           "ticker": "AFRM",
           "name": "Affirm",
-          "tv": "NASDAQ:AFRM",
+          "tv": "AFRM",
           "side": "NEUTRAL",
-          "thesis": "Q1 FY27 Earnings 17 Uhr ET.",
-          "risk": "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt.",
+          "thesis": "Q1 FY27 earnings after close; credit metrics",
+          "risk": "Credit losses and funding costs",
           "sources_checked": 1,
           "sources_target": 50,
           "confidence": null
         },
         {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "tv": "NASDAQ:ABNB",
-          "side": "NEUTRAL",
-          "thesis": "Earnings nach Börsenschluss laut Kalender.",
-          "risk": "Keine ausreichende historische Fundamentalanalyse.",
+          "ticker": "TPR",
+          "name": "Tapestry",
+          "tv": "TPR",
+          "side": "LONG WATCH",
+          "thesis": "Raised FY27 revenue guidance; Coach momentum",
+          "risk": "Kate Spade weakness and macro demand",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "EXPE",
+          "name": "Expedia",
+          "tv": "EXPE",
+          "side": "SHORT WATCH",
+          "thesis": "Strong Q3 but softer Q4 outlook",
+          "risk": "Resilient travel and full-year raise",
           "sources_checked": 1,
           "sources_target": 50,
           "confidence": null
@@ -802,168 +1036,171 @@
       ],
       "news": [
         {
-          "title": "Microsoft tightens oversight of neocloud data center projects",
-          "published_at": "2026-11-05T17:30:00Z",
-          "ticker": "IREN",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
-          "finding": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung."
+          "title": "Cloudflare Q2 2026 results and Q3 guidance",
+          "published_at": "2026-08-06",
+          "ticker": "NET",
+          "publisher": "Cloudflare IR",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q2 $696.1m revenue, $205.7m GAAP operating loss, $56.4m FCF; Q3 guidance $736-737m."
         },
         {
-          "title": "Satellite images reveal trouble brewing at Microsoft's AI data center partners",
-          "published_at": "2026-11-04T20:42:05Z",
-          "ticker": "IREN",
-          "publisher": "Business Insider",
-          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
-          "finding": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik."
+          "title": "Cloudflare Q3 release date",
+          "published_at": "2026-10-13",
+          "ticker": "NET",
+          "publisher": "Cloudflare IR",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q3 2026 release after market close Nov 5, earnings call 17:00 ET."
         },
         {
-          "title": "AppLovin stock tracks largest jump in two years",
+          "title": "Affirm Q1 FY27 announcement",
+          "published_at": "2026-10-05",
+          "ticker": "AFRM",
+          "publisher": "Affirm IR",
+          "url": "https://investors.affirm.com/news-releases/news-release-details/affirm-announce-first-quarter-fiscal-year-2027-results-november",
+          "finding": "Q1 FY27 release Nov 5 after market close, conference call 17:00 ET."
+        },
+        {
+          "title": "Tapestry revenues grow 12%",
           "published_at": "2026-11-05",
-          "ticker": "APP",
+          "ticker": "TPR",
+          "publisher": "Vogue Business",
+          "url": "https://www.vogue.com/article/tapestry-revenues-climb-12-despite-kate-spade-dip",
+          "finding": "Q1 FY27 revenue $1.89bn; Coach +16%, Kate Spade -10%; raised FY27 revenue outlook to $8.5-8.6bn."
+        },
+        {
+          "title": "Expedia gains reversed after outlook",
+          "published_at": "2026-11-05",
+          "ticker": "EXPE",
           "publisher": "Barron's",
-          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
-          "finding": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap."
-        },
-        {
-          "title": "IREN reports Q1 FY26 results",
-          "published_at": "2025-11-06T21:00:00Z",
-          "ticker": "IREN",
-          "publisher": "IREN / GlobeNewswire",
-          "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
-          "finding": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag."
-        },
-        {
-          "title": "US earnings calendar Nov 5",
-          "published_at": null,
-          "ticker": null,
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/calendar/earnings/",
-          "finding": "ABNB, NET und weitere Titel mit Earnings nach Börsenschluss; Kalenderliste allein kein vollständiger Screen."
+          "url": "https://www.barrons.com/articles/expedia-earnings-stock-price-2afcbadc",
+          "finding": "Q3 beat and raised annual outlook but slower Q4 growth outlook pressures shares."
         }
       ],
       "watchlist_briefs": [
         {
           "ticker": "IREN",
           "name": "IREN Limited",
-          "tv": "NASDAQ:IREN",
+          "tv": "IREN",
           "stance": "SHORT",
-          "horizon": "1–10 Handelstage",
-          "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
+          "horizon": "1–10 trading days",
+          "summary": "Project delivery and funding execution",
           "points": [
             {
               "type": "FAKT",
-              "text": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung.",
-              "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
-              "publisher": "Reuters",
-              "published_at": "2026-11-05T17:30:00Z"
+              "text": "$4bn contracted ARR for 2026 capacity versus $1bn operating ARR; Horizon 1 delivered, Horizon 3-4 targeting Q4; financing details.",
+              "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+              "publisher": "IREN Investor Relations",
+              "published_at": "2026-08-27"
             },
             {
               "type": "FAKT",
-              "text": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik.",
-              "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
-              "publisher": "Business Insider",
-              "published_at": "2026-11-04T20:42:05Z"
-            },
-            {
-              "type": "FAKT",
-              "text": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag.",
-              "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
-              "publisher": "IREN / GlobeNewswire",
-              "published_at": "2025-11-06T21:00:00Z"
+              "text": "$240.3m revenue, $7.3m AI Cloud and $232.9m mining; net income included substantial unrealized gains.",
+              "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy26-results",
+              "publisher": "IREN Investor Relations",
+              "published_at": "2025-11-06"
             }
           ],
-          "catalysts": [
-            "Q1 FY27 Ergebnisse 5.11. nach Schluss",
-            "Microsoft Projektstatus"
-          ],
-          "invalidations": [
-            "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap."
-          ]
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "tv": "NASDAQ:APP",
-          "stance": "LONG",
-          "horizon": "1–10 Handelstage",
-          "summary": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
-          "points": [
-            {
-              "type": "FAKT",
-              "text": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap.",
-              "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
-              "publisher": "Barron's",
-              "published_at": "2026-11-05"
-            }
-          ],
-          "catalysts": [
-            "Earnings/Kursreaktion"
-          ],
-          "invalidations": [
-            "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko."
-          ]
+          "catalysts": "Project delivery and funding execution",
+          "invalidations": "Strong contracted backlog, bounce and squeeze risk"
         },
         {
           "ticker": "NET",
           "name": "Cloudflare",
-          "tv": "NYSE:NET",
+          "tv": "NET",
           "stance": "NEUTRAL",
-          "horizon": "1–10 Handelstage",
-          "summary": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
-          "points": [],
-          "catalysts": [
-            "Earnings/Kursreaktion"
+          "horizon": "1–10 trading days",
+          "summary": "Q3 earnings after close; growth versus GAAP loss",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q2 $696.1m revenue, $205.7m GAAP operating loss, $56.4m FCF; Q3 guidance $736-737m.",
+              "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "Cloudflare IR",
+              "published_at": "2026-08-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3 2026 release after market close Nov 5, earnings call 17:00 ET.",
+              "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "Cloudflare IR",
+              "published_at": "2026-10-13"
+            }
           ],
-          "invalidations": [
-            "Bewertung, Margen und Guidance noch ungeprüft."
-          ]
+          "catalysts": "Q3 earnings after close; growth versus GAAP loss",
+          "invalidations": "High valuation and stock-based compensation"
         },
         {
           "ticker": "AFRM",
           "name": "Affirm",
-          "tv": "NASDAQ:AFRM",
+          "tv": "AFRM",
           "stance": "NEUTRAL",
-          "horizon": "1–10 Handelstage",
-          "summary": "Q1 FY27 Earnings 17 Uhr ET.",
-          "points": [],
-          "catalysts": [
-            "Earnings/Kursreaktion"
+          "horizon": "1–10 trading days",
+          "summary": "Q1 FY27 earnings after close; credit metrics",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q1 FY27 release Nov 5 after market close, conference call 17:00 ET.",
+              "url": "https://investors.affirm.com/news-releases/news-release-details/affirm-announce-first-quarter-fiscal-year-2027-results-november",
+              "publisher": "Affirm IR",
+              "published_at": "2026-10-05"
+            }
           ],
-          "invalidations": [
-            "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt."
-          ]
+          "catalysts": "Q1 FY27 earnings after close; credit metrics",
+          "invalidations": "Credit losses and funding costs"
         },
         {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "tv": "NASDAQ:ABNB",
-          "stance": "NEUTRAL",
-          "horizon": "1–10 Handelstage",
-          "summary": "Earnings nach Börsenschluss laut Kalender.",
-          "points": [],
-          "catalysts": [
-            "Earnings/Kursreaktion"
+          "ticker": "TPR",
+          "name": "Tapestry",
+          "tv": "TPR",
+          "stance": "LONG WATCH",
+          "horizon": "1–10 trading days",
+          "summary": "Raised FY27 revenue guidance; Coach momentum",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q1 FY27 revenue $1.89bn; Coach +16%, Kate Spade -10%; raised FY27 revenue outlook to $8.5-8.6bn.",
+              "url": "https://www.vogue.com/article/tapestry-revenues-climb-12-despite-kate-spade-dip",
+              "publisher": "Vogue Business",
+              "published_at": "2026-11-05"
+            }
           ],
-          "invalidations": [
-            "Keine ausreichende historische Fundamentalanalyse."
-          ]
+          "catalysts": "Raised FY27 revenue guidance; Coach momentum",
+          "invalidations": "Kate Spade weakness and macro demand"
+        },
+        {
+          "ticker": "EXPE",
+          "name": "Expedia",
+          "tv": "EXPE",
+          "stance": "SHORT WATCH",
+          "horizon": "1–10 trading days",
+          "summary": "Strong Q3 but softer Q4 outlook",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 beat and raised annual outlook but slower Q4 growth outlook pressures shares.",
+              "url": "https://www.barrons.com/articles/expedia-earnings-stock-price-2afcbadc",
+              "publisher": "Barron's",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": "Strong Q3 but softer Q4 outlook",
+          "invalidations": "Resilient travel and full-year raise"
         }
       ],
       "trade_outlook": {
         "ticker": "IREN",
         "id": null,
-        "stance": "SHORT",
-        "summary": "Historische Referenzsimulation zu 18,05 USD ist KEIN verifizierter Fill.",
-        "base_scenario": "Volatile Eröffnung nach Earnings, Richtung nicht belastbar",
-        "bull_scenario": "Verzögerungsbestätigung und schwache Guidance: Short könnte profitieren",
-        "bear_scenario": "Entkräftung der Vorwürfe und positive Guidance: Short-Squeeze",
-        "key_risk": "Earnings-Gap und veralteter Referenzkurs",
-        "planned_exit": "Nur hypothetisch nächster regulärer Opening-Print; keine bestätigte offene Order",
-        "as_of": "2026-11-05T20:30:00Z",
-        "mark_price": 18.78,
-        "mark_at": "2026-11-05T14:55:27-05:00",
-        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "stance": "SHORT reference only",
+        "summary": "Historical 18.05 USD reference is not a verified executable fill. Earnings may cause gap or squeeze.",
+        "base_scenario": "Large volatility at next opening; direction unknown",
+        "bull_scenario": "Delivery concerns refuted, sharp rebound",
+        "bear_scenario": "Confirmed delays or funding shortfall, further downside",
+        "key_risk": "Unverified opening gap and short squeeze",
+        "planned_exit": "No executable position; only existing documented paper positions can be closed at verified next opening",
+        "as_of": "2026-11-05T21:25:22Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
         "pnl_eur": null,
         "reference_only": true
       }
@@ -1054,8 +1291,8 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-05T20:30:00Z",
-      "status": "DEEP_DIVE_UNVOLLSTÄNDIG",
+      "as_of": "2026-11-05T21:25:22Z",
+      "status": "DEEP_DIVE",
       "stance": "SHORT",
       "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
       "source_goal": 50,
@@ -1108,6 +1345,26 @@
           "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
           "finding": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag.",
           "checked_on": "2026-11-05T20:30:00Z",
+          "doc_type": "earnings_release"
+        },
+        {
+          "id": "IREN-6",
+          "title": "IREN Reports FY26 Results",
+          "publisher": "IREN Investor Relations",
+          "published_at": "2026-08-27",
+          "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "finding": "$4bn contracted ARR for 2026 capacity versus $1bn operating ARR; Horizon 1 delivered, Horizon 3-4 targeting Q4; financing details.",
+          "checked_on": "2026-11-05",
+          "doc_type": "earnings_release"
+        },
+        {
+          "id": "IREN-7",
+          "title": "IREN Q1 FY26 Results",
+          "publisher": "IREN Investor Relations",
+          "published_at": "2025-11-06",
+          "url": "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy26-results",
+          "finding": "$240.3m revenue, $7.3m AI Cloud and $232.9m mining; net income included substantial unrealized gains.",
+          "checked_on": "2026-11-05",
           "doc_type": "earnings_release"
         }
       ],
@@ -1318,8 +1575,8 @@
       "ticker": "NET",
       "name": "Cloudflare",
       "tv": "NYSE:NET",
-      "as_of": "2026-11-05T20:46:03+01:00",
-      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
+      "as_of": "2026-11-05T21:25:22Z",
+      "status": "DEEP_DIVE",
       "stance": "Neutral vor Event",
       "summary": "Umsatzwachstum von 36 % im Q2 ist belegbar; dennoch GAAP-Verlust. Der bevorstehende Q3-Report entscheidet über die jüngste Guidance.",
       "source_goal": 50,
@@ -1420,8 +1677,8 @@
       "ticker": "AFRM",
       "name": "Affirm Holdings",
       "tv": "NASDAQ:AFRM",
-      "as_of": "2026-11-05T20:46:03+01:00",
-      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
+      "as_of": "2026-11-05T21:25:22Z",
+      "status": "DEEP_DIVE",
       "stance": "Neutral bis leicht bullish, Kreditrisiko",
       "summary": "Aktuell keine längerfristige Guidance-Trefferquote nachgewiesen. Ergebnis nach US-Schluss noch ausstehend; Kreditausfälle sind ein entscheidendes Gegensignal.",
       "source_goal": 50,
@@ -1445,6 +1702,16 @@
           "finding": "FQ1 2027 results scheduled after market on Nov 5",
           "checked_on": "2026-11-05",
           "doc_type": "Primärquelle"
+        },
+        {
+          "id": "AFRM-3",
+          "title": "Affirm Q1 FY27 announcement",
+          "publisher": "Affirm IR",
+          "published_at": "2026-10-05",
+          "url": "https://investors.affirm.com/news-releases/news-release-details/affirm-announce-first-quarter-fiscal-year-2027-results-november",
+          "finding": "Q1 FY27 release Nov 5 after market close, conference call 17:00 ET.",
+          "checked_on": "2026-11-05",
+          "doc_type": "event_notice"
         }
       ],
       "financial_history": [
@@ -1604,9 +1871,9 @@
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-05T20:30:00Z",
-    "method_note": "Öffentliche Earnings-Kalender sind nur Discovery; keine pauschale Validierung aller genannten Ticker. Kein vollständiger 50-Quellen-Check.",
+    "status": "POSTMARKET_REVIEW",
+    "as_of": "2026-11-05T21:25:22Z",
+    "method_note": "Post-market screening uses only individually opened sources; other existing candidates preserved. No live quotes or 13F changes verified.",
     "coverage": {
       "universe_checked": 4,
       "earnings_events": 3,
@@ -1618,19 +1885,21 @@
       {
         "ticker": "IREN",
         "name": "IREN Limited",
-        "tv": "NASDAQ:IREN",
+        "tv": "IREN",
         "market": "US",
-        "sector": "Rechenzentren / AI",
+        "sector": null,
         "direction": "SHORT",
-        "reason": "Microsoft-Projektrisiken, Finanzierung und Earnings",
-        "stage": "WATCH",
+        "reason": "Project delivery and funding execution",
+        "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "event": "Project delivery and funding execution",
         "score": null,
         "sources": [
-          "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results"
+          "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "https://irisenergy.gcs-web.com/news-releases/news-release-details/iren-reports-q1-fy26-results"
         ],
-        "as_of": "2026-11-05T21:02:00+01:00"
+        "as_of": "2026-11-05T21:25:22Z"
       },
       {
         "ticker": "APP",
@@ -1652,36 +1921,38 @@
       {
         "ticker": "NET",
         "name": "Cloudflare",
-        "tv": "NYSE:NET",
+        "tv": "NET",
         "market": "US",
-        "sector": "Cloud / Cybersecurity",
+        "sector": null,
         "direction": "NEUTRAL",
-        "reason": "Earnings-/Guidance-Abgleich noch ausstehend",
-        "stage": "WATCH",
+        "reason": "Q3 earnings after close; growth versus GAAP loss",
+        "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "event": "Q3 earnings after close; growth versus GAAP loss",
         "score": null,
         "sources": [
-          "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx"
+          "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx"
         ],
-        "as_of": "2026-11-05T21:02:00+01:00"
+        "as_of": "2026-11-05T21:25:22Z"
       },
       {
         "ticker": "AFRM",
         "name": "Affirm",
-        "tv": "NASDAQ:AFRM",
+        "tv": "AFRM",
         "market": "US",
-        "sector": "Fintech / Kredit",
+        "sector": null,
         "direction": "NEUTRAL",
-        "reason": "Kreditqualität, Finanzierung, Earnings",
-        "stage": "WATCH",
+        "reason": "Q1 FY27 earnings after close; credit metrics",
+        "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "event": "Q1 FY27 earnings after close; credit metrics",
         "score": null,
         "sources": [
-          "https://investors.affirm.com/news-releases/news-release-details/affirm-reports-fourth-fiscal-quarter-2026-results"
+          "https://investors.affirm.com/news-releases/news-release-details/affirm-reports-fourth-fiscal-quarter-2026-results",
+          "https://investors.affirm.com/news-releases/news-release-details/affirm-announce-first-quarter-fiscal-year-2027-results-november"
         ],
-        "as_of": "2026-11-05T21:02:00+01:00"
+        "as_of": "2026-11-05T21:25:22Z"
       },
       {
         "ticker": "HFG",
@@ -2107,6 +2378,40 @@
           "https://finance.yahoo.com/calendar/earnings/"
         ],
         "as_of": "2026-11-05T20:30:00Z"
+      },
+      {
+        "ticker": "TPR",
+        "name": "Tapestry",
+        "tv": "TPR",
+        "market": "US",
+        "sector": null,
+        "direction": "LONG WATCH",
+        "reason": "Raised FY27 revenue guidance; Coach momentum",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Raised FY27 revenue guidance; Coach momentum",
+        "score": null,
+        "sources": [
+          "https://www.vogue.com/article/tapestry-revenues-climb-12-despite-kate-spade-dip"
+        ],
+        "as_of": "2026-11-05T21:25:22Z"
+      },
+      {
+        "ticker": "EXPE",
+        "name": "Expedia",
+        "tv": "EXPE",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT WATCH",
+        "reason": "Strong Q3 but softer Q4 outlook",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Strong Q3 but softer Q4 outlook",
+        "score": null,
+        "sources": [
+          "https://www.barrons.com/articles/expedia-earnings-stock-price-2afcbadc"
+        ],
+        "as_of": "2026-11-05T21:25:22Z"
       }
     ],
     "pairs": [],
@@ -2120,6 +2425,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261105T203000Z"
+      },
+      {
+        "date": "2026-11-05",
+        "market": "US",
+        "universe_checked": 7,
+        "earnings_events": 4,
+        "triaged": 7,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261105T212522Z"
       }
     ],
     "strategies": [
