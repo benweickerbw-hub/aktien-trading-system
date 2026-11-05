@@ -1,0 +1,27 @@
+
+name: Aktienkurse importieren
+
+on:
+  workflow_dispatch:
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bibliotheken installieren
+        run: pip install duckdb requests
+
+      - name: EODHD mit MotherDuck synchronisieren
+        env:
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
+        run: python sync.py
