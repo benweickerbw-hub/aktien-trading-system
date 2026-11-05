@@ -25,3 +25,9 @@ jobs:
           EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
           MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
         run: python sync.py
+
+      - name: Earnings Paper Trading Test
+        env:
+          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
+          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
+        run: python paper_trading.py
