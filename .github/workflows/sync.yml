@@ -1,37 +1,12 @@
-
-name: Aktienkurse importieren
-
+# Disabled by user's explicit move to web-only ChatGPT research.
+# No schedules, no workflow-triggered paper trading.
+name: Archived - EODHD MotherDuck Price Import
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "37 7 * * 1-5"
-      timezone: Europe/Berlin
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/sync.yml"
 
 jobs:
-  import:
+  archived:
+    if: false
     runs-on: ubuntu-latest
-
     steps:
-      - name: Repository laden
-        uses: actions/checkout@v4
-
-      - name: Python einrichten
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Bibliotheken installieren
-        run: pip install duckdb==1.5.6 requests
-
-      - name: EODHD mit MotherDuck synchronisieren
-        env:
-          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
-          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
-        run: python sync.py
-
-      # The old multi-day paper_trading.py is disabled.
-      # Overnight-only trading runs in overnight.yml.
+      - run: echo 'Archived; no automated operation.'
