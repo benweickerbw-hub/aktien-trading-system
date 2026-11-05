@@ -3,6 +3,13 @@ name: Aktienkurse importieren
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "37 7 * * 1-5"
+      timezone: Europe/Berlin
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sync.yml"
 
 jobs:
   import:
