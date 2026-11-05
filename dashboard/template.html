@@ -61,6 +61,22 @@
 .scan-pair strong{font-size:13px}.scan-pair p{font-size:11px;margin:8px 0 0}
 .scan-method{border-top:1px solid var(--border);padding-top:14px;margin-top:16px;color:var(--muted);font-size:11px}
 @media(max-width:800px){.scan-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.scan-controls select,.scan-controls input{max-width:none;flex:1}}
+
+/* Full hourly report archive: a hash route inside the one existing HTML. */
+.reports-header{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.reports-full{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7;font-size:13px;color:var(--text);font-family:inherit;padding:16px;background:#091b2f;border:1px solid var(--border);border-radius:12px;max-height:none}
+.reports-detail-card{padding:14px;margin:10px 0;background:#0e2037;border:1px solid var(--border);border-radius:10px}
+.reports-detail-card .run-meta{margin:5px 0 8px}
+.reports-source{padding:12px 0;border-bottom:1px solid var(--border)}
+.reports-source:last-child{border-bottom:none}
+.reports-source a{font-weight:650;overflow-wrap:anywhere}
+.reports-archive-list{width:100%;border-collapse:collapse}
+.reports-archive-list tr{border-bottom:1px solid var(--border)}
+.reports-archive-list td,.reports-archive-list th{text-align:left!important;padding:13px 10px;font-size:12px}
+.report-action{font-size:12px;display:inline-block;margin:10px 0;border:1px solid #5475a1;background:#173453;color:#d9eaff;text-decoration:none;border-radius:8px;padding:8px 12px;font-weight:650}
+.report-action:hover{background:#275580}
+.reports-indicator{font-size:11px;color:var(--muted)}
+#reportPage .panel{margin-top:14px}
 </style></head><body><div class="shell" id="mainShell">
 <header class="top"><div><div class="sup">Aktien / Research / Trading Journal</div><h1>Aktien-Research Dashboard</h1><p>Alle dokumentierten Positionen, Research-Charts und nachvollziehbare simulierte P&amp;L</p></div><div><div class="flag">KEINE ECHTEN ORDERS DURCH CHATGPT</div><div class="updated" id="stamp"></div></div></header>
 <section class="kpis"><div class="kpi"><div class="label">Paper-Positionen offen</div><div class="value" id="paperOpen">–</div><div class="hint">Nur explizite Simulationen</div></div><div class="kpi"><div class="label">Paper-Einsatz offen</div><div class="value" id="paperStake">–</div><div class="hint">Keine Broker-Margin</div></div><div class="kpi"><div class="label">Mark-to-market P&amp;L</div><div class="value" id="floating">–</div><div class="hint">Nur markierte Paper-Positionen, nicht live</div></div><div class="kpi"><div class="label">Realisierte Paper-P&amp;L</div><div class="value" id="realized">–</div><div class="hint">Nur verifizierte Simulationsabschlüsse</div></div><div class="kpi"><div class="label">Weitere gemeldete Positionen</div><div class="value" id="reported">–</div><div class="hint">Nicht in Paper-P&amp;L enthalten</div></div></section>
@@ -112,6 +128,15 @@
 <div class="deep-body" id="deepContent"></div>
 <div class="footer">Dies ist eine historisierte Rechercheakte, keine Vollständigkeitsgarantie. Quellen werden nur nach tatsächlich durchgesehenem Originaldokument gezählt. Portfolio-Daten sind ausschließlich Simulationen oder Nutzermeldungen.</div>
 </div>
+
+<div class="shell" id="reportPage" hidden>
+ <header class="top"><div><div class="sup">AKTIEN · RESEARCH-ARCHIV · SELBE WEBADRESSE</div>
+ <h1 id="reportPageTitle">Research-Bericht</h1><p id="reportPageIntro">Vollständiger Research-Durchlauf mit Quellen und dokumentierten Handelsentscheidungen</p></div>
+ <div><a class="deep-link" id="reportBack" href="#">← Kommandozentrale</a><p class="updated" id="reportUpdated"></p></div></header>
+ <div class="notice"><b>Quellenhinweis:</b> Historische Research-Berichte sind Momentaufnahmen. Eine Börsenquote kann verzögert sein. Nur gespeicherte, nachprüfbare Paper-Fills zählen als simulierte Trades; andere Aussagen sind Research-Hypothesen.</div>
+ <div id="reportContents"></div>
+ <div class="footer">Jeder gespeicherte Durchlauf erhält seine eigene Ansicht unter dieser unveränderten HTML-Webadresse. Nicht archivierte Berichte werden nicht nachträglich als gespeichert ausgegeben.</div>
+</div>
 <script>
 const DATA = /*__POSITIONS_JSON_BEGIN__*/{}/*__POSITIONS_JSON_END__*/;
 const RESEARCH = /*__RESEARCH_JSON_BEGIN__*/{}/*__RESEARCH_JSON_END__*/;
@@ -149,8 +174,14 @@ function renderResearch(){
    item.append(createNode('div',(run.market||'BÖRSE')+' · '+researchTime(run.run_at)+' · '+(run.decision||'Review'),'run-meta'));
    item.append(createNode('div',run.headline||'Research-Durchlauf','run-title'));
    item.append(createNode('div',run.summary||'Keine Zusammenfassung dokumentiert.','run-detail'));
+   const link=createNode('a','Research-Bericht öffnen ↗','report-action');
+   link.href=reportPageLink(run);link.target='_blank';link.rel='noopener';
+   item.append(link);
    feed.append(item);
  });
+ const archiveLink=createNode('a','Alle Durchläufe und vollständigen Analysen ansehen ↗','report-action');
+ archiveLink.href=location.href.split('#')[0]+'#reports';archiveLink.target='_blank';archiveLink.rel='noopener';
+ feed.append(archiveLink);
  const latest=new Map();for(const run of runs){if(!Array.isArray(run.candidates))continue;for(const c of run.candidates){if(c&&c.ticker&&!latest.has(c.ticker))latest.set(c.ticker,c)}}
  const list=$('researchCandidates');list.replaceChildren();
  for(const c of [...latest.values()].slice(0,16)){
@@ -250,7 +281,116 @@ function showDeepTab(tab){selectedDeepTab=tab;const host=$('deepContent');host.r
 }
 function findBrief(ticker){const runs=(Array.isArray(research.runs)?research.runs:[]).slice().sort((a,b)=>String(b.run_at||'').localeCompare(String(a.run_at||'')));for(const r of runs)for(const b of (r.watchlist_briefs||[]))if(b.ticker===ticker)return b;return null}
 function embedDeepChart(symbol){const host=$('deepTV');if(!host)return;host.replaceChildren();const container=createNode('div',null,'tradingview-widget-container');container.style.height='410px';const inner=createNode('div',null,'tradingview-widget-container__widget');inner.style.height='100%';container.append(inner);const s=document.createElement('script');s.async=true;s.type='text/javascript';s.src='https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';s.text=JSON.stringify({autosize:true,symbol:symbol,interval:'15',timezone:'exchange',theme:'dark',style:'1',locale:'de',allow_symbol_change:true,calendar:false,support_host:'https://www.tradingview.com'});container.append(s);host.append(container)}
-function openDeepRoute(){const symbol=deepOpenTicker();if(!symbol){$('mainShell').hidden=false;$('companyPage').hidden=true;document.title='Aktien-Research | Kommandozentrale';return}
+
+function reportPageLink(run){
+  return location.href.split('#')[0]+'#report='+encodeURIComponent(run.id);
+}
+function openReportRoute(){
+  const hash=location.hash;
+  const archive=hash==='#reports';
+  const m=hash.match(/^#report=([a-zA-Z0-9_.:-]{1,100})$/);
+  if(!archive&&!m){$('reportPage').hidden=true;return false}
+  $('companyPage').hidden=true;$('mainShell').hidden=true;$('reportPage').hidden=false;
+  const host=$('reportContents');host.replaceChildren();
+  $('reportBack').href=location.href.split('#')[0];
+  const ordered=(Array.isArray(research.runs)?research.runs:[]).slice().sort((a,b)=>Date.parse(b.run_at||'')-Date.parse(a.run_at||''));
+  if(archive){
+    $('reportPageTitle').textContent='Alle gespeicherten Research-Durchläufe';
+    $('reportPageIntro').textContent='Vollständige chronologische Liste – US, Xetra, Vormarkt und Nachbörse';
+    $('reportUpdated').textContent=ordered.length+' archivierte Durchläufe';
+    const p=deepPanel('Research-Archiv','Ein Lauf erscheint erst, wenn sein Datensatz tatsächlich erfolgreich in GitHub gespeichert wurde.');
+    const table=createNode('table',null,'reports-archive-list');
+    const thead=document.createElement('thead'),tr0=document.createElement('tr');
+    for(const name of ['Zeit','Markt','Handelsentscheidung','Research-Bericht'])tr0.append(createNode('th',name));
+    thead.append(tr0);table.append(thead);
+    const tbody=document.createElement('tbody');
+    for(const run of ordered){
+      const tr=document.createElement('tr');
+      tr.insertCell().textContent=researchTime(run.run_at);
+      tr.insertCell().textContent=run.market||'–';
+      tr.insertCell().textContent=run.decision||'–';
+      const cell=tr.insertCell(),a=createNode('a',run.headline||run.id);
+      a.href=reportPageLink(run);a.rel='noopener';a.title='Gesamten Research-Bericht in gleicher Web-App öffnen';cell.append(a);
+      tbody.append(tr)
+    }
+    table.append(tbody);p.append(table);host.append(p);document.title='Alle Research-Berichte | Aktien';return true;
+  }
+  const id=decodeURIComponent(m[1]);
+  const run=ordered.find(x=>x.id===id);
+  if(!run){
+    $('reportPageTitle').textContent='Research-Eintrag nicht gefunden';
+    $('reportPageIntro').textContent='Der Berichtsdatensatz ist in der aktuellen Version nicht vorhanden.';
+    $('reportUpdated').textContent='';
+    host.append(deepPanel('Kein gespeicherter Bericht','Bitte über das Research-Archiv einen existierenden Lauf auswählen.'));return true;
+  }
+  $('reportPageTitle').textContent=run.headline||'Research-Bericht';
+  $('reportPageIntro').textContent=(run.task||'Research-Check')+' · '+(run.market||'Markt')+' · '+(run.decision||'Review');
+  $('reportUpdated').textContent=researchTime(run.run_at);
+  const action=createNode('a','Alle Durchläufe anzeigen','report-action');action.href=location.href.split('#')[0]+'#reports';host.append(action);
+  const body=deepPanel('Originalanalyse des stündlichen Checks','Gespeichert am '+researchTime(run.run_at)+' · '+(run.source_status||'Quelle und Datengrundlage bitte prüfen.'));
+  if(typeof run.report_markdown==='string' && run.report_markdown.trim()){
+    body.append(createNode('div',run.report_markdown,'reports-full'));
+  }else if(Array.isArray(run.report_sections)&&run.report_sections.length){
+    for(const section of run.report_sections){
+      const entry=createNode('div',null,'reports-detail-card');entry.append(createNode('h3',section.heading||'Research'));
+      if(section.summary)entry.append(createNode('p',section.summary));
+      const ul=createNode('ul');
+      for(const b of (section.bullets||[])){
+        const li=createNode('li',typeof b==='string'?b:(b.text||''));
+        if(b?.url){li.append(document.createTextNode(' · '),deepLink(b.url,b.publisher||'Quelle'));}
+        ul.append(li);
+      }
+      entry.append(ul);body.append(entry);
+    }
+  }else{
+    body.append(createNode('p',run.summary||'Kein zusammenhängender Volltext gespeichert.'));
+    body.append(createNode('p','Für diesen älteren Durchlauf ist nur die bestehende strukturierte Zusammenfassung archiviert; kein Vollbericht nachträglich erfunden.','reports-indicator'));
+    if(Array.isArray(run.watchlist_briefs)){
+      for(const brief of run.watchlist_briefs){
+        const entry=createNode('div',null,'reports-detail-card');
+        entry.append(createNode('h3',(brief.ticker||'–')+' · '+(brief.stance||'keine Richtung')));
+        entry.append(createNode('p',brief.summary||''));
+        const list=createNode('ul');
+        for(const p of (brief.points||[])){
+          const li=createNode('li',(p.type||'')+' · '+(p.text||''));
+          if(p.url)li.append(document.createTextNode(' · '),deepLink(p.url,p.publisher||'Originalquelle'));
+          list.append(li);
+        }
+        entry.append(list);body.append(entry);
+      }
+    }
+  }
+  host.append(body);
+  const sources=deepPanel('Quellenregister & Nachrichten','Nur gespeicherte öffentlich zugängliche HTTPS-Originalquellen. Kursdaten sind nicht automatisch Echtzeitkurse.');
+  const seen=new Set();
+  for(const n of Array.isArray(run.news)?run.news:[]){
+    if(!n?.url||seen.has(n.url))continue;seen.add(n.url);
+    const item=createNode('div',null,'reports-source');
+    item.append(deepLink(n.url,n.title||'Quelle'));
+    item.append(createNode('div',[(n.publisher||'Publisher offen'),(n.published_at||'Datum offen'),(n.ticker||'')].filter(Boolean).join(' · '),'run-meta'));
+    if(n.finding)item.append(createNode('p',n.finding,'run-detail'));
+    sources.append(item);
+  }
+  if(!seen.size)sources.append(createNode('p','Keine verifizierten Original-URLs für diesen Durchlauf gespeichert.'));
+  host.append(sources);
+  const decision=deepPanel('Handelsentscheidung & offene Research-Kandidaten', 'Signal, Paper-Einstieg und Nutzermeldung werden voneinander unterschieden.');
+  decision.append(createNode('h3','Entscheidung: '+(run.decision||'nicht dokumentiert')));
+  if(Array.isArray(run.candidates)){
+    for(const c of run.candidates){
+      const entry=createNode('div',null,'reports-detail-card');
+      entry.append(createNode('strong',(c.ticker||'–')+' · '+(c.side||'keine Richtung')));
+      if(c.thesis)entry.append(createNode('p','These: '+c.thesis));
+      if(c.risk)entry.append(createNode('p','Widerlegung / Risiko: '+c.risk));
+      if(Number.isFinite(c.sources_checked))entry.append(createNode('div','Nachweisbare Quellen '+c.sources_checked+'/'+(c.sources_target||50),'reports-indicator'));
+      decision.append(entry);
+    }
+  }
+  host.append(decision);
+  document.title=(run.market||'Research')+' '+researchTime(run.run_at)+' | Aktien Research';
+  return true;
+}
+
+function openDeepRoute(){if(openReportRoute())return;const symbol=deepOpenTicker();if(!symbol){$('mainShell').hidden=false;$('companyPage').hidden=true;document.title='Aktien-Research | Kommandozentrale';return}
  const d=research.deep_dives?.[symbol],brief=findBrief(symbol);if(!d&&!brief){$('mainShell').hidden=false;$('companyPage').hidden=true;return}
  $('mainShell').hidden=true;$('companyPage').hidden=false;loadedDeepTicker=symbol;selectedDeepTab='overview';
  $('deepTitle').textContent=symbol+' · '+(d?.name||brief?.name||'Unternehmen');$('deepIntro').textContent=(d?.stance||brief?.stance||'Research')+' · '+(d?.status||'Recherche im Aufbau');$('deepUpdated').textContent='Ausgangsdaten: '+(d?.as_of||research.updated_at||'nicht angegeben');$('deepBack').href=location.href.split('#')[0];document.title=symbol+' | Master-Dossier | Aktien Research';
