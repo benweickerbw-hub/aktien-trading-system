@@ -165,6 +165,9 @@ def run():
         raise RuntimeError("Keine verwendbaren stock_prices-Kursdaten gefunden")
     latest_market_date = max(bars[-1]["day"] for bars in history.values())
     print(f"Latest EOD date: {latest_market_date}; symbols: {len(history)}")
+    is_fresh = (date.today() - latest_market_date).days <= 4
+    if not is_fresh:
+        print("STALE_MARKET_DATA: no NEW earnings signals until current EOD data arrives.")
 
     # 1. Execute OLD pending signals at the NEXT AVAILABLE daily open.
     pending = con.execute("""
@@ -284,7 +287,7 @@ def run():
 
     # 3. NEW signals are strictly gated by upcoming earnings dates. NEVER
     #    create a regular momentum trade as a fallback.
-    earnings = upcoming_earnings(latest_market_date, set(history))
+    earnings = upcoming_earnings(latest_market_date, set(history)) if is_fresh else {}
     earliest_entry = next_eligible_entry_date(latest_market_date)
     open_symbols = set(x[0] for x in con.execute(
         "SELECT symbol FROM paper_trades WHERE status='OPEN'"
@@ -327,6 +330,10 @@ def run():
         direction = "LONG" if mom5 + mom20 + (closes[-1] / ma20 - 1) >= 0 else "SHORT"
         event_date, event_timing = earnings[symbol]
         days_to_event = (event_date - earliest_entry).days
+        # Only short-horizon trades designed to overlap an imminent earnings
+        # release; never enter a stock on ordinary momentum alone.
+        if not (0 <= days_to_event <= 5):
+            continue
         score = (abs(mom5) / max(atr_pct, 0.005) + abs(mom20) * 5
                  + 2.0 / (1.0 + days_to_event))
         risk_pct = min(0.06, max(0.015, atr_pct * 1.5))
