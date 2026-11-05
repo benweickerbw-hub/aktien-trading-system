@@ -1,49 +1,12 @@
-name: Earnings Overnight Paper Trading
-
+# Disabled by user's explicit move to web-only ChatGPT research.
+# No schedules, no workflow-triggered paper trading.
+name: Archived - Earnings Overnight Paper Trading
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "overnight.py"
-      - ".github/workflows/overnight.yml"
-  schedule:
-    - cron: "37 15 * * 1-5"
-      timezone: "America/New_York"
-    - cron: "43 17 * * 1-5"
-      timezone: "America/New_York"
-
-concurrency:
-  group: earnings-overnight-simulator
-  cancel-in-progress: false
 
 jobs:
-  overnight:
+  archived:
+    if: false
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Install Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-      - name: Dependencies
-        run: pip install duckdb==1.5.6 requests
-      - name: Prepare pre-close earnings signals
-        if: github.event.schedule == '37 15 * * 1-5'
-        env:
-          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
-          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
-        run: python overnight.py prepare
-      - name: Reconcile prior signal EOD prices
-        if: github.event.schedule == '43 17 * * 1-5'
-        env:
-          EODHD_API_KEY: ${{ secrets.EODHD_API_KEY }}
-          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
-        run: python overnight.py settle
-      - name: Verify database link (no trades)
-        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
-        env:
-          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
-        run: python overnight.py status
+      - run: echo 'Archived; no automated operation.'
