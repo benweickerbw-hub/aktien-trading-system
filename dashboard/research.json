@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "updated_at": "2026-11-05T20:46:03+01:00",
-  "note": "Manueller quellenbasierter Snapshot vom 5. November 2026, 20:46 MEZ. Nicht mit einem automatischen stündlichen Run oder Live-Datenfeed verwechseln.",
+  "version": 5,
+  "updated_at": "2026-11-05T19:58:24.982Z",
+  "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
       "id": "US-20261105T183000Z",
@@ -734,5 +734,525 @@
         ]
       }
     }
-  ]
+  ],
+  "deep_dives": {
+    "IREN": {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "tv": "NASDAQ:IREN",
+      "as_of": "2026-11-05T20:46:03+01:00",
+      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
+      "stance": "Vorsichtig bearish, Event-Risiko sehr hoch",
+      "summary": "FY26-Umsatz stieg zwar deutlich, die Umstellung belastete aber das Nettoergebnis. 4 Mrd. USD vertraglich zugesagtes ARR ist NICHT identisch mit gebuchtem Umsatz.",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "iren_fy26",
+          "publisher": "IREN",
+          "published_at": "2026-08-27",
+          "title": "IREN FY26 Results",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "finding": "FY26 revenue, AI Cloud transition, Horizon progress and GPU financing",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        },
+        {
+          "id": "iren_news",
+          "publisher": "IREN",
+          "published_at": "2026-11-05",
+          "title": "IREN official news archive",
+          "url": "https://www.iren.com/investors/news",
+          "finding": "Official company news archive, including Nov 5 FY27 Q1 result announcement",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        }
+      ],
+      "financial_history": [
+        {
+          "period": "FY2025",
+          "metric": "Umsatz",
+          "value": 501,
+          "unit": "Mio. USD",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "source_id": "iren_fy26",
+          "note": ""
+        },
+        {
+          "period": "FY2026",
+          "metric": "Umsatz",
+          "value": 707,
+          "unit": "Mio. USD",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "source_id": "iren_fy26",
+          "note": ""
+        },
+        {
+          "period": "FY2025",
+          "metric": "Nettogewinn",
+          "value": 86.9,
+          "unit": "Mio. USD",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "source_id": "iren_fy26",
+          "note": ""
+        },
+        {
+          "period": "FY2026",
+          "metric": "Nettoergebnis",
+          "value": -702.6,
+          "unit": "Mio. USD",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "source_id": "iren_fy26",
+          "note": "Hohe nicht zahlungswirksame Wertminderungen im Übergang zu AI Cloud"
+        },
+        {
+          "period": "FY2025",
+          "metric": "AI-Cloud-Umsatz",
+          "value": 16.4,
+          "unit": "Mio. USD",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "source_id": "iren_fy26",
+          "note": ""
+        },
+        {
+          "period": "FY2026",
+          "metric": "AI-Cloud-Umsatz",
+          "value": 128.8,
+          "unit": "Mio. USD",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "source_id": "iren_fy26",
+          "note": ""
+        }
+      ],
+      "guidance_scorecard": [
+        {
+          "issued_at": "2026-08-27",
+          "period": "Q4 Kalenderjahr 2026",
+          "metric": "Horizon 3–4 Lieferung",
+          "forecast": "Lieferung Q4 2026 angezielt",
+          "actual": "noch offen",
+          "assessment": "AUSSTEHEND, kein Verfehlen belegt",
+          "forecast_url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
+          "actual_url": null
+        }
+      ],
+      "institutional_holdings": [],
+      "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
+      "key_unknowns": [
+        "Frühere Projektlieferzusagen über mehrere Quartale gegen echte Übergabetermine vergleichen",
+        "13F-Aktienbestände großer Manager über mindestens 4 Quartale prüfen",
+        "Kapitalerhöhungen, GPU-Finanzierungsverträge, Verschuldung und Verwässerung nachrechnen",
+        "Earnings am 5. November nach Marktende aktualisieren"
+      ],
+      "method_note": "",
+      "analyst_coverage": []
+    },
+    "APP": {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "tv": "NASDAQ:APP",
+      "as_of": "2026-11-05T20:46:03+01:00",
+      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
+      "stance": "Fundamental bullish, Timingrisiko",
+      "summary": "Management hat die eigene Q3-Spanne bei Umsatz und EBITDA übertroffen. Das ist ein belastbarer Treffer in EINEM Quartal, noch kein Beweis für eine langjährig hohe Prognosetreue.",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "app_q2",
+          "publisher": "AppLovin",
+          "published_at": "2026-08-05",
+          "title": "AppLovin Q2 2026 release with Q3 outlook",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q3 2026 initial guidance: revenue $2,055–2,085m, EBITDA $1,710–1,740m",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        },
+        {
+          "id": "app_q3",
+          "publisher": "AppLovin",
+          "published_at": "2026-11-04",
+          "title": "AppLovin Q3 2026 release",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q3 revenue $2,185m, adjusted EBITDA $1,842m",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        }
+      ],
+      "financial_history": [
+        {
+          "period": "Q2 2025",
+          "metric": "Umsatz",
+          "value": 1259,
+          "unit": "Mio. USD",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "app_q2",
+          "note": ""
+        },
+        {
+          "period": "Q2 2026",
+          "metric": "Umsatz",
+          "value": 1924,
+          "unit": "Mio. USD",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "app_q2",
+          "note": ""
+        },
+        {
+          "period": "Q3 2025",
+          "metric": "Umsatz",
+          "value": 1405,
+          "unit": "Mio. USD",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "app_q3",
+          "note": ""
+        },
+        {
+          "period": "Q3 2026",
+          "metric": "Umsatz",
+          "value": 2185,
+          "unit": "Mio. USD",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "app_q3",
+          "note": ""
+        },
+        {
+          "period": "Q3 2026",
+          "metric": "Nettoergebnis",
+          "value": 1439,
+          "unit": "Mio. USD",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "app_q3",
+          "note": ""
+        },
+        {
+          "period": "Q3 2026",
+          "metric": "Adjusted EBITDA",
+          "value": 1842,
+          "unit": "Mio. USD",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "app_q3",
+          "note": ""
+        }
+      ],
+      "guidance_scorecard": [
+        {
+          "issued_at": "2026-08-05",
+          "period": "Q3 2026",
+          "metric": "Umsatz",
+          "forecast": "2.055–2.085 Mio. USD",
+          "actual": "2.185 Mio. USD",
+          "assessment": "ÜBERTROFFEN (+100 Mio. USD über Obergrenze)",
+          "forecast_url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "actual_url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
+        },
+        {
+          "issued_at": "2026-08-05",
+          "period": "Q3 2026",
+          "metric": "Adjusted EBITDA",
+          "forecast": "1.710–1.740 Mio. USD",
+          "actual": "1.842 Mio. USD",
+          "assessment": "ÜBERTROFFEN (+102 Mio. USD über Obergrenze)",
+          "forecast_url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "actual_url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
+        }
+      ],
+      "institutional_holdings": [],
+      "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
+      "key_unknowns": [
+        "Q1 2024 bis Q3 2026 Prognosehistorie vollständig rekonstruieren",
+        "Anpassungen der Umsatzprognosen, Medien-/Kartellrisiken und Qualität des Gewinns untersuchen",
+        "13F-Bestände nach Fonds und Vierteljahr mit Meldeverzug vergleichen",
+        "Bewertungsannahmen und Wettbewerber im AdTech-Sektor"
+      ],
+      "method_note": "",
+      "analyst_coverage": []
+    },
+    "NET": {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "tv": "NYSE:NET",
+      "as_of": "2026-11-05T20:46:03+01:00",
+      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
+      "stance": "Neutral vor Event",
+      "summary": "Umsatzwachstum von 36 % im Q2 ist belegbar; dennoch GAAP-Verlust. Der bevorstehende Q3-Report entscheidet über die jüngste Guidance.",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "net_q2",
+          "publisher": "Cloudflare",
+          "published_at": "2026-08-06",
+          "title": "Cloudflare Q2 2026 results and outlook",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q2 revenue $696.1m, Q3 guidance $736–737m",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        },
+        {
+          "id": "net_date",
+          "publisher": "Cloudflare",
+          "published_at": "2026-10-13",
+          "title": "Cloudflare Q3 release schedule",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q3 report scheduled after US market closes on Nov 5",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        }
+      ],
+      "financial_history": [
+        {
+          "period": "Q2 2025",
+          "metric": "Umsatz",
+          "value": 512.3,
+          "unit": "Mio. USD",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "net_q2",
+          "note": ""
+        },
+        {
+          "period": "Q2 2026",
+          "metric": "Umsatz",
+          "value": 696.1,
+          "unit": "Mio. USD",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "net_q2",
+          "note": ""
+        },
+        {
+          "period": "Q2 2026",
+          "metric": "Operativer GAAP-Verlust",
+          "value": -205.7,
+          "unit": "Mio. USD",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "net_q2",
+          "note": ""
+        },
+        {
+          "period": "Q2 2026",
+          "metric": "Non-GAAP-Betriebsgewinn",
+          "value": 96.1,
+          "unit": "Mio. USD",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "source_id": "net_q2",
+          "note": ""
+        }
+      ],
+      "guidance_scorecard": [
+        {
+          "issued_at": "2026-08-06",
+          "period": "Q3 2026",
+          "metric": "Umsatz",
+          "forecast": "736–737 Mio. USD",
+          "actual": "noch nicht verifiziert",
+          "assessment": "AUSSTEHEND",
+          "forecast_url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "actual_url": null
+        },
+        {
+          "issued_at": "2026-08-06",
+          "period": "Q3 2026",
+          "metric": "Non-GAAP operatives Ergebnis",
+          "forecast": "129–130 Mio. USD",
+          "actual": "noch nicht verifiziert",
+          "assessment": "AUSSTEHEND",
+          "forecast_url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "actual_url": null
+        }
+      ],
+      "institutional_holdings": [],
+      "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
+      "key_unknowns": [
+        "Q3 2026 tatsächliche Werte nach dem Abend-Call prüfen",
+        "Kundenwachstum und NRR/RPO-Historie aus den 10-Q vergleichen",
+        "13F-Veränderungen anhand von Primärmeldungen kontrollieren",
+        "SBC, Free-Cashflow-Qualität und Bewertungsmultiplikatoren untersuchen"
+      ],
+      "method_note": "",
+      "analyst_coverage": []
+    },
+    "AFRM": {
+      "ticker": "AFRM",
+      "name": "Affirm Holdings",
+      "tv": "NASDAQ:AFRM",
+      "as_of": "2026-11-05T20:46:03+01:00",
+      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
+      "stance": "Neutral bis leicht bullish, Kreditrisiko",
+      "summary": "Aktuell keine längerfristige Guidance-Trefferquote nachgewiesen. Ergebnis nach US-Schluss noch ausstehend; Kreditausfälle sind ein entscheidendes Gegensignal.",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "afrm_q4",
+          "publisher": "Affirm",
+          "published_at": "2026-08-27",
+          "title": "Affirm FQ4 2026 earnings release",
+          "url": "https://investors.affirm.com/news-releases/news-release-details/affirm-reports-fourth-fiscal-quarter-2026-results",
+          "finding": "Fiscal Q4 results publication; links to the shareholder letter",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        },
+        {
+          "id": "afrm_date",
+          "publisher": "Affirm",
+          "published_at": "2026-10-05",
+          "title": "Affirm FQ1 2027 report schedule",
+          "url": "https://affirm.gcs-web.com/news-releases/news-release-details/affirm-announce-first-quarter-fiscal-year-2027-results-november",
+          "finding": "FQ1 2027 results scheduled after market on Nov 5",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        }
+      ],
+      "financial_history": [
+        {
+          "period": "FQ4 2026",
+          "metric": "GMV",
+          "value": 14.1,
+          "unit": "Mrd. USD",
+          "url": "https://investors.affirm.com/news-releases/news-release-details/affirm-reports-fourth-fiscal-quarter-2026-results",
+          "source_id": "afrm_q4",
+          "note": "Aus vorheriger Shareholder-Letter-Auswertung; aktuell nur Ergebnisveröffentlichung als Primärlink im Kurzregister bestätigt"
+        }
+      ],
+      "guidance_scorecard": [
+        {
+          "issued_at": "2026-08-27",
+          "period": "FQ1 2027",
+          "metric": "GMV",
+          "forecast": "13,7–14,0 Mrd. USD",
+          "actual": "noch nicht verifiziert",
+          "assessment": "AUSSTEHEND",
+          "forecast_url": "https://investors.affirm.com/news-releases/news-release-details/affirm-reports-fourth-fiscal-quarter-2026-results",
+          "actual_url": null
+        }
+      ],
+      "institutional_holdings": [],
+      "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
+      "key_unknowns": [
+        "Historische Kreditausfallraten und RLTC auf Mehrjahresbasis abgleichen",
+        "Die Q1 FJ2027-Shareholder-Letter-Ergebnisse abends prüfen",
+        "Funding-Partner und Refinanzierung aus 10-K/10-Q vergleichen",
+        "Fondsbestände und Insider-Transaktionen anhand regulatorischer Meldungen nachzeichnen"
+      ],
+      "method_note": "",
+      "analyst_coverage": []
+    },
+    "HFG": {
+      "ticker": "HFG",
+      "name": "HelloFresh SE",
+      "tv": "XETR:HFG",
+      "as_of": "2026-11-05T20:46:03+01:00",
+      "status": "ANLAUFENDE TIEFENRECHERCHE, NICHT VOLLSTÄNDIG",
+      "stance": "Neutral bis bearish bei fallenden Volumen",
+      "summary": "Q3 tatsächlich schwacher Absatz (−17,9 % Bestellungen), während AEBITDA besser wurde. Vor September hatte das Management eine erheblich günstigere Jahresumsatzprognose; die Revision ist ein belegtes Warnsignal.",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "hfg_q3",
+          "publisher": "HelloFresh",
+          "published_at": "2026-11-05",
+          "title": "HelloFresh Q3 2026 release",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "finding": "Constant FX revenue −11.3%, Q3 constant FX AEBITDA €50.9m",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        },
+        {
+          "id": "hfg_guid",
+          "publisher": "HelloFresh",
+          "published_at": "2026-09-24",
+          "title": "HelloFresh 2026 profit warning",
+          "url": "https://ir.hellofreshgroup.com/de/nachrichten/hellofresh-se-erwartet-umsatz-fuer-das-dritte-quartal-2026-unter-der-markterwartung-und-passt-prognose/65180626-314c-44b8-9ed1-78dc8638581c",
+          "finding": "FY2026 revenue guidance revised from −3% to −6% to −9% to −11%; AEBITDA lowered",
+          "checked_on": "2026-11-05",
+          "doc_type": "Primärquelle"
+        }
+      ],
+      "financial_history": [
+        {
+          "period": "Q3 2025",
+          "metric": "Umsatz (konstante Währung)",
+          "value": 1581.5,
+          "unit": "Mio. EUR",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "source_id": "hfg_q3",
+          "note": ""
+        },
+        {
+          "period": "Q3 2026",
+          "metric": "Umsatz (konstante Währung)",
+          "value": 1402.8,
+          "unit": "Mio. EUR",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "source_id": "hfg_q3",
+          "note": ""
+        },
+        {
+          "period": "Q3 2025",
+          "metric": "Bereinigtes EBITDA (konstante Währung)",
+          "value": 40.3,
+          "unit": "Mio. EUR",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "source_id": "hfg_q3",
+          "note": ""
+        },
+        {
+          "period": "Q3 2026",
+          "metric": "Bereinigtes EBITDA (konstante Währung)",
+          "value": 50.9,
+          "unit": "Mio. EUR",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "source_id": "hfg_q3",
+          "note": ""
+        },
+        {
+          "period": "Q3 2026",
+          "metric": "Bestellungen",
+          "value": 19.63,
+          "unit": "Millionen",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "source_id": "hfg_q3",
+          "note": "-17,9 % gegenüber Vorjahr"
+        }
+      ],
+      "guidance_scorecard": [
+        {
+          "issued_at": "2026-09-24",
+          "period": "Q3 2026",
+          "metric": "Umsatzänderung ggü. Vorjahr",
+          "forecast": "−11 bis −12 % (konstante Währung)",
+          "actual": "−11,3 %",
+          "assessment": "INNERHALB revidierter Spanne",
+          "forecast_url": "https://ir.hellofreshgroup.com/de/nachrichten/hellofresh-se-erwartet-umsatz-fuer-das-dritte-quartal-2026-unter-der-markterwartung-und-passt-prognose/65180626-314c-44b8-9ed1-78dc8638581c",
+          "actual_url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4"
+        },
+        {
+          "issued_at": "2026-09-24",
+          "period": "Q3 2026",
+          "metric": "AEBITDA",
+          "forecast": "45–55 Mio. EUR (konstante Währung)",
+          "actual": "50,9 Mio. EUR",
+          "assessment": "INNERHALB revidierter Spanne",
+          "forecast_url": "https://ir.hellofreshgroup.com/de/nachrichten/hellofresh-se-erwartet-umsatz-fuer-das-dritte-quartal-2026-unter-der-markterwartung-und-passt-prognose/65180626-314c-44b8-9ed1-78dc8638581c",
+          "actual_url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4"
+        },
+        {
+          "issued_at": "2026-09-24",
+          "period": "FY2026",
+          "metric": "Jahresumsatzprognose",
+          "forecast": "zunächst −3 bis −6 %, gesenkt auf −9 bis −11 %",
+          "actual": "Gesamtjahr noch offen",
+          "assessment": "PROGNOSE GESENKT; kein FY-Ist-Wert",
+          "forecast_url": "https://ir.hellofreshgroup.com/de/nachrichten/hellofresh-se-erwartet-umsatz-fuer-das-dritte-quartal-2026-unter-der-markterwartung-und-passt-prognose/65180626-314c-44b8-9ed1-78dc8638581c",
+          "actual_url": null
+        }
+      ],
+      "institutional_holdings": [],
+      "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
+      "key_unknowns": [
+        "Jede Prognosesenkung seit 2020 mit Quelle und tatsächlich erreichtem Geschäftsjahr auflisten",
+        "Große Aktionärsmeldungen über BaFin/IR und Stimmrechte zeitlich vergleichen",
+        "Rückkaufprogramme und tatsächliche Ausführung erfassen",
+        "Aktuellen Analystenkonsens von IR-Dokumenten, nicht bloß Kurszielportalen, triangulieren"
+      ],
+      "method_note": "",
+      "analyst_coverage": []
+    }
+  }
 }
