@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updated_at": "2026-11-05T21:02:00+01:00",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
@@ -1256,9 +1256,9 @@
     }
   },
   "screening": {
-    "status": "Aufbau · historische Auswahl, noch kein Breitenscan",
+    "status": "Kalender-Triage gestartet · keine Vollprüfung",
     "as_of": "2026-11-05T21:02:00+01:00",
-    "method_note": "Initiale Alt-Watchlist aus bereits protokollierten Dossiers. Noch keine überprüfte Marktbreiten-Abdeckung. Alle Screeningzähler offen, bis die stündlichen Agenten nachvollziehbare Untersuchungszahlen speichern.",
+    "method_note": "Stichprobe aus veröffentlichten Earnings-Kalendern am 05.11.2026; DISCOVERED bedeutet ausschließlich Name/Termin im Kalender, keine geprüfte individuelle Earnings-Strategie. 5 bisherige WATCH-Namen stammen aus älteren Dossiers. Screeningtiefe und Selektionsquote NICHT gemessen; Quoten nicht behaupten.",
     "coverage": {
       "universe_checked": null,
       "earnings_events": null,
@@ -1349,6 +1349,380 @@
         "score": null,
         "sources": [
           "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "ABNB",
+        "name": "Airbnb",
+        "tv": "NASDAQ:ABNB",
+        "market": "US",
+        "sector": "Tourismus",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "EOG",
+        "name": "EOG Resources",
+        "tv": "NYSE:EOG",
+        "market": "US",
+        "sector": "Energie",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "SPG",
+        "name": "Simon Property Group",
+        "tv": "NYSE:SPG",
+        "market": "US",
+        "sector": "Immobilien",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "NTRA",
+        "name": "Natera",
+        "tv": "NASDAQ:NTRA",
+        "market": "US",
+        "sector": "Diagnostik",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "WPM",
+        "name": "Wheaton Precious Metals",
+        "tv": "NYSE:WPM",
+        "market": "US",
+        "sector": "Edelmetalle",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "DVN",
+        "name": "Devon Energy",
+        "tv": "NYSE:DVN",
+        "market": "US",
+        "sector": "Energie",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "TEAM",
+        "name": "Atlassian",
+        "tv": "NASDAQ:TEAM",
+        "market": "US",
+        "sector": "Software",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "MNST",
+        "name": "Monster Beverage",
+        "tv": "NASDAQ:MNST",
+        "market": "US",
+        "sector": "Getränke",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "ED",
+        "name": "Consolidated Edison",
+        "tv": "NYSE:ED",
+        "market": "US",
+        "sector": "Versorger",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "MCHP",
+        "name": "Microchip Technology",
+        "tv": "NASDAQ:MCHP",
+        "market": "US",
+        "sector": "Halbleiter",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "LYV",
+        "name": "Live Nation",
+        "tv": "NYSE:LYV",
+        "market": "US",
+        "sector": "Entertainment",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-05",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-05"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "MRNA",
+        "name": "Moderna",
+        "tv": "NASDAQ:MRNA",
+        "market": "US",
+        "sector": "Biotechnologie",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-06",
+        "event": "Möglicher Quartalsbericht BMO (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://www.tipranks.com/calendars/earnings/2026-11-6"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "HUM",
+        "name": "Humana",
+        "tv": "NYSE:HUM",
+        "market": "US",
+        "sector": "Versicherungen",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-06",
+        "event": "Möglicher Quartalsbericht BMO (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://www.tipranks.com/calendars/earnings/2026-11-6"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "PPL",
+        "name": "PPL Corporation",
+        "tv": "NYSE:PPL",
+        "market": "US",
+        "sector": "Versorger",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-06",
+        "event": "Möglicher Quartalsbericht BMO (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://www.tipranks.com/calendars/earnings/2026-11-6"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "KKR",
+        "name": "KKR & Co.",
+        "tv": "NYSE:KKR",
+        "market": "US",
+        "sector": "Private Equity",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Möglicher Quartalsbericht BMO (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "OXY",
+        "name": "Occidental Petroleum",
+        "tv": "NYSE:OXY",
+        "market": "US",
+        "sector": "Energie",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "tv": "NASDAQ:TTWO",
+        "market": "US",
+        "sector": "Gaming",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "NRG",
+        "name": "NRG Energy",
+        "tv": "NYSE:NRG",
+        "market": "US",
+        "sector": "Versorger",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Möglicher Quartalsbericht BMO (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "CTVA",
+        "name": "Corteva",
+        "tv": "NYSE:CTVA",
+        "market": "US",
+        "sector": "Agrarchemie",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-10",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "CSCO",
+        "name": "Cisco Systems",
+        "tv": "NASDAQ:CSCO",
+        "market": "US",
+        "sector": "Netzwerke",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-11",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "AMAT",
+        "name": "Applied Materials",
+        "tv": "NASDAQ:AMAT",
+        "market": "US",
+        "sector": "Halbleiterausrüstung",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-12",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
+        ],
+        "as_of": "2026-11-05T21:02:00+01:00"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "NVIDIA",
+        "tv": "NASDAQ:NVDA",
+        "market": "US",
+        "sector": "Halbleiter / AI",
+        "direction": "NEUTRAL",
+        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-17",
+        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "score": null,
+        "sources": [
+          "https://portfolio-terminal.com/earnings-calendar/november-2026"
         ],
         "as_of": "2026-11-05T21:02:00+01:00"
       }
