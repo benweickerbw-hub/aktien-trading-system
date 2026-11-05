@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "updated_at": "2026-11-05T19:58:24.982Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
@@ -757,14 +757,14 @@
           "doc_type": "Primärquelle"
         },
         {
-          "id": "iren_news",
-          "publisher": "IREN",
-          "published_at": "2026-11-05",
-          "title": "IREN official news archive",
-          "url": "https://www.iren.com/investors/news",
-          "finding": "Official company news archive, including Nov 5 FY27 Q1 result announcement",
+          "id": "iren_sec8k",
+          "publisher": "SEC EDGAR",
+          "published_at": "2026-08-13",
+          "title": "IREN Form 8-K: Horizon 1 durch Microsoft abgenommen",
+          "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126032638/ef20080141_8k.htm",
+          "finding": "SEC-Filing bestätigt die gemeldete Lieferung und Abnahme von Horizon 1; eigenständiges Dokument gegenüber dem FY26-Bericht",
           "checked_on": "2026-11-05",
-          "doc_type": "Primärquelle"
+          "doc_type": "Original SEC-Filing"
         }
       ],
       "financial_history": [
