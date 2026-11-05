@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "updated_at": "2026-11-05T20:46:03+01:00",
-  "update_note": "IREN-Kursmarke durch auf 13:46 EST datierte Schwab-Quote ersetzt; älterer unbestätigter Wert 18,08 USD entfernt. Kurs nicht tickaktuell.",
+  "version": 4,
+  "updated_at": "2026-11-05T22:07:00+01:00",
+  "update_note": "IREN Tageskurs 05.11.2026 ChartExchange USD 18,14 (EOD-gelisteter Close); Referenz-PnL und Quellenmetadaten aktualisiert. Kein neuer Trade und keine echte Order.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -14,18 +14,22 @@
       "entry_price": 18.05,
       "entry_currency": "USD",
       "entry_date": "2026-11-05",
-      "entry_basis": "Historischer Referenzkurs, kein verifizierter zeitgleicher Fill; hypothetische Simulation",
+      "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 18.16,
-      "mark_at": "2026-11-05T13:46:00-05:00",
-      "mark_source": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren (13:46 EST, publizierter Snapshot; nicht live)",
+      "mark_price": 18.14,
+      "mark_at": "2026-11-05T16:00:00-05:00",
+      "mark_source": "ChartExchange Tageshistorie 05.11.2026: USD 18,14 als gelisteter Tages-Close; Datenabruf 22:07 MEZ. Kein amtlich separat verifizierter Auction-Fill; keine After-Hours-Mark.",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
       "realized_pnl_eur": null,
       "planned_exit": "2026-11-06T09:30:00-05:00",
-      "notes": "Reines lineares Short-Modell ohne Gebühren, FX, Slippage, KO oder Finanzierung"
+      "notes": "Reines lineares Short-Modell ohne Gebühren, FX, Slippage, KO oder Finanzierung",
+      "mark_source_url": "https://chartexchange.com/symbol/nasdaq-iren/historical/",
+      "mark_verified_at": "2026-11-05T22:07:00+01:00",
+      "model_unrealized_pnl_eur": -2.49,
+      "reference_only": true
     },
     {
       "id": "USER-HELLOFRESH",
