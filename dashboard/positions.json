@@ -1,7 +1,7 @@
 {
-  "version": 1,
-  "updated_at": "2026-11-05T19:54:00+01:00",
-  "update_note": "Aus zuletzt dokumentierten Positionen rekonstruiert; kein brokerseitiger Ausführungsnachweis; Marktpreis nicht fortlaufend synchronisiert.",
+  "version": 3,
+  "updated_at": "2026-11-05T20:46:03+01:00",
+  "update_note": "IREN-Kursmarke durch auf 13:46 EST datierte Schwab-Quote ersetzt; älterer unbestätigter Wert 18,08 USD entfernt. Kurs nicht tickaktuell.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -14,12 +14,12 @@
       "entry_price": 18.05,
       "entry_currency": "USD",
       "entry_date": "2026-11-05",
-      "entry_basis": "Referenz-Einstieg, kein verifizierter Börsen-Fill",
+      "entry_basis": "Historischer Referenzkurs, kein verifizierter zeitgleicher Fill; hypothetische Simulation",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 18.08,
-      "mark_at": "2026-11-05T19:54:00+01:00",
-      "mark_source": "Vorherige Chart-Auswertung; inzwischen nicht erneut überprüft",
+      "mark_price": 18.16,
+      "mark_at": "2026-11-05T13:46:00-05:00",
+      "mark_source": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren (13:46 EST, publizierter Snapshot; nicht live)",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
