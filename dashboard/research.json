@@ -1,1 +1,738 @@
-{"version":2,"updated_at":"2026-11-05T14:32:37-05:00","note":"Historischer Snapshot aus protokollierter US-Research-Automation am 05.11.2026. Kein Live-Kursfeed.","runs":[{"id":"US-20261105T183000Z","market":"US","run_at":"2026-11-05T13:32:00-05:00","task":"Aktienresearch USA stündlich","decision":"KEIN TRADE","headline":"IREN Short-Watchlist; APP Long-Beobachtung; NET und AFRM neutral.","summary":"Im Lauf kein neuer Paper-Trade. IREN-Projektfortschritt und Finanzierung bleiben zu prüfen.","source_status":"Aus protokolliertem Research-Report übernommen, nicht im Dashboard unabhängig neu verifiziert.","candidates":[{"ticker":"IREN","name":"IREN Limited","side":"SHORT_WATCH","confidence":null,"sources_checked":3,"sources_target":50,"thesis":"Short-Priorität; Projektrisiken und Finanzierung vor Earnings wichtig.","risk":"Microsoft hat IREN nicht als Verursacher von Verzögerungen bestätigt.","tv":"NASDAQ:IREN"},{"ticker":"APP","name":"AppLovin","side":"LONG_WATCH","confidence":null,"sources_checked":3,"sources_target":50,"thesis":"Starker Umsatz, Gewinn, Cashflow.","risk":"Gute Zahlen möglicherweise eingepreist.","tv":"NASDAQ:APP"},{"ticker":"NET","name":"Cloudflare","side":"NEUTRAL","confidence":null,"sources_checked":2,"sources_target":50,"thesis":"Quartalsbericht und Guidance vergleichen.","risk":"Ergebnis noch offen.","tv":"NYSE:NET"},{"ticker":"AFRM","name":"Affirm","side":"NEUTRAL","confidence":null,"sources_checked":2,"sources_target":50,"thesis":"Kreditqualität und Refinanzierungskosten beobachten.","risk":"Ergebnis noch offen.","tv":"NASDAQ:AFRM"}],"news":[{"title":"Microsoft AI-Ausbau: IREN-Zusammenhang nicht bestätigt","published_at":"2026-11-04","ticker":"IREN","publisher":"Business Insider","url":"https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11","finding":"Vermuteter Zusammenhang ist Hypothese, keine bestätigte Vertragsverletzung."}]},{"id":"US-20261105T193000Z","market":"US","run_at":"2026-11-05T14:32:37-05:00","task":"Aktienresearch USA stündlich","decision":"REVIEW","headline":"AI-Sektor fällt stark; IREN Short-These, APP Long-Beobachtung; kein neuer Trade","summary":"Reuters: Nasdaq um 12:24 ET minus 4,55 Prozent. IREN unter Rechenzentrums-Projektrisiko. AppLovin meldet Q3 2026 Umsatz 2,185 Mrd USD und Gewinn 1,439 Mrd USD. Kein überprüfter zeitnaher Einstiegskurs; keine neue virtuelle Buchung.","source_status":"Direkt geöffnet: IREN 2/50, APP 1/50, NET 1/50, AFRM 2/50; weitere Markt- und Sektorquellen. Keine vollständigen Dossiers.","candidates":[{"ticker":"IREN","name":"IREN Limited","tv":"NASDAQ:IREN","side":"SHORT","thesis":"Bau- und Finanzierungsrisiko","risk":"Vertragslage unklar und Short-Squeeze-Risiko","sources_checked":2,"sources_target":50,"confidence":null},{"ticker":"APP","name":"AppLovin","tv":"NASDAQ:APP","side":"LONG","thesis":"Q3-Umsatz und Gewinnwachstum","risk":"Positive Überraschung möglicherweise eingepreist","sources_checked":1,"sources_target":50,"confidence":null},{"ticker":"NET","name":"Cloudflare","tv":"NYSE:NET","side":"NEUTRAL","thesis":"Wachstum und Earnings-Katalysator","risk":"Hoher GAAP-Verlust","sources_checked":1,"sources_target":50,"confidence":null},{"ticker":"AFRM","name":"Affirm","tv":"NASDAQ:AFRM","side":"NEUTRAL","thesis":"Earnings nach Handelsschluss","risk":"Kredit- und Refinanzierungsrisiken","sources_checked":2,"sources_target":50,"confidence":null}],"news":[{"title":"Nasdaq set to confirm correction as AI stocks tumble","published_at":"2026-11-05","ticker":null,"publisher":"Reuters","url":"https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/","finding":"Nasdaq um 12:24 ET minus 4,55 Prozent"},{"title":"AppLovin Announces Third Quarter 2026 Financial Results","published_at":"2026-11-04","ticker":"APP","publisher":"AppLovin","url":"https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx","finding":"Umsatz 2,185 Mrd USD, Gewinn 1,439 Mrd USD"},{"title":"IREN Reports FY26 Results","published_at":"2026-08-27","ticker":"IREN","publisher":"IREN","url":"https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html","finding":"AI-Cloud-Umsatz 128,8 Mio USD"}]}]}
+{
+  "version": 3,
+  "updated_at": "2026-11-05T20:46:03+01:00",
+  "note": "Manueller quellenbasierter Snapshot vom 5. November 2026, 20:46 MEZ. Nicht mit einem automatischen stündlichen Run oder Live-Datenfeed verwechseln.",
+  "runs": [
+    {
+      "id": "US-20261105T183000Z",
+      "market": "US",
+      "run_at": "2026-11-05T13:32:00-05:00",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN bleibt Short-Watchlist; APP Long-Beobachtung; NET und AFRM neutral.",
+      "summary": "Der protokollierte stündliche Research-Lauf eröffnete keinen neuen Paper-Trade. IREN-Projektfortschritt, Finanzierung und Earnings bleiben zu prüfen.",
+      "source_status": "Automations-Report übernommen; Meldungen im Dashboard nicht separat neu verifiziert.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "side": "SHORT_WATCH",
+          "confidence": null,
+          "sources_checked": 3,
+          "sources_target": 50,
+          "thesis": "Short-Priorität; Projektrisiken und Finanzierung vor Earnings besonders relevant.",
+          "risk": "Microsoft hat IREN nicht als Verursacher von Verzögerungen bestätigt.",
+          "tv": "NASDAQ:IREN"
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "side": "LONG_WATCH",
+          "confidence": null,
+          "sources_checked": 3,
+          "sources_target": 50,
+          "thesis": "Starker Umsatz-, Gewinn- und Cashflow-Bericht als Long-Argument.",
+          "risk": "Positive Earnings-Überraschung kann bereits eingepreist sein.",
+          "tv": "NASDAQ:APP"
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "side": "NEUTRAL",
+          "confidence": null,
+          "sources_checked": 2,
+          "sources_target": 50,
+          "thesis": "Quartalsbericht mit Guidance vergleichen.",
+          "risk": "Ausgang noch offen.",
+          "tv": "NYSE:NET"
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "side": "NEUTRAL",
+          "confidence": null,
+          "sources_checked": 2,
+          "sources_target": 50,
+          "thesis": "Kreditqualität und Refinanzierungskosten vor Zahlen prüfen.",
+          "risk": "Ausgang noch offen.",
+          "tv": "NASDAQ:AFRM"
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft AI-Ausbau: Verzögerungshypothese bei IREN weiterhin nicht bestätigt",
+          "published_at": "2026-11-04",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+          "finding": "Microsoft hat IREN nicht öffentlich als Verursacher identifiziert; Research-Hypothese, keine gesicherte Vertragsverletzung."
+        }
+      ]
+    },
+    {
+      "id": "US-20261105T193000Z",
+      "market": "US",
+      "run_at": "2026-11-05T14:32:37-05:00",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "REVIEW",
+      "headline": "AI-Sektor fällt stark; IREN Short-These, APP Long-Beobachtung; kein neuer Trade",
+      "summary": "Reuters: Nasdaq um 12:24 ET minus 4,55 Prozent. IREN unter Rechenzentrums-Projektrisiko. AppLovin meldet Q3 2026 Umsatz 2,185 Mrd USD und Gewinn 1,439 Mrd USD. Kein überprüfter zeitnaher Einstiegskurs; keine neue virtuelle Buchung.",
+      "source_status": "Direkt geöffnet: IREN 2/50, APP 1/50, NET 1/50, AFRM 2/50; weitere Markt- und Sektorquellen. Keine vollständigen Dossiers.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Bau- und Finanzierungsrisiko",
+          "risk": "Vertragslage unklar und Short-Squeeze-Risiko",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG",
+          "thesis": "Q3-Umsatz und Gewinnwachstum",
+          "risk": "Positive Überraschung möglicherweise eingepreist",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "NEUTRAL",
+          "thesis": "Wachstum und Earnings-Katalysator",
+          "risk": "Hoher GAAP-Verlust",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL",
+          "thesis": "Earnings nach Handelsschluss",
+          "risk": "Kredit- und Refinanzierungsrisiken",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Nasdaq set to confirm correction as AI stocks tumble",
+          "published_at": "2026-11-05",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/",
+          "finding": "Nasdaq um 12:24 ET minus 4,55 Prozent"
+        },
+        {
+          "title": "AppLovin Announces Third Quarter 2026 Financial Results",
+          "published_at": "2026-11-04",
+          "ticker": "APP",
+          "publisher": "AppLovin",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Umsatz 2,185 Mrd USD, Gewinn 1,439 Mrd USD"
+        },
+        {
+          "title": "IREN Reports FY26 Results",
+          "published_at": "2026-08-27",
+          "ticker": "IREN",
+          "publisher": "IREN",
+          "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html",
+          "finding": "AI-Cloud-Umsatz 128,8 Mio USD"
+        }
+      ]
+    },
+    {
+      "id": "MANUELL-20261105T194600Z",
+      "market": "MIXED",
+      "run_at": "2026-11-05T20:46:03+01:00",
+      "task": "Manuelle Aktualisierung der Research-Kommandozentrale",
+      "decision": "REVIEW",
+      "headline": "IREN Short-Risiko / APP Earnings-Beat / NET und AFRM Earnings / HFG Umsatzrückgang",
+      "summary": "Fünf detaillierte Aktien-Dossiers mit je zehn quellenattribuierten Befunden. Keine neue simulierte Order gebucht; IREN bleibt historische unverbindliche Referenzsimulation.",
+      "source_status": "Öffentliche Webquellen 05.11.2026; Preisstand IREN 13:46 EST, kein tickgenauer Feed.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT-TENDENZ · HOHES RISIKO",
+          "thesis": "Projekt-/Finanzierungsrisiken belasten. Nach dem starken Kurssturz ist ein Short-Squeeze vor oder nach Earnings möglich.",
+          "risk": "Vertragssicherheit und Finanzierung bestätigt",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "BULLISH FUNDAMENTAL · KEIN CHASE",
+          "thesis": "Außergewöhnlich starke Zahlen und Kurszielanhebungen. Nach massiver Rally kurzfristig zunächst Rücksetzer-/Konsolidierungsrisiko.",
+          "risk": "Wachstumsabkühlung im nächsten Quartal",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "NEUTRAL VOR ZAHLEN",
+          "thesis": "Nach US-Schluss erscheinen die Q3-Zahlen. Hier zählt die Differenz zwischen Wachstumserwartung und tatsächlicher Guidance.",
+          "risk": "Erheblich schwächerer Ausblick",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm Holdings",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL BIS LEICHT BULLISH",
+          "thesis": "Strukturelles Wachstum im BNPL, aber Earnings und Kreditqualität erzeugen erhebliches Overnight-Risiko.",
+          "risk": "Mehr Ausfälle oder sinkende Transaktionsmarge",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh SE",
+          "tv": "XETR:HFG",
+          "side": "NEUTRAL BIS BEARISH",
+          "thesis": "Profitabilität verbessert, aber sinkender Umsatz und Kundenvolumen bleiben der zentrale Bewertungsrisiko.",
+          "risk": "Rückkehr zum Wachstum bei stabiler Marge",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft verstärkt Aufsicht über Neocloud-Projekte (u.a. IREN)",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+          "finding": "Bericht über Kontrollen, ohne bestätigte konkrete Vertragsverletzung."
+        },
+        {
+          "title": "AppLovin: Q3-Umsatz +55 %",
+          "published_at": "2026-11-04",
+          "ticker": "APP",
+          "publisher": "AppLovin IR",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "2,185 Mrd. USD Umsatz, Q4-Guidance über Konsens."
+        },
+        {
+          "title": "HelloFresh: Q3-Gewinnqualität verbessert, Umsatz schwächer",
+          "published_at": "2026-11-05",
+          "ticker": "HFG",
+          "publisher": "HelloFresh IR",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "finding": "Umsatz −11,3 % konstante Währung, EBITDA +26,3 %."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT-TENDENZ · HOHES RISIKO",
+          "horizon": "1–10 Handelstage",
+          "summary": "Projekt-/Finanzierungsrisiken belasten. Nach dem starken Kurssturz ist ein Short-Squeeze vor oder nach Earnings möglich.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Reuters berichtet über verschärfte Microsoft-Kontrolle bestimmter Neocloud-Rechenzentrumsprojekte; genannt wird IREN. Umfang der Maßnahmen bleibt unbekannt.",
+              "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Eine frühere Satellitenrecherche berichtete über Verzögerungen im Microsoft-Rechenzentrumsausbau; sie beweist keine Vertragsverletzung durch IREN.",
+              "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+              "publisher": "Business Insider",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "Schwab meldete um 13:46 EST 18,16 USD, −16,35 % gegen Vortagesschluss 21,71 USD; dies ist keine aktuelle Live-Quote.",
+              "url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren",
+              "publisher": "Charles Schwab",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Tagestief laut Schwab 17,16 USD, Tageshoch 20,98 USD; Tagesvolumen rund 75,5 Mio. Aktien bis 13:46 EST.",
+              "url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren",
+              "publisher": "Charles Schwab",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q1 des Geschäftsjahrs 2027 wird am 5. November nach US-Börsenschluss erwartet; der Call ist um 17:00 EST angekündigt.",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-11-5-iris-energy-ltd-stock/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "ANALYST",
+              "text": "MarketBeat weist vor den Zahlen rund 228,26 Mio. USD erwarteten Quartalsumsatz und −0,72 USD erwartetes EPS aus (Schätzung, kein Ist).",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-11-5-iris-energy-ltd-stock/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Bernstein senkte am 4. November das Kursziel von 100 auf 55 USD, behielt aber Buy bei. Analystenziele sind 12-Monats-Schätzungen, keine kurzfristigen Handelsziele.",
+              "url": "https://stockanalysis.com/stocks/iren/ratings/",
+              "publisher": "Stock Analysis / Bernstein",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "ANALYST",
+              "text": "B. Riley reduzierte am 30. Oktober sein IREN-Ziel von 91 auf 64 USD und blieb bei Buy – deutlicher Kontrast zum aktuellen kurzfristigen Abverkauf.",
+              "url": "https://stockanalysis.com/stocks/iren/ratings/",
+              "publisher": "Stock Analysis / B. Riley",
+              "published_at": "2026-10-30"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Ein negatives Earnings-Update zu Ausbauplan, Lieferterminen oder Fremdfinanzierung könnte die Short-These stärken; ein konkreter Projektbruch ist nicht bestätigt.",
+              "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+              "publisher": "Analyse aus Reuters-Meldung",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Kurzfristig bearish, aber der massive Kursrückgang erhöht das Risiko einer scharfen Entlastungsrally. Nächster US-Open ist entscheidend.",
+              "url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren",
+              "publisher": "Eigene Einschätzung",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Quartalszahlen 05.11. nach Börsenschluss",
+            "Microsoft-Projektfortschritt",
+            "Ausblick zu GPU-Lieferungen und Finanzierung"
+          ],
+          "invalidations": [
+            "Vertragssicherheit und Finanzierung bestätigt",
+            "Überraschend starke Guidance mit Kurslücke nach oben"
+          ],
+          "as_of": "2026-11-05T20:46:00+01:00"
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "stance": "BULLISH FUNDAMENTAL · KEIN CHASE",
+          "horizon": "1–10 Handelstage",
+          "summary": "Außergewöhnlich starke Zahlen und Kurszielanhebungen. Nach massiver Rally kurzfristig zunächst Rücksetzer-/Konsolidierungsrisiko.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Umsatz 2,185 Mrd. USD, +55 % gegenüber dem Vorjahr.",
+              "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "AppLovin IR",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3-Nettogewinn 1,439 Mrd. USD, +72 % gegenüber Vorjahr.",
+              "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "AppLovin IR",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "Bereinigtes EBITDA 1,842 Mrd. USD, +59 %; ausgewiesene bereinigte EBITDA-Marge 84 %.",
+              "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "AppLovin IR",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "Operativer Cashflow und Free Cashflow betrugen im dritten Quartal jeweils rund 1,4 Mrd. USD.",
+              "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "AppLovin IR",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "Das Unternehmen meldet eine Nettogewinnmarge von 66 % im Q3.",
+              "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "AppLovin IR",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q4-Umsatzguidance 2,365–2,395 Mrd. USD; oberhalb der vorab gemeldeten Analystenerwartung um 2,25 Mrd. USD.",
+              "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "AppLovin IR",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "Aktienrückkauf-Autorisierung Ende Oktober auf 3,6 Mrd. USD erhöht, darunter +3,2 Mrd. USD neue Freigabe.",
+              "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "AppLovin IR",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "ANALYST",
+              "text": "BTIG erhöhte am 5. November das Ziel von 396 auf 450 USD und bestätigte Buy.",
+              "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62920018/these-analysts-revise-their-forecasts-on-applovin-following-q3-results",
+              "publisher": "Benzinga / BTIG",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Wedbush hob das Kursziel von 560 auf 600 USD; Evercore ISI von 510 auf 540 USD, beide positiv.",
+              "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62920018/these-analysts-revise-their-forecasts-on-applovin-following-q3-results",
+              "publisher": "Benzinga / Wedbush / Evercore",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Die Aktie steigt nach Earnings extrem; fundamental positiv, aber keinen kurzfristigen Momentum-Einstieg ohne Rücksetzer und Bestätigung erzwingen.",
+              "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+              "publisher": "Barron’s / eigene Einordnung",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Q4-Ausblick und Rollout neuer Werbemodelle",
+            "Kundenwachstum außerhalb Gaming",
+            "Nach-Earnings-Volatilität"
+          ],
+          "invalidations": [
+            "Wachstumsabkühlung im nächsten Quartal",
+            "Bewertungs- oder regulatorischer Gegenwind"
+          ],
+          "as_of": "2026-11-05T20:46:00+01:00"
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "stance": "NEUTRAL VOR ZAHLEN",
+          "horizon": "1–10 Handelstage",
+          "summary": "Nach US-Schluss erscheinen die Q3-Zahlen. Hier zählt die Differenz zwischen Wachstumserwartung und tatsächlicher Guidance.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Cloudflare bestätigt Q3-Ergebnisse am 5. November nach US-Handelsschluss und Earnings-Call um 17:00 EST.",
+              "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "Cloudflare IR",
+              "published_at": "2026-10-13"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Vor den Ergebnissen liegt die MarketBeat-Konsensschätzung bei etwa 737,16 Mio. USD Quartalsumsatz.",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-11-05-cloudflare-inc-stock/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "ANALYST",
+              "text": "MarketBeat nennt etwa 0,34 USD erwartetes bereinigtes EPS je Aktie (Schätzung, kein Ist-Wert).",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-11-05-cloudflare-inc-stock/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3 des Vorjahres: ungefähr 562,03 Mio. USD Umsatz; erwartetes Wachstum laut MarketBeat etwa 31 %.",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-11-05-cloudflare-inc-stock/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Das davor berichtete Quartal lag nach MarketBeat bei 696,06 Mio. USD Umsatz.",
+              "url": "https://www.marketbeat.com/earnings/reports/2026-11-05-cloudflare-inc-stock/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "ANALYST",
+              "text": "JPMorgan stufte Cloudflare am 3. November von Neutral auf Overweight hoch; Kursziel 350 USD laut Analystenübersichten.",
+              "url": "https://www.tipranks.com/stocks/net/forecast",
+              "publisher": "TipRanks / JPMorgan",
+              "published_at": "2026-11-03"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Saket Kalia bestätigte am 3. November ein Buy mit Kursziel 400 USD.",
+              "url": "https://www.tipranks.com/stocks/net/forecast",
+              "publisher": "TipRanks",
+              "published_at": "2026-11-03"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Bernstein und Jefferies bleiben laut Analystenübersicht vorsichtiger; Jefferies reduzierte am 2. November das Kursziel von 350 auf 320 USD.",
+              "url": "https://www.tipranks.com/stocks/net/forecast",
+              "publisher": "TipRanks / Jefferies",
+              "published_at": "2026-11-02"
+            },
+            {
+              "type": "FAKT",
+              "text": "Eine vorbörslich veröffentlichte Kursseite meldet um 13:15 EST 238,18 USD (−10,65 %); historischer Snapshot, kein Live-Kurs.",
+              "url": "https://stockanalysis.com/stocks/net/forecast/",
+              "publisher": "Stock Analysis",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Vor Earnings kein überzeugender gerichteter Edge: eine gute Umsatzmeldung kann bei schwächerem Ausblick trotzdem abverkauft werden.",
+              "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Announces-Date-of-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "Eigene Einschätzung",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Quartalszahlen und Q4-Guidance",
+            "Großkundenumsatz und operative Marge",
+            "Bewertung nach Kurssturz"
+          ],
+          "invalidations": [
+            "Erheblich schwächerer Ausblick",
+            "Überraschend starke Guidance und Repricing"
+          ],
+          "as_of": "2026-11-05T20:46:00+01:00"
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm Holdings",
+          "tv": "NASDAQ:AFRM",
+          "stance": "NEUTRAL BIS LEICHT BULLISH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Strukturelles Wachstum im BNPL, aber Earnings und Kreditqualität erzeugen erhebliches Overnight-Risiko.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Affirm veröffentlicht Q1 des Geschäftsjahres 2027 am 5. November nach Börsenschluss; Call 17:00 EST.",
+              "url": "https://affirm.gcs-web.com/news-releases/news-release-details/affirm-announce-first-quarter-fiscal-year-2027-results-november",
+              "publisher": "Affirm IR",
+              "published_at": "2026-10-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Die Unternehmensguidance für Q1 liegt bei einem GMV von 13,7–14,0 Mrd. USD.",
+              "url": "https://investors.affirm.com/static-files/c160ce8f-a9b5-4896-b8ed-6544ac430809",
+              "publisher": "Affirm IR",
+              "published_at": "2026-08-27"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q1-Umsatzguidance 1,190–1,220 Mrd. USD.",
+              "url": "https://investors.affirm.com/static-files/c160ce8f-a9b5-4896-b8ed-6544ac430809",
+              "publisher": "Affirm IR",
+              "published_at": "2026-08-27"
+            },
+            {
+              "type": "FAKT",
+              "text": "Affirm erwartet Q1-Transaktionskosten von 615–630 Mio. USD.",
+              "url": "https://investors.affirm.com/static-files/c160ce8f-a9b5-4896-b8ed-6544ac430809",
+              "publisher": "Affirm IR",
+              "published_at": "2026-08-27"
+            },
+            {
+              "type": "FAKT",
+              "text": "Die Guidance für Revenue Less Transaction Costs beträgt 575–590 Mio. USD und die bereinigte operative Marge 28–30 %.",
+              "url": "https://investors.affirm.com/static-files/c160ce8f-a9b5-4896-b8ed-6544ac430809",
+              "publisher": "Affirm IR",
+              "published_at": "2026-08-27"
+            },
+            {
+              "type": "FAKT",
+              "text": "Für FY2027 prognostiziert das Management ein GMV von mehr als 64 Mrd. USD.",
+              "url": "https://investors.affirm.com/static-files/c160ce8f-a9b5-4896-b8ed-6544ac430809",
+              "publisher": "Affirm IR",
+              "published_at": "2026-08-27"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Zacks erwartet vor den Zahlen rund 1,22 Mrd. USD Umsatz und 0,35 USD EPS; andere Anbieter nennen etwa 0,38 USD EPS.",
+              "url": "https://www.zacks.com/stock/news/3023170/can-affirm-beat-q1-earnings-on-higher-gmv-and-active-consumers",
+              "publisher": "Zacks",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "ANALYST",
+              "text": "JPMorgan bestätigte Anfang November Buy mit Ziel 105 USD; BMO erhöhte Buy-Ziel von 101 auf 102 USD.",
+              "url": "https://stockanalysis.com/stocks/afrm/forecast/",
+              "publisher": "Stock Analysis / JPMorgan / BMO",
+              "published_at": "2026-11-03"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Morgan Stanley hält laut Analystenübersicht Hold mit auf 79 USD reduziertem Kursziel.",
+              "url": "https://stockanalysis.com/stocks/afrm/forecast/",
+              "publisher": "Stock Analysis / Morgan Stanley",
+              "published_at": "2026-10-26"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Leicht positiver Wachstumsbias, aber entscheidend sind Kreditausfälle, Finanzierungskosten und GMV-Guidance; vor Earnings nur beobachten.",
+              "url": "https://investors.affirm.com/static-files/c160ce8f-a9b5-4896-b8ed-6544ac430809",
+              "publisher": "Eigene Einschätzung",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "FY27-GMV- und RLTC-Ausblick",
+            "Kreditqualität",
+            "Zinsen und Refinanzierung"
+          ],
+          "invalidations": [
+            "Mehr Ausfälle oder sinkende Transaktionsmarge",
+            "Überzeugendes GMV-Wachstum mit stabiler Kreditqualität"
+          ],
+          "as_of": "2026-11-05T20:46:00+01:00"
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh SE",
+          "tv": "XETR:HFG",
+          "stance": "NEUTRAL BIS BEARISH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Profitabilität verbessert, aber sinkender Umsatz und Kundenvolumen bleiben der zentrale Bewertungsrisiko.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Umsatz in konstanten Währungen rund 1,4 Mrd. EUR, −11,3 % gegenüber Vorjahr.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Durchschnittlicher Bestellwert AOV 70,50 EUR, +7,5 % im Vergleich zum Vorjahr.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Währungsbereinigter Umsatz der Kochboxen ging um 13,1 % zurück.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Währungsbereinigter Umsatz im Fertiggerichtebereich sank um 11,1 %.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Die übrigen neuen Geschäftsbereiche (z.B. Premium-Meat/Pet-Food) wuchsen in konstanten Währungen um 36 %.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Bereinigtes Q3-EBITDA in konstanten Währungen stieg auf 50,9 Mio. EUR von 40,3 Mio. EUR (+26,3 %).",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Kochboxen erzielten eine währungsbereinigte bereinigte EBITDA-Marge von 10,7 % nach 9,4 %.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Ready-to-Eat erreichte währungsbereinigt auf bereinigter EBITDA-Basis die Gewinnschwelle; zuvor −21,6 Mio. EUR.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Stark divergierende Ziele: Jefferies Buy 8,35 EUR, UBS Neutral 3,60 EUR, JPMorgan Neutral 2,70 EUR (5. November).",
+              "url": "https://www.4investors.de/nachrichten/boerse.php?ID=193213&sektion=stock",
+              "publisher": "4investors / Analysten",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Bis wieder stabiles Bestellvolumen sichtbar wird neutral bis bearish; Margenfortschritt kann einen Short durch Gegenbewegungen bestrafen.",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "Eigene Einschätzung",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Neukundengewinnung im Q4",
+            "Marketingeffizienz und RTE-Marge",
+            "Konsens nach Q3"
+          ],
+          "invalidations": [
+            "Rückkehr zum Wachstum bei stabiler Marge",
+            "Weiteres Volumenschrumpfen und neue Guidance-Senkung"
+          ],
+          "as_of": "2026-11-05T20:46:00+01:00"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "Kurzfristig vorsichtig bearish; Earnings-Gap kann Short in beide Richtungen stark bewegen.",
+        "summary": "Microsoft-Überwachung und Ausbau-/Finanzierungsfragen belasten, aber die deutliche Tageskorrektur kann eine explosive Gegenbewegung auslösen. Kein marktpreisgenauer Fill um 18,05 USD verifiziert.",
+        "base_scenario": "Meldungen bleiben problematisch; bei schwachem Call weiterer Druck möglich, keine Kursgewissheit.",
+        "bull_scenario": "Für die SHORT-These positiv: bestätigte Verzögerungen oder unsichere Finanzierung würden tieferen Nasdaq-Open plausibel machen.",
+        "bear_scenario": "Für die SHORT-These negativ: günstige Guidance/vertragliche Entwarnung → Gap-up/Short-Squeeze.",
+        "key_risk": "Großes Overnight-Gap, Liquidität und fehlender echter Fill/Derivatekurs.",
+        "planned_exit": "06.11.2026, regulärer Nasdaq-Eröffnungskurs nach 09:30 EST – nur hypothetisch, sobald verifiziert.",
+        "as_of": "2026-11-05T20:46:03+01:00",
+        "mark_price": 18.16,
+        "mark_at": "2026-11-05T13:46:00-05:00",
+        "mark_source_url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren",
+        "pnl_eur": -3.05,
+        "reference_only": true,
+        "entry_price": 18.05,
+        "stake_eur": 100,
+        "leverage": 5,
+        "scenarios": [
+          {
+            "price_usd": 15,
+            "pnl_eur": 84.49
+          },
+          {
+            "price_usd": 18.05,
+            "pnl_eur": 0
+          },
+          {
+            "price_usd": 20,
+            "pnl_eur": -54.02
+          },
+          {
+            "price_usd": 23,
+            "pnl_eur": -137.12
+          }
+        ]
+      }
+    }
+  ]
+}
