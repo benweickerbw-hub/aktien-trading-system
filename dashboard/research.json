@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-05T13:32:00-05:00",
+  "note": "Historischer Snapshot aus protokollierter US-Research-Automation am 05.11.2026. Kein Live-Kursfeed.",
+  "runs": [
+    {
+      "id": "US-20261105T183000Z",
+      "market": "US",
+      "run_at": "2026-11-05T13:32:00-05:00",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN Short-Watchlist; APP Long-Beobachtung; NET und AFRM neutral.",
+      "summary": "Im Lauf kein neuer Paper-Trade. IREN-Projektfortschritt und Finanzierung bleiben zu prüfen.",
+      "source_status": "Aus protokolliertem Research-Report übernommen, nicht im Dashboard unabhängig neu verifiziert.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "side": "SHORT_WATCH",
+          "confidence": null,
+          "sources_checked": 3,
+          "sources_target": 50,
+          "thesis": "Short-Priorität; Projektrisiken und Finanzierung vor Earnings wichtig.",
+          "risk": "Microsoft hat IREN nicht als Verursacher von Verzögerungen bestätigt.",
+          "tv": "NASDAQ:IREN"
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "side": "LONG_WATCH",
+          "confidence": null,
+          "sources_checked": 3,
+          "sources_target": 50,
+          "thesis": "Starker Umsatz, Gewinn, Cashflow.",
+          "risk": "Gute Zahlen möglicherweise eingepreist.",
+          "tv": "NASDAQ:APP"
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "side": "NEUTRAL",
+          "confidence": null,
+          "sources_checked": 2,
+          "sources_target": 50,
+          "thesis": "Quartalsbericht und Guidance vergleichen.",
+          "risk": "Ergebnis noch offen.",
+          "tv": "NYSE:NET"
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "side": "NEUTRAL",
+          "confidence": null,
+          "sources_checked": 2,
+          "sources_target": 50,
+          "thesis": "Kreditqualität und Refinanzierungskosten beobachten.",
+          "risk": "Ergebnis noch offen.",
+          "tv": "NASDAQ:AFRM"
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft AI-Ausbau: IREN-Zusammenhang nicht bestätigt",
+          "published_at": "2026-11-04",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+          "finding": "Vermuteter Zusammenhang ist Hypothese, keine bestätigte Vertragsverletzung."
+        }
+      ]
+    }
+  ]
+}
