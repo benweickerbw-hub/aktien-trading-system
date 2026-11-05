@@ -1,0 +1,45 @@
+name: Publish Aktien Kommandozentrale
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard/template.html'
+      - 'dashboard/positions.json'
+      - 'dashboard/research.json'
+      - 'scripts/build_dashboard_pages.py'
+      - '.github/workflows/aktien-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: aktien-pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout latest private research
+        uses: actions/checkout@v4
+      - name: Prepare Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Build static command center
+        run: python scripts/build_dashboard_pages.py
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload PUBLIC dashboard only
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy current snapshot
+        id: deployment
+        uses: actions/deploy-pages@v4
