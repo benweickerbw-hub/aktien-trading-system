@@ -10,7 +10,7 @@ import os
 import math
 import uuid
 from collections import defaultdict
-from datetime import date, timedelta
+from datetime import date, datetime, timezone, timedelta
 from statistics import mean
 import duckdb
 import requests
@@ -28,6 +28,14 @@ MIN_DAILY_TURNOVER_LOCAL = 2_000_000
 VERSION = "earnings_only_eod_0.2"
 
 
+def next_eligible_entry_date(latest_market_date):
+    # Scheduled morning jobs (04:30 UTC) can issue a hypothetical next-open
+    # order for the current UTC day. Later manual jobs must use a later day.
+    now = datetime.now(timezone.utc)
+    first_possible = now.date() if now.hour < 6 else now.date() + timedelta(days=1)
+    return max(latest_market_date + timedelta(days=1), first_possible)
+
+
 def sql_date(d):
     return d.isoformat() if hasattr(d, "isoformat") else str(d)
 
@@ -42,8 +50,7 @@ def upcoming_earnings(latest_market_date, symbols):
     if not api_key:
         print("EARNINGS_CALENDAR_UNAVAILABLE: EODHD_API_KEY not configured")
         return {}
-    earliest_entry = max(latest_market_date + timedelta(days=1),
-                         date.today() + timedelta(days=1))
+    earliest_entry = next_eligible_entry_date(latest_market_date)
     end = earliest_entry + timedelta(days=14)
     try:
         response = requests.get(
@@ -278,8 +285,7 @@ def run():
     # 3. NEW signals are strictly gated by upcoming earnings dates. NEVER
     #    create a regular momentum trade as a fallback.
     earnings = upcoming_earnings(latest_market_date, set(history))
-    earliest_entry = max(latest_market_date + timedelta(days=1),
-                         date.today() + timedelta(days=1))
+    earliest_entry = next_eligible_entry_date(latest_market_date)
     open_symbols = set(x[0] for x in con.execute(
         "SELECT symbol FROM paper_trades WHERE status='OPEN'"
     ).fetchall())
