@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "updated_at": "2026-11-05T22:26:17Z",
+  "version": 13,
+  "updated_at": "2026-11-05T23:27:10Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -1511,6 +1511,189 @@
         "pnl_eur": null,
         "reference_only": true
       }
+    },
+    {
+      "id": "US-20261105T232710Z",
+      "market": "US",
+      "run_at": "2026-11-05T23:27:10Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "REVIEW",
+      "headline": "IREN confirms ARR schedule slippage; Affirm credit deterioration; Cloudflare beats revenue expectations",
+      "summary": "After-hours research only; no new trades. IREN target delayed to Jan/possibly Feb 2027; $6bn targeted financing for expansion. AFRM delinquency up; NET beat. All dossiers preliminary.",
+      "source_status": "Four unique relevant documents reviewed; incomplete 50-source targets.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT WATCH",
+          "thesis": "Management bestätigt Verschiebung des >$4bn ARR-Operationalisierungsziels auf Januar/evtl. Februar 2027.",
+          "risk": "Timely acceptance and financing confirmation; strong next-open reversal",
+          "sources_checked": 8,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL/SHORT WATCH",
+          "thesis": "Wachstum und Gewinn positiv, aber Kreditqualität schwächer.",
+          "risk": "Improvement in vintage-adjusted credit metrics",
+          "sources_checked": 5,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NASDAQ:NET",
+          "side": "LONG WATCH",
+          "thesis": "Revenue beat and stronger Q4 guidance; gap risk.",
+          "risk": "Valuation and gap exhaustion",
+          "sources_checked": 6,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "IREN Q1 FY27 Results",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "IREN",
+          "url": "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
+          "finding": "AI Cloud $200m, total $228m, net loss $263m; >$4bn ARR moved to Jan 2027, possibly Feb; $6bn of $15bn capex relies on target funding."
+        },
+        {
+          "title": "Affirm FQ1 FY27 shareholder letter",
+          "published_at": "2026-11-05",
+          "ticker": "AFRM",
+          "publisher": "Affirm",
+          "url": "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731",
+          "finding": "Revenue $1,262m, GMV $14.4bn, net income $164m; 30+ day monthly-installment delinquency 2.9% vs 2.5% prior quarter."
+        },
+        {
+          "title": "Cloudflare Q3 2026 results company release",
+          "published_at": "2026-11-05",
+          "ticker": "NET",
+          "publisher": "Cloudflare/Business Wire",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html",
+          "finding": "Revenue $782.5m (+39%); GAAP operating loss $67.9m; non-GAAP operating income $137.1m."
+        },
+        {
+          "title": "Cloudflare Q3 pre-release consensus",
+          "published_at": "2026-11-05",
+          "ticker": "NET",
+          "publisher": "MarketBeat",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-5-cloudflare-inc-stock/",
+          "finding": "Pre-release revenue consensus $736.78m, EPS $0.3424; historical snapshot not current post-release estimate."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Management bestätigt Verschiebung des >$4bn ARR-Operationalisierungsziels auf Januar/evtl. Februar 2027.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "AI Cloud revenue $200m, total $228m, net loss $263m",
+              "url": "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
+              "publisher": "IREN",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "$15bn remaining FY27 capex, davon $6bn geplante weitere Finanzierung abhängig von Marktbedingungen",
+              "url": "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
+              "publisher": "IREN",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Ziel >$4bn ARR auf Jan 2027 verschoben, möglicherweise Feb",
+              "url": "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
+              "publisher": "IREN",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": "Deployment timing, financing",
+          "invalidations": "Timely acceptance and financing confirmation; strong next-open reversal"
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "stance": "NEUTRAL/SHORT WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Wachstum und Gewinn positiv, aber Kreditqualität schwächer.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "GMV $14.4bn +34%, Umsatz $1.262bn +35%, Nettoergebnis $164m",
+              "url": "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731",
+              "publisher": "Affirm",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "30+ days delinquency 2.9% vs 2.5% in June 2026",
+              "url": "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731",
+              "publisher": "Affirm",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": "Credit metrics and November 6 open",
+          "invalidations": "Improvement in vintage-adjusted credit metrics"
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NASDAQ:NET",
+          "stance": "LONG WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Revenue beat and stronger Q4 guidance; gap risk.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue $782.5m vs pre-release $736.78m consensus",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html",
+              "publisher": "Cloudflare/Business Wire",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "GAAP operating loss $67.9m despite non-GAAP operating income $137.1m",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html",
+              "publisher": "Cloudflare/Business Wire",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": "Next-open gap, guidance",
+          "invalidations": "Valuation and gap exhaustion"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": null,
+        "stance": "SHORT REFERENCE ONLY",
+        "summary": "18.05 USD historical hypothetical reference, not a verified paper fill; fresh verified mark unavailable",
+        "base_scenario": "Volatile opening after delayed ARR schedule",
+        "bull_scenario": "Short benefits if funding and construction concerns deepen",
+        "bear_scenario": "Short squeeze if company reassures on financing and contracts",
+        "key_risk": "Gap and squeeze",
+        "planned_exit": "No actual position to close; reference only",
+        "as_of": "2026-11-05T23:27:10Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      }
     }
   ],
   "deep_dives": {
@@ -1518,7 +1701,7 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-05T21:25:22Z",
+      "as_of": "2026-11-05T23:27:10Z",
       "status": "DEEP_DIVE",
       "stance": "SHORT",
       "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
@@ -1593,6 +1776,16 @@
           "finding": "$240.3m revenue, $7.3m AI Cloud and $232.9m mining; net income included substantial unrealized gains.",
           "checked_on": "2026-11-05",
           "doc_type": "earnings_release"
+        },
+        {
+          "id": "IREN-20261105-8",
+          "title": "IREN Q1 FY27 Results",
+          "publisher": "IREN",
+          "published_at": "2026-11-05",
+          "url": "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
+          "finding": "AI Cloud $200m, total $228m, net loss $263m; >$4bn ARR moved to Jan 2027, possibly Feb; $6bn of $15bn capex relies on target funding.",
+          "checked_on": "2026-11-05T23:27:10Z",
+          "doc_type": "earnings"
         }
       ],
       "financial_history": [
@@ -1661,12 +1854,24 @@
           "assessment": "AUSSTEHEND, kein Verfehlen belegt",
           "forecast_url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-reports-fy26-results",
           "actual_url": null
+        },
+        {
+          "issued_at": "2026-08-27",
+          "period": "2026-12",
+          "metric": "AI Cloud ARR operational timing",
+          "forecast": ">$4bn contracted ARR capacity operational by end 2026",
+          "actual": "Company now targets January 2027; may extend to February 2027",
+          "assessment": "NACH UNTEN REVIDIERT",
+          "forecast_url": "https://www.nasdaq.com/press-release/iren-reports-fy26-results-2026-08-27",
+          "actual_url": "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7"
         }
       ],
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert.",
       "key_unknowns": [
-        "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap."
+        "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap.",
+        "Independent 13F quarter-over-quarter share comparisons not verified",
+        "Two named analyst target changes not verified"
       ],
       "method_note": "Keine 50 vollständig geprüften unabhängigen Quellen; 13F-Vergleiche nicht geprüft.",
       "analyst_coverage": []
@@ -1802,7 +2007,7 @@
       "ticker": "NET",
       "name": "Cloudflare",
       "tv": "NYSE:NET",
-      "as_of": "2026-11-05T22:26:17Z",
+      "as_of": "2026-11-05T23:27:10Z",
       "status": "DEEP_DIVE",
       "stance": "LONG",
       "summary": "Q3 Umsatz und FY-Guidance über vorherigem Ausblick",
@@ -1847,6 +2052,26 @@
           "finding": "Vorherige Q3 Guidance 736–737 Mio USD",
           "checked_on": "2026-11-05",
           "doc_type": "IR"
+        },
+        {
+          "id": "NET-20261105-5",
+          "title": "Cloudflare Q3 2026 results company release",
+          "publisher": "Cloudflare/Business Wire",
+          "published_at": "2026-11-05",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html",
+          "finding": "Revenue $782.5m (+39%); GAAP operating loss $67.9m; non-GAAP operating income $137.1m.",
+          "checked_on": "2026-11-05T23:27:10Z",
+          "doc_type": "earnings"
+        },
+        {
+          "id": "NET-20261105-6",
+          "title": "Cloudflare Q3 pre-release consensus",
+          "publisher": "MarketBeat",
+          "published_at": "2026-11-05",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-5-cloudflare-inc-stock/",
+          "finding": "Pre-release revenue consensus $736.78m, EPS $0.3424; historical snapshot not current post-release estimate.",
+          "checked_on": "2026-11-05T23:27:10Z",
+          "doc_type": "consensus"
         }
       ],
       "financial_history": [
@@ -1926,7 +2151,9 @@
         "Kundenwachstum und NRR/RPO-Historie aus den 10-Q vergleichen",
         "13F-Veränderungen anhand von Primärmeldungen kontrollieren",
         "SBC, Free-Cashflow-Qualität und Bewertungsmultiplikatoren untersuchen",
-        "Aktuelle Analystenziele, zwei vergleichbare SEC 13F-Filings und zeitgestempelte reguläre Kurse nicht verifiziert"
+        "Aktuelle Analystenziele, zwei vergleichbare SEC 13F-Filings und zeitgestempelte reguläre Kurse nicht verifiziert",
+        "Independent 13F quarter-over-quarter share comparisons not verified",
+        "Two named analyst target changes not verified"
       ],
       "method_note": "Nur tatsächlich geöffnete und geprüfte URLs; Syndikate nicht doppelt.",
       "analyst_coverage": []
@@ -1935,7 +2162,7 @@
       "ticker": "AFRM",
       "name": "Affirm Holdings",
       "tv": "NASDAQ:AFRM",
-      "as_of": "2026-11-05T22:26:17Z",
+      "as_of": "2026-11-05T23:27:10Z",
       "status": "DEEP_DIVE",
       "stance": "NEUTRAL",
       "summary": "Ergebnis veröffentlicht, Zahlen noch nicht geprüft",
@@ -1980,6 +2207,16 @@
           "finding": "1,7 Mrd USD Forward-Flow Commitment, Option 2,2 Mrd",
           "checked_on": "2026-11-05",
           "doc_type": "IR"
+        },
+        {
+          "id": "AFRM-20261105-5",
+          "title": "Affirm FQ1 FY27 shareholder letter",
+          "publisher": "Affirm",
+          "published_at": "2026-11-05",
+          "url": "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731",
+          "finding": "Revenue $1,262m, GMV $14.4bn, net income $164m; 30+ day monthly-installment delinquency 2.9% vs 2.5% prior quarter.",
+          "checked_on": "2026-11-05T23:27:10Z",
+          "doc_type": "shareholder_letter"
         }
       ],
       "financial_history": [
@@ -1991,6 +2228,15 @@
           "url": "https://investors.affirm.com/news-releases/news-release-details/affirm-reports-fourth-fiscal-quarter-2026-results",
           "source_id": "afrm_q4",
           "note": "Aus vorheriger Shareholder-Letter-Auswertung; aktuell nur Ergebnisveröffentlichung als Primärlink im Kurzregister bestätigt"
+        },
+        {
+          "period": "FQ1 2027",
+          "metric": "Revenue",
+          "value": 1262.2,
+          "unit": "USD million",
+          "url": "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731",
+          "source_id": "AFRM-20261105-5",
+          "note": "GAAP total net revenue"
         }
       ],
       "guidance_scorecard": [
@@ -2012,7 +2258,9 @@
         "Die Q1 FJ2027-Shareholder-Letter-Ergebnisse abends prüfen",
         "Funding-Partner und Refinanzierung aus 10-K/10-Q vergleichen",
         "Fondsbestände und Insider-Transaktionen anhand regulatorischer Meldungen nachzeichnen",
-        "Aktuelle Analystenziele, zwei vergleichbare SEC 13F-Filings und zeitgestempelte reguläre Kurse nicht verifiziert"
+        "Aktuelle Analystenziele, zwei vergleichbare SEC 13F-Filings und zeitgestempelte reguläre Kurse nicht verifiziert",
+        "Independent 13F quarter-over-quarter share comparisons not verified",
+        "Two named analyst target changes not verified"
       ],
       "method_note": "Nur tatsächlich geöffnete und geprüfte URLs; Syndikate nicht doppelt.",
       "analyst_coverage": []
@@ -2213,12 +2461,12 @@
   },
   "screening": {
     "status": "AFTER_HOURS_REVIEW",
-    "as_of": "2026-11-05T22:26:17Z",
-    "method_note": "Nur belegte Einzeltitel zählen; Kalenderlistungen sind DISCOVERED, keine Screening-Qualifikation. Keine nachbörslichen Fills.",
+    "as_of": "2026-11-05T23:27:10Z",
+    "method_note": "Calendar listed 695 tickers, not all screened. Three tickers with opened company results/consensus; no live quote/volume/spread qualification.",
     "coverage": {
-      "universe_checked": 4,
+      "universe_checked": 3,
       "earnings_events": 3,
-      "triaged": 4,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -2229,14 +2477,18 @@
         "tv": "NASDAQ:IREN",
         "market": "US",
         "sector": null,
-        "direction": "SHORT",
-        "reason": "Offene Verzögerungs- und Finanzierungsrisiken",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "2026-11-05 after-hours earnings/review",
+        "direction": "SHORT WATCH",
+        "reason": "Management bestätigt Verschiebung des >$4bn ARR-Operationalisierungsziels auf Januar/evtl. Februar 2027.",
+        "stage": "DEEP_DIVE",
+        "earnings_at": "2026-11-05",
+        "event": "Q3/FQ1 earnings 2026-11-05",
         "score": null,
-        "sources": [],
-        "as_of": "2026-11-05T22:26:17Z"
+        "sources": [
+          "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
+          "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
+          "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7"
+        ],
+        "as_of": "2026-11-05T23:27:10Z"
       },
       {
         "ticker": "APP",
@@ -2261,16 +2513,17 @@
         "tv": "NYSE:NET",
         "market": "US",
         "sector": null,
-        "direction": "LONG",
-        "reason": "Q3 Umsatz und FY-Guidance über vorherigem Ausblick",
-        "stage": "WATCH",
+        "direction": "LONG WATCH",
+        "reason": "Revenue beat and stronger Q4 guidance; gap risk.",
+        "stage": "DEEP_DIVE",
         "earnings_at": "2026-11-05",
-        "event": "2026-11-05 after-hours earnings/review",
+        "event": "Q3/FQ1 earnings 2026-11-05",
         "score": null,
         "sources": [
-          "https://www.wsj.com/business/earnings/cloudflare-stock-surges-on-lifted-full-year-outlook-third-quarter-revenue-growth-984186bf"
+          "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html",
+          "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html"
         ],
-        "as_of": "2026-11-05T22:26:17Z"
+        "as_of": "2026-11-05T23:27:10Z"
       },
       {
         "ticker": "AFRM",
@@ -2278,16 +2531,17 @@
         "tv": "NASDAQ:AFRM",
         "market": "US",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Ergebnis veröffentlicht, Zahlen noch nicht geprüft",
-        "stage": "WATCH",
+        "direction": "NEUTRAL/SHORT WATCH",
+        "reason": "Wachstum und Gewinn positiv, aber Kreditqualität schwächer.",
+        "stage": "DEEP_DIVE",
         "earnings_at": "2026-11-05",
-        "event": "2026-11-05 after-hours earnings/review",
+        "event": "Q3/FQ1 earnings 2026-11-05",
         "score": null,
         "sources": [
-          "https://finance.yahoo.com/markets/stocks/articles/affirm-reports-first-fiscal-quarter-210700606.html"
+          "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731",
+          "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731"
         ],
-        "as_of": "2026-11-05T22:26:17Z"
+        "as_of": "2026-11-05T23:27:10Z"
       },
       {
         "ticker": "HFG",
@@ -2780,6 +3034,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261105T222617Z"
+      },
+      {
+        "date": "2026-11-05",
+        "market": "US",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261105T232710Z"
       }
     ],
     "strategies": [
