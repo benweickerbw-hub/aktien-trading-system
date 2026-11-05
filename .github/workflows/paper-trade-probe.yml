@@ -1,0 +1,26 @@
+name: Paper trade test - MotherDuck write and read
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/paper-trade-probe.yml"
+
+jobs:
+  verify-paper-trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install database driver
+        run: pip install duckdb==1.5.6
+      - name: Write and read back synthetic virtual BUY and SELL
+        env:
+          MOTHERDUCK_TOKEN: ${{ secrets.MOTHERDUCK }}
+        run: python paper_trade_probe.py
