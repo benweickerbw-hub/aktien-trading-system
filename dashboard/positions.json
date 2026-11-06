@@ -1,7 +1,7 @@
 {
-  "version": 5,
-  "updated_at": "2026-11-06T12:15:00+01:00",
-  "update_note": "Korrektur: IREN Schlusskurs 05.11.26 16:00 EST laut Schwab/StockAnalysis/Yahoo USD 18,03 statt 18,14 USD; Referenz-PnL +0,55 EUR nur für diesen historischen Kurs, aktuelle Vorbörse deutlich höher und NICHT abgebildet. Kein tatsächlicher Fill.",
+  "version": 6,
+  "updated_at": "2026-11-06T12:31:13+01:00",
+  "update_note": "All-open-positions-mark-Prüfung 06.11.2026, 12:31 MEZ: IREN 20,83 USD Vorbörse @ 05:32:42 EST, historisches 5×-Short-Modell −77,01 EUR (kein zeitnaher Fill). HFG/PTON Nutzereinträge ohne Broker-Einstiegskurse/PnL bleiben unbekannt. Kein weiterer simulierter Fill bestätigt.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -17,19 +17,26 @@
       "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 18.03,
-      "mark_at": "2026-11-05T16:00:00-05:00",
-      "mark_source": "Regulärer Nasdaq-Schlusskurs vom 05.11.2026, 16:00 EST, bei Charles Schwab, Yahoo Finance und StockAnalysis bestätigt. KEIN aktueller Vorbörsenkurs: 06.11. vorbörslich >20 USD; ein aktueller Short-MTM ist daher NICHT mit 18,03 USD berechenbar.",
+      "mark_price": 20.83,
+      "mark_at": "2026-11-06T05:32:42-05:00",
+      "mark_source": "Investing.com vorbörsliche Indikation, 06.11.2026, 05:32:42 EST (11:32:42 MEZ). Zum Prüfzeitpunkt ~59 Minuten alt; kein offizieller Nasdaq-Regulärhandelskurs oder Fill.",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
       "realized_pnl_eur": null,
       "planned_exit": "2026-11-06T09:30:00-05:00",
-      "notes": "Unverbindliche historische SHORT-Referenzsimulation, nicht nachweisbar real ausführbarer Paper-Fill. +0,55 EUR nur als P&L gegen den Schlusskurs 05.11. 16:00 EST, NICHT als aktueller P&L-Stand. Am 06.11. vorbörslich notierte IREN deutlich über 20 USD. Kein Spread/FX/KO/Finanzierung berücksichtigt.",
-      "mark_source_url": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren",
-      "mark_verified_at": "2026-11-06T12:15:00+01:00",
-      "model_unrealized_pnl_eur": 0.55,
-      "reference_only": true
+      "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
+      "mark_source_url": "https://www.investing.com/equities/iris-energy",
+      "mark_verified_at": "2026-11-06T12:31:13+01:00",
+      "model_unrealized_pnl_eur": -77.01,
+      "reference_only": true,
+      "previous_mark": {
+        "price": 18.03,
+        "at": "2026-11-05T16:00:00-05:00",
+        "source": "https://www.schwab.wallst.com/Research/Public/stocks/summary/?symbol=iren",
+        "session": "REGULAR_CLOSE"
+      },
+      "mark_type": "PREMARKET"
     },
     {
       "id": "USER-HELLOFRESH",
