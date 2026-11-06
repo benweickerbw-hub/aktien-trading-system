@@ -1,7 +1,7 @@
 {
-  "version": 10,
-  "updated_at": "2026-11-06T17:34:09Z",
-  "update_note": "PTON 12:25 EST verified public quote; IREN 09:45 quote stale versus existing 09:30 but unverified price precision, retained existing mark; HFG no newer confirmed quote. No user turbo PnL.",
+  "version": 11,
+  "updated_at": "2026-11-06T19:27:53Z",
+  "update_note": "14:27 EST public verified regular marks IREN 14:26, PTON 14:25; reference PnL only; user Turbo PnL unavailable",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -18,16 +18,16 @@
       "stake_eur": 100,
       "leverage": 5,
       "mark_price": 21.34,
-      "mark_at": "2026-11-06T09:30:00-05:00",
-      "mark_source": "Public.com PREMARKET Last 09:30 EST, not Nasdaq opening print",
+      "mark_at": "2026-11-06T14:26:00-05:00",
+      "mark_source": "StockAnalysis Nasdaq regular last, CBOE/UTP data may be delayed up to 15min",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
       "realized_pnl_eur": null,
       "planned_exit": "2026-11-06T09:30:00-05:00",
       "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
-      "mark_source_url": "https://public.com/stocks/iren/pre-market",
-      "mark_verified_at": "2026-11-06T14:56:31Z",
+      "mark_source_url": "https://stockanalysis.com/stocks/iren/forecast/",
+      "mark_verified_at": "2026-11-06T19:27:53Z",
       "model_unrealized_pnl_eur": -91.14,
       "reference_only": true,
       "previous_mark": {
@@ -36,7 +36,7 @@
         "source": "https://www.investing.com/equities/iris-energy",
         "session": "PREMARKET"
       },
-      "mark_type": "PREMARKET"
+      "mark_type": "REGULAR"
     },
     {
       "id": "USER-HELLOFRESH",
@@ -69,13 +69,13 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 5.78,
+      "mark_price": 5.76,
       "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-06T12:25:00-05:00",
+      "mark_at": "2026-11-06T14:25:00-05:00",
       "mark_type": "REGULAR",
-      "mark_source": "StockAnalysis NASDAQ:PTON market price, USD, 12:25 EST (site labels real-time; exchange completeness not guaranteed)",
-      "mark_source_url": "https://stockanalysis.com/stocks/pton/history/",
-      "mark_verified_at": "2026-11-06T17:34:09Z",
+      "mark_source": "StockAnalysis Nasdaq regular last, CBOE/UTP data may be delayed up to 15min",
+      "mark_source_url": "https://stockanalysis.com/stocks/pton/",
+      "mark_verified_at": "2026-11-06T19:27:53Z",
       "model_unrealized_pnl_eur": null,
       "reference_only": false
     },
