@@ -1,7 +1,7 @@
 {
-  "version": 29,
-  "updated_at": "2026-11-06T14:56:31Z",
-  "note": "IREN 09:30 EST Opening-Print nicht verifiziert, kein Exit, positions.json unverändert; nachprüfbarer Print weiterhin erforderlich.",
+  "version": 30,
+  "updated_at": "2026-11-06T15:33:24Z",
+  "note": "US 10:33 EST: Research-Run; no new verified position quote or fill",
   "runs": [
     {
       "id": "US-20261105T183000Z",
@@ -4754,6 +4754,142 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research – 06.11.2026, 15:56 MEZ\n\n**Entscheidung: REVIEW, keine neuen simulierten Entries.** Reguläre Xetra-Sitzung; letzter geplanter Entscheidungszeitpunkt spätestens 17:00 MEZ. Keine belastbaren nach Entscheidungszeitpunkt erhobenen Bid/Ask-Fills. Kein reales Trading.\n\n## Markt-/Earnings-Lage und Screening\nÖffentlicher Kalender: GEA und Hannover Rück am 09.11., Infineon am 10.11., Siemens Energy und RWE am 11.11., Siemens und Allianz am 12.11. Termine dienen zunächst DISCOVERED/WATCH, nicht als geprüfte Handelssignale. Verifizierte Kapitalisierung, Spreads und erwartete EPS/Umsätze je Titel noch nicht vollständig erhoben. 5 Aktien inhaltlich triagiert (KRN, DTG, R3NK, G1A, HNR1); IFX und weitere Namen nur DISCOVERED. [Kalender, Abruf 06.11.](https://quarterlyearnings.info/earnings/index/dax)\n\n## Priorität Krones (KRN)\n[Q3-Originalmitteilung, Krones, 06.11.](https://www.krones.com/media/downloads/Q3_2026_d.pdf): 9M Auftragseingang ca. 4,224 Mrd EUR, berichtete EBITDA-Marge 11,1%, ohne US-Zollerstattung 10,8%; Free Cashflow vor M&A -5 Mio EUR. [H1-Originalbericht](https://www.krones.cn/de/unternehmen/investor-relations/finanzberichte/halbjahresbericht-2026/) erwartete 3–5% währungsbereinigtes Jahresumsatzwachstum; [Krones IR](https://www.krones.com/de/unternehmen/investor-relations/) dokumentiert Revision am 22.10. auf 1–2%. Das ist eine belegte **Abwärtsrevision**, keine abgeschlossene Prognose-Trefferquote; 9M-Ist ist nicht Gesamtjahr. Bull: Auftragseingang, Services, verbesserte Marge. Bear: Cash Conversion und schwächeres Umsatzwachstum. 1–10 Tage: neutral bis vorsichtig bearish; Invalidierung durch nachhaltige Cashflow-Erholung oder positive Konsensrevision. Namentliche Analystenvoten: nicht verifiziert.\n\n## Priorität Daimler Truck (DTG)\n[Reuters, 06.11.](https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/): Q3 bereinigtes EBIT rund 1,12 Mrd EUR, +73%; Auftragseingang 9% unter Konsens, Nordamerika 16% darunter. Bull: höhere Nordamerika-Marge; Bear: Nachfrage und Konsensmarge 2027. 1–10 Tage: neutral bis vorsichtig bearish; Invalidierung durch Auftrags- oder Guidance-Besserung. Historischer periodengleicher Management-Guidance-Ist-Abgleich noch offen.\n\n## Weitere Watchlist\n[Renk, Reuters 05.11.](https://www.reuters.com/business/aerospace-defense/renk-order-intake-jumps-by-third-defence-demand-remains-strong-2026-11-05/): 9M Auftragseingang +33%, Auftragsbestand 7,6 Mrd EUR; Risiko langsame Umsatzkonversion. GEA/Hannover Rück: Earnings 09.11., Pre-Earnings-Signal mangels Konsens-/Quote-Validierung nicht qualifiziert. Infineon: Earnings 10.11., nur DISCOVERED. Für Pre-Earnings, PEAD, Guidance-Revision und Pairs fehlen jeweils notwendige Konsens-, Zeitreihen- oder Hedge-Ratio-Belege; Korrelation null, keine abgesicherte Pair-Behauptung.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN, PAPER SHORT, **ausschließlich Referenzsimulation**, 18,05 USD hypothetischer Einstieg (kein nachgewiesener Fill), 100 EUR x5. [Public.com 06.11., 09:30 EST PREMARKET](https://public.com/stocks/iren/pre-market): 21,34 USD; Modell-PnL = 500*(1-21,34/18,05) = **-91,14 EUR** vor FX, Gebühren, Slippage, KO. **Kein regulärer Opening-Print und keine echte PnL**. Geplanter Referenz-Exit zur US-Eröffnung bleibt unbestätigt; keine nachträgliche Schließung.\n- HFG, USER_REPORTED Turbo SHORT: Einstand, ISIN, KO und Produktquote unbekannt; PnL **nicht berechenbar**. [FinanzNachrichten, 06.11.](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm): Xetra-Aktie 3,142 EUR um 13:21 MEZ (alt), Tradegate-Aktie 3,109 EUR um 13:55 MEZ (andere Börse), keine Turbo-Preisfeststellung. Exit nicht verifiziert.\n- PTON, USER_REPORTED Turbo SHORT: Einstand, ISIN, KO und Produktquote unbekannt; PnL **nicht berechenbar**. [Public.com 06.11., 09:00 EST PREMARKET](https://public.com/stocks/pton/pre-market): Aktie 5,65 USD, nicht neuer als gespeicherte Marke; kein aktueller regulärer Aktien- oder Turbo-Quote. Exit nicht verifiziert.\n\n## Quellen und Lücken\n9 verschiedene tatsächlich geöffnete Quellenseiten/-dokumente, darunter 3 Krones-Originaldokumente bzw. IR-Seiten und Reuters für DTG/Renk; Quote-Quellen zählen nicht als unabhängige Unternehmensdossier-Originalberichte. Historische 50-Dokumente-Ziele nicht erreicht; 13F/Stimmrechtsvergleich, zwei aktuelle namentliche Analystenvoten, Konsenszeitreihen, Bewertung, Spread und Opening-Print fehlen. TradingView-Widget ist kein separater verifizierter PnL-Feed. Keine Opening-Order rückwirkend fingieren: sie müsste vor dem Marktstart feststehen."
+    },
+    {
+      "id": "US-20261106T153324Z",
+      "market": "US",
+      "run_at": "2026-11-06T15:33:24Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Tech-Rebound nach Abverkauf; Moderna erhöht Guidance; IREN-Referenzshort weiterhin ohne verifizierten Fill",
+      "summary": "10:33 EST Research, kein Entry-Slot. Reuters Nasdaq +1.73% um 10:21 EST. IREN keine neuere verifizierte Quote. MRNA Umsatz- und Guidance-Beat.",
+      "source_status": "2 vollständig geöffnete Reuters-Texte; 1 teilweise geöffneter MarketWatch-Text; Kursseiten ohne neue belegbare Marken; Dossiers vorläufig",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Ltd",
+          "tv": "NASDAQ:IREN",
+          "side": "WATCH",
+          "thesis": "Rebound nach Earnings, Short-Gegenthese Auslieferungsverzögerung",
+          "risk": "Finanzierung und Short-Squeeze",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "side": "LONG",
+          "thesis": "Q3 Umsatz-Beat und erhöhte Guidance",
+          "risk": "Bewertung, Produktkonzentration",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "WATCH",
+          "thesis": "Earnings-Rebound",
+          "risk": "Bewertung und fehlende Primärbelege",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Nasdaq rebounds as chip stocks recover",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06T09:41:00Z",
+          "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
+          "ticker": null,
+          "finding": "10:21 EST: Nasdaq +1.73%, S&P 500 +1%; IREN and AI infrastructure rebound; payrolls +165k, December rate-hike odds 78%"
+        },
+        {
+          "title": "Moderna lifts annual revenue forecast",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06T11:50:00Z",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+          "ticker": "MRNA",
+          "finding": "Q3 revenue $1.3bn vs $885.1m consensus, $162m profit, 2026 growth guidance 15–25%; norovirus cohort cancelled"
+        },
+        {
+          "title": "What's driving IREN stock higher",
+          "publisher": "MarketWatch",
+          "published_at": "2026-11-05T20:07:00-05:00",
+          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0",
+          "ticker": "IREN",
+          "finding": "IREN rebounded after earnings and contracts, article partly paywalled; no new verified current quote"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "stance": "WATCH LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzbeat und Guidance-Anhebung, aber Kursrisiko",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 1,3 Mrd USD vs Konsens 885,1 Mio USD",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06T11:50:00Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "2026 Umsatzwachstumsprognose 15–25%",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06T11:50:00Z"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Evercore ISI Cory Kasimov: positiver Ergebnisimpuls",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06T11:50:00Z"
+            },
+            {
+              "type": "ANALYST",
+              "text": "Bernstein-Analysten: strengere R&D-Disziplin",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06T11:50:00Z"
+            }
+          ],
+          "catalysts": [
+            "Analyst Day 12.11.2026; Produktpipeline"
+          ],
+          "invalidations": [
+            "Schwächere Guidance",
+            "Abverkauf trotz Überraschung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENZ, nicht ausgeführt",
+        "summary": "Vorbörsenmarke alt; Referenzverlust keine tatsächliche Paper-Performance",
+        "base_scenario": "Volatile Fortsetzung nach Earnings",
+        "bull_scenario": "Für Short: Finanzierungssorgen und Verzögerungen",
+        "bear_scenario": "Für Short: KI-Rebound und Short-Squeeze",
+        "key_risk": "Keine verifizierte Entry-Quote oder Open-Print",
+        "planned_exit": "09:30 EST 06.11 geplant, nicht als Exit bestätigt",
+        "as_of": "2026-11-06T15:33:24Z",
+        "mark_price": 21.34,
+        "mark_at": "2026-11-06T09:30:00-05:00",
+        "mark_source_url": "https://public.com/stocks/iren/pre-market",
+        "pnl_eur": -91.14,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 06.11.2026, 10:33 EST\n\n## Markt und Handelsentscheidung\nRegulärer US-Handel (09:30–16:00 EST). **KEIN TRADE**: 10:33 EST ist nicht der autorisierte 15:30-Einstiegsslot. Reuters meldet um 10:21 EST Nasdaq +1,73%, S&P 500 +1,0%, Semiconductor-Index +4,6%, Nvidia +5,6%; Oktober-Payrolls +165.000, Fed-Zinserhöhung im Dezember mit 78% eingepreist. Quelle: [Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/). Markt bleibt volatil.\n\n## Kandidaten und Research\n**IREN – WATCH / kurzfristig neutral bis vorsichtig bearish:** Donnerstag rund 17% Abverkauf, nach Earnings Erholung; AI-Cloud-Verträge gegen verzögerte Inbetriebnahme und Finanzierungsrisiken. [MarketWatch, 05.11.2026](https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0) nur teilweise lesbar; [Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/) bestätigt Erholung. Keine neue überprüfbare 10:33-IREN-Quote. Bestehende Dossier-Einträge 10/50, in diesem Lauf keine neue vollständig geprüfte Primärquelle.\n\n**MRNA – WATCH / bedingt Long:** Umsatz Q3 $1,3 Mrd. vs $885,1 Mio. Konsens, $162 Mio. Nettogewinn, Guidance 2026 Umsatzwachstum 15–25%. Risiko: Kursanstieg im Jahresverlauf, Konzentration auf Impfstoffe, Norovirus-Programm reduziert. Namentlich Cory Kasimov (Evercore ISI) positiv, Bernstein-Analysten begrüßen F&E-Disziplin. [Reuters, 06.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/). Dossier 1/50 bisher; ein neuer vollständig gelesener Sekundärtext, keine Original-IR in diesem Lauf.\n\n**NET – WATCH / bedingt Long:** Erholung nach Earnings laut breiter Marktmeldung, aber Kennzahlen- und Konsens-Originalprüfung fehlt. [Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/). Dossier 6/50 bisher; keine neue Originalquelle. Zusätzliche Eventnamen ABNB, TEAM, NVDA, AMD, INTC, MU, APLD, CRWV, NBIS nur entdeckt, nicht vollständig screened. Keine qualifizierten Pairs: 60–252 Kursreihen und Korrelation nicht verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN SHORT, nur historische Referenzsimulation:** 18,05 USD Basis, 100 EUR Einsatz, synthetisch 5x = 500 EUR. Letzte gespeicherte, zuvor belegte Vorbörsenmarke 21,34 USD am 06.11.2026 09:30 EST, Quelle [Public.com](https://public.com/stocks/iren/pre-market); **ALT**, ausdrücklich kein verifizierter Nasdaq-Open und keine neue 10:33-Quote. Modellierte Referenz-PnL 500*(1-21,34/18,05) = -91,14 EUR, nicht realisiert und kein belegter Fill. Planmäßiger Exit 09:30 EST heute war vorgesehen, aber Opening-Print/Exit nicht verifiziert, daher kein CLOSED_SIMULATED.\n\n**HFG SHORT, vom Nutzer gemeldeter Turbo:** zuletzt gespeicherter Xetra-Last 3,142 EUR am 06.11.2026 13:21 CET, [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); **ALT**, kein neuerer sauberer Kurs gefunden. Einstieg, ISIN und Produktpreis unbekannt; PnL nicht berechenbar.\n\n**PTON SHORT, vom Nutzer gemeldeter Turbo:** zuletzt gespeicherte Vorbörsenmarke 5,65 USD am 06.11.2026 09:00 EST, [Public.com](https://public.com/stocks/pton/pre-market); **ALT**, kein neuerer zuverlässig datierter Kurs gefunden. Einstieg, ISIN und Produktpreis unbekannt; PnL nicht berechenbar.\n\n## Evidenzstand und Methodik\nDrei unabhängige vollständig zugängliche bzw. teilweise zugängliche Nachrichtenquellen in diesem Lauf geöffnet (Reuters Markt, Reuters Moderna, MarketWatch IREN; letztere nur teilweise lesbar); zusätzlich öffentliche Kursseiten zu IREN/PTON/HFG geprüft, jedoch ohne neueren zeitlich belegten Kurs als bestehende Marken. Keine neuen Originalfilings/13F-Paare, keine verifizierten Guidance-Ist-Paare, keine belastbaren aktuellen Analystenzielkurse, keine echten Spreads/Option-IV. Dossiers unter 50/50, ausdrücklich vorläufig. Screening ohne erfundene Universumsgröße. TradingView-Widgets sind kein geprüfter Kurs-/PnL-Feed. Keine echte Order, keine simulierte Eröffnung oder Schließung; Positionsregister unverändert."
     }
   ],
   "deep_dives": {
@@ -5970,12 +6106,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-06T14:56:31Z",
-    "method_note": "5 inhaltlich triagierte Titel; übrige Kalendernennungen DISCOVERED; Quotes keine Fill-Belege.",
+    "as_of": "2026-11-06T15:33:24Z",
+    "method_note": "10:33 EST: IREN MRNA NET qualitative Prüfung; ABNB TEAM NVDA AMD INTC MU APLD CRWV NBIS nur entdeckt. Keine neue qualifizierte Quote.",
     "coverage": {
-      "universe_checked": 5,
-      "earnings_events": 2,
-      "triaged": 5,
+      "universe_checked": 3,
+      "earnings_events": 3,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -6893,6 +7029,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261106T145631Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "US",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261106T153324Z"
       }
     ],
     "strategies": [
