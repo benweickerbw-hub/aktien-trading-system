@@ -1,7 +1,7 @@
 {
-  "version": 7,
-  "updated_at": "2026-11-06T08:30:00-05:00",
-  "update_note": "IREN vorbörslich 20,82 USD 08:30 EST Public.com; nur Referenzmodell, kein Fill; HFG/PTON ohne Derivate-Einstieg PnL unbekannt.",
+  "version": 8,
+  "updated_at": "2026-11-06T14:25:22Z",
+  "update_note": "09:25 EST check: PTON 09:00 premarket 5.65 USD; HFG 13:21 CET Xetra 3.142 EUR (stale); IREN 08:30 EST premarket 20.82 USD retained. User turbo PnL unavailable.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -49,8 +49,14 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": null,
-      "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen"
+      "mark_price": 3.142,
+      "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
+      "mark_at": "2026-11-06T13:21:00+01:00",
+      "mark_type": "REGULAR",
+      "mark_source": "Finanznachrichten Xetra Last EUR 13:21 CET; stale at check",
+      "mark_source_url": "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm",
+      "mark_verified_at": "2026-11-06T09:25:22-05:00",
+      "model_unrealized_pnl_eur": null
     },
     {
       "id": "USER-PELOTON",
@@ -63,8 +69,15 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": null,
-      "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen"
+      "mark_price": 5.65,
+      "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
+      "mark_at": "2026-11-06T09:00:00-05:00",
+      "mark_type": "PREMARKET",
+      "mark_source": "Public.com premarket Last USD, 09:00 EST",
+      "mark_source_url": "https://public.com/stocks/pton/pre-market",
+      "mark_verified_at": "2026-11-06T09:25:22-05:00",
+      "model_unrealized_pnl_eur": null,
+      "reference_only": false
     },
     {
       "id": "USER-DEUTZ",
