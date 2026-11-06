@@ -1,6 +1,6 @@
 {
-  "version": 35,
-  "updated_at": "2026-11-06T18:12:42Z",
+  "version": 36,
+  "updated_at": "2026-11-06T18:33:00Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -5880,6 +5880,112 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261106T183300Z",
+      "market": "US",
+      "run_at": "2026-11-06T18:33:00Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN: Umsatz über Konsens, Microsoft-Terminverschiebung und hoher Capex; kein 13:30-Entry",
+      "summary": "IREN vorläufig analysiert; Kalender-Discovery MRNA/HUM/CEG/KKR/RKLB; keine neuen verifizierten Positionsmarken.",
+      "source_status": "IREN 1/50 neue vollständig geöffnete eigenständige Nachricht; zwei Earnings-Kalender geöffnet; keine neue Quote bestätigt",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "AI-Cloud-Wachstum versus Verzögerungen und Finanzierung",
+          "risk": "Capex, Verwässerung, volatile Neubewertung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "IREN delays Microsoft AI deliveries, plans spending push",
+          "published_at": "2026-11-05T21:35:00Z",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "228 Mio. USD Quartalsumsatz, >4 Mrd. USD Run-rate Ziel verschoben"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Wachstum gegen Umsetzungs- und Finanzierungsrisiko",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "228 Mio. USD Umsatz gegenüber 221,28 Mio. USD Konsens",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Run-rate Ziel auf Januar/Februar verschoben",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Starke Kursreaktion kann Short-Squeeze auslösen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Microsoft-Delivery",
+            "Finanzierungsnachrichten"
+          ],
+          "invalidations": [
+            "Frühere erfolgreiche Inbetriebnahme",
+            "neue Aufträge"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE SHORT",
+        "summary": "Hypothetische Referenz, kein nachgewiesener Fill",
+        "base_scenario": "Volatile Konsolidierung",
+        "bull_scenario": "Auslieferungen und Finanzierung verbessern sich",
+        "bear_scenario": "Weitere Verzögerungen und Kapitalbedarf",
+        "key_risk": "Short-Squeeze",
+        "planned_exit": "Nur nach verifizierbarem Preis; ursprünglicher Open-Exit nicht belegt",
+        "as_of": "2026-11-06T18:33:00Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 6. November 2026, 13:33 EST\n\n## Markt und Earnings\nReguläre US-Handelssitzung; kein verkürzter Handelstag. Der [TipRanks-Earnings-Kalender 06.11.](https://www.tipranks.com/calendars/earnings/2026-11-6) listet unter anderem MRNA und HUM, der [Kalender 09.11.](https://www.tipranks.com/calendars/earnings/2026-11-9) unter anderem CEG, KKR und RKLB. Diese Listings sind DISCOVERED, keine individuell qualifizierten Trades; breite numerische Screening-Abdeckung nicht nachgewiesen.\n\n## IREN – vorläufige Deep-Dive-Ergänzung\n[Reuters, 05.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/): Umsatz Septemberquartal 228 Mio. USD gegenüber LSEG-Konsens 221,28 Mio. USD; AI-Cloud-Umsatz 200 Mio. USD gegenüber 71 Mio. USD im Vorquartal. Microsoft-bezogene Lieferverzögerungen ohne Vertragsstrafe, Ziel >4 Mrd. USD annualisierte Run-Rate von Jahresende auf Januar bis eventuell Februar verschoben. Geplante weitere Investitionen rund 15 Mrd. USD; Kapitalverpflichtungen 18,95 Mrd. USD. Bull: starkes Wachstum und Vertragsbestand. Bear: hoher Kapitalbedarf, Terminrisiko, Finanzierung und Verwässerung. SHORT-These kann durch weitere starke Aufträge und rasche Inbetriebnahme widerlegt werden. Eine belastbare Guidance-Trefferquote erfordert getrennte historische Originalquellen.\n\n## Weitere Triage\nMRNA, HUM, CEG, KKR und RKLB nur Kalender-Discovery, nicht als SCREENED oder QUALIFIED zählen. Analystenziele, SEC-Originalberichte, 13F-Zeitreihen, 60–252-Tage-Paar-Korrelationen und konsistente Spread-Daten in diesem Lauf nicht verifiziert. Kein empirisch abgesichertes Pair. Strategien PRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS: aktuell keine ausreichend geprüfte und bepreiste neue Chance.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: 18,05 USD ist **nur hypothetische Referenz**, kein dokumentierter Fill. Im Register letzter PREMARKET-Last 21,34 USD am 06.11. 09:30 EST, Quelle https://public.com/stocks/iren/pre-market; nicht als neuer REGULAR-Quote bestätigt. Rechnerisch 500×(1−21,34/18,05)=−91,14 EUR, ausschließlich REFERENZSIMULATION, ohne FX, Gebühren, Spread und KO. Kein bestätigter Opening-Exit. HFG SHORT Nutzer-Turbo: letzter registrierter Xetra-Last 3,142 EUR am 06.11. 13:21 CET, https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm; Einstand/ISIN fehlen, PnL nicht berechenbar. PTON SHORT Nutzer-Turbo: letzter registrierter Nasdaq-Last 5,78 USD am 06.11. 12:25 EST, https://stockanalysis.com/stocks/pton/history/; Einstand/ISIN fehlen, PnL nicht berechenbar. Alle Registermarken sind **nicht neu verifiziert**; keine neuere zeitgestempelte Marke eingetragen. Exit nur nach verifiziertem Preis und definierter Entscheidung.\n\n## Entscheidung\n13:33 EST ist nicht der erlaubte 15:30-Entry-Slot: **KEIN TRADE**, keine neue simulierte Position, kein nachträglicher Fill. Quellenprüfung IREN in diesem Lauf: 1 vollständig geöffneter eigenständiger Nachrichtenartikel / Ziel 50; zwei geöffnete Kalenderseiten sind Screeningquellen, keine IREN-Dossierdokumente. Unbekannte Quellenstände aus früheren Runs nicht als erneut gelesen zählen. TradingView-Widgets sind keine separat belegten PnL-Quotes.",
+      "report_sections": [
+        {
+          "heading": "IREN",
+          "summary": "Reuters 05.11.2026 Umsatz und Lieferverzögerung",
+          "bullets": [
+            {
+              "text": "Umsatz 228 Mio. USD",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T18:33:00Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -5887,8 +5993,8 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-06T17:34:09Z",
-      "status": "PRELIMINARY",
+      "as_of": "2026-11-06T18:33:00Z",
+      "status": "DEEP_DIVE_VORLÄUFIG",
       "stance": "WATCH",
       "summary": "Umsatzüberraschung versus Microsoft-Verzögerung und hoher Capex; Vorbörsen-Rally gegen Short.",
       "source_goal": 50,
@@ -7147,8 +7253,8 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-06T18:12:42Z",
-    "method_note": "This run individually checked 2 tickers and 4 independent publications; no verified spread/market-cap filter or quantitative pairs.",
+    "as_of": "2026-11-06T18:33:00Z",
+    "method_note": "US 13:30: kalenderbasierte Discovery, keine neuen individuell qualifizierten Titel; alte Screening-Daten erhalten.",
     "coverage": {
       "universe_checked": 2,
       "earnings_events": 1,
