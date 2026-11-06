@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "updated_at": "2026-11-06T07:59:29Z",
+  "version": 17,
+  "updated_at": "2026-11-06T08:07:55Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -2124,6 +2124,62 @@
           "bullets": []
         }
       ]
+    },
+    {
+      "id": "XETRA-20261106T080755Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T08:07:55Z",
+      "task": "Xetra Overnight-Auswertung",
+      "decision": "KEIN TRADE",
+      "headline": "Keine belegbaren Xetra-Overnight-Positionen aus dem Vorabend; kein Exit und kein PnL.",
+      "summary": "Erster nachweisbarer Xetra-Research-Lauf heute um 08:59 MEZ mit 0 Trades; kein verifizierter Vorabend-Entry. SHL/HFG/KBX nur Beobachtung. Keine Positionsänderung.",
+      "source_status": "Websuche vom 06.11.2026; kein verifizierter Opening-Print für eine belegte Vortagesposition; historische Kursberichte nicht als aktuelle Quotes verwendet.",
+      "candidates": [
+        {
+          "ticker": "SHL",
+          "name": "Siemens Healthineers",
+          "tv": "XETR:SHL",
+          "side": "WATCH / vorsichtig bearish",
+          "thesis": "FY27 EPS-Ausblick und Diagnostik-Carve-out",
+          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
+          "sources_checked": 5,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "WATCH / gemischt",
+          "thesis": "Sinkende Umsätze bei verbesserter Marge",
+          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KBX",
+          "name": "Knorr-Bremse",
+          "tv": "XETR:KBX",
+          "side": "WATCH / Long-Tendenz",
+          "thesis": "Operative Q3-Stärke",
+          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Healthineers Handelsstart am 5. November (kein heutiger Kurs)",
+          "published_at": "2026-11-06",
+          "ticker": "SHL",
+          "publisher": "WELT",
+          "url": "https://www.welt.de/article6aec53faeca9cecdd5d479b4",
+          "finding": "Historischer Kursbericht ausdrücklich zum 05.11.; für den heutigen Xetra-Open nicht verwendbar."
+        }
+      ],
+      "report_markdown": "Xetra Overnight-Check – 6. November 2026, 09:07:55 MEZ\n\nErgebnis: KEINE BELEGBAREN OFFENEN XETRA-OVERNIGHT-TRADES. Der erste verfügbare Lauf der Aufgabe „Aktienresearch Xetra stündlich“ stammt vom 6. November, 08:59 Uhr MEZ und enthält ausdrücklich 0 neue simulierte Trades. Ein belegter Einstieg vom Vorabend (5. November) liegt nicht vor. Deshalb wird keine fiktive Position geschlossen und kein PnL berechnet.\n\nDie heute früh beobachteten Aktien Siemens Healthineers (SHL, vorsichtig bearish), HelloFresh (HFG, gemischt) und Knorr-Bremse (KBX, Long-Beobachtung) sind Research-Kandidaten, keine eröffneten Positionen. Quellenabdeckung im letzten Research-Lauf: SHL 5/50, HFG 2/50, KBX 2/50; alle Dossiers unvollständig.\n\nÖffentliche Kursprüfung: Die Suche ergab keine verlässlich verifizierbaren Xetra-Opening-Prints vom 6. November um 09:00 Uhr für belegte Vortagespositionen. Ein Bericht von WELT über Siemens Healthineers betrifft ausdrücklich den 5. November und ist kein heutiger Opening-Print: https://www.welt.de/article6aec53faeca9cecdd5d479b4 . Xetra regulär 09:00–17:30 Uhr laut https://en.wikipedia.org/wiki/Xetra_(trading_system) ; möglicherweise gelten erweiterte Handelsfenster, daher nicht ohne Venue-Abgleich als aktueller Kursbeleg verwenden.\n\nSimulierte Ausstiegsformel für tatsächlich belegte Positionen: Long-PnL = (Open/Entry - 1) × 500 EUR, Short-PnL = (1 - Open/Entry) × 500 EUR, abzüglich Kosten und ggf. FX-Umrechnung. Da weder ein belegter Vorabend-Entry noch ein dazugehöriger verifizierter Open-Print vorliegt, ist die Berechnung NICHT ANWENDBAR. Es gibt keinen abgeschlossenen simulierten Xetra-Trade. US-IREN-Referenzsimulation ist keine Xetra-Position und bleibt unberührt."
     }
   ],
   "deep_dives": {
