@@ -109,7 +109,11 @@
 <section class="panel open-terminal" id="openTerminal">
  <div class="title-row"><div><h2>Alle offenen Positionen · Paper &amp; Nutzermeldungen</h2><p class="small">Ticker/Einstieg → TradingView-Chart im neuen Tab. Preis &amp; P&amp;L beruhen auf derselben gespeicherten Kursmarke – keine Vermischung mit dem live/delayed TradingView-Widget.</p></div><span class="badge" id="openTerminalCount">0 offen</span></div>
  <div style="overflow:auto"><table><thead><tr><th>Aktie &amp; Chart</th><th>Richtung</th><th>Einstieg → TradingView</th><th>Aktuelle gespeicherte Kursmarke</th><th>Kurszeit &amp; Quelle</th><th>Modell-Einsatz</th><th>Hebel</th><th>P&amp;L zur Kursmarke</th><th>Status</th></tr></thead><tbody id="openTerminalRows"></tbody></table></div>
- <div class="trade-footer" id="openTerminalFoot">Quellen und Kurszeiten werden separat aktualisiert. Keine Broker-Synchronisation.</div>
+ <div class="divider" style="height:1px;background:var(--border);margin:17px 0"></div>
+ <div class="title-row"><div><h2>Geplante Paper-Signale · noch KEINE Trades</h2><p class="small">Für 100 € Modell-Einsatz und Faktor 5; wird nur bei nachgewiesenem späteren Entry und erfüllten Bedingungen zum Paper-Trade.</p></div><span class="badge" id="signalQueueCount">0 vorgemerkt</span></div>
+ <div style="overflow:auto"><table><thead><tr><th>Kandidat / TradingView</th><th>Richtung</th><th>Trigger</th><th>100 € ×5</th><th>Validierung</th></tr></thead><tbody id="signalQueue"></tbody></table></div>
+ 
+<div class="trade-footer" id="openTerminalFoot">Quellen und Kurszeiten werden separat aktualisiert. Keine Broker-Synchronisation.</div>
 </section>
 
 <div class="bottom"><section class="panel"><div class="row"><h2>Positionsjournal</h2><span class="badge" id="count"></span></div><div style="overflow-x:auto"><table><thead><tr><th>Aktie</th><th>Strategie</th><th>Status</th><th>Einsatz</th><th>Letzte P&amp;L</th></tr></thead><tbody id="journal"></tbody></table></div></section><section class="panel"><h2>Historie &amp; Datensynchronisierung</h2><p>Die Daten stammen aus einem getrennten Positionsjournal. Einträge müssen ausdrücklich als <b>Paper-Simulation</b> oder <b>vom Nutzer berichtete Position</b> gekennzeichnet sein.</p><div class="info"><div><span class="label">IREN Paper-Exit</span><strong>06.11.2026</strong><span class="hint">09:30 EST Eröffnung; Prüfung ab 09:35 EST</span></div><div><span class="label">Portfolio-Quelle</span><strong>positions.json</strong><span class="hint">Versionierter Trade-Datensatz</span></div></div><div class="actions"><button id="export">JSON exportieren</button><button id="import">JSON importieren</button><input id="importer" type="file" accept=".json,application/json"></div><p class="hint">Ein JSON-Import überschreibt nur die angezeigten Daten dieser Browser-Sitzung, nicht die lokale HTML-Datei. Für dauerhafte Aktualisierung dient die separat eingerichtete Mac-Synchronisierung.</p><p class="hint" id="syncmsg"></p></section></div>
@@ -523,6 +527,24 @@ function openTerminal(){
  $('openTerminalFoot').textContent='Aktualisiert: '+(state.updated_at||'unbekannt')+' · Kein direkter Zugriff auf TradingView-Kurswerte zur P&L-Berechnung. Die Charts sind eigene Widgets mit gegebenenfalls verzögerter Kursanzeige; der Modell-P&L liegt stets nur die separat gespeicherte datierte Kursmarke zugrunde. Für Nutzer-Turbo-Shorts fehlen Broker-Fill und Produktspezifikationen.';
 }
 
-addMarketTape();renderResearch();renderScreening();renderBriefCards();renderTradeOutlook();openDeepRoute();
+
+function renderSignalQueue(){
+ const arr=Array.isArray(research.paper_trade_proposals)?research.paper_trade_proposals.filter(x=>x.status==='PENDING_QUOTE'||x.status==='WATCH_TRIGGER'):[];
+ const host=$('signalQueue');if(!host)return;host.replaceChildren();
+ $('signalQueueCount').textContent=arr.length+' Signale · 0 davon ausgeführt';
+ for(const p of arr){
+  const tr=host.insertRow();const name=tr.insertCell();
+  const url=p.tv?'https://www.tradingview.com/chart/?symbol='+encodeURIComponent(p.tv):null;
+  if(url){const a=createNode('a',(p.ticker||'–')+' ↗');a.href=url;a.target='_blank';a.rel='noopener noreferrer';name.append(a)}
+  else name.textContent=p.ticker||'–';
+  tr.insertCell().textContent=p.side||'–';
+  tr.insertCell().textContent=p.trigger||'Ohne überprüften Trigger';
+  tr.insertCell().textContent=money(p.stake_eur||100)+' · ×'+(p.leverage||5)+' · KEIN FILL';
+  const check=tr.insertCell();check.textContent=p.reason||'Noch keine bestätigte Kursausführung';
+ }
+ if(!arr.length){const tr=host.insertRow(),c=tr.insertCell();c.colSpan=5;c.textContent='Derzeit keine vorgemerkten nicht ausgeführten Paper-Signale.'}
+}
+
+addMarketTape();renderResearch();renderScreening();renderSignalQueue();renderBriefCards();renderTradeOutlook();openDeepRoute();
 setInterval(()=>{if(!document.hidden)location.reload()},90000);overview();show();
 </script></body></html>
