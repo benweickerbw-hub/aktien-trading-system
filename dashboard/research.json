@@ -1,6 +1,6 @@
 {
-  "version": 21,
-  "updated_at": "2026-11-06T12:34:08+01:00",
+  "version": 22,
+  "updated_at": "2026-11-06T12:04:34Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -3152,6 +3152,288 @@
         "stake_eur": 100,
         "leverage": 5
       }
+    },
+    {
+      "id": "XETRA-20261106T120434Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T12:04:34Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Krones Margenanstieg; Earnings-Pipeline GEA, Hannover Rück, Infineon",
+      "summary": "Fünf Event-Ticker triagiert, keine neuen Fills, drei offene Positionen auf Quotebeleg geprüft; Marken nicht aktualisiert.",
+      "source_status": "8 URLs geprüft, 7 Unternehmens-IR, 1 Börsenkalender; keine neuen zeitnahen Positions-Quotes",
+      "candidates": [
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "side": "NEUTRAL",
+          "thesis": "Margenverbesserung trotz schwachem Umsatzwachstum",
+          "risk": "Nachfrage, Call, Kursreaktion",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "side": "NEUTRAL",
+          "thesis": "Q3-Zahlen heute",
+          "risk": "Auftragstrend, Kursreaktion",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "side": "WATCH",
+          "thesis": "Q3 am 9.11.",
+          "risk": "Konsens nicht geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "side": "WATCH",
+          "thesis": "Q3 am 9.11.",
+          "risk": "Großschäden",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "WATCH",
+          "thesis": "Jahreszahlen 10.11.",
+          "risk": "Automotive und Capex",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Krones Q3 2026 corporate news",
+          "publisher": "Krones",
+          "published_at": "2026-11-06",
+          "ticker": "KRN",
+          "url": "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+          "finding": "9M Auftragseingang +2,9 % auf 4.223,6 Mio. EUR; EBITDA-Marge 11,1 % nach 10,5 %"
+        },
+        {
+          "title": "Krones Finanzkalender",
+          "publisher": "Krones",
+          "published_at": "2026-11-06",
+          "ticker": "KRN",
+          "url": "https://www.krones.com/en/company/investor-relations/financial-calendar/",
+          "finding": "Q3-Konferenz 6. November 13:00 MEZ"
+        },
+        {
+          "title": "Daimler Truck Q3 IR",
+          "publisher": "Daimler Truck",
+          "published_at": "2026-11-06",
+          "ticker": "DTG",
+          "url": "https://www.daimlertruck.com/en/investors",
+          "finding": "Q3-Veröffentlichung 6. November"
+        },
+        {
+          "title": "GEA Q3 Termin",
+          "publisher": "GEA",
+          "published_at": "2026-11-09",
+          "ticker": "G1A",
+          "url": "https://www.gea.com/de/investors/",
+          "finding": "Q3-Bericht 9. November 07:30 MEZ"
+        },
+        {
+          "title": "Hannover Rück Q3 Termin",
+          "publisher": "Hannover Rück",
+          "published_at": "2026-11-09",
+          "ticker": "HNR1",
+          "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+          "finding": "Q3-Mitteilung 9. November"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Margenverbesserung trotz schwachem Umsatzwachstum",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "9M Auftragseingang +2,9 % auf 4.223,6 Mio. EUR; EBITDA-Marge 11,1 % nach 10,5 %",
+              "url": "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+              "publisher": "Krones",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Margenverbesserung trotz schwachem Umsatzwachstum"
+          ],
+          "invalidations": [
+            "Nachfrage, Call, Kursreaktion"
+          ]
+        },
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Zahlen heute",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Veröffentlichung 6. November",
+              "url": "https://www.daimlertruck.com/en/investors",
+              "publisher": "Daimler Truck",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Q3-Zahlen heute"
+          ],
+          "invalidations": [
+            "Auftragstrend, Kursreaktion"
+          ]
+        },
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 am 9.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Bericht 9. November 07:30 MEZ",
+              "url": "https://www.gea.com/de/investors/",
+              "publisher": "GEA",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Q3 am 9.11."
+          ],
+          "invalidations": [
+            "Konsens nicht geprüft"
+          ]
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 am 9.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Mitteilung 9. November",
+              "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+              "publisher": "Hannover Rück",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Q3 am 9.11."
+          ],
+          "invalidations": [
+            "Großschäden"
+          ]
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Jahreszahlen 10.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q4 und GJ 2026 Bericht 10. November 07:30 MEZ",
+              "url": "https://www.infineon.com/about/events",
+              "publisher": "Infineon",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": [
+            "Jahreszahlen 10.11."
+          ],
+          "invalidations": [
+            "Automotive und Capex"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Historischer Referenz-Short ohne verifizierten Fill, alter Vorbörsenkurs; keine aktuelle PnL.",
+        "base_scenario": "Nasdaq-Eröffnung noch offen",
+        "bull_scenario": "Aktie fällt",
+        "bear_scenario": "Aktie steigt",
+        "key_risk": "Vorbörsen-Gap und fehlender Entry-Fill",
+        "planned_exit": "06.11. 09:30 EST nur mit vorheriger Opening-Order",
+        "as_of": "2026-11-06T12:04:34Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 06.11.2026, 13:04 MEZ\n\n**Handelsentscheidung: REVIEW / keine neuen Paper-Fills.** Xetra ist heute regulär 09:00–17:30 MEZ geöffnet ([Deutsche Börse, Handelskalender](https://www.cashmarket.deutsche-boerse.com/cash-de/Handel/handelskalender-und-zeiten)). Dies ist ein Intraday-Research-Slot, nicht der 17-Uhr-Entscheidungsslot.\n\n## Neue Earnings-Pipeline\n- **Krones (KRN):** Offizielle Meldung vom 06.11.: Auftragseingang 9M +2,9 % auf 4.223,6 Mio. EUR; EBITDA-Marge 11,1 % statt 10,5 % im Vorjahr. Das Umsatzwachstum ist schwächer als der Auftragszuwachs; Nachhaltigkeit der Margenverbesserung offen. [Krones IR, 06.11.](https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/). Die Telefonkonferenz startet heute 13:00 MEZ ([Krones-Kalender](https://www.krones.com/en/company/investor-relations/financial-calendar/)). **Tendenz 1–10 Tage neutral**, bis Ausblick, Kursreaktion und Call verifiziert sind.\n- **Daimler Truck (DTG):** Q3-Veröffentlichung heute bestätigt ([Daimler Truck IR](https://www.daimlertruck.com/en/investors)). Nachfrage-/Auftragstrend bleibt entscheidender Prüfpunkt. **Neutral bis vorsichtig bearish**, ohne zeitnahen Quote kein Entry.\n- **GEA (G1A):** Q3-Bericht am 09.11. um 07:30 MEZ ([GEA IR](https://www.gea.com/de/investors/)). **WATCH**, positive Überraschung denkbar, ohne Konsensvergleich nicht qualifiziert.\n- **Hannover Rück (HNR1):** Q3-Mitteilung am 09.11. ([Hannover Rück IR](https://www.hannover-re.com/en/investors/events-and-presentations/)). **WATCH**, Schadenentwicklung/Reservequalität noch nicht geprüft.\n- **Infineon (IFX):** Jahres- und Q4-Zahlen am 10.11. 07:30 MEZ ([Infineon Kalender](https://www.infineon.com/about/events)). Historisch: Q2-Umsatz 3,812 Mrd. EUR und Anhebung bereinigter FCF-Prognose auf rund 1,65 Mrd. EUR am 06.05. ([Infineon IR](https://www.infineon.com/de/press-release/2026/infxx202605-082)). **WATCH**, KI-Stromversorgung bullisch; Automotive und Investitionsbedarf Gegenrisiken.\n\n## Screening und Strategien\nFünf eindeutig identifizierte Event-Ticker triagiert: KRN, DTG, G1A, HNR1, IFX. Für keinen sind zeitnahe Bid/Ask, Spread, verifizierte aktuelle Konsenswerte und zwei Analystenvoten vollständig vorhanden. Keine QUALIFIED-Entries. PRE-EARNINGS: Erwartungsabweichung nicht quantifiziert. PEAD: EPS- und Umsatzsurprise nicht gemeinsam nachgewiesen. GUIDANCE-REVISION: Infineon historischer Ausblick dokumentiert, Ist-Abgleich noch offen. PAIRS: keine 60–252-Tage-Reihen, Korrelation null, kein Hedge-Nachweis.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT, PAPER/REFERENZ:** 18,05 USD historischer hypothetischer Einstieg, kein verifizierter Fill. Letzte im Positionsregister dokumentierte Marke 20,83 USD vom 06.11. 05:32:42 EST, PREMARKET, Quelle https://www.investing.com/equities/iris-energy . Diese Marke wurde in diesem Lauf **nicht erneut als zeitnah bestätigt**; daher **ALT**. Frühere reine Modellrechnung −77,01 EUR bei 100 EUR × 5, ohne FX, Spread, Gebühren und Knock-out; **keine echte Performance**. Reguläre Nasdaq-Eröffnung 15:30 MEZ, Opening-Print noch ausstehend; Exit ausschließlich nach vorab festgelegter Order und nachträglich verifiziertem Opening-Print.\n- **HFG SHORT, USER_REPORTED:** Turbo, Einstand/ISIN/KO und aktueller Produktkurs fehlen. Aktienkurs kein Ersatz für Turbo-PnL. **PnL nicht berechenbar**, Xetra REGULAR, Quote nicht verifiziert.\n- **PTON SHORT, USER_REPORTED:** Turbo, Einstand/ISIN/KO und aktueller Produktkurs fehlen. **PnL nicht berechenbar**, US PREMARKET, Quote nicht verifiziert.\n- DEUTZ ist im Register CLOSED_REPORTED und nicht offen.\n\n## Forschungsstand und Lücken\nAcht unterschiedliche öffentliche URLs in diesem Lauf geprüft, davon sieben Firmen-IR-Dokumentseiten und ein offizieller Börsenkalender; fünf Event-Ticker untersucht. Keine vollständigen neuen 50-Quellen-Dossiers, keine neuen überprüften 13F-/Stimmrechts-Paarvergleiche, keine verifizierten Analysten-Kursziele, keine zeitnahen Kurse für aktuelle PnL. Die früheren Bestandsdossiers bleiben erhalten. **Neue simulierte Trades: 0.**",
+      "report_sections": [
+        {
+          "heading": "Earnings-Pipeline",
+          "summary": "Fünf Ticker mit datierten IR-Ereignissen",
+          "bullets": [
+            {
+              "text": "9M Auftragseingang +2,9 % auf 4.223,6 Mio. EUR; EBITDA-Marge 11,1 % nach 10,5 %",
+              "url": "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+              "publisher": "Krones",
+              "checked_at": "2026-11-06T12:04:34Z"
+            },
+            {
+              "text": "Q3-Konferenz 6. November 13:00 MEZ",
+              "url": "https://www.krones.com/en/company/investor-relations/financial-calendar/",
+              "publisher": "Krones",
+              "checked_at": "2026-11-06T12:04:34Z"
+            },
+            {
+              "text": "Q3-Veröffentlichung 6. November",
+              "url": "https://www.daimlertruck.com/en/investors",
+              "publisher": "Daimler Truck",
+              "checked_at": "2026-11-06T12:04:34Z"
+            },
+            {
+              "text": "Q3-Bericht 9. November 07:30 MEZ",
+              "url": "https://www.gea.com/de/investors/",
+              "publisher": "GEA",
+              "checked_at": "2026-11-06T12:04:34Z"
+            },
+            {
+              "text": "Q3-Mitteilung 9. November",
+              "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+              "publisher": "Hannover Rück",
+              "checked_at": "2026-11-06T12:04:34Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -4172,10 +4454,10 @@
       "ticker": "KRN",
       "name": "Krones",
       "tv": "XETR:KRN",
-      "as_of": "2026-11-06T10:55:27Z",
-      "status": "INCOMPLETE",
-      "stance": "SHORT",
-      "summary": "Umsatzprognose und 2028-Ziel reduziert",
+      "as_of": "2026-11-06T12:04:34Z",
+      "status": "IN_PROGRESS",
+      "stance": "WATCH",
+      "summary": "9M-Aufträge +2,9%; Marge verbessert; Call und Kursreaktion offen",
       "source_goal": 50,
       "source_documents": [
         {
@@ -4207,6 +4489,16 @@
           "finding": "2026 Wachstum 1-2% statt 3-5%; EBITDA-Marge 10,7-11,1%.",
           "checked_on": "2026-11-06",
           "doc_type": "IR"
+        },
+        {
+          "id": "KRN-20261106-IR",
+          "title": "Krones Q3 2026 corporate news",
+          "publisher": "Krones",
+          "published_at": "2026-11-06",
+          "url": "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+          "finding": "9M Auftragseingang +2,9 % auf 4.223,6 Mio. EUR; EBITDA-Marge 11,1 % nach 10,5 %",
+          "checked_on": "2026-11-06",
+          "doc_type": "IR"
         }
       ],
       "financial_history": [],
@@ -4214,22 +4506,54 @@
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert",
       "key_unknowns": [
-        "Aktuelle Xetra-Quotes",
-        "Historischer Guidance-Ist-Abgleich aus getrennten Originaldokumenten",
-        "Aktuelle Analysten-Zieländerungen",
-        "Fondsbestände aus Originalfilings"
+        "Aktueller datierter Kurs",
+        "Analystenkonsens und zwei Analystenvoten",
+        "Historischer Guidance-Ist-Abgleich",
+        "Institutionelle Meldungen"
       ],
-      "method_note": "Nur tatsächlich geprüfte eindeutige URLs ergänzt; keine 50-Dokument-Vollständigkeit.",
+      "method_note": "Nur tatsächlich gelesene URL dedupliziert; 50-Dokumente-Ziel nicht erreicht",
       "analyst_coverage": null
+    },
+    "IFX": {
+      "ticker": "IFX",
+      "name": "Infineon",
+      "tv": "XETR:IFX",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "IFX-20261106-IR",
+          "title": "Infineon Q2 Prognose",
+          "publisher": "Infineon",
+          "published_at": "2026-05-06",
+          "url": "https://www.infineon.com/de/press-release/2026/infxx202605-082",
+          "finding": "Q2 Umsatz 3,812 Mrd EUR; bereinigter FCF Jahresprognose 1,65 Mrd EUR",
+          "checked_on": "2026-11-06",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-06T12:04:34Z",
+      "status": "IN_PROGRESS",
+      "stance": "WATCH",
+      "summary": "Q4/FY am 10.11.; Q2-FCF-Guidance historische Ausgangsbasis",
+      "key_unknowns": [
+        "Aktueller datierter Kurs",
+        "Analystenkonsens und zwei Analystenvoten",
+        "Historischer Guidance-Ist-Abgleich",
+        "Institutionelle Meldungen"
+      ],
+      "method_note": "Nur tatsächlich gelesene URL dedupliziert; 50-Dokumente-Ziel nicht erreicht"
     }
   },
   "screening": {
-    "status": "Aktueller branchenübergreifender Earnings-Check, nicht alle Aktien fundamental gescreent",
-    "as_of": "2026-11-06T12:34:08+01:00",
-    "method_note": "10 titelspezifische Webreferenzen am 06.11.2026 12:34 MEZ ausgewertet, davon 8 mit konkreten Financial-/Guidance-Befunden; keine historische Erfolgswahrscheinlichkeit. Positionen nur durch getrennte datierte Quellen markiert.",
+    "status": "PARTIAL_VERIFIED",
+    "as_of": "2026-11-06T12:04:34Z",
+    "method_note": "5 datierte Firmen-IR-Event-Ticker im Lauf 13:04 MEZ geprüft; keine Quote/Spread-Qualifikation",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 2,
+      "universe_checked": 5,
+      "earnings_events": 5,
       "triaged": 5,
       "qualified": 0,
       "trade_signals": 0
@@ -4823,39 +5147,34 @@
         "name": "Daimler Truck",
         "tv": "XETR:DTG",
         "market": "XETRA",
-        "sector": "Fahrzeuge",
-        "direction": "SHORT",
-        "reason": "EBIT +73 % aber Aufträge 9 % unter Analystenkonsens. Prognose 2026 bestätigt.",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Q3-Zahlen heute",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
+        "event": "Q3-Zahlen heute",
         "score": null,
         "sources": [
-          "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
-          "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
-          "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175"
+          "https://www.daimlertruck.com/en/investors"
         ],
-        "as_of": "2026-11-06T12:34:08+01:00"
+        "as_of": "2026-11-06T12:04:34Z"
       },
       {
         "ticker": "KRN",
         "name": "Krones",
         "tv": "XETR:KRN",
         "market": "XETRA",
-        "sector": "Anlagenbau",
+        "sector": null,
         "direction": "NEUTRAL",
-        "reason": "2026 Umsatzwachstumsprognose 3–5 % auf 1–2 % reduziert; EBITDA-Marge verbessert, Bernstein neutral.",
+        "reason": "Margenverbesserung trotz schwachem Umsatzwachstum",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
+        "event": "Margenverbesserung trotz schwachem Umsatzwachstum",
         "score": null,
         "sources": [
-          "https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687",
-          "https://www.krones.com/de/unternehmen/investor-relations/",
-          "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
-          "https://www.wallstreet-online.de/nachricht/21651942-bernstein-research-stuft-krones-ag-neutral"
+          "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/"
         ],
-        "as_of": "2026-11-06T12:34:08+01:00"
+        "as_of": "2026-11-06T12:04:34Z"
       },
       {
         "ticker": "FRE",
@@ -4898,14 +5217,16 @@
         "tv": "XETR:IFX",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Earnings am 10.11.",
-        "stage": "DISCOVERED",
+        "direction": "WATCH",
+        "reason": "Jahreszahlen 10.11.",
+        "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings am 10.11.",
+        "event": "Jahreszahlen 10.11.",
         "score": null,
-        "sources": [],
-        "as_of": "2026-11-06T10:55:27Z"
+        "sources": [
+          "https://www.infineon.com/about/events"
+        ],
+        "as_of": "2026-11-06T12:04:34Z"
       },
       {
         "ticker": "AMS",
@@ -4938,6 +5259,40 @@
         "sources": [
           "https://www.borsaitaliana.it/borsa/notizie/radiocor/finance/dettaglio/iag-q3-adj-opg-profit-1726-bln-eur-down-159-nRC_06112026_0907_180272876.html?lang=en"
         ]
+      },
+      {
+        "ticker": "G1A",
+        "name": "GEA",
+        "tv": "XETR:G1A",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Q3 am 9.11.",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Q3 am 9.11.",
+        "score": null,
+        "sources": [
+          "https://www.gea.com/de/investors/"
+        ],
+        "as_of": "2026-11-06T12:04:34Z"
+      },
+      {
+        "ticker": "HNR1",
+        "name": "Hannover Rück",
+        "tv": "XETR:HNR1",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Q3 am 9.11.",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Q3 am 9.11.",
+        "score": null,
+        "sources": [
+          "https://www.hannover-re.com/en/investors/events-and-presentations/"
+        ],
+        "as_of": "2026-11-06T12:04:34Z"
       }
     ],
     "pairs": [],
@@ -5042,6 +5397,16 @@
         "qualified": 0,
         "trade_signals": 2,
         "note": "2 nur konditionale Ideen ohne Entry; keine tatsächlichen Paper-Fills"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "XETRA",
+        "universe_checked": 5,
+        "earnings_events": 5,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261106T120434Z"
       }
     ],
     "strategies": [
