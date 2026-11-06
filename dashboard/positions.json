@@ -1,7 +1,7 @@
 {
-  "version": 9,
-  "updated_at": "2026-11-06T14:56:31Z",
-  "update_note": "09:25 EST check: PTON 09:00 premarket 5.65 USD; HFG 13:21 CET Xetra 3.142 EUR (stale); IREN 08:30 EST premarket 20.82 USD retained. User turbo PnL unavailable.",
+  "version": 10,
+  "updated_at": "2026-11-06T17:34:09Z",
+  "update_note": "PTON 12:25 EST verified public quote; IREN 09:45 quote stale versus existing 09:30 but unverified price precision, retained existing mark; HFG no newer confirmed quote. No user turbo PnL.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -69,13 +69,13 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 5.65,
+      "mark_price": 5.78,
       "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-06T09:00:00-05:00",
-      "mark_type": "PREMARKET",
-      "mark_source": "Public.com premarket Last USD, 09:00 EST",
-      "mark_source_url": "https://public.com/stocks/pton/pre-market",
-      "mark_verified_at": "2026-11-06T09:25:22-05:00",
+      "mark_at": "2026-11-06T12:25:00-05:00",
+      "mark_type": "REGULAR",
+      "mark_source": "StockAnalysis NASDAQ:PTON market price, USD, 12:25 EST (site labels real-time; exchange completeness not guaranteed)",
+      "mark_source_url": "https://stockanalysis.com/stocks/pton/history/",
+      "mark_verified_at": "2026-11-06T17:34:09Z",
       "model_unrealized_pnl_eur": null,
       "reference_only": false
     },
