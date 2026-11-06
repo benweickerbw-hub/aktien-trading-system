@@ -1,6 +1,6 @@
 {
-  "version": 38,
-  "updated_at": "2026-11-06T20:32:12.059Z",
+  "version": 39,
+  "updated_at": "2026-11-06T21:26:47.017Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -6449,6 +6449,228 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261106T212647Z",
+      "market": "US",
+      "run_at": "2026-11-06T21:26:47.017Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "REVIEW",
+      "headline": "IREN Schlusskurse widersprüchlich; PTON $5,62, HFG €2,988 Schluss; Moderna Guidance angehoben",
+      "summary": "Post-close research only; no fills; verified PTON and HFG marks; IREN reference not re-marked due quote conflict.",
+      "source_status": "Public WEB sources only; IREN 16:00 closing quote conflict; other deep dives preliminary <50",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "Strong Q1 AI cloud growth but financing and delayed ARR; avoid short chasing",
+          "risk": "Capex $15bn, financing gap and conflicting closing quotes",
+          "sources_checked": 12,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton Interactive",
+          "tv": "NASDAQ:PTON",
+          "side": "WATCH",
+          "thesis": "Margin recovery vs subscriber decline",
+          "risk": "Consumer demand, missing derivative details",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "side": "LONG WATCH",
+          "thesis": "2026 guidance raised after Q3 beat",
+          "risk": "Clinical pipeline and valuation",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TEAM",
+          "name": "Atlassian",
+          "tv": "NASDAQ:TEAM",
+          "side": "WATCH",
+          "thesis": "Cloud deceleration repricing",
+          "risk": "Paywalled details",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "ticker": "IREN",
+          "title": "IREN Reports Q1 FY27 Results",
+          "publisher": "IREN / GlobeNewswire",
+          "published_at": "2026-11-05T16:01:00-05:00",
+          "url": "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html",
+          "finding": "Q1 total revenue $228m, AI Cloud $200m, net loss $263m, $20.3bn backlog; $4bn ARR target shifted to Jan/Feb; $15bn remaining capex."
+        },
+        {
+          "ticker": "IREN",
+          "title": "IREN analyst forecasts and revisions",
+          "publisher": "StockAnalysis / S&P Global / TipRanks",
+          "published_at": "2026-11-06",
+          "url": "https://stockanalysis.com/stocks/iren/forecast/",
+          "finding": "H.C. Wainwright target $74 to $56; Cantor $99 to $47; Goldman $50 to $30; buy/hold split."
+        },
+        {
+          "ticker": "PTON",
+          "title": "Peloton Interactive NASDAQ close and earnings overview",
+          "publisher": "StockAnalysis",
+          "published_at": "2026-11-06",
+          "url": "https://stockanalysis.com/stocks/pton/",
+          "finding": "Nov 6 16:00 EST last $5.62; FY27 Q1 revenue +2% yoy, gross margin 61.3%, adjusted EBITDA +42% per earnings call summary."
+        },
+        {
+          "ticker": "HFG",
+          "title": "HelloFresh Xetra close",
+          "publisher": "FinanzNachrichten",
+          "published_at": "2026-11-06",
+          "url": "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm",
+          "finding": "Xetra close Nov 6 17:35 CET €2.988, -10.38%; underlying equity, not user's turbo."
+        },
+        {
+          "ticker": "MRNA",
+          "title": "Moderna lifts annual revenue forecast",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06T11:50:00Z",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+          "finding": "Q3 revenue $1.3bn vs $885.1m consensus; profit $162m; 2026 revenue growth outlook 15–25%."
+        },
+        {
+          "ticker": "TEAM",
+          "title": "Atlassian stock sinks on cloud growth",
+          "publisher": "Barron's",
+          "published_at": "2026-11-06",
+          "url": "https://www.barrons.com/articles/atlassian-earnings-stock-price-cloud-growth-e112ae67",
+          "finding": "Cloud deceleration and valuation concerns despite earnings beat; full article paywalled."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Strong Q1 AI cloud growth but financing and delayed ARR; avoid short chasing",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q1 total revenue $228m, AI Cloud $200m, net loss $263m, $20.3bn backlog; $4bn ARR target shifted to Jan/Feb; $15bn remaining capex.",
+              "url": "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html",
+              "publisher": "IREN / GlobeNewswire",
+              "published_at": "2026-11-05T16:01:00-05:00"
+            },
+            {
+              "type": "FAKT",
+              "text": "H.C. Wainwright target $74 to $56; Cantor $99 to $47; Goldman $50 to $30; buy/hold split.",
+              "url": "https://stockanalysis.com/stocks/iren/forecast/",
+              "publisher": "StockAnalysis / S&P Global / TipRanks",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Earnings / Guidance follow-through"
+          ],
+          "invalidations": [
+            "Capex $15bn, financing gap and conflicting closing quotes"
+          ]
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton Interactive",
+          "tv": "NASDAQ:PTON",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Margin recovery vs subscriber decline",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Nov 6 16:00 EST last $5.62; FY27 Q1 revenue +2% yoy, gross margin 61.3%, adjusted EBITDA +42% per earnings call summary.",
+              "url": "https://stockanalysis.com/stocks/pton/",
+              "publisher": "StockAnalysis",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Earnings / Guidance follow-through"
+          ],
+          "invalidations": [
+            "Consumer demand, missing derivative details"
+          ]
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "stance": "LONG WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "2026 guidance raised after Q3 beat",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue $1.3bn vs $885.1m consensus; profit $162m; 2026 revenue growth outlook 15–25%.",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06T11:50:00Z"
+            }
+          ],
+          "catalysts": [
+            "Earnings / Guidance follow-through"
+          ],
+          "invalidations": [
+            "Clinical pipeline and valuation"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENCE ONLY",
+        "summary": "Historical hypothetical entry, no verified fill; conflicting 16:00 close",
+        "base_scenario": "Monday opening volatility; no reliable directional certainty",
+        "bull_scenario": "IREN declines on capex/financing concern (favors hypothetical short)",
+        "bear_scenario": "IREN rallies further on AI Cloud contracts (hurts hypothetical short)",
+        "key_risk": "Short squeeze, capex funding, no verified entry",
+        "planned_exit": "Next regular US opening review only; no automatic reference exit",
+        "as_of": "2026-11-06T21:26:47.017Z",
+        "mark_price": 21.53,
+        "mark_at": "2026-11-06T15:01:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/forecast/",
+        "pnl_eur": -96.4,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörsen-Research – 06.11.2026, ca. 16:30 EST\n\n**Entscheidung: REVIEW / KEIN TRADE.** Regulärer NYSE/Nasdaq-Handel endete 16:00 EST; keine nachbörslichen Einstiege autorisiert. Nächste reguläre Eröffnung Montag 09.11.2026 09:30 EST. Keine neuen simulierten Fills oder Exits.\n\n## Markt- und Earnings-Lage\nUS-AI-Infrastrukturwerte erholten sich nach dem Ausverkauf vom Donnerstag. IREN zeigte eine besonders starke Gegenbewegung. Die Kombination aus hoher Volatilität, neu bewerteter Kapitalintensität und Auftragslage macht einen simplen Short nach dem starken Anstieg ungeeignet. [IREN-Unternehmensmeldung, 05.11.2026](https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html); [IREN Kurs- und Nachrichtenübersicht, StockAnalysis, 06.11.2026](https://stockanalysis.com/stocks/iren/). Quantitative breitflächige Screener-Abdeckung für diesen Einzellauf: drei tatsächlich titelbezogen vertieft geprüfte Namen (IREN, PTON, MRNA); TEAM zusätzlich auf Medienniveau, HFG als offener Trade markiert; keine Behauptung über Hunderte geprüfte Aktien.\n\n## IREN – SHORT-Referenz kritisch überprüfen\nIREN meldete Q1-FY27-Umsatz $228 Mio., AI-Cloud-Umsatz $200 Mio., GAAP-Nettoverlust $263 Mio. und Auftragsbestand $20,3 Mrd. Das operative ARR-Ziel von über $4 Mrd. wurde von Ende 2026 auf Januar 2027 verschoben, eventuell Februar. Die verbleibenden FY27-Capex-Pläne betragen $15 Mrd.; davon sind $6 Mrd. von künftigen Finanzierungsquellen und Marktbedingungen abhängig. [Originalmeldung, IREN/GlobeNewswire, 05.11., 16:01 ET](https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html). Management-Guidance: vorheriger Zieltermin Ende 2026, neuer Januar/Februar 2027 => **NACH UNTEN REVIDIERT**, keine Erfüllungsquote. Analysten reduzierten heute trotz Buy-Voten Ziele: Mike Colonnese/H.C. Wainwright $74→$56; Brett Knoblauch/Cantor $99→$47; Michael Ng/Goldman $50→$30 (Hold). [StockAnalysis Analystentabelle, 06.11.](https://stockanalysis.com/stocks/iren/forecast/). Die öffentliche Kursquelle zeigt widersprüchliche 16:00-EST-Schlusswerte: [IREN Übersicht](https://stockanalysis.com/stocks/iren/) $21,30, [IREN Forecast](https://stockanalysis.com/stocks/iren/forecast/) $21,67. Daher KEIN eindeutiger neuer Mark im Positionsjournal. Bei hypothetischer SHORT-Basis $18,05 ergeben sich nur **illustrative** -€90,03 bis -€100,28 bei €500 linearem Exposure, keine reale oder nachgewiesen ausgeführte PnL. 13F-Vergleiche nicht geprüft; 50-Dokumente-Ziel offen. Bull: Umsatzwachstum, Backlog, finanzierte Teilprojekte; Bear: Verzögerungen, Verwässerung/Finanzierung, hohe Capex, Kundenkonzentration. Short-These invalidiert durch nachweisbar schnellere Inbetriebnahme und robuste Finanzierung.\n\n## PTON – Turnaround vs. Umsatzqualität\n[StockAnalysis, 06.11.](https://stockanalysis.com/stocks/pton/) nennt FY27-Q1-Umsatz +2% YoY, Bruttomarge 61,3% und bereinigtes EBITDA +42% (Call-Zusammenfassung). Konsens Buy mit 20 Analysten, durchschnittliches Zwölfmonatsziel $7,70. Canaccord senkte sein Ziel von $10 auf $8 (Buy), Goldman Sachs von $7,50 auf $6,50 (Buy), jeweils als aggregierte Analystenmeldung. Diese Daten sind keine nachgewiesene kurzfristige Prognose. Bear: schwaches Abonnentenwachstum und Nachfragerisiko; Bull: bessere Marge und Produktpipeline. Vorläufige WATCH, kein neues SHORT-Signal. [Q1-FY27-Earnings-Release-Dokument, 05.11.] (https://stockanalysis.com/filings/PTON/3938591/).\n\n## MRNA und TEAM – unabhängige Sektoren\nModerna erzielte laut [Reuters, 06.11., 11:50 UTC](https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/) $1,3 Mrd. Q3-Umsatz gegen $885,1 Mio. LSEG-Konsens und $162 Mio. Gewinn; die Jahres-Umsatzwachstumsprognose wurde auf 15–25% angehoben. Long-Watch wegen Guidance-Revision, aber Krebsimpfstoff-Pipeline und klinische/regulatorische Risiken dominieren; keine verifizierte kurzfristige Einstiegsquote. Atlassian fiel trotz Earnings-Beat wegen verlangsamten Cloud-Wachstums; [Barron's, 06.11.](https://www.barrons.com/articles/atlassian-earnings-stock-price-cloud-growth-e112ae67) ist weitgehend paywalled, daher kein Deep-Dive-Qualifikationsstatus. Pair-Korrelation, IV, Spread, vollständige SEC/13F-Vergleiche und belastbare Manager-Trefferquote: nicht verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN SHORT, PAPER/REFERENZ:** $18,05 historischer, NICHT verifizierter Fill. Letzter unstrittig gespeicherter Mark $21,53 um 15:01 EST (StockAnalysis), theoretisch -€96,40 ohne Gebühren/FX/KO; Schlussdaten 16:00 widersprechen sich ($21,30 vs $21,67), daher bewusst kein neuer Mark. Keine bestätigte Eröffnungsausführung oder Exit; Review am nächsten regulären Open. **HFG SHORT, USER_REPORTED Turbo:** Xetra-Aktien-Schluss €2,988, 06.11. 17:35 CET, [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); Turbo-ISIN, Einstand und KO unbekannt, PnL **nicht berechenbar**, keine automatische Schließung. **PTON SHORT, USER_REPORTED Turbo:** Nasdaq-Aktien-Schluss $5,62, 06.11. 16:00 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/); Turbo-ISIN und Einstand unbekannt, PnL **nicht berechenbar**. **DEUTZ LONG** laut Nutzer bereits geschlossen mit gemeldetem Gewinn ca. €11, nicht unabhängig verifiziert.\n\n## Handelsentscheidung und Datenstand\nKein neuer Overnight-Trade nach 16:00 EST, keine rückdatierten Fills. Die 15:30-Entscheidung ist separat zu behandeln. Nächster US-Morgen-Check Montag 09.11.; Eröffnungs-Prints vorab unbekannt. Nachbörsliche TradingView-Widgets sind keine unabhängig belegte PnL-Quelle. **Quellenfortschritt:** IREN 1 neu vollständig geprüfte Originalmeldung + 2 neu geprüfte Kurs/Analysten-Seiten; PTON 1 vollständig geprüfte Kurs/News-Seite + 1 Earnings-Dokumentseite; MRNA 1 Reuters-Volltext; TEAM nur Paywall-Teilauszug. Alle Dossiers weiterhin **vorläufig, deutlich unter 50 unabhängig geprüften Texten**.",
+      "report_sections": [
+        {
+          "heading": "Alle offenen Positionen – Kurs und modellierte PnL",
+          "summary": "IREN reference only, PTON and HFG user turbos PnL unknown",
+          "bullets": [
+            {
+              "text": "PTON close $5.62 16:00 EST",
+              "url": "https://stockanalysis.com/stocks/pton/",
+              "publisher": "StockAnalysis",
+              "checked_at": "2026-11-06T21:26:47.017Z"
+            },
+            {
+              "text": "HFG close €2.988 17:35 CET",
+              "url": "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm",
+              "publisher": "FinanzNachrichten",
+              "checked_at": "2026-11-06T21:26:47.017Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -6456,10 +6678,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-06T20:32:12.059Z",
-      "status": "PRELIMINARY",
+      "as_of": "2026-11-06T21:26:47.017Z",
+      "status": "DEEP_DIVE_PRELIMINARY",
       "stance": "REVIEW",
-      "summary": "15:01 EST 21.53 USD; BTIG Lewis 80->65 Buy; Goldman Ng 50->30 Hold",
+      "summary": "Strong Q1 AI cloud growth but financing and delayed ARR; avoid short chasing",
       "source_goal": 50,
       "source_documents": [
         {
@@ -6581,6 +6803,16 @@
           "finding": "Lewis $80->$65; Ng $50->$30",
           "checked_on": "2026-11-06T19:27:53Z",
           "doc_type": "web"
+        },
+        {
+          "id": "IREN-13",
+          "title": "IREN Reports Q1 FY27 Results",
+          "publisher": "IREN / GlobeNewswire",
+          "published_at": "2026-11-05T16:01:00-05:00",
+          "url": "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html",
+          "finding": "Q1 total revenue $228m, AI Cloud $200m, net loss $263m, $20.3bn backlog; $4bn ARR target shifted to Jan/Feb; $15bn remaining capex.",
+          "checked_on": "2026-11-06T21:26:47.017Z",
+          "doc_type": "company_earnings_release"
         }
       ],
       "financial_history": [
@@ -6665,9 +6897,10 @@
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
       "key_unknowns": [
         "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
-        "Aktuelle 13F Originalfilings nicht paarweise geprüft"
+        "Aktuelle 13F Originalfilings nicht paarweise geprüft",
+        "50 independent verified sources not yet reached; two original 13F filings not checked"
       ],
-      "method_note": "Only opened documents counted, aggregator not SEC primary filing",
+      "method_note": "Deduplicated opened URLs; do not infer 13F flow, quote latency or management forecast success rate.",
       "analyst_coverage": "Lewis/BTIG und Ng/Goldman 06.11.2026 via StockAnalysis/TipRanks; nicht Originalresearch"
     },
     "APP": {
@@ -7683,14 +7916,15 @@
       "institutional_holdings": [],
       "key_unknowns": [
         "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
-        "Aktuelle 13F Originalfilings nicht paarweise geprüft"
+        "Aktuelle 13F Originalfilings nicht paarweise geprüft",
+        "50 independent verified sources not yet reached; two original 13F filings not checked"
       ],
-      "as_of": "2026-11-06T20:32:12.059Z",
-      "status": "PRELIMINARY",
-      "stance": "LONG",
-      "summary": "Q3 revenue 1.3bn vs LSEG 885.1m, profit 162m, FY growth guidance 15-25%",
+      "as_of": "2026-11-06T21:26:47.017Z",
+      "status": "DEEP_DIVE_PRELIMINARY",
+      "stance": "LONG WATCH",
+      "summary": "2026 guidance raised after Q3 beat",
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
-      "method_note": "Only opened documents counted, aggregator not SEC primary filing",
+      "method_note": "Deduplicated opened URLs; do not infer 13F flow, quote latency or management forecast success rate.",
       "analyst_coverage": []
     },
     "R3NK": {
@@ -7764,28 +7998,29 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-06T20:32:12.059Z",
-      "status": "PRELIMINARY",
-      "stance": "REVIEW",
-      "summary": "10:58 EST 5.80 USD stale; FY2027 consensus revenue 2.36bn USD vs FY2026 2.45bn; Citi Josey Hold 6 USD",
+      "as_of": "2026-11-06T21:26:47.017Z",
+      "status": "DEEP_DIVE_PRELIMINARY",
+      "stance": "WATCH",
+      "summary": "Margin recovery vs subscriber decline",
       "source_goal": 50,
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
       "key_unknowns": [
         "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
-        "Aktuelle 13F Originalfilings nicht paarweise geprüft"
+        "Aktuelle 13F Originalfilings nicht paarweise geprüft",
+        "50 independent verified sources not yet reached; two original 13F filings not checked"
       ],
-      "method_note": "Only opened documents counted, aggregator not SEC primary filing",
+      "method_note": "Deduplicated opened URLs; do not infer 13F flow, quote latency or management forecast success rate.",
       "analyst_coverage": "Nicht vollständig verifiziert"
     }
   },
   "screening": {
-    "status": "PRELIMINARY",
-    "as_of": "2026-11-06T20:32:12.059Z",
-    "method_note": "Only IREN MRNA PTON NET individually read; calendar listings CEG KKR RKLB are DISCOVERED not screened. No executable quote.",
+    "status": "PARTIAL_POSTCLOSE",
+    "as_of": "2026-11-06T21:26:47.017Z",
+    "method_note": "2026-11-06 post-close: three ticker-specific research checks (IREN PTON MRNA), TEAM media-only, HFG position mark only; no claim of full universe coverage. Preserve other market history.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 2,
-      "triaged": 4,
+      "universe_checked": 3,
+      "earnings_events": 3,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -7797,15 +8032,16 @@
         "market": "US",
         "sector": null,
         "direction": "REVIEW",
-        "reason": "AI Cloud growth vs funding and delivery risk",
+        "reason": "Strong Q1 AI cloud growth but financing and delayed ARR; avoid short chasing",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "2026-11-06 earnings review",
+        "event": "Q3/Q1 earnings reaction 2026-11-06",
         "score": null,
         "sources": [
+          "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html",
           "https://stockanalysis.com/stocks/iren/forecast/"
         ],
-        "as_of": "2026-11-06T20:32:12.059Z"
+        "as_of": "2026-11-06T21:26:47.017Z"
       },
       {
         "ticker": "APP",
@@ -7967,17 +8203,17 @@
         "name": "Atlassian",
         "tv": "NASDAQ:TEAM",
         "market": "US",
-        "sector": "Software",
+        "sector": null,
         "direction": "WATCH",
-        "reason": "FY27 Q1 Earnings-Event",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-05",
-        "event": "Earnings",
+        "reason": "Cloud deceleration repricing",
+        "stage": "DISCOVERED",
+        "earnings_at": null,
+        "event": "Q3/Q1 earnings reaction 2026-11-06",
         "score": null,
         "sources": [
-          "https://investors.atlassian.com/events-and-presentations/events/default.aspx"
+          "https://www.barrons.com/articles/atlassian-earnings-stock-price-cloud-growth-e112ae67"
         ],
-        "as_of": "2026-11-06T00:25:23Z"
+        "as_of": "2026-11-06T21:26:47.017Z"
       },
       {
         "ticker": "MNST",
@@ -8053,16 +8289,16 @@
         "tv": "NASDAQ:MRNA",
         "market": "US",
         "sector": null,
-        "direction": "LONG",
-        "reason": "Revenue beat and raised outlook",
-        "stage": "WATCH",
+        "direction": "LONG WATCH",
+        "reason": "2026 guidance raised after Q3 beat",
+        "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "2026-11-06 earnings review",
+        "event": "Q3/Q1 earnings reaction 2026-11-06",
         "score": null,
         "sources": [
           "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/"
         ],
-        "as_of": "2026-11-06T20:32:12.059Z"
+        "as_of": "2026-11-06T21:26:47.017Z"
       },
       {
         "ticker": "HUM",
@@ -8560,20 +8796,20 @@
       },
       {
         "ticker": "PTON",
-        "name": "Peloton",
+        "name": "Peloton Interactive",
         "tv": "NASDAQ:PTON",
         "market": "US",
         "sector": null,
-        "direction": "REVIEW",
-        "reason": "Improving profitability vs shrinking revenue",
-        "stage": "WATCH",
+        "direction": "WATCH",
+        "reason": "Margin recovery vs subscriber decline",
+        "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "2026-11-06 earnings review",
+        "event": "Q3/Q1 earnings reaction 2026-11-06",
         "score": null,
         "sources": [
-          "https://stockanalysis.com/stocks/pton/forecast/"
+          "https://stockanalysis.com/stocks/pton/"
         ],
-        "as_of": "2026-11-06T20:32:12.059Z"
+        "as_of": "2026-11-06T21:26:47.017Z"
       },
       {
         "ticker": "CEG",
@@ -8852,6 +9088,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T203212Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "US",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261106T212647Z"
       }
     ],
     "strategies": [
