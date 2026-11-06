@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "updated_at": "2026-11-06T08:07:55Z",
+  "version": 18,
+  "updated_at": "2026-11-06T09:03:04Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -2180,6 +2180,221 @@
         }
       ],
       "report_markdown": "Xetra Overnight-Check – 6. November 2026, 09:07:55 MEZ\n\nErgebnis: KEINE BELEGBAREN OFFENEN XETRA-OVERNIGHT-TRADES. Der erste verfügbare Lauf der Aufgabe „Aktienresearch Xetra stündlich“ stammt vom 6. November, 08:59 Uhr MEZ und enthält ausdrücklich 0 neue simulierte Trades. Ein belegter Einstieg vom Vorabend (5. November) liegt nicht vor. Deshalb wird keine fiktive Position geschlossen und kein PnL berechnet.\n\nDie heute früh beobachteten Aktien Siemens Healthineers (SHL, vorsichtig bearish), HelloFresh (HFG, gemischt) und Knorr-Bremse (KBX, Long-Beobachtung) sind Research-Kandidaten, keine eröffneten Positionen. Quellenabdeckung im letzten Research-Lauf: SHL 5/50, HFG 2/50, KBX 2/50; alle Dossiers unvollständig.\n\nÖffentliche Kursprüfung: Die Suche ergab keine verlässlich verifizierbaren Xetra-Opening-Prints vom 6. November um 09:00 Uhr für belegte Vortagespositionen. Ein Bericht von WELT über Siemens Healthineers betrifft ausdrücklich den 5. November und ist kein heutiger Opening-Print: https://www.welt.de/article6aec53faeca9cecdd5d479b4 . Xetra regulär 09:00–17:30 Uhr laut https://en.wikipedia.org/wiki/Xetra_(trading_system) ; möglicherweise gelten erweiterte Handelsfenster, daher nicht ohne Venue-Abgleich als aktueller Kursbeleg verwenden.\n\nSimulierte Ausstiegsformel für tatsächlich belegte Positionen: Long-PnL = (Open/Entry - 1) × 500 EUR, Short-PnL = (1 - Open/Entry) × 500 EUR, abzüglich Kosten und ggf. FX-Umrechnung. Da weder ein belegter Vorabend-Entry noch ein dazugehöriger verifizierter Open-Print vorliegt, ist die Berechnung NICHT ANWENDBAR. Es gibt keinen abgeschlossenen simulierten Xetra-Trade. US-IREN-Referenzsimulation ist keine Xetra-Position und bleibt unberührt."
+    },
+    {
+      "id": "XETRA-20261106T090304Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T09:03:04Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Europa-KI-Ausverkauf; SHL Earnings-Guidance, KBX stark, HFG gemischt, TEP Gewinnwarnung",
+      "summary": "Vier überprüfte Titel, sieben Quellen-URLs. Kein verifizierter zeitnaher Xetra-Quote, keine virtuelle Order.",
+      "source_status": "7 URLs im Lauf; 4 Aktien thematisch überprüft; keine 50-Dokument-Vollanalyse, keine aktuellen Fills",
+      "candidates": [
+        {
+          "ticker": "SHL",
+          "name": "Siemens Healthineers",
+          "tv": "XETR:SHL",
+          "side": "BEARISH WATCH",
+          "thesis": "FY27 EPS 2,20–2,40 EUR unter FY26 2,42; Diagnostik belastet",
+          "risk": "Imaging und FCF stark; Carve-out könnte Wert freisetzen",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KBX",
+          "name": "Knorr-Bremse",
+          "tv": "XETR:KBX",
+          "side": "LONG WATCH",
+          "thesis": "Q3 EBIT +19,1% und FCF +nahezu 50%",
+          "risk": "Zyklische Truck-Nachfrage; Erwartungen möglicherweise eingepreist",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "NEUTRAL",
+          "thesis": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
+          "risk": "Nachfrageprobleme gegen Kostenkontrolle",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TEP",
+          "name": "Teleperformance",
+          "tv": "EURONEXT:TEP",
+          "side": "BEARISH WATCH",
+          "thesis": "Gesenkter Umsatz-Ausblick, ca. 18% Kursrückgang",
+          "risk": "Short-Chase und mögliche Gegenbewegung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "FY2026 und Q4 Ergebnis, Ausblick FY2027",
+          "published_at": "2026-11-05",
+          "ticker": "SHL",
+          "publisher": "Siemens Healthineers",
+          "url": "https://www.siemens-healthineers.com/press/releases/2026q4",
+          "finding": "FY26 Umsatz +4% vergleichbar, EPS 2,42 EUR; FY27 EPS-Ziel 2,20–2,40 EUR; Q4 Diagnostics -4,2%"
+        },
+        {
+          "title": "Diagnostics carve-out und China-Risiken",
+          "published_at": "2026-11-05",
+          "ticker": "SHL",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-starts-carve-out-diagnostics-business-2026-11-05/",
+          "finding": "Olyrian-Diagnostik-Carve-out bis Mitte 2028; kurzfristige Trennkosten"
+        },
+        {
+          "title": "Q3 2026 Ergebnis",
+          "published_at": "2026-11-05",
+          "ticker": "HFG",
+          "publisher": "HelloFresh via EQS/Webdisclosure",
+          "url": "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
+          "finding": "Umsatz -11,3% währungsbereinigt, AEBITDA 50,9 Mio EUR, Aufträge -17,9%"
+        },
+        {
+          "title": "Europäische Aktien unter Druck; Teleperformance Gewinnwarnung",
+          "published_at": "2026-11-06",
+          "ticker": "TEP",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/",
+          "finding": "STOXX600 -1,6% um 08:10 GMT; Teleperformance -18% nach Senkung des Umsatzausblicks"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "SHL",
+          "name": "Siemens Healthineers",
+          "tv": "XETR:SHL",
+          "stance": "BEARISH WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "FY27 EPS 2,20–2,40 EUR unter FY26 2,42; Diagnostik belastet",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY26 Umsatz +4% vergleichbar, EPS 2,42 EUR; FY27 EPS-Ziel 2,20–2,40 EUR; Q4 Diagnostics -4,2%",
+              "url": "https://www.siemens-healthineers.com/press/releases/2026q4",
+              "publisher": "Siemens Healthineers",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Olyrian-Diagnostik-Carve-out bis Mitte 2028; kurzfristige Trennkosten",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-starts-carve-out-diagnostics-business-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY26 Umsatzprognose von 5–6% auf 3,5–4% gesenkt",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-cuts-revenue-forecast-citing-diagnostics-weakness-2026-07-31/",
+              "publisher": "Reuters",
+              "published_at": "2026-07-31"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Imaging und FCF stark; Carve-out könnte Wert freisetzen"
+          ]
+        },
+        {
+          "ticker": "KBX",
+          "name": "Knorr-Bremse",
+          "tv": "XETR:KBX",
+          "stance": "LONG WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 EBIT +19,1% und FCF +nahezu 50%",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz +9%, EBIT 299 Mio EUR, FCF 238 Mio EUR, Auftragsbestand 7,9 Mrd EUR",
+              "url": "https://newsroom.knorr-bremse.com/en/knorr-bremse-delivers-another-strong-quarter/",
+              "publisher": "Knorr-Bremse",
+              "published_at": null
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Zyklische Truck-Nachfrage; Erwartungen möglicherweise eingepreist"
+          ]
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz -11,3% währungsbereinigt, AEBITDA 50,9 Mio EUR, Aufträge -17,9%",
+              "url": "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
+              "publisher": "HelloFresh via EQS/Webdisclosure",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3-Umsatzprognose -11% bis -12%, Q3 AEBITDA 45–55 Mio EUR",
+              "url": "https://www.ingmarkets.de/nachrichten/ADE%3AKJQTNPRXJMYFCVQOKWNXOYBG",
+              "publisher": "HelloFresh via EQS/ING",
+              "published_at": "2026-09-24"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Nachfrageprobleme gegen Kostenkontrolle"
+          ]
+        },
+        {
+          "ticker": "TEP",
+          "name": "Teleperformance",
+          "tv": "EURONEXT:TEP",
+          "stance": "BEARISH WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Gesenkter Umsatz-Ausblick, ca. 18% Kursrückgang",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "STOXX600 -1,6% um 08:10 GMT; Teleperformance -18% nach Senkung des Umsatzausblicks",
+              "url": "https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Short-Chase und mögliche Gegenbewegung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": null,
+        "stance": "UNVERBINDLICHE REFERENZSIMULATION",
+        "summary": "Historischer IREN-Short-Referenzkurs 18,05 USD, kein zeitgenau verifizierter Fill; kein neuer Mark",
+        "base_scenario": "Ohne US-Kurszeit keine neue Aussage",
+        "bull_scenario": "Weitere Schwäche bei negativen Unternehmensmeldungen",
+        "bear_scenario": "Short-Squeeze bei positiven Unternehmensmeldungen",
+        "key_risk": "US-Markt und Währungsrisiko",
+        "planned_exit": "Nur als gesonderte, vor Öffnung festgelegte Referenzsimulation; kein bestätigter Order-Fill",
+        "as_of": "2026-11-06T09:03:04Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 6. November 2026, 10:03 MEZ\n\n## Marktüberblick\nReuters berichtet um 08:10 GMT (09:10 MEZ) über einen Rückgang des STOXX Europe 600 von 1,6 % auf 644,72 Punkte. Schwache KI- und Halbleiterwerte belasten Europa; Teleperformance verlor nach gesenktem Ausblick rund 18 %. [Reuters, 06.11.2026](https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/). Das ist ein zeitlich begrenzter Snapshot, kein tickgenauer Kurs um 10:03.\n\n## Priorität 1: Siemens Healthineers (SHL) – vorsichtig bearish, kein Fill\n[Originalmeldung Siemens Healthineers, 05.11.2026](https://www.siemens-healthineers.com/press/releases/2026q4): 2026 vergleichbares Umsatzwachstum +4,0%, bereinigtes EPS 2,42 EUR, FCF rund 2,4 Mrd EUR; Q4 Imaging +10%, Diagnostics -4,2%. FY2027 Ziel: 4–5% Umsatzwachstum und EPS 2,20–2,40 EUR, also unter dem Vorjahres-EPS. [Reuters, 05.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-starts-carve-out-diagnostics-business-2026-11-05/): Olyrian-Carve-out bis Mitte 2028, potenzielle Trennkosten. [Reuters, 31.07.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-cuts-revenue-forecast-citing-diagnostics-weakness-2026-07-31/): frühere FY26-Umsatzprognose 5–6% auf 3,5–4% reduziert. Tatsächliches +4% erreicht oberes Ende der revidierten Spanne, nicht das ursprüngliche Ziel. **Bull:** Imaging, FCF und Portfoliobereinigung. **Bear:** EPS-Rückgang, Diagnostik, China und Übergangskosten. Keine aktuelle, zeitgestempelte Xetra-Ausführung; kein Trade. Zwei aktuelle Analysten-Voten: nicht verifiziert.\n\n## Priorität 2: Knorr-Bremse (KBX) – Long-Watch, kein Fill\n[Unternehmensmeldung Knorr-Bremse, Q3 2026](https://newsroom.knorr-bremse.com/en/knorr-bremse-delivers-another-strong-quarter/): Umsatz 2,051 Mrd EUR (+9%), operatives EBIT 299 Mio EUR (+19,1%), FCF 238 Mio EUR (+nahezu 50%), Auftragsbestand 7,883 Mrd EUR. Operativer FY26-Ausblick am oberen Ende der Guidance. **Bull:** Rail/Truck-Profitabilität, Auftragsbestand. **Bear:** konjunktureller Truck-Zyklus und bereits eingepreiste gute Ergebnisse. Aktueller Konsens und zeitnaher Quote nicht verifiziert.\n\n## Priorität 3: HelloFresh (HFG) – neutral, mögliche Short-These noch nicht bestätigt\n[HelloFresh Q3, 05.11.2026](https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw): Umsatz -11,3% währungsbereinigt, 19,6 Mio Bestellungen (-17,9%), AOV +7,5%, AEBITDA 50,9 Mio EUR und FCF -5,7 Mio EUR. [Ad-hoc vom 24.09.2026](https://www.ingmarkets.de/nachrichten/ADE%3AKJQTNPRXJMYFCVQOKWNXOYBG): Q3-Prognose -11% bis -12% Umsatz und AEBITDA 45–55 Mio EUR. Beide tatsächlichen Q3-Werte liegen in den REVIDIERTEN Zielspannen; ursprünglicher Marktkonsens war besser. **Bear:** Kunden- und Auftragsrückgang. **Bull:** höhere Profitabilität und Cashflow-Verbesserung. Kein neues Signal ohne Konsens- und Kursabgleich.\n\n## Neu im Screening: Teleperformance (TEP) – WATCH / vorläufig\n[Reuters, 06.11.2026](https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/): Aktie ca. -18% nach reduzierter Jahres-Umsatzprognose, Probleme im Trust-&-Safety-Geschäft. Short-Chase nach großem Gap besonders riskant. Primärquelle der neuen Guidance, Kurszeit, zwei Analystenvoten, Konsensvergleich und Bewertung noch nicht verifiziert.\n\n## Screening, Quellenstand, Handelsentscheidung\nIn diesem Lauf 4 individuell thematisch geprüfte Aktien (SHL, KBX, HFG, TEP); zusätzlich Sektorindikatoren ASMI/Siltronic/Siemens Energy aus Reuters nur DISCOVERED, nicht als voll geprüft gezählt. Keine überprüfte vollständige Earnings-Kalender-Abdeckung, keine 50-Quellen-Vollanalyse. Neu in diesem Lauf 7 unterschiedliche URLs (3 SHL, 1 KBX, 2 HFG, 1 Markt-/TEP); mehrere Quellen sind ältere Dokumente, zwei HelloFresh-Meldungen stammen vom gleichen Emittenten. Institutionelle Zwei-Filing-Vergleiche, namentliche neue Analysten-Voten, Options-/Spread-Daten und belastbare Kursreihen: nicht verifiziert. Kein belastbarer Live-Xetra-Quote, daher kein Entry und keine PnL-Neuberechnung.\n\n**Entscheidung 10:03 MEZ: KEIN TRADE.** Nächste Entscheidung zu simulierten Overnight-Einstiegen erst vor 17:30 Xetra-Schluss, spätestens 17:00. Für einen morgendlichen Market-on-Open-Ausstieg muss die simulierte Order vorher feststehen; die amtliche Eröffnung ist erst danach überprüfbar. Historische IREN-Referenzsimulation (18,05 USD) ist kein nachgewiesener Fill und gehört zum US-Research."
     }
   ],
   "deep_dives": {
@@ -2755,10 +2970,10 @@
       "ticker": "HFG",
       "name": "HelloFresh SE",
       "tv": "XETR:HFG",
-      "as_of": "2026-11-06T08:59:29+01:00",
-      "status": "PRELIMINARY",
-      "stance": "WATCH / gemischt",
-      "summary": "AEBITDA-Erholung gegen deutlichen Umsatzrückgang; keine belastbare neue Short-Order ohne aktuelle Kurse.",
+      "as_of": "2026-11-06T09:03:04Z",
+      "status": "UNVOLLSTÄNDIG",
+      "stance": "NEUTRAL",
+      "summary": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
       "source_goal": 50,
       "source_documents": [
         {
@@ -2790,6 +3005,26 @@
           "finding": "Unternehmensarchiv listet Prognoserevision vom 24.09.2026 und Q2-Bericht vom 13.08.2026; Originaldokumente noch nicht einzeln vertieft.",
           "checked_on": "2026-11-06",
           "doc_type": "company_ir"
+        },
+        {
+          "id": "HFG-4",
+          "title": "Q3 2026 Ergebnis",
+          "publisher": "HelloFresh via EQS/Webdisclosure",
+          "published_at": "2026-11-05",
+          "url": "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
+          "finding": "Umsatz -11,3% währungsbereinigt, AEBITDA 50,9 Mio EUR, Aufträge -17,9%",
+          "checked_on": "2026-11-06T09:03:04Z",
+          "doc_type": "company_release"
+        },
+        {
+          "id": "HFG-5",
+          "title": "Ad-hoc Guidance-Revision 24.09.2026",
+          "publisher": "HelloFresh via EQS/ING",
+          "published_at": "2026-09-24",
+          "url": "https://www.ingmarkets.de/nachrichten/ADE%3AKJQTNPRXJMYFCVQOKWNXOYBG",
+          "finding": "Q3-Umsatzprognose -11% bis -12%, Q3 AEBITDA 45–55 Mio EUR",
+          "checked_on": "2026-11-06T09:03:04Z",
+          "doc_type": "company_release"
         }
       ],
       "financial_history": [
@@ -3053,16 +3288,26 @@
           "finding": "Reuters: Diagnostics etwa 17 % des Umsatzes, Carve-out bis Mitte 2028 geplant, kurzfristige Trennungskosten.",
           "checked_on": "2026-11-06",
           "doc_type": "news"
+        },
+        {
+          "id": "SHL-6",
+          "title": "Sommerliche Senkung der Umsatzprognose",
+          "publisher": "Reuters",
+          "published_at": "2026-07-31",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-cuts-revenue-forecast-citing-diagnostics-weakness-2026-07-31/",
+          "finding": "FY26 Umsatzprognose von 5–6% auf 3,5–4% gesenkt",
+          "checked_on": "2026-11-06T09:03:04Z",
+          "doc_type": "news"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
       "analyst_coverage": [],
-      "as_of": "2026-11-06T08:59:29+01:00",
-      "status": "PRELIMINARY",
-      "stance": "WATCH / vorsichtig bearish",
-      "summary": "Starkes Imaging, aber Diagnostics-Schwäche und niedrigere FY27-EPS-Guidance; Carve-out als zweischneidiger Katalysator.",
+      "as_of": "2026-11-06T09:03:04Z",
+      "status": "UNVOLLSTÄNDIG",
+      "stance": "BEARISH WATCH",
+      "summary": "FY27 EPS 2,20–2,40 EUR unter FY26 2,42; Diagnostik belastet",
       "key_unknowns": [
         "Aktuelle Xetra-Quotes",
         "Konsens und Analystenrevisionen",
@@ -3095,16 +3340,26 @@
           "finding": "Vorbörslicher Lang-&-Schwarz-Kurs 95,35 EUR um 08:25 Uhr am 06.11., nicht Xetra-Opening; Xetra-Schluss 95,80 EUR am 05.11.",
           "checked_on": "2026-11-06",
           "doc_type": "market_news"
+        },
+        {
+          "id": "KBX-3",
+          "title": "Q3 2026 starke Quartalszahlen",
+          "publisher": "Knorr-Bremse",
+          "published_at": null,
+          "url": "https://newsroom.knorr-bremse.com/en/knorr-bremse-delivers-another-strong-quarter/",
+          "finding": "Umsatz +9%, EBIT 299 Mio EUR, FCF 238 Mio EUR, Auftragsbestand 7,9 Mrd EUR",
+          "checked_on": "2026-11-06T09:03:04Z",
+          "doc_type": "company_release"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
       "analyst_coverage": [],
-      "as_of": "2026-11-06T08:59:29+01:00",
-      "status": "PRELIMINARY",
-      "stance": "WATCH / Long-Tendenz",
-      "summary": "Operative Stärke und hoher Auftragsbestand; Kursreaktion und Bewertung fehlen.",
+      "as_of": "2026-11-06T09:03:04Z",
+      "status": "UNVOLLSTÄNDIG",
+      "stance": "LONG WATCH",
+      "summary": "Q3 EBIT +19,1% und FCF +nahezu 50%",
       "key_unknowns": [
         "Aktuelle Xetra-Quotes",
         "Konsens und Analystenrevisionen",
@@ -3114,13 +3369,13 @@
     }
   },
   "screening": {
-    "status": "PRELIMINARY",
-    "as_of": "2026-11-06T08:59:29+01:00",
-    "method_note": "Dieser Lauf: nur 3 Titel anhand datierter Berichte vertieft; keine breitere numerisch verifizierte Universe-Abdeckung.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-06T09:03:04Z",
+    "method_note": "4 Aktien in diesem Lauf anhand datierter Veröffentlichungen individuell thematisch überprüft; keine komplette Marktdeckung",
     "coverage": {
-      "universe_checked": 3,
+      "universe_checked": 4,
       "earnings_events": 3,
-      "triaged": 3,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -3196,24 +3451,6 @@
           "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731"
         ],
         "as_of": "2026-11-05T23:27:10Z"
-      },
-      {
-        "ticker": "HFG",
-        "name": "HelloFresh",
-        "tv": "XETR:HFG",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH / gemischt",
-        "reason": "AEBITDA-Erholung gegen deutlichen Umsatzrückgang; keine belastbare neue Short-Order ohne aktuelle Kurse.",
-        "stage": "DEEP_DIVE",
-        "earnings_at": null,
-        "event": "Recent quarterly results",
-        "score": null,
-        "sources": [
-          "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
-          "https://www.hellofreshgroup.com/de/newsroom/press-releases/"
-        ],
-        "as_of": "2026-11-06T08:59:29+01:00"
       },
       {
         "ticker": "ABNB",
@@ -3663,20 +3900,18 @@
         "tv": "XETR:SHL",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH / vorsichtig bearish",
-        "reason": "Starkes Imaging, aber Diagnostics-Schwäche und niedrigere FY27-EPS-Guidance; Carve-out als zweischneidiger Katalysator.",
+        "direction": "BEARISH WATCH",
+        "reason": "FY27 EPS 2,20–2,40 EUR unter FY26 2,42; Diagnostik belastet",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Recent quarterly results",
+        "event": "FY27 EPS 2,20–2,40 EUR unter FY26 2,42; Diagnostik belastet",
         "score": null,
         "sources": [
           "https://www.siemens-healthineers.com/press/releases/2026q4",
-          "https://www.siemens-healthineers.com/deu/press/releases/olyrian-diagnostics",
-          "https://www.siemens-healthineers.com/press/releases/2026q3",
-          "https://www.siemens-healthineers.com/press/releases/2025q4",
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-starts-carve-out-diagnostics-business-2026-11-05/"
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-starts-carve-out-diagnostics-business-2026-11-05/",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-cuts-revenue-forecast-citing-diagnostics-weakness-2026-07-31/"
         ],
-        "as_of": "2026-11-06T08:59:29+01:00"
+        "as_of": "2026-11-06T09:03:04Z"
       },
       {
         "ticker": "KBX",
@@ -3684,17 +3919,51 @@
         "tv": "XETR:KBX",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH / Long-Tendenz",
-        "reason": "Operative Stärke und hoher Auftragsbestand; Kursreaktion und Bewertung fehlen.",
+        "direction": "LONG WATCH",
+        "reason": "Q3 EBIT +19,1% und FCF +nahezu 50%",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Recent quarterly results",
+        "event": "Q3 EBIT +19,1% und FCF +nahezu 50%",
         "score": null,
         "sources": [
-          "https://www.ir.knorr-bremse.com/en/news/knorr-bremse-mit-erneut-starkem-quartal/5fda15ef-11e3-4919-a6f4-7e0be37b52bc",
-          "https://www.ad-hoc-news.de/boerse/news/vorboerse/knorr-bremse-aktie-vorboerslich-95-35-euro-0-47-prozent-tiefer/70468214"
+          "https://newsroom.knorr-bremse.com/en/knorr-bremse-delivers-another-strong-quarter/"
         ],
-        "as_of": "2026-11-06T08:59:29+01:00"
+        "as_of": "2026-11-06T09:03:04Z"
+      },
+      {
+        "ticker": "HFG",
+        "name": "HelloFresh",
+        "tv": "XETR:HFG",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
+        "stage": "DEEP_DIVE",
+        "earnings_at": null,
+        "event": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
+        "score": null,
+        "sources": [
+          "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
+          "https://www.ingmarkets.de/nachrichten/ADE%3AKJQTNPRXJMYFCVQOKWNXOYBG"
+        ],
+        "as_of": "2026-11-06T09:03:04Z"
+      },
+      {
+        "ticker": "TEP",
+        "name": "Teleperformance",
+        "tv": "EURONEXT:TEP",
+        "market": "EU",
+        "sector": null,
+        "direction": "BEARISH WATCH",
+        "reason": "Gesenkter Umsatz-Ausblick, ca. 18% Kursrückgang",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Gesenkter Umsatz-Ausblick, ca. 18% Kursrückgang",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/"
+        ],
+        "as_of": "2026-11-06T09:03:04Z"
       }
     ],
     "pairs": [],
@@ -3758,6 +4027,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261106T075929Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "XETRA",
+        "universe_checked": 4,
+        "earnings_events": 3,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261106T090304Z"
       }
     ],
     "strategies": [
