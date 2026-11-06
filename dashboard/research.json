@@ -1,6 +1,6 @@
 {
-  "version": 32,
-  "updated_at": "2026-11-06T16:25:06Z",
+  "version": 33,
+  "updated_at": "2026-11-06T17:34:09Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -5300,6 +5300,146 @@
         "reference_only": true
       },
       "report_markdown": "# US-Research 2026-11-06T16:25:06Z – 11:25 EST\n\n## Markt und Entscheidung\nFreitag, regulärer NYSE/Nasdaq-Handel 09:30–16:00 EST. Researchslot, nicht 15:30-Entry-Slot. **KEIN TRADE**. Keine Brokerorders und keine belegten neuen Paper-Fills. Marktweite aktuelle Indexstände nicht verifiziert.\n\n## Screening und Kandidaten\nGezielt untersucht: IREN, MRNA, NET; zusätzlich PTON und HFG als offene Nutzerpositionen. Nicht als breites quantitatives Universum ausgeben. IREN SHORT-These gefährdet durch Earnings-Rebound; MRNA LONG-Beobachtung nach Guidance-Anhebung; NET LONG-Beobachtung, aber aktueller vollständiger IR-/Konsensabgleich fehlt. PTON/HFG keine neuen Trades. Keine zwei unabhängigen qualifizierten Chancen und keine aktuelle Entry-Bid/Ask.\n\n## IREN – Bull/Bear\n[Reuters 05.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/): Q3-Umsatz 228 Mio USD, AI-Cloud 200 Mio USD. Microsoft-bedingte Netzwerkänderungen verschieben >4 Mrd USD annualisierte Umsatz-Runrate auf Jan/Feb 2027; etwa 15 Mrd USD geplante Investitionen. Bull: starkes AI-Wachstum und langfristige Verträge; Bear: Ausführungsrisiko, Finanzierung und Verwässerung. [Reuters 06.11.2026](https://www.reuters.com/business/finance/ing-puts-500-million-data-center-loans-up-sale-bloomberg-news-reports-2026-11-06/): ING verkauft laut Bloomberg Datenzentrumskredite; **kein Beleg**, dass IREN-Kredite enthalten sind. IREN Nasdaq Yahoo-Kursseite [Yahoo Finance, Abruf 06.11.2026](https://finance.yahoo.com/quote/IREN/history/) zeigte 21,90 USD mit explizitem 09:45:32 EST-Zeitpunkt, jedoch nur als Suchansicht und nicht als vollständig geöffnetes Dokument; deshalb **keine neue Positionsmarkierung**. Die letzte gespeicherte IREN-Marke 21,34 USD, 09:30 EST, ist ALT und als PREMARKET bezeichnet, nicht als regulärer Opening-Print.\n\n## Moderna – Guidance und Gegenargumente\n[Reuters 06.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/): Umsatz Q3 1,3 Mrd USD vs LSEG-Konsens 885,1 Mio USD; Gewinn 162 Mio USD statt Vorjahresverlust ~200 Mio; 2026 Umsatzwachstum nun +15 bis +25% statt bis +10%. Evercore-ISI Cory Kasimov positiv; Bernstein begrüßt strengere Norovirus-Forschungsdisziplin. Bull: Guidance-Revision, Onkologiepipeline; Bear: COVID-Umsatzabhängigkeit, bereits stark gestiegene Aktie. Kein verifizierter historischer Guidance-Ist-Paarvergleich; Analysten-Kursziele nicht gefunden.\n\n## Cloudflare\n[Barron's, Abruf 06.11.2026](https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e) nur teilweise zugänglich. Daher weder vollständige EPS+Umsatz-Surprise noch PEAD-These aus einem vollständig gelesenen Text bestätigt. Nicht qualifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT PAPER **nur REFERENZSIMULATION**: hypothetischer Einstieg 18,05 USD, 100 EUR Einsatz, 5x, Exposure 500 EUR; letzte gespeicherte Marke 21,34 USD um 09:30 EST, Quelle https://public.com/stocks/iren/pre-market, Marktphase PREMARKET, ALT. Modell-PnL = 500*(1-21,34/18,05)= **−91,14 EUR**; kein nachgewiesener Einstieg, kein verifizierter Exit, keine Gebühren/FX/Spread/KO.\n- HFG SHORT USER_REPORTED: gespeicherter Xetra-Last 3,142 EUR, 06.11. 13:21 CET, https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm, ALT; Derivate-PnL nicht berechenbar, Einstieg/ISIN unbekannt. Neu geöffnete Orderbuchseite https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm zeigte 3,224 EUR um 10:20 CET und Bid/Ask 10:49 CET, beide **älter** als gespeicherte 13:21-Marke, daher kein Update.\n- PTON SHORT USER_REPORTED: gespeicherter PREMARKET 5,65 USD, 06.11. 09:00 EST, https://public.com/stocks/pton/pre-market, ALT. [StockAnalysis, Abruf 06.11.](https://stockanalysis.com/stocks/pton/history/) zeigt 5,68 USD 07:57 EST und Schlusskurs 05.11. 5,66 USD; beides älter. Derivate-PnL nicht berechenbar.\n- DEUTZ LONG bereits USER_REPORTED CLOSED, kein neuer Eingriff.\n\n## Forschungslücken\nDrei inhaltlich vollständig geöffnete neue Reuters-Texte, zusätzlich zwei geöffnete Kurs-/Artikel-Seiten; **keine** neuen verifizierten Original-IR-/SEC-Dokumente. IREN bestehendes Dossier 10/50, MRNA 1/50, NET 6/50, nicht in diesem Lauf vollständig neu geprüft. Keine validierten zwei aufeinanderfolgenden 13F-Filings, keine 60–252-Tage-Paar-Korrelation, keine aktuellen Options-IV-Daten. Strategien PRE-EARNINGS/PEAD/Guidance/Pairs nicht hinreichend qualifiziert. Nächster potenzieller Entry-Slot 15:30 EST; kein rückdatierter Fill.\n\n## Datenstatus\nTradingView-Widget kein programmatisch belegter Kursfeed. Keine neuen aktuellen PnL-Marken. Keine automatische Änderung auf dem Mac oder nachgewiesenes Pages-Deployment."
+    },
+    {
+      "id": "US-20261106T173409Z",
+      "market": "US",
+      "run_at": "2026-11-06T17:34:09Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "REVIEW",
+      "headline": "IREN Microsoft-Lieferverzögerung versus AI-Umsatzwachstum; NET Q3-Guidance-Beat",
+      "summary": "Kein Entry im 12:30-Slot; PTON-Marke 5,78 USD 12:25 EST aktualisiert; IREN Referenz-PnL nicht realisiert.",
+      "source_status": "VORLÄUFIG: IREN 1/50, NET 2/50, PTON 1/50 in diesem Lauf",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "WATCH",
+          "thesis": "AI-Cloud-Umsatzwachstum versus Microsoft-Timing und Finanzierungsrisiko",
+          "risk": "Short squeeze und hohe Capex",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "LONG WATCH",
+          "thesis": "Q3-Umsatzwachstum und Q4-Guidance-Beat",
+          "risk": "Bewertung und Gap-Risiko",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "side": "REVIEW",
+          "thesis": "Bestehende Nutzer-Short-Position prüfen",
+          "risk": "Turbo-Daten fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "IREN delays Microsoft AI deliveries",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "$228m Umsatz; Timing-Ziel verschoben"
+        },
+        {
+          "title": "Cloudflare Q3 2026 results",
+          "published_at": "2026-11-05",
+          "ticker": "NET",
+          "publisher": "Cloudflare IR",
+          "url": "https://www.cloudflare.com/tr-tr/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+          "finding": "$782.5m Umsatz, Q4 Guidance $845–846m"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "228 Mio. USD Umsatz; Microsoft-Delay; Capex-Plan 15 Mrd. USD",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "228 Mio. USD Umsatz; Microsoft-Delay; Capex-Plan 15 Mrd. USD",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": []
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "stance": "LONG WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatz 782,5 Mio. USD; Q4-Guidance 845–846 Mio.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz 782,5 Mio. USD; Q4-Guidance 845–846 Mio.",
+              "url": "https://www.cloudflare.com/tr-tr/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+              "publisher": "Cloudflare IR",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": []
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "12:25 EST 5,78 USD",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "12:25 EST 5,78 USD",
+              "url": "https://stockanalysis.com/stocks/pton/history/",
+              "publisher": "StockAnalysis",
+              "published_at": null
+            }
+          ],
+          "catalysts": [],
+          "invalidations": []
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE SHORT",
+        "summary": "Hypothetischer 18,05 USD Short; kein belegter Fill",
+        "base_scenario": "Volatil nach Earnings",
+        "bull_scenario": "Weitere Erholung verschlechtert Short",
+        "bear_scenario": "Verzögerungs-/Finanzierungsrisiko belastet Kurs",
+        "key_risk": "Short squeeze",
+        "planned_exit": "Nicht als tatsächlich ausgeführt verbuchen",
+        "as_of": "2026-11-06T17:34:09Z",
+        "mark_price": 21.34,
+        "mark_at": "2026-11-06T09:30:00-05:00",
+        "mark_source_url": "https://public.com/stocks/iren/pre-market",
+        "pnl_eur": -91.14,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Research 06.11.2026, 12:34 EST (17:34 UTC)\n\n**Entscheidung: REVIEW / KEIN TRADE.** Regulärer Freitagshandel 09:30–16:00 EST; 12:30 ist kein autorisierter Overnight-Einstiegsslot. Keine realen Orders.\n\n## Markt und Earnings\nIREN meldete für das Septemberquartal 228 Mio. USD Umsatz (LSEG-Erwartung 221,28 Mio.), davon 200 Mio. AI-Cloud-Umsatz. Die Inbetriebnahme des über 4 Mrd. USD annualisierten Umsatzlaufziels verschiebt sich wegen Microsoft-Netzwerkänderungen von Jahresende auf Januar, eventuell Februar; geplante Investitionen im verbleibenden Geschäftsjahr rund 15 Mrd. USD. Quelle: [Reuters, 05.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/). Gegenargument für Short: starkes AI-Wachstum und positive Marktreaktion am Freitag; für Long: Ausführungs- und Finanzierungsrisiken.\n\nCloudflare NET berichtete 782,5 Mio. USD Umsatz (+39% YoY), 67,9 Mio. USD GAAP-Betriebsverlust und 82,1 Mio. USD Free Cashflow. Q4-Umsatzprognose 845–846 Mio. USD. Quelle: [Cloudflare IR, 05.11.2026](https://www.cloudflare.com/tr-tr/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/). Momentum-Long-Hypothese, aber Gap-/Bewertungsrisiko; kein zeitnaher dokumentierter Fill.\n\nPTON regulärer Last 5,78 USD, **12:25 EST** (nicht 12:34); +2,12% zum Vortag. Quelle: [StockAnalysis, abgerufen 06.11.2026](https://stockanalysis.com/stocks/pton/history/).\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT: 18,05 USD ausschließlich **hypothetische Referenz**, kein belegter Einstieg. Gespeicherte Marke 21,34 USD, 09:30 EST, als PREMARKET beschriftet, [Public.com](https://public.com/stocks/iren/pre-market). Theoretisch 500×(1−21,34/18,05)=**−91,14 EUR**; keine echte Performance. [Yahoo-Finance-Seite](https://finance.yahoo.com/quote/IREN/history/) zeigt 21,90 USD mit Zeit 09:45:32 EST in Suchansicht, direkter Abruf 429; daher keine neue IREN-Marke gebucht. Eröffnungs-Exit nicht nachgewiesen.\n- PTON SHORT USER_REPORTED: 5,78 USD 12:25 EST, REGULAR, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/); Turbo-Einstieg, ISIN, KO und Produktpreis fehlen: **PnL nicht berechenbar**. Kein simuliertes Schließen.\n- HFG SHORT USER_REPORTED: letzter gespeicherter Kurs 3,142 EUR vom 06.11. 13:21 CET, Xetra REGULAR, [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); zu dieser US-Laufzeit veraltet. Turbo-PnL nicht berechenbar.\n\n## Research-Tiefe und Grenzen\nIm Lauf inhaltlich geöffnet: IREN Reuters 1/50; NET Cloudflare-IR 1/50 und Investor's Business Daily 1/50; PTON StockAnalysis 1/50. Weitere Suchtreffer nicht als geprüfte Dokumente gezählt. Keine zwei unabhängig geprüften 13F-Originalfilings, kein valider Guidance-Ist-Score, keine vollständigen aktuellen Analysten-Paare, kein 60–252-Tage-Pairs-Backtest, keine belastbare aktuelle Bid/Ask-Spread-Verifikation. Screening daher vorläufig: 3 konkret betrachtete Titel, null qualifizierte Entries. Das Research ist **nicht vollständig**.\n\n## Strategie und nächster Schritt\nPRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS wurden als Hypothesen verglichen; nur NET/IREN liefern heute belastbare Ergebnis-/Guidance-Anlässe, aber keine ausreichende Ausführungsqualität. IREN: SHORT wird durch nachhaltige Vertragsauslieferung und positive Kursbestätigung widerlegt; LONG durch weitere Verzögerung/Finanzierungslücke. NET: LONG durch nachlassende Auftragsdynamik oder Bewertungsabverkauf widerlegt. **Kein neuer Paper-Entry.** 15:30 EST erneut prüfen, nur mit zeitnaher Quelle."
     }
   ],
   "deep_dives": {
@@ -5307,7 +5447,7 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-06T14:25:22Z",
+      "as_of": "2026-11-06T17:34:09Z",
       "status": "PRELIMINARY",
       "stance": "WATCH",
       "summary": "Umsatzüberraschung versus Microsoft-Verzögerung und hoher Capex; Vorbörsen-Rally gegen Short.",
@@ -5633,7 +5773,7 @@
       "ticker": "NET",
       "name": "Cloudflare",
       "tv": "NYSE:NET",
-      "as_of": "2026-11-06T14:25:22Z",
+      "as_of": "2026-11-06T17:34:09Z",
       "status": "PRELIMINARY",
       "stance": "WATCH LONG",
       "summary": "Earnings-getriebene Erholung; zugänglicher Volltext begrenzt.",
@@ -5698,6 +5838,16 @@
           "finding": "Pre-release revenue consensus $736.78m, EPS $0.3424; historical snapshot not current post-release estimate.",
           "checked_on": "2026-11-05T23:27:10Z",
           "doc_type": "consensus"
+        },
+        {
+          "id": "NET-20261106-7",
+          "title": "Cloudflare Q3 2026 results",
+          "publisher": "Cloudflare IR",
+          "published_at": "2026-11-05",
+          "url": "https://www.cloudflare.com/tr-tr/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+          "finding": "Umsatz 782,5 Mio. USD; Q4-Guidance 845–846 Mio.",
+          "checked_on": "2026-11-06T17:34:09Z",
+          "doc_type": "IR"
         }
       ],
       "financial_history": [
@@ -6515,12 +6665,12 @@
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-06T16:25:06Z",
-    "method_note": "Dieser Lauf: 3 Research-Titel gezielt triagiert; keine breite quantitative Universumsprüfung, Quellenlücken.",
+    "status": "PRELIMINARY",
+    "as_of": "2026-11-06T17:34:09Z",
+    "method_note": "Only 3 tickers examined this run, not broad market universe",
     "coverage": {
       "universe_checked": 3,
-      "earnings_events": 3,
+      "earnings_events": 2,
       "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
@@ -7486,6 +7636,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T162506Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "US",
+        "universe_checked": 3,
+        "earnings_events": 2,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261106T173409Z"
       }
     ],
     "strategies": [
