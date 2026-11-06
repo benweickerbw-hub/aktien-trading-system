@@ -1,8 +1,390 @@
 {
-  "version": 18,
-  "updated_at": "2026-11-06T09:03:04Z",
+  "version": 19,
+  "updated_at": "2026-11-06T10:00:00Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
+    {
+      "id": "US-20261105T183000Z",
+      "market": "US",
+      "run_at": "2026-11-05T13:32:00-05:00",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN bleibt Short-Watchlist; APP Long-Beobachtung; NET und AFRM neutral.",
+      "summary": "Der protokollierte stündliche Research-Lauf eröffnete keinen neuen Paper-Trade. IREN-Projektfortschritt, Finanzierung und Earnings bleiben zu prüfen.",
+      "source_status": "Automations-Report übernommen; Meldungen im Dashboard nicht separat neu verifiziert.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "side": "SHORT_WATCH",
+          "confidence": null,
+          "sources_checked": 3,
+          "sources_target": 50,
+          "thesis": "Short-Priorität; Projektrisiken und Finanzierung vor Earnings besonders relevant.",
+          "risk": "Microsoft hat IREN nicht als Verursacher von Verzögerungen bestätigt.",
+          "tv": "NASDAQ:IREN"
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "side": "LONG_WATCH",
+          "confidence": null,
+          "sources_checked": 3,
+          "sources_target": 50,
+          "thesis": "Starker Umsatz-, Gewinn- und Cashflow-Bericht als Long-Argument.",
+          "risk": "Positive Earnings-Überraschung kann bereits eingepreist sein.",
+          "tv": "NASDAQ:APP"
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "side": "NEUTRAL",
+          "confidence": null,
+          "sources_checked": 2,
+          "sources_target": 50,
+          "thesis": "Quartalsbericht mit Guidance vergleichen.",
+          "risk": "Ausgang noch offen.",
+          "tv": "NYSE:NET"
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "side": "NEUTRAL",
+          "confidence": null,
+          "sources_checked": 2,
+          "sources_target": 50,
+          "thesis": "Kreditqualität und Refinanzierungskosten vor Zahlen prüfen.",
+          "risk": "Ausgang noch offen.",
+          "tv": "NASDAQ:AFRM"
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft AI-Ausbau: Verzögerungshypothese bei IREN weiterhin nicht bestätigt",
+          "published_at": "2026-11-04",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+          "finding": "Microsoft hat IREN nicht öffentlich als Verursacher identifiziert; Research-Hypothese, keine gesicherte Vertragsverletzung."
+        }
+      ]
+    },
+    {
+      "id": "US-20261105T193000Z",
+      "market": "US",
+      "run_at": "2026-11-05T14:32:37-05:00",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "REVIEW",
+      "headline": "AI-Sektor fällt stark; IREN Short-These, APP Long-Beobachtung; kein neuer Trade",
+      "summary": "Reuters: Nasdaq um 12:24 ET minus 4,55 Prozent. IREN unter Rechenzentrums-Projektrisiko. AppLovin meldet Q3 2026 Umsatz 2,185 Mrd USD und Gewinn 1,439 Mrd USD. Kein überprüfter zeitnaher Einstiegskurs; keine neue virtuelle Buchung.",
+      "source_status": "Direkt geöffnet: IREN 2/50, APP 1/50, NET 1/50, AFRM 2/50; weitere Markt- und Sektorquellen. Keine vollständigen Dossiers.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Bau- und Finanzierungsrisiko",
+          "risk": "Vertragslage unklar und Short-Squeeze-Risiko",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG",
+          "thesis": "Q3-Umsatz und Gewinnwachstum",
+          "risk": "Positive Überraschung möglicherweise eingepreist",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "NEUTRAL",
+          "thesis": "Wachstum und Earnings-Katalysator",
+          "risk": "Hoher GAAP-Verlust",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL",
+          "thesis": "Earnings nach Handelsschluss",
+          "risk": "Kredit- und Refinanzierungsrisiken",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Nasdaq set to confirm correction as AI stocks tumble",
+          "published_at": "2026-11-05",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/",
+          "finding": "Nasdaq um 12:24 ET minus 4,55 Prozent"
+        },
+        {
+          "title": "AppLovin Announces Third Quarter 2026 Financial Results",
+          "published_at": "2026-11-04",
+          "ticker": "APP",
+          "publisher": "AppLovin",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Umsatz 2,185 Mrd USD, Gewinn 1,439 Mrd USD"
+        },
+        {
+          "title": "IREN Reports FY26 Results",
+          "published_at": "2026-08-27",
+          "ticker": "IREN",
+          "publisher": "IREN",
+          "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html",
+          "finding": "AI-Cloud-Umsatz 128,8 Mio USD"
+        }
+      ]
+    },
+    {
+      "id": "US-20261105T203000Z",
+      "market": "US",
+      "run_at": "2026-11-05T20:30:00Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN-Projektrisiko bestätigt als Prüfpunkt; keine zeitnahe 15:30-Quote für verifizierten Fill",
+      "summary": "IREN Short-Hypothese gegen APP Long-Relative-Stärke; NET/AFRM/ABNB Earnings. Kein nachgewiesener Kurs um 15:30 ET. IREN 18,78 USD um 14:55:27 ET ist 35 Minuten alt und nicht ausführbarer Fill. Kein neuer Trade.",
+      "source_status": "Unvollständig: 50-Quellen-Ziel nicht erreicht; fünf öffentlich zugängliche inhaltliche Quellen geprüft, weitere Kalender/Quotes zur Triage; keine 13F-Paaranalyse.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
+          "risk": "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap.",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG",
+          "thesis": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
+          "risk": "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "NEUTRAL",
+          "thesis": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
+          "risk": "Bewertung, Margen und Guidance noch ungeprüft.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL",
+          "thesis": "Q1 FY27 Earnings 17 Uhr ET.",
+          "risk": "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "side": "NEUTRAL",
+          "thesis": "Earnings nach Börsenschluss laut Kalender.",
+          "risk": "Keine ausreichende historische Fundamentalanalyse.",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft tightens oversight of neocloud data center projects",
+          "published_at": "2026-11-05T17:30:00Z",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+          "finding": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung."
+        },
+        {
+          "title": "Satellite images reveal trouble brewing at Microsoft's AI data center partners",
+          "published_at": "2026-11-04T20:42:05Z",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+          "finding": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik."
+        },
+        {
+          "title": "AppLovin stock tracks largest jump in two years",
+          "published_at": "2026-11-05",
+          "ticker": "APP",
+          "publisher": "Barron's",
+          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+          "finding": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap."
+        },
+        {
+          "title": "IREN reports Q1 FY26 results",
+          "published_at": "2025-11-06T21:00:00Z",
+          "ticker": "IREN",
+          "publisher": "IREN / GlobeNewswire",
+          "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
+          "finding": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag."
+        },
+        {
+          "title": "US earnings calendar Nov 5",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/calendar/earnings/",
+          "finding": "ABNB, NET und weitere Titel mit Earnings nach Börsenschluss; Kalenderliste allein kein vollständiger Screen."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung.",
+              "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05T17:30:00Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik.",
+              "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
+              "publisher": "Business Insider",
+              "published_at": "2026-11-04T20:42:05Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag.",
+              "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
+              "publisher": "IREN / GlobeNewswire",
+              "published_at": "2025-11-06T21:00:00Z"
+            }
+          ],
+          "catalysts": [
+            "Q1 FY27 Ergebnisse 5.11. nach Schluss",
+            "Microsoft Projektstatus"
+          ],
+          "invalidations": [
+            "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap."
+          ]
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap.",
+              "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
+              "publisher": "Barron's",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko."
+          ]
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Bewertung, Margen und Guidance noch ungeprüft."
+          ]
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q1 FY27 Earnings 17 Uhr ET.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt."
+          ]
+        },
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings nach Börsenschluss laut Kalender.",
+          "points": [],
+          "catalysts": [
+            "Earnings/Kursreaktion"
+          ],
+          "invalidations": [
+            "Keine ausreichende historische Fundamentalanalyse."
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": null,
+        "stance": "SHORT",
+        "summary": "Historische Referenzsimulation zu 18,05 USD ist KEIN verifizierter Fill.",
+        "base_scenario": "Volatile Eröffnung nach Earnings, Richtung nicht belastbar",
+        "bull_scenario": "Verzögerungsbestätigung und schwache Guidance: Short könnte profitieren",
+        "bear_scenario": "Entkräftung der Vorwürfe und positive Guidance: Short-Squeeze",
+        "key_risk": "Earnings-Gap und veralteter Referenzkurs",
+        "planned_exit": "Nur hypothetisch nächster regulärer Opening-Print; keine bestätigte offene Order",
+        "as_of": "2026-11-05T20:30:00Z",
+        "mark_price": 18.78,
+        "mark_at": "2026-11-05T14:55:27-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": null,
+        "reference_only": true
+      }
+    },
     {
       "id": "MANUELL-20261105T194600Z",
       "market": "MIXED",
@@ -587,468 +969,6 @@
       }
     },
     {
-      "id": "MANUELL-20261105T210700Z",
-      "market": "US",
-      "run_at": "2026-11-05T22:07:00+01:00",
-      "task": "Manuelle Dashboard-Aktualisierung",
-      "decision": "REVIEW",
-      "headline": "US-Schlussphase: Nasdaq-Einbruch, IREN als Tages-Close 18,14 USD ausgewiesen; kein neuer Paper-Fill",
-      "summary": "ChartExchange listet am 05.11.2026 IREN Tages-Close 18,14 USD (−16,44 % gegenüber 21,71 USD Vortag), mit Datenständen verschiedener Provider teils abweichend. 100 EUR × synthetisch 5x, bei nicht belegtem Short-Referenzeinstieg 18,05 USD: Modell-PnL −2,49 EUR, keine echte Performance. IREN Q1-FY27 Call laut IR für 17 Uhr EST angekündigt, zum Prüfzeitpunkt noch keine bestätigten Q1-Ergebniszahlen gefunden. Kein neuer Trade.",
-      "source_status": "Web-Snapshot 22:07 MEZ; die Quote ist nur ein als Daily-Close gelisteter Providerwert, kein tickgenauer Echtzeitfeed. Abschlusskurs ggf. noch revidierbar. Angaben aus Quellen, keine nachträgliche Fillbehauptung.",
-      "candidates": [
-        {
-          "ticker": "IREN",
-          "name": "IREN Limited",
-          "tv": "NASDAQ:IREN",
-          "side": "SHORT_WATCH",
-          "thesis": "Microsoft-Projektüberwachung und Finanzierung; Tagesverfall erhöhte Rebound-Gefahr.",
-          "risk": "Earnings-Überraschung und Short-Squeeze; historischer Referenzkurs kein Beweis einer Ausführung.",
-          "sources_checked": null,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "tv": "NASDAQ:APP",
-          "side": "LONG_WATCH",
-          "thesis": "Q3 2026 2,185 Mrd USD Umsatz und +55 % yoy; starker Kontrast zum AI-Abverkauf.",
-          "risk": "Nach starkem Kurssprung Reversal- und Bewertungsrisiko.",
-          "sources_checked": null,
-          "sources_target": 50,
-          "confidence": null
-        }
-      ],
-      "news": [
-        {
-          "title": "IREN historischer Tageskurs 5. November",
-          "published_at": "2026-11-05",
-          "ticker": "IREN",
-          "publisher": "ChartExchange",
-          "url": "https://chartexchange.com/symbol/nasdaq-iren/historical/",
-          "finding": "Gelisted Close 18,14 USD; Vorabend 21,71 USD. Datenverzögerung/Kursrevision möglich."
-        },
-        {
-          "title": "IREN Investor Relations: Earnings und Call am 5. November",
-          "published_at": "2026-10-22",
-          "ticker": "IREN",
-          "publisher": "IREN",
-          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-release-q1-fy27-results-november-5-2026",
-          "finding": "Q1 FY27 Call 17 Uhr Eastern."
-        },
-        {
-          "title": "Massiver Abverkauf von KI-Aktien am 5. November",
-          "published_at": "2026-11-05",
-          "ticker": null,
-          "publisher": "AP News",
-          "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e",
-          "finding": "S&P 500 und Nasdaq deutlich schwächer, erhöhte AI-Infrastruktur-Risiken."
-        }
-      ],
-      "trade_outlook": {
-        "ticker": "IREN",
-        "id": "PAPER-IREN-20261105-01",
-        "stance": "Vorsichtig bearish, aber nach großem Tagesverlust hohes Erholungs-/Short-Squeeze-Risiko",
-        "summary": "Nur eine historische Referenzsimulation, kein nachgewiesener Börsen-Fill. Der als Tages-Close gelistete 18,14-USD-Preis ist kein After-Hours-Kurs. IREN-Earnings nach Börsenschluss können Gap zur nächsten Eröffnung auslösen.",
-        "base_scenario": "Vor Q1-FY27-Ergebnissen und 17-Uhr-Call keine belastbare Richtung für nächsten regulären Nasdaq-Open.",
-        "bull_scenario": "Für Short positiv: Bestätigte Verzögerungen, hohe Capex-/Finanzierungskosten, schwächere Guidance könnten weiteren Abverkauf auslösen.",
-        "bear_scenario": "Für Short negativ: überzeugende Microsoft-Projektfortschritte und Finanzierungsmeldung könnten kräftigen Gap-Up verursachen.",
-        "key_risk": "Earnings-Gap, Short-Squeeze, veralteter Referenzeinstieg, kein echter Produktpreis.",
-        "planned_exit": "06.11.2026 nächste reguläre Nasdaq-Eröffnung, hypothetisch nach belegbarem Opening-Print; keine tatsächliche Order",
-        "as_of": "2026-11-05T22:07:00+01:00",
-        "mark_price": 18.14,
-        "mark_at": "2026-11-05T16:00:00-05:00",
-        "mark_source_url": "https://chartexchange.com/symbol/nasdaq-iren/historical/",
-        "pnl_eur": -2.49,
-        "reference_only": true,
-        "entry_price": 18.05,
-        "stake_eur": 100,
-        "leverage": 5
-      }
-    },
-    {
-      "id": "US-20261105T183000Z",
-      "market": "US",
-      "run_at": "2026-11-05T13:32:00-05:00",
-      "task": "Aktienresearch USA stündlich",
-      "decision": "KEIN TRADE",
-      "headline": "IREN bleibt Short-Watchlist; APP Long-Beobachtung; NET und AFRM neutral.",
-      "summary": "Der protokollierte stündliche Research-Lauf eröffnete keinen neuen Paper-Trade. IREN-Projektfortschritt, Finanzierung und Earnings bleiben zu prüfen.",
-      "source_status": "Automations-Report übernommen; Meldungen im Dashboard nicht separat neu verifiziert.",
-      "candidates": [
-        {
-          "ticker": "IREN",
-          "name": "IREN Limited",
-          "side": "SHORT_WATCH",
-          "confidence": null,
-          "sources_checked": 3,
-          "sources_target": 50,
-          "thesis": "Short-Priorität; Projektrisiken und Finanzierung vor Earnings besonders relevant.",
-          "risk": "Microsoft hat IREN nicht als Verursacher von Verzögerungen bestätigt.",
-          "tv": "NASDAQ:IREN"
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "side": "LONG_WATCH",
-          "confidence": null,
-          "sources_checked": 3,
-          "sources_target": 50,
-          "thesis": "Starker Umsatz-, Gewinn- und Cashflow-Bericht als Long-Argument.",
-          "risk": "Positive Earnings-Überraschung kann bereits eingepreist sein.",
-          "tv": "NASDAQ:APP"
-        },
-        {
-          "ticker": "NET",
-          "name": "Cloudflare",
-          "side": "NEUTRAL",
-          "confidence": null,
-          "sources_checked": 2,
-          "sources_target": 50,
-          "thesis": "Quartalsbericht mit Guidance vergleichen.",
-          "risk": "Ausgang noch offen.",
-          "tv": "NYSE:NET"
-        },
-        {
-          "ticker": "AFRM",
-          "name": "Affirm",
-          "side": "NEUTRAL",
-          "confidence": null,
-          "sources_checked": 2,
-          "sources_target": 50,
-          "thesis": "Kreditqualität und Refinanzierungskosten vor Zahlen prüfen.",
-          "risk": "Ausgang noch offen.",
-          "tv": "NASDAQ:AFRM"
-        }
-      ],
-      "news": [
-        {
-          "title": "Microsoft AI-Ausbau: Verzögerungshypothese bei IREN weiterhin nicht bestätigt",
-          "published_at": "2026-11-04",
-          "ticker": "IREN",
-          "publisher": "Business Insider",
-          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
-          "finding": "Microsoft hat IREN nicht öffentlich als Verursacher identifiziert; Research-Hypothese, keine gesicherte Vertragsverletzung."
-        }
-      ]
-    },
-    {
-      "id": "US-20261105T193000Z",
-      "market": "US",
-      "run_at": "2026-11-05T14:32:37-05:00",
-      "task": "Aktienresearch USA stündlich",
-      "decision": "REVIEW",
-      "headline": "AI-Sektor fällt stark; IREN Short-These, APP Long-Beobachtung; kein neuer Trade",
-      "summary": "Reuters: Nasdaq um 12:24 ET minus 4,55 Prozent. IREN unter Rechenzentrums-Projektrisiko. AppLovin meldet Q3 2026 Umsatz 2,185 Mrd USD und Gewinn 1,439 Mrd USD. Kein überprüfter zeitnaher Einstiegskurs; keine neue virtuelle Buchung.",
-      "source_status": "Direkt geöffnet: IREN 2/50, APP 1/50, NET 1/50, AFRM 2/50; weitere Markt- und Sektorquellen. Keine vollständigen Dossiers.",
-      "candidates": [
-        {
-          "ticker": "IREN",
-          "name": "IREN Limited",
-          "tv": "NASDAQ:IREN",
-          "side": "SHORT",
-          "thesis": "Bau- und Finanzierungsrisiko",
-          "risk": "Vertragslage unklar und Short-Squeeze-Risiko",
-          "sources_checked": 2,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "tv": "NASDAQ:APP",
-          "side": "LONG",
-          "thesis": "Q3-Umsatz und Gewinnwachstum",
-          "risk": "Positive Überraschung möglicherweise eingepreist",
-          "sources_checked": 1,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "NET",
-          "name": "Cloudflare",
-          "tv": "NYSE:NET",
-          "side": "NEUTRAL",
-          "thesis": "Wachstum und Earnings-Katalysator",
-          "risk": "Hoher GAAP-Verlust",
-          "sources_checked": 1,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "AFRM",
-          "name": "Affirm",
-          "tv": "NASDAQ:AFRM",
-          "side": "NEUTRAL",
-          "thesis": "Earnings nach Handelsschluss",
-          "risk": "Kredit- und Refinanzierungsrisiken",
-          "sources_checked": 2,
-          "sources_target": 50,
-          "confidence": null
-        }
-      ],
-      "news": [
-        {
-          "title": "Nasdaq set to confirm correction as AI stocks tumble",
-          "published_at": "2026-11-05",
-          "ticker": null,
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/",
-          "finding": "Nasdaq um 12:24 ET minus 4,55 Prozent"
-        },
-        {
-          "title": "AppLovin Announces Third Quarter 2026 Financial Results",
-          "published_at": "2026-11-04",
-          "ticker": "APP",
-          "publisher": "AppLovin",
-          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
-          "finding": "Umsatz 2,185 Mrd USD, Gewinn 1,439 Mrd USD"
-        },
-        {
-          "title": "IREN Reports FY26 Results",
-          "published_at": "2026-08-27",
-          "ticker": "IREN",
-          "publisher": "IREN",
-          "url": "https://www.globenewswire.com/news-release/2026/08/27/3352401/0/en/iren-reports-fy26-results.html",
-          "finding": "AI-Cloud-Umsatz 128,8 Mio USD"
-        }
-      ]
-    },
-    {
-      "id": "US-20261105T203000Z",
-      "market": "US",
-      "run_at": "2026-11-05T20:30:00Z",
-      "task": "Aktienresearch USA stündlich",
-      "decision": "KEIN TRADE",
-      "headline": "IREN-Projektrisiko bestätigt als Prüfpunkt; keine zeitnahe 15:30-Quote für verifizierten Fill",
-      "summary": "IREN Short-Hypothese gegen APP Long-Relative-Stärke; NET/AFRM/ABNB Earnings. Kein nachgewiesener Kurs um 15:30 ET. IREN 18,78 USD um 14:55:27 ET ist 35 Minuten alt und nicht ausführbarer Fill. Kein neuer Trade.",
-      "source_status": "Unvollständig: 50-Quellen-Ziel nicht erreicht; fünf öffentlich zugängliche inhaltliche Quellen geprüft, weitere Kalender/Quotes zur Triage; keine 13F-Paaranalyse.",
-      "candidates": [
-        {
-          "ticker": "IREN",
-          "name": "IREN Limited",
-          "tv": "NASDAQ:IREN",
-          "side": "SHORT",
-          "thesis": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
-          "risk": "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap.",
-          "sources_checked": 3,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "tv": "NASDAQ:APP",
-          "side": "LONG",
-          "thesis": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
-          "risk": "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko.",
-          "sources_checked": 1,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "NET",
-          "name": "Cloudflare",
-          "tv": "NYSE:NET",
-          "side": "NEUTRAL",
-          "thesis": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
-          "risk": "Bewertung, Margen und Guidance noch ungeprüft.",
-          "sources_checked": 1,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "AFRM",
-          "name": "Affirm",
-          "tv": "NASDAQ:AFRM",
-          "side": "NEUTRAL",
-          "thesis": "Q1 FY27 Earnings 17 Uhr ET.",
-          "risk": "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt.",
-          "sources_checked": 1,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "tv": "NASDAQ:ABNB",
-          "side": "NEUTRAL",
-          "thesis": "Earnings nach Börsenschluss laut Kalender.",
-          "risk": "Keine ausreichende historische Fundamentalanalyse.",
-          "sources_checked": 1,
-          "sources_target": 50,
-          "confidence": null
-        }
-      ],
-      "news": [
-        {
-          "title": "Microsoft tightens oversight of neocloud data center projects",
-          "published_at": "2026-11-05T17:30:00Z",
-          "ticker": "IREN",
-          "publisher": "Reuters",
-          "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
-          "finding": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung."
-        },
-        {
-          "title": "Satellite images reveal trouble brewing at Microsoft's AI data center partners",
-          "published_at": "2026-11-04T20:42:05Z",
-          "ticker": "IREN",
-          "publisher": "Business Insider",
-          "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
-          "finding": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik."
-        },
-        {
-          "title": "AppLovin stock tracks largest jump in two years",
-          "published_at": "2026-11-05",
-          "ticker": "APP",
-          "publisher": "Barron's",
-          "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
-          "finding": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap."
-        },
-        {
-          "title": "IREN reports Q1 FY26 results",
-          "published_at": "2025-11-06T21:00:00Z",
-          "ticker": "IREN",
-          "publisher": "IREN / GlobeNewswire",
-          "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
-          "finding": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag."
-        },
-        {
-          "title": "US earnings calendar Nov 5",
-          "published_at": null,
-          "ticker": null,
-          "publisher": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/calendar/earnings/",
-          "finding": "ABNB, NET und weitere Titel mit Earnings nach Börsenschluss; Kalenderliste allein kein vollständiger Screen."
-        }
-      ],
-      "watchlist_briefs": [
-        {
-          "ticker": "IREN",
-          "name": "IREN Limited",
-          "tv": "NASDAQ:IREN",
-          "stance": "SHORT",
-          "horizon": "1–10 Handelstage",
-          "summary": "Microsoft verschärft Projektüberwachung; Horizon 4 laut Satellitenanalyse möglicherweise verzögert.",
-          "points": [
-            {
-              "type": "FAKT",
-              "text": "Microsoft kontrolliert bestimmte IREN/Nebius/Nscale-Projekte strenger; keine belegte IREN-Vertragsverletzung.",
-              "url": "https://www.reuters.com/business/microsoft-tightens-oversight-neocloud-data-center-projects-bloomberg-news-2026-11-05/",
-              "publisher": "Reuters",
-              "published_at": "2026-11-05T17:30:00Z"
-            },
-            {
-              "type": "FAKT",
-              "text": "Horizon 4 fehlten laut Aterio-Satellitenbild vom 21.10. Generatoren/Kühltechnik.",
-              "url": "https://www.businessinsider.com/microsoft-ai-buildout-delays-satellite-images-2026-11",
-              "publisher": "Business Insider",
-              "published_at": "2026-11-04T20:42:05Z"
-            },
-            {
-              "type": "FAKT",
-              "text": "Historische Guidance: 3,4 Mrd USD AI Cloud ARR bis Ende 2026; 9,7 Mrd Microsoft-Vertrag.",
-              "url": "https://www.globenewswire.com/de/news-release/2025/11/06/3183028/0/en/iren-reports-q1-fy26-results.html",
-              "publisher": "IREN / GlobeNewswire",
-              "published_at": "2025-11-06T21:00:00Z"
-            }
-          ],
-          "catalysts": [
-            "Q1 FY27 Ergebnisse 5.11. nach Schluss",
-            "Microsoft Projektstatus"
-          ],
-          "invalidations": [
-            "Nicht nachgewiesene Vertragsverletzung; starker Kursverfall und Earnings nach Schluss; Rebound/Gap."
-          ]
-        },
-        {
-          "ticker": "APP",
-          "name": "AppLovin",
-          "tv": "NASDAQ:APP",
-          "stance": "LONG",
-          "horizon": "1–10 Handelstage",
-          "summary": "Umsatz- und EPS-Überraschung, starke Cashflows und relative Stärke.",
-          "points": [
-            {
-              "type": "FAKT",
-              "text": "Starker Kursanstieg nach Quartalsüberraschung; hohe Bewertung nach Gap.",
-              "url": "https://www.barrons.com/articles/applovin-earnings-stock-price-f2ca1128",
-              "publisher": "Barron's",
-              "published_at": "2026-11-05"
-            }
-          ],
-          "catalysts": [
-            "Earnings/Kursreaktion"
-          ],
-          "invalidations": [
-            "Rund 30 Prozent Kursanstieg bereits eingepreist, hohes Reversal-Risiko."
-          ]
-        },
-        {
-          "ticker": "NET",
-          "name": "Cloudflare",
-          "tv": "NYSE:NET",
-          "stance": "NEUTRAL",
-          "horizon": "1–10 Handelstage",
-          "summary": "Q3-Zahlen nach Börsenschluss als Volatilitätsereignis.",
-          "points": [],
-          "catalysts": [
-            "Earnings/Kursreaktion"
-          ],
-          "invalidations": [
-            "Bewertung, Margen und Guidance noch ungeprüft."
-          ]
-        },
-        {
-          "ticker": "AFRM",
-          "name": "Affirm",
-          "tv": "NASDAQ:AFRM",
-          "stance": "NEUTRAL",
-          "horizon": "1–10 Handelstage",
-          "summary": "Q1 FY27 Earnings 17 Uhr ET.",
-          "points": [],
-          "catalysts": [
-            "Earnings/Kursreaktion"
-          ],
-          "invalidations": [
-            "Kreditqualität, Finanzierungskosten und neue Guidance unbekannt."
-          ]
-        },
-        {
-          "ticker": "ABNB",
-          "name": "Airbnb",
-          "tv": "NASDAQ:ABNB",
-          "stance": "NEUTRAL",
-          "horizon": "1–10 Handelstage",
-          "summary": "Earnings nach Börsenschluss laut Kalender.",
-          "points": [],
-          "catalysts": [
-            "Earnings/Kursreaktion"
-          ],
-          "invalidations": [
-            "Keine ausreichende historische Fundamentalanalyse."
-          ]
-        }
-      ],
-      "trade_outlook": {
-        "ticker": "IREN",
-        "id": null,
-        "stance": "SHORT",
-        "summary": "Historische Referenzsimulation zu 18,05 USD ist KEIN verifizierter Fill.",
-        "base_scenario": "Volatile Eröffnung nach Earnings, Richtung nicht belastbar",
-        "bull_scenario": "Verzögerungsbestätigung und schwache Guidance: Short könnte profitieren",
-        "bear_scenario": "Entkräftung der Vorwürfe und positive Guidance: Short-Squeeze",
-        "key_risk": "Earnings-Gap und veralteter Referenzkurs",
-        "planned_exit": "Nur hypothetisch nächster regulärer Opening-Print; keine bestätigte offene Order",
-        "as_of": "2026-11-05T20:30:00Z",
-        "mark_price": 18.78,
-        "mark_at": "2026-11-05T14:55:27-05:00",
-        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
-        "pnl_eur": null,
-        "reference_only": true
-      }
-    },
-    {
       "id": "US-20261105T212522Z",
       "market": "US",
       "run_at": "2026-11-05T21:25:22Z",
@@ -1283,6 +1203,86 @@
         "mark_source_url": null,
         "pnl_eur": null,
         "reference_only": true
+      }
+    },
+    {
+      "id": "MANUELL-20261105T210700Z",
+      "market": "US",
+      "run_at": "2026-11-05T22:07:00+01:00",
+      "task": "Manuelle Dashboard-Aktualisierung",
+      "decision": "REVIEW",
+      "headline": "US-Schlussphase: Nasdaq-Einbruch, IREN als Tages-Close 18,14 USD ausgewiesen; kein neuer Paper-Fill",
+      "summary": "ChartExchange listet am 05.11.2026 IREN Tages-Close 18,14 USD (−16,44 % gegenüber 21,71 USD Vortag), mit Datenständen verschiedener Provider teils abweichend. 100 EUR × synthetisch 5x, bei nicht belegtem Short-Referenzeinstieg 18,05 USD: Modell-PnL −2,49 EUR, keine echte Performance. IREN Q1-FY27 Call laut IR für 17 Uhr EST angekündigt, zum Prüfzeitpunkt noch keine bestätigten Q1-Ergebniszahlen gefunden. Kein neuer Trade.",
+      "source_status": "Web-Snapshot 22:07 MEZ; die Quote ist nur ein als Daily-Close gelisteter Providerwert, kein tickgenauer Echtzeitfeed. Abschlusskurs ggf. noch revidierbar. Angaben aus Quellen, keine nachträgliche Fillbehauptung.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT_WATCH",
+          "thesis": "Microsoft-Projektüberwachung und Finanzierung; Tagesverfall erhöhte Rebound-Gefahr.",
+          "risk": "Earnings-Überraschung und Short-Squeeze; historischer Referenzkurs kein Beweis einer Ausführung.",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG_WATCH",
+          "thesis": "Q3 2026 2,185 Mrd USD Umsatz und +55 % yoy; starker Kontrast zum AI-Abverkauf.",
+          "risk": "Nach starkem Kurssprung Reversal- und Bewertungsrisiko.",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "IREN historischer Tageskurs 5. November",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "ChartExchange",
+          "url": "https://chartexchange.com/symbol/nasdaq-iren/historical/",
+          "finding": "Gelisted Close 18,14 USD; Vorabend 21,71 USD. Datenverzögerung/Kursrevision möglich."
+        },
+        {
+          "title": "IREN Investor Relations: Earnings und Call am 5. November",
+          "published_at": "2026-10-22",
+          "ticker": "IREN",
+          "publisher": "IREN",
+          "url": "https://iren.gcs-web.com/news-releases/news-release-details/iren-release-q1-fy27-results-november-5-2026",
+          "finding": "Q1 FY27 Call 17 Uhr Eastern."
+        },
+        {
+          "title": "Massiver Abverkauf von KI-Aktien am 5. November",
+          "published_at": "2026-11-05",
+          "ticker": null,
+          "publisher": "AP News",
+          "url": "https://apnews.com/article/7ee9c212805aa5e70cf34d25aab7a36e",
+          "finding": "S&P 500 und Nasdaq deutlich schwächer, erhöhte AI-Infrastruktur-Risiken."
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "Vorsichtig bearish, aber nach großem Tagesverlust hohes Erholungs-/Short-Squeeze-Risiko",
+        "summary": "Nur eine historische Referenzsimulation, kein nachgewiesener Börsen-Fill. Der als Tages-Close gelistete 18,14-USD-Preis ist kein After-Hours-Kurs. IREN-Earnings nach Börsenschluss können Gap zur nächsten Eröffnung auslösen.",
+        "base_scenario": "Vor Q1-FY27-Ergebnissen und 17-Uhr-Call keine belastbare Richtung für nächsten regulären Nasdaq-Open.",
+        "bull_scenario": "Für Short positiv: Bestätigte Verzögerungen, hohe Capex-/Finanzierungskosten, schwächere Guidance könnten weiteren Abverkauf auslösen.",
+        "bear_scenario": "Für Short negativ: überzeugende Microsoft-Projektfortschritte und Finanzierungsmeldung könnten kräftigen Gap-Up verursachen.",
+        "key_risk": "Earnings-Gap, Short-Squeeze, veralteter Referenzeinstieg, kein echter Produktpreis.",
+        "planned_exit": "06.11.2026 nächste reguläre Nasdaq-Eröffnung, hypothetisch nach belegbarem Opening-Print; keine tatsächliche Order",
+        "as_of": "2026-11-05T22:07:00+01:00",
+        "mark_price": 18.14,
+        "mark_at": "2026-11-05T16:00:00-05:00",
+        "mark_source_url": "https://chartexchange.com/symbol/nasdaq-iren/historical/",
+        "pnl_eur": -2.49,
+        "reference_only": true,
+        "entry_price": 18.05,
+        "stake_eur": 100,
+        "leverage": 5
       }
     },
     {
@@ -1876,6 +1876,62 @@
       ]
     },
     {
+      "id": "XETRA-20261106T080755Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T08:07:55Z",
+      "task": "Xetra Overnight-Auswertung",
+      "decision": "KEIN TRADE",
+      "headline": "Keine belegbaren Xetra-Overnight-Positionen aus dem Vorabend; kein Exit und kein PnL.",
+      "summary": "Erster nachweisbarer Xetra-Research-Lauf heute um 08:59 MEZ mit 0 Trades; kein verifizierter Vorabend-Entry. SHL/HFG/KBX nur Beobachtung. Keine Positionsänderung.",
+      "source_status": "Websuche vom 06.11.2026; kein verifizierter Opening-Print für eine belegte Vortagesposition; historische Kursberichte nicht als aktuelle Quotes verwendet.",
+      "candidates": [
+        {
+          "ticker": "SHL",
+          "name": "Siemens Healthineers",
+          "tv": "XETR:SHL",
+          "side": "WATCH / vorsichtig bearish",
+          "thesis": "FY27 EPS-Ausblick und Diagnostik-Carve-out",
+          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
+          "sources_checked": 5,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "WATCH / gemischt",
+          "thesis": "Sinkende Umsätze bei verbesserter Marge",
+          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KBX",
+          "name": "Knorr-Bremse",
+          "tv": "XETR:KBX",
+          "side": "WATCH / Long-Tendenz",
+          "thesis": "Operative Q3-Stärke",
+          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Healthineers Handelsstart am 5. November (kein heutiger Kurs)",
+          "published_at": "2026-11-06",
+          "ticker": "SHL",
+          "publisher": "WELT",
+          "url": "https://www.welt.de/article6aec53faeca9cecdd5d479b4",
+          "finding": "Historischer Kursbericht ausdrücklich zum 05.11.; für den heutigen Xetra-Open nicht verwendbar."
+        }
+      ],
+      "report_markdown": "Xetra Overnight-Check – 6. November 2026, 09:07:55 MEZ\n\nErgebnis: KEINE BELEGBAREN OFFENEN XETRA-OVERNIGHT-TRADES. Der erste verfügbare Lauf der Aufgabe „Aktienresearch Xetra stündlich“ stammt vom 6. November, 08:59 Uhr MEZ und enthält ausdrücklich 0 neue simulierte Trades. Ein belegter Einstieg vom Vorabend (5. November) liegt nicht vor. Deshalb wird keine fiktive Position geschlossen und kein PnL berechnet.\n\nDie heute früh beobachteten Aktien Siemens Healthineers (SHL, vorsichtig bearish), HelloFresh (HFG, gemischt) und Knorr-Bremse (KBX, Long-Beobachtung) sind Research-Kandidaten, keine eröffneten Positionen. Quellenabdeckung im letzten Research-Lauf: SHL 5/50, HFG 2/50, KBX 2/50; alle Dossiers unvollständig.\n\nÖffentliche Kursprüfung: Die Suche ergab keine verlässlich verifizierbaren Xetra-Opening-Prints vom 6. November um 09:00 Uhr für belegte Vortagespositionen. Ein Bericht von WELT über Siemens Healthineers betrifft ausdrücklich den 5. November und ist kein heutiger Opening-Print: https://www.welt.de/article6aec53faeca9cecdd5d479b4 . Xetra regulär 09:00–17:30 Uhr laut https://en.wikipedia.org/wiki/Xetra_(trading_system) ; möglicherweise gelten erweiterte Handelsfenster, daher nicht ohne Venue-Abgleich als aktueller Kursbeleg verwenden.\n\nSimulierte Ausstiegsformel für tatsächlich belegte Positionen: Long-PnL = (Open/Entry - 1) × 500 EUR, Short-PnL = (1 - Open/Entry) × 500 EUR, abzüglich Kosten und ggf. FX-Umrechnung. Da weder ein belegter Vorabend-Entry noch ein dazugehöriger verifizierter Open-Print vorliegt, ist die Berechnung NICHT ANWENDBAR. Es gibt keinen abgeschlossenen simulierten Xetra-Trade. US-IREN-Referenzsimulation ist keine Xetra-Position und bleibt unberührt."
+    },
+    {
       "id": "XETRA-20261106T075929Z",
       "market": "XETRA",
       "run_at": "2026-11-06T08:59:29+01:00",
@@ -2126,62 +2182,6 @@
       ]
     },
     {
-      "id": "XETRA-20261106T080755Z",
-      "market": "XETRA",
-      "run_at": "2026-11-06T08:07:55Z",
-      "task": "Xetra Overnight-Auswertung",
-      "decision": "KEIN TRADE",
-      "headline": "Keine belegbaren Xetra-Overnight-Positionen aus dem Vorabend; kein Exit und kein PnL.",
-      "summary": "Erster nachweisbarer Xetra-Research-Lauf heute um 08:59 MEZ mit 0 Trades; kein verifizierter Vorabend-Entry. SHL/HFG/KBX nur Beobachtung. Keine Positionsänderung.",
-      "source_status": "Websuche vom 06.11.2026; kein verifizierter Opening-Print für eine belegte Vortagesposition; historische Kursberichte nicht als aktuelle Quotes verwendet.",
-      "candidates": [
-        {
-          "ticker": "SHL",
-          "name": "Siemens Healthineers",
-          "tv": "XETR:SHL",
-          "side": "WATCH / vorsichtig bearish",
-          "thesis": "FY27 EPS-Ausblick und Diagnostik-Carve-out",
-          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
-          "sources_checked": 5,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "HFG",
-          "name": "HelloFresh",
-          "tv": "XETR:HFG",
-          "side": "WATCH / gemischt",
-          "thesis": "Sinkende Umsätze bei verbesserter Marge",
-          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
-          "sources_checked": 2,
-          "sources_target": 50,
-          "confidence": null
-        },
-        {
-          "ticker": "KBX",
-          "name": "Knorr-Bremse",
-          "tv": "XETR:KBX",
-          "side": "WATCH / Long-Tendenz",
-          "thesis": "Operative Q3-Stärke",
-          "risk": "Kein Vorabend-Fill, Quellenlage unvollständig",
-          "sources_checked": 2,
-          "sources_target": 50,
-          "confidence": null
-        }
-      ],
-      "news": [
-        {
-          "title": "Siemens Healthineers Handelsstart am 5. November (kein heutiger Kurs)",
-          "published_at": "2026-11-06",
-          "ticker": "SHL",
-          "publisher": "WELT",
-          "url": "https://www.welt.de/article6aec53faeca9cecdd5d479b4",
-          "finding": "Historischer Kursbericht ausdrücklich zum 05.11.; für den heutigen Xetra-Open nicht verwendbar."
-        }
-      ],
-      "report_markdown": "Xetra Overnight-Check – 6. November 2026, 09:07:55 MEZ\n\nErgebnis: KEINE BELEGBAREN OFFENEN XETRA-OVERNIGHT-TRADES. Der erste verfügbare Lauf der Aufgabe „Aktienresearch Xetra stündlich“ stammt vom 6. November, 08:59 Uhr MEZ und enthält ausdrücklich 0 neue simulierte Trades. Ein belegter Einstieg vom Vorabend (5. November) liegt nicht vor. Deshalb wird keine fiktive Position geschlossen und kein PnL berechnet.\n\nDie heute früh beobachteten Aktien Siemens Healthineers (SHL, vorsichtig bearish), HelloFresh (HFG, gemischt) und Knorr-Bremse (KBX, Long-Beobachtung) sind Research-Kandidaten, keine eröffneten Positionen. Quellenabdeckung im letzten Research-Lauf: SHL 5/50, HFG 2/50, KBX 2/50; alle Dossiers unvollständig.\n\nÖffentliche Kursprüfung: Die Suche ergab keine verlässlich verifizierbaren Xetra-Opening-Prints vom 6. November um 09:00 Uhr für belegte Vortagespositionen. Ein Bericht von WELT über Siemens Healthineers betrifft ausdrücklich den 5. November und ist kein heutiger Opening-Print: https://www.welt.de/article6aec53faeca9cecdd5d479b4 . Xetra regulär 09:00–17:30 Uhr laut https://en.wikipedia.org/wiki/Xetra_(trading_system) ; möglicherweise gelten erweiterte Handelsfenster, daher nicht ohne Venue-Abgleich als aktueller Kursbeleg verwenden.\n\nSimulierte Ausstiegsformel für tatsächlich belegte Positionen: Long-PnL = (Open/Entry - 1) × 500 EUR, Short-PnL = (1 - Open/Entry) × 500 EUR, abzüglich Kosten und ggf. FX-Umrechnung. Da weder ein belegter Vorabend-Entry noch ein dazugehöriger verifizierter Open-Print vorliegt, ist die Berechnung NICHT ANWENDBAR. Es gibt keinen abgeschlossenen simulierten Xetra-Trade. US-IREN-Referenzsimulation ist keine Xetra-Position und bleibt unberührt."
-    },
-    {
       "id": "XETRA-20261106T090304Z",
       "market": "XETRA",
       "run_at": "2026-11-06T09:03:04Z",
@@ -2395,6 +2395,284 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research – 6. November 2026, 10:03 MEZ\n\n## Marktüberblick\nReuters berichtet um 08:10 GMT (09:10 MEZ) über einen Rückgang des STOXX Europe 600 von 1,6 % auf 644,72 Punkte. Schwache KI- und Halbleiterwerte belasten Europa; Teleperformance verlor nach gesenktem Ausblick rund 18 %. [Reuters, 06.11.2026](https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/). Das ist ein zeitlich begrenzter Snapshot, kein tickgenauer Kurs um 10:03.\n\n## Priorität 1: Siemens Healthineers (SHL) – vorsichtig bearish, kein Fill\n[Originalmeldung Siemens Healthineers, 05.11.2026](https://www.siemens-healthineers.com/press/releases/2026q4): 2026 vergleichbares Umsatzwachstum +4,0%, bereinigtes EPS 2,42 EUR, FCF rund 2,4 Mrd EUR; Q4 Imaging +10%, Diagnostics -4,2%. FY2027 Ziel: 4–5% Umsatzwachstum und EPS 2,20–2,40 EUR, also unter dem Vorjahres-EPS. [Reuters, 05.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-starts-carve-out-diagnostics-business-2026-11-05/): Olyrian-Carve-out bis Mitte 2028, potenzielle Trennkosten. [Reuters, 31.07.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-cuts-revenue-forecast-citing-diagnostics-weakness-2026-07-31/): frühere FY26-Umsatzprognose 5–6% auf 3,5–4% reduziert. Tatsächliches +4% erreicht oberes Ende der revidierten Spanne, nicht das ursprüngliche Ziel. **Bull:** Imaging, FCF und Portfoliobereinigung. **Bear:** EPS-Rückgang, Diagnostik, China und Übergangskosten. Keine aktuelle, zeitgestempelte Xetra-Ausführung; kein Trade. Zwei aktuelle Analysten-Voten: nicht verifiziert.\n\n## Priorität 2: Knorr-Bremse (KBX) – Long-Watch, kein Fill\n[Unternehmensmeldung Knorr-Bremse, Q3 2026](https://newsroom.knorr-bremse.com/en/knorr-bremse-delivers-another-strong-quarter/): Umsatz 2,051 Mrd EUR (+9%), operatives EBIT 299 Mio EUR (+19,1%), FCF 238 Mio EUR (+nahezu 50%), Auftragsbestand 7,883 Mrd EUR. Operativer FY26-Ausblick am oberen Ende der Guidance. **Bull:** Rail/Truck-Profitabilität, Auftragsbestand. **Bear:** konjunktureller Truck-Zyklus und bereits eingepreiste gute Ergebnisse. Aktueller Konsens und zeitnaher Quote nicht verifiziert.\n\n## Priorität 3: HelloFresh (HFG) – neutral, mögliche Short-These noch nicht bestätigt\n[HelloFresh Q3, 05.11.2026](https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw): Umsatz -11,3% währungsbereinigt, 19,6 Mio Bestellungen (-17,9%), AOV +7,5%, AEBITDA 50,9 Mio EUR und FCF -5,7 Mio EUR. [Ad-hoc vom 24.09.2026](https://www.ingmarkets.de/nachrichten/ADE%3AKJQTNPRXJMYFCVQOKWNXOYBG): Q3-Prognose -11% bis -12% Umsatz und AEBITDA 45–55 Mio EUR. Beide tatsächlichen Q3-Werte liegen in den REVIDIERTEN Zielspannen; ursprünglicher Marktkonsens war besser. **Bear:** Kunden- und Auftragsrückgang. **Bull:** höhere Profitabilität und Cashflow-Verbesserung. Kein neues Signal ohne Konsens- und Kursabgleich.\n\n## Neu im Screening: Teleperformance (TEP) – WATCH / vorläufig\n[Reuters, 06.11.2026](https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/): Aktie ca. -18% nach reduzierter Jahres-Umsatzprognose, Probleme im Trust-&-Safety-Geschäft. Short-Chase nach großem Gap besonders riskant. Primärquelle der neuen Guidance, Kurszeit, zwei Analystenvoten, Konsensvergleich und Bewertung noch nicht verifiziert.\n\n## Screening, Quellenstand, Handelsentscheidung\nIn diesem Lauf 4 individuell thematisch geprüfte Aktien (SHL, KBX, HFG, TEP); zusätzlich Sektorindikatoren ASMI/Siltronic/Siemens Energy aus Reuters nur DISCOVERED, nicht als voll geprüft gezählt. Keine überprüfte vollständige Earnings-Kalender-Abdeckung, keine 50-Quellen-Vollanalyse. Neu in diesem Lauf 7 unterschiedliche URLs (3 SHL, 1 KBX, 2 HFG, 1 Markt-/TEP); mehrere Quellen sind ältere Dokumente, zwei HelloFresh-Meldungen stammen vom gleichen Emittenten. Institutionelle Zwei-Filing-Vergleiche, namentliche neue Analysten-Voten, Options-/Spread-Daten und belastbare Kursreihen: nicht verifiziert. Kein belastbarer Live-Xetra-Quote, daher kein Entry und keine PnL-Neuberechnung.\n\n**Entscheidung 10:03 MEZ: KEIN TRADE.** Nächste Entscheidung zu simulierten Overnight-Einstiegen erst vor 17:30 Xetra-Schluss, spätestens 17:00. Für einen morgendlichen Market-on-Open-Ausstieg muss die simulierte Order vorher feststehen; die amtliche Eröffnung ist erst danach überprüfbar. Historische IREN-Referenzsimulation (18,05 USD) ist kein nachgewiesener Fill und gehört zum US-Research."
+    },
+    {
+      "id": "XETRA-20261106T100000Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T10:00:00Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Daimler Truck Q3 stark; Krones schwächerer Umsatzausblick",
+      "summary": "DTG Long Watch, KRN Short Watch; kein verifizierter Fill",
+      "source_status": "7 unterschiedliche geprüfte Dokumente; 50-Quellen-Dossiers unvollständig",
+      "candidates": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "side": "LONG",
+          "thesis": "Q3 EBIT +73%, Nordamerika erholt sich",
+          "risk": "Zyklischer LKW-Markt, bereits eingepreiste Erholung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "side": "SHORT",
+          "thesis": "Umsatzguidance reduziert, 9M FCF negativ",
+          "risk": "Verbesserte Margen, Prognose bereits seit Oktober bekannt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "SHL",
+          "name": "Siemens Healthineers",
+          "tv": "XETR:SHL",
+          "side": "SHORT",
+          "thesis": "FY27 EPS unter FY26",
+          "risk": "Starke Imaging-Dynamik und möglicher Carve-out-Wert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KBX",
+          "name": "Knorr-Bremse",
+          "tv": "XETR:KBX",
+          "side": "LONG",
+          "thesis": "Q3 EBIT und FCF stark",
+          "risk": "Bewertung und kurzfristiger Kurs nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "REVIEW",
+          "thesis": "Umsatzrückgang bei verbesserter EBITDA-Marge",
+          "risk": "Unsichere Nachfrage",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TEP",
+          "name": "Teleperformance",
+          "tv": "EURONEXT:TEP",
+          "side": "SHORT",
+          "thesis": "Guidance-Cut und massiver Kursverlust",
+          "risk": "Short-Squeeze und Gegenbewegung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Q3 2026 Ergebnisse",
+          "published_at": "2026-11-06",
+          "ticker": "DTG",
+          "publisher": "Daimler Truck",
+          "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+          "finding": "IB-Umsatz 11,6 Mrd EUR, bereinigtes EBIT 1,124 Mrd EUR, Prognose bestätigt"
+        },
+        {
+          "title": "Daimler Truck Q3 North America rebound",
+          "published_at": "2026-11-06",
+          "ticker": "DTG",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+          "finding": "Nordamerika-Erholung, EBIT über Konsens"
+        },
+        {
+          "title": "9M 2026 und Guidance",
+          "published_at": "2026-11-06",
+          "ticker": "KRN",
+          "publisher": "Krones",
+          "url": "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/",
+          "finding": "Umsatzwachstumsprognose 1–2 statt 3–5 Prozent; FCF -5 Mio EUR"
+        },
+        {
+          "title": "FY2026/Q4",
+          "published_at": "2026-11-05",
+          "ticker": "SHL",
+          "publisher": "Siemens Healthineers",
+          "url": "https://www.siemens-healthineers.com/deu/press/releases/2026q4",
+          "finding": "FY2026 EPS 2,42 EUR, FY2027 Prognose 2,20–2,40 EUR"
+        },
+        {
+          "title": "Q3 2026",
+          "published_at": "2026-11-06",
+          "ticker": "KBX",
+          "publisher": "Knorr-Bremse",
+          "url": "https://newsroom.knorr-bremse.com/knorr-bremse-mit-erneut-starkem-quartal/",
+          "finding": "Umsatz 2,051 Mrd EUR, EBIT 299 Mio EUR, FCF 238 Mio EUR"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 EBIT +73%, Nordamerika erholt sich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "IB-Umsatz 11,6 Mrd EUR, bereinigtes EBIT 1,124 Mrd EUR, Prognose bestätigt",
+              "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+              "publisher": "Daimler Truck",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Nordamerika-Erholung, EBIT über Konsens",
+              "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Zyklischer LKW-Markt, bereits eingepreiste Erholung"
+          ]
+        },
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzguidance reduziert, 9M FCF negativ",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatzwachstumsprognose 1–2 statt 3–5 Prozent; FCF -5 Mio EUR",
+              "url": "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/",
+              "publisher": "Krones",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Verbesserte Margen, Prognose bereits seit Oktober bekannt"
+          ]
+        },
+        {
+          "ticker": "SHL",
+          "name": "Siemens Healthineers",
+          "tv": "XETR:SHL",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "FY27 EPS unter FY26",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY2026 EPS 2,42 EUR, FY2027 Prognose 2,20–2,40 EUR",
+              "url": "https://www.siemens-healthineers.com/deu/press/releases/2026q4",
+              "publisher": "Siemens Healthineers",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Starke Imaging-Dynamik und möglicher Carve-out-Wert"
+          ]
+        },
+        {
+          "ticker": "KBX",
+          "name": "Knorr-Bremse",
+          "tv": "XETR:KBX",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 EBIT und FCF stark",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz 2,051 Mrd EUR, EBIT 299 Mio EUR, FCF 238 Mio EUR",
+              "url": "https://newsroom.knorr-bremse.com/knorr-bremse-mit-erneut-starkem-quartal/",
+              "publisher": "Knorr-Bremse",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Bewertung und kurzfristiger Kurs nicht verifiziert"
+          ]
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzrückgang bei verbesserter EBITDA-Marge",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz -11,3 Prozent, EBITDA 50,9 Mio EUR",
+              "url": "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
+              "publisher": "HelloFresh",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Unsichere Nachfrage"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": null,
+        "stance": "REFERENZSIMULATION",
+        "summary": "18,05 USD historischer Referenzwert, kein verifizierter Fill",
+        "base_scenario": "Nicht prognostiziert",
+        "bull_scenario": "Kursrückgang begünstigt hypothetischen Short",
+        "bear_scenario": "Rebound belastet Short",
+        "key_risk": "Unverifizierter Einstieg und Kurs",
+        "planned_exit": "Nur hypothetisch zum nächsten belegten US-Open",
+        "as_of": "2026-11-06T10:00:00Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 6. November 2026, 11:00 MEZ\n\n## Markt\nReuters meldet am Vormittag einen breiten europäischen Ausverkauf: STOXX 600 -1,0% auf 648,83 um 09:19 GMT. Dies ist ein datierter Snapshot, kein Livekurs. [Reuters, 06.11.2026](https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/).\n\n## Heute neu: Daimler Truck (DTG), Long-Beobachtung\nQ3-Umsatz Industriegeschäft 11,6 Mrd. EUR (Vorjahr 9,7 Mrd.), bereinigtes Konzern-EBIT 1.124 Mio. EUR (648 Mio.), Marge 9,1% (6,2%). Jahresprognose bestätigt. Nordamerika erholt sich, aber der Free Cashflow von 974 Mio. EUR enthält Erlöse aus einer Anteilsveräußerung; daher nicht als rein operativer Zufluss interpretieren. [Daimler Truck, 06.11.2026](https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175); [Reuters, 06.11.2026](https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/). Positiv: Nachfrageerholung. Negativ: Zyklik, bereits eingepreiste Erwartungen. Zwei inhaltlich geprüfte eigenständige Dokumente.\n\n## Heute neu: Krones (KRN), vorsichtig bearish\n9M-Umsatz 4.099,7 Mio. EUR, nahezu stabil; bereinigtes organisches Wachstum 0,8%. EBITDA-Marge 11,1%, um positiven Zolleffekt von ca. 10 Mio. EUR bereinigt 10,8%. Free Cashflow ohne M&A -5,0 Mio. EUR statt +80,2 Mio. EUR. Die Umsatzwachstumsprognose für 2026 wurde auf 1–2% statt 3–5% gesenkt, bereits am 22. Oktober kommuniziert. Deshalb KEIN frischer überraschender Guidance-Cut am heutigen Tag. [Krones, 06.11.2026](https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/). Positiv: Marge und Aufträge; negativ: FCF und schwächeres Wachstum. Ein neues eigenständiges Originaldokument.\n\n## Bestehende Watchlist\n- **Siemens Healthineers SHL:** FY26 bereinigtes EPS 2,42 EUR, FY27 2,20–2,40 EUR; Q4 Imaging +10%, Diagnostics -4,2%. [Unternehmen, 05.11.2026](https://www.siemens-healthineers.com/deu/press/releases/2026q4).\n- **Knorr-Bremse KBX:** Q3 Umsatz 2,051 Mrd. EUR, operatives EBIT 299 Mio. EUR, FCF 238 Mio. EUR. [Unternehmen, Q3 2026](https://newsroom.knorr-bremse.com/knorr-bremse-mit-erneut-starkem-quartal/).\n- **HelloFresh HFG:** Q3 Umsatz währungsbereinigt -11,3%, AEBITDA 50,9 Mio. EUR. [Unternehmen, 05.11.2026](https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw).\n- **Teleperformance TEP:** Laut Reuters ca. -18% nach Prognosesenkung, hohes Rebound-Risiko. [Reuters, 06.11.2026](https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/).\n\n## Screening / Strategien\nSechs individuell anhand dokumentierter Ereignisse geprüfte Titel; kein behauptetes Screening hunderter Aktien. Pre-Earnings: bei DTG/KRN Zahlen bereits publiziert, daher kein neuer Pre-Earnings-Trade. PEAD: EPS- und Umsatzsurprise nicht für beide gemeinsam mit ex-ante Konsens verifiziert. Guidance-Revision: Krones bereits am 22.10. bekannt; SHL FY27 unter Vorjahr. Pairs: keine belastbare 60–252-Tage-Korrelation, kein verifiziertes Hedge-Paar. Aktuelle namentliche Analystenziele, Bewertungsmultiples, vollständige Management-Scorecards, institutionelle regulatorische Holdings-Vergleiche und heutige zeitgenaue Xetra-Quotes: **nicht verifiziert**.\n\n## Positionen und Entscheidung\n**KEIN TRADE.** Es ist 11 Uhr, nicht der planmäßige Xetra-Overnight-Einstiegsslot. Keine verifizierten zeitnahen Fill-Quotes, kein PnL berechnet. IREN 18,05 USD bleibt eine unverbindliche historische US-Referenzsimulation, kein nachgewiesener Fill. Vor einem künftigen Market-on-Open-Exit muss die hypothetische Order bereits vor Eröffnung festgelegt sein; der echte Open-Print ist erst nach Eröffnung überprüfbar. TradingView-Widgets können verzögert sein. Kein 50-Quellen-Dossier abgeschlossen.\n\n## Quellenstand\nSieben individuelle oben verlinkte Dokumente für sechs Titel wurden in diesem Lauf inhaltlich berücksichtigt; Originalpublikationen und Reuters-Berichterstattung sind getrennt, keine syndizierten Kopien als eigenständige Quellen gezählt. Es fehlen jeweils zahlreiche Dokumente bis zum angestrebten 50er-Dossier.",
+      "report_sections": [
+        {
+          "heading": "Neue Ergebnisse",
+          "summary": "DTG und KRN",
+          "bullets": [
+            {
+              "text": "IB-Umsatz 11,6 Mrd EUR, bereinigtes EBIT 1,124 Mrd EUR, Prognose bestätigt",
+              "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+              "publisher": "Daimler Truck",
+              "checked_at": "2026-11-06T10:00:00Z"
+            },
+            {
+              "text": "Nordamerika-Erholung, EBIT über Konsens",
+              "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T10:00:00Z"
+            },
+            {
+              "text": "Umsatzwachstumsprognose 1–2 statt 3–5 Prozent; FCF -5 Mio EUR",
+              "url": "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/",
+              "publisher": "Krones",
+              "checked_at": "2026-11-06T10:00:00Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -3366,16 +3644,94 @@
         "50-Quellen-Vollprüfung"
       ],
       "method_note": "Quellen sind geprüfte Webberichte; unter 50 Dokumenten, keine institutionellen Holdings ohne Filings."
+    },
+    "DTG": {
+      "ticker": "DTG",
+      "name": "Daimler Truck",
+      "tv": "XETR:DTG",
+      "as_of": "2026-11-06T10:00:00Z",
+      "status": "INCOMPLETE",
+      "stance": "LONG",
+      "summary": "Q3 EBIT +73%, Nordamerika erholt sich",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "DTG-1",
+          "title": "Q3 2026 Ergebnisse",
+          "publisher": "Daimler Truck",
+          "published_at": "2026-11-06",
+          "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+          "finding": "IB-Umsatz 11,6 Mrd EUR, bereinigtes EBIT 1,124 Mrd EUR, Prognose bestätigt",
+          "checked_on": "2026-11-06",
+          "doc_type": "company_ir"
+        },
+        {
+          "id": "DTG-2",
+          "title": "Daimler Truck Q3 North America rebound",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06",
+          "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+          "finding": "Nordamerika-Erholung, EBIT über Konsens",
+          "checked_on": "2026-11-06",
+          "doc_type": "media"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Nicht verifiziert",
+      "key_unknowns": [
+        "Zeitnaher Xetra-Kurs",
+        "Analystenkonsens",
+        "Bewertung",
+        "13F/Stimmrechtsvergleich"
+      ],
+      "method_note": "Originalquelle bevorzugt, Dokumente URL-dedupliziert",
+      "analyst_coverage": null
+    },
+    "KRN": {
+      "ticker": "KRN",
+      "name": "Krones",
+      "tv": "XETR:KRN",
+      "as_of": "2026-11-06T10:00:00Z",
+      "status": "INCOMPLETE",
+      "stance": "SHORT",
+      "summary": "Umsatzguidance reduziert, 9M FCF negativ",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "KRN-1",
+          "title": "9M 2026 und Guidance",
+          "publisher": "Krones",
+          "published_at": "2026-11-06",
+          "url": "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/",
+          "finding": "Umsatzwachstumsprognose 1–2 statt 3–5 Prozent; FCF -5 Mio EUR",
+          "checked_on": "2026-11-06",
+          "doc_type": "company_ir"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Nicht verifiziert",
+      "key_unknowns": [
+        "Zeitnaher Xetra-Kurs",
+        "Analystenkonsens",
+        "Bewertung",
+        "13F/Stimmrechtsvergleich"
+      ],
+      "method_note": "Originalquelle bevorzugt, Dokumente URL-dedupliziert",
+      "analyst_coverage": null
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-06T09:03:04Z",
-    "method_note": "4 Aktien in diesem Lauf anhand datierter Veröffentlichungen individuell thematisch überprüft; keine komplette Marktdeckung",
+    "status": "IN_PROGRESS",
+    "as_of": "2026-11-06T10:00:00Z",
+    "method_note": "Sechs individuell belegte Titel; kein vollständiges Universum behauptet.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 3,
-      "triaged": 4,
+      "universe_checked": 6,
+      "earnings_events": 5,
+      "triaged": 6,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -3900,18 +4256,16 @@
         "tv": "XETR:SHL",
         "market": "XETRA",
         "sector": null,
-        "direction": "BEARISH WATCH",
-        "reason": "FY27 EPS 2,20–2,40 EUR unter FY26 2,42; Diagnostik belastet",
+        "direction": "SHORT",
+        "reason": "FY27 EPS unter FY26",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "FY27 EPS 2,20–2,40 EUR unter FY26 2,42; Diagnostik belastet",
+        "event": "FY27 EPS unter FY26",
         "score": null,
         "sources": [
-          "https://www.siemens-healthineers.com/press/releases/2026q4",
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-starts-carve-out-diagnostics-business-2026-11-05/",
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/siemens-healthineers-cuts-revenue-forecast-citing-diagnostics-weakness-2026-07-31/"
+          "https://www.siemens-healthineers.com/deu/press/releases/2026q4"
         ],
-        "as_of": "2026-11-06T09:03:04Z"
+        "as_of": "2026-11-06T10:00:00Z"
       },
       {
         "ticker": "KBX",
@@ -3919,16 +4273,16 @@
         "tv": "XETR:KBX",
         "market": "XETRA",
         "sector": null,
-        "direction": "LONG WATCH",
-        "reason": "Q3 EBIT +19,1% und FCF +nahezu 50%",
+        "direction": "LONG",
+        "reason": "Q3 EBIT und FCF stark",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Q3 EBIT +19,1% und FCF +nahezu 50%",
+        "event": "Q3 EBIT und FCF stark",
         "score": null,
         "sources": [
-          "https://newsroom.knorr-bremse.com/en/knorr-bremse-delivers-another-strong-quarter/"
+          "https://newsroom.knorr-bremse.com/knorr-bremse-mit-erneut-starkem-quartal/"
         ],
-        "as_of": "2026-11-06T09:03:04Z"
+        "as_of": "2026-11-06T10:00:00Z"
       },
       {
         "ticker": "HFG",
@@ -3936,17 +4290,16 @@
         "tv": "XETR:HFG",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
-        "stage": "DEEP_DIVE",
+        "direction": "REVIEW",
+        "reason": "Umsatzrückgang bei verbesserter EBITDA-Marge",
+        "stage": "WATCH",
         "earnings_at": null,
-        "event": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
+        "event": "Umsatzrückgang bei verbesserter EBITDA-Marge",
         "score": null,
         "sources": [
-          "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
-          "https://www.ingmarkets.de/nachrichten/ADE%3AKJQTNPRXJMYFCVQOKWNXOYBG"
+          "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw"
         ],
-        "as_of": "2026-11-06T09:03:04Z"
+        "as_of": "2026-11-06T10:00:00Z"
       },
       {
         "ticker": "TEP",
@@ -3954,16 +4307,51 @@
         "tv": "EURONEXT:TEP",
         "market": "EU",
         "sector": null,
-        "direction": "BEARISH WATCH",
-        "reason": "Gesenkter Umsatz-Ausblick, ca. 18% Kursrückgang",
+        "direction": "SHORT",
+        "reason": "Guidance-Cut und massiver Kursverlust",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Gesenkter Umsatz-Ausblick, ca. 18% Kursrückgang",
+        "event": "Guidance-Cut und massiver Kursverlust",
         "score": null,
         "sources": [
           "https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/"
         ],
-        "as_of": "2026-11-06T09:03:04Z"
+        "as_of": "2026-11-06T10:00:00Z"
+      },
+      {
+        "ticker": "DTG",
+        "name": "Daimler Truck",
+        "tv": "XETR:DTG",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Q3 EBIT +73%, Nordamerika erholt sich",
+        "stage": "DEEP_DIVE",
+        "earnings_at": null,
+        "event": "Q3 EBIT +73%, Nordamerika erholt sich",
+        "score": null,
+        "sources": [
+          "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+          "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/"
+        ],
+        "as_of": "2026-11-06T10:00:00Z"
+      },
+      {
+        "ticker": "KRN",
+        "name": "Krones",
+        "tv": "XETR:KRN",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Umsatzguidance reduziert, 9M FCF negativ",
+        "stage": "DEEP_DIVE",
+        "earnings_at": null,
+        "event": "Umsatzguidance reduziert, 9M FCF negativ",
+        "score": null,
+        "sources": [
+          "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/"
+        ],
+        "as_of": "2026-11-06T10:00:00Z"
       }
     ],
     "pairs": [],
@@ -4037,6 +4425,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261106T090304Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "XETRA",
+        "universe_checked": 6,
+        "earnings_events": 5,
+        "triaged": 6,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261106T100000Z"
       }
     ],
     "strategies": [
