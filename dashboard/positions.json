@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updated_at": "2026-11-06T14:25:22Z",
+  "version": 9,
+  "updated_at": "2026-11-06T14:56:31Z",
   "update_note": "09:25 EST check: PTON 09:00 premarket 5.65 USD; HFG 13:21 CET Xetra 3.142 EUR (stale); IREN 08:30 EST premarket 20.82 USD retained. User turbo PnL unavailable.",
   "trades": [
     {
@@ -17,9 +17,9 @@
       "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 20.82,
-      "mark_at": "2026-11-06T08:30:00-05:00",
-      "mark_source": "Public.com premarket indicated last 20.82 USD at 08:30 EST; not Nasdaq regular opening or executable fill",
+      "mark_price": 21.34,
+      "mark_at": "2026-11-06T09:30:00-05:00",
+      "mark_source": "Public.com PREMARKET Last 09:30 EST, not Nasdaq opening print",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
@@ -27,8 +27,8 @@
       "planned_exit": "2026-11-06T09:30:00-05:00",
       "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
       "mark_source_url": "https://public.com/stocks/iren/pre-market",
-      "mark_verified_at": "2026-11-06T08:30:00-05:00",
-      "model_unrealized_pnl_eur": -76.73,
+      "mark_verified_at": "2026-11-06T14:56:31Z",
+      "model_unrealized_pnl_eur": -91.14,
       "reference_only": true,
       "previous_mark": {
         "price": 20.83,
