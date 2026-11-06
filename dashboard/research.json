@@ -1,6 +1,6 @@
 {
-  "version": 39,
-  "updated_at": "2026-11-06T21:26:47.017Z",
+  "version": 40,
+  "updated_at": "2026-11-06T22:29:47Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -6671,6 +6671,175 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261106T222947Z",
+      "market": "US",
+      "run_at": "2026-11-06T22:29:47Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Nachbörse: IREN Short-Referenz −107,76 EUR, Moderna positive Guidance-Revision",
+      "summary": "S&P +0,3%; Nasdaq +1,1%; IREN afterhours 21,94 USD 17:03 EST, nur Referenz-PnL; Moderna Q3 stark; kein zulässiger neuer Entry.",
+      "source_status": "4 einzeln geprüfte Ticker, 1 neue Moderna-Originalmitteilung; alle Master-Dossiers unter 50 und vorläufig",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "AI Cloud Earnings Rebound",
+          "risk": "Volatile, capex",
+          "sources_checked": 13,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "side": "LONG WATCH",
+          "thesis": "Positive Guidance-Revision",
+          "risk": "Pipeline/Bewertung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "US index closing report",
+          "publisher": "Associated Press",
+          "published_at": "2026-11-06",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad",
+          "ticker": null,
+          "finding": "S&P +0.3%, Nasdaq +1.1%, Dow -0.5%"
+        },
+        {
+          "title": "Moderna Q3 2026 results and guidance",
+          "publisher": "Moderna/Newswire",
+          "published_at": "2026-11-06T11:45:00Z",
+          "url": "https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business",
+          "ticker": "MRNA",
+          "finding": "Revenue $1.3bn, net income $162m, FY revenue growth 15-25%"
+        },
+        {
+          "title": "IREN earnings and cloud deals",
+          "publisher": "MarketWatch",
+          "published_at": "2026-11-05T20:07:00-05:00",
+          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0",
+          "ticker": "IREN",
+          "finding": "Earnings rebound and cloud deals"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "NEUTRAL/SHORT THESIS INVALIDATED",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings-Rebound widerlegt kurzfristige Short-Fortsetzung, hoher Capex und Finanzierung bleiben Risiken",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Nasdaq-Schluss 21,63 USD, 16:00 EST; Afterhours 21,94 USD, 17:03 EST",
+              "url": "https://stockanalysis.com/stocks/iren/",
+              "publisher": "StockAnalysis",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Neue Cloud-Verträge und Earnings-Rebound",
+              "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0",
+              "publisher": "MarketWatch",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Cloud-Kundenverträge",
+            "Capex/Finanzierung"
+          ],
+          "invalidations": [
+            "Nachhaltige Stabilisierung über Earnings-Reaktionshoch"
+          ]
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "stance": "LONG WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Beats und positive Guidance-Revision; Bewertung nach Kursanstieg unsicher",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Umsatz 1,3 Mrd USD, Nettogewinn 162 Mio USD, Wachstumsguidance 15–25%",
+              "url": "https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business",
+              "publisher": "Moderna/Newswire",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Oncology Investor Event 24.10.2026",
+              "url": "https://investors.modernatx.com/events-presentations",
+              "publisher": "Moderna IR",
+              "published_at": "2026-10-24"
+            }
+          ],
+          "catalysts": [
+            "Analyst Day 12.11.",
+            "Onkologie-Daten"
+          ],
+          "invalidations": [
+            "Schwächerer Pipeline-Fortschritt",
+            "Nachfrageeinbruch"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENCE ONLY",
+        "summary": "Short-Referenz 18,05 USD stark im Minus; kein historisch verifizierter Fill",
+        "base_scenario": "Volatilität, Richtung offen",
+        "bull_scenario": "Short profitiert von Rückgang",
+        "bear_scenario": "Weitere Rally/Short-Squeeze",
+        "key_risk": "Capex/Cloud-News und Kurs-Gaps",
+        "planned_exit": "Nächster regulärer Opening-Check nur bei verifiziertem Opening-Print",
+        "as_of": "2026-11-06T22:29:47Z",
+        "mark_price": 21.94,
+        "mark_at": "2026-11-06T17:03:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": -107.76,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 06.11.2026, 17:29 EST (22:29 UTC)\n\n## Markt- und Earnings-Lage\nDie reguläre Sitzung ist geschlossen; dieser Lauf ist ausschließlich nachbörsliches Research. S&P 500 +0,3 % auf 7.376,86; Nasdaq Composite +1,1 % auf 24.579,42; Dow -0,5 % auf 51.285,73. Wochenbilanz S&P -2,7 %, Nasdaq -3,4 %. Quelle: [Associated Press, 06.11.2026](https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad). Die Rückkehr von AI-/Halbleiterkäufern nach dem Einbruch ist kein Beleg für nachhaltige Trendwende. Der [TipRanks-Earningskalender, Abruf 06.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-6) nennt u.a. MRNA und HUM für Freitag, CEG und KKR für Montag. Kalenderlistungen sind keine individuell abgeschlossenen Screenings.\n\n## Fokus 1: IREN – Short-These nach Earnings geschwächt\n[StockAnalysis, Nasdaq-Kursseite, Abruf 06.11.2026](https://stockanalysis.com/stocks/iren/) zeigt regulären Schluss 21,63 USD am 06.11. 16:00 EST und nachbörslichen Last 21,94 USD um 17:03 EST. Vortag 18,03 USD, Tageshoch 22,46 USD, Tagestief 20,18 USD. [MarketWatch, 05.11.2026 20:07 ET](https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0) berichtet über den Earnings-bedingten Kurssprung und neue Cloud-Kundenverträge. **Einschätzung:** Die These einer unmittelbar fortgesetzten Abwärtsbewegung ist durch die starke Gegenreaktion vorerst widerlegt. Gegenargument für LONG: sehr hohe Volatilität, Investitionsbedarf, Finanzierung/Verwässerung, Makro- und regulatorische Risiken. Neue institutionelle 13F-Vergleiche und belastbare Management-Guidance-Ist-Serien: nicht verifiziert. IREN-Dossier weiter vorläufig, keinesfalls 50/50.\n\n## Fokus 2: Moderna (MRNA) – Guidance-Revision, vorläufig LONG-Watch\n[Originalmitteilung Moderna über Newswire, 06.11.2026 11:45 UTC](https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business): Q3-Umsatz rund 1,3 Mrd. USD (+29 %), Nettogewinn 162 Mio. USD, verwässertes EPS 0,38 USD. Jahresumsatzwachstum neu +15 bis +25 % statt vorher bis zu +10 %; Jahresendliquidität prognostiziert 8,1–8,3 Mrd. USD. Gegenargument: saisonales COVID-Geschäft, noch nicht bewiesene Kommerzialisierung des Onkologieprogramms und nach Kurssprung erhöhte Erwartungen. [Moderna IR, Abruf 06.11.2026](https://investors.modernatx.com/events-presentations) verweist auf Oncology Investor Event vom 24.10.2026. Die heutige Guidance ist eine **Revision**, keine bereits erfüllte historische Prognose. Historischer Management-Trefferquotient, 13F-Quartalsvergleiche und zwei vollständig gelesene Analystenberichte: nicht verifiziert. 1 neue Originalmitteilung im heutigen Lauf; Dossier unter 50.\n\n## Weitere Triage und Strategien\nPTON: Nasdaq-Schluss 5,62 USD um 16:00 EST, nachbörslicher Last 5,62 USD um 16:15 EST ([StockAnalysis, 06.11.](https://stockanalysis.com/stocks/pton/)). HFG: Xetra-Schluss 2,988 EUR um 17:35 CET, -10,38 % ([FinanzNachrichten, 06.11.](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm)). MRNA, IREN und PTON wurden konkret geprüft; HFG wegen offener Nutzerposition ebenfalls, also 4 symbolbezogene Checks. Andere Namen aus dem Earningskalender nur DISCOVERED. PRE-EARNINGS: für heute zeitlich vorbei; PEAD: ohne verifizierte kombinierte EPS-/Umsatzsurprise nicht qualifiziert; GUIDANCE-REVISION: MRNA plausibler Watch-Kandidat; PAIRS: ohne datierte 60–252-Tage-Reihen und Cointegration nicht nachgewiesen. Zwei aktuelle namentlich attribuierte Analystenänderungen, Optionen-IV, Bid/Ask und verifizierte Fondsbestände: nicht gefunden. Kein qualifizierter nachbörslicher Fill.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN SHORT**, Referenzbasis 18,05 USD vom 05.11., ausdrücklich kein verifizierter simulierter Fill. 100 EUR Modellkapital, 5× = 500 EUR synthetisches Exposure. Nasdaq regulärer Schluss 21,63 USD (16:00 EST), nachbörslicher Last **21,94 USD (17:03 EST)** ([StockAnalysis](https://stockanalysis.com/stocks/iren/)). Rein hypothetisches Modell: 500×(1−21,94/18,05) = **−107,76 EUR**, ohne FX, Spread, KO, Gebühren oder Slippage; kein realer und kein verifizierter Paper-Trade-Verlust. Der ursprünglich vorgesehene Eröffnungsexit wurde nicht mit einem überprüften Opening-Fill bestätigt. Position unverändert offen; nächste Prüfung Montag, 09.11.2026, Opening-Print gesondert verifizieren.\n\n**HFG SHORT Nutzer-Turbo:** Aktienbasis Xetra 2,988 EUR, 06.11. 17:35 CET ([FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm)); kein Produkt-ISIN, Turbo-Einstieg oder Produktkurs; **PnL nicht berechenbar**. **PTON SHORT Nutzer-Turbo:** Nasdaq-Aktie 5,62 USD, regulärer Schluss 16:00 EST ([StockAnalysis](https://stockanalysis.com/stocks/pton/)); Turbo-Preis/Einstand nicht bekannt; **PnL nicht berechenbar**. Beide Nutzerpositionen bleiben OPEN_UNVERIFIED; keine fiktiven Exits. DEUTZ Long laut Nutzer bereits geschlossen, ca. +11 EUR, keine neuen Fills.\n\n## Entscheidung und nächste Eröffnung\n**KEIN TRADE**: 17:29 EST liegt außerhalb des autorisierten 15:30-Entryfensters. IREN-Basisszenario: weiter hohe, richtungsunsichere Volatilität; positiver Short-Fall: nachlassende AI-Euphorie und Kursrückgang; negativer Short-Fall: weiterer Short-Squeeze durch Cloud-Nachfrage. MRNA 1–10 Tage vorsichtig positiv, aber nicht qualifiziert für Entry. Keine aktuellen verifizierten 13F-Paarvergleiche, keine tickgenauen TradingView-Kurse, kein Echtgeldhandel.",
+      "report_sections": [
+        {
+          "heading": "Markt",
+          "summary": "S&P +0.3%, Nasdaq +1.1%",
+          "bullets": [
+            {
+              "text": "US index close",
+              "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-806f71d95105bc7efbc760b194dd8cad",
+              "publisher": "Associated Press",
+              "checked_at": "2026-11-06T22:29:47Z"
+            }
+          ]
+        },
+        {
+          "heading": "Offene Positionen",
+          "summary": "IREN reference -107.76 EUR; HFG/PTON Turbo PnL unavailable",
+          "bullets": [
+            {
+              "text": "IREN afterhours last 21.94 USD 17:03 EST",
+              "url": "https://stockanalysis.com/stocks/iren/",
+              "publisher": "StockAnalysis",
+              "checked_at": "2026-11-06T22:29:47Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -7909,18 +8078,28 @@
           "finding": "Revenue 1.3bn USD vs LSEG 885.1m; 2026 revenue growth outlook 15-25%",
           "checked_on": "2026-11-06T08:30:00-05:00",
           "doc_type": "NEWS"
+        },
+        {
+          "id": "MRNA-Q3-2026-PR",
+          "title": "Moderna Q3 2026 Results",
+          "publisher": "Moderna/Newswire",
+          "published_at": "2026-11-06T11:45:00Z",
+          "url": "https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business",
+          "finding": "Revenue 1.3bn, GAAP income 162m, EPS 0.38, guidance 15-25%",
+          "checked_on": "2026-11-06T22:29:47Z",
+          "doc_type": "company_release"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
       "key_unknowns": [
-        "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
-        "Aktuelle 13F Originalfilings nicht paarweise geprüft",
-        "50 independent verified sources not yet reached; two original 13F filings not checked"
+        "Historical guidance-to-actual series",
+        "Verified paired 13F filings",
+        "Current bid/ask and analyst primary reports"
       ],
-      "as_of": "2026-11-06T21:26:47.017Z",
-      "status": "DEEP_DIVE_PRELIMINARY",
+      "as_of": "2026-11-06T22:29:47Z",
+      "status": "DEEP_DIVE_INCOMPLETE",
       "stance": "LONG WATCH",
       "summary": "2026 guidance raised after Q3 beat",
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
@@ -8014,13 +8193,13 @@
     }
   },
   "screening": {
-    "status": "PARTIAL_POSTCLOSE",
-    "as_of": "2026-11-06T21:26:47.017Z",
-    "method_note": "2026-11-06 post-close: three ticker-specific research checks (IREN PTON MRNA), TEAM media-only, HFG position mark only; no claim of full universe coverage. Preserve other market history.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-06T22:29:47Z",
+    "method_note": "This run: four ticker-specific public-source checks IREN, MRNA, PTON, HFG; calendar-listed names not counted as screened. Preserve other market records.",
     "coverage": {
-      "universe_checked": 3,
-      "earnings_events": 3,
-      "triaged": 3,
+      "universe_checked": 4,
+      "earnings_events": 2,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -8030,18 +8209,17 @@
         "name": "IREN Limited",
         "tv": "NASDAQ:IREN",
         "market": "US",
-        "sector": null,
+        "sector": "AI infrastructure",
         "direction": "REVIEW",
-        "reason": "Strong Q1 AI cloud growth but financing and delayed ARR; avoid short chasing",
+        "reason": "Earnings rebound; short thesis invalidated",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Q3/Q1 earnings reaction 2026-11-06",
+        "event": "Earnings rebound; short thesis invalidated",
         "score": null,
         "sources": [
-          "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html",
-          "https://stockanalysis.com/stocks/iren/forecast/"
+          "https://stockanalysis.com/stocks/iren/"
         ],
-        "as_of": "2026-11-06T21:26:47.017Z"
+        "as_of": "2026-11-06T22:29:47Z"
       },
       {
         "ticker": "APP",
@@ -8288,17 +8466,17 @@
         "name": "Moderna",
         "tv": "NASDAQ:MRNA",
         "market": "US",
-        "sector": null,
-        "direction": "LONG WATCH",
-        "reason": "2026 guidance raised after Q3 beat",
+        "sector": "Biotech",
+        "direction": "LONG",
+        "reason": "Positive FY guidance revision",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Q3/Q1 earnings reaction 2026-11-06",
+        "event": "Positive FY guidance revision",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/"
+          "https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business"
         ],
-        "as_of": "2026-11-06T21:26:47.017Z"
+        "as_of": "2026-11-06T22:29:47Z"
       },
       {
         "ticker": "HUM",
@@ -8577,17 +8755,17 @@
         "name": "HelloFresh",
         "tv": "XETR:HFG",
         "market": "XETRA",
-        "sector": null,
-        "direction": "SHORT",
-        "reason": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%",
+        "sector": "Meal kits",
+        "direction": "REVIEW",
+        "reason": "User open Turbo, verified Xetra close",
         "stage": "WATCH",
-        "earnings_at": "2026-11-05",
-        "event": "Q3 Profitabilität verbessert bei sinkenden Bestellungen",
+        "earnings_at": null,
+        "event": "User open Turbo, verified Xetra close",
         "score": null,
         "sources": [
-          "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4"
+          "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm"
         ],
-        "as_of": "2026-11-06T15:55:56Z"
+        "as_of": "2026-11-06T22:29:47Z"
       },
       {
         "ticker": "TEP",
@@ -8796,20 +8974,20 @@
       },
       {
         "ticker": "PTON",
-        "name": "Peloton Interactive",
+        "name": "Peloton",
         "tv": "NASDAQ:PTON",
         "market": "US",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Margin recovery vs subscriber decline",
-        "stage": "DEEP_DIVE",
+        "sector": "Consumer fitness",
+        "direction": "REVIEW",
+        "reason": "User open Turbo, verified underlying close",
+        "stage": "WATCH",
         "earnings_at": null,
-        "event": "Q3/Q1 earnings reaction 2026-11-06",
+        "event": "User open Turbo, verified underlying close",
         "score": null,
         "sources": [
           "https://stockanalysis.com/stocks/pton/"
         ],
-        "as_of": "2026-11-06T21:26:47.017Z"
+        "as_of": "2026-11-06T22:29:47Z"
       },
       {
         "ticker": "CEG",
@@ -9098,6 +9276,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T212647Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": 2,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261106T222947Z"
       }
     ],
     "strategies": [
