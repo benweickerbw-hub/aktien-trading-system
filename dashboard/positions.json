@@ -1,7 +1,7 @@
 {
-  "version": 12,
-  "updated_at": "2026-11-06T20:32:12.059Z",
-  "update_note": "15:30 EST check: IREN newer public LAST 15:01 EST, reference only, not fill; PTON/HFG stale",
+  "version": 13,
+  "updated_at": "2026-11-06T21:26:12.857Z",
+  "update_note": "2026-11-06 postclose verified newer Xetra HFG and Nasdaq PTON marks; IREN conflicting 16:00 quotes left unchanged; all user positions preserved",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -49,13 +49,13 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 3.142,
+      "mark_price": 2.988,
       "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-06T13:21:00+01:00",
-      "mark_type": "REGULAR",
-      "mark_source": "Finanznachrichten Xetra Last EUR 13:21 CET; stale at check",
+      "mark_at": "2026-11-06T17:35:00+01:00",
+      "mark_type": "CLOSE",
+      "mark_source": "FinanzNachrichten Xetra 17:35 CET closing Last, underlying equity NOT turbo",
       "mark_source_url": "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm",
-      "mark_verified_at": "2026-11-06T09:25:22-05:00",
+      "mark_verified_at": "2026-11-06T21:26:12.857Z",
       "model_unrealized_pnl_eur": null
     },
     {
@@ -69,13 +69,13 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 5.76,
+      "mark_price": 5.62,
       "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-06T14:25:00-05:00",
-      "mark_type": "REGULAR",
-      "mark_source": "StockAnalysis Nasdaq regular last, CBOE/UTP data may be delayed up to 15min",
+      "mark_at": "2026-11-06T16:00:00-05:00",
+      "mark_type": "CLOSE",
+      "mark_source": "StockAnalysis NASDAQ last at 16:00 EST; CBOE or 15-min delayed Nasdaq UTP; underlying equity, NOT turbo price",
       "mark_source_url": "https://stockanalysis.com/stocks/pton/",
-      "mark_verified_at": "2026-11-06T19:27:53Z",
+      "mark_verified_at": "2026-11-06T21:26:12.857Z",
       "model_unrealized_pnl_eur": null,
       "reference_only": false
     },
