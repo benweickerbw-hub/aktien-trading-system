@@ -1,6 +1,6 @@
 {
-  "version": 40,
-  "updated_at": "2026-11-06T22:29:47Z",
+  "version": 41,
+  "updated_at": "2026-11-06T23:28:38Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -6840,6 +6840,207 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261106T232838Z",
+      "market": "US",
+      "run_at": "2026-11-06T23:28:38Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Nachbörsencheck: IREN Childress-Verzögerung vs Cloud-Wachstum; MRNA Guidance; NET Q3",
+      "summary": "3 konkrete Eventtitel geprüft, keine neue belastbare zeitgestempelte Quote für offene Positionen, keine simulierten Entries",
+      "source_status": "3 Aktien inhaltlich geprüft; Quellen je Dossier vorläufig <50; kein neuer verifizierter Kursmark",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "AI cloud demand vs Childress delays; earlier short contradicted",
+          "risk": "financing, execution, short squeeze",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "side": "LONG",
+          "thesis": "revenue beat and upgraded 2026 growth guidance",
+          "risk": "cancer vaccine trial and valuation",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "LONG",
+          "thesis": "39% revenue growth and current RPO +37%",
+          "risk": "GAAP loss and valuation",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Microsoft networking change delays IREN Childress project",
+          "published_at": "2026-11-06T00:25:39Z",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11",
+          "finding": "4bn USD operating ARR target delayed to Jan/Feb; 228m USD revenue, 263m USD net loss"
+        },
+        {
+          "title": "Moderna raises revenue growth forecast",
+          "published_at": "2026-11-06T11:50:00Z",
+          "ticker": "MRNA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+          "finding": "2026 revenue growth guidance 15–25%; Q3 revenue approx 1.3bn USD"
+        },
+        {
+          "title": "Cloudflare announces Q3 results",
+          "published_at": "2026-11-05",
+          "ticker": "NET",
+          "publisher": "Cloudflare",
+          "url": "https://www.cloudflare.com/es-la/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+          "finding": "Q3 revenue 782.5m USD +39%; current RPO +37%"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "AI cloud demand vs Childress delays; earlier short contradicted",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "4bn USD operating ARR target delayed to Jan/Feb; 228m USD revenue, 263m USD net loss",
+              "url": "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11",
+              "publisher": "Business Insider",
+              "published_at": "2026-11-06T00:25:39Z"
+            }
+          ],
+          "catalysts": [
+            "Childress commissioning",
+            "AI cloud customer contracts"
+          ],
+          "invalidations": [
+            "financing, execution, short squeeze"
+          ]
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "revenue beat and upgraded 2026 growth guidance",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "2026 revenue growth guidance 15–25%; Q3 revenue approx 1.3bn USD",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06T11:50:00Z"
+            }
+          ],
+          "catalysts": [
+            "oncology data",
+            "regulatory filing"
+          ],
+          "invalidations": [
+            "cancer vaccine trial and valuation"
+          ]
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "39% revenue growth and current RPO +37%",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue 782.5m USD +39%; current RPO +37%",
+              "url": "https://www.cloudflare.com/es-la/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+              "publisher": "Cloudflare",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Q4 guidance",
+            "RPO conversion"
+          ],
+          "invalidations": [
+            "GAAP loss and valuation"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENZ",
+        "summary": "Frühere Short-These deutlich widerlegt; kein verifizierter Fill",
+        "base_scenario": "hohe Volatilität zum nächsten US-Open",
+        "bull_scenario": "Kursanstieg durch weitere AI cloud Nachrichten (negativ für Short)",
+        "bear_scenario": "Kursrückgang bei Finanzierungs- oder Projektverzögerungen",
+        "key_risk": "Short squeeze, nachbörsliche Illiquidität",
+        "planned_exit": "Nur mit verifiziertem Opening-Print am nächsten US-Handelstag",
+        "as_of": "2026-11-06T23:28:38Z",
+        "mark_price": 21.94,
+        "mark_at": "2026-11-06T17:03:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": -107.76,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörsenresearch – 6. November 2026, 18:28 EST\n\n**Entscheidung: KEIN TRADE.** Nasdaq und NYSE haben regulär um 16:00 EST geschlossen; dieser 18:28-Uhr-Lauf dient nur Research und Review. Keine neuen simulierten Fills, keine echten Orders. Letzter Research-Stand 23:28:38 UTC.\n\n## Markt und Earnings-Screening\nDer US-Technologiesektor erholte sich nach dem heftigen Vortagesverkauf, aber die Makro-/Zins- und AI-Infrastruktur-Risiken bleiben erhöht. Der [TipRanks-Earnings-Kalender, abgerufen 06.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-6) nennt für den 6. November 103 Unternehmen (nur gelistet, **nicht** einzeln geprüft), darunter MRNA und HUM; für den 9. November CEG und KKR. Tatsächlich inhaltlich überprüfte Event-Titel dieses Laufs: IREN, MRNA, NET (3). Keine belastbare Liquiditäts-/Spread-Qualifikation oder vollständige Options-IV-Prüfung; kein QUALIFIED-Trade.\n\n## IREN – Referenz-Short widersprochen\n[Business Insider, 06.11.2026, 00:25 UTC](https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11): Microsoft verlangte Netzwerkänderungen beim 9,7-Mrd.-USD-Projekt in Childress. Die Zielmarke von 4 Mrd. USD annualisiertem operativem Umsatz verschob sich von Jahresende auf Januar/Februar. Quartalsumsatz 228 Mio. USD, Nettoverlust 263 Mio. USD. **Bear:** Verzögerung, Kapitalbedarf, Finanzierungskonditionen und Projektumsetzung. **Bull:** starke AI-Cloud-Nachfrage, Microsoft-Vertrag und bereits errichtete Kapazität. [MarketWatch, 05.11.2026, 20:07 EST](https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0) beschreibt den Erholungsimpuls und neue Cloud-Verträge, aber der vollständige Artikel war nur eingeschränkt zugänglich. Die ursprüngliche Short-Einschätzung war falsch; eine erneute Short-These erfordert neue überprüfte Trigger und kein bloßes Hoffen auf Mean-Reversion. Historischer 18,05-USD-Referenzeinstieg war **kein** belegter Fill.\n\n## Moderna MRNA – LONG-Watch, kein Entry\n[Reuters, 06.11.2026, 11:50 UTC](https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/): Q3-Umsatz rund 1,3 Mrd. USD gegenüber 885,1 Mio. USD LSEG-Konsens, Nettogewinn 162 Mio. USD, Umsatzwachstumsprognose 2026 auf 15–25 % angehoben. Evercore-Analyst Cory Kasimov und William-Blair-Analyst Myles Minter ordnen den Onkologie-Katalysator wichtiger als den Quartalsbeat ein; Bernstein hebt Kostendisziplin nach der Norovirus-Entscheidung hervor. **Bull:** höherer Umsatz, potenzieller regulatorischer Katalysator. **Bear:** hohe Erwartungen und klinisches/regulatorisches Binärrisiko. Ohne aktuelle ausführbare Quote und Bewertung kein Einstieg.\n\n## Cloudflare NET – LONG-Watch, kein Entry\n[Cloudflare Unternehmensmitteilung, 05.11.2026](https://www.cloudflare.com/es-la/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/): Q3-Umsatz 782,5 Mio. USD (+39 % gegenüber Vorjahr), GAAP-operativer Verlust 67,9 Mio. USD, Non-GAAP-operatives Ergebnis 137,1 Mio. USD; Current RPO +37 %. **Bull:** Wachstum und Auftragsbestand. **Bear:** GAAP-Verluste, Bewertung und Konkurrenz. Ein belastbarer Konsensvergleich, Management-Guidance-Ist-Scorecard und zwei aktuelle Analystenvoten wurden in diesem Lauf nicht verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN Short (PAPER, nur Referenz):** Basis 18,05 USD, hypothetisch 100 EUR ×5. Zuletzt im Positionsjournal verifiziert: 21,94 USD, 06.11.2026 17:03 EST, NASDAQ Nachbörse, Quelle [StockAnalysis](https://stockanalysis.com/stocks/iren/); dieser Lauf hat **keine neuere verlässlich zeitgestempelte Quote** bestätigt. Modellverlust 500×(1−21,94/18,05) = **−107,76 EUR**, ohne FX, Spread, KO, Gebühren; nicht realisiert und kein nachgewiesener Fill. Plan: nächster verifizierbarer regulärer Open-Print; kein rückdatierter Exit.\n**HFG HelloFresh Turbo Short (Nutzerangabe):** Basis/ISIN fehlen. Letzte belegte Aktienmarke 2,988 EUR, Xetra-Schluss 06.11.2026 17:35 CET, [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); ALT gegenüber diesem Lauf, Zertifikat-PnL nicht berechenbar. Kein automatischer Exit.\n**PTON Peloton Turbo Short (Nutzerangabe):** Basis/ISIN fehlen. Letzte belegte Aktienmarke 5,62 USD, NASDAQ regulärer Schluss 06.11.2026 16:00 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/); keine neuere belastbare Quote, Zertifikat-PnL nicht berechenbar. Kein automatischer Exit.\n\n## Forschungslücken und Methodik\nFür IREN wurden zwei weitere datierte Medienberichte geöffnet, für MRNA ein Reuters-Originalartikel, für NET die Unternehmensmitteilung; kumulative Dossierzahlen bleiben unter dem 50-Dokument-Ziel. Keine 13F-Quartalsvergleiche anhand zweier Originalfilings verifiziert, keine historische Guidance-Trefferquote berechnet, keine rollierende Pair-Korrelation berechnet. Der Kalender listet viele Unternehmen, aber diese werden **nicht** als gescreent gezählt. Keine Quote aus TradingView als PnL-Beleg verwendet. Keine neuen Positionen oder Änderungen an Nutzerpositionen.",
+      "report_sections": [
+        {
+          "heading": "IREN",
+          "summary": "Projektverzögerung und Short-Risiko",
+          "bullets": [
+            {
+              "text": "Childress delay",
+              "url": "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11",
+              "publisher": "Business Insider",
+              "checked_at": "2026-11-06T23:28:38Z"
+            }
+          ]
+        },
+        {
+          "heading": "MRNA",
+          "summary": "Guidance angehoben",
+          "bullets": [
+            {
+              "text": "Q3 revenue beat",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T23:28:38Z"
+            }
+          ]
+        },
+        {
+          "heading": "NET",
+          "summary": "Q3 +39%",
+          "bullets": [
+            {
+              "text": "Q3 2026 results",
+              "url": "https://www.cloudflare.com/es-la/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+              "publisher": "Cloudflare",
+              "checked_at": "2026-11-06T23:28:38Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -6847,10 +7048,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-06T21:26:47.017Z",
-      "status": "DEEP_DIVE_PRELIMINARY",
+      "as_of": "2026-11-06T23:28:38Z",
+      "status": "VORLÄUFIG",
       "stance": "REVIEW",
-      "summary": "Strong Q1 AI cloud growth but financing and delayed ARR; avoid short chasing",
+      "summary": "AI cloud demand vs Childress delays; earlier short contradicted",
       "source_goal": 50,
       "source_documents": [
         {
@@ -6982,6 +7183,26 @@
           "finding": "Q1 total revenue $228m, AI Cloud $200m, net loss $263m, $20.3bn backlog; $4bn ARR target shifted to Jan/Feb; $15bn remaining capex.",
           "checked_on": "2026-11-06T21:26:47.017Z",
           "doc_type": "company_earnings_release"
+        },
+        {
+          "id": "IREN-14",
+          "title": "IREN blames Microsoft networking changes",
+          "publisher": "Business Insider",
+          "published_at": "2026-11-06T00:25:39Z",
+          "url": "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11",
+          "finding": "Childress delay and revised ARR timing",
+          "checked_on": "2026-11-06T23:28:38Z",
+          "doc_type": "journalism"
+        },
+        {
+          "id": "IREN-15",
+          "title": "IREN stock rebounds on cloud deals",
+          "publisher": "MarketWatch",
+          "published_at": "2026-11-05T20:07:00-05:00",
+          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0",
+          "finding": "New cloud deals and share rebound; paywalled article partially accessible",
+          "checked_on": "2026-11-06T23:28:38Z",
+          "doc_type": "journalism"
         }
       ],
       "financial_history": [
@@ -7069,7 +7290,7 @@
         "Aktuelle 13F Originalfilings nicht paarweise geprüft",
         "50 independent verified sources not yet reached; two original 13F filings not checked"
       ],
-      "method_note": "Deduplicated opened URLs; do not infer 13F flow, quote latency or management forecast success rate.",
+      "method_note": "Nur tatsächlich geöffnete und geprüfte eindeutige URLs; keine 13F-Paarvergleichsdaten neu verifiziert.",
       "analyst_coverage": "Lewis/BTIG und Ng/Goldman 06.11.2026 via StockAnalysis/TipRanks; nicht Originalresearch"
     },
     "APP": {
@@ -7203,10 +7424,10 @@
       "ticker": "NET",
       "name": "Cloudflare",
       "tv": "NYSE:NET",
-      "as_of": "2026-11-06T17:34:09Z",
-      "status": "PRELIMINARY",
-      "stance": "WATCH LONG",
-      "summary": "Earnings-getriebene Erholung; zugänglicher Volltext begrenzt.",
+      "as_of": "2026-11-06T23:28:38Z",
+      "status": "VORLÄUFIG",
+      "stance": "LONG",
+      "summary": "39% revenue growth and current RPO +37%",
       "source_goal": 50,
       "source_documents": [
         {
@@ -7278,6 +7499,16 @@
           "finding": "Umsatz 782,5 Mio. USD; Q4-Guidance 845–846 Mio.",
           "checked_on": "2026-11-06T17:34:09Z",
           "doc_type": "IR"
+        },
+        {
+          "id": "NET-8",
+          "title": "Cloudflare Q3 2026 financial results",
+          "publisher": "Cloudflare",
+          "published_at": "2026-11-05",
+          "url": "https://www.cloudflare.com/es-la/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/",
+          "finding": "782.5m revenue +39%, current RPO +37%",
+          "checked_on": "2026-11-06T23:28:38Z",
+          "doc_type": "IR release"
         }
       ],
       "financial_history": [
@@ -7361,7 +7592,7 @@
         "Independent 13F quarter-over-quarter share comparisons not verified",
         "Two named analyst target changes not verified"
       ],
-      "method_note": "Nur tatsächlich geöffnete und geprüfte URLs; Syndikate nicht doppelt. | 06.11.09:25 EST: neue Primärdokumente 0, Reuters-Sekundärbelege im Run; keine ungesichteten Quellen als geprüft addiert.",
+      "method_note": "Nur tatsächlich geöffnete und geprüfte eindeutige URLs; keine 13F-Paarvergleichsdaten neu verifiziert.",
       "analyst_coverage": []
     },
     "AFRM": {
@@ -8098,12 +8329,12 @@
         "Verified paired 13F filings",
         "Current bid/ask and analyst primary reports"
       ],
-      "as_of": "2026-11-06T22:29:47Z",
-      "status": "DEEP_DIVE_INCOMPLETE",
-      "stance": "LONG WATCH",
-      "summary": "2026 guidance raised after Q3 beat",
+      "as_of": "2026-11-06T23:28:38Z",
+      "status": "VORLÄUFIG",
+      "stance": "LONG",
+      "summary": "revenue beat and upgraded 2026 growth guidance",
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
-      "method_note": "Deduplicated opened URLs; do not infer 13F flow, quote latency or management forecast success rate.",
+      "method_note": "Nur tatsächlich geöffnete und geprüfte eindeutige URLs; keine 13F-Paarvergleichsdaten neu verifiziert.",
       "analyst_coverage": []
     },
     "R3NK": {
@@ -8194,12 +8425,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-06T22:29:47Z",
-    "method_note": "This run: four ticker-specific public-source checks IREN, MRNA, PTON, HFG; calendar-listed names not counted as screened. Preserve other market records.",
+    "as_of": "2026-11-06T23:28:38Z",
+    "method_note": "Nur IREN, MRNA, NET inhaltlich geprüft; 103 gelistete TipRanks-Titel nicht als geprüft zählen.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 2,
-      "triaged": 4,
+      "universe_checked": 3,
+      "earnings_events": 3,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -8211,15 +8442,15 @@
         "market": "US",
         "sector": "AI infrastructure",
         "direction": "REVIEW",
-        "reason": "Earnings rebound; short thesis invalidated",
+        "reason": "AI cloud demand vs Childress delays; earlier short contradicted",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Earnings rebound; short thesis invalidated",
+        "event": "Q3 2026 earnings",
         "score": null,
         "sources": [
-          "https://stockanalysis.com/stocks/iren/"
+          "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11"
         ],
-        "as_of": "2026-11-06T22:29:47Z"
+        "as_of": "2026-11-06T23:28:38Z"
       },
       {
         "ticker": "APP",
@@ -8244,17 +8475,17 @@
         "name": "Cloudflare",
         "tv": "NYSE:NET",
         "market": "US",
-        "sector": null,
+        "sector": "Software",
         "direction": "LONG",
-        "reason": "Strong Q3 revenue growth",
+        "reason": "39% revenue growth and current RPO +37%",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "2026-11-06 earnings review",
+        "event": "Q3 2026 earnings",
         "score": null,
         "sources": [
-          "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d"
+          "https://www.cloudflare.com/es-la/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/"
         ],
-        "as_of": "2026-11-06T20:32:12.059Z"
+        "as_of": "2026-11-06T23:28:38Z"
       },
       {
         "ticker": "AFRM",
@@ -8466,17 +8697,17 @@
         "name": "Moderna",
         "tv": "NASDAQ:MRNA",
         "market": "US",
-        "sector": "Biotech",
+        "sector": "Biotechnology",
         "direction": "LONG",
-        "reason": "Positive FY guidance revision",
-        "stage": "DEEP_DIVE",
+        "reason": "revenue beat and upgraded 2026 growth guidance",
+        "stage": "WATCH",
         "earnings_at": null,
-        "event": "Positive FY guidance revision",
+        "event": "Q3 2026 earnings",
         "score": null,
         "sources": [
-          "https://www.newswire.com/news/moderna-reports-third-quarter-2026-financial-results-and-provides-business"
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/"
         ],
-        "as_of": "2026-11-06T22:29:47Z"
+        "as_of": "2026-11-06T23:28:38Z"
       },
       {
         "ticker": "HUM",
@@ -9286,6 +9517,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T222947Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "US",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261106T232838Z"
       }
     ],
     "strategies": [
