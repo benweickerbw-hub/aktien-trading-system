@@ -1,6 +1,6 @@
 {
-  "version": 22,
-  "updated_at": "2026-11-06T12:04:34Z",
+  "version": 23,
+  "updated_at": "2026-11-06T12:58:26Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -3434,6 +3434,291 @@
           ]
         }
       ]
+    },
+    {
+      "id": "XETRA-20261106T125826Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T12:58:26Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Krones Margenqualität und FCF, Daimler Truck Auftragseingang unter Konsens; Earnings GEA/HNR1/IFX",
+      "summary": "5 verifizierte europäische Event-Ticker, 8 URLs geprüft, keine neue Paper-Order, HFG/PTON Turbo-PnL unbekannt, IREN Referenzmarke alt.",
+      "source_status": "8 unterschiedliche überprüfte URLs, 6 IR/Medien, 2 Kursseiten; keine neuen zeitnahen vollständigen Fill-Quotes",
+      "candidates": [
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "side": "SHORT",
+          "thesis": "Margenqualität vs Umsatzrevision",
+          "risk": "FCF/positive Zollerstattung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "side": "SHORT",
+          "thesis": "Orders unter Konsens",
+          "risk": "starke Margenerholung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "side": "LONG",
+          "thesis": "Q3 Montag",
+          "risk": "Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "side": "LONG",
+          "thesis": "Q3 Montag",
+          "risk": "Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "LONG",
+          "thesis": "Q4 Dienstag",
+          "risk": "Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Krones Q3 2026",
+          "publisher": "Krones",
+          "published_at": "2026-11-06",
+          "url": "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/",
+          "ticker": "KRN",
+          "finding": "9M Aufträge 4.223,6 Mio EUR +2,9%; EBITDA-Marge 11,1%, bereinigt um Zollerstattung 10,8%; FCF ex M&A -5 Mio; Jahres-Umsatzwachstum 1-2% nach 3-5%."
+        },
+        {
+          "title": "Daimler Truck Q3 2026",
+          "publisher": "Daimler Truck",
+          "published_at": "2026-11-06",
+          "url": "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175",
+          "ticker": "DTG",
+          "finding": "EBIT adjusted 1.124 Mio EUR; Industrial Umsatz 11,6 Mrd; ROS 9,1%; FCF 974 Mio inklusive Beteiligungsveräußerung."
+        },
+        {
+          "title": "Daimler Truck Q3 Konsens",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06",
+          "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+          "ticker": "DTG",
+          "finding": "Auftragseingang 9% unter Konsens, Nordamerika 16% unter Konsens."
+        },
+        {
+          "title": "GEA Q3 Termin",
+          "publisher": "GEA IR",
+          "published_at": "2026-11-06",
+          "url": "https://www.gea.com/en/investors/",
+          "ticker": "G1A",
+          "finding": "Q3-Bericht am 09.11.2026 07:30 CET."
+        },
+        {
+          "title": "Hannover Re Quartalsbericht Termin",
+          "publisher": "Hannover Re IR",
+          "published_at": "2026-11-06",
+          "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+          "ticker": "HNR1",
+          "finding": "Q3-Zahlen am 09.11.2026."
+        },
+        {
+          "title": "Infineon Q4 Termin",
+          "publisher": "Infineon IR",
+          "published_at": "2026-11-06",
+          "url": "https://www.infineon.com/about/events",
+          "ticker": "IFX",
+          "finding": "Q4/FY26 am 10.11.2026 07:30 CET."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "stance": "VORSICHTIG BEARISH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Margenqualität vs Umsatzrevision; kein verifizierter Fill",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "9M Aufträge 4.223,6 Mio EUR +2,9%; EBITDA-Marge 11,1%, bereinigt um Zollerstattung 10,8%; FCF ex M&A -5 Mio; Jahres-Umsatzwachstum 1-2% nach 3-5%.",
+              "url": "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/",
+              "publisher": "Krones",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Margenqualität vs Umsatzrevision"
+          ],
+          "invalidations": [
+            "FCF/positive Zollerstattung"
+          ]
+        },
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "stance": "VORSICHTIG BEARISH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Orders unter Konsens; kein verifizierter Fill",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "EBIT adjusted 1.124 Mio EUR; Industrial Umsatz 11,6 Mrd; ROS 9,1%; FCF 974 Mio inklusive Beteiligungsveräußerung.",
+              "url": "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175",
+              "publisher": "Daimler Truck",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Auftragseingang 9% unter Konsens, Nordamerika 16% unter Konsens.",
+              "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Orders unter Konsens"
+          ],
+          "invalidations": [
+            "starke Margenerholung"
+          ]
+        },
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 Montag; kein verifizierter Fill",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Bericht am 09.11.2026 07:30 CET.",
+              "url": "https://www.gea.com/en/investors/",
+              "publisher": "GEA IR",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Q3 Montag"
+          ],
+          "invalidations": [
+            "Konsens nicht verifiziert"
+          ]
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 Montag; kein verifizierter Fill",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Zahlen am 09.11.2026.",
+              "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+              "publisher": "Hannover Re IR",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Q3 Montag"
+          ],
+          "invalidations": [
+            "Konsens nicht verifiziert"
+          ]
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q4 Dienstag; kein verifizierter Fill",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q4/FY26 am 10.11.2026 07:30 CET.",
+              "url": "https://www.infineon.com/about/events",
+              "publisher": "Infineon IR",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Q4 Dienstag"
+          ],
+          "invalidations": [
+            "Konsens nicht verifiziert"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENZ",
+        "summary": "Nicht verifizierter historischer Fill; letzte gespeicherte Vorbörse alt.",
+        "base_scenario": "Nasdaq-Eröffnung abwarten und Opening-Print separat verifizieren",
+        "bull_scenario": "Kurs fällt, Short-Referenz profitiert",
+        "bear_scenario": "Earnings-Rally/Short-Squeeze führt zu Verlust",
+        "key_risk": "Gap, Short-Squeeze, keine echte Ausführung",
+        "planned_exit": "06.11.2026 Nasdaq-Open nur bei überprüfbarem Print",
+        "as_of": "2026-11-06T12:58:26Z",
+        "mark_price": 20.83,
+        "mark_at": "2026-11-06T05:32:42-05:00",
+        "mark_source_url": "https://www.investing.com/equities/iris-energy",
+        "pnl_eur": -77.01,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 06.11.2026, 13:58 MEZ\n\n## Markt- und Earnings-Lage\nFreitag, regulärer Xetra-Handel; laufender Intraday-Research, kein zulässiger Abend-Entry vor dem vorgesehenen 17:00-Entscheidungsslot. Verlässliche aktuelle Xetra-Bid/Ask-Quotes für eine neue Ausführung nicht verifiziert. Breites universelles Screening nicht nachgewiesen: vier direkt termin-/ereignisverifizierte Kandidaten (DTG, KRN, G1A, HNR1, IFX: fünf); weitere Namen nicht als geprüft zählen.\n\n## Unternehmen und gegensätzliche Thesen\n**Krones (KRN), WATCH/neutral bis vorsichtig bearish:** 9M26 Auftragseingang 4.223,6 Mio EUR (+2,9%), EBITDA-Marge 11,1%, aber ohne positive Zollerstattung 10,8%; FCF vor M&A -5,0 Mio EUR vs +80,2 Mio EUR Vorjahr. Umsatzwachstumsprognose 2026 1–2% nach 3–5%, bereits am 22.10. revidiert: heute keine NEUE Revision. Bull: Auftragswachstum, bessere Marge; Bear: schwacher FCF und reduziertes Wachstum. Invalidierung Bear: belastbare organische Beschleunigung und nachhaltig positiver FCF. [Krones IR, 06.11.2026](https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/).\n\n**Daimler Truck (DTG), WATCH/neutral bis bearish:** Q3 bereinigtes EBIT 1.124 Mio EUR vs 648 Mio EUR im Vorjahr; Industrieumsatz 11,6 Mrd EUR; Marge 9,1%; FCF 974 Mio EUR inklusive ARCHION-Teilveräußerung. Auftragseingang laut Reuters 9% unter Konsens, Nordamerika 16% darunter. Bull: Margenerholung, bestätigte Guidance; Bear: Auftragslücke und nicht vollständig operativer FCF. Invalidierung Bear: nachweislich anziehende Auftragspipeline. [Daimler Truck IR, 06.11.2026](https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175); [Reuters, 06.11.2026](https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/).\n\n**GEA (G1A), WATCH:** Q3-Veröffentlichung Montag 09.11. 07:30 CET. [GEA IR, geprüft 06.11.](https://www.gea.com/en/investors/). **Hannover Rück (HNR1), WATCH:** Quartalsbericht Montag 09.11. [Hannover Rück IR, geprüft 06.11.](https://www.hannover-re.com/en/investors/events-and-presentations/). **Infineon (IFX), WATCH:** FY/Q4 am Dienstag 10.11. 07:30 CET. [Infineon IR, geprüft 06.11.](https://www.infineon.com/about/events). Bei allen drei fehlen aktueller Konsens, historische Überraschungsvergleiche, Bewertung und liquide aktuelle Bid/Ask; daher keine Pre-Earnings-Order.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN SHORT, OPEN_SIMULATED im Journal, tatsächlich nur REFERENZSIMULATION:** hypothetische Basis 18,05 USD, 100 EUR Einsatz, 5x, 500 EUR Notional. Im Journal zuletzt 20,83 USD am 06.11. 05:32:42 EST, Vorbörse, Quelle https://www.investing.com/equities/iris-energy (in diesem Lauf nicht erneut als aktuell bestätigt). Historische Modell-PnL 500×(1−20,83/18,05)=−77,01 EUR, NICHT reale Performance, ohne FX, Gebühren, KO oder Slippage. Der für 09:30 EST geplante Exit ist noch nicht als tatsächlich überprüfter Opening-Print belegt; keine rückwirkende Schließung. Positives Short-Szenario: schwacher Nasdaq-Open; negatives: positive Earnings-Reaktion/Short-Squeeze. **HFG SHORT Nutzer-Turbo:** Aktie 3,182 EUR Xetra 06.11. 11:23 CET (15 Min verzögert), [TraderFox](https://mobile.traderfox.com/charttool/id-4905411//), aber kein Turbo-Einstand/ISIN/KO/Produktquote: PnL nicht berechenbar. **PTON SHORT Nutzer-Turbo:** letzte hier belegte Nasdaq-Aktien-Schlussmarke 5,66 USD vom 05.11. 15:59:59 EST [ChartExchange](https://chartexchange.com/symbol/nasdaq-pton/historical/), ALT; Turbo-PnL nicht berechenbar. Keine dieser Positionen als geschlossen verbucht. Geplanter Ausstieg der Nutzer-Turbos nicht verifiziert.\n\n## Screening/Strategie und Lücken\nTatsächlich fünf datiert termin-/ereignisverifizierte europäische Ticker: KRN, DTG, G1A, HNR1, IFX. Kein QUALIFIED-Signal. Pre-Earnings: Erwartungen/Konsens fehlen. PEAD: gleichzeitige bestätigte Umsatz- und EPS-Überraschung nicht vollständig geprüft. Guidance-Revision: KRN bereits 22.10. reduziert; keine neue Revision am 06.11. Pairs: ohne 60–252 Tageskurse, Hedge Ratio und Cointegration keine belastbare Paarposition. Für DTG/KRN fehlen zwei aktuelle namentliche Analystenberichte, mehrere historische Guidance-Ist-Paare, geprüfte institutionelle Meldungen und die 50 unabhängigen Originaldokumente. In diesem Lauf sieben eigenständige Veröffentlichungen/Quellenseiten inhaltlich geprüft (Daimler Truck IR, Reuters, Krones IR, GEA IR, Hannover Re IR, Infineon IR, TraderFox) plus ein historischer Kursdatensatz ChartExchange = acht unterschiedliche URLs; davon sechs Unternehmens-/Medienquellen, zwei Kursseiten. Keine 50-Quellen-Behauptung.\n\n## Entscheidung\n**REVIEW / KEIN TRADE, keine neue fiktive Order.** Frühestens im vorgesehenen 17:00-Slot nach zeitnahem verifiziertem Quote, Kapazitätscheck und konkretem Signal. Eröffnungsorder muss vor Börsenöffnung festgelegt sein, Opening-Print ist erst danach bekannt. Dashboard-Kurswerte dürfen nicht als TradingView-Live-Quote gelten.\n",
+      "report_sections": [
+        {
+          "heading": "Krones und Daimler Truck",
+          "summary": "Gewinnqualität, Aufträge und Revisionen",
+          "bullets": [
+            {
+              "text": "9M Aufträge 4.223,6 Mio EUR +2,9%; EBITDA-Marge 11,1%, bereinigt um Zollerstattung 10,8%; FCF ex M&A -5 Mio; Jahres-Umsatzwachstum 1-2% nach 3-5%.",
+              "url": "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/",
+              "publisher": "Krones",
+              "checked_at": "2026-11-06T12:58:26Z"
+            },
+            {
+              "text": "EBIT adjusted 1.124 Mio EUR; Industrial Umsatz 11,6 Mrd; ROS 9,1%; FCF 974 Mio inklusive Beteiligungsveräußerung.",
+              "url": "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175",
+              "publisher": "Daimler Truck",
+              "checked_at": "2026-11-06T12:58:26Z"
+            },
+            {
+              "text": "Auftragseingang 9% unter Konsens, Nordamerika 16% unter Konsens.",
+              "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T12:58:26Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -4410,10 +4695,10 @@
       "ticker": "DTG",
       "name": "Daimler Truck",
       "tv": "XETR:DTG",
-      "as_of": "2026-11-06T10:55:27Z",
+      "as_of": "2026-11-06T12:58:26Z",
       "status": "INCOMPLETE",
-      "stance": "NEUTRAL",
-      "summary": "EBIT-Erholung, aber Aufträge unter Konsens",
+      "stance": "WATCH",
+      "summary": "Starke Q3 Erholung, Auftragseingang unter Konsens",
       "source_goal": 50,
       "source_documents": [
         {
@@ -4435,6 +4720,16 @@
           "finding": "Nordamerika-Erholung, EBIT über Konsens",
           "checked_on": "2026-11-06",
           "doc_type": "media"
+        },
+        {
+          "id": "DTG-21",
+          "title": "Daimler Truck Q3 2026",
+          "publisher": "Daimler Truck",
+          "published_at": "2026-11-06",
+          "url": "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175",
+          "finding": "EBIT adjusted 1.124 Mio EUR; Industrial Umsatz 11,6 Mrd; ROS 9,1%; FCF 974 Mio inklusive Beteiligungsveräußerung.",
+          "checked_on": "2026-11-06",
+          "doc_type": "news"
         }
       ],
       "financial_history": [],
@@ -4445,7 +4740,8 @@
         "Aktuelle Xetra-Quotes",
         "Historischer Guidance-Ist-Abgleich aus getrennten Originaldokumenten",
         "Aktuelle Analysten-Zieländerungen",
-        "Fondsbestände aus Originalfilings"
+        "Fondsbestände aus Originalfilings",
+        "Zwei aktuelle unabhängige Analystenberichte und historische periodengleiche Guidance-Ist-Abgleiche nicht vollständig verifiziert"
       ],
       "method_note": "Nur tatsächlich geprüfte eindeutige URLs ergänzt; keine 50-Dokument-Vollständigkeit.",
       "analyst_coverage": null
@@ -4454,10 +4750,10 @@
       "ticker": "KRN",
       "name": "Krones",
       "tv": "XETR:KRN",
-      "as_of": "2026-11-06T12:04:34Z",
-      "status": "IN_PROGRESS",
+      "as_of": "2026-11-06T12:58:26Z",
+      "status": "INCOMPLETE",
       "stance": "WATCH",
-      "summary": "9M-Aufträge +2,9%; Marge verbessert; Call und Kursreaktion offen",
+      "summary": "2026 Guidance reduziert, Zollerstattung erhöht ausgewiesene Marge; FCF schwach",
       "source_goal": 50,
       "source_documents": [
         {
@@ -4509,7 +4805,8 @@
         "Aktueller datierter Kurs",
         "Analystenkonsens und zwei Analystenvoten",
         "Historischer Guidance-Ist-Abgleich",
-        "Institutionelle Meldungen"
+        "Institutionelle Meldungen",
+        "Zwei aktuelle unabhängige Analystenberichte und historische periodengleiche Guidance-Ist-Abgleiche nicht vollständig verifiziert"
       ],
       "method_note": "Nur tatsächlich gelesene URL dedupliziert; 50-Dokumente-Ziel nicht erreicht",
       "analyst_coverage": null
@@ -4549,8 +4846,8 @@
   },
   "screening": {
     "status": "PARTIAL_VERIFIED",
-    "as_of": "2026-11-06T12:04:34Z",
-    "method_note": "5 datierte Firmen-IR-Event-Ticker im Lauf 13:04 MEZ geprüft; keine Quote/Spread-Qualifikation",
+    "as_of": "2026-11-06T12:58:26Z",
+    "method_note": "Fünf eigenständige termin-/ereignisverifizierte Ticker, keine vollständige Liquiditäts-/Marketcap-Eignung und keine qualifizierten Trades.",
     "coverage": {
       "universe_checked": 5,
       "earnings_events": 5,
@@ -5148,16 +5445,17 @@
         "tv": "XETR:DTG",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Q3-Zahlen heute",
+        "direction": "SHORT",
+        "reason": "Orders unter Konsens",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Q3-Zahlen heute",
+        "earnings_at": "2026-11-06",
+        "event": "Orders unter Konsens",
         "score": null,
         "sources": [
-          "https://www.daimlertruck.com/en/investors"
+          "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175",
+          "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/"
         ],
-        "as_of": "2026-11-06T12:04:34Z"
+        "as_of": "2026-11-06T12:58:26Z"
       },
       {
         "ticker": "KRN",
@@ -5165,16 +5463,16 @@
         "tv": "XETR:KRN",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Margenverbesserung trotz schwachem Umsatzwachstum",
+        "direction": "SHORT",
+        "reason": "Margenqualität vs Umsatzrevision",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Margenverbesserung trotz schwachem Umsatzwachstum",
+        "earnings_at": "2026-11-06",
+        "event": "Margenqualität vs Umsatzrevision",
         "score": null,
         "sources": [
-          "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/"
+          "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/"
         ],
-        "as_of": "2026-11-06T12:04:34Z"
+        "as_of": "2026-11-06T12:58:26Z"
       },
       {
         "ticker": "FRE",
@@ -5217,16 +5515,16 @@
         "tv": "XETR:IFX",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Jahreszahlen 10.11.",
+        "direction": "LONG",
+        "reason": "Q4 Dienstag",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Jahreszahlen 10.11.",
+        "earnings_at": "2026-11-10T07:30:00+01:00",
+        "event": "Q4 Dienstag",
         "score": null,
         "sources": [
           "https://www.infineon.com/about/events"
         ],
-        "as_of": "2026-11-06T12:04:34Z"
+        "as_of": "2026-11-06T12:58:26Z"
       },
       {
         "ticker": "AMS",
@@ -5266,16 +5564,16 @@
         "tv": "XETR:G1A",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Q3 am 9.11.",
+        "direction": "LONG",
+        "reason": "Q3 Montag",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Q3 am 9.11.",
+        "earnings_at": "2026-11-09T07:30:00+01:00",
+        "event": "Q3 Montag",
         "score": null,
         "sources": [
-          "https://www.gea.com/de/investors/"
+          "https://www.gea.com/en/investors/"
         ],
-        "as_of": "2026-11-06T12:04:34Z"
+        "as_of": "2026-11-06T12:58:26Z"
       },
       {
         "ticker": "HNR1",
@@ -5283,16 +5581,16 @@
         "tv": "XETR:HNR1",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Q3 am 9.11.",
+        "direction": "LONG",
+        "reason": "Q3 Montag",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Q3 am 9.11.",
+        "earnings_at": "2026-11-09",
+        "event": "Q3 Montag",
         "score": null,
         "sources": [
           "https://www.hannover-re.com/en/investors/events-and-presentations/"
         ],
-        "as_of": "2026-11-06T12:04:34Z"
+        "as_of": "2026-11-06T12:58:26Z"
       }
     ],
     "pairs": [],
@@ -5407,6 +5705,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261106T120434Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "XETRA",
+        "universe_checked": 5,
+        "earnings_events": 5,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261106T125826Z"
       }
     ],
     "strategies": [
