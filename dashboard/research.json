@@ -1,6 +1,6 @@
 {
-  "version": 30,
-  "updated_at": "2026-11-06T15:33:24Z",
+  "version": 31,
+  "updated_at": "2026-11-06T15:55:56Z",
   "note": "US 10:33 EST: Research-Run; no new verified position quote or fill",
   "runs": [
     {
@@ -4890,6 +4890,257 @@
         "reference_only": true
       },
       "report_markdown": "# US-Aktienresearch – 06.11.2026, 10:33 EST\n\n## Markt und Handelsentscheidung\nRegulärer US-Handel (09:30–16:00 EST). **KEIN TRADE**: 10:33 EST ist nicht der autorisierte 15:30-Einstiegsslot. Reuters meldet um 10:21 EST Nasdaq +1,73%, S&P 500 +1,0%, Semiconductor-Index +4,6%, Nvidia +5,6%; Oktober-Payrolls +165.000, Fed-Zinserhöhung im Dezember mit 78% eingepreist. Quelle: [Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/). Markt bleibt volatil.\n\n## Kandidaten und Research\n**IREN – WATCH / kurzfristig neutral bis vorsichtig bearish:** Donnerstag rund 17% Abverkauf, nach Earnings Erholung; AI-Cloud-Verträge gegen verzögerte Inbetriebnahme und Finanzierungsrisiken. [MarketWatch, 05.11.2026](https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0) nur teilweise lesbar; [Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/) bestätigt Erholung. Keine neue überprüfbare 10:33-IREN-Quote. Bestehende Dossier-Einträge 10/50, in diesem Lauf keine neue vollständig geprüfte Primärquelle.\n\n**MRNA – WATCH / bedingt Long:** Umsatz Q3 $1,3 Mrd. vs $885,1 Mio. Konsens, $162 Mio. Nettogewinn, Guidance 2026 Umsatzwachstum 15–25%. Risiko: Kursanstieg im Jahresverlauf, Konzentration auf Impfstoffe, Norovirus-Programm reduziert. Namentlich Cory Kasimov (Evercore ISI) positiv, Bernstein-Analysten begrüßen F&E-Disziplin. [Reuters, 06.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/). Dossier 1/50 bisher; ein neuer vollständig gelesener Sekundärtext, keine Original-IR in diesem Lauf.\n\n**NET – WATCH / bedingt Long:** Erholung nach Earnings laut breiter Marktmeldung, aber Kennzahlen- und Konsens-Originalprüfung fehlt. [Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/). Dossier 6/50 bisher; keine neue Originalquelle. Zusätzliche Eventnamen ABNB, TEAM, NVDA, AMD, INTC, MU, APLD, CRWV, NBIS nur entdeckt, nicht vollständig screened. Keine qualifizierten Pairs: 60–252 Kursreihen und Korrelation nicht verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN SHORT, nur historische Referenzsimulation:** 18,05 USD Basis, 100 EUR Einsatz, synthetisch 5x = 500 EUR. Letzte gespeicherte, zuvor belegte Vorbörsenmarke 21,34 USD am 06.11.2026 09:30 EST, Quelle [Public.com](https://public.com/stocks/iren/pre-market); **ALT**, ausdrücklich kein verifizierter Nasdaq-Open und keine neue 10:33-Quote. Modellierte Referenz-PnL 500*(1-21,34/18,05) = -91,14 EUR, nicht realisiert und kein belegter Fill. Planmäßiger Exit 09:30 EST heute war vorgesehen, aber Opening-Print/Exit nicht verifiziert, daher kein CLOSED_SIMULATED.\n\n**HFG SHORT, vom Nutzer gemeldeter Turbo:** zuletzt gespeicherter Xetra-Last 3,142 EUR am 06.11.2026 13:21 CET, [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); **ALT**, kein neuerer sauberer Kurs gefunden. Einstieg, ISIN und Produktpreis unbekannt; PnL nicht berechenbar.\n\n**PTON SHORT, vom Nutzer gemeldeter Turbo:** zuletzt gespeicherte Vorbörsenmarke 5,65 USD am 06.11.2026 09:00 EST, [Public.com](https://public.com/stocks/pton/pre-market); **ALT**, kein neuerer zuverlässig datierter Kurs gefunden. Einstieg, ISIN und Produktpreis unbekannt; PnL nicht berechenbar.\n\n## Evidenzstand und Methodik\nDrei unabhängige vollständig zugängliche bzw. teilweise zugängliche Nachrichtenquellen in diesem Lauf geöffnet (Reuters Markt, Reuters Moderna, MarketWatch IREN; letztere nur teilweise lesbar); zusätzlich öffentliche Kursseiten zu IREN/PTON/HFG geprüft, jedoch ohne neueren zeitlich belegten Kurs als bestehende Marken. Keine neuen Originalfilings/13F-Paare, keine verifizierten Guidance-Ist-Paare, keine belastbaren aktuellen Analystenzielkurse, keine echten Spreads/Option-IV. Dossiers unter 50/50, ausdrücklich vorläufig. Screening ohne erfundene Universumsgröße. TradingView-Widgets sind kein geprüfter Kurs-/PnL-Feed. Keine echte Order, keine simulierte Eröffnung oder Schließung; Positionsregister unverändert."
+    },
+    {
+      "id": "XETRA-20261106T155556Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T15:55:56Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "DTG starke Margen, KRN Guidance-Cut; kein verifizierbarer Entry",
+      "summary": "Fünf Event-Titel qualitativ priorisiert; 0 neue Paper-Fills; bestehende Kursmarken mangels neuer verifizierter Quotes unverändert.",
+      "source_status": "8 unabhängige Webdokumente geprüft; kein zeitnaher Entry-Bid/Ask; Konsens/Analystenlücken",
+      "news": [
+        {
+          "ticker": "DTG",
+          "title": "Q3: bereinigtes EBIT 1.124 Mio. EUR",
+          "publisher": "Daimler Truck IR",
+          "published_at": "2026-11-06",
+          "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+          "finding": "Industrieumsatz 11,6 Mrd EUR, bereinigtes EBIT 1.124 Mio EUR, FCF Industrie 974 Mio EUR"
+        },
+        {
+          "ticker": "KRN",
+          "title": "Neunmonatszahlen und niedrigere Wachstumsprognose",
+          "publisher": "Krones IR",
+          "published_at": "2026-11-06",
+          "url": "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+          "finding": "Auftragseingang +2,9%; EBITDA-Marge 11,1%; Umsatzwachstumsziel 1-2% statt 3-5%"
+        },
+        {
+          "ticker": "HFG",
+          "title": "Q3 Profitabilität verbessert bei sinkenden Bestellungen",
+          "publisher": "HelloFresh IR",
+          "published_at": "2026-11-05",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "finding": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%"
+        },
+        {
+          "ticker": "IFX",
+          "title": "Q3 und Q4-Ausblick vor FY-Zahlen am 10.11.",
+          "publisher": "Infineon IR",
+          "published_at": "2026-08-05",
+          "url": "https://www.infineon.com/de/press-release/2026/infpr202608-125",
+          "finding": "Q3 Umsatz 4,172 Mrd EUR; Q4 Ziel etwa 4,7 Mrd EUR"
+        },
+        {
+          "ticker": "RHM",
+          "title": "Guidance-Senkung belastet Rheinmetall",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "url": "https://www.reuters.com/business/aerospace-defense/rheinmetall-cuts-2026-sales-margin-guidance-2026-11-04/",
+          "finding": "Umsatzziel etwa 13,2 Mrd EUR statt 13,7-14,2 Mrd; operative Marge ca. 18,5% statt 19%"
+        }
+      ],
+      "candidates": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "side": "LONG",
+          "thesis": "Industrieumsatz 11,6 Mrd EUR, bereinigtes EBIT 1.124 Mio EUR, FCF Industrie 974 Mio EUR",
+          "risk": "Kein verifizierter aktueller Spread/Konsens",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "side": "SHORT",
+          "thesis": "Auftragseingang +2,9%; EBITDA-Marge 11,1%; Umsatzwachstumsziel 1-2% statt 3-5%",
+          "risk": "Kein verifizierter aktueller Spread/Konsens",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "SHORT",
+          "thesis": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%",
+          "risk": "Kein verifizierter aktueller Spread/Konsens",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "WATCH",
+          "thesis": "Q3 Umsatz 4,172 Mrd EUR; Q4 Ziel etwa 4,7 Mrd EUR",
+          "risk": "Kein verifizierter aktueller Spread/Konsens",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RHM",
+          "name": "Rheinmetall",
+          "tv": "XETR:RHM",
+          "side": "SHORT",
+          "thesis": "Umsatzziel etwa 13,2 Mrd EUR statt 13,7-14,2 Mrd; operative Marge ca. 18,5% statt 19%",
+          "risk": "Kein verifizierter aktueller Spread/Konsens",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "stance": "LONG-Hypothese",
+          "horizon": "1–10 Handelstage",
+          "summary": "Industrieumsatz 11,6 Mrd EUR, bereinigtes EBIT 1.124 Mio EUR, FCF Industrie 974 Mio EUR",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Industrieumsatz 11,6 Mrd EUR, bereinigtes EBIT 1.124 Mio EUR, FCF Industrie 974 Mio EUR",
+              "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+              "publisher": "Daimler Truck IR",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Neue Guidance oder gegenteilige Preisreaktion"
+          ]
+        },
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "stance": "SHORT-Hypothese",
+          "horizon": "1–10 Handelstage",
+          "summary": "Auftragseingang +2,9%; EBITDA-Marge 11,1%; Umsatzwachstumsziel 1-2% statt 3-5%",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Auftragseingang +2,9%; EBITDA-Marge 11,1%; Umsatzwachstumsziel 1-2% statt 3-5%",
+              "url": "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+              "publisher": "Krones IR",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Neue Guidance oder gegenteilige Preisreaktion"
+          ]
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "stance": "NEUTRAL/SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Neue Guidance oder gegenteilige Preisreaktion"
+          ]
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 Umsatz 4,172 Mrd EUR; Q4 Ziel etwa 4,7 Mrd EUR",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 4,172 Mrd EUR; Q4 Ziel etwa 4,7 Mrd EUR",
+              "url": "https://www.infineon.com/de/press-release/2026/infpr202608-125",
+              "publisher": "Infineon IR",
+              "published_at": "2026-08-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Neue Guidance oder gegenteilige Preisreaktion"
+          ]
+        },
+        {
+          "ticker": "RHM",
+          "name": "Rheinmetall",
+          "tv": "XETR:RHM",
+          "stance": "SHORT-Hypothese",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzziel etwa 13,2 Mrd EUR statt 13,7-14,2 Mrd; operative Marge ca. 18,5% statt 19%",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatzziel etwa 13,2 Mrd EUR statt 13,7-14,2 Mrd; operative Marge ca. 18,5% statt 19%",
+              "url": "https://www.reuters.com/business/aerospace-defense/rheinmetall-cuts-2026-sales-margin-guidance-2026-11-04/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Neue Guidance oder gegenteilige Preisreaktion"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Kein verifizierter Fill; bestehende Marke nicht aktualisiert",
+        "base_scenario": "Volatilität nach Earnings",
+        "bull_scenario": "Kurs fällt",
+        "bear_scenario": "Short-Squeeze",
+        "key_risk": "Unbestätigte Eröffnung und synthetischer Hebel",
+        "planned_exit": "Nur verifizierter, zuvor festgelegter Opening-Exit",
+        "as_of": "2026-11-06T15:55:56Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 06.11.2026, 16:55 MEZ\n\n## Markt und Entscheidung\nXetra regulär 09:00–17:30 MEZ laut [Deutsche Börse](https://www.xetra.com/xetra-de/handel/handelskalendar-und-zeiten/Handelskalender-und-zeiten-17870), abgerufen 06.11.2026. **KEIN TRADE / 0 SIMULATED ENTRIES**: zum Entscheidungszeitpunkt fehlen verifizierte aktuelle Xetra-Bid/Ask-Quotes mit belastbarer Verzögerung und ausreichend abgesicherte Risiko-/Konsensdaten. Kein nachträglicher Fill. Nächster regulärer Handelstag Montag 09.11.; eine Opening-Order müsste vorher feststehen, der tatsächliche Opening-Print ist erst danach messbar.\n\n## Earnings-Pipeline und Einzeltitel\n- **Daimler Truck (DTG), WATCH, tendenziell LONG unter Vorbehalt:** Q3 Industrieumsatz 11,6 Mrd EUR gegenüber 9,7 Mrd, bereinigtes EBIT 1.124 Mio gegenüber 648 Mio EUR, Industrie-FCF 974 Mio EUR; letzterer teilweise durch ARCHION-Teilverkauf begünstigt. Positiv: Margenerholung; negativ: zyklische Nachfrage und Einmaleffekt. [Daimler Truck IR, 06.11.2026](https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175). Konsens/Analystenvoten nicht verifiziert.\n- **Krones (KRN), WATCH, tendenziell SHORT unter Vorbehalt:** 9M-Auftragseingang 4.223,6 Mio EUR (+2,9%), Umsatz 4.099,7 Mio EUR, EBITDA-Marge 11,1% einschließlich positiver Zollrückerstattung; FCF ex M&A -5,0 Mio EUR. Umsatzwachstums-Guidance 2026 von 3–5% auf 1–2% revidiert; 2028-Ziel ebenfalls gesenkt. Bull: Auftragsbestand 4.314,3 Mio EUR, Nettoliquidität 410,2 Mio EUR. Bear: schwaches Wachstum, Cash Conversion. [Krones IR, 06.11.2026](https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/) und [Ad-hoc vom 22.10.2026](https://www.krones.com/en/company/investor-relations/releases/ad-hoc-disclosure-krones-adjusts-its-revenue-growth-forecast-for-fiscal-year-2026-and-medium-term-targets-for-2028/). Kursreaktion und Konsens fehlen.\n- **HelloFresh (HFG), WATCH, neutral bis SHORT:** Q3 Umsatz in konstanten Währungen rund 1,4 Mrd EUR (-11,3%); Bestellungen 19,6 Mio (-17,9%); AOV 70,5 EUR (+7,5%); AEBITDA 50,9 Mio EUR, FCF -5,7 Mio EUR. Gegenläufige Umsatz- und Margentrends verhindern sichere Richtung. [HelloFresh IR, 05.11.2026](https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4).\n- **Infineon (IFX), WATCH:** Q3 GJ26 Umsatz 4,172 Mrd EUR, Segmentmarge 19,1%; Q4 Umsatzprognose ca. 4,7 Mrd EUR und Marge ca. 23%. FY-Ergebnis laut [Earnings-Kalender, abgerufen 06.11.2026](https://www.atlas-stocks.com/calendar/earnings/germany) am 10.11. vor Börsenstart. [Infineon IR, 05.08.2026](https://www.infineon.com/de/press-release/2026/infpr202608-125). Ohne Konsens kein bestätigter Surprise-Trade.\n- **Rheinmetall (RHM), WATCH, SHORT-Hypothese:** 2026-Umsatzausblick auf rund 13,2 Mrd EUR reduziert, operative Marge ca. 18,5%; Q3 Umsatz 3,15 Mrd EUR, operativer Gewinn 553 Mio EUR, operativer FCF -82 Mio EUR. Bull: strukturelle Rüstungsnachfrage; Bear: Programmverzögerungen, Cash Conversion. [Reuters, 05.11.2026](https://www.reuters.com/business/aerospace-defense/rheinmetall-cuts-2026-sales-margin-guidance-2026-11-04/). Primärbericht und aktuelle Quote nicht vollständig gegengeprüft.\n\nWeitere Earnings-Termine 09.–12.11. u.a. Hannover Rück, GEA, E.ON, RWE, Siemens, Allianz laut [ATLAS, Stand 06.11.2026](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026); **DISCOVERED**, nicht als geprüftes Screening gezählt. Keine validierte 60–252-Tage-Korrelation, daher keine abgesicherte Pair-Strategie. Pre-earnings, PEAD, Guidance-Revision und Pairs qualitativ gegeneinander geprüft; keine quantifizierte Out-of-Sample-Edge.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister zuletzt vor diesem Lauf gelesen. **IREN SHORT** 18,05 USD ausschließlich historische Referenz, KEIN belegter Fill; im Register zuletzt 21,34 USD, 06.11. 09:30 EST, Public.com PREMARKET-Label, [Quelle](https://public.com/stocks/iren/pre-market). Die Bezeichnung 09:30 als PREMARKET ist zeitlich widersprüchlich; Quote nicht erneut bestätigt, deshalb keine neue Marke/PnL. Vorhandener modellierter Verlust -91,14 EUR ist nur Referenzrechnung 500*(1-21,34/18,05), kein realisierter Gewinn/Verlust. Opening-Exit nicht bestätigt. **HFG SHORT Nutzer-Turbo:** letzter Registerwert 3,142 EUR Xetra 13:21 MEZ, [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm), ALT; aktueller Bid/Ask nicht belegt; Turbo-Einstieg/KO fehlen, PnL nicht berechenbar. **PTON SHORT Nutzer-Turbo:** Registerwert 5,65 USD 09:00 EST PREMARKET, [Public.com](https://public.com/stocks/pton/pre-market), ALT; keine belegte aktuelle reguläre Marke, Turbo-PnL nicht berechenbar. DEUTZ vom Nutzer als geschlossen gemeldet, kein neuer Exit. Für alle offenen Positionen: geplanter Exit nur nach vorherigem Signal und verifizierbarem Print, keine stille Schließung.\n\n## Research-Qualität und Lücken\nIn diesem Lauf 8 unabhängige relevante Web-Dokumente inhaltlich geprüft (5 unternehmens-/nachrichtenbezogene Dokumente, Krones-Ad-hoc, Earnings-Kalender, Börsenkalender); weitere Suchtreffer nicht als gelesen gezählt. Keine neue nachweislich vollständig auf 50 Quellen gebrachte Unternehmensakte. Analystenkonsens, zwei namentliche aktuelle Analysten je Titel, regulatorische Fondsvergleiche, historische Guidance-Scorecards für mehrere Perioden, aktuelle Bid/Ask-Spreads und Marktvolumen nicht ausreichend verifiziert. Datenstand ist ein Research-Snapshot, kein Live-Feed.",
+      "report_sections": [
+        {
+          "heading": "Entscheidung",
+          "summary": "Kein Trade: zeitnaher Bid/Ask fehlt",
+          "bullets": []
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -5485,10 +5736,10 @@
       "ticker": "HFG",
       "name": "HelloFresh SE",
       "tv": "XETR:HFG",
-      "as_of": "2026-11-06T09:03:04Z",
-      "status": "UNVOLLSTÄNDIG",
-      "stance": "NEUTRAL",
-      "summary": "Umsatz/Bestellungen schwach, aber AEBITDA verbessert",
+      "as_of": "2026-11-06T15:55:56Z",
+      "status": "IN_PROGRESS",
+      "stance": "SHORT",
+      "summary": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%",
       "source_goal": 50,
       "source_documents": [
         {
@@ -5628,7 +5879,7 @@
         "Konsens und Analystenrevisionen",
         "50-Quellen-Vollprüfung"
       ],
-      "method_note": "Quellen sind geprüfte Webberichte; unter 50 Dokumenten, keine institutionellen Holdings ohne Filings.",
+      "method_note": "Nur tatsächlich geöffnete unabhängige Dokumente zählen; 50 Quellen Ziel, keine Vollständigkeit behauptet",
       "analyst_coverage": []
     },
     "ABNB": {
@@ -5886,10 +6137,10 @@
       "ticker": "DTG",
       "name": "Daimler Truck",
       "tv": "XETR:DTG",
-      "as_of": "2026-11-06T14:56:31Z",
-      "status": "INCOMPLETE",
-      "stance": "WATCH",
-      "summary": "Q3-Order-Miss 9% vs Konsens, NA 16%",
+      "as_of": "2026-11-06T15:55:56Z",
+      "status": "IN_PROGRESS",
+      "stance": "LONG",
+      "summary": "Industrieumsatz 11,6 Mrd EUR, bereinigtes EBIT 1.124 Mio EUR, FCF Industrie 974 Mio EUR",
       "source_goal": 50,
       "source_documents": [
         {
@@ -5944,17 +6195,17 @@
         "Institutionelle Filings",
         "Aktuelle namentliche Analystenvoten und historische Guidance-Ist-Paare fehlen"
       ],
-      "method_note": "Keine unabhängigen Duplikat-Syndikationen zählen; kein 50-Dokumente-Status",
+      "method_note": "Nur tatsächlich geöffnete unabhängige Dokumente zählen; 50 Quellen Ziel, keine Vollständigkeit behauptet",
       "analyst_coverage": null
     },
     "KRN": {
       "ticker": "KRN",
       "name": "Krones",
       "tv": "XETR:KRN",
-      "as_of": "2026-11-06T14:56:31Z",
-      "status": "INCOMPLETE",
-      "stance": "WATCH",
-      "summary": "9M-Zollerstattung verbessert EBITDA um ca. 10 Mio. EUR; FCF vor M&A -5 Mio. EUR",
+      "as_of": "2026-11-06T15:55:56Z",
+      "status": "IN_PROGRESS",
+      "stance": "SHORT",
+      "summary": "Auftragseingang +2,9%; EBITDA-Marge 11,1%; Umsatzwachstumsziel 1-2% statt 3-5%",
       "source_goal": 50,
       "source_documents": [
         {
@@ -6039,7 +6290,7 @@
         "Institutionelle Filings",
         "Aktuelle namentliche Analystenvoten und historische Guidance-Ist-Paare fehlen"
       ],
-      "method_note": "Keine unabhängigen Duplikat-Syndikationen zählen; kein 50-Dokumente-Status",
+      "method_note": "Nur tatsächlich geöffnete unabhängige Dokumente zählen; 50 Quellen Ziel, keine Vollständigkeit behauptet",
       "analyst_coverage": null
     },
     "IFX": {
@@ -6105,13 +6356,13 @@
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-06T15:33:24Z",
-    "method_note": "10:33 EST: IREN MRNA NET qualitative Prüfung; ABNB TEAM NVDA AMD INTC MU APLD CRWV NBIS nur entdeckt. Keine neue qualifizierte Quote.",
+    "status": "IN_PROGRESS",
+    "as_of": "2026-11-06T15:55:56Z",
+    "method_note": "5 konkrete Event-Aktien anhand datierter Quellen triagiert, Spread/Marktkapitalisierung nicht voll verifiziert; nicht als QUALIFIED gezählt",
     "coverage": {
-      "universe_checked": 3,
-      "earnings_events": 3,
-      "triaged": 3,
+      "universe_checked": 5,
+      "earnings_events": 4,
+      "triaged": 5,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -6669,16 +6920,16 @@
         "tv": "XETR:HFG",
         "market": "XETRA",
         "sector": null,
-        "direction": "REVIEW",
-        "reason": "Umsatzrückgang bei verbesserter EBITDA-Marge",
+        "direction": "SHORT",
+        "reason": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Umsatzrückgang bei verbesserter EBITDA-Marge",
+        "earnings_at": "2026-11-05",
+        "event": "Q3 Profitabilität verbessert bei sinkenden Bestellungen",
         "score": null,
         "sources": [
-          "https://webdisclosure.fr/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw"
+          "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4"
         ],
-        "as_of": "2026-11-06T10:00:00Z"
+        "as_of": "2026-11-06T15:55:56Z"
       },
       {
         "ticker": "TEP",
@@ -6738,16 +6989,16 @@
         "tv": "XETR:IFX",
         "market": "XETRA",
         "sector": null,
-        "direction": "LONG",
-        "reason": "Q4 Dienstag",
+        "direction": "WATCH",
+        "reason": "Q3 Umsatz 4,172 Mrd EUR; Q4 Ziel etwa 4,7 Mrd EUR",
         "stage": "WATCH",
-        "earnings_at": "2026-11-10T07:30:00+01:00",
-        "event": "Q4 Dienstag",
+        "earnings_at": "2026-08-05",
+        "event": "Q3 und Q4-Ausblick vor FY-Zahlen am 10.11.",
         "score": null,
         "sources": [
-          "https://www.infineon.com/about/events"
+          "https://www.infineon.com/de/press-release/2026/infpr202608-125"
         ],
-        "as_of": "2026-11-06T12:58:26Z"
+        "as_of": "2026-11-06T15:55:56Z"
       },
       {
         "ticker": "AMS",
@@ -6788,15 +7039,15 @@
         "market": "XETRA",
         "sector": null,
         "direction": "SHORT",
-        "reason": "9M Auftragseingang 4.224 Mrd EUR; berichtete EBITDA-Marge 11.1%, bereinigt um Zollerstattung 10.8%; FCF vor M&A -5 Mio EUR.",
-        "stage": "DEEP_DIVE",
-        "earnings_at": null,
-        "event": "Krones Q3 2026 Quartalsmitteilung",
+        "reason": "Auftragseingang +2,9%; EBITDA-Marge 11,1%; Umsatzwachstumsziel 1-2% statt 3-5%",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-06",
+        "event": "Neunmonatszahlen und niedrigere Wachstumsprognose",
         "score": null,
         "sources": [
-          "https://www.krones.com/media/downloads/Q3_2026_d.pdf"
+          "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/"
         ],
-        "as_of": "2026-11-06T14:56:31Z"
+        "as_of": "2026-11-06T15:55:56Z"
       },
       {
         "ticker": "DTG",
@@ -6804,16 +7055,16 @@
         "tv": "XETR:DTG",
         "market": "XETRA",
         "sector": null,
-        "direction": "SHORT",
-        "reason": "Adjusted EBIT 1.12 Mrd EUR, Auftragseingang 9% unter Konsens, Nordamerika 16% unter Konsens.",
-        "stage": "DEEP_DIVE",
-        "earnings_at": null,
-        "event": "Daimler Truck Q3 Profit and Orders",
+        "direction": "LONG",
+        "reason": "Industrieumsatz 11,6 Mrd EUR, bereinigtes EBIT 1.124 Mio EUR, FCF Industrie 974 Mio EUR",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-06",
+        "event": "Q3: bereinigtes EBIT 1.124 Mio. EUR",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/"
+          "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175"
         ],
-        "as_of": "2026-11-06T14:56:31Z"
+        "as_of": "2026-11-06T15:55:56Z"
       },
       {
         "ticker": "R3NK",
@@ -6865,6 +7116,23 @@
           "https://quarterlyearnings.info/earnings/index/dax"
         ],
         "as_of": "2026-11-06T14:56:31Z"
+      },
+      {
+        "ticker": "RHM",
+        "name": "Rheinmetall",
+        "tv": "XETR:RHM",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Umsatzziel etwa 13,2 Mrd EUR statt 13,7-14,2 Mrd; operative Marge ca. 18,5% statt 19%",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-05",
+        "event": "Guidance-Senkung belastet Rheinmetall",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/aerospace-defense/rheinmetall-cuts-2026-sales-margin-guidance-2026-11-04/"
+        ],
+        "as_of": "2026-11-06T15:55:56Z"
       }
     ],
     "pairs": [],
@@ -7039,6 +7307,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T153324Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "XETRA",
+        "universe_checked": 5,
+        "earnings_events": 4,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261106T155556Z"
       }
     ],
     "strategies": [
