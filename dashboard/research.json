@@ -1,6 +1,6 @@
 {
-  "version": 19,
-  "updated_at": "2026-11-06T10:00:00Z",
+  "version": 20,
+  "updated_at": "2026-11-06T10:55:27Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -2673,6 +2673,270 @@
           ]
         }
       ]
+    },
+    {
+      "id": "XETRA-20261106T105527Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T10:55:27Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Daimler Truck Q3 EBIT erholt, aber Auftragseingang schwach; Krones senkt Ziele",
+      "summary": "Fünf Namen priorisiert; 8 unterschiedliche öffentliche Quellen ausgewertet; keine belegbaren zeitnahen Xetra-Quotes, daher keine Fills.",
+      "source_status": "8 geprüfte öffentliche Dokumente/Publikationen; keine verifizierten aktuellen Xetra-Quotes oder PnL.",
+      "candidates": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "side": "NEUTRAL",
+          "thesis": "EBIT-Erholung, aber Aufträge unter Konsens",
+          "risk": "Auftragsschwäche/2027-Marge",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "side": "SHORT",
+          "thesis": "Umsatzprognose und 2028-Ziel reduziert",
+          "risk": "EBITDA-Wachstum",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "FRE",
+          "name": "Fresenius",
+          "tv": "XETR:FRE",
+          "side": "LONG",
+          "thesis": "Ergebnis über Konsens, Guidance erhöht",
+          "risk": "Bewertung ungeprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom",
+          "tv": "XETR:DTE",
+          "side": "NEUTRAL",
+          "thesis": "Guidance erhöht",
+          "risk": "Markterwartungen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "NEUTRAL",
+          "thesis": "Earnings am 10.11.",
+          "risk": "Konsens ungeprüft",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Daimler Truck Q3 2026",
+          "publisher": "Daimler Truck",
+          "published_at": "2026-11-06",
+          "ticker": "DTG",
+          "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+          "finding": "Bereinigtes EBIT 1,124 Mrd. EUR; Industrieumsatz 11,6 Mrd. EUR; Prognose bestätigt."
+        },
+        {
+          "title": "Daimler Truck Order-Intake",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06",
+          "ticker": "DTG",
+          "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+          "finding": "Aufträge unter Konsens, Kurs unter Druck."
+        },
+        {
+          "title": "Krones Q3",
+          "publisher": "RTTNews / finanzen.ch",
+          "published_at": "2026-11-06",
+          "ticker": "KRN",
+          "url": "https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687",
+          "finding": "Q3 Umsatz 1,39 Mrd. EUR; 2028 Umsatzambition reduziert."
+        },
+        {
+          "title": "Krones Prognose",
+          "publisher": "Krones IR",
+          "published_at": "2026-11-06",
+          "ticker": "KRN",
+          "url": "https://www.krones.com/de/unternehmen/investor-relations/",
+          "finding": "2026 Wachstum 1-2% statt 3-5%; EBITDA-Marge 10,7-11,1%."
+        },
+        {
+          "title": "Industrieproduktion September",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06",
+          "ticker": null,
+          "url": "https://www.reuters.com/world/europe/german-industrial-output-rises-07-september-2026-11-06/",
+          "finding": "+0,7% m/m, August auf +1,0% revidiert."
+        },
+        {
+          "title": "Earnings-Kalender",
+          "publisher": "dpa-AFX / onvista",
+          "published_at": "2026-11-05",
+          "ticker": null,
+          "url": "https://www.onvista.de/news/2026/11-05-tagesvorschau-termine-am-6-november-2026-0-10-26573127",
+          "finding": "DTG/KRN heute; Airbus Lieferungen, Eurozonen-Einzelhandel."
+        },
+        {
+          "title": "Fresenius Guidance",
+          "publisher": "Reuters",
+          "published_at": "2026-11-04",
+          "ticker": "FRE",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/",
+          "finding": "EBIT 638 Mio. EUR vs Konsens 618,5 Mio.; Prognose erhöht."
+        },
+        {
+          "title": "Deutsche Telekom Guidance",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "ticker": "DTE",
+          "url": "https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/",
+          "finding": "Guidance erhöht, Aktienrückkauf 2027 bis 2 Mrd. EUR geplant."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "EBIT-Erholung, aber Aufträge unter Konsens; Auftragsschwäche/2027-Marge",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Bereinigtes EBIT 1,124 Mrd. EUR; Industrieumsatz 11,6 Mrd. EUR; Prognose bestätigt.",
+              "url": "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
+              "publisher": "Daimler Truck",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Aufträge unter Konsens, Kurs unter Druck.",
+              "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Auftragsschwäche/2027-Marge"
+          ]
+        },
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzprognose und 2028-Ziel reduziert; EBITDA-Wachstum",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 1,39 Mrd. EUR; 2028 Umsatzambition reduziert.",
+              "url": "https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687",
+              "publisher": "RTTNews / finanzen.ch",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "2026 Wachstum 1-2% statt 3-5%; EBITDA-Marge 10,7-11,1%.",
+              "url": "https://www.krones.com/de/unternehmen/investor-relations/",
+              "publisher": "Krones IR",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "EBITDA-Wachstum"
+          ]
+        },
+        {
+          "ticker": "FRE",
+          "name": "Fresenius",
+          "tv": "XETR:FRE",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Ergebnis über Konsens, Guidance erhöht; Bewertung ungeprüft",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "EBIT 638 Mio. EUR vs Konsens 618,5 Mio.; Prognose erhöht.",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-04"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Bewertung ungeprüft"
+          ]
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom",
+          "tv": "XETR:DTE",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Guidance erhöht; Markterwartungen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Guidance erhöht, Aktienrückkauf 2027 bis 2 Mrd. EUR geplant.",
+              "url": "https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Markterwartungen"
+          ]
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings am 10.11.; Konsens ungeprüft",
+          "points": [],
+          "catalysts": [],
+          "invalidations": [
+            "Konsens ungeprüft"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": null,
+        "id": null,
+        "stance": "KEIN TRADE",
+        "summary": "Keine neue simulierte Position; bestehende Positionen ohne aktuelle Quote nicht bewertet.",
+        "base_scenario": null,
+        "bull_scenario": null,
+        "bear_scenario": null,
+        "key_risk": "Datenlücken und Overnight-Gaps",
+        "planned_exit": null,
+        "as_of": "2026-11-06T10:55:27Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research | 06.11.2026, 11:55 MEZ\n\n**Entscheidung: KEIN TRADE.** Intraday-Recherche; neue Overnight-Fills nur bis spätestens 17:00 mit zeitnah verifiziertem Xetra-Quote.\n\n## Markt und Makro\n\nDeutsche Industrieproduktion September +0,7% m/m, August revidiert +1,0%. Positive Überraschung, aber kein belastbarer Trendnachweis. Risikoaversion an Weltbörsen nach Technologie-Abverkauf; keine zeitnahen, verifizierten Indexquotes für P&L.\n\n## Triage / Watchlist\n\n**DTG – WATCH, kurzfristig neutral bis vorsichtig bearish:** Q3 bereinigtes EBIT 1,124 Mrd. EUR, Industrieumsatz 11,6 Mrd. EUR, Rendite 9,1%, Prognose bestätigt. Dennoch Order-Intake 9% unter Analystenkonsens und Nordamerika 16% darunter laut Reuters. Bull: starke operative Erholung; Bear: unzureichende Auftragspipeline und 2027-Erwartungen. Invalidierung der Bear-These: belegte Beschleunigung der Aufträge und bestätigte Margenverbesserung.\n\n**KRN – WATCH, vorsichtig bearish:** Q3 Umsatz rund 1,39 Mrd. EUR, EBITDA 160,3 Mio. EUR. 2026 währungsbereinigtes Umsatzwachstum auf 1–2% statt 3–5% gesenkt; EBITDA-Marge 10,7–11,1% bestätigt; 2028-Umsatzambition laut RTTNews gesenkt. Bull: EBITDA-Zuwachs; Bear: schwächere Nachfrage und abgesenkte Langfristziele. Invalidierung: erneuter Anstieg des Auftragseingangs.\n\n**FRE – WATCH, vorsichtig bullish:** Q3 EBIT 638 Mio. EUR über Konsens 618,5 Mio.; 2026-Ausblick erhöht. Risiko: Bewertung und Nachhaltigkeit der Kabi-/Helios-Margen ungeprüft.\n\n**DTE – WATCH, neutral:** Ausblick erneut erhöht und Rückkauf 2027 bis 2 Mrd. EUR angekündigt; Kursreaktion nach Bericht negativ. Risiko: Erwartungen an Ausschüttungen und T-Mobile-US-Strategie.\n\n**IFX – DISCOVERED:** Q4-/Jahreszahlen am 10.11. laut Kalender; noch keine vollständige Konsens-, Bewertungs- oder Bilanzprüfung. Kein Trade.\n\n## Forschungsstand und fehlende Daten\n\nTatsächlich in diesem Lauf inhaltlich ausgewertete unterschiedliche öffentliche Dokumente: 8, davon 2 Firmen-IR-Seiten (DTG, KRN); keine 50-Quellen-Vollanalyse. Nicht verifiziert: zwei aktuelle Analystenvoten je Titel, aktuelle zeitgestempelte Xetra-Quotes, Spreads, 13F-/Stimmrechts-Vergleiche, Guidance-Scorecard mit zwei getrennten Originaldokumenten, historische 60–252 Tageskursreihen, Pair-Korrelationen und aktuelles Paper-PnL.\n\n## Positionen und Entscheidung\n\nKeine neue SIMULATED ENTRY, kein CLOSED_SIMULATED; ohne belegten Entry und marktfähigen Zeitstempel keine PnL. Eine simulierte Eröffnungsorder müsste vor dem Eröffnungsprint feststehen; nachträgliche Orders sind unzulässig.\n\n## Quellen\n\n- [Daimler Truck Q3 2026](https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175) — Daimler Truck, 2026-11-06: Bereinigtes EBIT 1,124 Mrd. EUR; Industrieumsatz 11,6 Mrd. EUR; Prognose bestätigt.\n\n- [Daimler Truck Order-Intake](https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/) — Reuters, 2026-11-06: Aufträge unter Konsens, Kurs unter Druck.\n\n- [Krones Q3](https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687) — RTTNews / finanzen.ch, 2026-11-06: Q3 Umsatz 1,39 Mrd. EUR; 2028 Umsatzambition reduziert.\n\n- [Krones Prognose](https://www.krones.com/de/unternehmen/investor-relations/) — Krones IR, 2026-11-06: 2026 Wachstum 1-2% statt 3-5%; EBITDA-Marge 10,7-11,1%.\n\n- [Industrieproduktion September](https://www.reuters.com/world/europe/german-industrial-output-rises-07-september-2026-11-06/) — Reuters, 2026-11-06: +0,7% m/m, August auf +1,0% revidiert.\n\n- [Earnings-Kalender](https://www.onvista.de/news/2026/11-05-tagesvorschau-termine-am-6-november-2026-0-10-26573127) — dpa-AFX / onvista, 2026-11-05: DTG/KRN heute; Airbus Lieferungen, Eurozonen-Einzelhandel.\n\n- [Fresenius Guidance](https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/) — Reuters, 2026-11-04: EBIT 638 Mio. EUR vs Konsens 618,5 Mio.; Prognose erhöht.\n\n- [Deutsche Telekom Guidance](https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/) — Reuters, 2026-11-05: Guidance erhöht, Aktienrückkauf 2027 bis 2 Mrd. EUR geplant."
     }
   ],
   "deep_dives": {
@@ -3649,10 +3913,10 @@
       "ticker": "DTG",
       "name": "Daimler Truck",
       "tv": "XETR:DTG",
-      "as_of": "2026-11-06T10:00:00Z",
+      "as_of": "2026-11-06T10:55:27Z",
       "status": "INCOMPLETE",
-      "stance": "LONG",
-      "summary": "Q3 EBIT +73%, Nordamerika erholt sich",
+      "stance": "NEUTRAL",
+      "summary": "EBIT-Erholung, aber Aufträge unter Konsens",
       "source_goal": 50,
       "source_documents": [
         {
@@ -3681,22 +3945,22 @@
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert",
       "key_unknowns": [
-        "Zeitnaher Xetra-Kurs",
-        "Analystenkonsens",
-        "Bewertung",
-        "13F/Stimmrechtsvergleich"
+        "Aktuelle Xetra-Quotes",
+        "Historischer Guidance-Ist-Abgleich aus getrennten Originaldokumenten",
+        "Aktuelle Analysten-Zieländerungen",
+        "Fondsbestände aus Originalfilings"
       ],
-      "method_note": "Originalquelle bevorzugt, Dokumente URL-dedupliziert",
+      "method_note": "Nur tatsächlich geprüfte eindeutige URLs ergänzt; keine 50-Dokument-Vollständigkeit.",
       "analyst_coverage": null
     },
     "KRN": {
       "ticker": "KRN",
       "name": "Krones",
       "tv": "XETR:KRN",
-      "as_of": "2026-11-06T10:00:00Z",
+      "as_of": "2026-11-06T10:55:27Z",
       "status": "INCOMPLETE",
       "stance": "SHORT",
-      "summary": "Umsatzguidance reduziert, 9M FCF negativ",
+      "summary": "Umsatzprognose und 2028-Ziel reduziert",
       "source_goal": 50,
       "source_documents": [
         {
@@ -3708,6 +3972,26 @@
           "finding": "Umsatzwachstumsprognose 1–2 statt 3–5 Prozent; FCF -5 Mio EUR",
           "checked_on": "2026-11-06",
           "doc_type": "company_ir"
+        },
+        {
+          "id": "KRN-RTTNewsfinan-20261106",
+          "title": "Krones Q3",
+          "publisher": "RTTNews / finanzen.ch",
+          "published_at": "2026-11-06",
+          "url": "https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687",
+          "finding": "Q3 Umsatz 1,39 Mrd. EUR; 2028 Umsatzambition reduziert.",
+          "checked_on": "2026-11-06",
+          "doc_type": "NEWS"
+        },
+        {
+          "id": "KRN-KronesIR-20261106",
+          "title": "Krones Prognose",
+          "publisher": "Krones IR",
+          "published_at": "2026-11-06",
+          "url": "https://www.krones.com/de/unternehmen/investor-relations/",
+          "finding": "2026 Wachstum 1-2% statt 3-5%; EBITDA-Marge 10,7-11,1%.",
+          "checked_on": "2026-11-06",
+          "doc_type": "IR"
         }
       ],
       "financial_history": [],
@@ -3715,23 +3999,23 @@
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert",
       "key_unknowns": [
-        "Zeitnaher Xetra-Kurs",
-        "Analystenkonsens",
-        "Bewertung",
-        "13F/Stimmrechtsvergleich"
+        "Aktuelle Xetra-Quotes",
+        "Historischer Guidance-Ist-Abgleich aus getrennten Originaldokumenten",
+        "Aktuelle Analysten-Zieländerungen",
+        "Fondsbestände aus Originalfilings"
       ],
-      "method_note": "Originalquelle bevorzugt, Dokumente URL-dedupliziert",
+      "method_note": "Nur tatsächlich geprüfte eindeutige URLs ergänzt; keine 50-Dokument-Vollständigkeit.",
       "analyst_coverage": null
     }
   },
   "screening": {
-    "status": "IN_PROGRESS",
-    "as_of": "2026-11-06T10:00:00Z",
-    "method_note": "Sechs individuell belegte Titel; kein vollständiges Universum behauptet.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-06T10:55:27Z",
+    "method_note": "Diese Stunde: fünf Eventtitel qualitativ geprüft, keine vollständige Liquiditäts-/Kursprüfung. Kalenderlisten nicht als geprüfte Aktien gezählt.",
     "coverage": {
-      "universe_checked": 6,
-      "earnings_events": 5,
-      "triaged": 6,
+      "universe_checked": 4,
+      "earnings_events": 2,
+      "triaged": 5,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -4324,17 +4608,17 @@
         "tv": "XETR:DTG",
         "market": "XETRA",
         "sector": null,
-        "direction": "LONG",
-        "reason": "Q3 EBIT +73%, Nordamerika erholt sich",
-        "stage": "DEEP_DIVE",
+        "direction": "NEUTRAL",
+        "reason": "EBIT-Erholung, aber Aufträge unter Konsens",
+        "stage": "WATCH",
         "earnings_at": null,
-        "event": "Q3 EBIT +73%, Nordamerika erholt sich",
+        "event": "EBIT-Erholung, aber Aufträge unter Konsens",
         "score": null,
         "sources": [
           "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
           "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/"
         ],
-        "as_of": "2026-11-06T10:00:00Z"
+        "as_of": "2026-11-06T10:55:27Z"
       },
       {
         "ticker": "KRN",
@@ -4343,15 +4627,65 @@
         "market": "XETRA",
         "sector": null,
         "direction": "SHORT",
-        "reason": "Umsatzguidance reduziert, 9M FCF negativ",
-        "stage": "DEEP_DIVE",
+        "reason": "Umsatzprognose und 2028-Ziel reduziert",
+        "stage": "WATCH",
         "earnings_at": null,
-        "event": "Umsatzguidance reduziert, 9M FCF negativ",
+        "event": "Umsatzprognose und 2028-Ziel reduziert",
         "score": null,
         "sources": [
-          "https://www.krones.com/de/unternehmen/investor-relations/meldungen/corporate-news-meldung-krones-mit-moderatem-wachstum-und-verbesserter-ertragskraft-in-herausforderndem-marktumfeld/"
+          "https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687",
+          "https://www.krones.com/de/unternehmen/investor-relations/"
         ],
-        "as_of": "2026-11-06T10:00:00Z"
+        "as_of": "2026-11-06T10:55:27Z"
+      },
+      {
+        "ticker": "FRE",
+        "name": "Fresenius",
+        "tv": "XETR:FRE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Ergebnis über Konsens, Guidance erhöht",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Ergebnis über Konsens, Guidance erhöht",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/"
+        ],
+        "as_of": "2026-11-06T10:55:27Z"
+      },
+      {
+        "ticker": "DTE",
+        "name": "Deutsche Telekom",
+        "tv": "XETR:DTE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Guidance erhöht",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Guidance erhöht",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/"
+        ],
+        "as_of": "2026-11-06T10:55:27Z"
+      },
+      {
+        "ticker": "IFX",
+        "name": "Infineon",
+        "tv": "XETR:IFX",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Earnings am 10.11.",
+        "stage": "DISCOVERED",
+        "earnings_at": null,
+        "event": "Earnings am 10.11.",
+        "score": null,
+        "sources": [],
+        "as_of": "2026-11-06T10:55:27Z"
       }
     ],
     "pairs": [],
@@ -4435,6 +4769,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261106T100000Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "XETRA",
+        "universe_checked": 4,
+        "earnings_events": 2,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261106T105527Z"
       }
     ],
     "strategies": [
