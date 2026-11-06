@@ -1,6 +1,6 @@
 {
-  "version": 37,
-  "updated_at": "2026-11-06T19:27:53Z",
+  "version": 38,
+  "updated_at": "2026-11-06T20:32:12.059Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -6244,6 +6244,211 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261106T203212Z",
+      "market": "US",
+      "run_at": "2026-11-06T20:32:12.059Z",
+      "task": "Aktienresearch USA stündlich – 15:30 Overnight Entscheidung",
+      "decision": "KEIN TRADE",
+      "headline": "Keine belegbaren 15:30-Bid/Ask-Fills; IREN-Referenzverlust wächst",
+      "summary": "0 Entries; IREN Referenz 21.53 USD 15:01 EST und -96.40 EUR hypothetisch; MRNA, PTON, NET vorläufig.",
+      "source_status": "4 Seiten geöffnet: 3 inhaltlich lesbar (IREN, PTON, Reuters MRNA), NET teilweise paywalled; Kalender und Makro geöffnet; keine 50/50.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "AI Cloud growth vs funding and delivery risk",
+          "risk": "Short squeeze, high capex",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "side": "LONG",
+          "thesis": "Revenue beat and raised outlook",
+          "risk": "Pipeline and valuation",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "side": "REVIEW",
+          "thesis": "Improving profitability vs shrinking revenue",
+          "risk": "User turbo short unknown derivative",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "LONG",
+          "thesis": "Strong Q3 revenue growth",
+          "risk": "Valuation and partly inaccessible reporting",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "IREN forecast and analyst revisions",
+          "published_at": null,
+          "ticker": "IREN",
+          "publisher": "StockAnalysis",
+          "url": "https://stockanalysis.com/stocks/iren/forecast/",
+          "finding": "15:01 EST 21.53 USD; BTIG Lewis 80->65 Buy; Goldman Ng 50->30 Hold"
+        },
+        {
+          "title": "Moderna lifts annual revenue forecast",
+          "published_at": "2026-11-06",
+          "ticker": "MRNA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+          "finding": "Q3 revenue 1.3bn vs LSEG 885.1m, profit 162m, FY growth guidance 15-25%"
+        },
+        {
+          "title": "Cloudflare's stock mounts a big comeback",
+          "published_at": "2026-11-05",
+          "ticker": "NET",
+          "publisher": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d",
+          "finding": "Q3 revenue 782.5m +39%, adjusted EPS 0.38; article partly paywalled"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "REVIEW",
+          "horizon": "1-10 Handelstage",
+          "summary": "AI Cloud growth vs funding and delivery risk",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "15:01 EST 21.53 USD; BTIG Lewis 80->65 Buy; Goldman Ng 50->30 Hold",
+              "url": "https://stockanalysis.com/stocks/iren/forecast/",
+              "publisher": "StockAnalysis",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Short squeeze, high capex"
+          ]
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "stance": "LONG",
+          "horizon": "1-10 Handelstage",
+          "summary": "Revenue beat and raised outlook",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue 1.3bn vs LSEG 885.1m, profit 162m, FY growth guidance 15-25%",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Pipeline and valuation"
+          ]
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "stance": "REVIEW",
+          "horizon": "1-10 Handelstage",
+          "summary": "Improving profitability vs shrinking revenue",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "10:58 EST 5.80 USD stale; FY2027 consensus revenue 2.36bn USD vs FY2026 2.45bn; Citi Josey Hold 6 USD",
+              "url": "https://stockanalysis.com/stocks/pton/forecast/",
+              "publisher": "StockAnalysis",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "User turbo short unknown derivative"
+          ]
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "stance": "LONG",
+          "horizon": "1-10 Handelstage",
+          "summary": "Strong Q3 revenue growth",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue 782.5m +39%, adjusted EPS 0.38; article partly paywalled",
+              "url": "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d",
+              "publisher": "MarketWatch",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Valuation and partly inaccessible reporting"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_SHORT",
+        "summary": "Kein bestätigter Fill; Short-Squeeze-Risiko",
+        "base_scenario": "Hohe Volatilität ohne belastbare Richtung",
+        "bull_scenario": "Rückgang bei Capex/Finanzierungssorgen",
+        "bear_scenario": "Weitere AI-Cloud-Reboundrally",
+        "key_risk": "Gap/Short squeeze und fehlender Fill",
+        "planned_exit": "Ursprünglich 06.11 Open; nicht verifiziert, keine rückdatierte Schließung",
+        "as_of": "2026-11-06T20:32:12.059Z",
+        "mark_price": 21.53,
+        "mark_at": "2026-11-06T15:01:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/forecast/",
+        "pnl_eur": -96.4,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Research – 06.11.2026, Entscheidungsfenster 15:30 EST\n\n**Entscheidung: KEIN TRADE.** Keine ausreichend nachgewiesene, nach Entscheidungszeitpunkt quotierte ausführbare Bid/Ask-Quote für einen neuen Paper-Fill. Es wurden keine realen Orders und keine simulierten Entries ausgeführt.\n\n## Markt und Earnings\nDer Technologie-Rebound folgt auf den massiven Abverkauf vom 05.11.; gleichzeitig erhöhten 165.000 US-Neustellen und 4,1 % Arbeitslosigkeit die Zinsunsicherheit. [Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/). Der [TipRanks-Earnings-Kalender, 06.11.2026 geprüft](https://www.tipranks.com/calendars/earnings/2026-11-9) listet für 09.11. u.a. CEG, KKR, RKLB; diese sind lediglich DISCOVERED, nicht einzeln fundamental gescreent.\n\n## Deep Dives und Watchlist\n**IREN – SHORT-These nicht qualifiziert:** [StockAnalysis, 06.11.2026](https://stockanalysis.com/stocks/iren/forecast/) zeigte 21,53 USD um 15:01 EST (verzögerter/aggregierter öffentlich sichtbarer Last, kein Bid/Ask, zum 15:30-Entscheid veraltet). BTIG/Gregory Lewis kürzte Kursziel von 80 auf 65 USD bei Buy; Goldman/Michael Ng von 50 auf 30 USD bei Hold. Gegen den Short sprechen die massive Erholung und das AI-Cloud-Wachstum; dagegen die Finanzierung, Ausführungsverzögerungen und mögliche Verwässerung. 1 neue vollständig gelesene Seite in diesem Lauf, 50-Quellen-Meilenstein nicht erreicht. 13F-Originalvergleich und Guidance-Track-Record nicht verifiziert.\n\n**MRNA – LONG-Watch, kein Fill:** [Reuters, 06.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/) berichtet 1,3 Mrd. USD Q3-Umsatz gegenüber 885,1 Mio. USD LSEG-Konsens, 162 Mio. USD Gewinn und neue 2026-Umsatzwachstumsprognose 15–25 %. Cory Kasimov/Evercore positiv zur Entwicklung, Myles Minter/William Blair fokussiert Onkologiepipeline. Bull: höhere Guidance und Melanomimpfstoff; Bear: Kursanstieg, Pipeline- und Zulassungsrisiko. 1 neuer vollständig gelesener Text; unter 50, vorläufig. Keine nach Entscheidungszeitpunkt belegte Bid/Ask-Quote.\n\n**PTON – SHORT-Risiko:** [StockAnalysis, 06.11.2026](https://stockanalysis.com/stocks/pton/forecast/) zeigt FY2027-Umsatzkonsens 2,36 Mrd. USD vs 2,45 Mrd. FY2026; Citi/Ronald Josey Hold Ziel 6 USD und Bernstein/Aneesha Sherman Hold Ziel 6 USD. Kurs 5,80 USD 10:58 EST ist älter als bereits gespeicherte Marke 5,76 USD 14:25 EST und wurde nicht übernommen. 1 neue gelesene Aggregatorseite, unter 50. Turboprodukt ohne ISIN und Einstand nicht bewertbar.\n\n**NET – LONG-Watch:** [MarketWatch, 05.11.2026](https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d) nennt Q3-Umsatz 782,5 Mio. USD (+39 %) und adjusted EPS 0,38 USD; Text nur teilweise zugänglich, daher nicht als vollständig geprüfter Originalbericht gezählt. Kurssprung und Bewertungsrisiko sprechen gegen einen blinden Long.\n\n## Strategien, fehlende Nachweise\nPre-Earnings: CEG/KKR/RKLB ohne aktuelle Original-Guidance, Konsens und Spread nicht qualifiziert. PEAD: keine periodengleich verifizierte doppelte EPS-/Umsatzsurprise samt aktuellen Einstiegskursen. Guidance-Revision: MRNA positiv, aber ohne nach Entscheidungszeitpunkt prüfbaren Bid/Ask kein Fill. Pairs: keine 60–252 verifizierten Kursreihen; Korrelation und Hedge Ratio null. Kein vollständiger 13F-Vorquartalsvergleich. Keine 50 geprüften unabhängigen Quellen pro Titel.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: **nur Referenzsimulation**, historischer nicht ausgeführter Referenzwert 18,05 USD; Einsatz 100 EUR, synthetisch 5×, Exposure 500 EUR. Neuer öffentlich sichtbarer Last 21,53 USD, 06.11.2026 15:01 EST, REGULAR, USD, [StockAnalysis](https://stockanalysis.com/stocks/iren/forecast/), Datenlatenz nicht gesichert. Referenz-PnL 500×(1−21,53/18,05)=−96,40 EUR, ohne Gebühren, FX, Spread, KO, Slippage. Kein bestätigter Fill, kein realisierter Verlust. Basisszenario: hohes Gap-Risiko, kein belastbarer Kurszielwert. Bull für Short: Rückfall bei Finanzierungsnachrichten; Bear: weiterer AI-Rebound/Short-Squeeze. Der ursprüngliche Exit am heutigen Open ist nicht verifiziert und bleibt als nicht vollzogen dokumentiert; keine nachträgliche Schließung.\n\nPTON SHORT USER_REPORTED Turbo: letzter gespeicherter Aktien-Last 5,76 USD 14:25 EST REGULAR, [StockAnalysis](https://stockanalysis.com/stocks/pton/forecast/) als Kursseitenreferenz, keine neuere Quote verifiziert; PnL ohne Derivate-ISIN/Einstand nicht berechenbar. HFG SHORT USER_REPORTED Turbo: letzte gespeicherte Aktie 3,142 EUR 13:21 CET REGULAR, [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); ALT, aktueller Produktkurs und PnL nicht gefunden. Beide offen und nicht geschlossen. DEUTZ bleibt CLOSED_REPORTED, ca. +11 EUR Nutzerangabe.\n\n## Beschluss\n**0 neue Paper-Trades.** Am 15:30-Slot fehlten nach Entscheidungszeitpunkt belegte zeitnahe Bid/Ask-Kurse, belastbare Gebühren-/FX-Annahmen und hinreichend qualifizierte neue Overnight-Thesen. Keine rückdatierten Fills. TradingView-Widgets nicht als offizieller Echtzeitfeed verwendet. Nächster regulärer Opening-Check frühestens Montag 09.11.2026; Opening-Print vorher unbekannt.\n",
+      "report_sections": [
+        {
+          "heading": "Entscheidung",
+          "summary": "KEIN TRADE – keine zeitnahen ausführbaren Bid/Ask",
+          "bullets": []
+        },
+        {
+          "heading": "Alle offenen Positionen",
+          "summary": "IREN Referenz -96.40 EUR, HFG/PTON Turbo PnL unbekannt",
+          "bullets": [
+            {
+              "text": "IREN 21.53 USD 15:01 EST",
+              "url": "https://stockanalysis.com/stocks/iren/forecast/",
+              "publisher": "StockAnalysis",
+              "checked_at": "2026-11-06T20:32:12.059Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -6251,10 +6456,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-06T19:27:53Z",
+      "as_of": "2026-11-06T20:32:12.059Z",
       "status": "PRELIMINARY",
       "stance": "REVIEW",
-      "summary": "Short-Risiko durch +18.36% Rebound und Analysten-Zielkürzungen zugleich hoch",
+      "summary": "15:01 EST 21.53 USD; BTIG Lewis 80->65 Buy; Goldman Ng 50->30 Hold",
       "source_goal": 50,
       "source_documents": [
         {
@@ -6462,7 +6667,7 @@
         "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
         "Aktuelle 13F Originalfilings nicht paarweise geprüft"
       ],
-      "method_note": "Quellen nur nach inhaltlichem Öffnen gezählt; News-Syndikate nicht dupliziert",
+      "method_note": "Only opened documents counted, aggregator not SEC primary filing",
       "analyst_coverage": "Lewis/BTIG und Ng/Goldman 06.11.2026 via StockAnalysis/TipRanks; nicht Originalresearch"
     },
     "APP": {
@@ -7480,12 +7685,12 @@
         "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
         "Aktuelle 13F Originalfilings nicht paarweise geprüft"
       ],
-      "as_of": "2026-11-06T19:27:53Z",
+      "as_of": "2026-11-06T20:32:12.059Z",
       "status": "PRELIMINARY",
-      "stance": "LONG WATCH",
-      "summary": "Umsatzbeat und erhöhte Prognose; keine qualifizierte Entry-Quote",
+      "stance": "LONG",
+      "summary": "Q3 revenue 1.3bn vs LSEG 885.1m, profit 162m, FY growth guidance 15-25%",
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
-      "method_note": "Quellen nur nach inhaltlichem Öffnen gezählt; News-Syndikate nicht dupliziert",
+      "method_note": "Only opened documents counted, aggregator not SEC primary filing",
       "analyst_coverage": []
     },
     "R3NK": {
@@ -7544,33 +7749,43 @@
           "finding": "14:25 EST 5.76 USD; Q1 earnings links",
           "checked_on": "2026-11-06T19:27:53Z",
           "doc_type": "web"
+        },
+        {
+          "id": "web-PTON-20261106-1530",
+          "title": "Peloton analyst forecasts and financial history",
+          "publisher": "StockAnalysis",
+          "published_at": null,
+          "url": "https://stockanalysis.com/stocks/pton/forecast/",
+          "finding": "10:58 EST 5.80 USD stale; FY2027 consensus revenue 2.36bn USD vs FY2026 2.45bn; Citi Josey Hold 6 USD",
+          "checked_on": "2026-11-06T20:32:12.059Z",
+          "doc_type": "aggregated_analyst_data"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-06T19:27:53Z",
+      "as_of": "2026-11-06T20:32:12.059Z",
       "status": "PRELIMINARY",
       "stance": "REVIEW",
-      "summary": "Bestehender Nutzer-Turbo-Short, Aktienkursmarke 5.76 USD 14:25 EST; Produkt-PnL unbekannt",
+      "summary": "10:58 EST 5.80 USD stale; FY2027 consensus revenue 2.36bn USD vs FY2026 2.45bn; Citi Josey Hold 6 USD",
       "source_goal": 50,
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
       "key_unknowns": [
         "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
         "Aktuelle 13F Originalfilings nicht paarweise geprüft"
       ],
-      "method_note": "Quellen nur nach inhaltlichem Öffnen gezählt; News-Syndikate nicht dupliziert",
+      "method_note": "Only opened documents counted, aggregator not SEC primary filing",
       "analyst_coverage": "Nicht vollständig verifiziert"
     }
   },
   "screening": {
     "status": "PRELIMINARY",
-    "as_of": "2026-11-06T19:27:53Z",
-    "method_note": "Aktueller US Lauf 3 inhaltlich überprüfte Ticker; CEG KKR RKLB nur entdeckt, nicht in coverage gezählt. Frühere Screening-Einträge erhalten.",
+    "as_of": "2026-11-06T20:32:12.059Z",
+    "method_note": "Only IREN MRNA PTON NET individually read; calendar listings CEG KKR RKLB are DISCOVERED not screened. No executable quote.",
     "coverage": {
-      "universe_checked": 3,
+      "universe_checked": 4,
       "earnings_events": 2,
-      "triaged": 3,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -7580,17 +7795,17 @@
         "name": "IREN Limited",
         "tv": "NASDAQ:IREN",
         "market": "US",
-        "sector": "AI Cloud",
+        "sector": null,
         "direction": "REVIEW",
-        "reason": "Earnings rebound; analyst target cuts",
+        "reason": "AI Cloud growth vs funding and delivery risk",
         "stage": "DEEP_DIVE",
         "earnings_at": null,
-        "event": "Earnings",
+        "event": "2026-11-06 earnings review",
         "score": null,
         "sources": [
           "https://stockanalysis.com/stocks/iren/forecast/"
         ],
-        "as_of": "2026-11-06T19:27:53Z"
+        "as_of": "2026-11-06T20:32:12.059Z"
       },
       {
         "ticker": "APP",
@@ -7615,17 +7830,17 @@
         "name": "Cloudflare",
         "tv": "NYSE:NET",
         "market": "US",
-        "sector": "Technology",
-        "direction": "WATCH LONG",
-        "reason": "Earnings-Erholung",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Strong Q3 revenue growth",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings 05/06 Nov 2026",
+        "event": "2026-11-06 earnings review",
         "score": null,
         "sources": [
-          "https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e"
+          "https://www.marketwatch.com/story/cloudflares-stock-mounts-a-big-comeback-after-fastest-sales-surge-in-nearly-4-years-d80d994d"
         ],
-        "as_of": "2026-11-06T14:25:22Z"
+        "as_of": "2026-11-06T20:32:12.059Z"
       },
       {
         "ticker": "AFRM",
@@ -7837,17 +8052,17 @@
         "name": "Moderna",
         "tv": "NASDAQ:MRNA",
         "market": "US",
-        "sector": "Healthcare",
+        "sector": null,
         "direction": "LONG",
-        "reason": "Q3 beat and guidance increase",
+        "reason": "Revenue beat and raised outlook",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings",
+        "event": "2026-11-06 earnings review",
         "score": null,
         "sources": [
           "https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/"
         ],
-        "as_of": "2026-11-06T19:27:53Z"
+        "as_of": "2026-11-06T20:32:12.059Z"
       },
       {
         "ticker": "HUM",
@@ -8345,20 +8560,20 @@
       },
       {
         "ticker": "PTON",
-        "name": "Peloton Interactive",
+        "name": "Peloton",
         "tv": "NASDAQ:PTON",
         "market": "US",
-        "sector": "Consumer Discretionary",
+        "sector": null,
         "direction": "REVIEW",
-        "reason": "User short; Q1 earnings and quote",
+        "reason": "Improving profitability vs shrinking revenue",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings",
+        "event": "2026-11-06 earnings review",
         "score": null,
         "sources": [
-          "https://stockanalysis.com/stocks/pton/"
+          "https://stockanalysis.com/stocks/pton/forecast/"
         ],
-        "as_of": "2026-11-06T19:27:53Z"
+        "as_of": "2026-11-06T20:32:12.059Z"
       },
       {
         "ticker": "CEG",
@@ -8627,6 +8842,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T192753Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": 2,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261106T203212Z"
       }
     ],
     "strategies": [
