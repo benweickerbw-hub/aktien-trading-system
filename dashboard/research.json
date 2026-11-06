@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "updated_at": "2026-11-05T23:39:27.532Z",
+  "version": 15,
+  "updated_at": "2026-11-06T00:25:23Z",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -1697,6 +1697,183 @@
       "report_markdown": "US-Aktienresearch · 5. November 2026 · 18:27 Uhr New York · Nachbörse\n\n**Wichtigste Nachricht:** IREN bestätigt erstmals ausdrücklich eine Verschiebung seines operativen ARR-Ziels auf Januar, möglicherweise Februar 2027. \n\n**Watchlist:** IREN Short-Priorität ↑ · AFRM Short-Beobachtung ↑ · NET Long-Beobachtung ↑.\n\n**Neue Paper-Trades: 0 · KEIN TRADE · Verifizierter PnL: nicht verfügbar.**\n\n**Dashboard aktualisiert:** Version 13 · Commit `329ec79e9207` · Keine Positionsänderung.\n\n## 1. IREN: Verzögerung jetzt offiziell bestätigt\n\nDie heute veröffentlichte Q1-FY2027-Ergebnismitteilung von IREN (https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7) bestätigt die entscheidende Änderung: Das Ziel von mehr als 4 Mrd. USD operationalisiertem annualisiertem Umsatz, zuvor für Ende 2026 vorgesehen, wurde auf Januar 2027 verschoben und könnte sich bis Ende Februar verzögern. Als Gründe nennt das Management eine kundenseitig gewünschte Designänderung und Lieferanten-Timing. Das ist ein belastbarer **Guidance-Track-Record-Befund: nach hinten revidiert**. \n\n\n    Q1-Umsatz\n    228 Mio. $\n    +66 % zum Vorquartal\n\n  \n    AI-Cloud-Umsatz\n    200 Mio. $\n    +182 % zum Vorquartal\n\n  \n    Nettoergebnis\n    −263 Mio. $\n    GAAP-Verlust\n\n\nNoch wichtiger für die Finanzierung: Von rund 15 Mrd. USD verbleibenden geplanten FY2027-Investitionen sollen etwa 9 Mrd. USD durch bestehende Liquidität, zugesagte GPU-Finanzierungen und Kundenvorauszahlungen gedeckt werden. Weitere 6 Mrd. USD hängen von angestrebten Finanzierungsquellen und Marktbedingungen ab. Das betrifft zusätzliche Ausbauziele, nicht zwingend die bereits als finanziert bezeichnete Kapazität für das 4-Mrd.-ARR-Ziel. \n\n**Tendenz 1–10 Handelstage: vorsichtig negativ.** Die Verschiebung unterstützt die Short-These. Gegenargumente sind der starke AI-Cloud-Umsatzanstieg, ein Auftragsbestand von 20,3 Mrd. USD und bereits finanzierte Kernkapazitäten. Eine nachweisliche Stabilisierung der Inbetriebnahme würde die Short-These schwächen.\n\n## 2. Affirm: Gute Ergebnisse, schlechtere Kreditkennzahlen\n\nAffirms offizieller FQ1-FY2027-Aktionärsbrief (https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731) zeigt 1,262 Mrd. USD Umsatz (+35 %), 14,4 Mrd. USD Transaktionsvolumen (+34 %) und 164 Mio. USD Nettogewinn. Gleichzeitig stieg die Quote der mindestens 30 Tage überfälligen monatlichen Ratenkredite von 2,5 % im Juni auf 2,9 % im September. Die Risikovorsorge erhöhte sich auf rund 259 Mio. USD. \n\n**Tendenz: neutral bis negativ.** Die Kreditentwicklung ist ein echter Risikofaktor, aber die starke operative Profitabilität verhindert eine eindeutig negative Einschätzung. Ein Short müsste durch weitere Verschlechterungen oder enttäuschende Erwartungen bestätigt werden.\n\n## 3. Cloudflare: Umsatzüberraschung mit Margenfrage\n\nCloudflare erzielte im dritten Quartal 782,5 Mio. USD Umsatz (+39 %), verglichen mit einem vor Veröffentlichung genannten Konsens von rund 736,8 Mio. USD. Der Non-GAAP-Operativgewinn betrug 137,1 Mio. USD, während ein GAAP-Operativverlust von 67,9 Mio. USD verblieb. \n\n**Tendenz: vorsichtig positiv.** Das ist ein möglicher Post-Earnings-Drift-Kandidat, aber noch kein qualifiziertes Handelssignal. Eine hohe Bewertung und ein großer Eröffnungsgap könnten den Vorteil der positiven Überraschung vollständig aufzehren.\n\n## 4. Screening und Dossierfortschritt\n\nDer geöffnete Earnings-Kalender listet für den 5. November insgesamt 695 Unternehmen, darunter 363 nach Börsenschluss. Diese wurden ausdrücklich **nicht alle einzeln geprüft**. In diesem Durchlauf wurden drei Unternehmen anhand konkreter Ergebnis- beziehungsweise Erwartungsdokumente vertieft. \n\n| Aktie | Kumulierte Dokumente | Ziel | Status |\n|---|---:|---:|---|\n| IREN | 8 | 50 | Vorläufig |\n| NET | 6 | 50 | Vorläufig |\n| AFRM | 5 | 50 | Vorläufig |\n\nDie zusätzlich gespeicherten Dokumente wurden anhand ihrer URLs dedupliziert. Für die drei Aktien fehlen weiterhin vollständige 13F-Vergleiche, zwei verifizierte aktuelle Analystenvoten je Titel, belastbare Pair-Korrelationen und ausreichende historische Bewertungsanalysen. Keine dieser Lücken wurde mit Schätzwerten aufgefüllt.\n\n## 5. Aktueller Trade / Erwartung\n\n\n    **IREN · Short-Referenzsimulation**\n    Kein bestätigter Fill\n\n  \n\n      Historischer Referenzkurs\n      18,05 USD\n\n    \n      Modellierter Einsatz\n      100 € · 5×\n\n    \n      Aktueller belegter Marktkurs\n      Nicht verfügbar\n\n    \n      Aktueller PnL\n      Nicht berechnet\n\n  \n\n\nFür die nächste reguläre Eröffnung am Freitag, 6. November, ist das Basisszenario hohe Volatilität. Eine weitere negative Bewertung der Terminverschiebung und Finanzierung könnte den hypothetischen Short begünstigen. Eine positive Interpretation der Kundenverträge oder eine kräftige Gegenbewegung könnte dagegen zu erheblichen Short-Verlusten führen. Ein bestätigter Paper-Trade existiert aus dieser Referenz nicht; deshalb gibt es keinen tatsächlichen simulierten Exit abzurechnen.\n\n**Ergebnis: KEIN TRADE.** Die neuen IREN-, AFRM- und NET-Erkenntnisse wurden im bestehenden GitHub-Research-Journal einschließlich Dossiers, Watchlist-Briefs und Screening gespeichert. `dashboard/positions.json` blieb unverändert. Die lokale Mac-HTML-Datei wird ausschließlich durch den separaten Sync aktualisiert, nicht direkt durch diesen Research-Lauf.\n\n## Dokumentierte Originalquellen (Links)\n- IREN · 2026-11-05: IREN Q1 FY27 Results – https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7\n- Affirm · 2026-11-05: Affirm FQ1 FY27 shareholder letter – https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731\n- Cloudflare/Business Wire · 2026-11-05: Cloudflare Q3 2026 results company release – https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html\n- MarketBeat · 2026-11-05: Cloudflare Q3 pre-release consensus – https://www.marketbeat.com/earnings/reports/2026-11-5-cloudflare-inc-stock/",
       "report_format": "markdown-plaintext; rendered as untrusted escaped text",
       "report_source": "Aus dem nachweisbaren letzten ChatGPT-US-Automationslauf vom 2026-11-05T23:30:00Z rekonstruiert; interne ChatGPT-Citation-IDs entfernt, enthaltene originale HTTPS-Links beibehalten"
+    },
+    {
+      "id": "US-20261106T002523Z",
+      "market": "US",
+      "run_at": "2026-11-06T00:25:23Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "KI-Sektor-Ausverkauf; ABNB/TEAM Earnings nachbörslich, keine verifizierten neuen Fills",
+      "summary": "AP: Nasdaq -5,5%; ABNB und TEAM vorläufige Watch-Kandidaten; kein zeitnaher Fill.",
+      "source_status": "2 individuell geprüfte Kandidaten; ABNB 1/50, TEAM 1/50; keine qualifizierte These",
+      "candidates": [
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "side": "WATCH",
+          "thesis": "Earnings-Reaktion erst nach geprüften Ist-Zahlen beurteilen",
+          "risk": "Guidance, Konsenssurprise unbekannt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TEAM",
+          "name": "Atlassian",
+          "tv": "NASDAQ:TEAM",
+          "side": "WATCH",
+          "thesis": "FY27 Q1 Earnings-Event",
+          "risk": "Ist-Zahlen noch nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "US-Aktien und KI-Sektor unter Verkaufsdruck",
+          "publisher": "Associated Press",
+          "published_at": "2026-11-05",
+          "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e",
+          "ticker": "NVDA",
+          "finding": "S&P 500 -4,4%, Nasdaq -5,5%, NVDA -9,3%, AMD -17,3%; APP +31%."
+        },
+        {
+          "title": "Airbnb Q3 2026 Earnings Expectations",
+          "publisher": "TradingView/FactSet",
+          "published_at": null,
+          "url": "https://www.tradingview.com/news/tradingview:cd046c187976f:0-abnb-q3-26-earnings-eps-estimate-is-2-85-usd/",
+          "ticker": "ABNB",
+          "finding": "Vorbericht: Umsatzkonsens 4,75 Mrd. USD, EPS 2,85 USD; tatsächliche Q3-Zahlen in dieser Quelle noch nicht enthalten."
+        },
+        {
+          "title": "Atlassian FY2027 Q1 Earnings Event",
+          "publisher": "Atlassian Investor Relations",
+          "published_at": "2026-11-05",
+          "url": "https://investors.atlassian.com/events-and-presentations/events/default.aspx",
+          "ticker": "TEAM",
+          "finding": "Offizieller Earnings-Call 5. November 2026 17:00 ET; aktuelles Ergebnis in geöffneter Seite nicht verifiziert."
+        },
+        {
+          "title": "US Earnings Calendar November 5",
+          "publisher": "Investingly",
+          "published_at": null,
+          "url": "https://investingly.io/earnings-calendar/2026-11-05",
+          "ticker": null,
+          "finding": "Breiter Kalender mit 78 US-Firmen >10 Mrd. USD als Listung; keine 78 individuell geprüften Titel."
+        },
+        {
+          "title": "NYSE Holidays and Hours",
+          "publisher": "NYSE",
+          "published_at": null,
+          "url": "https://www.nyse.com/trade/hours-calendars?os=vb",
+          "ticker": null,
+          "finding": "5. November regulärer Handelstag; keine Sonderverkürzung."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ABNB",
+          "name": "Airbnb",
+          "tv": "NASDAQ:ABNB",
+          "stance": "WATCH/NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Konsens vor Q3 belegt; Q3-Ist in geprüfter Quelle noch nicht verifiziert.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Konsens Umsatz 4,75 Mrd. USD, EPS 2,85 USD",
+              "url": "https://www.tradingview.com/news/tradingview:cd046c187976f:0-abnb-q3-26-earnings-eps-estimate-is-2-85-usd/",
+              "publisher": "TradingView/FactSet",
+              "published_at": null
+            },
+            {
+              "type": "FAKT",
+              "text": "Q2 Umsatz 3,61 Mrd. USD, EPS 1,37 USD",
+              "url": "https://www.tradingview.com/news/tradingview:cd046c187976f:0-abnb-q3-26-earnings-eps-estimate-is-2-85-usd/",
+              "publisher": "TradingView/FactSet",
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Q3-Ist, aktuelle Analystenziele, Spread und Guidance nicht geprüft",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Q3-Ergebnis und Guidance"
+          ],
+          "invalidations": [
+            "Schwache Buchungen oder Guidance"
+          ]
+        },
+        {
+          "ticker": "TEAM",
+          "name": "Atlassian",
+          "tv": "NASDAQ:TEAM",
+          "stance": "WATCH/NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "FY27 Q1 Call bestätigt, aktuelle Resultate nicht verifiziert.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Earnings-Call 05.11.2026 17:00 ET",
+              "url": "https://investors.atlassian.com/events-and-presentations/events/default.aspx",
+              "publisher": "Atlassian IR",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Ist-Zahlen und Konsensrevisionen fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Cloud-Wachstum und Guidance"
+          ],
+          "invalidations": [
+            "Schwache Cloud-Expansion"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": null,
+        "id": null,
+        "stance": "KEIN TRADE",
+        "summary": "Nachbörslicher Researchslot; keine neuen Entries",
+        "base_scenario": "Hohe Volatilität",
+        "bull_scenario": "Technische Erholung",
+        "bear_scenario": "Fortgesetzter KI-Sektor-Ausverkauf",
+        "key_risk": "Overnight-Gaps",
+        "planned_exit": "Nur bestehende bestätigte Paper-Positionen am nächsten Open gesondert prüfen",
+        "as_of": "2026-11-06T00:25:23Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörsen-Research – 5. November 2026, 19:25 ET\n\n**Entscheidung: KEIN TRADE.** Dies ist der nachbörsliche Research-Slot. Keine nachbörslichen simulierten Entries erlaubt, keine neuen Fills, keine verifizierte aktuelle Paper-P&L.\n\n## Markt\nAssociated Press berichtet für den regulären 5. November: S&P 500 **−4,4 %**, Nasdaq **−5,5 %**, Nvidia **−9,3 %**, AMD **−17,3 %**; AppLovin dagegen **+31 %** nach Ergebnissen und Aktienrückkaufankündigung. Hohe Marktschwankungen und Sektorrotation sprechen gegen einen ungesicherten kurzfristigen Momentum-Trade. [AP, 05.11.2026](https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e). Laut [NYSE-Handelskalender, geprüft 05.11.2026](https://www.nyse.com/trade/hours-calendars?os=vb) war der Donnerstag ein normaler Handelstag.\n\n## Screening und Kandidaten\nDer [Investingly-Earnings-Kalender, geprüft 05.11.2026](https://investingly.io/earnings-calendar/2026-11-05) listet 78 US-Unternehmen über 10 Mrd. USD für den Tag; diese sind **DISCOVERED, nicht 78 einzeln gescreente Aktien**. Individuell in diesem Lauf auf Primär- oder konkreten Konsensseiten näher geprüft: **ABNB und TEAM**; NVDA/AMD/APP nur über AP-Marktbericht betrachtet. Spread, Tagesvolumen, konkrete heutige Quote, Options-IV und detaillierte Analystenänderungen: nicht verifiziert.\n\n**ABNB – WATCH, Richtung neutral (1–10 Handelstage).** Der vorbörsliche [TradingView/FactSet-Bericht, geprüft 05.11.2026](https://www.tradingview.com/news/tradingview:cd046c187976f:0-abnb-q3-26-earnings-eps-estimate-is-2-85-usd/) nennt vor Q3 2026 **4,75 Mrd. USD Umsatz- und 2,85 USD EPS-Erwartung**. Historie laut derselben Quelle: Q2 2026 Umsatz 3,61 Mrd. USD, EPS 1,37 USD versus erwartete 1,26 USD. Die geöffnete Vorberichtsseite enthält keine tatsächlichen Q3-Werte. Daher keine bestätigte Umsatz-/EPS-Surprise und kein belegter PEAD-Trade. Gegenargumente: schwankende Reiseausgaben, Regulierung, hohe Erwartungen. Invalidation einer positiven These: schwache Guidance oder schwache Buchungsentwicklung. **Neue inhaltlich geöffnete eigenständige ABNB-Dokumente: 1; Dossierfortschritt in diesem Lauf 1/50, kumulativ nur soweit im Repo belegt.**\n\n**TEAM – WATCH, Richtung neutral (1–10 Handelstage).** [Atlassian IR, geprüft 05.11.2026](https://investors.atlassian.com/events-and-presentations/events/default.aspx) bestätigt den FY2027-Q1-Earnings-Call am 05.11. um 17:00 ET. Auf der geöffneten Veranstaltungsseite keine verifizierten neuen Ergebniszahlen. Risiko: KI-Software-Wettbewerb, Cloud-Migrationskosten und Bewertung; positive These erst nach Prüfung von Cloud-Wachstum, Margen, Guidance und Ergebnis gegenüber vorab dokumentiertem Konsens. **Neue eigenständig geöffnete TEAM-Primärquelle: 1/50.**\n\n**NVDA/AMD – vorläufige sektorale SHORT-/Rebound-Beobachtung, keine Qualifikation.** AP dokumentiert starke Kursverluste; dies beweist weder anhaltende Schwäche noch eine handelbare Gegenbewegung. **APP – vorläufiger LONG-/Überhitzungs-Beobachtungstitel** nach +31 % und Rückkaufnachricht; eine aktuelle eigene Guidance-Ist-Prüfung fehlt. Für diese drei Titel wurde im Lauf nur der AP-Artikel inhaltlich geöffnet, jeweils 1/50, nicht drei unabhängige Texte.\n\n## Strategien und Lücken\nPre-Earnings: ABNB-Konsens vorhanden, Ist nicht belegt. PEAD: keine verifizierte kombinierte EPS- und Umsatzsurprise. Guidance-Revision: keine neue überprüfte Guidance. Pairs: keine 60–252 datierten Kursreihen, daher keine berechnete Korrelation oder Hedge Ratio. 13F-Fondsvergleiche, namentliche Analystenziele, Management-Guidance-Trefferquote und aktueller Mark-to-Market-Wert: **nicht verifiziert / noch nicht gefunden**. Nur zwei individuell näher geprüfte Titel, keine voll qualifizierten Kandidaten.\n\n## Aktueller Trade / nächster Open\n**Kein neuer simulierter Einstieg oder Ausstieg**; positions.json bleibt unverändert. Für bestehende Positionen keine Kurs-/P&L-Behauptung ohne verifizierte zeitgestempelte Börsenprints. Die IREN-Referenz 18,05 USD ist ausdrücklich kein bestätigter Fill. Nächster regulärer US-Open: Freitag 06.11.2026 um 09:30 ET. Basisszenario: hohe Volatilität; bullisch: technische Erholung; bärisch: weitere AI-Sektorverkäufe. Dies sind Szenarien, keine Prognosewahrscheinlichkeiten. Exit nur nach gesonderter belegter Opening-Print-Prüfung.\n\n**Methodik:** Öffentlich zugängliche Webseiten in diesem Lauf geöffnet, nur explizit verifizierte Angaben; keine Research-Daten aus GitHub. GitHub wird allein für das Journal verwendet.",
+      "report_sections": [
+        {
+          "heading": "Markt",
+          "summary": "Nasdaq -5,5%; KI-Selloff",
+          "bullets": [
+            {
+              "text": "AP-Marktbericht",
+              "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e",
+              "publisher": "AP",
+              "checked_at": "2026-11-06T00:25:23Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -2414,21 +2591,33 @@
           "finding": "Vorheriger Konsens Umsatz 4,75 Mrd USD und EPS 2,85 USD",
           "checked_on": "2026-11-05",
           "doc_type": "media"
+        },
+        {
+          "id": "ABNB-20261105-3",
+          "title": "Q3 2026 Earnings Expectations",
+          "publisher": "TradingView/FactSet",
+          "published_at": null,
+          "url": "https://www.tradingview.com/news/tradingview:cd046c187976f:0-abnb-q3-26-earnings-eps-estimate-is-2-85-usd/",
+          "finding": "Vorbericht Konsens Q3 Umsatz 4,75 Mrd USD EPS 2,85 USD",
+          "checked_on": "2026-11-06T00:25:23Z",
+          "doc_type": "consensus preview"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
       "key_unknowns": [
-        "Aktuelle Analystenziele, zwei vergleichbare SEC 13F-Filings und zeitgestempelte reguläre Kurse nicht verifiziert"
+        "Aktuelle Analystenziele",
+        "Verifizierte Ergebnis-Ist-Zahlen",
+        "13F-Vergleiche"
       ],
       "analyst_coverage": [],
-      "as_of": "2026-11-05T22:26:17Z",
-      "status": "DEEP_DIVE",
-      "stance": "LONG",
-      "summary": "Umsatz/EPS über Konsens und höhere Guidance",
+      "as_of": "2026-11-06T00:25:23Z",
+      "status": "DEEP_DIVE_VORLÄUFIG",
+      "stance": "WATCH",
+      "summary": "Vorbericht Konsens Q3 Umsatz 4,75 Mrd USD EPS 2,85 USD",
       "holdings_note": "Keine verifizierten zwei 13F-Originalmeldungen verglichen.",
-      "method_note": "Nur tatsächlich geöffnete und geprüfte URLs; Syndikate nicht doppelt."
+      "method_note": "Nur geöffnete Dokumente; keine Suchsnippets als Dossierdokumente"
     },
     "EXPE": {
       "ticker": "EXPE",
@@ -2460,12 +2649,45 @@
       "summary": "Q4 Wachstum trotz Jahres-Guidance-Erhöhung enttäuschend",
       "holdings_note": "Keine verifizierten zwei 13F-Originalmeldungen verglichen.",
       "method_note": "Nur tatsächlich geöffnete und geprüfte URLs; Syndikate nicht doppelt."
+    },
+    "TEAM": {
+      "ticker": "TEAM",
+      "name": "Atlassian",
+      "tv": "NASDAQ:TEAM",
+      "source_documents": [
+        {
+          "id": "TEAM-20261105-1",
+          "title": "FY27 Q1 Earnings Event",
+          "publisher": "Atlassian IR",
+          "published_at": "2026-11-05",
+          "url": "https://investors.atlassian.com/events-and-presentations/events/default.aspx",
+          "finding": "FY27 Q1 Earnings Call 05.11. 17 ET",
+          "checked_on": "2026-11-06T00:25:23Z",
+          "doc_type": "IR event"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-06T00:25:23Z",
+      "status": "DEEP_DIVE_VORLÄUFIG",
+      "stance": "WATCH",
+      "source_goal": 50,
+      "summary": "FY27 Q1 Earnings Call 05.11. 17 ET",
+      "holdings_note": "13F-Vergleiche nicht verifiziert",
+      "key_unknowns": [
+        "Aktuelle Analystenziele",
+        "Verifizierte Ergebnis-Ist-Zahlen",
+        "13F-Vergleiche"
+      ],
+      "method_note": "Nur geöffnete Dokumente; keine Suchsnippets als Dossierdokumente",
+      "analyst_coverage": []
     }
   },
   "screening": {
-    "status": "AFTER_HOURS_REVIEW",
-    "as_of": "2026-11-05T23:27:10Z",
-    "method_note": "Calendar listed 695 tickers, not all screened. Three tickers with opened company results/consensus; no live quote/volume/spread qualification.",
+    "status": "VORLÄUFIG",
+    "as_of": "2026-11-06T00:25:23Z",
+    "method_note": "2 individuell geprüfte Aktien; 78 Kalenderlistungen nur DISCOVERED, nicht screened. Frühere Coverage-Zähler nicht als kumulativ verifiziert.",
     "coverage": {
       "universe_checked": 3,
       "earnings_events": 3,
@@ -2568,17 +2790,17 @@
         "name": "Airbnb",
         "tv": "NASDAQ:ABNB",
         "market": "US",
-        "sector": "Tourismus",
-        "direction": "LONG",
-        "reason": "Umsatz/EPS über Konsens und höhere Guidance",
-        "stage": "DEEP_DIVE",
+        "sector": "Travel",
+        "direction": "WATCH",
+        "reason": "Earnings-Reaktion erst nach geprüften Ist-Zahlen beurteilen",
+        "stage": "WATCH",
         "earnings_at": "2026-11-05",
-        "event": "2026-11-05 after-hours earnings/review",
+        "event": "Earnings",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/airbnb-lifts-annual-revenue-growth-forecast-resilient-global-travel-demand-2026-11-05/"
+          "https://www.tradingview.com/news/tradingview:cd046c187976f:0-abnb-q3-26-earnings-eps-estimate-is-2-85-usd/"
         ],
-        "as_of": "2026-11-05T22:26:17Z"
+        "as_of": "2026-11-06T00:25:23Z"
       },
       {
         "ticker": "EOG",
@@ -2671,16 +2893,16 @@
         "tv": "NASDAQ:TEAM",
         "market": "US",
         "sector": "Software",
-        "direction": "NEUTRAL",
-        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
-        "stage": "DISCOVERED",
+        "direction": "WATCH",
+        "reason": "FY27 Q1 Earnings-Event",
+        "stage": "WATCH",
         "earnings_at": "2026-11-05",
-        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "event": "Earnings",
         "score": null,
         "sources": [
-          "https://investingly.io/earnings-calendar/2026-11-05"
+          "https://investors.atlassian.com/events-and-presentations/events/default.aspx"
         ],
-        "as_of": "2026-11-05T21:02:00+01:00"
+        "as_of": "2026-11-06T00:25:23Z"
       },
       {
         "ticker": "MNST",
@@ -3047,6 +3269,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261105T232710Z"
+      },
+      {
+        "date": "2026-11-05",
+        "market": "US",
+        "universe_checked": 2,
+        "earnings_events": 2,
+        "triaged": 2,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261106T002523Z"
       }
     ],
     "strategies": [
