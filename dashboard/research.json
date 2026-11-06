@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "updated_at": "2026-11-06T10:55:27Z",
+  "version": 21,
+  "updated_at": "2026-11-06T12:34:08+01:00",
   "note": "Deep Dive MVP: dokumentierte Primärquellen + ausgewählte historische Abgleiche, aber keine 50-Dokument-Vollanalyse. Automatische Erweiterung nur bei belegten Research-Quellen. Stand der Ausgangsdaten 05.11.2026 20:46 MEZ.",
   "runs": [
     {
@@ -2937,6 +2937,221 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research | 06.11.2026, 11:55 MEZ\n\n**Entscheidung: KEIN TRADE.** Intraday-Recherche; neue Overnight-Fills nur bis spätestens 17:00 mit zeitnah verifiziertem Xetra-Quote.\n\n## Markt und Makro\n\nDeutsche Industrieproduktion September +0,7% m/m, August revidiert +1,0%. Positive Überraschung, aber kein belastbarer Trendnachweis. Risikoaversion an Weltbörsen nach Technologie-Abverkauf; keine zeitnahen, verifizierten Indexquotes für P&L.\n\n## Triage / Watchlist\n\n**DTG – WATCH, kurzfristig neutral bis vorsichtig bearish:** Q3 bereinigtes EBIT 1,124 Mrd. EUR, Industrieumsatz 11,6 Mrd. EUR, Rendite 9,1%, Prognose bestätigt. Dennoch Order-Intake 9% unter Analystenkonsens und Nordamerika 16% darunter laut Reuters. Bull: starke operative Erholung; Bear: unzureichende Auftragspipeline und 2027-Erwartungen. Invalidierung der Bear-These: belegte Beschleunigung der Aufträge und bestätigte Margenverbesserung.\n\n**KRN – WATCH, vorsichtig bearish:** Q3 Umsatz rund 1,39 Mrd. EUR, EBITDA 160,3 Mio. EUR. 2026 währungsbereinigtes Umsatzwachstum auf 1–2% statt 3–5% gesenkt; EBITDA-Marge 10,7–11,1% bestätigt; 2028-Umsatzambition laut RTTNews gesenkt. Bull: EBITDA-Zuwachs; Bear: schwächere Nachfrage und abgesenkte Langfristziele. Invalidierung: erneuter Anstieg des Auftragseingangs.\n\n**FRE – WATCH, vorsichtig bullish:** Q3 EBIT 638 Mio. EUR über Konsens 618,5 Mio.; 2026-Ausblick erhöht. Risiko: Bewertung und Nachhaltigkeit der Kabi-/Helios-Margen ungeprüft.\n\n**DTE – WATCH, neutral:** Ausblick erneut erhöht und Rückkauf 2027 bis 2 Mrd. EUR angekündigt; Kursreaktion nach Bericht negativ. Risiko: Erwartungen an Ausschüttungen und T-Mobile-US-Strategie.\n\n**IFX – DISCOVERED:** Q4-/Jahreszahlen am 10.11. laut Kalender; noch keine vollständige Konsens-, Bewertungs- oder Bilanzprüfung. Kein Trade.\n\n## Forschungsstand und fehlende Daten\n\nTatsächlich in diesem Lauf inhaltlich ausgewertete unterschiedliche öffentliche Dokumente: 8, davon 2 Firmen-IR-Seiten (DTG, KRN); keine 50-Quellen-Vollanalyse. Nicht verifiziert: zwei aktuelle Analystenvoten je Titel, aktuelle zeitgestempelte Xetra-Quotes, Spreads, 13F-/Stimmrechts-Vergleiche, Guidance-Scorecard mit zwei getrennten Originaldokumenten, historische 60–252 Tageskursreihen, Pair-Korrelationen und aktuelles Paper-PnL.\n\n## Positionen und Entscheidung\n\nKeine neue SIMULATED ENTRY, kein CLOSED_SIMULATED; ohne belegten Entry und marktfähigen Zeitstempel keine PnL. Eine simulierte Eröffnungsorder müsste vor dem Eröffnungsprint feststehen; nachträgliche Orders sind unzulässig.\n\n## Quellen\n\n- [Daimler Truck Q3 2026](https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175) — Daimler Truck, 2026-11-06: Bereinigtes EBIT 1,124 Mrd. EUR; Industrieumsatz 11,6 Mrd. EUR; Prognose bestätigt.\n\n- [Daimler Truck Order-Intake](https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/) — Reuters, 2026-11-06: Aufträge unter Konsens, Kurs unter Druck.\n\n- [Krones Q3](https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687) — RTTNews / finanzen.ch, 2026-11-06: Q3 Umsatz 1,39 Mrd. EUR; 2028 Umsatzambition reduziert.\n\n- [Krones Prognose](https://www.krones.com/de/unternehmen/investor-relations/) — Krones IR, 2026-11-06: 2026 Wachstum 1-2% statt 3-5%; EBITDA-Marge 10,7-11,1%.\n\n- [Industrieproduktion September](https://www.reuters.com/world/europe/german-industrial-output-rises-07-september-2026-11-06/) — Reuters, 2026-11-06: +0,7% m/m, August auf +1,0% revidiert.\n\n- [Earnings-Kalender](https://www.onvista.de/news/2026/11-05-tagesvorschau-termine-am-6-november-2026-0-10-26573127) — dpa-AFX / onvista, 2026-11-05: DTG/KRN heute; Airbus Lieferungen, Eurozonen-Einzelhandel.\n\n- [Fresenius Guidance](https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/) — Reuters, 2026-11-04: EBIT 638 Mio. EUR vs Konsens 618,5 Mio.; Prognose erhöht.\n\n- [Deutsche Telekom Guidance](https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/) — Reuters, 2026-11-05: Guidance erhöht, Aktienrückkauf 2027 bis 2 Mrd. EUR geplant."
+    },
+    {
+      "id": "XETRA-MANUELL-20261106T113408Z",
+      "market": "EU+US",
+      "run_at": "2026-11-06T12:34:08+01:00",
+      "task": "On-demand Earnings Screen + all-open-PnL",
+      "decision": "2 PENDING · 0 NEUE PAPER-FILLS",
+      "headline": "DTG Order-Miss / KRN Guidance-Cut / AMS und IAG Q3 / IREN Vorbörse +15,5 %",
+      "summary": "10 recherchierte Titel, 8 mit überprüften Zahlen, IREN Vorbörse 20,83 USD (05:32 EST) historische Referenz-PnL −77,01 EUR, zwei 100-EUR×5 Konditionalsignale DTG Short und AMS Long ohne Fill.",
+      "source_status": "Web-Snapshot 2026-11-06 12:34 MEZ. Quotes getrennt von TradingView-Widget; keine aktuellen ausgeführten Broker- oder Paper-Fills behauptet.",
+      "report_markdown": "# Marktweiter Earnings-/Positionscheck – 06.11.2026 12:34 MEZ\n\n**Status: 10 thematisch erfasste Werte, 8 mit überprüften Bilanz-, Prognose- oder aktuellen Risikobefunden. Zwei KONDITIONALE Simulationssignale, 0 neue ausgeführte Fills.** Der Quellenstand ist kein vollständiger Markt-Scan.\n\n## Makro & Markttreiber\n- Deutsche Industrieproduktion September +0,7 % gegenüber August statt erwartet 0,0 %; August zuvor von +2,0 % auf +1,0 % revidiert. Nicht als sichere Konjunkturtrendwende interpretieren. [Reuters 06.11.](https://www.reuters.com/world/europe/german-industrial-output-rises-07-september-2026-11-06/)\n- 14:30 MEZ US-Arbeitsmarktbericht, 16:00 University-of-Michigan-Verbrauchervertrauen: potenzielle Makro-Schocks, keine vorab bekannte Kursreaktion. [Deutsche Börse Tagesvorschau](https://live.deutsche-boerse.com/nachrichten/TAGESVORSCHAU-Termine-am-6-November-2026-36f4940c-c300-46ba-b99b-e6e3e25bb901)\n- Branchen: deutsche Zykliker zwischen Margen- und Auftragssignalen; Airlines mit hohen Treibstoffkosten; Travel-IT operativ robuster; AI-Cloud profitiert von Nachfrage, bleibt jedoch finanzierungsabhängig. Keine empirisch bestätigte negative Aktienkorrelation oder Hedge-Quote.\n\n## Primär- und Sekundärquellen nach Aktie\n- **Daimler Truck (DTG)**: Q3 Industrie-Umsatz 11,635 Mrd EUR (+20 %), bereinigtes EBIT 1,124 Mrd EUR (+73 %), Umsatzrendite 9,1 %. Aber Konzernaufträge laut Reuters 9 % unter Konsens, Nordamerika sogar 16 % darunter. Die 2026-Margenguidance 7–9 % bleibt bestätigt. **Tendenz neutral/bearish**, nur konditional SHORT. [Daimler Truck IR](https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175) · [Reuters 06.11.](https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/)\n- **Krones (KRN)**: 9M Umsatz 4,0997 Mrd EUR, EBITDA-Marge 11,1 %, 2026 Umsatzwachstumsguidance 3–5 % → 1–2 %. Analyst Bernstein Market-Perform, Kursziel 108 EUR (06.11.). **Gemischt**, kein Zwangs-Short. [Originalmitteilung](https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/) · [Bernstein-Meldung](https://www.wallstreet-online.de/nachricht/21651942-bernstein-research-stuft-krones-ag-neutral)\n- **Amadeus (AMS)**: Q3 Umsatz +5,5 % und bereinigtes EPS +11,8 % währungsbereinigt, 9M FCF +8,5 % auf 1,036 Mrd EUR. **Long-Beobachtung**, aber Quote, Multiples und Vergleichsrelative Stärke unbestätigt. [IR 06.11.](https://amadeus.com/en/newsroom/press-releases/amadeus-q3-2026-solid-growth-ai-partnerships)\n- **IAG Airlines (IAG)**: Q3 bereinigter operativer Gewinn 1,726 Mrd EUR (−15,9 %), unter 1,81 Mrd EUR Konsens; höhere Fuel-/Störungskosten, aber Jahresmarge ≥12 % bestätigt. **Neutral/Short-Beobachtung** wegen Kosten. [Q3 Berichtszusammenfassung](https://www.borsaitaliana.it/borsa/notizie/radiocor/finance/dettaglio/iag-q3-adj-opg-profit-1726-bln-eur-down-159-nRC_06112026_0907_180272876.html?lang=en)\n- **IREN (Nasdaq)**: AI-Cloud-Wachstum und verschobenes annualisiertes Umsatz-Ziel als gegensätzliche Katalysatoren. Vorbörslich 20,83 USD am 06.11. um 05:32:42 EST, +15,53 % gegenüber 18,03 USD Schlusskurs; die Indikation war zum Check fast eine Stunde alt und ist NICHT eine aktuelle Ausführungsquote. [Investing.com Vorbörse](https://www.investing.com/equities/iris-energy)\n- **Affirm (AFRM)**: Provision für Kreditverluste Q1 FY27 251,643 Mio USD vs 156,404 Mio USD (Vorjahr), aber dies ist ohne Kreditvolumen-/Ausfallratenkontext kein eigenständiger Short-Beweis. [Form 10-Q](https://investors.affirm.com/static-files/3d179e2a-204a-4bca-9aa4-21f231d191e7)\n- **AppLovin (APP)**: Q3 Umsatz 2,185 Mrd USD (+55 %) und Nettogewinn 1,439 Mrd USD (+72 %); starker Long-Fundamentalkandidat, nach Kursrally hohes Bewertungs-/Gaprisiko. [APP IR 04.11.](https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx)\n- **Fresenius, Cloudflare und Moderna**: Nachverfolgung bzw. Earnings-Event, aber kein neu verifiziertes vollständiges Konsens-/Kurs-/Risiko-Setup in diesem Lauf. [Fresenius-Kursübersicht](https://www.finanznachrichten.de/aktienkurse-boersen/fresenius-se-co-kgaa.htm) · [Moderna-Kalender](https://live.deutsche-boerse.com/nachrichten/TAGESVORSCHAU-Termine-am-6-November-2026-36f4940c-c300-46ba-b99b-e6e3e25bb901).\n\n## Portfolio-MTM: alle offenen Einträge\n- **IREN Referenz-Short**: 18,05 USD, 100 EUR ×5. Historische 05.11. reguläre Schlusskursmarke 18,03 USD würde +0,55 EUR bedeuten; aktuell neuester in dieser Recherche belegter **vorbörslicher** 06.11. 05:32:42 EST-Kurs 20,83 USD entspricht **−77,01 EUR synthetisch**, keine brokerseitige Ausführung. Vorsicht bei Open-Gap/Short-Squeeze. [Premarket-Quelle](https://www.investing.com/equities/iris-energy)\n- **HelloFresh Turbo Short**: laut Nutzer offen, Einstand und Produktspezifikation fehlen, PnL nicht berechenbar.\n- **Peloton Turbo Short**: laut Nutzer offen, Einstand und Produktspezifikation fehlen, PnL nicht berechenbar.\n- **DEUTZ Long**: laut Nutzer 05.11. geschlossen, ungefähr +11 EUR, kein offenes Exposure.\n\n## Zwei zu prüfende 100-€-×5-Signale (KEINE ausgeführten Trades)\n1. **DTG SHORT**: Auftragseingang unter Konsens, jedoch Profitabilitätsbeat. Nur bei einem danach überprüften tatsächlichen Xetra-Last (≤10 Min alt), Spread ≤0,5 % und fortgesetzter relativer Schwäche – sonst aussetzen.\n2. **AMS LONG**: operativ positives Quartal. Erst bei später dokumentiertem realistischem Primärbörsen-Quote (≤10 Min alt), Spread ≤0,5 % und bestätigter relativer Stärke – sonst aussetzen.\n\n**Kein neuer Fill gebucht.** Zukünftige Xetra-/US-Läufe müssen beide Signale gegen neue handelbare Quotes prüfen, offene PnL-Marken stündlich erneuern und nur dann neue Paper-Positionen anlegen, wenn der Ein- und Ausstieg zeitlich und preislich belegbar ist.",
+      "candidates": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "side": "SHORT",
+          "thesis": "EBIT +73 % aber Aufträge 9 % unter Analystenkonsens. Prognose 2026 bestätigt.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 2,
+          "sources_target": 50
+        },
+        {
+          "ticker": "KRN",
+          "name": "Krones",
+          "tv": "XETR:KRN",
+          "side": "NEUTRAL",
+          "thesis": "2026 Umsatzwachstumsprognose 3–5 % auf 1–2 % reduziert; EBITDA-Marge verbessert, Bernstein neutral.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 2,
+          "sources_target": 50
+        },
+        {
+          "ticker": "AMS",
+          "name": "Amadeus IT Group",
+          "tv": "BME:AMS",
+          "side": "LONG",
+          "thesis": "Q3 Umsatz +5,5 % und bereinigtes EPS +11,8 % währungsbereinigt; Cashflow robust.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "IAG",
+          "name": "International Airlines Group",
+          "tv": "BME:IAG",
+          "side": "SHORT",
+          "thesis": "Q3 operativer Gewinn 1,726 Mrd EUR unter Konsens 1,81 Mrd; höhere Treibstoff- und Störungskosten.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Vorbörse 20,83 USD 05:32:42 ET, deutliche Gegenbewegung nach Earnings, hohe Risiken für historischen Short.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 2,
+          "sources_target": 50
+        },
+        {
+          "ticker": "AFRM",
+          "name": "Affirm",
+          "tv": "NASDAQ:AFRM",
+          "side": "NEUTRAL",
+          "thesis": "Q1 FY27 Kreditverlustvorsorge 251,643 Mio USD gegenüber 156,404 Mio USD Vorjahr.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "APP",
+          "name": "AppLovin",
+          "tv": "NASDAQ:APP",
+          "side": "LONG",
+          "thesis": "Q3 Umsatz 2,185 Mrd USD +55 %, Nettogewinn 1,439 Mrd USD +72 %; nach Rally Rückschlagrisiko.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "MRNA",
+          "name": "Moderna",
+          "tv": "NASDAQ:MRNA",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 06.11. laut Kalender; kein bestätigter Surprise-Abgleich, nur entdeckt.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "FRE",
+          "name": "Fresenius",
+          "tv": "XETR:FRE",
+          "side": "NEUTRAL",
+          "thesis": "Defensive Sektorbeobachtung, keine nachgewiesene neue Earnings-Surprise.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "NET",
+          "name": "Cloudflare",
+          "tv": "NYSE:NET",
+          "side": "NEUTRAL",
+          "thesis": "Earnings-Treiber, aber aktueller Konsens/Bewertung und ausführbarer Kurs hier nicht neu verifiziert.",
+          "risk": "Earnings-Reversal, Makro- und Gaprisiko, fehlende aktuelle Quote",
+          "sources_checked": 1,
+          "sources_target": 50
+        }
+      ],
+      "news": [
+        {
+          "title": "Daimler Truck: EBIT +73 % aber Aufträge 9 % unter Analystenkonsens. Prognose 2026 bestätigt.",
+          "ticker": "DTG",
+          "publisher": "www.daimlertruck.com",
+          "published_at": "2026-11-06",
+          "url": "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175",
+          "finding": "EBIT +73 % aber Aufträge 9 % unter Analystenkonsens. Prognose 2026 bestätigt."
+        },
+        {
+          "title": "Krones: 2026 Umsatzwachstumsprognose 3–5 % auf 1–2 % reduziert; EBITDA-Marge verbessert, Bernstein neutral.",
+          "ticker": "KRN",
+          "publisher": "www.krones.com",
+          "published_at": "2026-11-06",
+          "url": "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+          "finding": "2026 Umsatzwachstumsprognose 3–5 % auf 1–2 % reduziert; EBITDA-Marge verbessert, Bernstein neutral."
+        },
+        {
+          "title": "Amadeus IT Group: Q3 Umsatz +5,5 % und bereinigtes EPS +11,8 % währungsbereinigt; Cashflow robust.",
+          "ticker": "AMS",
+          "publisher": "amadeus.com",
+          "published_at": "2026-11-06",
+          "url": "https://amadeus.com/en/newsroom/press-releases/amadeus-q3-2026-solid-growth-ai-partnerships",
+          "finding": "Q3 Umsatz +5,5 % und bereinigtes EPS +11,8 % währungsbereinigt; Cashflow robust."
+        },
+        {
+          "title": "International Airlines Group: Q3 operativer Gewinn 1,726 Mrd EUR unter Konsens 1,81 Mrd; höhere Treibstoff- und Störungskosten.",
+          "ticker": "IAG",
+          "publisher": "www.borsaitaliana.it",
+          "published_at": "2026-11-06",
+          "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/finance/dettaglio/iag-q3-adj-opg-profit-1726-bln-eur-down-159-nRC_06112026_0907_180272876.html?lang=en",
+          "finding": "Q3 operativer Gewinn 1,726 Mrd EUR unter Konsens 1,81 Mrd; höhere Treibstoff- und Störungskosten."
+        },
+        {
+          "title": "IREN Limited: Vorbörse 20,83 USD 05:32:42 ET, deutliche Gegenbewegung nach Earnings, hohe Risiken für historischen Short.",
+          "ticker": "IREN",
+          "publisher": "www.investing.com",
+          "published_at": "2026-11-06",
+          "url": "https://www.investing.com/equities/iris-energy",
+          "finding": "Vorbörse 20,83 USD 05:32:42 ET, deutliche Gegenbewegung nach Earnings, hohe Risiken für historischen Short."
+        },
+        {
+          "title": "Affirm: Q1 FY27 Kreditverlustvorsorge 251,643 Mio USD gegenüber 156,404 Mio USD Vorjahr.",
+          "ticker": "AFRM",
+          "publisher": "investors.affirm.com",
+          "published_at": "2026-11-06",
+          "url": "https://investors.affirm.com/static-files/3d179e2a-204a-4bca-9aa4-21f231d191e7",
+          "finding": "Q1 FY27 Kreditverlustvorsorge 251,643 Mio USD gegenüber 156,404 Mio USD Vorjahr."
+        },
+        {
+          "title": "AppLovin: Q3 Umsatz 2,185 Mrd USD +55 %, Nettogewinn 1,439 Mrd USD +72 %; nach Rally Rückschlagrisiko.",
+          "ticker": "APP",
+          "publisher": "investors.applovin.com",
+          "published_at": "2026-11-06",
+          "url": "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q3 Umsatz 2,185 Mrd USD +55 %, Nettogewinn 1,439 Mrd USD +72 %; nach Rally Rückschlagrisiko."
+        },
+        {
+          "title": "Moderna: Earnings 06.11. laut Kalender; kein bestätigter Surprise-Abgleich, nur entdeckt.",
+          "ticker": "MRNA",
+          "publisher": "live.deutsche-boerse.com",
+          "published_at": "2026-11-06",
+          "url": "https://live.deutsche-boerse.com/nachrichten/TAGESVORSCHAU-Termine-am-6-November-2026-36f4940c-c300-46ba-b99b-e6e3e25bb901",
+          "finding": "Earnings 06.11. laut Kalender; kein bestätigter Surprise-Abgleich, nur entdeckt."
+        },
+        {
+          "title": "Fresenius: Defensive Sektorbeobachtung, keine nachgewiesene neue Earnings-Surprise.",
+          "ticker": "FRE",
+          "publisher": "www.finanznachrichten.de",
+          "published_at": "2026-11-06",
+          "url": "https://www.finanznachrichten.de/aktienkurse-boersen/fresenius-se-co-kgaa.htm",
+          "finding": "Defensive Sektorbeobachtung, keine nachgewiesene neue Earnings-Surprise."
+        },
+        {
+          "title": "Cloudflare: Earnings-Treiber, aber aktueller Konsens/Bewertung und ausführbarer Kurs hier nicht neu verifiziert.",
+          "ticker": "NET",
+          "publisher": "investors.cloudflare.com",
+          "published_at": "2026-11-06",
+          "url": "https://investors.cloudflare.com/",
+          "finding": "Earnings-Treiber, aber aktueller Konsens/Bewertung und ausführbarer Kurs hier nicht neu verifiziert."
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "Short-Referenz – gap risk",
+        "summary": "Ältere Nasdaq-Vorbörsenmarke 20,83 USD @ 05:32 EST, kein Decision-Time-Fill.",
+        "base_scenario": "Hohe Volatilität nach Earnings, Open-Richtung unsicher",
+        "bull_scenario": "Projektverzögerungen und Finanzierungsrisiken könnten Short helfen",
+        "bear_scenario": "Bestätigtes Umsatzwachstum und neue Verträge können Short-Squeeze auslösen",
+        "key_risk": "Preis-Gap und Alter der Vorbörsenquote",
+        "planned_exit": "06.11. 09:30 EST Nasdaq-Open nur mit wirklich bestätigtem Print",
+        "as_of": "2026-11-06T12:34:08+01:00",
+        "mark_price": 20.83,
+        "mark_at": "2026-11-06T05:32:42-05:00",
+        "mark_source_url": "https://www.investing.com/equities/iris-energy",
+        "pnl_eur": -77.01,
+        "reference_only": true,
+        "entry_price": 18.05,
+        "stake_eur": 100,
+        "leverage": 5
+      }
     }
   ],
   "deep_dives": {
@@ -4009,9 +4224,9 @@
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-06T10:55:27Z",
-    "method_note": "Diese Stunde: fünf Eventtitel qualitativ geprüft, keine vollständige Liquiditäts-/Kursprüfung. Kalenderlisten nicht als geprüfte Aktien gezählt.",
+    "status": "Aktueller branchenübergreifender Earnings-Check, nicht alle Aktien fundamental gescreent",
+    "as_of": "2026-11-06T12:34:08+01:00",
+    "method_note": "10 titelspezifische Webreferenzen am 06.11.2026 12:34 MEZ ausgewertet, davon 8 mit konkreten Financial-/Guidance-Befunden; keine historische Erfolgswahrscheinlichkeit. Positionen nur durch getrennte datierte Quellen markiert.",
     "coverage": {
       "universe_checked": 4,
       "earnings_events": 2,
@@ -4022,75 +4237,75 @@
     "candidates": [
       {
         "ticker": "IREN",
-        "name": "IREN",
+        "name": "IREN Limited",
         "tv": "NASDAQ:IREN",
         "market": "US",
-        "sector": null,
-        "direction": "SHORT WATCH",
-        "reason": "Management bestätigt Verschiebung des >$4bn ARR-Operationalisierungsziels auf Januar/evtl. Februar 2027.",
-        "stage": "DEEP_DIVE",
+        "sector": "AI-Infrastruktur",
+        "direction": "SHORT",
+        "reason": "Vorbörse 20,83 USD 05:32:42 ET, deutliche Gegenbewegung nach Earnings, hohe Risiken für historischen Short.",
+        "stage": "WATCH",
         "earnings_at": "2026-11-05",
-        "event": "Q3/FQ1 earnings 2026-11-05",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
           "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
-          "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7",
-          "https://iren.gcs-web.com/static-files/8b5ff1cc-4a7c-444d-a3bf-bf5a621cf4b7"
+          "https://www.investing.com/equities/iris-energy"
         ],
-        "as_of": "2026-11-05T23:27:10Z"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "APP",
         "name": "AppLovin",
         "tv": "NASDAQ:APP",
         "market": "US",
-        "sector": "AdTech / Software",
+        "sector": "AdTech",
         "direction": "LONG",
-        "reason": "Umsatzwachstum; Bewertungs- und Reaktionsrisiken",
+        "reason": "Q3 Umsatz 2,185 Mrd USD +55 %, Nettogewinn 1,439 Mrd USD +72 %; nach Rally Rückschlagrisiko.",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Vorhandenes Research-Dossier · kein frisch bestätigtes Screening",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
-          "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx"
+          "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Second-Quarter-2026-Financial-Results/default.aspx",
+          "https://investors.applovin.com/news/news-details/2026/AppLovin-Announces-Third-Quarter-2026-Financial-Results/default.aspx"
         ],
-        "as_of": "2026-11-05T21:02:00+01:00"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "NET",
         "name": "Cloudflare",
         "tv": "NYSE:NET",
         "market": "US",
-        "sector": null,
-        "direction": "LONG WATCH",
-        "reason": "Revenue beat and stronger Q4 guidance; gap risk.",
-        "stage": "DEEP_DIVE",
+        "sector": "Cloud",
+        "direction": "NEUTRAL",
+        "reason": "Earnings-Treiber, aber aktueller Konsens/Bewertung und ausführbarer Kurs hier nicht neu verifiziert.",
+        "stage": "WATCH",
         "earnings_at": "2026-11-05",
-        "event": "Q3/FQ1 earnings 2026-11-05",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
           "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html",
-          "https://finance.yahoo.com/markets/stocks/articles/cloudflare-announces-third-quarter-2026-211500720.html"
+          "https://investors.cloudflare.com/"
         ],
-        "as_of": "2026-11-05T23:27:10Z"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "AFRM",
         "name": "Affirm",
         "tv": "NASDAQ:AFRM",
         "market": "US",
-        "sector": null,
-        "direction": "NEUTRAL/SHORT WATCH",
-        "reason": "Wachstum und Gewinn positiv, aber Kreditqualität schwächer.",
-        "stage": "DEEP_DIVE",
+        "sector": "Fintech",
+        "direction": "NEUTRAL",
+        "reason": "Q1 FY27 Kreditverlustvorsorge 251,643 Mio USD gegenüber 156,404 Mio USD Vorjahr.",
+        "stage": "WATCH",
         "earnings_at": "2026-11-05",
-        "event": "Q3/FQ1 earnings 2026-11-05",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
           "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731",
-          "https://investors.affirm.com/static-files/0082a1df-d166-41c5-afee-6293a7c00731"
+          "https://investors.affirm.com/static-files/3d179e2a-204a-4bca-9aa4-21f231d191e7"
         ],
-        "as_of": "2026-11-05T23:27:10Z"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "ABNB",
@@ -4284,17 +4499,18 @@
         "name": "Moderna",
         "tv": "NASDAQ:MRNA",
         "market": "US",
-        "sector": "Biotechnologie",
+        "sector": "Biotech",
         "direction": "NEUTRAL",
-        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
+        "reason": "Earnings 06.11. laut Kalender; kein bestätigter Surprise-Abgleich, nur entdeckt.",
         "stage": "DISCOVERED",
         "earnings_at": "2026-11-06",
-        "event": "Möglicher Quartalsbericht BMO (Kalenderhinweis, noch nicht offiziell bestätigt)",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
-          "https://www.tipranks.com/calendars/earnings/2026-11-6"
+          "https://www.tipranks.com/calendars/earnings/2026-11-6",
+          "https://live.deutsche-boerse.com/nachrichten/TAGESVORSCHAU-Termine-am-6-November-2026-36f4940c-c300-46ba-b99b-e6e3e25bb901"
         ],
-        "as_of": "2026-11-05T21:02:00+01:00"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "HUM",
@@ -4607,53 +4823,57 @@
         "name": "Daimler Truck",
         "tv": "XETR:DTG",
         "market": "XETRA",
-        "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "EBIT-Erholung, aber Aufträge unter Konsens",
+        "sector": "Fahrzeuge",
+        "direction": "SHORT",
+        "reason": "EBIT +73 % aber Aufträge 9 % unter Analystenkonsens. Prognose 2026 bestätigt.",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "EBIT-Erholung, aber Aufträge unter Konsens",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
           "https://www.daimlertruck.com/newsroom/pressemitteilung/daimler-truck-steigert-profitabilitaet-dank-sich-erholender-marktlage-53654175",
-          "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/"
+          "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+          "https://www.daimlertruck.com/en/newsroom/pressrelease/daimler-truck-profitability-rebounds-as-markets-recover-53654175"
         ],
-        "as_of": "2026-11-06T10:55:27Z"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "KRN",
         "name": "Krones",
         "tv": "XETR:KRN",
         "market": "XETRA",
-        "sector": null,
-        "direction": "SHORT",
-        "reason": "Umsatzprognose und 2028-Ziel reduziert",
+        "sector": "Anlagenbau",
+        "direction": "NEUTRAL",
+        "reason": "2026 Umsatzwachstumsprognose 3–5 % auf 1–2 % reduziert; EBITDA-Marge verbessert, Bernstein neutral.",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Umsatzprognose und 2028-Ziel reduziert",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
           "https://www.finanzen.ch/nachrichten/aktien/krones-q3-profit-climbs-revises-outlook-1036728687",
-          "https://www.krones.com/de/unternehmen/investor-relations/"
+          "https://www.krones.com/de/unternehmen/investor-relations/",
+          "https://www.krones.com/en/company/investor-relations/releases/corporate-news-release-krones-reports-moderate-growth-and-improved-profitability-in-a-challenging-market-environment/",
+          "https://www.wallstreet-online.de/nachricht/21651942-bernstein-research-stuft-krones-ag-neutral"
         ],
-        "as_of": "2026-11-06T10:55:27Z"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "FRE",
         "name": "Fresenius",
         "tv": "XETR:FRE",
         "market": "XETRA",
-        "sector": null,
-        "direction": "LONG",
-        "reason": "Ergebnis über Konsens, Guidance erhöht",
+        "sector": "Healthcare",
+        "direction": "NEUTRAL",
+        "reason": "Defensive Sektorbeobachtung, keine nachgewiesene neue Earnings-Surprise.",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Ergebnis über Konsens, Guidance erhöht",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/"
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/",
+          "https://www.finanznachrichten.de/aktienkurse-boersen/fresenius-se-co-kgaa.htm"
         ],
-        "as_of": "2026-11-06T10:55:27Z"
+        "as_of": "2026-11-06T12:34:08+01:00"
       },
       {
         "ticker": "DTE",
@@ -4686,6 +4906,38 @@
         "score": null,
         "sources": [],
         "as_of": "2026-11-06T10:55:27Z"
+      },
+      {
+        "ticker": "AMS",
+        "name": "Amadeus IT Group",
+        "tv": "BME:AMS",
+        "market": "EU",
+        "sector": "Travel-Software",
+        "direction": "LONG",
+        "reason": "Q3 Umsatz +5,5 % und bereinigtes EPS +11,8 % währungsbereinigt; Cashflow robust.",
+        "stage": "WATCH",
+        "as_of": "2026-11-06T12:34:08+01:00",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
+        "score": null,
+        "sources": [
+          "https://amadeus.com/en/newsroom/press-releases/amadeus-q3-2026-solid-growth-ai-partnerships"
+        ]
+      },
+      {
+        "ticker": "IAG",
+        "name": "International Airlines Group",
+        "tv": "BME:IAG",
+        "market": "EU",
+        "sector": "Fluglinien",
+        "direction": "SHORT",
+        "reason": "Q3 operativer Gewinn 1,726 Mrd EUR unter Konsens 1,81 Mrd; höhere Treibstoff- und Störungskosten.",
+        "stage": "WATCH",
+        "as_of": "2026-11-06T12:34:08+01:00",
+        "event": "Earnings/Guidance 06.11.2026 · nachprüfbare Quelle",
+        "score": null,
+        "sources": [
+          "https://www.borsaitaliana.it/borsa/notizie/radiocor/finance/dettaglio/iag-q3-adj-opg-profit-1726-bln-eur-down-159-nRC_06112026_0907_180272876.html?lang=en"
+        ]
       }
     ],
     "pairs": [],
@@ -4779,6 +5031,17 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261106T105527Z"
+      },
+      {
+        "run_id": "XETRA-MANUELL-20261106T113408Z",
+        "market": "US+EU",
+        "date": "2026-11-06",
+        "universe_checked": 8,
+        "earnings_events": 7,
+        "triaged": 8,
+        "qualified": 0,
+        "trade_signals": 2,
+        "note": "2 nur konditionale Ideen ohne Entry; keine tatsächlichen Paper-Fills"
       }
     ],
     "strategies": [
@@ -4803,5 +5066,35 @@
         "status": "nur mit geprüfter Kursbeziehung"
       }
     ]
-  }
+  },
+  "paper_trade_proposals": [
+    {
+      "id": "SIGNAL-DTG-20261106-01",
+      "ticker": "DTG",
+      "name": "Daimler Truck",
+      "tv": "XETR:DTG",
+      "side": "SHORT",
+      "stake_eur": 100,
+      "leverage": 5,
+      "created_at": "2026-11-06T12:34:08+01:00",
+      "status": "PENDING_QUOTE",
+      "reason": "Noch kein nach Entscheidungszeit belegter Xetra-Einstieg; Orderbuch/Spread prüfen.",
+      "trigger": "Frischer regulärer Xetra-Last nach Signal-Zeit, <10 Min alt, Spread ≤0,5 %, weiterhin schwache Kursreaktion auf Order-Miss; sonst kein Fill.",
+      "source_url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/"
+    },
+    {
+      "id": "SIGNAL-AMS-20261106-01",
+      "ticker": "AMS",
+      "name": "Amadeus IT Group",
+      "tv": "BME:AMS",
+      "side": "LONG",
+      "stake_eur": 100,
+      "leverage": 5,
+      "created_at": "2026-11-06T12:34:08+01:00",
+      "status": "PENDING_QUOTE",
+      "reason": "Starke Q3-Fundamentaldaten, aber kein aktueller handelbarer Kurs/relative Stärke gegen Vergleichsindex.",
+      "trigger": "Frischer BME-Last nach Signal-Zeit, <10 Min alt, Spread ≤0,5 %, relative Stärke gegen STOXX600 belegbar; sonst kein Fill.",
+      "source_url": "https://amadeus.com/en/newsroom/press-releases/amadeus-q3-2026-solid-growth-ai-partnerships"
+    }
+  ]
 }
