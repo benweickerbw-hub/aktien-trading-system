@@ -1,6 +1,6 @@
 {
-  "version": 26,
-  "updated_at": "2026-11-06T14:25:22Z",
+  "version": 27,
+  "updated_at": "2026-11-06T14:33:42Z",
   "note": "US 09:25 EST: Vorbörsen-Research, 0 neue Fills, alle offenen Positionen geprüft.",
   "runs": [
     {
@@ -4442,6 +4442,48 @@
         "reference_only": true
       },
       "report_markdown": "# US Research – 06.11.2026, 09:25 EST\n\n**Entscheidung: KEIN TRADE.** Regulärer Nasdaq-/NYSE-Handel beginnt erst um 09:30 EST. Der nächste autorisierte US-Overnight-Einstiegsslot ist 15:30 EST. Keine neuen Fills und keine echten Orders.\n\n## Markt- und Earnings-Lage\nDie Erholung im AI-Infrastruktursegment nach dem Ausverkauf vom 05.11. ist unsicher. [Reuters, 05.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/) beschreibt bei IREN einen Quartalsumsatz von 228 Mio USD (LSEG-Konsens 221,28 Mio USD), AI-Cloud-Umsatz 200 Mio USD, eine Verschiebung des operativen >4-Mrd-USD-ARR-Ziels auf Januar bis möglicherweise Februar und ca. 15 Mrd USD weitere Capex. Das begründet zugleich eine bullishe Wachstums- und eine bearishe Finanzierungs-/Ausführungs-These.\n\n[Reuters, 06.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/moderna-lifts-annual-revenue-forecast-strong-covid-vaccine-demand-overseas-2026-11-06/): Moderna meldet Q3-Umsatz 1,3 Mrd USD versus 885,1 Mio USD Konsens, Nettogewinn 162 Mio USD und erhöht die 2026-Umsatzwachstumserwartung auf 15–25%. Evercore ISI/Cory Kasimov kommentiert positiv, jedoch ist eine zweite aktuelle Analystenbewertung nicht überprüft. [Barron's, 06.11.2026](https://www.barrons.com/articles/cloudflare-earnings-stock-price-2473c01e) behandelt Cloudflares Q3 und die Erholung; der Artikeltext ist nur teilweise zugänglich, daher keine Volltext-Behauptungen über Analysten oder KPIs.\n\n## Screening und Research-Tiefe\nDrei Titel (IREN, MRNA, NET) mit konkretem Event triagiert, keine qualifizierten Entries. HFG/PTON ausschließlich für Positionsüberwachung geprüft. Vorhandene kumulative Dossier-Einträge: IREN 10/50, MRNA 1/50, NET 6/50 vor diesem Lauf; heute neue vollständig geprüfte unabhängige Primärdokumente 0, zwei vollständige Reuters-Sekundärtexte und ein nur teilweise zugänglicher Barron's-Beitrag. 13F-Zwei-Quartalsvergleiche, belastbare 60–252-Tage-Paar-Korrelationen, vollständige historische Guidance-Scorecards und zwei aktuelle Analysten je Titel: **nicht verifiziert**. Keine Hochrechnung auf 50 Quellen. PRE-EARNINGS: IREN/MRNA Umsatzüberraschung bekannt, jedoch kein qualifizierter Entry. PEAD: EPS+Umsatz-Kombinationsprüfung nicht vollständig; kein Signal. GUIDANCE: MRNA angehoben, IREN zeitlich verschoben. PAIRS: keine belegte Korrelation, daher keine Hedge-Behauptung.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT**, PAPER-Referenz (kein verifizierter Fill), historische Basis 18,05 USD, 100 EUR ×5 = 500 EUR nominal. Letzter für diesen Lauf zeitlich zulässiger gespeicherter Vorbörsenkurs 20,82 USD, 06.11. 08:30 EST, [Public.com](https://public.com/stocks/iren/pre-market); theoretisch 500×(1−20,82/18,05)=**−76,73 EUR** ohne FX, Spread, KO, Gebühren. Der auf der dynamischen Seite angezeigte 09:30-Preis darf um 09:25 noch nicht verwendet werden. Plan: nächste reguläre Eröffnung nur nach belegtem Open-Print separat auswerten; kein tatsächlicher Exit gebucht. Positive Short-Szenarien: Lieferprobleme/Finanzierung; negative: starkes Wachstum und Short-Squeeze. Invalidierung: nachhaltige Aufwärtsreaktion und Projektentwarnung.\n- **PTON SHORT**, USER_REPORTED: kein Derivate-Einstieg/ISIN. [Public.com](https://public.com/stocks/pton/pre-market) meldet 5,65 USD, PREMARKET 06.11. 09:00 EST, Last. PnL des Nutzer-Turbos **nicht berechenbar**; kein Exit dokumentiert.\n- **HFG SHORT**, USER_REPORTED: kein Derivate-Einstieg/ISIN. [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm) zeigt 3,142 EUR, Xetra 06.11. 13:21 MEZ (07:21 EST), Last; älter als Laufzeit, kein aktueller Derivatekurs. PnL **nicht berechenbar**; kein Exit dokumentiert.\n\n## Methodik / Grenzen\nQuellen werden nur als datierte Webbelege genutzt; GitHub nur für Speicherung. Kursseiten können verzögert oder nach dem Check dynamisch verändert sein. Ein späterer Kurswert wird nicht rückwirkend zum 09:25-Check erklärt. Kein nachgewiesener Bid/Ask-Fill; keine neue Position. Keine behauptete lokale Mac-Aktualisierung oder GitHub-Pages-Deployment."
+    },
+    {
+      "id": "US-20261106T143342Z",
+      "market": "US",
+      "run_at": "2026-11-06T14:33:42Z",
+      "task": "USA Overnight-Auswertung",
+      "decision": "REVIEW",
+      "headline": "IREN-Short-Referenz nach Nasdaq-Start noch ohne verifizierten Opening-Print; kein Exit",
+      "summary": "Keine marktpreisgenau belegten Overnight-Fills. IREN 18,05 USD ist ein alter Referenzkurs; letzte belegte Marke 20,82 USD 08:30 EST PREMARKET, theoretisch -76,73 EUR bei 100 EUR ×5, nicht realisiert. HFG/PTON Nutzerturbos ohne berechenbare PnL.",
+      "source_status": "Web-Nachrichten geprüft; offizieller zeitgestempelter IREN-09:30-Open nicht gefunden, kein simulierter Exit.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Alt-Referenz; mögliche Microsoft-Auslieferungsverzögerungen und hoher Capex",
+          "risk": "Vorbörsliche Erholung und starkes Umsatzwachstum; kein verifizierter Entry",
+          "sources_checked": null,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Nasdaq futures rise after steep AI selloff",
+          "published_at": "2026-11-06",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
+          "finding": "KI- und Halbleiterwerte vorbörslich erholt; Shorts haben Gap-Risiko."
+        },
+        {
+          "title": "IREN tops revenue estimates and delays Microsoft AI deliveries",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "228 Mio. USD Umsatz, Lieferverzögerungen, hohe geplante Investitionen."
+        }
+      ],
+      "report_markdown": "# US-Overnight-Check – 06.11.2026, 09:33:42 EST\n\n**Ergebnis: KEIN VERIFIZIERTER EXIT.** Die reguläre US-Börsensitzung hat um 09:30 EST begonnen. Für NASDAQ:IREN war bei dieser Prüfung kein verlässlich zeitgestempelter offizieller 09:30-Opening-Print zugänglich. Ein nachträglicher Open-Exit wird deshalb NICHT als ausgeführt gebucht.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN, SHORT, reine Referenzsimulation:** historische Referenz 18,05 USD (05.11.2026 12:40:24 EST, Yahoo), nicht der verifizierte Kurs bei der späteren Entscheidung. 100 EUR Einsatz, 5× = 500 EUR synthetische Aktienexposure. Letzte im Positionsjournal gespeicherte Marke: **20,82 USD**, 06.11.2026 08:30 EST, PREMARKET, Public.com (https://public.com/stocks/iren/pre-market). Das entspricht hypothetisch 500×(1−20,82/18,05) = **−76,73 EUR**, vor Spread, Slippage, Gebühren, FX, Finanzierung und möglichem Knock-out. Kein echter Fill, kein realisierter PnL, kein bestätigter Market-on-Open-Exit. Yahoo zeigte 20,94 USD um 08:45:50 EST (https://finance.yahoo.com/quote/IREN/history/), ebenfalls nur PREMARKET; daraus keine Eröffnung ableiten. Ein 21,36-USD-Wert auf der dynamischen Yahoo-Seite hatte keinen belastbaren Tick-Zeitstempel und wurde deshalb nicht als Ausführung genutzt.\n- **PTON, USER_REPORTED SHORT Turbo:** 5,65 USD, 06.11.2026 09:00 EST, PREMARKET, https://public.com/stocks/pton/pre-market (bereits im Journal); Produkt-/Einstandsdaten fehlen, PnL nicht berechenbar, kein bestätigter Exit.\n- **HFG, USER_REPORTED SHORT Turbo:** 3,142 EUR, 06.11.2026 13:21 CET, XETRA (bereits im Journal), https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm ; Produkt-/Einstandsdaten fehlen, PnL nicht berechenbar, kein bestätigter Exit.\n\n## Nachrichten und Risikofaktoren\n- Reuters, 06.11.2026: US-Tech-Futures erholten sich vor der Eröffnung nach dem KI-Sell-off; Rebound-Risiko für Shorts. https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/\n- Reuters, 05./06.11.2026: IREN meldete 228 Mio. USD Quartalsumsatz, Microsoft-Lieferverzögerungen ohne finanzielle Vertragsstrafen und etwa 15 Mrd. USD geplante Capex. Positives Wachstum steht hohen Ausführungs- und Finanzierungsrisiken gegenüber. https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/\n- Yahoo Finance, 06.11.2026: IREN 18,03 USD Schlusskurs 05.11.2026, 20,94 USD 08:45:50 EST vorbörslich; nicht als Nasdaq-Open verifiziert. https://finance.yahoo.com/quote/IREN/history/\n\n## Entscheidung\nKeine neue Paper-Order und kein bestätigter Overnight-Exit. Die IREN-Referenz bleibt als UNABGERECHNET gekennzeichnet. Keine Position wurde in positions.json verändert, weil keine neuere ausreichend belegte offizielle Opening-Marke vorlag. **Dashboard-Sync nur Research-Journal**, nicht automatisch lokale HTML-Datei oder GitHub Pages.\n"
     }
   ],
   "deep_dives": {
