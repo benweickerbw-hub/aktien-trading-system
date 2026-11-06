@@ -1,7 +1,7 @@
 {
-  "version": 13,
-  "updated_at": "2026-11-06T21:26:12.857Z",
-  "update_note": "2026-11-06 postclose verified newer Xetra HFG and Nasdaq PTON marks; IREN conflicting 16:00 quotes left unchanged; all user positions preserved",
+  "version": 14,
+  "updated_at": "2026-11-06T22:29:47Z",
+  "update_note": "IREN verified newer afterhours quote 17:03 EST, reference-only PnL; other positions preserved",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -17,18 +17,18 @@
       "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 21.53,
-      "mark_at": "2026-11-06T15:01:00-05:00",
-      "mark_source": "StockAnalysis displayed NASDAQ last; data latency not independently certified",
+      "mark_price": 21.94,
+      "mark_at": "2026-11-06T17:03:00-05:00",
+      "mark_source": "StockAnalysis NASDAQ after-hours last; latency not independently certified",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
       "realized_pnl_eur": null,
       "planned_exit": "2026-11-06T09:30:00-05:00",
       "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
-      "mark_source_url": "https://stockanalysis.com/stocks/iren/forecast/",
-      "mark_verified_at": "2026-11-06T20:32:12.059Z",
-      "model_unrealized_pnl_eur": -96.4,
+      "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+      "mark_verified_at": "2026-11-06T22:29:47Z",
+      "model_unrealized_pnl_eur": -107.76,
       "reference_only": true,
       "previous_mark": {
         "price": 20.83,
@@ -36,7 +36,7 @@
         "source": "https://www.investing.com/equities/iris-energy",
         "session": "PREMARKET"
       },
-      "mark_type": "REGULAR"
+      "mark_type": "AFTERHOURS"
     },
     {
       "id": "USER-HELLOFRESH",
