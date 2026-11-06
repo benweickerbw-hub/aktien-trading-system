@@ -1,6 +1,6 @@
 {
-  "version": 33,
-  "updated_at": "2026-11-06T17:34:09Z",
+  "version": 34,
+  "updated_at": "2026-11-06T17:50:43Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -5440,6 +5440,266 @@
         "reference_only": true
       },
       "report_markdown": "# US-Research 06.11.2026, 12:34 EST (17:34 UTC)\n\n**Entscheidung: REVIEW / KEIN TRADE.** Regulärer Freitagshandel 09:30–16:00 EST; 12:30 ist kein autorisierter Overnight-Einstiegsslot. Keine realen Orders.\n\n## Markt und Earnings\nIREN meldete für das Septemberquartal 228 Mio. USD Umsatz (LSEG-Erwartung 221,28 Mio.), davon 200 Mio. AI-Cloud-Umsatz. Die Inbetriebnahme des über 4 Mrd. USD annualisierten Umsatzlaufziels verschiebt sich wegen Microsoft-Netzwerkänderungen von Jahresende auf Januar, eventuell Februar; geplante Investitionen im verbleibenden Geschäftsjahr rund 15 Mrd. USD. Quelle: [Reuters, 05.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/). Gegenargument für Short: starkes AI-Wachstum und positive Marktreaktion am Freitag; für Long: Ausführungs- und Finanzierungsrisiken.\n\nCloudflare NET berichtete 782,5 Mio. USD Umsatz (+39% YoY), 67,9 Mio. USD GAAP-Betriebsverlust und 82,1 Mio. USD Free Cashflow. Q4-Umsatzprognose 845–846 Mio. USD. Quelle: [Cloudflare IR, 05.11.2026](https://www.cloudflare.com/tr-tr/press/press-releases/2026/cloudflare-announces-third-quarter-2026-financial-results/). Momentum-Long-Hypothese, aber Gap-/Bewertungsrisiko; kein zeitnaher dokumentierter Fill.\n\nPTON regulärer Last 5,78 USD, **12:25 EST** (nicht 12:34); +2,12% zum Vortag. Quelle: [StockAnalysis, abgerufen 06.11.2026](https://stockanalysis.com/stocks/pton/history/).\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT: 18,05 USD ausschließlich **hypothetische Referenz**, kein belegter Einstieg. Gespeicherte Marke 21,34 USD, 09:30 EST, als PREMARKET beschriftet, [Public.com](https://public.com/stocks/iren/pre-market). Theoretisch 500×(1−21,34/18,05)=**−91,14 EUR**; keine echte Performance. [Yahoo-Finance-Seite](https://finance.yahoo.com/quote/IREN/history/) zeigt 21,90 USD mit Zeit 09:45:32 EST in Suchansicht, direkter Abruf 429; daher keine neue IREN-Marke gebucht. Eröffnungs-Exit nicht nachgewiesen.\n- PTON SHORT USER_REPORTED: 5,78 USD 12:25 EST, REGULAR, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/); Turbo-Einstieg, ISIN, KO und Produktpreis fehlen: **PnL nicht berechenbar**. Kein simuliertes Schließen.\n- HFG SHORT USER_REPORTED: letzter gespeicherter Kurs 3,142 EUR vom 06.11. 13:21 CET, Xetra REGULAR, [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); zu dieser US-Laufzeit veraltet. Turbo-PnL nicht berechenbar.\n\n## Research-Tiefe und Grenzen\nIm Lauf inhaltlich geöffnet: IREN Reuters 1/50; NET Cloudflare-IR 1/50 und Investor's Business Daily 1/50; PTON StockAnalysis 1/50. Weitere Suchtreffer nicht als geprüfte Dokumente gezählt. Keine zwei unabhängig geprüften 13F-Originalfilings, kein valider Guidance-Ist-Score, keine vollständigen aktuellen Analysten-Paare, kein 60–252-Tage-Pairs-Backtest, keine belastbare aktuelle Bid/Ask-Spread-Verifikation. Screening daher vorläufig: 3 konkret betrachtete Titel, null qualifizierte Entries. Das Research ist **nicht vollständig**.\n\n## Strategie und nächster Schritt\nPRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS wurden als Hypothesen verglichen; nur NET/IREN liefern heute belastbare Ergebnis-/Guidance-Anlässe, aber keine ausreichende Ausführungsqualität. IREN: SHORT wird durch nachhaltige Vertragsauslieferung und positive Kursbestätigung widerlegt; LONG durch weitere Verzögerung/Finanzierungslücke. NET: LONG durch nachlassende Auftragsdynamik oder Bewertungsabverkauf widerlegt. **Kein neuer Paper-Entry.** 15:30 EST erneut prüfen, nur mit zeitnaher Quelle."
+    },
+    {
+      "id": "XETRA-20261106T175043Z",
+      "market": "XETRA",
+      "run_at": "2026-11-06T17:50:43Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "DAX -1,9%; Daimler Truck Gewinnbeat, aber schwache Aufträge",
+      "summary": "Nachbörsenresearch; 4 Aktien triagiert, 0 neue Trades; offene Positionen ohne neue verifizierte Marks.",
+      "source_status": "5 unabhängige Reuters-Publikationen inhaltlich geprüft, 1 Kalender Discovery; 0 neue IR-Originalberichte, Quote-Marks nicht erneuert.",
+      "candidates": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "side": "SHORT",
+          "thesis": "Auftragseingang unter Konsens trotz starkem Ergebnis",
+          "risk": "Bewertung/Spread/Konsenshistorie fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom",
+          "tv": "XETR:DTE",
+          "side": "LONG",
+          "thesis": "Guidance-Anhebung und Rückkauf, Bewertung offen",
+          "risk": "Bewertung/Spread/Konsenshistorie fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "FRE",
+          "name": "Fresenius",
+          "tv": "XETR:FRE",
+          "side": "LONG",
+          "thesis": "Q3 über Konsens, Prognose angehoben",
+          "risk": "Bewertung/Spread/Konsenshistorie fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AMV",
+          "name": "Aumovio",
+          "tv": "XETR:AMV",
+          "side": "NEUTRAL",
+          "thesis": "Marge besser, strukturelle Auto-Risiken",
+          "risk": "Bewertung/Spread/Konsenshistorie fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Daimler Truck Q3 Gewinn +73%, Auftragseingang schwach",
+          "ticker": "DTG",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06",
+          "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+          "finding": "Bereinigtes operatives Ergebnis 1,12 Mrd EUR vs Konsens 1,10 Mrd; Auftragseingang 9% unter Konsens."
+        },
+        {
+          "title": "Europäische Aktien fallen, DAX -1,9%",
+          "ticker": "MARKET",
+          "publisher": "Reuters",
+          "published_at": "2026-11-06",
+          "url": "https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/",
+          "finding": "STOXX 600 Schluss 648,33; DAX -1,9%; Risk-off."
+        },
+        {
+          "title": "Telekom erhöht Prognose und plant Rückkauf",
+          "ticker": "DTE",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "url": "https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/",
+          "finding": "Dritte Prognoseerhöhung 2026; Rückkauf bis 2 Mrd EUR 2027 geplant."
+        },
+        {
+          "title": "Fresenius erhöht Jahresprognose",
+          "ticker": "FRE",
+          "publisher": "Reuters",
+          "published_at": "2026-11-04",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/",
+          "finding": "Q3 EBIT 638 Mio EUR vs Konsens 618,5 Mio; EBIT-Marge >11,5% erwartet."
+        },
+        {
+          "title": "Aumovio bestätigt Prognose, warnt vor schwacher Autoproduktion",
+          "ticker": "AMV",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "url": "https://www.reuters.com/business/aumovio-confirms-2026-outlook-profitability-improves-despite-weak-auto-market-2026-11-05/",
+          "finding": "Q3 bereinigte Marge 3,5% vs 3,1% Konsens; langfristige Branchenrisiken."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "DTG",
+          "name": "Daimler Truck",
+          "tv": "XETR:DTG",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Auftragseingang unter Konsens trotz starkem Ergebnis",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Bereinigtes operatives Ergebnis 1,12 Mrd EUR vs Konsens 1,10 Mrd; Auftragseingang 9% unter Konsens.",
+              "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle Analystenvoten, detaillierte Historie, IR-Originalberichte, Bewertungs- und Liquiditätsdaten nicht vollständig geprüft.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings/Guidance und Sektorentwicklung",
+          "invalidations": "Gegenteilige neue Unternehmensmeldungen oder abweichende Kurs-/Auftragsentwicklung"
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom",
+          "tv": "XETR:DTE",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Guidance-Anhebung und Rückkauf, Bewertung offen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Dritte Prognoseerhöhung 2026; Rückkauf bis 2 Mrd EUR 2027 geplant.",
+              "url": "https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle Analystenvoten, detaillierte Historie, IR-Originalberichte, Bewertungs- und Liquiditätsdaten nicht vollständig geprüft.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings/Guidance und Sektorentwicklung",
+          "invalidations": "Gegenteilige neue Unternehmensmeldungen oder abweichende Kurs-/Auftragsentwicklung"
+        },
+        {
+          "ticker": "FRE",
+          "name": "Fresenius",
+          "tv": "XETR:FRE",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 über Konsens, Prognose angehoben",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 EBIT 638 Mio EUR vs Konsens 618,5 Mio; EBIT-Marge >11,5% erwartet.",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle Analystenvoten, detaillierte Historie, IR-Originalberichte, Bewertungs- und Liquiditätsdaten nicht vollständig geprüft.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings/Guidance und Sektorentwicklung",
+          "invalidations": "Gegenteilige neue Unternehmensmeldungen oder abweichende Kurs-/Auftragsentwicklung"
+        },
+        {
+          "ticker": "AMV",
+          "name": "Aumovio",
+          "tv": "XETR:AMV",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Marge besser, strukturelle Auto-Risiken",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 bereinigte Marge 3,5% vs 3,1% Konsens; langfristige Branchenrisiken.",
+              "url": "https://www.reuters.com/business/aumovio-confirms-2026-outlook-profitability-improves-despite-weak-auto-market-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle Analystenvoten, detaillierte Historie, IR-Originalberichte, Bewertungs- und Liquiditätsdaten nicht vollständig geprüft.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings/Guidance und Sektorentwicklung",
+          "invalidations": "Gegenteilige neue Unternehmensmeldungen oder abweichende Kurs-/Auftragsentwicklung"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENZ",
+        "summary": "Nicht verifizierter historischer Fill; kein bestätigter Opening-Exit.",
+        "base_scenario": "Volatile weitere Preisfindung",
+        "bull_scenario": "Rückgang des IREN-Aktienkurses begünstigt Referenzshort",
+        "bear_scenario": "Weitere Erholung/Short-Squeeze erhöht Verlust",
+        "key_risk": "Gap, nicht verifizierter Fill und USD/EUR",
+        "planned_exit": "Opening-Print nur bei vorher belegter Order; bislang nicht verifiziert",
+        "as_of": "2026-11-06T17:50:43Z",
+        "mark_price": 21.34,
+        "mark_at": "2026-11-06T09:30:00-05:00",
+        "mark_source_url": "https://public.com/stocks/iren/pre-market",
+        "pnl_eur": -91.14,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Nachbörsenresearch – 06.11.2026, 18:50 CET\n\n## Markt- und Nachrichtenlage\nReuters meldet am 06.11. einen DAX-Rückgang von 1,9% und einen STOXX-600-Schluss bei 648,33. Risikoaversion und AI-Bewertungssorgen belasten den Markt. [Reuters, 06.11.2026](https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/).\n\n**Daimler Truck (DTG):** Bereinigtes Q3-Betriebsergebnis 1,12 Mrd EUR (+73% YoY), leicht über Konsens 1,10 Mrd EUR. Der Auftragseingang blieb 9% unter Konsens, Nordamerika 16% darunter. Bull: Margenerholung; Bear: schwache Orders und ambitionierte 2027-Erwartungen. Tendenz 1–10 Tage: vorsichtig negativ/volatil; Invalidierung durch belastbare Auftragsverbesserung. [Reuters, 06.11.2026](https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/).\n\n**Deutsche Telekom (DTE):** Dritte Erhöhung der Jahresprognose, geplanter Rückkauf bis 2 Mrd EUR 2027. Bull: operatives Momentum; Bear: Kapitalallokation, Wettbewerbsrisiken. Tendenz neutral bis positiv; nicht qualifiziert ohne Bewertungsprüfung. [Reuters, 05.11.2026](https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/).\n\n**Fresenius (FRE):** Q3 EBIT vor Sondereinflüssen 638 Mio EUR gegen 618,5 Mio Konsens; Jahresmargenziel über 11,5%. Bull: Kabi/Helios; Bear: Bewertung und Nachhaltigkeit der Verbesserungen. Tendenz vorsichtig positiv. [Reuters, 04.11.2026](https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/).\n\n**Aumovio (AMV):** Q3 bereinigte operative Marge 3,5% statt 3,1% Konsens; Prognose bestätigt, aber strukturell schwacher Automarkt. Tendenz neutral. [Reuters, 05.11.2026](https://www.reuters.com/business/aumovio-confirms-2026-outlook-profitability-improves-despite-weak-auto-market-2026-11-05/).\n\n**Earnings-Pipeline:** Ein öffentlicher Kalender nennt Siemens Energy 11.11., Siemens/Allianz 12.11. und Infineon 10.11. Diese Kalenderlistungen sind DISCOVERED, nicht einzeln anhand IR bestätigt und daher nicht als vollständig gescreent gezählt. [ATLAS, 06.11.2026](https://www.atlas-stocks.com/calendar/earnings/germany).\n\n## Screening und Forschungsstand\nVier Unternehmen anhand einzelner aktueller Nachrichten inhaltlich triagiert (DTG, DTE, FRE, AMV); keine vollständige Prüfung von Liquidität, Marktkapitalisierung, Bid/Ask, Bewertungskennzahlen und Earnings-Konsenshistorie. Fünf unabhängige Reuters-Artikel inhaltlich geprüft; ein Kalender nur zur Discovery. 50 Originaldokumente je Aktie: nicht erreicht; neue vollständig verifizierte IR-Originalberichte: 0. Guidance-Ist-Scorecard, Insidertransaktionen, institutionelle Originalmeldungen, zwei Analystenvoten je Titel, PEAD-Voraussetzungen und Paarkorrelation: nicht verifiziert / noch nicht gefunden. Kein DEEP_DIVE-Status beansprucht. PRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS bleiben mangels ausreichender Vorab-Konsens- und Kursreihen nicht handelbar qualifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nRegisterstand 06.11.2026 17:34 UTC: IREN SHORT, Referenz 18,05 USD (kein verifizierter Fill), letzter gespeicherter Vorbörsen-Referenzkurs 21,34 USD, 06.11. 09:30 EST, [Public.com](https://public.com/stocks/iren/pre-market); modelliert −91,14 EUR nur als unverbindliche Referenz bei 100 EUR ×5, ohne FX, Spread, Gebühren und KO. **Achtung:** Quelle bezeichnet den Wert als PREMARKET, nicht bestätigten Nasdaq-Opening-Print. Kein bestätigter Exit.\n\nHFG SHORT, USER_REPORTED Turbo: letzter gespeicherter Xetra-Last 3,142 EUR um 13:21 CET am 06.11., [Finanznachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); ALT, kein verifizierter Turbo-Einstand, PnL nicht berechenbar. PTON SHORT, USER_REPORTED Turbo: letzter gespeicherter Nasdaq-Last 5,78 USD um 12:25 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/); keine neuere belastbare Marke in diesem Durchlauf, PnL nicht berechenbar. Geplanter Exit bei USER_REPORTED nicht verifiziert. DEUTZ ist bereits CLOSED_REPORTED, keine offene Position. Keine Position stillschweigend geschlossen. Die Handelsphasen für HFG/PTON waren zum gespeicherten Quote-Zeitpunkt REGULAR, für IREN PREMARKET.\n\n## Entscheidung\n18:50 CET ist nach Xetra-Schluss. **KEIN TRADE**, keine rückwirkenden Fills. 0 neue simulierte Positionen. Für eine Eröffnungskurs-Order müsste das Signal vor dem nächsten Marktstart dokumentiert sein; der Eröffnungskurs ist erst danach feststellbar. Kein neuer zeitnaher, vollständig belegter Quote zur Neubewertung der offenen Trades. TradingView-Widgets sind kein verifizierter PnL-Feed. Alle PnL-Modelle ignorieren FX, Spread, KO, Gebühren und Slippage; Overnight-Gaps können den fiktiven Einsatz übersteigen.",
+      "report_sections": [
+        {
+          "heading": "Markt und Earnings",
+          "summary": "DAX -1,9%; DTG Orders schwach",
+          "bullets": [
+            {
+              "text": "Bereinigtes operatives Ergebnis 1,12 Mrd EUR vs Konsens 1,10 Mrd; Auftragseingang 9% unter Konsens.",
+              "url": "https://www.reuters.com/business/daimler-truck-q3-profit-rises-73-north-america-demand-recovers-2026-11-06/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T17:50:43Z"
+            },
+            {
+              "text": "STOXX 600 Schluss 648,33; DAX -1,9%; Risk-off.",
+              "url": "https://www.reuters.com/markets/europe/european-shares-set-fall-global-ai-rout-gathers-pace-2026-11-06/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T17:50:43Z"
+            },
+            {
+              "text": "Dritte Prognoseerhöhung 2026; Rückkauf bis 2 Mrd EUR 2027 geplant.",
+              "url": "https://www.reuters.com/business/deutsche-telekom-lifts-2026-outlook-plans-up-2-billion-buyback-2026-11-05/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T17:50:43Z"
+            },
+            {
+              "text": "Q3 EBIT 638 Mio EUR vs Konsens 618,5 Mio; EBIT-Marge >11,5% erwartet.",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fresenius-raises-2026-outlook-second-time-after-strong-q3-2026-11-04/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T17:50:43Z"
+            },
+            {
+              "text": "Q3 bereinigte Marge 3,5% vs 3,1% Konsens; langfristige Branchenrisiken.",
+              "url": "https://www.reuters.com/business/aumovio-confirms-2026-outlook-profitability-improves-despite-weak-auto-market-2026-11-05/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-06T17:50:43Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -6665,9 +6925,9 @@
     }
   },
   "screening": {
-    "status": "PRELIMINARY",
-    "as_of": "2026-11-06T17:34:09Z",
-    "method_note": "Only 3 tickers examined this run, not broad market universe",
+    "status": "PARTIAL",
+    "as_of": "2026-11-06T17:50:43Z",
+    "method_note": "Nachbörsliche Triage anhand 5 Reuters-Publikationen; Kalenderlistungen nur DISCOVERED. Keine vollständige Markt-/Liquiditätsprüfung.",
     "coverage": {
       "universe_checked": 3,
       "earnings_events": 2,
@@ -7646,6 +7906,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T173409Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "XETRA",
+        "universe_checked": 4,
+        "earnings_events": null,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261106T175043Z"
       }
     ],
     "strategies": [
