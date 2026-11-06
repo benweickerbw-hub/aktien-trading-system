@@ -1,7 +1,7 @@
 {
-  "version": 27,
-  "updated_at": "2026-11-06T14:33:42Z",
-  "note": "US 09:25 EST: Vorbörsen-Research, 0 neue Fills, alle offenen Positionen geprüft.",
+  "version": 28,
+  "updated_at": "2026-11-06T14:38:34Z",
+  "note": "IREN 09:30 EST Opening-Print nicht verifiziert, kein Exit, positions.json unverändert; nachprüfbarer Print weiterhin erforderlich.",
   "runs": [
     {
       "id": "US-20261105T183000Z",
@@ -4484,6 +4484,40 @@
         }
       ],
       "report_markdown": "# US-Overnight-Check – 06.11.2026, 09:33:42 EST\n\n**Ergebnis: KEIN VERIFIZIERTER EXIT.** Die reguläre US-Börsensitzung hat um 09:30 EST begonnen. Für NASDAQ:IREN war bei dieser Prüfung kein verlässlich zeitgestempelter offizieller 09:30-Opening-Print zugänglich. Ein nachträglicher Open-Exit wird deshalb NICHT als ausgeführt gebucht.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN, SHORT, reine Referenzsimulation:** historische Referenz 18,05 USD (05.11.2026 12:40:24 EST, Yahoo), nicht der verifizierte Kurs bei der späteren Entscheidung. 100 EUR Einsatz, 5× = 500 EUR synthetische Aktienexposure. Letzte im Positionsjournal gespeicherte Marke: **20,82 USD**, 06.11.2026 08:30 EST, PREMARKET, Public.com (https://public.com/stocks/iren/pre-market). Das entspricht hypothetisch 500×(1−20,82/18,05) = **−76,73 EUR**, vor Spread, Slippage, Gebühren, FX, Finanzierung und möglichem Knock-out. Kein echter Fill, kein realisierter PnL, kein bestätigter Market-on-Open-Exit. Yahoo zeigte 20,94 USD um 08:45:50 EST (https://finance.yahoo.com/quote/IREN/history/), ebenfalls nur PREMARKET; daraus keine Eröffnung ableiten. Ein 21,36-USD-Wert auf der dynamischen Yahoo-Seite hatte keinen belastbaren Tick-Zeitstempel und wurde deshalb nicht als Ausführung genutzt.\n- **PTON, USER_REPORTED SHORT Turbo:** 5,65 USD, 06.11.2026 09:00 EST, PREMARKET, https://public.com/stocks/pton/pre-market (bereits im Journal); Produkt-/Einstandsdaten fehlen, PnL nicht berechenbar, kein bestätigter Exit.\n- **HFG, USER_REPORTED SHORT Turbo:** 3,142 EUR, 06.11.2026 13:21 CET, XETRA (bereits im Journal), https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm ; Produkt-/Einstandsdaten fehlen, PnL nicht berechenbar, kein bestätigter Exit.\n\n## Nachrichten und Risikofaktoren\n- Reuters, 06.11.2026: US-Tech-Futures erholten sich vor der Eröffnung nach dem KI-Sell-off; Rebound-Risiko für Shorts. https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/\n- Reuters, 05./06.11.2026: IREN meldete 228 Mio. USD Quartalsumsatz, Microsoft-Lieferverzögerungen ohne finanzielle Vertragsstrafen und etwa 15 Mrd. USD geplante Capex. Positives Wachstum steht hohen Ausführungs- und Finanzierungsrisiken gegenüber. https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/\n- Yahoo Finance, 06.11.2026: IREN 18,03 USD Schlusskurs 05.11.2026, 20,94 USD 08:45:50 EST vorbörslich; nicht als Nasdaq-Open verifiziert. https://finance.yahoo.com/quote/IREN/history/\n\n## Entscheidung\nKeine neue Paper-Order und kein bestätigter Overnight-Exit. Die IREN-Referenz bleibt als UNABGERECHNET gekennzeichnet. Keine Position wurde in positions.json verändert, weil keine neuere ausreichend belegte offizielle Opening-Marke vorlag. **Dashboard-Sync nur Research-Journal**, nicht automatisch lokale HTML-Datei oder GitHub Pages.\n"
+    },
+    {
+      "id": "US-20261106T143834Z",
+      "market": "US",
+      "run_at": "2026-11-06T09:38:34-05:00",
+      "task": "Einmaliger IREN Nasdaq 09:30 Opening-Print Exit-Check",
+      "decision": "REVIEW",
+      "headline": "IREN Short – Eröffnungsprint 06.11. 09:30 EST nicht belegt, Referenzposition bleibt offen",
+      "summary": "09:38 EST: Yahoo Finance, ChartExchange und StockQuote zeigten keinen datierten 06.11.-Opening-Print. Kein Exit; PnL und Rendite nicht realisiert. IREN Referenz-Einstieg 18,05 USD, 100 EUR ×5, letzter gespeicherter Premarket 20,82 USD 08:30 EST. HFG/PTON Derivate-PnL mangels Produktdaten unbekannt.",
+      "source_status": "Öffentliche Quellen geprüft am 06.11.2026 um 09:38 EST; keine datierte Nasdaq-Eröffnungstransaktion belegt. Keine Verwendung von GitHub als Marktdatenquelle.",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Geplanter Paper-Exit exakt am ersten regulären Nasdaq-Eröffnungspreis, noch unbestätigt",
+          "risk": "Vorbörsen-Gap, Short-Squeeze und fehlender Opening-Print",
+          "sources_checked": 3,
+          "sources_target": 3,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Nasdaq futures recover after steep AI selloff; US payrolls reshape rate expectations",
+          "published_at": "2026-11-06",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
+          "finding": "AI-Technologiewerte vorbörslich erholt, Zinsrisiken erhöht; kein IREN-Opening-Print in der Meldung."
+        }
+      ],
+      "report_markdown": "# IREN Short – Nasdaq-Eröffnungsprüfung, 06.11.2026 09:38:34 EST\n\n**Entscheidung: OFFEN – PREIS NICHT VERIFIZIERT.** Es wurde KEIN simulierter Exit zum 09:30-Nasdaq-Opening-Print gebucht. Das öffentliche Kursmaterial zum Recherchezeitpunkt zeigte noch 05.11. als jüngsten verifizierbaren regulären Tages-OHLC-Datensatz. Die verifizierten öffentlichen Nasdaq-/Yahoo- und ChartExchange-Historien zeigten 05.11. Schlusskurs 18,03 USD, aber keinen offiziellen Eröffnungsprint für 06.11.2026. Nicht zulässig sind Vorbörse, gestriger Close oder ein beliebiger 09:38-Last als Ersatz für den geplanten Opening-Print.\n\nQuellen: Yahoo Finance https://finance.yahoo.com/quote/IREN/history/ (jüngster regulärer Tagesdatensatz 05.11.2026: Open 20,70 USD, Close 18,03 USD), ChartExchange https://chartexchange.com/symbol/nasdaq-iren/historical (jüngster regulärer Tagesdatensatz 05.11.2026, Close 18,03 USD), StockQuote https://www.stockquote.io/stocks/IREN/history (05.11.2026 Open 20,71 USD, Close 18,03 USD). Die Quellen erlauben keine Verifikation des **ersten Nasdaq-Opening-Prints 06.11. 09:30 EST**. Eine Website-Anzeige 'IREN 21,36 USD real time' ohne konkreten Tickzeitpunkt ist hierfür kein Beweis.\n\n## Modell\nIREN SHORT, Referenz-Einstieg 18,05 USD am 05.11.2026, **kein tatsächlich belegter historischer Paper-Fill**; Einsatz 100 EUR, linearer Hebel 5, synthetisches Exposure 500 EUR. Formel beim verifizierten Exit: `500 × (18,05 − Exitpreis USD) / 18,05` EUR, Rendite auf 100 EUR Einsatz = PnL in Prozent. Ohne Gebühren, Slippage, Finanzierung, FX oder Knock-out. Da Opening-Print nicht verifiziert, keine Exit-PnL und keine realisierte Rendite angeben. Bisherige 08:30 EST-Vorbörsenmarke 20,82 USD und hypothetische laufende PnL −76,73 EUR sind **kein Exit**, auch nicht 09:30-Last. Nachträglich eine belegte Nasdaq-Eröffnungspreisquelle mit Kursdatum/-zeit abrufen und genau einmal simuliert schließen; nicht den laufenden Kurs verwenden.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT / PAPER Referenzsimulation**: Einstieg 18,05 USD; letzte gespeicherte 20,82 USD PREMARKET 06.11. 08:30 EST; https://public.com/stocks/iren/pre-market; rechnerische laufende Referenz-PnL −76,73 EUR, nicht live, kein Fill. Geplanter Exit 09:30 EST weiterhin **unbestätigt**.\n- **HFG SHORT / USER_REPORTED Turbo**: letzte gespeicherte Xetra-Kursmarke 3,142 EUR 06.11. 13:21 CET (07:21 EST), https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm; Quote alt, kein Derivate-Einstand/ISIN/KO, PnL nicht berechenbar.\n- **PTON SHORT / USER_REPORTED Turbo**: letzte gespeicherte Vorbörsenmarke 5,65 USD 06.11. 09:00 EST, https://public.com/stocks/pton/pre-market; Quote alt, kein Derivate-Einstand/ISIN/KO, PnL nicht berechenbar.\n- **DEUTZ LONG**: vom Nutzer 05.11. als geschlossen gemeldet, etwa +11 EUR; nicht erneut schließen.\n\n## Risiko und Markt\nReuters 06.11. berichtete nach dem starken AI-Ausverkauf über die Erholung der Nasdaq-Futures, bei gleichzeitigem Risiko höherer Zinsen nach starkem US-Arbeitsmarktbericht: https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/ . Ein Short auf AI-Infrastruktur kann im Eröffnungs-Gap besonders stark verlieren; ein beliebiger Vorbörsen-Last wäre ein erheblicher Look-ahead-/Execution-Bias.\n\n**Dashboard:** Nur research.json aktualisieren, positions.json unverändert; keine fiktive Schließung. Die lokale Mac-HTML-Datei wurde nicht direkt überschrieben."
     }
   ],
   "deep_dives": {
