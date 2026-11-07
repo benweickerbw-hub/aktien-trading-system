@@ -1,6 +1,6 @@
 {
-  "version": 41,
-  "updated_at": "2026-11-06T23:28:38Z",
+  "version": 42,
+  "updated_at": "2026-11-07T00:32:23Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -7041,6 +7041,112 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261107T003223Z",
+      "market": "US",
+      "run_at": "2026-11-07T00:32:23Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "IREN +19,94% regulär nach Quartalsbericht trotz Childress-Verzögerung; Nasdaq erholt",
+      "summary": "Nachbörse: keine Entries. IREN Referenz-PnL −100,55 EUR, kein Fill. PTON/HFG Turbo-PnL unbekannt.",
+      "source_status": "Vorläufig: IREN 3/50, PTON 2/50 neu inhaltlich geöffnete Texte; kein qualifiziertes Signal",
+      "candidates": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Projektverzögerung, hoher Verlust; Gegenbewegung und AI-Nachfrage",
+          "risk": "Short-Squeeze, neue Kundenverträge",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton Interactive",
+          "tv": "NASDAQ:PTON",
+          "side": "REVIEW",
+          "thesis": "Abo-Schrumpfung gegen Margenverbesserung",
+          "risk": "Keine frischen Produktkurse und Konsensdaten",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "US-Technologie erholt sich nach Selloff",
+          "published_at": "2026-11-06",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/",
+          "finding": "Nasdaq +1,1%, aber vierte negative Woche"
+        },
+        {
+          "title": "IREN: Microsoft-Netzwerkänderungen verzögern Childress",
+          "published_at": "2026-11-06T00:25:39Z",
+          "ticker": "IREN",
+          "publisher": "Business Insider",
+          "url": "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11",
+          "finding": "ARR-Ziel zeitlich verschoben"
+        },
+        {
+          "title": "IREN erholt sich nach Earnings",
+          "published_at": "2026-11-05T20:07:00-05:00",
+          "ticker": "IREN",
+          "publisher": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0",
+          "finding": "Nachfrage und neue Verträge gegen Projektverzögerung"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Projektverzögerung, hoher Verlust; Gegenbewegung und AI-Nachfrage",
+          "points": [],
+          "catalysts": [],
+          "invalidations": [
+            "Short-Squeeze, neue Kundenverträge"
+          ]
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton Interactive",
+          "tv": "NASDAQ:PTON",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Abo-Schrumpfung gegen Margenverbesserung",
+          "points": [],
+          "catalysts": [],
+          "invalidations": [
+            "Keine frischen Produktkurse und Konsensdaten"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT",
+        "summary": "Unverbindliche historische Referenzsimulation; kein echter Fill",
+        "base_scenario": "Hohe Volatilität bis Montag",
+        "bull_scenario": "IREN fällt bei weiterer Projektkritik",
+        "bear_scenario": "IREN steigt bei AI-Nachfrage/Short-Covering",
+        "key_risk": "Gap und Short-Squeeze",
+        "planned_exit": "Kein bestätigter Exit; Montag regulärer Open nur mit Open-Print prüfen",
+        "as_of": "2026-11-07T00:32:23Z",
+        "mark_price": 21.68,
+        "mark_at": "2026-11-06T19:24:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": -100.55,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörse – 6. November 2026, 19:32 EST\n\n**Entscheidung: KEIN TRADE.** Reguläre Sitzung seit 16:00 EST geschlossen. Kein nachbörslicher Einstieg autorisiert.\n\n## Markt und Earnings\n[Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/): Nasdaq +1,1%, S&P 500 +0,32%, Halbleiterindex +4,2%; Nasdaq auf Wochensicht −3,4%. Der starke Oktober-Arbeitsmarktbericht erhöht laut Reuters die Erwartungen an eine restriktivere Fed. [TipRanks-Earnings-Kalender, Abruf 06.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-6) listet u.a. MRNA/HUM für 06.11. sowie CEG/KKR für 09.11.; dies ist DISCOVERED, nicht vollständiges Screening.\n\n## Priorität IREN – vorläufig, 3/50 neu vollständig geöffnete inhaltliche Texte (Business Insider, MarketWatch, StockAnalysis)\n[Business Insider, 06.11.2026](https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11): Microsoft-bezogene Netzwerkänderungen verzögern Childress; operativer ARR-Meilenstein von 4 Mrd. USD auf Januar/Februar verschoben. Q-Umsatz 228 Mio. USD, Nettoverlust 263 Mio. USD. [MarketWatch, 05.11.2026](https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0) beschreibt Gegenargument: neue Cloud-Verträge, starke AI-Nachfrage und erhebliche Kurserholung. [StockAnalysis, Quote 06.11. 19:24 EST](https://stockanalysis.com/stocks/iren/): IREN 21,68 USD AFTERHOURS (angezeigener Last; Verzögerung nicht unabhängig zertifiziert), regulärer Schluss 21,63 USD 16:00 EST. **These:** Short-Risiko durch fundamentale Projektverzögerung, aber Short-Squeeze-/Rebound-Risiko hoch; keine neue Position. Guidance-Scorecard und 13F-Vergleiche nicht ausreichend originalbelegt.\n\n## PTON – vorläufig, 2/50 neu geöffnete Texte\n[Peloton IR, 07.05.2026](https://investor.onepeloton.com/news-releases/news-release-details/peloton-announces-q3-fy2026-financial-results): Q3 FY26 Umsatz 631 Mio. USD, zahlende Connected-Fitness-Abos 2,662 Mio. (−7,6% YoY). [StockAnalysis, 06.11. 14:54 EST](https://stockanalysis.com/stocks/pton/): 5,72 USD REGULAR, **ALT**; neuerer registrierter Schlusskurs 5,62 USD 16:00 EST aus vorherigem Journal, nicht durch diese Abfrage erneut bestätigt. Kein aktueller Turbo-Produktkurs, PnL unbekannt. Tendenz neutral/risikobehaftet; fehlende aktuelle Guidance- und Konsensvergleichsdaten.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT: 18,05 USD ist **nur hypothetischer Referenzeinstieg, kein nachgewiesener Fill**; AFTERHOURS 21,68 USD 19:24 EST [StockAnalysis](https://stockanalysis.com/stocks/iren/). Unverbindliche lineare Referenz-PnL bei 100 EUR ×5: **−100,55 EUR**, ohne FX, Spread, KO, Gebühren. Kein realer oder bestätigter Papiergewinn. Kein verifizierter Open-Exit; nächster regulärer Open Montag 09.11., 09:30 EST, falls Markt geöffnet.\n- HFG SHORT Nutzer-Turbo: letzter vorhandener Registerwert 2,988 EUR Xetra-Schluss 06.11. 17:35 CET, [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); nicht neu verifiziert; Produkt-PnL unbekannt.\n- PTON SHORT Nutzer-Turbo: Register-Schluss 5,62 USD 06.11. 16:00 EST [StockAnalysis](https://stockanalysis.com/stocks/pton/); Abfrage zeigte nur ältere 14:54-Quote; Produkt-PnL unbekannt.\n- DEUTZ: bereits CLOSED_REPORTED, kein offener Trade.\n\n## Methodik und Lücken\nKeine bestätigten neuen simulierten Entries oder Exits; keine verifizierten 13F-Quartalsvergleiche, zwei aktuellen Analystenstimmen je Aktie, 60–252-Tage-Korrelationsreihen oder aktuellen Bid/Ask-Spreads. PRE-EARNINGS, PEAD, Guidance-Revision und Pairs bleiben Hypothesen ohne vollständige vergleichbare Daten. Keine fiktive Aktien-PnL für Turbo-Produkte. TradingView-Widget ist kein geprüfter PnL-Kursfeed."
     }
   ],
   "deep_dives": {
@@ -7048,8 +7154,8 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-06T23:28:38Z",
-      "status": "VORLÄUFIG",
+      "as_of": "2026-11-07T00:32:23Z",
+      "status": "PRELIMINARY",
       "stance": "REVIEW",
       "summary": "AI cloud demand vs Childress delays; earlier short contradicted",
       "source_goal": 50,
@@ -7203,6 +7309,16 @@
           "finding": "New cloud deals and share rebound; paywalled article partially accessible",
           "checked_on": "2026-11-06T23:28:38Z",
           "doc_type": "journalism"
+        },
+        {
+          "id": "US-20261106-IREN-15",
+          "title": "IREN quote snapshot",
+          "publisher": "StockAnalysis",
+          "published_at": "2026-11-06",
+          "url": "https://stockanalysis.com/stocks/iren/",
+          "finding": "After-hours quote 21.68 USD 19:24 EST",
+          "checked_on": "2026-11-07T00:32:23Z",
+          "doc_type": "webpage"
         }
       ],
       "financial_history": [
@@ -8403,13 +8519,23 @@
           "finding": "10:58 EST 5.80 USD stale; FY2027 consensus revenue 2.36bn USD vs FY2026 2.45bn; Citi Josey Hold 6 USD",
           "checked_on": "2026-11-06T20:32:12.059Z",
           "doc_type": "aggregated_analyst_data"
+        },
+        {
+          "id": "US-20261106-PTON-2",
+          "title": "Peloton Q3 FY2026 financial results",
+          "publisher": "Peloton IR",
+          "published_at": "2026-05-07",
+          "url": "https://investor.onepeloton.com/news-releases/news-release-details/peloton-announces-q3-fy2026-financial-results",
+          "finding": "Revenue 631m, subscriptions 2.662m",
+          "checked_on": "2026-11-07T00:32:23Z",
+          "doc_type": "webpage"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-06T21:26:47.017Z",
-      "status": "DEEP_DIVE_PRELIMINARY",
+      "as_of": "2026-11-07T00:32:23Z",
+      "status": "PRELIMINARY",
       "stance": "WATCH",
       "summary": "Margin recovery vs subscriber decline",
       "source_goal": 50,
@@ -8425,8 +8551,8 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-06T23:28:38Z",
-    "method_note": "Nur IREN, MRNA, NET inhaltlich geprüft; 103 gelistete TipRanks-Titel nicht als geprüft zählen.",
+    "as_of": "2026-11-07T00:32:23Z",
+    "method_note": "Dieser US-Lauf: Kalender entdeckt, aber keine neu vollständig qualifizierten Screener-Ticker; vorhandene andere Markt-/Tagesdaten beibehalten.",
     "coverage": {
       "universe_checked": 3,
       "earnings_events": 3,
@@ -9527,6 +9653,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261106T232838Z"
+      },
+      {
+        "date": "2026-11-06",
+        "market": "US",
+        "universe_checked": 0,
+        "earnings_events": 0,
+        "triaged": 2,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261107T003223Z"
       }
     ],
     "strategies": [
