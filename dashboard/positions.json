@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "updated_at": "2026-11-06T22:29:47Z",
+  "version": 15,
+  "updated_at": "2026-11-07T00:32:23Z",
   "update_note": "IREN verified newer afterhours quote 17:03 EST, reference-only PnL; other positions preserved",
   "trades": [
     {
@@ -17,9 +17,9 @@
       "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 21.94,
-      "mark_at": "2026-11-06T17:03:00-05:00",
-      "mark_source": "StockAnalysis NASDAQ after-hours last; latency not independently certified",
+      "mark_price": 21.68,
+      "mark_at": "2026-11-06T19:24:00-05:00",
+      "mark_source": "StockAnalysis NASDAQ after-hours displayed quote; latency not independently verified",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
@@ -27,14 +27,14 @@
       "planned_exit": "2026-11-06T09:30:00-05:00",
       "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
       "mark_source_url": "https://stockanalysis.com/stocks/iren/",
-      "mark_verified_at": "2026-11-06T22:29:47Z",
-      "model_unrealized_pnl_eur": -107.76,
+      "mark_verified_at": "2026-11-07T00:32:23Z",
+      "model_unrealized_pnl_eur": -100.55,
       "reference_only": true,
       "previous_mark": {
-        "price": 20.83,
-        "at": "2026-11-06T05:32:42-05:00",
-        "source": "https://www.investing.com/equities/iris-energy",
-        "session": "PREMARKET"
+        "price": 21.94,
+        "at": "2026-11-06T17:03:00-05:00",
+        "source": "https://stockanalysis.com/stocks/iren/",
+        "session": "AFTERHOURS"
       },
       "mark_type": "AFTERHOURS"
     },
