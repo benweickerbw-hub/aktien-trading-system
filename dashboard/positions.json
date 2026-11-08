@@ -1,7 +1,7 @@
 {
-  "version": 15,
-  "updated_at": "2026-11-07T00:32:23Z",
-  "update_note": "IREN verified newer afterhours quote 17:03 EST, reference-only PnL; other positions preserved",
+  "version": 16,
+  "updated_at": "2026-11-08T23:57:00+01:00",
+  "update_note": "Paper-Simulationskapital ab 08.11.2026 auf 10.000 EUR angehoben; ab 10 EUR variable Stake, 5x Modell, Kosten-/Spread-/Risikofilter; keine neue Order an Sonntag und keine rückdatierte Ausführung.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -95,5 +95,62 @@
       "exit_at": "2026-11-05",
       "notes": "Vom Nutzer gemeldeter Gewinn ca. +11 EUR; keine bestätigten Fills"
     }
-  ]
+  ],
+  "paper_account": {
+    "currency": "EUR",
+    "initial_equity_eur": 10000,
+    "paper_equity_eur": 10000,
+    "account_as_of": "2026-11-08T23:57:00+01:00",
+    "account_type": "VIRTUAL_ONLY",
+    "brokers_connected": false,
+    "balances_verified": false,
+    "modeling_note": "Neues Paper-Risikobudget. Keine echten Einzahlungen oder Broker-Salden. Frühere 1000-EUR-Paperstrategie durch neues Budget ersetzt; ältere hypothetische Positionen unverändert und werden nicht rückdatiert. Equity von 10000 EUR ist Modellstartwert, keine tatsächlich gehandelte Account-Equity.",
+    "execution_policy": {
+      "min_stake_eur": 10,
+      "max_stake_eur": 200,
+      "preferred_stake_eur": 50,
+      "stake_sizing": "variable_by_total_execution_cost_and_stop_distance",
+      "nominal_leverage": 5,
+      "max_open_paper_trades": 30,
+      "max_total_margin_eur": 3000,
+      "max_gross_notional_eur": 15000,
+      "max_new_trades_per_session": 12,
+      "max_simultaneous_same_ticker": 1,
+      "max_sector_gross_fraction": 0.25,
+      "max_risk_per_trade_eur": 25,
+      "max_combined_planned_stop_risk_eur": 150,
+      "max_daily_realized_and_marked_loss_eur": 200,
+      "min_risk_reward_ratio": 1.8,
+      "max_expected_roundtrip_cost_to_notional": 0.005,
+      "minimum_expected_edge_to_cost_multiple": 2.5,
+      "broker_fee_model": "broker-specific, no invented zero-commission assumption",
+      "default_quote_freshness_minutes": 5,
+      "fractional_short_allowed": false,
+      "trade_live": false,
+      "require_market_open": true,
+      "require_verified_post_decision_quote": true,
+      "require_verified_spread": true,
+      "require_order_or_simulation_fill_receipt": true,
+      "require_source_and_time": true
+    },
+    "fee_examples": [
+      {
+        "market": "US",
+        "broker": "Interactive Brokers tiered",
+        "min_fee_per_side_usd": 0.35,
+        "round_trip_min_usd": 0.7,
+        "source_url": "https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe",
+        "note": "Zusätzliche Drittgebühren, Spread, FX und Slippage nicht enthalten. Rundtripkosten von 0.70 USD alleine entsprechen bei 50 USD Notional 1.4%."
+      },
+      {
+        "market": "GERMANY",
+        "broker": "Interactive Brokers tiered",
+        "min_fee_per_side_eur": 1.25,
+        "round_trip_min_eur": 2.5,
+        "source_url": "https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe",
+        "note": "Zusätzliche Gebühren, Spread und Slippage nicht enthalten. 50 EUR Notional -> Mindestprovisionen 5%."
+      }
+    ],
+    "constraints": "PAPER-SIGNALS only unless broker paper endpoint explicitly connected; no live orders, fills, or prices invented. Stop loss is modeled planning only and does not bound gap losses."
+  }
 }
