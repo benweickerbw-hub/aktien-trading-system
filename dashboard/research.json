@@ -1,6 +1,6 @@
 {
-  "version": 42,
-  "updated_at": "2026-11-07T00:32:23Z",
+  "version": 43,
+  "updated_at": "2026-11-08T23:57:00+01:00",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -7147,6 +7147,201 @@
         "reference_only": true
       },
       "report_markdown": "# US-Nachbörse – 6. November 2026, 19:32 EST\n\n**Entscheidung: KEIN TRADE.** Reguläre Sitzung seit 16:00 EST geschlossen. Kein nachbörslicher Einstieg autorisiert.\n\n## Markt und Earnings\n[Reuters, 06.11.2026](https://www.reuters.com/business/nasdaq-futures-rise-after-steep-ai-selloff-chip-stocks-stabilize-2026-11-06/): Nasdaq +1,1%, S&P 500 +0,32%, Halbleiterindex +4,2%; Nasdaq auf Wochensicht −3,4%. Der starke Oktober-Arbeitsmarktbericht erhöht laut Reuters die Erwartungen an eine restriktivere Fed. [TipRanks-Earnings-Kalender, Abruf 06.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-6) listet u.a. MRNA/HUM für 06.11. sowie CEG/KKR für 09.11.; dies ist DISCOVERED, nicht vollständiges Screening.\n\n## Priorität IREN – vorläufig, 3/50 neu vollständig geöffnete inhaltliche Texte (Business Insider, MarketWatch, StockAnalysis)\n[Business Insider, 06.11.2026](https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11): Microsoft-bezogene Netzwerkänderungen verzögern Childress; operativer ARR-Meilenstein von 4 Mrd. USD auf Januar/Februar verschoben. Q-Umsatz 228 Mio. USD, Nettoverlust 263 Mio. USD. [MarketWatch, 05.11.2026](https://www.marketwatch.com/story/heres-whats-driving-irens-stock-higher-after-a-brutal-selloff-0ced09b0) beschreibt Gegenargument: neue Cloud-Verträge, starke AI-Nachfrage und erhebliche Kurserholung. [StockAnalysis, Quote 06.11. 19:24 EST](https://stockanalysis.com/stocks/iren/): IREN 21,68 USD AFTERHOURS (angezeigener Last; Verzögerung nicht unabhängig zertifiziert), regulärer Schluss 21,63 USD 16:00 EST. **These:** Short-Risiko durch fundamentale Projektverzögerung, aber Short-Squeeze-/Rebound-Risiko hoch; keine neue Position. Guidance-Scorecard und 13F-Vergleiche nicht ausreichend originalbelegt.\n\n## PTON – vorläufig, 2/50 neu geöffnete Texte\n[Peloton IR, 07.05.2026](https://investor.onepeloton.com/news-releases/news-release-details/peloton-announces-q3-fy2026-financial-results): Q3 FY26 Umsatz 631 Mio. USD, zahlende Connected-Fitness-Abos 2,662 Mio. (−7,6% YoY). [StockAnalysis, 06.11. 14:54 EST](https://stockanalysis.com/stocks/pton/): 5,72 USD REGULAR, **ALT**; neuerer registrierter Schlusskurs 5,62 USD 16:00 EST aus vorherigem Journal, nicht durch diese Abfrage erneut bestätigt. Kein aktueller Turbo-Produktkurs, PnL unbekannt. Tendenz neutral/risikobehaftet; fehlende aktuelle Guidance- und Konsensvergleichsdaten.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT: 18,05 USD ist **nur hypothetischer Referenzeinstieg, kein nachgewiesener Fill**; AFTERHOURS 21,68 USD 19:24 EST [StockAnalysis](https://stockanalysis.com/stocks/iren/). Unverbindliche lineare Referenz-PnL bei 100 EUR ×5: **−100,55 EUR**, ohne FX, Spread, KO, Gebühren. Kein realer oder bestätigter Papiergewinn. Kein verifizierter Open-Exit; nächster regulärer Open Montag 09.11., 09:30 EST, falls Markt geöffnet.\n- HFG SHORT Nutzer-Turbo: letzter vorhandener Registerwert 2,988 EUR Xetra-Schluss 06.11. 17:35 CET, [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); nicht neu verifiziert; Produkt-PnL unbekannt.\n- PTON SHORT Nutzer-Turbo: Register-Schluss 5,62 USD 06.11. 16:00 EST [StockAnalysis](https://stockanalysis.com/stocks/pton/); Abfrage zeigte nur ältere 14:54-Quote; Produkt-PnL unbekannt.\n- DEUTZ: bereits CLOSED_REPORTED, kein offener Trade.\n\n## Methodik und Lücken\nKeine bestätigten neuen simulierten Entries oder Exits; keine verifizierten 13F-Quartalsvergleiche, zwei aktuellen Analystenstimmen je Aktie, 60–252-Tage-Korrelationsreihen oder aktuellen Bid/Ask-Spreads. PRE-EARNINGS, PEAD, Guidance-Revision und Pairs bleiben Hypothesen ohne vollständige vergleichbare Daten. Keine fiktive Aktien-PnL für Turbo-Produkte. TradingView-Widget ist kein geprüfter PnL-Kursfeed."
+    },
+    {
+      "id": "WEEKEND-20261108T225700Z",
+      "market": "US+EU",
+      "run_at": "2026-11-08T23:57:00+01:00",
+      "task": "Wochenend-Setup: 10000 EUR Paperkonto und Gebührenscreening",
+      "decision": "0 FILLS · US UND XETRA GESCHLOSSEN",
+      "headline": "10000 EUR Paper-Budget: variable Stakes ab 10 EUR; 14 Kalender-Earningskandidaten für 09.11. und Kosten-Gate",
+      "summary": "US/Xetra wegen Sonntag geschlossen, keine neuen Simulationsorders. Neue 10k-EUR-Kapitalregel und 10-200 EUR variable Einsätze; Gebühren-, Slippage- und Fraktionsshortfilter; in nächsten regulären Handelschecks nach belegbaren Quotes suchen.",
+      "source_status": "Recherche vom 08.11.2026: Nasdaq 2026 Calendar, Deutsche Börse Handelskalender, IBKR Preisverzeichnis, Alpaca Fractional & Paper-Dokumentation sowie StockTitan Kalender. Die Kalenderliste ist Discovery, keine fundierte Handelsqualifikation.",
+      "candidates": [
+        {
+          "ticker": "KKR",
+          "name": "KKR & Co.",
+          "tv": "NYSE:KKR",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 BMO; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 BMO; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "NRG",
+          "name": "NRG Energy",
+          "tv": "NYSE:NRG",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 BMO; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "B",
+          "name": "Barrick Mining",
+          "tv": "NYSE:B",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 BMO; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "FERG",
+          "name": "Ferguson",
+          "tv": "NYSE:FERG",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 BMO; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "ROIV",
+          "name": "Roivant Sciences",
+          "tv": "NASDAQ:ROIV",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 BMO; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "RBA",
+          "name": "RB Global",
+          "tv": "NYSE:RBA",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 BMO; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "OXY",
+          "name": "Occidental Petroleum",
+          "tv": "NYSE:OXY",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 AMC; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "TTWO",
+          "name": "Take-Two Interactive",
+          "tv": "NASDAQ:TTWO",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 AMC; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "RKLB",
+          "name": "Rocket Lab",
+          "tv": "NASDAQ:RKLB",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 AMC; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "ASTS",
+          "name": "AST SpaceMobile",
+          "tv": "NASDAQ:ASTS",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 AMC; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "MARA",
+          "name": "MARA Holdings",
+          "tv": "NASDAQ:MARA",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 AMC; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "HIMS",
+          "name": "Hims & Hers Health",
+          "tv": "NYSE:HIMS",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 AMC; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        },
+        {
+          "ticker": "ZETA",
+          "name": "Zeta Global",
+          "tv": "NYSE:ZETA",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 09.11.2026 AMC; kein datierter Vorabkonsens/Signal oder neue Quote",
+          "risk": "Noch keine qualifizierte Fundamentalthese und kein Future-Fill",
+          "sources_checked": 1,
+          "sources_target": 50
+        }
+      ],
+      "news": [
+        {
+          "ticker": null,
+          "title": "Nasdaq trading calendar 2026",
+          "publisher": "Nasdaq",
+          "published_at": "2026-11-08",
+          "url": "https://www.nasdaqtrader.com/Trader.aspx?id=Calendar",
+          "finding": "US-Aktienmärkte am Sonntag geschlossen; Montag 09.11. regulär, vorbehaltlich Störungen."
+        },
+        {
+          "ticker": null,
+          "title": "Xetra Handelszeiten und Kalender",
+          "publisher": "Deutsche Börse",
+          "published_at": "2026-11-08",
+          "url": "https://www.cashmarket.deutsche-boerse.com/cash-de/Handelskalender-und-zeiten-4302078",
+          "finding": "Regulärer Xetra-Handel 09:00–17:30 MEZ an Handelstagen."
+        },
+        {
+          "ticker": null,
+          "title": "Brokergebühren US und Deutschland",
+          "publisher": "Interactive Brokers Ireland",
+          "published_at": "2026-11-08",
+          "url": "https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe",
+          "finding": "Mindestens 0.35 USD oder 1.25 EUR je Tiered-Order, Spread/Slippage/FX zusätzlich."
+        },
+        {
+          "ticker": null,
+          "title": "Fractional Short Selling nicht unterstützt",
+          "publisher": "Alpaca",
+          "published_at": "2026-11-08",
+          "url": "https://docs.alpaca.markets/us/docs/fractional-trading",
+          "finding": "Fractional Longs möglich, Fractional Shorts nicht."
+        },
+        {
+          "ticker": null,
+          "title": "Earnings 9–13 Nov 2026",
+          "publisher": "StockTitan",
+          "published_at": "2026-11-08",
+          "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026",
+          "finding": "Breite Kalenderliste mit 9.11. BMO/AMC, nur vorläufige Discovery."
+        }
+      ],
+      "report_markdown": "# Wochenend-Check: neues 10.000-€-Paperkonto – Sonntag, 08.11.2026\n\n## Handelsstatus\nUS und Xetra geschlossen. **0 neue tatsächliche oder simulierte Fills**. Ein am Sonntag erdachter Einstieg darf nicht als Börsenausführung am Freitag oder Montag gebucht werden.\n\n## Neue Kapitalregeln\n- **10.000 € Paper-Startkapital**, nicht echt und nicht brokerverbunden.\n- **Variable Einsätze 10–200 €**, bevorzugt ~50 €, modelliertes Exposure 5× je Position. Kein künstliches Erzwingen von 10-€-Trades.\n- Höchstens 30 gleichzeitig offene Papierpositionen, insgesamt höchstens 3.000 € Modell-Margin bzw. 15.000 € Brutto-Exposure. Maximal 12 neue vollständig dokumentierte Papiertrades pro Handelssitzung.\n- Geplanter Stop-Risikoanteil je Position höchstens 25 €, aggregiert 150 €; modellierter Tagesverluststopp 200 €. Gaps können diese Schwellen überschreiten.\n- Vollständige Roundtrip-Handelskosten einschließlich Provision, Spread, Slippage, FX und Borrow (falls relevant) sollen maximal 0,5 % des Notionals ausmachen; erwartete Brutto-Edge mindestens 2,5× erwartete Kosten; Netto-CRV ≥ 1,8.\n\n## Warum Gebühren kleine Trades verhindern\nIBKR Ireland veröffentlicht im US-Tiered-Plan eine Mindestprovision von 0,35 USD je Seite, zusammen mindestens 0,70 USD, ohne Spread, FX oder Slippage. Deutschland-Tiered kostet mindestens 1,25 € pro Richtung, zusammen mindestens 2,50 €. Bei **10 € Margin und 5× = 50 € Notional** entsprechen 2,50 € deutschen Mindestgebühren allein **5 % des Notionals**. 10 € ist somit nur bei einem tatsächlich sehr günstigen Broker und enger Spanne sinnvoll. [IBKR-Tarife](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe)\n\nAlpaca unterstützt Fractional-Long-Orders, aber keine Fractional-Shorts, daher müssen kleinteilige Shorts mit ganzzahligen Stücken und Borrow-Fähigkeit vereinbar sein. [Alpaca Dokumentation](https://docs.alpaca.markets/us/docs/fractional-trading)\n\n## Watchlist für Montag 09.11.2026\nVor US-Börsenöffnung laut Kalender: KKR, CEG, NRG, Barrick B, FERG, ROIV, RBA. Nach Schluss: OXY, TTWO, RKLB, ASTS, MARA, HIMS, ZETA. Termine einzeln mit Unternehmens-IR bestätigen; **keine dieser Kalenderentdeckungen ist ein ausgeführter Trade oder qualifiziertes Signal**. [StockTitan Wochenübersicht](https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026)\n\n## Bestehende Trades\nIREN historische, möglicherweise veraltete Referenz-Simulation ohne nachgewiesenen Einstieg; HFG/PTON als vom Nutzer gemeldete offene Turbo-Shorts ohne Broker-Produktspezifikation; DEUTZ vom Nutzer als geschlossen berichtet. Keine der älteren Positionen rückwirkend an den neuen 10.000-€-Start angepasst.\n\n## Nächster Check\nAb Montag Börsenöffnung frische Geld-/Briefkurse und Spread/volumenbasierte Preisqualität überprüfen, historische Überraschungen vergleichen, 10–200 € Einsatz wählen, erwartete Kosten abziehen, verfügbare Margin und korrelierte Risiken prüfen. **Bei fehlendem nach-Entscheidung belegten Fill bleibt es ein PENDING-Signal.**\n\nQuellen: [Nasdaq-Handelskalender](https://www.nasdaqtrader.com/Trader.aspx?id=Calendar), [Xetra-Zeiten](https://www.cashmarket.deutsche-boerse.com/cash-de/Handelskalender-und-zeiten-4302078), [Brokergebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe), [Alpaca Fractional](https://docs.alpaca.markets/us/docs/fractional-trading), [Earnings 09.11.](https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026)."
     }
   ],
   "deep_dives": {
@@ -8550,8 +8745,8 @@
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-07T00:32:23Z",
+    "status": "Wochenend-Discovery; Börse geschlossen, 0 neue Trades",
+    "as_of": "2026-11-08T23:57:00+01:00",
     "method_note": "Dieser US-Lauf: Kalender entdeckt, aber keine neu vollständig qualifizierten Screener-Ticker; vorhandene andere Markt-/Tagesdaten beibehalten.",
     "coverage": {
       "universe_checked": 3,
@@ -9379,6 +9574,142 @@
           "https://www.tipranks.com/calendars/earnings/2026-11-9"
         ],
         "as_of": "2026-11-06T19:27:53Z"
+      },
+      {
+        "ticker": "B",
+        "name": "Barrick Mining",
+        "tv": "NYSE:B",
+        "market": "US",
+        "sector": "Materials / Gold",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · vor US-Börsenstart; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
+      },
+      {
+        "ticker": "FERG",
+        "name": "Ferguson",
+        "tv": "NYSE:FERG",
+        "market": "US",
+        "sector": "Industrial distributors",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · vor US-Börsenstart; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
+      },
+      {
+        "ticker": "ROIV",
+        "name": "Roivant Sciences",
+        "tv": "NASDAQ:ROIV",
+        "market": "US",
+        "sector": "Biotechnology",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · vor US-Börsenstart; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
+      },
+      {
+        "ticker": "RBA",
+        "name": "RB Global",
+        "tv": "NYSE:RBA",
+        "market": "US",
+        "sector": "Marketplaces",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · vor US-Börsenstart; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
+      },
+      {
+        "ticker": "ASTS",
+        "name": "AST SpaceMobile",
+        "tv": "NASDAQ:ASTS",
+        "market": "US",
+        "sector": "Satellite telecommunications",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · nach US-Börsenschluss; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
+      },
+      {
+        "ticker": "MARA",
+        "name": "MARA Holdings",
+        "tv": "NASDAQ:MARA",
+        "market": "US",
+        "sector": "Bitcoin mining",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · nach US-Börsenschluss; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
+      },
+      {
+        "ticker": "HIMS",
+        "name": "Hims & Hers Health",
+        "tv": "NYSE:HIMS",
+        "market": "US",
+        "sector": "Telehealth",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · nach US-Börsenschluss; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
+      },
+      {
+        "ticker": "ZETA",
+        "name": "Zeta Global",
+        "tv": "NYSE:ZETA",
+        "market": "US",
+        "sector": "AdTech",
+        "stage": "DISCOVERED",
+        "direction": "NEUTRAL",
+        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
+        "event": "Geplante Quartalszahlen 09.11.2026 · nach US-Börsenschluss; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "earnings_at": "2026-11-09",
+        "sources": [
+          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+        ],
+        "as_of": "2026-11-08T23:57:00+01:00",
+        "score": null
       }
     ],
     "pairs": [],
