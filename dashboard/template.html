@@ -98,11 +98,30 @@
 .open-terminal .reference-position{border-left:3px solid #e2b56b}
 .open-terminal .paper-position{border-left:3px solid #66d9b2}
 
+
+/* 10k EUR cost-aware microtrade portfolio profile, data-driven and paper-only */
+.micro-account{margin-top:14px;padding:17px;border:1px solid #326080;border-radius:13px;background:linear-gradient(110deg,#122a40,#0e1c31)}
+.micro-account-head{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.micro-account-cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:13px}
+.micro-account-cards>div{border:1px solid #2e4761;border-radius:10px;padding:11px;background:#0c1b2e}
+.micro-account-cards span{color:#a1b7d3;font-size:11px;display:block}
+.micro-account-cards strong{font-size:19px;display:block;line-height:1.5}
+.micro-account p{font-size:11px;margin:11px 0 0;color:#9bb1cb}
+@media(max-width:700px){.micro-account-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 </style></head><body><div class="shell" id="mainShell">
 <header class="top"><div><div class="sup">Aktien / Research / Trading Journal</div><h1>Aktien-Research Dashboard</h1><p>Alle dokumentierten Positionen, Research-Charts und nachvollziehbare simulierte P&amp;L</p></div><div><div class="flag">KEINE ECHTEN ORDERS DURCH CHATGPT</div><div class="updated" id="stamp"></div></div></header>
 <section class="kpis"><div class="kpi"><div class="label">Paper-Positionen offen</div><div class="value" id="paperOpen">–</div><div class="hint">Nur explizite Simulationen</div></div><div class="kpi"><div class="label">Paper-Einsatz offen</div><div class="value" id="paperStake">–</div><div class="hint">Keine Broker-Margin</div></div><div class="kpi"><div class="label">P&amp;L der gespeicherten Kursmarke</div><div class="value" id="floating">–</div><div class="hint">Nicht Live-P&amp;L! Getrennt vom TradingView-Chart; Vorbörse ggf. nicht berücksichtigt.</div></div><div class="kpi"><div class="label">Realisierte Paper-P&amp;L</div><div class="value" id="realized">–</div><div class="hint">Nur verifizierte Simulationsabschlüsse</div></div><div class="kpi"><div class="label">Weitere gemeldete Positionen</div><div class="value" id="reported">–</div><div class="hint">Nicht in Paper-P&amp;L enthalten</div></div></section>
 <div class="notice"><b>Datenqualität:</b> Die Einstiegskurse und Schlusskurse sind nur dann P&amp;L-fähig, wenn sie mit einer Quelle vorliegen. Der Chart des Börsenanbieters kann sich unabhängig davon live oder verzögert aktualisieren. Fehlende Kursdaten werden als „nicht gefunden“ angezeigt. Die HTML-Datei kann sich nicht ohne lokal installierte Synchronisierung selbst überschreiben.</div>
 <div class="tape" id="tickerTape" aria-label="TradingView Marktübersicht"></div>
+<section class="micro-account" id="paperBudgetPanel">
+<div class="micro-account-head"><div><h2 style="margin:0">Paper-Portfolio · Kostenbewusste Microtrades</h2><span class="small">Reine Simulation · Einsätze variabel ab 10 € · 5× synthetisches Exposure</span></div><span class="badge" id="paperBudgetStatus">KEINE ECHTEN ORDERS</span></div>
+<div class="micro-account-cards">
+<div><span>Startkapital</span><strong id="microEquity">–</strong></div>
+<div><span>Einsatz je neuem Trade</span><strong id="microStake">–</strong></div>
+<div><span>Maximal offene Paper-Trades</span><strong id="microMaxOpen">–</strong></div>
+<div><span>Modell-Notional-Obergrenze</span><strong id="microNotional">–</strong></div></div>
+<p id="microRules">Kein Entry ohne neuen Kurs nach Entscheidung, realistischen Spread/Kosten und überprüfbaren Paper-Fill.</p></section>
+
 <div class="grid"><section class="panel"><div class="row"><div><h2 id="heading">Chart</h2><p class="small" style="margin-bottom:0">TradingView · Zeitverzögerung je nach Börse und Anbieter</p></div><span class="badge">KURSGRAFIK</span></div><div class="chart" id="chartHost"></div><p class="hint">TradingView-Einbettungen für Aktien können zeitverzögert sein. Kein automatischer Zugriff auf Widget-Kurse für die P&amp;L.</p><p class="hint"><a id="tvlink" target="_blank" rel="noopener noreferrer" href="https://www.tradingview.com/">Vollständigen Chart in TradingView öffnen (ggf. Echtzeitdaten mit Abo)</a></p></section>
 <section class="panel"><div class="row"><h2>Ausgewählte Position</h2><span class="badge" id="kind">–</span></div><p id="subtitle">Wähle eine Zeile im Positionsjournal aus.</p><div class="info"><div><span class="label">Einstieg</span><strong id="entry">–</strong><span class="hint" id="entryNote"></span></div><div><span class="label">Einsatz × Hebel</span><strong id="stake">–</strong><span class="hint" id="exposure"></span></div><div><span class="label">Kursmarke der P&amp;L (nicht live)</span><strong id="mark">–</strong><span class="hint" id="markTime"></span></div><div><span class="label">Modell-P&amp;L zum obigen Kursstand</span><strong id="positionPnl">–</strong><span class="hint" id="positionPct"></span></div></div><p class="label" style="margin:15px 0 4px">P&amp;L-Szenarien (keine historischen Kurse)</p><canvas id="scenario"></canvas><p class="hint" id="notes"></p><div class="actions"><label class="small" for="manualMark">Testkurs in Originalwährung:</label><input type="number" id="manualMark" min="0.0001" step="any" placeholder="Szenario"><button id="recalc">Szenario rechnen</button><button id="clear">Zurücksetzen</button></div><p class="hint">Szenariokurse verändern nicht den dokumentierten Trade und werden nicht als Marktkurs gespeichert.</p></section></div>
 
@@ -545,6 +564,14 @@ function renderSignalQueue(){
  if(!arr.length){const tr=host.insertRow(),c=tr.insertCell();c.colSpan=5;c.textContent='Derzeit keine vorgemerkten nicht ausgeführten Paper-Signale.'}
 }
 
-addMarketTape();renderResearch();renderScreening();renderSignalQueue();renderBriefCards();renderTradeOutlook();openDeepRoute();
+
+function renderMicroAccount(){const a=state.paper_account||{},p=a.execution_policy||{};
+  const els={microEquity:a.initial_equity_eur==null?'Nicht gesetzt':money(a.initial_equity_eur),microStake:Number.isFinite(p.min_stake_eur)?nfmt(p.min_stake_eur,0)+'–'+nfmt(p.max_stake_eur,0)+' €':'variabel',microMaxOpen:Number.isFinite(p.max_open_paper_trades)?String(p.max_open_paper_trades):'–',microNotional:Number.isFinite(p.max_gross_notional_eur)?money(p.max_gross_notional_eur):'–'};
+  for(const k in els){const el=$(k);if(el)el.textContent=els[k]}
+  $('paperBudgetStatus').textContent=a.account_type==='VIRTUAL_ONLY'?'PAPER · NICHT BROKERVERBUNDEN':'Modellstatus prüfen';
+  $('microRules').textContent='Kostenfilter: Gesamt-Handelskosten ≤ '+(Number.isFinite(p.max_expected_roundtrip_cost_to_notional)?Math.round(p.max_expected_roundtrip_cost_to_notional*10000)/100+' %':'–')+' vom Notional · geplantes Risiko je Trade max. '+money(p.max_risk_per_trade_eur)+' · Summe geplanter Stops max. '+money(p.max_combined_planned_stop_risk_eur)+' · Tagesverlust-Bremse '+money(p.max_daily_realized_and_marked_loss_eur)+' · Keine erzwungene Tradeanzahl. Keine von TradingView ausgelesene Echtzeit-P&L.';
+}
+
+addMarketTape();renderResearch();renderScreening();renderMicroAccount();renderSignalQueue();renderBriefCards();renderTradeOutlook();openDeepRoute();
 setInterval(()=>{if(!document.hidden)location.reload()},90000);overview();show();
 </script></body></html>
