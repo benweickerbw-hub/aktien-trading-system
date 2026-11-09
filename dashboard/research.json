@@ -1,6 +1,6 @@
 {
-  "version": 63,
-  "updated_at": "2026-11-09T18:27:26Z",
+  "version": 64,
+  "updated_at": "2026-11-09T19:30:08Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -10686,6 +10686,168 @@
         "reference_only": true
       },
       "report_markdown": "# US-Aktienresearch – 9. November 2026, 13:27 EST\n\n**Entscheidung: KEIN TRADE.** Reguläre US-Handelssitzung läuft; der 15:30-EST-Entscheidungsslot ist noch nicht erreicht. Keine authentifizierte Paper-Broker-Ausführung vorhanden.\n\n## Markt und Earnings\n[Reuters, 09.11.2026](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/): um 11:45 EST Dow +1,86%, S&P 500 +2,05%, Nasdaq +2,34%; NVDA -6,2% infolge einer Untersuchung rund um den CEO. Reuters berichtet zudem KKR +2,3% nach Rekordquartalsgewinn und CEG +8% nach Ergebnisüberraschung. Dies sind historische Intraday-Snapshots, keine 13:27-Kurse. Ölpreisrückgang und bevorstehende US-Inflationsdaten beeinflussen die Risikolage.\n\n[Portfolio Terminal, abgerufen 09.11.2026](https://portfolio-terminal.com/earnings-calendar/november-2026): Für heute sind OXY und TTWO nachbörslich gelistet; KKR und NRG vorbörslich. Weitere Kandidaten im Kalender: CTVA 11.11., CSCO und AMAT 12.11. Nur Kalender-Discovery, keine bestätigte Liquiditäts-/Spread-/Konsens-Vollprüfung.\n\n## Kandidaten und Gegenargumente\n- **NVDA – WATCH, neutral/ereignisgetrieben:** CEO-/Governance-Untersuchung als negativer Katalysator, gleichzeitig starke Chipsektor-Erholung. Ohne unabhängige Unternehmensbestätigung, belastbare Bewertung und Spread keine Short-Qualifikation. [Reuters 09.11.](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/)\n- **MNDY – WATCH, vorsichtig bearish:** Q3 besser als erwartet, aber Q4-Umsatzprognose unter Markterwartung; Risiko eines überverkauften Rebounds und AI-Produktwachstums. Volltext bei Barron's eingeschränkt. [Barron's 09.11.](https://www.barrons.com/articles/mndy-earnings-stock-price-ai-0ea3f2f0)\n- **OXY/TTWO – DISCOVERED, keine Richtung:** Earnings nach US-Schluss laut Kalender; Guidance, aktuelle Konsenshistorie, Bid/Ask und implizite Volatilität noch nicht verifiziert. [Kalender](https://portfolio-terminal.com/earnings-calendar/november-2026)\n- **KKR/CEG – WATCH, neutral:** positive Earnings-Reaktionen, aber Post-Earnings-Drift ohne vorab dokumentierte EPS- und Umsatzsurprise nicht belegt. [Reuters](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/)\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN:** im Register OPEN_SIMULATED, jedoch Einstieg 18,05 USD ausdrücklich nur historische REFERENZ, kein bestätigter Fill. Neuer zeitgenauer Kurs nicht hinreichend verifiziert; keine aktuelle PnL-Buchung. Keine automatische Schließung.\n- **HFG:** USER_REPORTED Short-Turbo, ISIN/Einstand/KO unbekannt; Aktienindikation 3,122 EUR am 09.11. um 13:16 CET, [FinanzNachrichten](https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm); kein Turbo-PnL ableitbar, Quote älter als der Prüfzeitpunkt.\n- **PTON:** USER_REPORTED Short-Produkt, Einstand/ISIN fehlen. Aktien-Last 5,80 USD, 09.11. 13:04 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/); keine berechenbare Produkt-PnL.\n- **DEZ:** im Register CLOSED_REPORTED, unverändert.\n\n## Methodik, Kosten und Lücken\nPaper-Ausgangskapital 10.000 EUR laut bestehender Konfiguration, kein verifizierter Brokerkontostand. Keine neuen Fills, kein 5x-Exposure gebucht. Roundtrip-Kosten, Bid/Ask, Borrow und FX für neue Ideen nicht hinreichend belegt; 0,5%-Kostenlimit daher nicht nachgewiesen. Keine 13F-Zweiquartalsvergleiche, keine Guidance-Trefferquote, keine belastbare Paar-Korrelation. Unabhängig vollständig gelesene Quellen: NVDA 1/50, MNDY 1/50, PTON 1/50 (Kursdaten), HFG 1/50 (Kursdaten); alles vorläufig. Kalender-Discovery zählt nicht als voll gescreente Aktie. Vier Strategien geprüft als Hypothesen: Pre-Earnings, PEAD, Guidance-Revision, Pairs; keine ist aktuell ausreichend belegt. TradingView-Widget nicht als PnL-Feed verwendet."
+    },
+    {
+      "id": "US-20261109T193008Z",
+      "market": "US",
+      "run_at": "2026-11-09T19:30:08Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Citi vorsichtig gegen konstruktive AI-Broker; NVDA/MNDY WATCH",
+      "summary": "Keine Fills, keine neu verifizierten offenen PnL.",
+      "source_status": "Vier Texte geöffnet, zwei Reuters voll lesbar, zwei paywallbegrenzt; NVDA 2/50, MNDY 1/50 vorläufig",
+      "candidates": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "side": "WATCH",
+          "thesis": "Governance-Risiko gegen AI-Capex-Bullenargument",
+          "risk": "Earnings 17.11 und unklare Untersuchung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MNDY",
+          "name": "monday.com",
+          "tv": "NASDAQ:MNDY",
+          "side": "WATCH",
+          "thesis": "Schwache Q4-Umsatzguidance trotz starkem Q3",
+          "risk": "Original-IR und aktuelle Kurskosten nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Citi senkt US-Aktien auf neutral",
+          "published_at": "2026-11-09T13:06:00Z",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/citigroup-downgrades-us-equities-neutral-ai-concerns-2026-11-09/",
+          "finding": "Beata Manthey warnt vor schwacher AI-Positionierung."
+        },
+        {
+          "title": "Broker halten AI-Ausverkauf teils für überzogen",
+          "published_at": "2026-11-09T14:37:00Z",
+          "ticker": "NVDA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/",
+          "finding": "Morgan Stanley und UBS konstruktiv, NVDA-Earnings 17.11."
+        },
+        {
+          "title": "MNDY Q4-Wachstumswarnung",
+          "published_at": "2026-11-09",
+          "ticker": "MNDY",
+          "publisher": "Barron's",
+          "url": "https://www.barrons.com/articles/mndy-earnings-stock-price-ai-0ea3f2f0",
+          "finding": "Q3 besser, Q4-Umsatzprognose schwächer; Paywall."
+        },
+        {
+          "title": "Marktrally und Nvidia-Untersuchung",
+          "published_at": "2026-11-09T13:09:00-05:00",
+          "ticker": "NVDA",
+          "publisher": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/",
+          "finding": "Aktienmarkt steigt, Nvidia durch Governance-Risiko belastet; Paywall."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Governance-Risiko gegen AI-Capex-Bullenargument",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Morgan Stanley und UBS konstruktiv, NVDA-Earnings 17.11.",
+              "url": "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09T14:37:00Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Aktienmarkt steigt, Nvidia durch Governance-Risiko belastet; Paywall.",
+              "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/",
+              "publisher": "Investor's Business Daily",
+              "published_at": "2026-11-09T13:09:00-05:00"
+            }
+          ],
+          "catalysts": [
+            "Earnings 17.11",
+            "Governance-Aufklärung"
+          ],
+          "invalidations": [
+            "Neue Originalquellen und Kurs-/Kostenprüfung erforderlich"
+          ]
+        },
+        {
+          "ticker": "MNDY",
+          "name": "monday.com",
+          "tv": "NASDAQ:MNDY",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Schwache Q4-Umsatzguidance trotz starkem Q3",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 besser, Q4-Umsatzprognose schwächer; Paywall.",
+              "url": "https://www.barrons.com/articles/mndy-earnings-stock-price-ai-0ea3f2f0",
+              "publisher": "Barron's",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Q4-Guidance"
+          ],
+          "invalidations": [
+            "Neue Originalquellen und Kurs-/Kostenprüfung erforderlich"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Hypothetischer Short, kein Fill",
+        "base_scenario": "Unbekannt",
+        "bull_scenario": "Kursrückgang",
+        "bear_scenario": "Short-Squeeze",
+        "key_risk": "Unverifizierter Einstieg",
+        "planned_exit": "Nur bei verifizierter Grundlage",
+        "as_of": "2026-11-09T19:30:08Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch 09.11.2026 14:30 EST\n\n**Entscheidung: KEIN TRADE.** Reguläre NYSE/Nasdaq-Sitzung 09:30–16:00 EST; kein 15:30-Entry-Slot. 10.000 EUR virtuelles Ausgangskapital laut zu Beginn gelesenem Positionsregister; keine authentifizierte Paper-Broker-Verbindung und kein neuer Fill.\n\n## Markt und Analysten\n[Reuters 09.11., 13:06 UTC](https://www.reuters.com/business/citigroup-downgrades-us-equities-neutral-ai-concerns-2026-11-09/): Citi unter Beata Manthey senkt US-Aktien von overweight auf neutral wegen AI-Risiko und Positionierung. [Reuters 09.11., 14:37 UTC](https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/): Morgan Stanley, UBS und weitere Broker halten AI-Korrektur teilweise für übertrieben; Morgan Stanley nennt AMZN/META/GOOGL/NVDA/AVGO. [IBD 09.11., 13:09 EST](https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/): starke US-Markterholung trotz Nvidia-Governance-Untersuchung. Zeitangaben sind Veröffentlichungsstände, keine aktuellen Quotes.\n\n## Screening und Prioritäten\nNVDA WATCH, tendenziell vorsichtig bearish wegen Governance, aber AI-Investitionen und 17.11.-Earnings sind Gegenthese; zwei geöffnete Dokumente, davon IBD nur teilweise lesbar, **2/50 vorläufig**. MNDY WATCH, vorsichtig bearish: [Barron's 09.11.](https://www.barrons.com/articles/mndy-earnings-stock-price-ai-0ea3f2f0) berichtet über starkes Q3, jedoch schwächere Q4-Umsatzprognose; nur teilweise lesbar, **1/50 vorläufig**. Insgesamt vier Artikel geöffnet, zwei Reuters substanziell, zwei Paywall-begrenzt. Weitere erwähnte Aktien nur DISCOVERED, nicht als geprüft gezählt. Aktuelle Analysten-Kursziele, SEC-Originale, Guidance-Ist, historische Finanzreihen, 13F-Paare, Short-Interest, 60–252-Tage-Korrelation, vollständige Bid/Ask-Spreads und Kosten: **nicht verifiziert**. PRE-EARNINGS, PEAD, Guidance-Revision und Pair-Trading daher nicht qualifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister zu Beginn gelesen, nur für Positionsverwaltung. IREN SHORT: als OPEN_SIMULATED bezeichnete **unverbindliche Referenz**, hypothetische 18,05 USD, gespeicherter Kurs 22,07 USD vom 09.11. 12:18 EST, **nicht erneut webverifiziert**, keine echte Fill-PnL. HFG SHORT Nutzer-Turbo OPEN_UNVERIFIED: Einstand, ISIN und KO fehlen, Produkt-PnL nicht berechenbar; [FinanzNachrichten, 09.11. 13:16 CET](https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm) nennt 3,122 EUR Aktienkurs, keine Produktquote. PTON SHORT Nutzerprodukt OPEN_UNVERIFIED: gespeicherter Aktienkurs 5,79 USD 12:32 EST, in diesem Lauf nicht neu verifiziert, Produkt-PnL nicht berechenbar. DEZ CLOSED_REPORTED unverändert. Keine Position geschlossen oder neu markiert; kein neuer belegter Quote-Zeitstempel. Exit nur nach gesonderter Prüfung.\n\n## Kosten, Risiken und nächster Schritt\nOhne Paper-Broker-Fill-Receipt, aktuelle Bid/Ask, FX, Borrow, Slippage und Roundtrip-Kosten keine neue OPEN_SIMULATED-Position und keine behauptete Netto-Edge. 15:30 EST ist der nächste reguläre Entscheidungszeitpunkt. TradingView-Widget ist kein verifizierter PnL-Feed. Kein Mac-Desktop-Zugriff oder direkte lokale Aktualisierung.",
+      "report_sections": [
+        {
+          "heading": "Markt",
+          "summary": "Citi gegen Morgan Stanley",
+          "bullets": [
+            {
+              "text": "Beata Manthey warnt vor schwacher AI-Positionierung.",
+              "url": "https://www.reuters.com/business/citigroup-downgrades-us-equities-neutral-ai-concerns-2026-11-09/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-09T19:30:08Z"
+            },
+            {
+              "text": "Morgan Stanley und UBS konstruktiv, NVDA-Earnings 17.11.",
+              "url": "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-09T19:30:08Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -12289,7 +12451,7 @@
       "ticker": "NVDA",
       "name": "NVIDIA",
       "tv": "NASDAQ:NVDA",
-      "as_of": "2026-11-09T18:27:26Z",
+      "as_of": "2026-11-09T19:30:08Z",
       "status": "PRELIMINARY",
       "stance": "SHORT",
       "summary": "Governance and regulatory uncertainty",
@@ -12324,6 +12486,16 @@
           "finding": "Morgan Stanley, HSBC, UBS and Jefferies offer counterarguments to AI selloff",
           "checked_on": "2026-11-09T17:34:41Z",
           "doc_type": "web_article"
+        },
+        {
+          "id": "NVDA-US-20261109T193008Z-3",
+          "title": "Marktrally und Nvidia-Untersuchung",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-11-09T13:09:00-05:00",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/",
+          "finding": "Aktienmarkt steigt, Nvidia durch Governance-Risiko belastet; Paywall.",
+          "checked_on": "2026-11-09T19:30:08Z",
+          "doc_type": "news"
         }
       ],
       "financial_history": [],
@@ -12376,8 +12548,8 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T18:27:26Z",
-    "method_note": "US 13:27 EST: Reuters/Calendar-Triage; DISCOVERED nicht als vollständig gescreent gezählt; keine neuen qualifizierten Trades",
+    "as_of": "2026-11-09T19:30:08Z",
+    "method_note": "14:30 EST: zwei Watch-Kandidaten, nicht vollqualifiziert; keine unbelegten Screen-Zähler.",
     "coverage": {
       "universe_checked": 0,
       "earnings_events": 4,
@@ -13978,6 +14150,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T182726Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 0,
+        "earnings_events": 0,
+        "triaged": 2,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T193008Z"
       }
     ],
     "strategies": [
