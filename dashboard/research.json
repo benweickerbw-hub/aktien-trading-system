@@ -1,6 +1,6 @@
 {
-  "version": 60,
-  "updated_at": "2026-11-09T17:04:03Z",
+  "version": 61,
+  "updated_at": "2026-11-09T17:34:41Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -10209,6 +10209,190 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Nachbörsenresearch – 09.11.2026, 18:04 MEZ\n\n## Push\nXetra-Kernhandel beendet (09:00–17:30 MEZ). Neue Paper-Fills: 0. Prioritäten: Siemens Energy (11.11.), Infineon (10.11. laut Sekundärkalender), Hannover Rück (09.11.). Keine verifizierte aktuelle P&L.\n\n## Markt und Screening\n[Deutsche Börse, Handelskalender, geprüft 09.11.2026](https://www.cashmarket.deutsche-boerse.com/cash-de/Handel/handelskalender-und-zeiten): reguläre Xetra-Zeit 09:00–17:30; Retail-Nachhandel getrennt. [ATLAS Earnings-Kalender, abgerufen 09.11.2026](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026) nennt IFX, Henkel, Uniper, K+S, TAG, Jenoptik, Elmos für 10.11., Siemens Energy und E.ON für 11.11. Kalenderlistung allein ist DISCOVERED, keine geprüfte Handelsqualifikation. Eigenständig geprüft: ENR, IFX, HNR1, G1A (je mindestens eine weitere firmeneigene Seite); kein qualifizierter Trade. Liquidität, Spread, Börsenplatz-Quote, Options-IV und Kosten je Kandidat nicht verifiziert.\n\n## Priorisierte Kandidaten\n**ENR – WATCH, neutral/ereignisgetrieben:** [Siemens Energy IR, Termin 11.11.2026](https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html): Q4/GJ 2026 am 11.11. um 07:00 MEZ, Pressekonferenz 08:00. Bull: mögliche Auftrags-/Margenstärke; Bear: hohe Erwartungen und Projekt-/Windrisiken. EPS-/Umsatzkonsens, historischer Guidance-Ist-Abgleich und zwei aktuelle Analystenvoten nicht verifiziert. Keine Order vor Earnings.\n\n**IFX – WATCH, neutral:** [Infineon IR, 04.02.2026](https://www.infineon.com/press-release/2026/infxx202602-042): Capex damals auf ca. 2,7 Mrd. EUR erhöht, Adjusted FCF auf ca. 1,4 Mrd. EUR gesenkt, AI-Power-Segment als Treiber. [ATLAS, abgerufen 09.11.2026](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026): Ergebnisse 10.11. vor Börsenbeginn. Bull: AI-Power-Nachfrage; Bear: Investitionsbedarf/zyklisches Industriegeschäft. FY26 Ist-Werte noch nicht geprüft, daher Guidance-Scorecard offen.\n\n**HNR1 – WATCH, neutral:** [Hannover Rück IR, abgerufen 09.11.2026](https://www.hannover-re.com/en/investors/events-and-presentations/): Quartalsbericht am 09.11. sowie Investorenkonferenz am 11.11. verzeichnet. Q3-Ist-Zahlen, Schadenquote, Analystenrevisionen nicht unabhängig geprüft; kein PEAD-Signal.\n\n**G1A – DISCOVERED:** [GEA, 06.11.2026](https://www.gea.com/tr/news/trade-press/2026/braubeviale-adaptax-orbital-cleaner/) stellt AdaptAx mit behaupteter bis zu 30% höherer Reinigungsleistung vor. Umsatz-/Margenwirkung nicht quantifiziert; kein Trading-Signal.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nAus dem zu Laufbeginn gelesenen Positionsregister: IREN SHORT, als OPEN_SIMULATED markiert, tatsächlich nur REFERENZ (18,05 USD vom 05.11., kein belegter Fill); letzter gespeicherter Mark 21,68 USD, 06.11. 19:24 EST, AFTERHOURS, [StockAnalysis](https://stockanalysis.com/stocks/iren/). Dieser Mark ist ALT; gespeicherte -100,55 EUR sind kein aktueller Handelsgewinn/-verlust. Am 09.11. zeigte [StockAnalysis, abgerufen 09.11.](https://stockanalysis.com/stocks/iren/) unterschiedliche intraday Momentaufnahmen, darunter 20,55 USD 09:41 EST; keine reproduzierbare aktuelle Marke mit garantierter Feed-Latenz, daher keine Aktualisierung. HFG SHORT USER_REPORTED: gespeicherter Aktienkurs 2,988 EUR vom 06.11. 17:35 MEZ [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm), ALT; Turbo-ISIN, KO und Einstand fehlen, PnL nicht berechenbar. PTON SHORT USER_REPORTED: gespeicherter Aktienkurs 5,62 USD vom 06.11. 16:00 EST [StockAnalysis](https://stockanalysis.com/stocks/pton/), ALT; Turbo-Produktdaten fehlen, PnL nicht berechenbar. DEUTZ laut Nutzer geschlossen, nicht erneut geöffnet. Keine Ausstiege nachträglich erfunden. Morgen-Opening-Order muss VOR dem Open festgelegt werden; der tatsächliche Opening-Print wird erst danach bekannt.\n\n## Strategievergleich und Risiken\nPre-Earnings: ohne Konsens und Spread kein qualifizierter Einstieg. PEAD: ohne verifizierte Umsatz- UND EPS-Surprise keine Bestätigung. Guidance-Revision: IFX historische Aussage bekannt, späterer periodengleicher Ist-Wert fehlt. Pairs: keine 60–252 belegten Kursbeobachtungen, Korrelation null. Paperkonto 10.000 EUR Startbudget, keine Brokeranbindung, kein belegter Fill; die 0,5%-Notional-Roundtrip-Kostengrenze kann nicht bestätigt werden. Bei IBKR Deutschland mindestens 2,50 EUR Roundtrip vor Spread; bei 250 EUR Notional bereits 1%, daher nicht geeignet. [IBKR Gebührenliste, geprüft 09.11.2026](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe). Stop-Gaps können Margin überschreiten.\n\n## Dokumentenlage\nIn diesem Lauf 7 unterschiedliche öffentliche Seiten inhaltlich verwendet: Deutsche Börse, ATLAS-Kalender, Siemens Energy IR, Infineon IR, Hannover Rück IR, GEA IR und StockAnalysis/IREN; weitere Positions-Quote-Links sind nur als gespeicherte Altquellen genannt, nicht neu verifiziert. Vier Firmenevents untersucht, null qualifizierte Trades; kein 50-Quellen-Dossier erreicht. Fondsfilings, 2 aktuelle Analysten je deutschem Titel, geprüfte aktuelle Schlusskurse, Bid/Ask, Guidance-Ist-Paare und aktuelle PnL fehlen. Keine echte oder virtuelle Order ausgeführt."
+    },
+    {
+      "id": "US-20261109T173441Z",
+      "market": "US",
+      "run_at": "2026-11-09T17:34:41Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Nvidia Governance-Schock, IREN Funding-Risiko, PTON Refinanzierung; keine Paper-Orders",
+      "summary": "Intraday-Research; 0 Entries, IREN hypothetischer Referenzverlust -111.36 EUR, PTON Turbo PnL unbekannt",
+      "source_status": "Vorläufig; 2/50 NVDA, 2/50 IREN, 1/50 PTON; nicht alle Quellen sind Originalberichte",
+      "candidates": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "tv": "NASDAQ:NVDA",
+          "side": "SHORT",
+          "thesis": "Governance and regulatory uncertainty",
+          "risk": "Board review; AI rebound",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "WATCH",
+          "thesis": "AI cloud growth versus funding risk",
+          "risk": "ARR delay and capex",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton Interactive",
+          "tv": "NASDAQ:PTON",
+          "side": "WATCH",
+          "thesis": "Refinancing and earnings reset",
+          "risk": "Debt and subscriber churn",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Nvidia Board statement on independent review",
+          "publisher": "NVIDIA",
+          "published_at": "2026-11-08",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "ticker": "NVDA",
+          "finding": "Board expresses confidence in CEO and initiates review; no confirmed compromise of secrets"
+        },
+        {
+          "title": "AI selloff seen as overdone",
+          "publisher": "Reuters",
+          "published_at": "2026-11-09T14:37:00Z",
+          "url": "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/",
+          "ticker": "NVDA",
+          "finding": "Morgan Stanley, HSBC, UBS and Jefferies offer counterarguments to AI selloff"
+        },
+        {
+          "title": "IREN Q1 FY27",
+          "publisher": "IREN via GlobeNewswire",
+          "published_at": "2026-11-05T16:01:00-05:00",
+          "url": "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html",
+          "ticker": "IREN",
+          "finding": "Revenue $228m, AI cloud $200m; $4bn ARR commissioning moved to Jan or Feb"
+        },
+        {
+          "title": "Peloton share quote and refinancing",
+          "publisher": "StockAnalysis",
+          "published_at": null,
+          "url": "https://stockanalysis.com/stocks/pton/",
+          "ticker": "PTON",
+          "finding": "Nov 9 12:32 EST underlying last $5.79; $600m refinancing announcement listed"
+        },
+        {
+          "title": "Earnings calendar week Nov 9",
+          "publisher": "StockTitan",
+          "published_at": "2026-11-09T06:17:00-05:00",
+          "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026",
+          "ticker": null,
+          "finding": "166 >=$2bn companies listed; listing is not screening; TTWO Monday, CRWV Tuesday, CSCO/AMAT Thursday"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA",
+          "tv": "NASDAQ:NVDA",
+          "stance": "SHORT",
+          "horizon": "1-10 Handelstage",
+          "summary": "Governance and regulatory uncertainty",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Board expresses confidence in CEO and initiates review; no confirmed compromise of secrets",
+              "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+              "publisher": "NVIDIA",
+              "published_at": "2026-11-08"
+            },
+            {
+              "type": "FAKT",
+              "text": "Morgan Stanley, HSBC, UBS and Jefferies offer counterarguments to AI selloff",
+              "url": "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09T14:37:00Z"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Board review; AI rebound"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "AI cloud growth versus funding risk",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Revenue $228m, AI cloud $200m; $4bn ARR commissioning moved to Jan or Feb",
+              "url": "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html",
+              "publisher": "IREN via GlobeNewswire",
+              "published_at": "2026-11-05T16:01:00-05:00"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "ARR delay and capex"
+          ]
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton Interactive",
+          "tv": "NASDAQ:PTON",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Refinancing and earnings reset",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Nov 9 12:32 EST underlying last $5.79; $600m refinancing announcement listed",
+              "url": "https://stockanalysis.com/stocks/pton/",
+              "publisher": "StockAnalysis",
+              "published_at": null
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Debt and subscriber churn"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENZ",
+        "summary": "Historischer Referenzshort, kein Fill; hypothetischer Verlust",
+        "base_scenario": "Volatilität um AI-Capex und Finanzierung",
+        "bull_scenario": "Kursanstieg bei Finanzierungserfolg verschlechtert Short",
+        "bear_scenario": "Auslieferungsverzug und Finanzierungsdruck begünstigen Short",
+        "key_risk": "Short squeeze, Gap, nicht belegter Einstieg",
+        "planned_exit": "Überfällig; kein belegter Open-Print",
+        "as_of": "2026-11-09T17:34:41Z",
+        "mark_price": 22.07,
+        "mark_at": "2026-11-09T12:18:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": -111.36,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 9. November 2026, 12:34 EST\n\n## Kurzüberblick\n**KEIN TRADE**; 0 neue Fills. US-Markt regulär geöffnet. IREN-Referenzshort zeigt auf Basis des historischen, nicht belegten 18,05-USD-Einstiegs und eines verifizierten, aber potenziell verzögerten 22,07-USD-Last eine **hypothetische** lineare P&L von **−111,36 EUR** bei 500 EUR Exposure, ohne FX, Spread, Gebühren, Borrow und KO. Kein tatsächlicher Papier-Fill.\n\n## Markt und Screening\n[StockTitan, aktualisiert 09.11.2026 06:17 EST](https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026) listet 166 Unternehmen ab 2 Mrd. USD mit Earnings in der Woche, davon 65 am Montag. Das sind DISCOVERED, **nicht** 166 individuell gescreente Titel. Aus diesem Lauf wurden NVDA, IREN, PTON, TTWO, CRWV, CSCO, AMAT und SE thematisch triagiert; die letzte Gruppe besitzt keine abgeschlossene Prüfung von Spread, Bewertung, Guidance und Kosten. TTWO meldet am 09.11. nachbörslich; CRWV am 10.11., CSCO und AMAT am 12.11. [Reuters 09.11.2026 14:37 UTC](https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/) nennt Gegenpositionen von Morgan Stanley, HSBC, UBS und Jefferies zum AI-Abverkauf. Kein belastbarer systematischer Pre-Earnings-/PEAD-/Pairs-Trade mangels historischer Konsens-Snapshots und datierter Kursreihen.\n\n## Prioritäten\n**NVDA – WATCH/Short-Hypothese, vorläufig (2/50 neu geprüfte Texte).** [NVIDIA Board 08.11.2026](https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors) bestätigt eine unabhängige Prüfung, aber keinen nachgewiesenen Geheimnisverlust. [Reuters 09.11.2026](https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/) beschreibt optimistische Gegenargumente zum KI-Capex-Zyklus. [Guardian 09.11.2026, Stand 11:48 EST](https://www.theguardian.com/business/live/2026/nov/09/nvidia-jensen-huang-scandal-investigation-ai-industry-tech-stocks-recovery-slump-latest-news-updates) dokumentiert starke Intraday-Verluste; keine aktuelle Bid/Ask-Ausführung. Invalidation einer Short-These: glaubhafte Entlastung, Stabilisierung des Aktienkurses und robustes Geschäft.\n\n**IREN – WATCH, vorläufig (2/50 neu geprüfte Texte).** [IREN-Ergebnisbericht 05.11.2026 16:01 EST](https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html): Umsatz 228 Mio. USD (Vorquartal 137), AI-Cloud 200 Mio. (zuvor 71), Nettoverlust 263 Mio.; >4 Mrd. USD operatives ARR-Ziel nun Januar, eventuell Februar 2027 statt Jahresende. 15 Mrd. USD verbleibender FY27-Capex, davon 6 Mrd. USD Ziel-Finanzierung, bedingt durch Marktumfeld. Bull: Vertragsnachfrage und Finanzierungsvorauszahlungen; Bear: Ausführungs- und Verwässerungsrisiko. [StockAnalysis, Kurs 09.11.2026 12:18 EST](https://stockanalysis.com/stocks/iren/): 22,07 USD Last, Quelle CBOE bzw. bis 15 Minuten verzögerte Nasdaq-UTP-Daten, genaue Latenz nicht einzeln verifiziert. JPMorgan Richard Choe Ziel 55 statt 65 USD und Jones Kevin Dede Buy/Ziel 40 USD sind auf derselben Übersichtsseite gelistet, Originalreports nicht gelesen. Kein historischer Guidance-Erfüllungsquotient.\n\n**PTON – WATCH, vorläufig (1/50 neu geprüfter Text).** [StockAnalysis, 09.11.2026 12:32 EST](https://stockanalysis.com/stocks/pton/): Aktien-Last 5,79 USD, kein Turbo-Produktpreis. Dort wird ein heute angekündigtes Refinanzierungsvorhaben über 600 Mio. USD besicherte Anleihen erwähnt, die Originalmeldung ist noch nicht unabhängig geprüft. Die Analystenübersicht nennt Canaccord Buy/Ziel 8 statt 10 USD und Goldman Sachs Buy/Ziel 6,50 statt 7,50 USD, aber keine Originalreports. Gegen eine pauschale Short-These sprechen höhere Margen und Refinanzierungspotenzial, dafür Abonnentenrisiken und Schuldendienst.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT / PAPER-Referenz**: Historische Basis 18,05 USD, kein belegter Fill; StockAnalysis REGULAR Last 22,07 USD um 12:18 EST, [Quelle](https://stockanalysis.com/stocks/iren/). Bei historisch angenommenen 100 EUR Margin ×5: 500×(1−22,07/18,05)=**−111,36 EUR**, nur hypothetisch, ohne FX/Spread/Gebühren/KO. Ursprünglich geplanter Exit ist überfällig und nicht nachgewiesen; keine Schließung buchen. Basis-/Bull-/Bear-Szenario abhängig von AI-Finanzierung, Kundenauslieferung und Kursreaktion.\n- **PTON SHORT / USER_REPORTED Turbo**: Aktien-Last 5,79 USD um 12:32 EST REGULAR, [Quelle](https://stockanalysis.com/stocks/pton/). Einstieg/ISIN/KO und Zertifikatkurs fehlen; PnL **nicht berechenbar**. Keine simulierte Schließung.\n- **HFG SHORT / USER_REPORTED Turbo**: Letzte gespeicherte Aktienmarke 2,988 EUR vom 06.11.2026 17:35 CET, [Quelle](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm), **ALT**, keine neue verifizierte Marke; Einstieg/ISIN/KO fehlen, PnL **nicht berechenbar**.\n\n## Handelsentscheidung und Lücken\n**KEIN TRADE**, da 12:34 EST kein autorisierter 15:30-Entry-Slot ist und kein authentifizierter Paper-Broker angebunden ist. Paper-Budget 10.000 EUR ist nur Modellkapital. Keine belastbaren Bid/Ask-Spreads, Borrow, FX-/Finanzierungs- und Roundtrip-Kosten für neue Signale. Keine 13F-Originalpaare, 60–252-Tage-Pairs-Korrelation oder historische Guidance-Ist-Scorecards vollständig geprüft. Kein neuer Fill, kein bestätigter Exit. Kursquellen nicht als tickgenau TradingView Live interpretieren.",
+      "report_sections": [
+        {
+          "heading": "Offene Positionen",
+          "summary": "IREN hypothetisch -111.36 EUR; PTON/HFG nicht berechenbar",
+          "bullets": []
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -10216,10 +10400,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-09T14:34:45Z",
-      "status": "INCOMPLETE",
-      "stance": "SHORT",
-      "summary": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
+      "as_of": "2026-11-09T17:34:41Z",
+      "status": "PRELIMINARY",
+      "stance": "WATCH",
+      "summary": "AI cloud growth versus funding risk",
       "source_goal": 50,
       "source_documents": [
         {
@@ -10464,11 +10648,11 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Vergleiche nicht neu verifiziert",
       "key_unknowns": [
-        "Aktuelle handelbare Quote",
-        "Kosten und Spreads",
-        "Historische 13F-Vergleiche"
+        "historical guidance verification",
+        "13F comparisons",
+        "borrow/spread/cost"
       ],
-      "method_note": "Nur geöffnete eindeutige URLs gezählt",
+      "method_note": "Only individually opened documents counted; index snippets excluded",
       "analyst_coverage": "Lewis/BTIG und Ng/Goldman 06.11.2026 via StockAnalysis/TipRanks; nicht Originalresearch"
     },
     "APP": {
@@ -11648,18 +11832,18 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-07T00:32:23Z",
+      "as_of": "2026-11-09T17:34:41Z",
       "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Margin recovery vs subscriber decline",
+      "summary": "Refinancing and earnings reset",
       "source_goal": 50,
       "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
       "key_unknowns": [
-        "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
-        "Aktuelle 13F Originalfilings nicht paarweise geprüft",
-        "50 independent verified sources not yet reached; two original 13F filings not checked"
+        "historical guidance verification",
+        "13F comparisons",
+        "borrow/spread/cost"
       ],
-      "method_note": "Deduplicated opened URLs; do not infer 13F flow, quote latency or management forecast success rate.",
+      "method_note": "Only individually opened documents counted; index snippets excluded",
       "analyst_coverage": "Nicht vollständig verifiziert"
     },
     "G1A": {
@@ -11810,12 +11994,12 @@
     },
     "NVDA": {
       "ticker": "NVDA",
-      "name": "Nvidia",
+      "name": "NVIDIA",
       "tv": "NASDAQ:NVDA",
-      "as_of": "2026-11-09T14:34:45Z",
-      "status": "INCOMPLETE",
+      "as_of": "2026-11-09T17:34:41Z",
+      "status": "PRELIMINARY",
       "stance": "SHORT",
-      "summary": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+      "summary": "Governance and regulatory uncertainty",
       "source_goal": 50,
       "source_documents": [
         {
@@ -11827,6 +12011,26 @@
           "finding": "Nvidia etwa 5% schwächer vor Handelsbeginn; Board-Untersuchung, kein erwiesener Geheimnisabfluss.",
           "checked_on": "2026-11-09T14:34:45Z",
           "doc_type": "news"
+        },
+        {
+          "id": "NVDA-2",
+          "title": "Nvidia Board statement on independent review",
+          "publisher": "NVIDIA",
+          "published_at": "2026-11-08",
+          "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "finding": "Board expresses confidence in CEO and initiates review; no confirmed compromise of secrets",
+          "checked_on": "2026-11-09T17:34:41Z",
+          "doc_type": "web_article"
+        },
+        {
+          "id": "NVDA-3",
+          "title": "AI selloff seen as overdone",
+          "publisher": "Reuters",
+          "published_at": "2026-11-09T14:37:00Z",
+          "url": "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/",
+          "finding": "Morgan Stanley, HSBC, UBS and Jefferies offer counterarguments to AI selloff",
+          "checked_on": "2026-11-09T17:34:41Z",
+          "doc_type": "web_article"
         }
       ],
       "financial_history": [],
@@ -11834,11 +12038,11 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Vergleiche nicht neu verifiziert",
       "key_unknowns": [
-        "Aktuelle handelbare Quote",
-        "Kosten und Spreads",
-        "Historische 13F-Vergleiche"
+        "historical guidance verification",
+        "13F comparisons",
+        "borrow/spread/cost"
       ],
-      "method_note": "Nur geöffnete eindeutige URLs gezählt",
+      "method_note": "Only individually opened documents counted; index snippets excluded",
       "analyst_coverage": []
     },
     "ENR": {
@@ -11878,8 +12082,8 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T17:04:03Z",
-    "method_note": "Xetra Nachbörse: vier Firmenquellen geprüft, Kalenderlistungen nicht als gescreent gezählt.",
+    "as_of": "2026-11-09T17:34:41Z",
+    "method_note": "166 calendar listings discovered, not screened. This run triaged event headlines; no qualified cost-verified signals.",
     "coverage": {
       "universe_checked": 4,
       "earnings_events": 3,
@@ -12505,20 +12709,20 @@
       },
       {
         "ticker": "PTON",
-        "name": "Peloton",
+        "name": "Peloton Interactive",
         "tv": "NASDAQ:PTON",
         "market": "US",
-        "sector": "Consumer fitness",
-        "direction": "REVIEW",
-        "reason": "User open Turbo, verified underlying close",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Refinancing and earnings reset",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "User open Turbo, verified underlying close",
+        "event": "Refinancing and earnings reset",
         "score": null,
         "sources": [
           "https://stockanalysis.com/stocks/pton/"
         ],
-        "as_of": "2026-11-06T22:29:47Z"
+        "as_of": "2026-11-09T17:34:41Z"
       },
       {
         "ticker": "B",
@@ -12929,20 +13133,21 @@
       },
       {
         "ticker": "NVDA",
-        "name": "Nvidia",
+        "name": "NVIDIA",
         "tv": "NASDAQ:NVDA",
         "market": "US",
         "sector": null,
         "direction": "SHORT",
-        "reason": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+        "reason": "Governance and regulatory uncertainty",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+        "event": "Governance and regulatory uncertainty",
         "score": null,
         "sources": [
-          "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b"
+          "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+          "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/"
         ],
-        "as_of": "2026-11-09T14:34:45Z"
+        "as_of": "2026-11-09T17:34:41Z"
       },
       {
         "ticker": "IREN",
@@ -12950,16 +13155,16 @@
         "tv": "NASDAQ:IREN",
         "market": "US",
         "sector": null,
-        "direction": "SHORT",
-        "reason": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
+        "direction": "WATCH",
+        "reason": "AI cloud growth versus funding risk",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
+        "event": "AI cloud growth versus funding risk",
         "score": null,
         "sources": [
-          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
+          "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html"
         ],
-        "as_of": "2026-11-09T14:34:45Z"
+        "as_of": "2026-11-09T17:34:41Z"
       },
       {
         "ticker": "CRWV",
@@ -13449,6 +13654,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261109T170403Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": null,
+        "earnings_events": null,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T173441Z"
       }
     ],
     "strategies": [
