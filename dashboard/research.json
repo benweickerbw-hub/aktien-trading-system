@@ -1,6 +1,6 @@
 {
-  "version": 51,
-  "updated_at": "2026-11-09T12:57:00Z",
+  "version": 52,
+  "updated_at": "2026-11-09T13:30:32Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -8767,6 +8767,275 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261109T133032Z",
+      "market": "US",
+      "run_at": "2026-11-09T13:30:32Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Vorbörse: Earnings CEG/KKR/NRG; TTWO/RKLB nach Schluss",
+      "summary": "0 neue Entries; IREN Referenz-Vorbörse 20,84 USD um 08:26 EST; PTON 5,68 USD um 07:53 EST. Keine qualifizierten Trades.",
+      "source_status": "6 öffentliche Seiten geöffnet, 0 neue Originaldokumente je Deep-Dive-Kandidat; vorläufig",
+      "candidates": [
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NYSE:CEG",
+          "side": "WATCH",
+          "thesis": "Earnings-Termin am 09.11.; Bericht und Guidance nach Veröffentlichung prüfen",
+          "risk": "Überraschung, Konsens, Spread und Originalfiling noch nicht verifiziert",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KKR",
+          "name": "KKR & Co",
+          "tv": "NYSE:KKR",
+          "side": "WATCH",
+          "thesis": "Earnings-Termin am 09.11.; Bericht und Guidance nach Veröffentlichung prüfen",
+          "risk": "Überraschung, Konsens, Spread und Originalfiling noch nicht verifiziert",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NRG",
+          "name": "NRG Energy",
+          "tv": "NYSE:NRG",
+          "side": "WATCH",
+          "thesis": "Earnings-Termin am 09.11.; Bericht und Guidance nach Veröffentlichung prüfen",
+          "risk": "Überraschung, Konsens, Spread und Originalfiling noch nicht verifiziert",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TTWO",
+          "name": "Take-Two Interactive",
+          "tv": "NASDAQ:TTWO",
+          "side": "WATCH",
+          "thesis": "Earnings-Termin am 09.11.; Bericht und Guidance nach Veröffentlichung prüfen",
+          "risk": "Überraschung, Konsens, Spread und Originalfiling noch nicht verifiziert",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RKLB",
+          "name": "Rocket Lab",
+          "tv": "NASDAQ:RKLB",
+          "side": "WATCH",
+          "thesis": "Earnings-Termin am 09.11.; Bericht und Guidance nach Veröffentlichung prüfen",
+          "risk": "Überraschung, Konsens, Spread und Originalfiling noch nicht verifiziert",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Earningskalender 09.11.2026",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "StockDesk",
+          "url": "https://thetradinghabit.com/earnings/2026-11-09",
+          "finding": "241 gelistete Unternehmen, nicht einzeln geprüft"
+        },
+        {
+          "title": "Große Earnings vor/nach US-Handel",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "Investingly",
+          "url": "https://investingly.io/earnings-calendar/2026-11-09",
+          "finding": "CEG, KKR, NRG vorbörslich; TTWO, RKLB nachbörslich"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NYSE:CEG",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings-Event gelistet; weitere Originalrecherche erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Für 09.11.2026 im Earningskalender gelistet",
+              "url": "https://investingly.io/earnings-calendar/2026-11-09",
+              "publisher": "Investingly",
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Ergebnisbericht, Bid/Ask, Guidance und Analystenrevisionen noch nicht geprüft",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings"
+          ],
+          "invalidations": [
+            "Keine bestätigte EPS- und Umsatzüberraschung"
+          ]
+        },
+        {
+          "ticker": "KKR",
+          "name": "KKR & Co",
+          "tv": "NYSE:KKR",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings-Event gelistet; weitere Originalrecherche erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Für 09.11.2026 im Earningskalender gelistet",
+              "url": "https://investingly.io/earnings-calendar/2026-11-09",
+              "publisher": "Investingly",
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Ergebnisbericht, Bid/Ask, Guidance und Analystenrevisionen noch nicht geprüft",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings"
+          ],
+          "invalidations": [
+            "Keine bestätigte EPS- und Umsatzüberraschung"
+          ]
+        },
+        {
+          "ticker": "NRG",
+          "name": "NRG Energy",
+          "tv": "NYSE:NRG",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings-Event gelistet; weitere Originalrecherche erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Für 09.11.2026 im Earningskalender gelistet",
+              "url": "https://investingly.io/earnings-calendar/2026-11-09",
+              "publisher": "Investingly",
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Ergebnisbericht, Bid/Ask, Guidance und Analystenrevisionen noch nicht geprüft",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings"
+          ],
+          "invalidations": [
+            "Keine bestätigte EPS- und Umsatzüberraschung"
+          ]
+        },
+        {
+          "ticker": "TTWO",
+          "name": "Take-Two Interactive",
+          "tv": "NASDAQ:TTWO",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings-Event gelistet; weitere Originalrecherche erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Für 09.11.2026 im Earningskalender gelistet",
+              "url": "https://investingly.io/earnings-calendar/2026-11-09",
+              "publisher": "Investingly",
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Ergebnisbericht, Bid/Ask, Guidance und Analystenrevisionen noch nicht geprüft",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings"
+          ],
+          "invalidations": [
+            "Keine bestätigte EPS- und Umsatzüberraschung"
+          ]
+        },
+        {
+          "ticker": "RKLB",
+          "name": "Rocket Lab",
+          "tv": "NASDAQ:RKLB",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings-Event gelistet; weitere Originalrecherche erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Für 09.11.2026 im Earningskalender gelistet",
+              "url": "https://investingly.io/earnings-calendar/2026-11-09",
+              "publisher": "Investingly",
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Ergebnisbericht, Bid/Ask, Guidance und Analystenrevisionen noch nicht geprüft",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings"
+          ],
+          "invalidations": [
+            "Keine bestätigte EPS- und Umsatzüberraschung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_SHORT",
+        "summary": "Nur hypothetische Referenz, kein bestätigter Fill",
+        "base_scenario": "Volatilität nach Earnings",
+        "bull_scenario": "Aktie fällt",
+        "bear_scenario": "Aktie steigt oder Short-Squeeze",
+        "key_risk": "Hohe Volatilität, kein verifizierter historischer Fill",
+        "planned_exit": "Erst nach verifiziertem Open-Print, keine rückdatierte Schließung",
+        "as_of": "2026-11-09T13:30:32Z",
+        "mark_price": 20.84,
+        "mark_at": "2026-11-09T08:26:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Vorbörsencheck – 09.11.2026, 08:30 EST\n\n## Markt und Earnings\nNYSE/Nasdaq regulär 09:30–16:00 EST; heute regulärer Handelstag. [NYSE-Handelskalender](https://www.nyse.com/trade/hours-calendars), abgerufen 09.11.2026. [StockDesk-Earningskalender](https://thetradinghabit.com/earnings/2026-11-09), abgerufen 09.11.2026, listet 241 Termine, **nicht** 241 geprüfte Aktien. Zweiter [Earningskalender](https://investingly.io/earnings-calendar/2026-11-09), abgerufen 09.11.2026, nennt CEG, KKR, B, FERG, NRG vorbörslich sowie OXY, TTWO, RKLB, ASTS nachbörslich. Kalender-Konsenswerte unterscheiden sich zwischen Anbietern; keine als gesicherte Vorab-Analystenschätzung übernommen.\n\n## Screening und Kandidaten\nCEG (Energie), KKR (Alternative Assets), NRG (Energie), TTWO (Gaming), RKLB (Raumfahrt) als DISCOVERED/WATCH für die folgenden Checks. Es wurden keine individuellen aktuellen SEC-Originalfilings, IR-Ergebnisberichte oder verlässlichen Bid/Ask-Spreads geprüft. Deshalb 0 QUALIFIED und 0 neue Paper-Fills. Vier Strategien: Pre-Earnings, PEAD, Guidance-Revision, Pairs – aktuell jeweils ohne ausreichend geprüfte Überraschung/Guidance/Korrelation; keine belastbare Long/Short-Auswahl. Analysten-Updates und zwei unabhängige 13F-Vergleiche: nicht verifiziert. 50-Quellen-Master-Dossiers: in diesem Lauf 0 neue qualifizierende Originaldokumente pro Kandidat, vorläufig.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister: IREN SHORT PAPER, ausdrücklich nur Referenz, historischer 18,05-USD-Basiswert kein belegter Fill. [StockAnalysis IREN](https://stockanalysis.com/stocks/iren/), Abruf 09.11.2026: Vorbörse 20,84 USD um 08:26 EST, 06.11.-Schluss 21,64 USD. Referenz-PnL bei 20,84 USD: 500×(1−20,84/18,05)=−77,29 EUR, ohne Kosten/FX/KO; **keine tatsächliche Paper-Performance**. IREN-Exitdatum im Register verstrichen, ohne nachgewiesenen Open-Print kein Close.\nPTON SHORT USER_REPORTED Turbo: [StockAnalysis PTON](https://stockanalysis.com/stocks/pton/), Vorbörse 5,68 USD um 07:53 EST, Schluss 06.11. 5,61 USD. Der zugrundeliegende Aktienkurs ist kein Turbopreis; Einstand/ISIN/KO fehlen, PnL nicht berechenbar. HFG SHORT USER_REPORTED Turbo: [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm) geprüft, kein zeitgenau belegter neuer Basiswertkurs für diesen Lauf; letzter gespeicherter Kurs 2,988 EUR (06.11., 17:35 CET), ALT. PnL nicht berechenbar. DEUTZ ist CLOSED_REPORTED, nicht offen.\n\n## Risiko und Entscheidung\nPaper-Modellstartkapital 10.000 EUR, keine authentifizierte Paper-Broker-Verbindung. Variable Margins, Mindestkosten, Spread, FX, Slippage und Borrow müssen vor einem möglichen Signal geprüft werden. Vorbörslich ausdrücklich **KEIN TRADE**, keine neuen Entries, keine Brokerorders. IREN bleibt Risikoreferenz, nicht als bestätigter Fill. Keine Kursmarke aus einem TradingView-Widget übernommen. Nächster Research-Check nach regulärer Eröffnung; die 15:30-Entscheidung ist separat.\n\n## Quellenstatus\nSechs öffentlich geöffnete Webdokumente (NYSE, zwei Earningskalender, IREN, PTON, HFG), davon null neue SEC-/IR-Originaldokumente. Kein 50/50-Dossier abgeschlossen.",
+      "report_sections": [
+        {
+          "heading": "Earnings",
+          "summary": "Vor-/nachbörsliche Termine",
+          "bullets": [
+            {
+              "text": "CEG, KKR, NRG, TTWO, RKLB",
+              "url": "https://investingly.io/earnings-calendar/2026-11-09",
+              "publisher": "Investingly",
+              "checked_at": "2026-11-09T13:30:32Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -10320,13 +10589,13 @@
     }
   },
   "screening": {
-    "status": "UPDATED",
-    "as_of": "2026-11-09T12:57:00Z",
-    "method_note": "4 verifizierte eindeutige Ticker in diesem Lauf; andere Einträge aus früheren Läufen erhalten.",
+    "status": "PRELIMINARY",
+    "as_of": "2026-11-09T13:30:32Z",
+    "method_note": "Nur Event-Discovery; keine fünf Einzelaktien vollständig gescreent. Andere Märkte/ältere Einträge erhalten.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 2,
-      "triaged": 4,
+      "universe_checked": 0,
+      "earnings_events": 5,
+      "triaged": 0,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -10640,23 +10909,6 @@
         "as_of": "2026-11-05T21:02:00+01:00"
       },
       {
-        "ticker": "KKR",
-        "name": "KKR & Co",
-        "tv": "NYSE:KKR",
-        "market": "US",
-        "sector": "Financials",
-        "direction": "REVIEW",
-        "reason": "Nov 9 earnings calendar",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-09",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://www.tipranks.com/calendars/earnings/2026-11-9"
-        ],
-        "as_of": "2026-11-06T19:27:53Z"
-      },
-      {
         "ticker": "OXY",
         "name": "Occidental Petroleum",
         "tv": "NYSE:OXY",
@@ -10667,40 +10919,6 @@
         "stage": "DISCOVERED",
         "earnings_at": "2026-11-09",
         "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
-        "score": null,
-        "sources": [
-          "https://portfolio-terminal.com/earnings-calendar/november-2026"
-        ],
-        "as_of": "2026-11-05T21:02:00+01:00"
-      },
-      {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "tv": "NASDAQ:TTWO",
-        "market": "US",
-        "sector": "Gaming",
-        "direction": "NEUTRAL",
-        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-09",
-        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
-        "score": null,
-        "sources": [
-          "https://portfolio-terminal.com/earnings-calendar/november-2026"
-        ],
-        "as_of": "2026-11-05T21:02:00+01:00"
-      },
-      {
-        "ticker": "NRG",
-        "name": "NRG Energy",
-        "tv": "NYSE:NRG",
-        "market": "US",
-        "sector": "Versorger",
-        "direction": "NEUTRAL",
-        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-09",
-        "event": "Möglicher Quartalsbericht BMO (Kalenderhinweis, noch nicht offiziell bestätigt)",
         "score": null,
         "sources": [
           "https://portfolio-terminal.com/earnings-calendar/november-2026"
@@ -11049,40 +11267,6 @@
         "as_of": "2026-11-06T22:29:47Z"
       },
       {
-        "ticker": "CEG",
-        "name": "Constellation Energy",
-        "tv": "NYSE:CEG",
-        "market": "US",
-        "sector": "Utilities",
-        "direction": "REVIEW",
-        "reason": "Nov 9 earnings calendar",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-09",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://www.tipranks.com/calendars/earnings/2026-11-9"
-        ],
-        "as_of": "2026-11-06T19:27:53Z"
-      },
-      {
-        "ticker": "RKLB",
-        "name": "Rocket Lab",
-        "tv": "NASDAQ:RKLB",
-        "market": "US",
-        "sector": "Aerospace",
-        "direction": "REVIEW",
-        "reason": "Nov 9 earnings calendar",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-09",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://www.tipranks.com/calendars/earnings/2026-11-9"
-        ],
-        "as_of": "2026-11-06T19:27:53Z"
-      },
-      {
         "ticker": "B",
         "name": "Barrick Mining",
         "tv": "NYSE:B",
@@ -11424,6 +11608,91 @@
           "https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/"
         ],
         "as_of": "2026-11-09T12:57:00Z"
+      },
+      {
+        "ticker": "CEG",
+        "name": "Constellation Energy",
+        "tv": "NYSE:CEG",
+        "market": "US",
+        "sector": "Energy",
+        "direction": "WATCH",
+        "reason": "Earningskalender 09.11.2026",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-09"
+        ],
+        "as_of": "2026-11-09T13:30:32Z"
+      },
+      {
+        "ticker": "KKR",
+        "name": "KKR & Co",
+        "tv": "NYSE:KKR",
+        "market": "US",
+        "sector": "Financials",
+        "direction": "WATCH",
+        "reason": "Earningskalender 09.11.2026",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-09"
+        ],
+        "as_of": "2026-11-09T13:30:32Z"
+      },
+      {
+        "ticker": "NRG",
+        "name": "NRG Energy",
+        "tv": "NYSE:NRG",
+        "market": "US",
+        "sector": "Energy",
+        "direction": "WATCH",
+        "reason": "Earningskalender 09.11.2026",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-09"
+        ],
+        "as_of": "2026-11-09T13:30:32Z"
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "tv": "NASDAQ:TTWO",
+        "market": "US",
+        "sector": "Gaming",
+        "direction": "WATCH",
+        "reason": "Earningskalender 09.11.2026",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-09"
+        ],
+        "as_of": "2026-11-09T13:30:32Z"
+      },
+      {
+        "ticker": "RKLB",
+        "name": "Rocket Lab",
+        "tv": "NASDAQ:RKLB",
+        "market": "US",
+        "sector": "Aerospace",
+        "direction": "WATCH",
+        "reason": "Earningskalender 09.11.2026",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-09",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-09"
+        ],
+        "as_of": "2026-11-09T13:30:32Z"
       }
     ],
     "pairs": [],
@@ -11778,6 +12047,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261109T125700Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 0,
+        "earnings_events": 5,
+        "triaged": 0,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T133032Z"
       }
     ],
     "strategies": [
