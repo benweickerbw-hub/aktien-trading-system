@@ -1,6 +1,6 @@
 {
-  "version": 59,
-  "updated_at": "2026-11-09T16:30:38Z",
+  "version": 60,
+  "updated_at": "2026-11-09T17:04:03Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -10015,6 +10015,200 @@
         "reference_only": true
       },
       "report_markdown": "# US-Aktienresearch – 09.11.2026, 11:30 EST\n\n## Markt und Nachrichten\nReguläre NYSE/Nasdaq-Sitzung. Reuters meldete für 09:46 EST S&P 500 +1,48%, Nasdaq Composite +1,87%, Dow +1,27%, während NVDA wegen einer Untersuchung zu Vorwürfen um den CEO unter Druck stand. Diese Werte sind ein historischer Intraday-Snapshot, kein Kurs um 11:30. Der US-Oktober-CPI ist für 10.11. angekündigt (Reuters, 09.11.): [Marktbericht](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/).\n\n## Screening / Watch\nNVDA: WATCH, eventgetriebener Governance-Risiko-Short, aber Rebound-/Headline-Risiko hoch; aktuelle Bid/Ask nicht verifiziert. IREN: WATCH, operative AI-Cloud-Umsätze im Septemberquartal 200 Mio. USD, Gesamtumsatz 228 Mio. USD gegenüber LSEG-Konsens 221,28 Mio.; Ziel >4 Mrd. USD annualisierter Runrate von Jahresende auf Januar, eventuell Februar verschoben; geplante Investitionen ca. 15 Mrd. USD im verbleibenden Geschäftsjahr. Risiko: Finanzierung, Capex, Kundentermine; Gegenthese: Nachfrage und große Verträge. [Reuters, 05./06.11.](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/). IONS: WATCH/SHORT-Hypothese nach Kürzung der Tryngolza-Umsatzerwartung, aber hohe Gegenbewegungsgefahr; [Barron's, 09.11.](https://www.barrons.com/articles/ionis-earnings-stock-price-dea3238e) ist nur teilweise öffentlich lesbar. MRVL/AVGO: DISCOVERED aus Marktbericht, kein vollständiger Einzeltitelscreen. TTD: DISCOVERED als bevorstehender Earnings-Name, Termin/Consensus nicht primärverifiziert.\n\n## Methoden und Forschungsstand\nNeu vollständig geöffnete eigenständige Artikel: Reuters Marktbericht 1, Reuters IREN 1, Barron's IONS teilweise 1; kein Titel erreicht 50/50. SEC-Originalberichte, 13F-Paarvergleiche, zwei aktuelle Analystenvoten je Titel, konsistente historische Guidance-Scorecard, 60–252-Tage-Korrelationen und zeitnahe handelbare Spreads: nicht verifiziert. PRE-EARNINGS, PEAD, GUIDANCE und PAIRS derzeit ohne ausreichend belastbare Daten für Netto-Edge; keine 13F-Transaktionen behauptet. Verifizierte qualifizierte Trades: 0. Alle Meinungen vorläufig.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nRegister geprüft: IREN OPEN_SIMULATED, aber 18,05 USD ausdrücklich nur hypothetischer Referenz-Einstieg, kein authentischer Fill; aktuelle zeitgestempelte Quote nicht verifiziert, PnL nicht berechenbar. HFG und PTON OPEN_UNVERIFIED (Nutzer-Turbos), Einstand/ISIN/KO/Produktquote fehlen, PnL nicht berechenbar. HFG Xetra-Schlusskurs 06.11. 2,988 EUR ist ALT und kein Turbo-Preis: [Yahoo Finance](https://uk.finance.yahoo.com/quote/HFG.DE/history/). Keine Position geschlossen, keine neue Markierung ohne neueren verifizierten Kurs.\n\n## Handelsentscheidung und Kapital\nKEIN TRADE, 0 Fills. Paper-Kapitalmodell 10.000 EUR; keine authentifizierte Paper-Brokerverbindung, daher ausschließlich Research/Signals. Neue Entries erst bei überprüftem Spread, Gebühren, Stop, Chance-Risiko und authentischem Paper-Fill. Keine echte Order. Dashboard-GitHub dient ausschließlich Persistenz, nicht Kursrecherche."
+    },
+    {
+      "id": "XETRA-20261109T170403Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T17:04:03Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Nachbörse: ENR/IFX/HNR1 Ereignisse, keine Fills",
+      "summary": "Vier Unternehmensereignisse geprüft; offene Referenz- und Nutzerpositionen ohne neue belastbare Marken.",
+      "source_status": "7 unterschiedliche öffentlich zugängliche Seiten inhaltlich verwendet; keine vollständigen Dossiers",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "Earnings 11.11. 07:00",
+          "risk": "Konsens, Spread und aktuelle Quote fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "WATCH",
+          "thesis": "Earnings laut Kalender 10.11.",
+          "risk": "Konsens, Spread und aktuelle Quote fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "side": "WATCH",
+          "thesis": "Quartalsbericht 09.11.",
+          "risk": "Konsens, Spread und aktuelle Quote fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "side": "WATCH",
+          "thesis": "Neues Produkt, Ergebnisdatum laut Kalender",
+          "risk": "Konsens, Spread und aktuelle Quote fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Energy kündigt Q4/FY2026 Zahlen am 11. November 07:00 MEZ an",
+          "publisher": "Siemens Energy IR",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+          "finding": "Earnings-Termin vor Xetra-Öffnung; Zahlen noch nicht verfügbar."
+        },
+        {
+          "title": "Hannover Rück Quartalsbericht zum 30. September am 9. November",
+          "publisher": "Hannover Rück IR",
+          "published_at": "2026-11-09",
+          "ticker": "HNR1",
+          "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+          "finding": "Berichtstermin bestätigt; tatsächliche Zahlen in diesem Lauf nicht verifiziert."
+        },
+        {
+          "title": "Infineon: FY26 Q1 Guidance und AI-Investitionen",
+          "publisher": "Infineon IR",
+          "published_at": "2026-02-04",
+          "ticker": "IFX",
+          "url": "https://www.infineon.com/press-release/2026/infxx202602-042",
+          "finding": "Damals Capex auf 2,7 Mrd. EUR angehoben, Adjusted FCF Ziel 1,4 Mrd. EUR; späterer Ist-Vergleich offen."
+        },
+        {
+          "title": "GEA AdaptAx Produkteinführung",
+          "publisher": "GEA",
+          "published_at": "2026-11-06",
+          "ticker": "G1A",
+          "url": "https://www.gea.com/tr/news/trade-press/2026/braubeviale-adaptax-orbital-cleaner/",
+          "finding": "Neues Reinigungsprodukt; kein belegter unmittelbarer Earnings-Effekt."
+        },
+        {
+          "title": "IREN Analystenziele mehrfach reduziert",
+          "publisher": "StockAnalysis/TipRanks",
+          "published_at": "2026-11-09",
+          "ticker": "IREN",
+          "url": "https://stockanalysis.com/stocks/iren/forecast/",
+          "finding": "J.P. Morgan Richard Choe Ziel 65 auf 55 USD am 9.11.; weitere Reduktionen am 6.11."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings 11.11. 07:00",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Earnings 11.11. 07:00",
+              "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+              "publisher": "Siemens Energy IR",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Ergebnisveröffentlichung",
+          "invalidations": "Fehlende oder enttäuschende Guidance; Kurs-/Kostenprüfung offen"
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings laut Kalender 10.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Earnings laut Kalender 10.11.",
+              "url": "https://www.infineon.com/press-release/2026/infxx202602-042",
+              "publisher": "Infineon IR",
+              "published_at": "2026-02-04"
+            }
+          ],
+          "catalysts": "Ergebnisveröffentlichung",
+          "invalidations": "Fehlende oder enttäuschende Guidance; Kurs-/Kostenprüfung offen"
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Quartalsbericht 09.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Quartalsbericht 09.11.",
+              "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+              "publisher": "Hannover Rück IR",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": "Ergebnisveröffentlichung",
+          "invalidations": "Fehlende oder enttäuschende Guidance; Kurs-/Kostenprüfung offen"
+        },
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Neues Produkt, Ergebnisdatum laut Kalender",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Neues Produkt, Ergebnisdatum laut Kalender",
+              "url": "https://www.gea.com/tr/news/trade-press/2026/braubeviale-adaptax-orbital-cleaner/",
+              "publisher": "GEA",
+              "published_at": "2026-11-06"
+            }
+          ],
+          "catalysts": "Ergebnisveröffentlichung",
+          "invalidations": "Fehlende oder enttäuschende Guidance; Kurs-/Kostenprüfung offen"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Nicht ausgeführter Referenzshort; alter Mark",
+        "base_scenario": "Volatilität um AI-Finanzierung",
+        "bull_scenario": "Kursrückgang",
+        "bear_scenario": "Short squeeze",
+        "key_risk": "Nicht belegter Fill und Hebelrisiko",
+        "planned_exit": "Nur nach vorab festgelegtem, überprüfbarem Signal",
+        "as_of": "2026-11-09T17:04:03Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Nachbörsenresearch – 09.11.2026, 18:04 MEZ\n\n## Push\nXetra-Kernhandel beendet (09:00–17:30 MEZ). Neue Paper-Fills: 0. Prioritäten: Siemens Energy (11.11.), Infineon (10.11. laut Sekundärkalender), Hannover Rück (09.11.). Keine verifizierte aktuelle P&L.\n\n## Markt und Screening\n[Deutsche Börse, Handelskalender, geprüft 09.11.2026](https://www.cashmarket.deutsche-boerse.com/cash-de/Handel/handelskalender-und-zeiten): reguläre Xetra-Zeit 09:00–17:30; Retail-Nachhandel getrennt. [ATLAS Earnings-Kalender, abgerufen 09.11.2026](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026) nennt IFX, Henkel, Uniper, K+S, TAG, Jenoptik, Elmos für 10.11., Siemens Energy und E.ON für 11.11. Kalenderlistung allein ist DISCOVERED, keine geprüfte Handelsqualifikation. Eigenständig geprüft: ENR, IFX, HNR1, G1A (je mindestens eine weitere firmeneigene Seite); kein qualifizierter Trade. Liquidität, Spread, Börsenplatz-Quote, Options-IV und Kosten je Kandidat nicht verifiziert.\n\n## Priorisierte Kandidaten\n**ENR – WATCH, neutral/ereignisgetrieben:** [Siemens Energy IR, Termin 11.11.2026](https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html): Q4/GJ 2026 am 11.11. um 07:00 MEZ, Pressekonferenz 08:00. Bull: mögliche Auftrags-/Margenstärke; Bear: hohe Erwartungen und Projekt-/Windrisiken. EPS-/Umsatzkonsens, historischer Guidance-Ist-Abgleich und zwei aktuelle Analystenvoten nicht verifiziert. Keine Order vor Earnings.\n\n**IFX – WATCH, neutral:** [Infineon IR, 04.02.2026](https://www.infineon.com/press-release/2026/infxx202602-042): Capex damals auf ca. 2,7 Mrd. EUR erhöht, Adjusted FCF auf ca. 1,4 Mrd. EUR gesenkt, AI-Power-Segment als Treiber. [ATLAS, abgerufen 09.11.2026](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026): Ergebnisse 10.11. vor Börsenbeginn. Bull: AI-Power-Nachfrage; Bear: Investitionsbedarf/zyklisches Industriegeschäft. FY26 Ist-Werte noch nicht geprüft, daher Guidance-Scorecard offen.\n\n**HNR1 – WATCH, neutral:** [Hannover Rück IR, abgerufen 09.11.2026](https://www.hannover-re.com/en/investors/events-and-presentations/): Quartalsbericht am 09.11. sowie Investorenkonferenz am 11.11. verzeichnet. Q3-Ist-Zahlen, Schadenquote, Analystenrevisionen nicht unabhängig geprüft; kein PEAD-Signal.\n\n**G1A – DISCOVERED:** [GEA, 06.11.2026](https://www.gea.com/tr/news/trade-press/2026/braubeviale-adaptax-orbital-cleaner/) stellt AdaptAx mit behaupteter bis zu 30% höherer Reinigungsleistung vor. Umsatz-/Margenwirkung nicht quantifiziert; kein Trading-Signal.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nAus dem zu Laufbeginn gelesenen Positionsregister: IREN SHORT, als OPEN_SIMULATED markiert, tatsächlich nur REFERENZ (18,05 USD vom 05.11., kein belegter Fill); letzter gespeicherter Mark 21,68 USD, 06.11. 19:24 EST, AFTERHOURS, [StockAnalysis](https://stockanalysis.com/stocks/iren/). Dieser Mark ist ALT; gespeicherte -100,55 EUR sind kein aktueller Handelsgewinn/-verlust. Am 09.11. zeigte [StockAnalysis, abgerufen 09.11.](https://stockanalysis.com/stocks/iren/) unterschiedliche intraday Momentaufnahmen, darunter 20,55 USD 09:41 EST; keine reproduzierbare aktuelle Marke mit garantierter Feed-Latenz, daher keine Aktualisierung. HFG SHORT USER_REPORTED: gespeicherter Aktienkurs 2,988 EUR vom 06.11. 17:35 MEZ [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm), ALT; Turbo-ISIN, KO und Einstand fehlen, PnL nicht berechenbar. PTON SHORT USER_REPORTED: gespeicherter Aktienkurs 5,62 USD vom 06.11. 16:00 EST [StockAnalysis](https://stockanalysis.com/stocks/pton/), ALT; Turbo-Produktdaten fehlen, PnL nicht berechenbar. DEUTZ laut Nutzer geschlossen, nicht erneut geöffnet. Keine Ausstiege nachträglich erfunden. Morgen-Opening-Order muss VOR dem Open festgelegt werden; der tatsächliche Opening-Print wird erst danach bekannt.\n\n## Strategievergleich und Risiken\nPre-Earnings: ohne Konsens und Spread kein qualifizierter Einstieg. PEAD: ohne verifizierte Umsatz- UND EPS-Surprise keine Bestätigung. Guidance-Revision: IFX historische Aussage bekannt, späterer periodengleicher Ist-Wert fehlt. Pairs: keine 60–252 belegten Kursbeobachtungen, Korrelation null. Paperkonto 10.000 EUR Startbudget, keine Brokeranbindung, kein belegter Fill; die 0,5%-Notional-Roundtrip-Kostengrenze kann nicht bestätigt werden. Bei IBKR Deutschland mindestens 2,50 EUR Roundtrip vor Spread; bei 250 EUR Notional bereits 1%, daher nicht geeignet. [IBKR Gebührenliste, geprüft 09.11.2026](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe). Stop-Gaps können Margin überschreiten.\n\n## Dokumentenlage\nIn diesem Lauf 7 unterschiedliche öffentliche Seiten inhaltlich verwendet: Deutsche Börse, ATLAS-Kalender, Siemens Energy IR, Infineon IR, Hannover Rück IR, GEA IR und StockAnalysis/IREN; weitere Positions-Quote-Links sind nur als gespeicherte Altquellen genannt, nicht neu verifiziert. Vier Firmenevents untersucht, null qualifizierte Trades; kein 50-Quellen-Dossier erreicht. Fondsfilings, 2 aktuelle Analysten je deutschem Titel, geprüfte aktuelle Schlusskurse, Bid/Ask, Guidance-Ist-Paare und aktuelle PnL fehlen. Keine echte oder virtuelle Order ausgeführt."
     }
   ],
   "deep_dives": {
@@ -11248,7 +11442,7 @@
     },
     "IFX": {
       "ticker": "IFX",
-      "name": "Infineon Technologies",
+      "name": "Infineon",
       "tv": "XETR:IFX",
       "source_goal": 50,
       "source_documents": [
@@ -11316,19 +11510,19 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-09T12:57:00Z",
-      "status": "IN_PROGRESS",
+      "as_of": "2026-11-09T17:04:03Z",
+      "status": "INCOMPLETE",
       "stance": "WATCH",
-      "summary": "Earnings 10.11.; Q4-Guidance als Benchmark",
+      "summary": "Earnings laut Kalender 10.11.",
       "key_unknowns": [
-        "Aktueller Bid/Ask",
-        "Aktuelle Analystenziele",
-        "Bewertung",
-        "Institutionelle Meldungen"
+        "Konsens",
+        "Guidance-Ist",
+        "Spread",
+        "Analysten"
       ],
-      "method_note": "Originalquellen; keine Duplikat-Syndikationen; Guidance 2026 noch offen",
+      "method_note": "Nur geöffnete eigenständige Dokumente gezählt",
       "holdings_note": "Nicht verifiziert",
-      "analyst_coverage": null
+      "analyst_coverage": "Nicht ausreichend verifiziert"
     },
     "MRNA": {
       "ticker": "MRNA",
@@ -11646,15 +11840,49 @@
       ],
       "method_note": "Nur geöffnete eindeutige URLs gezählt",
       "analyst_coverage": []
+    },
+    "ENR": {
+      "ticker": "ENR",
+      "name": "Siemens Energy",
+      "tv": "XETR:ENR",
+      "as_of": "2026-11-09T17:04:03Z",
+      "status": "INCOMPLETE",
+      "stance": "WATCH",
+      "summary": "Earnings 11.11. 07:00",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "ENR-20261109-IR",
+          "title": "Siemens Energy kündigt Q4/FY2026 Zahlen am 11. November 07:00 MEZ an",
+          "publisher": "Siemens Energy IR",
+          "published_at": "2026-11-11",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+          "finding": "Earnings-Termin vor Xetra-Öffnung; Zahlen noch nicht verfügbar.",
+          "checked_on": "2026-11-09",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Nicht verifiziert",
+      "key_unknowns": [
+        "Konsens",
+        "Guidance-Ist",
+        "Spread",
+        "Analysten"
+      ],
+      "method_note": "Nur geöffnete eigenständige Dokumente gezählt",
+      "analyst_coverage": "Nicht ausreichend verifiziert"
     }
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T16:03:20Z",
-    "method_note": "Vier gezielt recherchierte EU-Titel; weitere Kalendertitel nicht als screened gezählt.",
+    "as_of": "2026-11-09T17:04:03Z",
+    "method_note": "Xetra Nachbörse: vier Firmenquellen geprüft, Kalenderlistungen nicht als gescreent gezählt.",
     "coverage": {
       "universe_checked": 4,
-      "earnings_events": 2,
+      "earnings_events": 3,
       "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
@@ -12517,71 +12745,67 @@
         "tv": "XETR:HNR1",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Q3-Termin 09.11.",
+        "direction": "NEUTRAL",
+        "reason": "Quartalsbericht 09.11.",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Q3-Termin 09.11.",
+        "event": "Quartalsbericht 09.11.",
         "score": null,
         "sources": [
           "https://www.hannover-re.com/en/investors/events-and-presentations/"
         ],
-        "as_of": "2026-11-09T10:57:11Z"
+        "as_of": "2026-11-09T17:04:03Z"
       },
       {
         "ticker": "G1A",
-        "name": "GEA Group",
+        "name": "GEA",
         "tv": "XETR:G1A",
         "market": "XETRA",
-        "sector": "Industrials",
-        "direction": "LONG WATCH",
-        "reason": "Q3 stark; Bewertung/Spread fehlen",
-        "stage": "DEEP_DIVE",
-        "earnings_at": "2026-11-09",
-        "event": "Q3 results",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Neues Produkt, Ergebnisdatum laut Kalender",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Neues Produkt, Ergebnisdatum laut Kalender",
         "score": null,
         "sources": [
-          "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
-          "https://www.gea.com/de/news/corporate/2026/ad-hoc-strong-second-quarter-gea-raises-full-year-guidance-for-2026/",
-          "https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/",
-          "https://www.gea.com/de/news/corporate/2026/gea-reports-profitable-growth-for-2025-and-expects-accelerated-revenue-growth/"
+          "https://www.gea.com/tr/news/trade-press/2026/braubeviale-adaptax-orbital-cleaner/"
         ],
-        "as_of": "2026-11-09T14:00:34Z"
+        "as_of": "2026-11-09T17:04:03Z"
       },
       {
         "ticker": "IFX",
-        "name": "Infineon Technologies",
+        "name": "Infineon",
         "tv": "XETR:IFX",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Earnings 10.11.; Q4-Guidance als Benchmark",
+        "direction": "NEUTRAL",
+        "reason": "Earnings laut Kalender 10.11.",
         "stage": "WATCH",
-        "earnings_at": "2026-11-10T07:30:00+01:00",
-        "event": "FY results",
+        "earnings_at": null,
+        "event": "Earnings laut Kalender 10.11.",
         "score": null,
         "sources": [
-          "https://www.infineon.com/de/press-release/2026/infpr202608-125",
-          "https://www.infineon.com/about/events"
+          "https://www.infineon.com/press-release/2026/infxx202602-042"
         ],
-        "as_of": "2026-11-09T12:57:00Z"
+        "as_of": "2026-11-09T17:04:03Z"
       },
       {
         "ticker": "ENR",
         "name": "Siemens Energy",
         "tv": "XETR:ENR",
         "market": "XETRA",
-        "sector": "Energy equipment",
-        "direction": "WATCH",
-        "reason": "FY2026 11.11.",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Earnings 11.11. 07:00",
         "stage": "WATCH",
-        "earnings_at": "2026-11-11",
-        "event": "FY2026 results",
+        "earnings_at": null,
+        "event": "Earnings 11.11. 07:00",
         "score": null,
         "sources": [
           "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html"
         ],
-        "as_of": "2026-11-09T14:00:34Z"
+        "as_of": "2026-11-09T17:04:03Z"
       },
       {
         "ticker": "SIE",
@@ -13215,6 +13439,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261109T160320Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 4,
+        "earnings_events": 3,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T170403Z"
       }
     ],
     "strategies": [
