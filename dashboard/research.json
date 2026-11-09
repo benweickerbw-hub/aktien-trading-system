@@ -1,6 +1,6 @@
 {
-  "version": 48,
-  "updated_at": "2026-11-09T10:06:43Z",
+  "version": 49,
+  "updated_at": "2026-11-09T10:57:11Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -8018,6 +8018,216 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research – 09.11.2026, 11:06 MEZ\n\n## Markt und Nachrichten\nReuters berichtet am 09.11. über einen Anstieg europäischer Bankaktien, UniCredit-Zahlen und SAP nach Analystenaufwertung: [Reuters, 09.11.](https://www.reuters.com/markets/europe/europe-shares-tread-water-investors-weigh-ai-trade-banks-focus-2026-11-09/). Dies ist kein belastbarer individueller Xetra-Einstiegskurs.\n\n## Earnings-Pipeline und Triage\nDer öffentliche DAX-Terminkalender nennt GEA und Hannover Rück für 09.11., Infineon und Henkel für 10.11., Siemens Energy, RWE, E.ON und Brenntag für 11.11., Siemens und Allianz für 12.11.: [QuarterlyEarnings, Abruf 09.11.](https://quarterlyearnings.info/earnings/index/dax). Acht unterschiedliche Ticker wurden als terminbezogene WATCH/DISCOVERED-Kandidaten erfasst; **keiner** erfüllt nachweislich alle Anforderungen eines vollständigen handelbaren Screenings (Spread, Marktkapitalisierung, zeitnaher Quote, Kosten und Katalysator). Die bloße Kalendernennung ist kein qualifizierter Screen.\n\n**Infineon (IFX):** Q4/FY-Ergebnisereignis am 10.11.; letzter geprüfter historischer Xetra-Schlusskurs vom 06.11. 45,76 EUR, KEIN heutiger Kurs: [onvista, historischer Kursstand](https://www.onvista.de/aktien/historische-kurse/Infineon-Aktie-DE0006231004). Bull: positive Überraschung bei Automotive/Power; Bear: zyklische Halbleiternachfrage. Konsens-Vergleich, aktueller Spread und zwei Analystenvoten noch nicht verifiziert. WATCH, keine Richtung mit hinreichender Sicherheit.\n\n**RWE:** Reuters meldete am 03.11. einen Zuschlag von 2,12 GW im deutschen Gaskraftwerksprogramm: [Reuters, 03.11.](https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/). Bull: Kapazitätsvergütung und Pipeline; Bear: Investitionskosten, regulatorische Umsetzung. Ergebnisereignis am 11.11.; kurzfristiger Ertragseffekt und zeitnaher Quote nicht verifiziert. WATCH.\n\n**Hannover Rück, GEA, Henkel, Siemens Energy, E.ON, Brenntag, Siemens, Allianz:** Kalenderereignisse identifiziert, aber aktuelle Unternehmenszahlen, Guidance-Ist-Vergleiche, unabhängige Analystenstimmen und Bid/Ask nicht hinreichend geprüft. Kein QUALIFIED-Status.\n\n## Strategien und Kosten\nPre-Earnings, PEAD, Guidance-Revision und Pairs wurden konzeptionell gegeneinander geprüft; bestätigte Doppel-Surprise, belastbare Guidance-Scorecard oder 60–252 Tageskurse für Korrelation fehlen. Kein empirisch qualifiziertes Pair. Laut [IBKR-Ireland-Gebührenübersicht](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe) mindestens 2,50 EUR Roundtrip-Provision für deutsche Tiered-Aktien, vor Spread und Slippage; bei 250 EUR Notional bereits 1 % und damit über dem 0,5-%-Kostenlimit. Kein kostenkonformer Fill belegt.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister aus GitHub ausschließlich als Journal gelesen: IREN SHORT, Referenzbasis 18,05 USD, kein verifizierter Fill; letzter gespeicherter AFTERHOURS-Quote 21,68 USD vom 06.11. 19:24 EST, **ALT**, Referenz-PnL dort -100,55 EUR ohne Kosten/FX, keine aktuelle PnL. HFG SHORT und PTON SHORT sind USER_REPORTED-Turbos ohne ISIN, Produkt-Einstieg oder KO; ihre PnL ist nicht berechenbar. HFG zuletzt gespeicherter Underlying-Schlusskurs 2,988 EUR (06.11.), PTON 5,62 USD (06.11.), beide ALT. Keine neuere zeitgestempelte öffentliche Quote in diesem Lauf verifiziert, daher keine Änderung der Marken. Keine Position geschlossen. Eröffnungskurs-Ausführung müsste vor der Eröffnung festgelegt sein; nachträgliche Order nicht zulässig.\n\n## Entscheidung und Forschungslücken\n**KEIN TRADE, 0 Fills.** Die gewünschte Zielgröße 10 Trades/Tag ist kein Nachweis für 10 ausgeführte Trades. Paper-Broker ist nicht verbunden; Ausführungsbeleg, zeitnaher Bid/Ask, Short-Borrow, Kosten, Stop und Chance-Risiko-Verhältnis fehlen. Unbegrenztes hypothetisches Kapital ersetzt diese Nachweise nicht. 5 unterschiedliche öffentlich zugängliche Quelleninhalte für diesen Lauf berücksichtigt (Reuters Markt, Reuters RWE, Kalender, onvista, Gebühren); zusätzlich TipRanks-Kalender gesichtet: [TipRanks, Abruf 09.11.](https://www.tipranks.com/calendars/earnings/2026-11-10/germany). Keine 50-Quellen-Master-Dossiers abgeschlossen; keine neuen historischen Guidance- oder institutionellen Vergleichsfilings verifiziert."
+    },
+    {
+      "id": "XETRA-20261109T105711Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T10:57:11Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "GEA Q3: Auftragseingang +20,3%, Free Cashflow 134,7 Mio. EUR",
+      "summary": "GEA starke Ergebnisse; Infineon und Siemens Energy vor Earnings. Keine Broker-Fills, keine verifizierten zeitnahen Bid/Ask-Kurse.",
+      "source_status": "7 unabhängige Seiten/Dokumente geprüft, 4 originäre Firmenquellen, 1 offizielle Börsenquelle, 2 Kalender; 50er Dossierziel offen.",
+      "candidates": [
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "side": "LONG",
+          "thesis": "Starke Q3-Aufträge und FCF",
+          "risk": "Bewertung, Konsens und Quote fehlen",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "WATCH",
+          "thesis": "FY26-Ergebnisse 10.11.",
+          "risk": "Surprise/Spread fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "FY26-Ergebnisse 11.11.",
+          "risk": "Erwartungen und Quote fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "side": "WATCH",
+          "thesis": "Q3-Termin 09.11.",
+          "risk": "Ist-Zahlen ungeprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "GEA Q3 2026",
+          "publisher": "GEA",
+          "published_at": "2026-11-09",
+          "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+          "ticker": "G1A",
+          "finding": "Aufträge +20,3%, Umsatz +7%, FCF 134,7 Mio. EUR, Prognose bestätigt"
+        },
+        {
+          "title": "GEA Q2 2026",
+          "publisher": "GEA",
+          "published_at": "2026-08-10",
+          "url": "https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/",
+          "ticker": "G1A",
+          "finding": "Jahresprognose damals angehoben"
+        },
+        {
+          "title": "Infineon Ergebnis-Termin",
+          "publisher": "Infineon",
+          "published_at": "2026-11-09",
+          "url": "https://www.infineon.com/de/about/events",
+          "ticker": "IFX",
+          "finding": "FY26 Q4 und Gesamtjahr am 10.11. 07:30 MEZ angekündigt"
+        },
+        {
+          "title": "Siemens Energy Ergebnis-Termin",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-11-09",
+          "url": "https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html",
+          "ticker": "ENR",
+          "finding": "Jahreszahlen am 11.11. 07:00 MEZ angekündigt"
+        },
+        {
+          "title": "Hannover Rück Finanzkalender",
+          "publisher": "Hannover Rück",
+          "published_at": "2026-11-09",
+          "url": "https://www.hannover-re.com/en/investors/events-and-presentations/",
+          "ticker": "HNR1",
+          "finding": "Neunmonatsbericht am 09.11. terminiert"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "G1A",
+          "name": "GEA",
+          "tv": "XETR:G1A",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Starke Q3-Aufträge und FCF",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Starke Q3-Aufträge und FCF",
+              "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+              "publisher": "GEA",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Bewertung, Konsens und Quote fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings / Guidance",
+          "invalidations": "Bewertung, Konsens und Quote fehlen"
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "FY26-Ergebnisse 10.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY26-Ergebnisse 10.11.",
+              "url": "https://www.infineon.com/de/about/events",
+              "publisher": "Infineon",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Surprise/Spread fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings / Guidance",
+          "invalidations": "Surprise/Spread fehlen"
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "FY26-Ergebnisse 11.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY26-Ergebnisse 11.11.",
+              "url": "https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html",
+              "publisher": "Siemens Energy",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Erwartungen und Quote fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings / Guidance",
+          "invalidations": "Erwartungen und Quote fehlen"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": null,
+        "id": null,
+        "stance": "KEIN TRADE",
+        "summary": "Keine nachgewiesene Paper-Broker-Ausführung oder frische Bid/Ask-Quote",
+        "base_scenario": null,
+        "bull_scenario": null,
+        "bear_scenario": null,
+        "key_risk": "Kosten und Kurslücken",
+        "planned_exit": null,
+        "as_of": "2026-11-09T10:57:11Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 09.11.2026, 11:57 MEZ\n\n## Markt- und Earnings-Lage\nXetra regulär 09:00–17:30 MEZ; heute regulärer Handel laut [Deutsche Börse](https://cashmarket.deutsche-boerse.com/cash-de/Handel/handelskalender-und-zeiten). Ein zeitgenauer, ausführbarer Bid/Ask-Feed wurde nicht verifiziert. Deshalb keine Kursmarken und kein Fill.\n\n## Screening\n7 konkrete Ereignis-/Kalenderquellen geprüft, davon 5 Unternehmen mit firmenspezifischen Informationen: GEA (G1A), Infineon (IFX), Siemens Energy (ENR), Hannover Rück (HNR1) und aus dem DAX-Kalender E.ON (EOAN) als bloß entdeckter Termin. Für fünf Aktien wurden weder Liquidität, aktuelle Spreads noch vollständiger Analystenkonsens überprüft; keine QUALIFIED-Einstufung. Kein quantitativ belegtes Pair.\n\n## Priorität 1: GEA – WATCH, vorsichtig positiv (1–10 Tage)\n[GEA Q3-Mitteilung, 09.11.2026](https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/): Auftragseingang 1.650,7 Mio. EUR (+20,3%), Umsatz 1.461,2 Mio. EUR (+7,0%), EBITDA vor Restrukturierung 260,9 Mio. EUR (+12,6%), Marge 17,9%, Free Cashflow 134,7 Mio. EUR (Vorjahr 52,2 Mio.), Nettoliquidität 115,2 Mio. EUR. Jahresprognose: organisches Umsatzwachstum 6–8%, EBITDA-Marge 17,0–17,4%, ROCE 36–40%. [GEA Q2-Mitteilung, 10.08.2026](https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/) dokumentiert die frühere Anhebung von 5–7% auf 6–8% organisches Wachstum. Q3 bestätigt die revidierte Jahresprognose; Jahres-Ist noch offen. Bull: starkes Auftragspolster, Servicegeschäft, FCF. Bear: Großaufträge können unregelmäßig sein, Bewertung und heutige Marktreaktion ungeprüft. Invalidation: Auftragsrückgang oder spätere Margen-/Guidance-Kürzung. Zwei aktuelle unabhängige Analystenvoten nicht gefunden.\n\n## Priorität 2: Infineon – WATCH, neutral\n[Unternehmenskalender, Abruf 09.11.](https://www.infineon.com/de/about/events): Q4/FY26-Ergebnis am 10.11. um 07:30 MEZ. [Unternehmensmeldung vom 14.10.] (https://www.infineon.com/de/press-release/2026/infpr202610-007) beschreibt KI-/Stromversorgungsprodukte zur electronica. Bull: Datacenter-Stromversorgung; Bear: zyklische Nachfrage und Erwartungsrisiko. EPS-Surprise, aktuelle Guidance, Bewertung und Analystenziele nicht verifiziert. Vor den Zahlen keine qualifizierte Richtung.\n\n## Priorität 3: Siemens Energy – WATCH, neutral\n[Unternehmensankündigung, Abruf 09.11.](https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html): FY26-Zahlen am 11.11. 07:00 MEZ. Chancen aus Netz-/Energieinfrastruktur, Gegenrisiken aus Projektausführung und Erwartungen. Aktuelle Bilanz-/Konsens-/Spread-Prüfung fehlt; kein Fill.\n\n## Weitere Pipeline\n[Hannover Rück IR-Kalender](https://www.hannover-re.com/en/investors/events-and-presentations/): Bericht zum 30.09. am 09.11.; aktuelle Zahlen hier nicht unabhängig verifiziert. [DAX-Kalender](https://quarterlyearnings.info/earnings/index/dax): E.ON, RWE, Siemens und Allianz in den Folgetagen; reine Discovery, keine vollständige Triage.\n\n## Strategie-Vergleich\nPre-Earnings: IFX/ENR wegen fehlender Konsens- und Preisbelege nicht handelbar. PEAD: GEA ohne verifizierte EPS+Umsatz-Surprise gegen VORAB-Konsens nicht bestätigt. Guidance-Revision: GEA Juli-Anhebung bestätigt, aber 2026-Ist noch offen. Pairs: keine datierte 60–252-Tage-Kursreihe, Korrelation null.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister geprüft; keine offene Position wurde aus diesem Lauf mit einem neuen zeitgestempelten öffentlichen Quote aktualisiert. HFG/PTON Nutzer-Turbos ohne verifizierte Produkt-ISIN, Einstieg und KO: PnL nicht berechenbar. IREN 18,05 USD nur historische Referenzsimulation, kein bestätigter Fill; kein aktueller verifizierter Marktkurs, daher kein neues PnL. Bestehende Einträge bleiben unverändert. Eine Eröffnungskursorder müsste vor dem Open feststehen, der Opening-Print ist erst danach bekannt.\n\n## Paper-Risiko und Entscheidung\n10.000 EUR hypothetisches Startbudget gemäß Positionsregister; Broker-Paper-Endpunkt nicht verbunden. Ziel zehn Trades täglich ist ein Ziel, keine Bestätigung tatsächlicher Ausführung. Bei 50 EUR Margin und 5× sind 250 EUR Notional bereits mit 2,50 EUR deutschen Mindest-Roundtripprovisionen = 1% vor Spread/Slippage belastet, über dem 0,5%-Kostenlimit. Deshalb heute 0 neue Fills und keine erfundenen Orders. Research-Quellen: 7 einzigartige konkret geprüfte Web-Dokumente/Seiten; davon 4 originäre Firmenquellen, eine offizielle Börsenquelle, zwei Kalenderquellen. Keine 50-Dokumente-Vollständigkeit behauptet.",
+      "report_sections": [
+        {
+          "heading": "GEA Q3",
+          "summary": "Aufträge +20,3%; FCF 134,7 Mio. EUR",
+          "bullets": [
+            {
+              "text": "Originalmitteilung 09.11.",
+              "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+              "publisher": "GEA",
+              "checked_at": "2026-11-09T10:57:11Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -9464,6 +9674,26 @@
           "finding": "Q3 Auftragseingang 1651 Mio EUR, EBITDA 261 Mio EUR",
           "checked_on": "2026-11-09",
           "doc_type": "issuer_release"
+        },
+        {
+          "id": "GEA-2026-11-09",
+          "title": "GEA Q3 2026",
+          "publisher": "GEA",
+          "published_at": "2026-11-09",
+          "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+          "finding": "Aufträge +20,3%, Umsatz +7%, FCF 134,7 Mio. EUR, Prognose bestätigt",
+          "checked_on": "2026-11-09",
+          "doc_type": "IR release"
+        },
+        {
+          "id": "GEA-2026-08-10",
+          "title": "GEA Q2 2026",
+          "publisher": "GEA",
+          "published_at": "2026-08-10",
+          "url": "https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/",
+          "finding": "Jahresprognose damals angehoben",
+          "checked_on": "2026-11-09",
+          "doc_type": "IR release"
         }
       ],
       "financial_history": [],
@@ -9471,17 +9701,17 @@
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert",
       "key_unknowns": [
-        "Historischer Guidance-Ist-Vergleich",
-        "Namentliche Analystenvoten",
-        "Institutionelle Originalfilings",
-        "Aktueller Spread"
+        "Vorab-Konsens",
+        "Aktuelle Analysten",
+        "Bid/Ask",
+        "Bewertung"
       ],
-      "method_note": "Nur geöffnete Quellen zählen",
+      "method_note": "Nur einzeln geprüfte Dokumente zählen",
       "analyst_coverage": [],
-      "as_of": "2026-11-09T09:04:32Z",
-      "status": "INCOMPLETE",
-      "stance": "WATCH",
-      "summary": "Q3 Auftragseingang 1651 Mio EUR, EBITDA 261 Mio EUR"
+      "as_of": "2026-11-09T10:57:11Z",
+      "status": "IN_PROGRESS",
+      "stance": "WATCH_LONG",
+      "summary": "Q3 Aufträge +20,3%, Umsatz +7%, FCF 134,7 Mio.; Jahresguidance bestätigt"
     },
     "HYQ": {
       "ticker": "HYQ",
@@ -9520,12 +9750,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T10:06:43Z",
-    "method_note": "Kalender-Triage: 10 gelistete Titel, keine vollständige Spread/Kosten-Qualifikation; DISCOVERED nicht als SCREENED zählen.",
+    "as_of": "2026-11-09T10:57:11Z",
+    "method_note": "Dieser Lauf: 4 Firmen mit spezifischer Quellenprüfung, weitere Kalendernennungen DISCOVERED; keine geprüfte Liquidität/Spreads",
     "coverage": {
-      "universe_checked": 0,
-      "earnings_events": 10,
-      "triaged": 0,
+      "universe_checked": 4,
+      "earnings_events": 4,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -10129,26 +10359,6 @@
         "as_of": "2026-11-06T10:55:27Z"
       },
       {
-        "ticker": "IFX",
-        "name": "Infineon Technologies",
-        "tv": "XETR:IFX",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Ergebnisbericht 09.–12.11.2026",
-        "score": null,
-        "sources": [
-          "https://www.infineon.com/de/about/events",
-          "https://www.infineon.com/de/press-release/2026/infpr202608-125",
-          "https://www.infineon.com/de/press-release/2026/infxx202605-082",
-          "https://www.infineon.com/de/press-release/2026/infxx202602-042"
-        ],
-        "as_of": "2026-11-09T07:04:04Z"
-      },
-      {
         "ticker": "AMS",
         "name": "Amadeus IT Group",
         "tv": "BME:AMS",
@@ -10232,40 +10442,6 @@
           "https://www.reuters.com/business/aerospace-defense/renk-warns-prime-contractor-delays-could-slow-revenue-growth-2026-11-05/"
         ],
         "as_of": "2026-11-06T18:12:42Z"
-      },
-      {
-        "ticker": "G1A",
-        "name": "GEA",
-        "tv": "XETR:G1A",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "GEA/Hannover Rueck 09.11.; Infineon 10.11.; weitere Termine bis 12.11.",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-09",
-        "event": "DAX Earnings Calendar",
-        "score": null,
-        "sources": [
-          "https://quarterlyearnings.info/earnings/index/dax"
-        ],
-        "as_of": "2026-11-06T14:56:31Z"
-      },
-      {
-        "ticker": "HNR1",
-        "name": "Hannover Rück",
-        "tv": "XETR:HNR1",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Ergebnisbericht 09.–12.11.2026",
-        "score": null,
-        "sources": [
-          "https://www.hannover-re.com/de/investoren/events-und-praesentationen/"
-        ],
-        "as_of": "2026-11-09T07:04:04Z"
       },
       {
         "ticker": "RHM",
@@ -10472,21 +10648,6 @@
         "score": null
       },
       {
-        "ticker": "ENR",
-        "name": "Siemens Energy",
-        "tv": "XETR:ENR",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Ergebnisbericht 09.–12.11.2026",
-        "score": null,
-        "sources": [],
-        "as_of": "2026-11-09T07:04:04Z"
-      },
-      {
         "ticker": "ALV",
         "name": "Allianz",
         "tv": "XETR:ALV",
@@ -10552,23 +10713,6 @@
         "as_of": "2026-11-09T08:08:06Z"
       },
       {
-        "ticker": "G1A",
-        "name": "GEA Group",
-        "tv": "XETR:G1A",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "LONG",
-        "reason": "Aktuelle Emittentenmeldung",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Q3/9M 2026",
-        "score": null,
-        "sources": [
-          "https://www.tradingview.com/news/eqs:31bd3e1ca094b:0-gea-delivers-strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/"
-        ],
-        "as_of": "2026-11-09T09:04:32Z"
-      },
-      {
         "ticker": "HYQ",
         "name": "Hypoport",
         "tv": "XETR:HYQ",
@@ -10582,57 +10726,6 @@
         "score": null,
         "sources": [
           "https://www.marketscreener.com/news/hypoport-delivers-solid-gross-profit-growth-and-an-increase-in-ebit-in-the-first-nine-months-of-2026-ce785fd3d980ff21"
-        ],
-        "as_of": "2026-11-09T09:04:32Z"
-      },
-      {
-        "ticker": "HNR1",
-        "name": "Hannover Rück",
-        "tv": "XETR:HNR1",
-        "market": "XETRA",
-        "sector": null,
-        "direction": null,
-        "reason": "Earnings-Kalender, noch nicht geprüft",
-        "stage": "DISCOVERED",
-        "earnings_at": null,
-        "event": "Q3/9M 2026",
-        "score": null,
-        "sources": [
-          "https://www.atlas-stocks.com/calendar/earnings/germany"
-        ],
-        "as_of": "2026-11-09T09:04:32Z"
-      },
-      {
-        "ticker": "IFX",
-        "name": "Infineon",
-        "tv": "XETR:IFX",
-        "market": "XETRA",
-        "sector": null,
-        "direction": null,
-        "reason": "Earnings-Kalender, noch nicht geprüft",
-        "stage": "DISCOVERED",
-        "earnings_at": null,
-        "event": "Q3/9M 2026",
-        "score": null,
-        "sources": [
-          "https://www.atlas-stocks.com/calendar/earnings/germany"
-        ],
-        "as_of": "2026-11-09T09:04:32Z"
-      },
-      {
-        "ticker": "ENR",
-        "name": "Siemens Energy",
-        "tv": "XETR:ENR",
-        "market": "XETRA",
-        "sector": null,
-        "direction": null,
-        "reason": "Earnings-Kalender, noch nicht geprüft",
-        "stage": "DISCOVERED",
-        "earnings_at": null,
-        "event": "Q3/9M 2026",
-        "score": null,
-        "sources": [
-          "https://www.atlas-stocks.com/calendar/earnings/germany"
         ],
         "as_of": "2026-11-09T09:04:32Z"
       },
@@ -10686,6 +10779,74 @@
           "https://www.atlas-stocks.com/calendar/earnings/germany"
         ],
         "as_of": "2026-11-09T09:04:32Z"
+      },
+      {
+        "ticker": "G1A",
+        "name": "GEA",
+        "tv": "XETR:G1A",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Starke Q3-Aufträge und FCF",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Starke Q3-Aufträge und FCF",
+        "score": null,
+        "sources": [
+          "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/"
+        ],
+        "as_of": "2026-11-09T10:57:11Z"
+      },
+      {
+        "ticker": "IFX",
+        "name": "Infineon",
+        "tv": "XETR:IFX",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "FY26-Ergebnisse 10.11.",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "FY26-Ergebnisse 10.11.",
+        "score": null,
+        "sources": [
+          "https://www.infineon.com/de/about/events"
+        ],
+        "as_of": "2026-11-09T10:57:11Z"
+      },
+      {
+        "ticker": "ENR",
+        "name": "Siemens Energy",
+        "tv": "XETR:ENR",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "FY26-Ergebnisse 11.11.",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "FY26-Ergebnisse 11.11.",
+        "score": null,
+        "sources": [
+          "https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html"
+        ],
+        "as_of": "2026-11-09T10:57:11Z"
+      },
+      {
+        "ticker": "HNR1",
+        "name": "Hannover Rück",
+        "tv": "XETR:HNR1",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Q3-Termin 09.11.",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Q3-Termin 09.11.",
+        "score": null,
+        "sources": [
+          "https://www.hannover-re.com/en/investors/events-and-presentations/"
+        ],
+        "as_of": "2026-11-09T10:57:11Z"
       }
     ],
     "pairs": [],
@@ -11010,6 +11171,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261109T100643Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 4,
+        "earnings_events": 4,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T105711Z"
       }
     ],
     "strategies": [
