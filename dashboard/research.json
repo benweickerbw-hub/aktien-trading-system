@@ -1,6 +1,6 @@
 {
-  "version": 52,
-  "updated_at": "2026-11-09T13:30:32Z",
+  "version": 53,
+  "updated_at": "2026-11-09T14:00:34Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -9036,6 +9036,172 @@
           ]
         }
       ]
+    },
+    {
+      "id": "XETRA-20261109T140034Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T14:00:34Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "GEA Q3 stark; keine belastbaren Fill-Voraussetzungen",
+      "summary": "GEA Q3 Auftragseingang +20,3%, FCF 134,7 Mio EUR; Siemens Energy 11.11. FY; RWE Kapazitätszuschlag. Kein Paper-Fill.",
+      "source_status": "7 eigenständige Inhaltsquellen/Seiten, 3 Ticker triagiert, 0 qualifiziert; aktuelle Bid/Ask- und Produktkurse fehlen",
+      "candidates": [
+        {
+          "ticker": "G1A",
+          "name": "GEA Group",
+          "tv": "XETR:G1A",
+          "side": "LONG WATCH",
+          "thesis": "Q3 Auftrags- und Cashflow-Stärke",
+          "risk": "Großauftragsbasis und Bewertung",
+          "sources_checked": 4,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "FY-Ergebnisse 11.11.",
+          "risk": "Erwartungs- und Projektrisiko",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "Kapazitätszuschlag",
+          "risk": "Profitabilität und Investitionsaufwand offen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "GEA Q3: Auftragseingang +20,3%, FCF 134,7 Mio EUR",
+          "published_at": "2026-11-09",
+          "ticker": "G1A",
+          "publisher": "GEA Group",
+          "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+          "finding": "Guidance 2026 bestätigt; Großaufträge 294,9 Mio EUR"
+        },
+        {
+          "title": "Siemens Energy FY2026 am 11.11. angekündigt",
+          "published_at": null,
+          "ticker": "ENR",
+          "publisher": "Siemens Energy",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+          "finding": "Veröffentlichung 11.11.2026 07:00 MEZ"
+        },
+        {
+          "title": "RWE erhält Zuschlag für 2,12 GW Gaskapazität",
+          "published_at": "2026-11-03",
+          "ticker": "RWE",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/",
+          "finding": "Kapazitätszuschlag; kein Beleg für kurzfristige EPS-Auswirkung"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "G1A",
+          "name": "GEA Group",
+          "tv": "XETR:G1A",
+          "stance": "WATCH LONG",
+          "horizon": "1-10 Handelstage",
+          "summary": "Q3 Auftragseingang stark, Cashflow gestiegen; Bewertung offen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Auftragseingang +20,3%, 1650,7 Mio EUR",
+              "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+              "publisher": "GEA Group",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "FCF Q3 134,7 Mio EUR",
+              "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+              "publisher": "GEA Group",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "Guidance Juli angehoben, November bestätigt",
+              "url": "https://www.gea.com/de/news/corporate/2026/ad-hoc-strong-second-quarter-gea-raises-full-year-guidance-for-2026/",
+              "publisher": "GEA Group",
+              "published_at": "2026-07-21"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Großaufträge können Folgequartale volatil machen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktuelle Xetra Bid/Ask und Analystenziele",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Q3 Zahlen und Analystenkonferenz"
+          ],
+          "invalidations": [
+            "Negativer Auftragstrend",
+            "Marge unter Guidance"
+          ]
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "FY2026 am 11.11.; Überraschung offen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY2026 Veröffentlichung 11.11. 07:00 MEZ",
+              "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+              "publisher": "Siemens Energy",
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "FY2026 Bericht"
+          ],
+          "invalidations": [
+            "Enttäuschender Ausblick"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Historische hypothetische Short-Referenz, kein Fill; Pre-Market-Kurs veraltet",
+        "base_scenario": "Hohe Volatilität um AI-Infrastruktur und Investitionsbedarf",
+        "bull_scenario": "Steigender Aktienkurs erhöht hypothetischen Short-Verlust",
+        "bear_scenario": "Fallender Aktienkurs reduziert hypothetischen Short-Verlust",
+        "key_risk": "Short Squeeze, Kurslücken, Kapitalbedarf",
+        "planned_exit": "Nur dokumentierter zukünftiger Exit, nicht rückdatieren",
+        "as_of": "2026-11-09T14:00:34Z",
+        "mark_price": 20.64,
+        "mark_at": "2026-11-09T07:31:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 09.11.2026, 15:00 MEZ\n\n## HANDY-PUSH-UPDATE\nGEA Q3 Auftragseingang +20,3%; Fokus GEA, Siemens Energy, RWE. 0 Paper-Fills; aktuelle Portfolio-PnL nicht verifizierbar. Keine Orders.\n\n## Unternehmens- und Earnings-Lage\n**GEA (G1A), WATCH LONG:** Laut [GEA Q3-Mitteilung vom 09.11.2026](https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/) stieg der Auftragseingang auf 1.650,7 Mio. EUR (+20,3%), der Umsatz auf 1.461,2 Mio. EUR (+7,0%) und der Free Cashflow auf 134,7 Mio. EUR. Die Großaufträge von 294,9 Mio. EUR sind ein wichtiges Gegenargument gegen eine lineare Fortschreibung. Das EBITDA vor Restrukturierung betrug 260,9 Mio. EUR. [GEA Ad-hoc 21.07.2026](https://www.gea.com/de/news/corporate/2026/ad-hoc-strong-second-quarter-gea-raises-full-year-guidance-for-2026/) hob die FY2026-Guidance auf 6–8% organisches Umsatzwachstum und 17,0–17,4% EBITDA-Marge an; am 09.11. bestätigt, **FY-Ist noch offen**, keine Trefferquote. [GEA Q2-Bericht 10.08.2026](https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/) dokumentiert 1.442,5 Mio. EUR Umsatz und 151,1 Mio. EUR FCF; [GEA FY2025 vom 09.03.2026](https://www.gea.com/de/news/corporate/2026/gea-reports-profitable-growth-for-2025-and-expects-accelerated-revenue-growth/) rund 5,5 Mrd. EUR Umsatz. Tendenz 1–10 Handelstage vorsichtig positiv; Invalidierung durch schwächere Auftragstransformation, fallende Marge oder negative Kursreaktion. Aktuelle Bewertung, namentliche Analystenvoten und konsistente aktuelle Xetra-Spreads nicht verifiziert.\n\n**Siemens Energy (ENR), WATCH:** [Siemens Energy Finanzkalender, abgerufen 09.11.2026](https://www.siemensenergy.com/global/en/home/investor-relations.html) bestätigt FY2026-Termin 11.11.2026. [Offizielle Veranstaltungsankündigung](https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html) nennt 07:00 MEZ. Chancen: Stromnetz-/Gasturbinen-Nachfrage; Risiken: hohe Erwartungen, Gamesa und Ausführung. Kein qualifizierter Entry.\n\n**RWE (RWE), WATCH:** [Reuters vom 03.11.2026](https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/) berichtet 2,12 GW Zuschläge für Gaskraftwerkskapazität. Investitionsbedarf und tatsächliche Gewinnbeiträge nicht verifiziert; kein Entry.\n\n## Screening, Strategien und Quellenqualität\n3 Ticker mit eigenem dokumentierten Event/Originalquelle konkret triagiert; 0 QUALIFIED, 0 SIGNAL, 0 OPEN_SIMULATED. 7 unabhängig gezählte Inhaltsdokumente/Seiten in diesem Lauf: GEA Q3, GEA Ad-hoc Juli, GEA Q2, GEA FY2025, Siemens Energy IR-Kalender, Siemens Energy Veranstaltungsseite, Reuters RWE. GEA: 1 neue deduplizierte Dokument-URLs im Dossier, insgesamt 5/50 gespeicherte Dokumenteinträge (nicht automatisch vollständig geprüfte Originaldokumente). Infineon als weiterer Earnings-Kandidat aus Vorläufen bekannt, in diesem Lauf kein neues Originaldokument verifiziert. PRE-EARNINGS: Erwartungs-/Spreadvergleich fehlt. PEAD: EPS+Umsatzsurprise nicht paarweise verifiziert. GUIDANCE-REVISION: GEA FY2026 offen. PAIRS: keine 60–252 datierten Tageskurse, Korrelation null, kein Hedge-Nachweis. Aktuelle Analystenvoten, Insider-/Stimmrechtsmeldungen, Short Interest und institutionelle Änderungen: nicht gefunden.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN SHORT:** 18,05 USD historischer hypothetischer Referenzkurs, kein authentischer Fill; letzter im Register gespeicherter Mark 21,68 USD vom 06.11.2026 19:24 EST AFTERHOURS, Quelle [StockAnalysis](https://stockanalysis.com/stocks/iren/). Neue öffentlich sichtbare PREMARKET-Marke 20,64 USD vom 09.11.2026 07:31 EST laut [StockAnalysis](https://stockanalysis.com/stocks/iren/), beim Check 15:00 MEZ bereits ALT; kein aktueller PnL und keine Änderung im Positionsregister. Rein historischer hypothetischer Modellwert bei 20,64 USD: 500×(1−20,64/18,05)=−71,75 EUR, ohne FX/Kosten, **kein verifizierter Trade**. Exit nur nach vorher dokumentierter Order und bestätigtem Opening-Print, keine rückdatierte Order.\n\n**HFG USER_REPORTED Turbo SHORT:** Im Register 2,988 EUR Xetra CLOSE 06.11.2026 17:35 MEZ; [FinanzNachrichten Abruf 09.11.2026](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm) zeigt Xetra Last 3,126 EUR um 13:27 MEZ (ALT bei 15:00), daneben Geld/Brief anderer Börsenplätze; kein verifizierter Turbo-Kurs, keine ISIN/KO/Einstand, PnL **nicht berechenbar**. Kein Schließen.\n\n**PTON USER_REPORTED Turbo SHORT:** Im Register 5,62 USD NASDAQ CLOSE 06.11.2026 16:00 EST; [StockAnalysis Abruf 09.11.2026](https://stockanalysis.com/stocks/pton/) zeigt PREMARKET 5,57 USD 04:01 EST (ALT); kein verifizierter Turbo-Kurs, PnL **nicht berechenbar**. Kein Schließen.\n\n## Handelsentscheidung und Risikostatus\n**KEIN TRADE.** GitHub-Positionsregister vor Research eingelesen: hypothetisches 10.000-EUR-Startbudget, 10 tägliche Trades als Ziel, kein verbundener Paper-Broker. Keine verifizierte neue Ausführung, keine zeitnahe bid/ask-basierte Netto-Kostenrechnung, keine Änderungen an positions.json. Der nächste reguläre Entscheidungsslot ist 17:00 MEZ. Eine simulierte Eröffnungskursorder muss vor Börseneröffnung dokumentiert werden; Eröffnungskurs und eventuelle Referenzauswertung erst danach. TradingView-Widgets sind keine validierte aktuelle Kurs-/PnL-Quelle.\n"
     }
   ],
   "deep_dives": {
@@ -10534,24 +10700,73 @@
           "finding": "2026 organisches Wachstum 6–8%, EBITDA-Marge 17–17,4%",
           "checked_on": "2026-11-09",
           "doc_type": "IR"
+        },
+        {
+          "id": "GEA-5",
+          "title": "GEA FY2025 Ergebnisse",
+          "publisher": "GEA Group",
+          "published_at": "2026-03-09",
+          "url": "https://www.gea.com/de/news/corporate/2026/gea-reports-profitable-growth-for-2025-and-expects-accelerated-revenue-growth/",
+          "finding": "FY2025 Auftragseingang 5,9 Mrd EUR; Umsatz 5,5 Mrd EUR; 2025 Guidance oberes Ende",
+          "checked_on": "2026-11-09T14:00:34Z",
+          "doc_type": "annual_results"
         }
       ],
-      "financial_history": [],
-      "guidance_scorecard": [],
-      "institutional_holdings": [],
-      "holdings_note": "Nicht verifiziert",
-      "key_unknowns": [
-        "Aktueller Bid/Ask",
-        "Aktuelle Analystenziele",
-        "Bewertung",
-        "Institutionelle Meldungen"
+      "financial_history": [
+        {
+          "period": "Q3 2026",
+          "metric": "order_intake",
+          "value": 1650.7,
+          "unit": "EUR million",
+          "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+          "source_id": null,
+          "note": "GEA original disclosure"
+        },
+        {
+          "period": "Q3 2026",
+          "metric": "free_cash_flow",
+          "value": 134.7,
+          "unit": "EUR million",
+          "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+          "source_id": null,
+          "note": "GEA original disclosure"
+        },
+        {
+          "period": "Q2 2026",
+          "metric": "revenue",
+          "value": 1442.5,
+          "unit": "EUR million",
+          "url": "https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/",
+          "source_id": null,
+          "note": "GEA original disclosure"
+        }
       ],
-      "method_note": "Originalquellen; keine Duplikat-Syndikationen; Guidance 2026 noch offen",
-      "analyst_coverage": [],
-      "as_of": "2026-11-09T12:57:00Z",
-      "status": "IN_PROGRESS",
-      "stance": "WATCH_LONG",
-      "summary": "Starker Q3-Auftragseingang, aber Großauftragseffekt und Bewertung offen"
+      "guidance_scorecard": [
+        {
+          "issued_at": "2026-07-21",
+          "period": "FY2026",
+          "metric": "organic_revenue_growth",
+          "forecast": "6-8%",
+          "actual": null,
+          "assessment": "NOCH OFFEN; Q3 2026 Prognose bestätigt, nicht Ist FY2026",
+          "forecast_url": "https://www.gea.com/de/news/corporate/2026/ad-hoc-strong-second-quarter-gea-raises-full-year-guidance-for-2026/",
+          "actual_url": null
+        }
+      ],
+      "institutional_holdings": [],
+      "holdings_note": "Keine zwei originalen Stimmrechtsmeldungen/13F für Vergleich verifiziert.",
+      "key_unknowns": [
+        "Aktueller handelbarer Xetra Bid/Ask mit Zeit",
+        "Aktueller Analystenkonsens und zwei namentliche Updates",
+        "Bewertung und aktuelle institutionelle Veränderungen",
+        "Abschluss FY2026 Guidance-Ist"
+      ],
+      "method_note": "Quellen URLs dedupliziert; Guidance 2026 noch nicht als erfüllt bewertet.",
+      "analyst_coverage": "Aktuelle namentliche Analystenreports nicht verifiziert.",
+      "as_of": "2026-11-09T14:00:34Z",
+      "status": "DEEP_DIVE",
+      "stance": "WATCH LONG",
+      "summary": "Q3 operativ stark, aber Großaufträge und fehlende aktuelle Bewertung verhindern qualifizierten Trade."
     },
     "HYQ": {
       "ticker": "HYQ",
@@ -10589,13 +10804,13 @@
     }
   },
   "screening": {
-    "status": "PRELIMINARY",
-    "as_of": "2026-11-09T13:30:32Z",
-    "method_note": "Nur Event-Discovery; keine fünf Einzelaktien vollständig gescreent. Andere Märkte/ältere Einträge erhalten.",
+    "status": "PARTIAL_VERIFIED",
+    "as_of": "2026-11-09T14:00:34Z",
+    "method_note": "Dieser Lauf 3 konkret triagierte Ticker, 0 qualifiziert. Andere Marktagenten-Einträge erhalten.",
     "coverage": {
-      "universe_checked": 0,
-      "earnings_events": 5,
-      "triaged": 0,
+      "universe_checked": 3,
+      "earnings_events": 1,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -11508,19 +11723,20 @@
         "name": "GEA Group",
         "tv": "XETR:G1A",
         "market": "XETRA",
-        "sector": null,
-        "direction": "LONG",
-        "reason": "Starker Q3-Auftragseingang, aber Großauftragseffekt und Bewertung offen",
+        "sector": "Industrials",
+        "direction": "LONG WATCH",
+        "reason": "Q3 stark; Bewertung/Spread fehlen",
         "stage": "DEEP_DIVE",
-        "earnings_at": null,
+        "earnings_at": "2026-11-09",
         "event": "Q3 results",
         "score": null,
         "sources": [
           "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+          "https://www.gea.com/de/news/corporate/2026/ad-hoc-strong-second-quarter-gea-raises-full-year-guidance-for-2026/",
           "https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/",
-          "https://www.gea.com/de/news/corporate/2026/ad-hoc-strong-second-quarter-gea-raises-full-year-guidance-for-2026/"
+          "https://www.gea.com/de/news/corporate/2026/gea-reports-profitable-growth-for-2025-and-expects-accelerated-revenue-growth/"
         ],
-        "as_of": "2026-11-09T12:57:00Z"
+        "as_of": "2026-11-09T14:00:34Z"
       },
       {
         "ticker": "IFX",
@@ -11545,17 +11761,17 @@
         "name": "Siemens Energy",
         "tv": "XETR:ENR",
         "market": "XETRA",
-        "sector": null,
+        "sector": "Energy equipment",
         "direction": "WATCH",
-        "reason": "FY2026 Earnings 11.11.; hohe Erwartungen",
+        "reason": "FY2026 11.11.",
         "stage": "WATCH",
-        "earnings_at": "2026-11-11T07:00:00+01:00",
-        "event": "FY results",
+        "earnings_at": "2026-11-11",
+        "event": "FY2026 results",
         "score": null,
         "sources": [
-          "https://www.siemens-energy.com/global/en/home/investor-relations.html"
+          "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html"
         ],
-        "as_of": "2026-11-09T12:57:00Z"
+        "as_of": "2026-11-09T14:00:34Z"
       },
       {
         "ticker": "SIE",
@@ -11594,20 +11810,20 @@
       },
       {
         "ticker": "RWE",
-        "name": "RWE AG",
+        "name": "RWE",
         "tv": "XETR:RWE",
         "market": "XETRA",
-        "sector": null,
+        "sector": "Utilities",
         "direction": "WATCH",
-        "reason": "Kraftwerkskapazitätszuschlag, Monetarisierung langfristig",
+        "reason": "Kapazitätszuschlag",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Gas capacity award",
+        "event": "Capacity award",
         "score": null,
         "sources": [
           "https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/"
         ],
-        "as_of": "2026-11-09T12:57:00Z"
+        "as_of": "2026-11-09T14:00:34Z"
       },
       {
         "ticker": "CEG",
@@ -12057,6 +12273,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T133032Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 1,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T140034Z"
       }
     ],
     "strategies": [
