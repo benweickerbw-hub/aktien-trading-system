@@ -1,6 +1,6 @@
 {
-  "version": 61,
-  "updated_at": "2026-11-09T17:34:41Z",
+  "version": 62,
+  "updated_at": "2026-11-09T18:04:05Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -10393,6 +10393,151 @@
           "bullets": []
         }
       ]
+    },
+    {
+      "id": "XETRA-20261109T180405Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T18:04:05Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "HelloFresh Q3, Siemens Q4 am 12.11., RWE Kapazitätszuschlag; keine Nachbörsen-Fills",
+      "summary": "Nachbörslicher Event-Check, 5 triagierte Ticker, 0 qualifizierte Entries; offene Referenz-/Nutzerpositionen geprüft.",
+      "source_status": "8 öffentliche Seiten gesichtet; 3 Originalmitteilungen/IR; Quotezeit und Bid/Ask fehlen.",
+      "candidates": [
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh SE",
+          "tv": "XETR:HFG",
+          "side": "SHORT",
+          "thesis": "Umsatz und Bestellungen fallen, trotz Margenerholung",
+          "risk": "Verbesserte Profitabilität und Analysten-Buy",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "side": "WATCH",
+          "thesis": "Q4/FY26 am 12.11.",
+          "risk": "Erwartungsrisiko",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "2,12 GW Kapazitätszuschlag",
+          "risk": "Bau und Regulierung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "HelloFresh Q3 2026",
+          "published_at": "2026-11-05",
+          "publisher": "HelloFresh/EQS",
+          "url": "https://www.finanzwire.com/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
+          "ticker": "HFG",
+          "finding": "HelloFresh Q3 2026"
+        },
+        {
+          "title": "HelloFresh Guidance Revision",
+          "published_at": "2026-09-24",
+          "publisher": "HelloFresh/EQS",
+          "url": "https://www.finanzwire.com/press-release/hellofresh-se-etr-eqs-adhoc-hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the-financial-year-2026-BBNuSzzzoyr",
+          "ticker": "HFG",
+          "finding": "HelloFresh Guidance Revision"
+        },
+        {
+          "title": "HelloFresh analyst and quote overview",
+          "published_at": "2026-11-09",
+          "publisher": "MarketScreener",
+          "url": "https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/",
+          "ticker": "HFG",
+          "finding": "HelloFresh analyst and quote overview"
+        },
+        {
+          "title": "RWE German gas capacity auction",
+          "published_at": "2026-11-03",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/",
+          "ticker": "RWE",
+          "finding": "RWE German gas capacity auction"
+        },
+        {
+          "title": "Siemens Q4 date",
+          "published_at": "2026-11-12",
+          "publisher": "Siemens IR",
+          "url": "https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026",
+          "ticker": "SIE",
+          "finding": "Siemens Q4 date"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh SE",
+          "tv": "XETR:HFG",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Umsatzschwäche bei steigender Marge; kein Fill.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "HelloFresh Q3 2026",
+              "url": "https://www.finanzwire.com/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw",
+              "publisher": "HelloFresh/EQS",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "HelloFresh Guidance Revision",
+              "url": "https://www.finanzwire.com/press-release/hellofresh-se-etr-eqs-adhoc-hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the-financial-year-2026-BBNuSzzzoyr",
+              "publisher": "HelloFresh/EQS",
+              "published_at": "2026-09-24"
+            },
+            {
+              "type": "FAKT",
+              "text": "HelloFresh analyst and quote overview",
+              "url": "https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/",
+              "publisher": "MarketScreener",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Nachfrage",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Nachhaltige Stabilisierung der Bestellungen"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Hypothetischer Short, kein verifizierter Fill",
+        "base_scenario": "Hohe Volatilität",
+        "bull_scenario": "Kursrückgang",
+        "bear_scenario": "Short squeeze",
+        "key_risk": "Gap und fehlender Fill",
+        "planned_exit": "Überfällig, nicht bestätigt",
+        "as_of": "2026-11-09T18:04:05Z",
+        "mark_price": 22.07,
+        "mark_at": "2026-11-09T12:18:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": -111.36,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Nachbörse – 09.11.2026, 19:04 MEZ\n\n**Entscheidung: KEIN TRADE.** Xetra ist seit 17:30 geschlossen; kein rückdatierter Einstieg. Keine authentifizierte Paper-Broker-Verbindung, deshalb keine belegbaren Fills.\n\n## Nachrichten und Kandidaten\n\n- **HelloFresh (HFG), WATCH / vorsichtig bearish:** Q3-Umsatz währungsbereinigt ca. 1,4 Mrd. EUR, -11,3% zum Vorjahr; 19,6 Mio. Bestellungen, -17,9%; AOV 70,5 EUR, +7,5%; AEBITDA 50,9 Mio. EUR vs. 40,3 Mio. EUR. Quelle [HelloFresh/EQS, 05.11.2026](https://www.finanzwire.com/press-release/hellofresh-se-etr-q3-2026-hellofresh-se-advances-profitability-across-product-segments-bvxdJzxdajw). Gegenargument: Profitabilität und RTE-Break-even verbessern sich. Die am 24.09. prognostizierten 45–55 Mio. EUR Q3-AEBITDA wurden erreicht; Jahresumsatz-Guidance zuvor auf -9% bis -11% revidiert: [HelloFresh/EQS, 24.09.2026](https://www.finanzwire.com/press-release/hellofresh-se-etr-eqs-adhoc-hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the-financial-year-2026-BBNuSzzzoyr). Analysten divergieren: Berenberg Buy 09.11., Jefferies Buy/Ziel 4,70 EUR 06.11., Barclays Sell 06.11.; [MarketScreener, abgerufen 09.11.](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/). Kein bestätigtes kurzfristiges Entry-Setup.\n- **Siemens (SIE), WATCH / neutral:** Offizieller Q4-/FY26-Bericht für 12.11., 07:00 MEZ angekündigt [Siemens IR](https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026). Historisch Q3-Industriegewinn 3,52 Mrd. EUR und angehobene EPS-Guidance 11,20–11,50 EUR [Reuters, 06.08.](https://www.reuters.com/business/siemens-raises-guidance-after-posting-highest-ever-industrial-profit-2026-08-06/). Gegenrisiko: hohe Erwartungen und Bewertungsrisiko.\n- **RWE (RWE), WATCH / leicht positiv:** Zuschlag für 2,12 GW Gaskraftwerkskapazität, Zahlungen über 15 Jahre vorgesehen; Bau- und Regulierungsrisiken bleiben [Reuters, 03.11.](https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/). Zahlenkalender 11.11. [QuarterlyEarnings.info](https://quarterlyearnings.info/earnings/index/dax).\n- **Infineon (IFX), DISCOVERED:** Quartalstermin 10.11.; EPS-Surprise, aktuelle Spreads und Konsens nicht verifiziert. **Siemens Energy (ENR), DISCOVERED:** Termin 11.11.; Bewertung/Guidance-Surprise nicht geprüft. [Kalender](https://quarterlyearnings.info/earnings/index/dax).\n\n## Screening und Strategie\n\n5 Titel mit konkretem datiertem Ereignis/Beleg triagiert, davon 3 näher geprüft, 0 qualifizierte handelbare Entries. Kalenderliste ist kein vollständiges Fundamental-Screening. PRE-EARNINGS (IFX/SIE), PEAD (HFG), Guidance-Revision (HFG) und Sektor-Event (RWE) verglichen; ohne zeitgestempelte Bid/Ask, historische Kursreihen, belastbare Kosten und ex ante Konsens kein ausführbares Signal. Pair-Korrelation nicht verifiziert. Keine neuen Orders.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n\n- **IREN SHORT, REFERENZ ONLY:** 18,05 USD historischer hypothetischer Einstieg, kein bestätigter Fill; letzter im Register belegter 22,07 USD am 09.11. 12:18 EST (REGULAR), [StockAnalysis](https://stockanalysis.com/stocks/iren/); altes Modell -111,36 EUR auf 500 EUR Notional, ohne Kosten/FX; **kein tatsächlich realisierter Verlust aus dieser Simulation**. Aktuellere Kursmarke nicht verifiziert. Geplanter Exit 06.11. ist überfällig und nicht als ausgeführt belegt.\n- **HFG USER_REPORTED SHORT-Turbo:** Letzter Registerstand 2,988 EUR Xetra-Close 06.11., heute [MarketScreener](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/) Xetra 3,057 EUR (verzögert, exakte Kursuhrzeit nicht ausgewiesen). Kein Turbo-Einstieg/Produktkurs, PnL nicht berechenbar; keine Änderung des Registers ohne exakte Quotezeit.\n- **PTON USER_REPORTED SHORT-Turbo:** Registerstand 5,79 USD am 09.11. 12:32 EST; [StockAnalysis](https://stockanalysis.com/stocks/pton/) zeigte beim Abruf älteren 5,72 USD um 11:16 EST, daher kein neuer Mark. Turbo-PnL mangels Produktdaten nicht berechenbar.\n\n## Datenqualität, Risiko und Ausblick\n\n8 unterschiedliche öffentliche Dokument-/Quellenseiten in diesem Lauf gesichtet, davon 2 HelloFresh-Originalmitteilungen und 1 Siemens-IR-Terminse ite; kein 50-Dokumente-Dossier erreicht. Nicht verifiziert: zeitnahe Bid/Ask, sämtliche aktuelle Xetra-Schlussprints mit exakter Quotezeit, zwei Originalfilings für institutionelle Veränderungen, vollständige Konsenshistorie, Short-Borrow, Roundtripkosten, 60–252-Tage-Korrelationen und Broker-Fills. 10.000 EUR virtuelles Startbudget laut Positionsregister, kein bestätigtes Handelskonto. Die Kostenobergrenze 0,5% Notional ist nicht nachgewiesen. Eine Opening-Order muss vor Eröffnung feststehen; der echte Eröffnungskurs ist erst danach bekannt. Keine nachträgliche Orderfiktion."
     }
   ],
   "deep_dives": {
@@ -12082,12 +12227,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T17:34:41Z",
-    "method_note": "166 calendar listings discovered, not screened. This run triaged event headlines; no qualified cost-verified signals.",
+    "as_of": "2026-11-09T18:04:05Z",
+    "method_note": "Nachbörslicher Check, 5 konkrete Ereignisticker; kein umfassendes Liquiditäts-/Kosten-Screening",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 3,
-      "triaged": 4,
+      "universe_checked": 0,
+      "earnings_events": 4,
+      "triaged": 5,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -13664,6 +13809,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T173441Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 0,
+        "earnings_events": 4,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T180405Z"
       }
     ],
     "strategies": [
