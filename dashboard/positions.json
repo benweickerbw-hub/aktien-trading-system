@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "updated_at": "2026-11-09T21:25:49Z",
+  "version": 21,
+  "updated_at": "2026-11-09T22:32:56Z",
   "update_note": "Nutzerziel: 10 Paper-Trades je Xetra-Handelstag, unbegrenztes hypothetisches Forschungs-/Kapitalbudget; keine unbestätigten Fills. Bestehende Positionsdaten unverändert.",
   "trades": [
     {
@@ -49,20 +49,23 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 3.126,
-      "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-09T13:27:00+01:00",
-      "mark_type": "REGULAR",
-      "mark_source": "FinanzNachrichten Xetra last 13:27 CET; stale by US check time; underlying equity only",
-      "mark_source_url": "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm",
-      "mark_verified_at": "2026-11-09T20:28:34Z",
+      "mark_price": 3.029,
+      "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen | 2026-11-09 Xetra close 3.029 EUR 17:35:29 CET; Aktienkurs, kein Turbo-Fill/PnL.",
+      "mark_at": "2026-11-09T17:35:29+01:00",
+      "mark_type": "XETRA_CLOSE",
+      "mark_source": "https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/",
+      "mark_source_url": "https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/",
+      "mark_verified_at": "2026-11-09T22:32:56Z",
       "model_unrealized_pnl_eur": null,
       "previous_mark": {
         "price": 2.988,
         "at": "2026-11-06T17:35:00+01:00",
         "source": "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm",
         "session": "CLOSE"
-      }
+      },
+      "mark_currency": "EUR",
+      "mark_quote_type": "Last",
+      "reference_only": true
     },
     {
       "id": "USER-PELOTON",
