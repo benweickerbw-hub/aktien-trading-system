@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "updated_at": "2026-11-09T09:34:00Z",
+  "version": 18,
+  "updated_at": "2026-11-09T17:34:41Z",
   "update_note": "Nutzerziel: 10 Paper-Trades je Xetra-Handelstag, unbegrenztes hypothetisches Forschungs-/Kapitalbudget; keine unbestätigten Fills. Bestehende Positionsdaten unverändert.",
   "trades": [
     {
@@ -17,9 +17,9 @@
       "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 21.68,
-      "mark_at": "2026-11-06T19:24:00-05:00",
-      "mark_source": "StockAnalysis NASDAQ after-hours displayed quote; latency not independently verified",
+      "mark_price": 22.07,
+      "mark_at": "2026-11-09T12:18:00-05:00",
+      "mark_source": "StockAnalysis CBOE real-time or consolidated Nasdaq UTP up to 15 min delayed; last, exact venue not isolated",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
@@ -27,16 +27,16 @@
       "planned_exit": "2026-11-06T09:30:00-05:00",
       "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
       "mark_source_url": "https://stockanalysis.com/stocks/iren/",
-      "mark_verified_at": "2026-11-07T00:32:23Z",
-      "model_unrealized_pnl_eur": -100.55,
+      "mark_verified_at": "2026-11-09T17:34:41Z",
+      "model_unrealized_pnl_eur": -111.36,
       "reference_only": true,
       "previous_mark": {
-        "price": 21.94,
-        "at": "2026-11-06T17:03:00-05:00",
+        "price": 21.68,
+        "at": "2026-11-06T19:24:00-05:00",
         "source": "https://stockanalysis.com/stocks/iren/",
         "session": "AFTERHOURS"
       },
-      "mark_type": "AFTERHOURS"
+      "mark_type": "REGULAR"
     },
     {
       "id": "USER-HELLOFRESH",
@@ -69,13 +69,13 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 5.62,
+      "mark_price": 5.79,
       "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-06T16:00:00-05:00",
-      "mark_type": "CLOSE",
-      "mark_source": "StockAnalysis NASDAQ last at 16:00 EST; CBOE or 15-min delayed Nasdaq UTP; underlying equity, NOT turbo price",
+      "mark_at": "2026-11-09T12:32:00-05:00",
+      "mark_type": "REGULAR",
+      "mark_source": "StockAnalysis CBOE or 15-minute delayed Nasdaq UTP, underlying LAST not turbo",
       "mark_source_url": "https://stockanalysis.com/stocks/pton/",
-      "mark_verified_at": "2026-11-06T21:26:12.857Z",
+      "mark_verified_at": "2026-11-09T17:34:41Z",
       "model_unrealized_pnl_eur": null,
       "reference_only": false
     },
