@@ -1,6 +1,6 @@
 {
-  "version": 58,
-  "updated_at": "2026-11-09T16:03:20Z",
+  "version": 59,
+  "updated_at": "2026-11-09T16:30:38Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -9860,6 +9860,161 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra Research – 09.11.2026, 17:03 CET\n\n**Entscheidung: KEIN TRADE.** Keine authentifizierte Paper-Broker-Verbindung, keine nach Entscheidung verifizierten handelbaren Bid/Ask-Quotes. Keine rückdatierten simulierten Fills. Das Paperkonto enthält modellhaft 10.000 EUR Startkapital; keine verifizierte Broker-Equity. Aus der gelesenen positions.json wurden im Feld positions[] keine offenen Einträge gefunden; andere mögliche Schemafelder und externe Nutzerpositionen wurden nicht als geschlossen interpretiert. Daher keine belastbare PnL.\n\n## Screening und Nachrichten\nVier europäische Titel gezielt triagiert: HFG, UTDI, KGX, LEG. Keine dieser Aktien ist mit vollständigem Spread-, Konsens-, Kosten- und Kursnachweis QUALIFIED. Weitere Kalenderlisten sind nur DISCOVERED, nicht als geprüft gezählt.\n\n- **HFG**: [HelloFresh/EQS Q3-Mitteilung vom 05.11.2026](https://www.marketscreener.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments-ce785fdcd881f121): Q3-Umsatz währungsbereinigt rund 1,4 Mrd. EUR, -11,3% gegenüber Vorjahr; AEBITDA 50,9 Mio EUR. [EQS-Ad-hoc vom 24.09.2026](https://www.tradingview.com/news/eqs:72be29c8c094b:0-hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the-financial-year-2026/) erwartete 45–55 Mio EUR: **ERREICHT** (innerhalb revidierter Spanne), keine historische Trefferquote aus einem Fall. Bull: Profitabilitätsverbesserung; Bear: rückläufige Nachfrage und Umsatz. Tendenz 1–10 Tage neutral/fragil. Aktuelle Analystenvoten, Bewertung und 17-Uhr-Spread nicht verifiziert.\n- **UTDI**: [AD HOC NEWS, 09.11.2026](https://www.ad-hoc-news.de/boerse/news/corporate-news/united-internet-stock-faces-november-12-results-test/70480403): Bericht 12.11. Bull: mögliche positive Überraschung; Bear: Investitions- und Kapitalallokationsrisiko. Kein Konsens oder zeitnaher Quote geprüft; WATCH.\n- **KGX**: [AD HOC NEWS, 09.11.2026](https://www.ad-hoc-news.de/boerse/news/corporate-news/kion-stock-gains-as-automation-growth-offsets-truck-weakness/70480415): Q3-Umsatz 2,8 Mrd EUR (+4,8%), Automation +15,8%, Schwäche bei Staplern und reduzierte Jahresprognose. Bull: Automationswachstum; Bear: Auftragsrisiko. WATCH, kein Fill.\n- **LEG**: [AD HOC NEWS, 09.11.2026](https://www.ad-hoc-news.de/boerse/news/vorboerse/leg-immobilien-stock-at-eur-51-23-up-0-65-prozent-pre-market/70479396): Bericht 12.11. Zins- und Finanzierungssensitivität; Vorbörsenkurs 08:09 ist **ALT**, kein Entry-Quote. WATCH.\n\n## Strategie, Kosten, Lücken\nPre-Earnings für UTDI/LEG nur Beobachtung; PEAD für HFG mangels verifizierter EPS- und Umsatzsurprise nicht aktiviert; Guidance-Revision bei HFG qualitativ negativ, revidiertes Q3-AEBITDA-Ziel erreicht; KION/HFG als Paar ohne Kursreihen/Korrelation **nicht qualifiziert**. Deutsche IBKR-Mindestprovision 2,50 EUR Roundtrip vor Spread, FX, Slippage: bei 50 EUR Margin und 5x = 250 EUR Notional bereits 1,0% und damit über dem 0,5%-Kostenlimit ([IBKR-Gebührenliste](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe)).\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIm aktuell ausgelesenen positions[]-Array keine offenen Einträge; keine aktuelle Markierung und keine modellierte PnL. IREN 18,05 USD bleibt bloße hypothetische Referenz, kein verifizierter Fill. Für HFG/PTON-Nutzerturbos sind Einstand, Produkt-ISIN und handelbare Produktquotes nicht verifiziert; **PnL nicht berechenbar**. Keine Position geschlossen. Ein Opening-Order-Signal muss vor der Eröffnung feststehen; der tatsächliche Eröffnungspreis ist erst danach bekannt.\n\n## Quellenstand\nFünf konkrete Nachrichten-/Quellendokumente plus Gebührenliste inhaltlich berücksichtigt; keine 50-Quellen-Dossiers, keine zwei unabhängigen aktuellen Analystenstimmen je Aktie, keine geprüften institutionellen Quartalsvergleiche, keine vollständige historische Guidance-Scorecard. Xetra-17-Uhr-Bid/Ask, Feed-Verzögerung, Konsens, Spread, Borrow, Volumen und präzise aktuelle PnL: **nicht gefunden/verifiziert**. TradingView-Widget ist kein verifizierter PnL-Feed."
+    },
+    {
+      "id": "US-20261109T163038Z",
+      "market": "US",
+      "run_at": "2026-11-09T16:30:38Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "AI-Rebound, NVDA-Governance-Risiko, IREN-Capex und IONS-Guidance",
+      "summary": "Research-only: 0 authentifizierte Paper-Fills; offene Positionen ohne neue verifizierte Quote/PnL.",
+      "source_status": "2 Reuters-Volltexte und 1 teilweise zugänglicher Barron's-Text geöffnet; 50er-Dossiers nicht erreicht",
+      "candidates": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "side": "SHORT",
+          "thesis": "Governance-Headline belastet Aktie relativ zum Markt",
+          "risk": "Short-Squeeze und starke AI-Nachfrage",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN",
+          "tv": "NASDAQ:IREN",
+          "side": "WATCH",
+          "thesis": "Runrate-Verschiebung bei hohem Capex",
+          "risk": "AI-Nachfrage und Verträge könnten Erwartungen stützen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IONS",
+          "name": "Ionis Pharmaceuticals",
+          "tv": "NASDAQ:IONS",
+          "side": "SHORT",
+          "thesis": "Tryngolza-Umsatzguidance gesenkt",
+          "risk": "Überverkauft und andere Produkte",
+          "sources_checked": 0,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Wall St rallies after last week's AI rout; Nvidia falls",
+          "published_at": "2026-11-09T10:35:00Z",
+          "ticker": "NVDA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/",
+          "finding": "US-Markt erholt sich, Nvidia Governance-Risiko; Indexwerte 09:46 EST"
+        },
+        {
+          "title": "IREN delays Microsoft AI deliveries, plans spending push",
+          "published_at": "2026-11-05T21:35:00Z",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "Runrate-Termin verschoben; 228 Mio. USD Quartalsumsatz"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Governance-Headline belastet Aktie relativ zum Markt",
+          "points": [
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Governance-Headline belastet Aktie relativ zum Markt",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Unternehmensmeldungen",
+            "Makrodaten"
+          ],
+          "invalidations": [
+            "Short-Squeeze und starke AI-Nachfrage"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN",
+          "tv": "NASDAQ:IREN",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Runrate-Verschiebung bei hohem Capex",
+          "points": [
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Runrate-Verschiebung bei hohem Capex",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Unternehmensmeldungen",
+            "Makrodaten"
+          ],
+          "invalidations": [
+            "AI-Nachfrage und Verträge könnten Erwartungen stützen"
+          ]
+        },
+        {
+          "ticker": "IONS",
+          "name": "Ionis Pharmaceuticals",
+          "tv": "NASDAQ:IONS",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Tryngolza-Umsatzguidance gesenkt",
+          "points": [
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Tryngolza-Umsatzguidance gesenkt",
+              "url": "https://www.barrons.com/articles/ionis-earnings-stock-price-dea3238e",
+              "publisher": "Barron's",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Unternehmensmeldungen",
+            "Makrodaten"
+          ],
+          "invalidations": [
+            "Überverkauft und andere Produkte"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": null,
+        "stance": "REFERENZ",
+        "summary": "18,05 USD ist kein nachgewiesener Fill",
+        "base_scenario": "Hohe Schwankungen",
+        "bull_scenario": "AI-Auftragsnachfrage",
+        "bear_scenario": "Finanzierungs- und Terminrisiken",
+        "key_risk": "Capex und Verwässerung",
+        "planned_exit": "Kein bestätigter Paper-Trade",
+        "as_of": "2026-11-09T16:30:38Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 09.11.2026, 11:30 EST\n\n## Markt und Nachrichten\nReguläre NYSE/Nasdaq-Sitzung. Reuters meldete für 09:46 EST S&P 500 +1,48%, Nasdaq Composite +1,87%, Dow +1,27%, während NVDA wegen einer Untersuchung zu Vorwürfen um den CEO unter Druck stand. Diese Werte sind ein historischer Intraday-Snapshot, kein Kurs um 11:30. Der US-Oktober-CPI ist für 10.11. angekündigt (Reuters, 09.11.): [Marktbericht](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/).\n\n## Screening / Watch\nNVDA: WATCH, eventgetriebener Governance-Risiko-Short, aber Rebound-/Headline-Risiko hoch; aktuelle Bid/Ask nicht verifiziert. IREN: WATCH, operative AI-Cloud-Umsätze im Septemberquartal 200 Mio. USD, Gesamtumsatz 228 Mio. USD gegenüber LSEG-Konsens 221,28 Mio.; Ziel >4 Mrd. USD annualisierter Runrate von Jahresende auf Januar, eventuell Februar verschoben; geplante Investitionen ca. 15 Mrd. USD im verbleibenden Geschäftsjahr. Risiko: Finanzierung, Capex, Kundentermine; Gegenthese: Nachfrage und große Verträge. [Reuters, 05./06.11.](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/). IONS: WATCH/SHORT-Hypothese nach Kürzung der Tryngolza-Umsatzerwartung, aber hohe Gegenbewegungsgefahr; [Barron's, 09.11.](https://www.barrons.com/articles/ionis-earnings-stock-price-dea3238e) ist nur teilweise öffentlich lesbar. MRVL/AVGO: DISCOVERED aus Marktbericht, kein vollständiger Einzeltitelscreen. TTD: DISCOVERED als bevorstehender Earnings-Name, Termin/Consensus nicht primärverifiziert.\n\n## Methoden und Forschungsstand\nNeu vollständig geöffnete eigenständige Artikel: Reuters Marktbericht 1, Reuters IREN 1, Barron's IONS teilweise 1; kein Titel erreicht 50/50. SEC-Originalberichte, 13F-Paarvergleiche, zwei aktuelle Analystenvoten je Titel, konsistente historische Guidance-Scorecard, 60–252-Tage-Korrelationen und zeitnahe handelbare Spreads: nicht verifiziert. PRE-EARNINGS, PEAD, GUIDANCE und PAIRS derzeit ohne ausreichend belastbare Daten für Netto-Edge; keine 13F-Transaktionen behauptet. Verifizierte qualifizierte Trades: 0. Alle Meinungen vorläufig.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nRegister geprüft: IREN OPEN_SIMULATED, aber 18,05 USD ausdrücklich nur hypothetischer Referenz-Einstieg, kein authentischer Fill; aktuelle zeitgestempelte Quote nicht verifiziert, PnL nicht berechenbar. HFG und PTON OPEN_UNVERIFIED (Nutzer-Turbos), Einstand/ISIN/KO/Produktquote fehlen, PnL nicht berechenbar. HFG Xetra-Schlusskurs 06.11. 2,988 EUR ist ALT und kein Turbo-Preis: [Yahoo Finance](https://uk.finance.yahoo.com/quote/HFG.DE/history/). Keine Position geschlossen, keine neue Markierung ohne neueren verifizierten Kurs.\n\n## Handelsentscheidung und Kapital\nKEIN TRADE, 0 Fills. Paper-Kapitalmodell 10.000 EUR; keine authentifizierte Paper-Brokerverbindung, daher ausschließlich Research/Signals. Neue Entries erst bei überprüftem Spread, Gebühren, Stop, Chance-Risiko und authentischem Paper-Fill. Keine echte Order. Dashboard-GitHub dient ausschließlich Persistenz, nicht Kursrecherche."
     }
   ],
   "deep_dives": {
