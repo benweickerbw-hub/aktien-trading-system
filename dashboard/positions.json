@@ -1,7 +1,7 @@
 {
-  "version": 16,
-  "updated_at": "2026-11-08T23:57:00+01:00",
-  "update_note": "Paper-Simulationskapital ab 08.11.2026 auf 10.000 EUR angehoben; ab 10 EUR variable Stake, 5x Modell, Kosten-/Spread-/Risikofilter; keine neue Order an Sonntag und keine rückdatierte Ausführung.",
+  "version": 17,
+  "updated_at": "2026-11-09T09:34:00Z",
+  "update_note": "Nutzerziel: 10 Paper-Trades je Xetra-Handelstag, unbegrenztes hypothetisches Forschungs-/Kapitalbudget; keine unbestätigten Fills. Bestehende Positionsdaten unverändert.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -99,7 +99,7 @@
   "paper_account": {
     "currency": "EUR",
     "initial_equity_eur": 10000,
-    "paper_equity_eur": 10000,
+    "paper_equity_eur": null,
     "account_as_of": "2026-11-08T23:57:00+01:00",
     "account_type": "VIRTUAL_ONLY",
     "brokers_connected": false,
@@ -112,9 +112,9 @@
       "stake_sizing": "variable_by_total_execution_cost_and_stop_distance",
       "nominal_leverage": 5,
       "max_open_paper_trades": 30,
-      "max_total_margin_eur": 3000,
-      "max_gross_notional_eur": 15000,
-      "max_new_trades_per_session": 12,
+      "max_total_margin_eur": null,
+      "max_gross_notional_eur": null,
+      "max_new_trades_per_session": 10,
       "max_simultaneous_same_ticker": 1,
       "max_sector_gross_fraction": 0.25,
       "max_risk_per_trade_eur": 25,
@@ -131,7 +131,8 @@
       "require_verified_post_decision_quote": true,
       "require_verified_spread": true,
       "require_order_or_simulation_fill_receipt": true,
-      "require_source_and_time": true
+      "require_source_and_time": true,
+      "daily_simulation_target": 10
     },
     "fee_examples": [
       {
@@ -151,6 +152,10 @@
         "note": "Zusätzliche Gebühren, Spread und Slippage nicht enthalten. 50 EUR Notional -> Mindestprovisionen 5%."
       }
     ],
-    "constraints": "PAPER-SIGNALS only unless broker paper endpoint explicitly connected; no live orders, fills, or prices invented. Stop loss is modeled planning only and does not bound gap losses."
+    "constraints": "PAPER-SIGNALS only unless broker paper endpoint explicitly connected; no live orders, fills, or prices invented. Stop loss is modeled planning only and does not bound gap losses.",
+    "capital_policy": "UNLIMITED_HYPOTHETICAL_BUDGET_NOT_BROKER_BALANCE",
+    "daily_trade_target": 10,
+    "daily_trade_target_market": "XETRA",
+    "daily_trade_target_type": "TARGET_NOT_GUARANTEED_EXECUTIONS"
   }
 }
