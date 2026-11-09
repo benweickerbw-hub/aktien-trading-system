@@ -1,6 +1,6 @@
 {
-  "version": 55,
-  "updated_at": "2026-11-09T14:41:36Z",
+  "version": 56,
+  "updated_at": "2026-11-09T15:09:16Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -9421,6 +9421,92 @@
       "candidates": [],
       "news": [],
       "report_markdown": "# US-Overnight-Check – 09.11.2026, 09:41 EST\n\n**Entscheidung: KEIN VERIFIZIERTER EXIT / KEIN NEUER FILL.** Für den 09.11.2026 liegt in den heute zugänglichen öffentlichen Kursquellen noch kein verifizierbarer regulärer NASDAQ-Opening-Print von IREN oder PTON vor. Die gefundenen IREN-Daten sind 06.11.-Schlusskurse bzw. 09.11.-Vorbörse; PTON ebenfalls vorbörslich. Keine Position rückdatieren oder als geschlossen markieren.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT (REFERENZSIMULATION, nicht echter Paper-Fill):** alter hypothetischer Referenzpreis 18,05 USD vom 05.11.2026 12:40:24 ET, Entscheidungszeit ~13:40 ET. Letzte im Dashboard gespeicherte Kursmarke 21,68 USD am 06.11. 19:24 EST AFTERHOURS; modellierter historischer Referenzverlust −100,55 EUR (500 × (1−21,68/18,05)), OHNE Gebühren, Spreads, Slippage, Finanzierung und USD/EUR-Effekt. Heute 09.11. noch KEIN bestätigter regulärer Eröffnungskurs. Yahoo Finance zeigt 21,64 USD als Schluss 06.11. und 20,80 USD Vorbörse 09.11. 07:45:51 EST – beide NICHT als heutigen Open oder aktuellen PnL buchen. https://finance.yahoo.com/quote/IREN/history/\n- **PTON SHORT (USER_REPORTED Turbo):** letzter gespeicherter Underlying-Kurs 5,62 USD am 06.11. 16:00 EST, kein Turbo-Einstand, keine ISIN/KO, daher PnL NICHT BERECHENBAR. StockAnalysis zeigt 5,57 USD Vorbörse 09.11. 04:01 EST, nicht aktuellen 09:30 Open. https://stockanalysis.com/stocks/pton/\n- **HFG SHORT (USER_REPORTED Turbo):** letzter gespeicherter Underlying-Kurs 2,988 EUR, 06.11. Xetra-Schluss. Öffentlich zugängliche Seite zeigt 09.11. Xetra 3,122 EUR 13:16 CET, was gegenüber dem Check-Zeitpunkt 09:41 EST = 15:41 CET VERALTET ist; dennoch keine vollständige, verifizierte aktuelle Quote. Ohne Produktdaten PnL NICHT BERECHENBAR. https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm\n\n## Entscheidung / Ausstiegsregel\nIm letzten zugänglichen US-Research-Durchlauf 09.11. 09:34 EST wurde **KEIN TRADE** gebucht; die 15:30-ET-Entscheidung des vorigen Handelstags ist nicht durch einen belastbaren Fill belegt. Der ursprünglich für 06.11. vorgesehene IREN-Referenzausstieg bleibt historisch UNABGERECHNET und darf nicht nachträglich mit einem anderen Datum als realisiert dargestellt werden. Für bestätigte Modell-Trades würde ein vorab festgelegter Exit zum offiziellen nächsten Opening nur mit nachgewiesenem Open-Print verbucht. Bei der Referenz IREN darf ein solcher Kurs lediglich einen separat gekennzeichneten hypothetischen Vergleich erzeugen. Keine echten Orders, keine Brokerverbindung.\n\nQuellenstatus: Die heutigen Webabfragen lieferten keine ausreichend datierte NASDAQ-Open-Marke für den 09.11.; 06.11.-Kurse sind alt, Premarket nicht Opening. Keine Kursdaten aus GitHub oder MotherDuck verwendet. Keine neuen Quellen als 50-Quellen-Deep-Dive gezählt."
+    },
+    {
+      "id": "XETRA-20261109T150916Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T15:09:16Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "GEA starkes Q3, Earnings-Woche; kein verifizierbarer Paper-Fill",
+      "summary": "GEA Aufträge +20,3%, Guidance bestätigt; Infineon/Henkel morgen. Kein Broker-Fill, PnL unverifiziert.",
+      "source_status": "4 eigenständige Dokumente geprüft; keine zeitnahen Bid/Ask-Quotes",
+      "candidates": [
+        {
+          "ticker": "G1A",
+          "name": "GEA Group",
+          "tv": "XETR:G1A",
+          "side": "WATCH_LONG",
+          "thesis": "Q3 Auftragsplus 20,3%, FCF deutlich höher",
+          "risk": "Großauftragsvolatilität, kein verifizierter Entry-Spread",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "GEA Q3: Auftragseingang +20,3%, Guidance bestätigt",
+          "published_at": "2026-11-09",
+          "ticker": "G1A",
+          "publisher": "GEA IR",
+          "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+          "finding": "Umsatz 1.461,2 Mio. EUR; EBITDA vor Restrukturierung 260,9 Mio. EUR"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "G1A",
+          "name": "GEA Group",
+          "tv": "XETR:G1A",
+          "stance": "WATCH_LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Auftragseingang und Cashflow stark, Guidance bestätigt; Preis-/Kostenvalidierung fehlt.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Auftragseingang 1.650,7 Mio. EUR (+20,3%).",
+              "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+              "publisher": "GEA IR",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3 Free Cashflow 134,7 Mio. EUR.",
+              "url": "https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/",
+              "publisher": "GEA IR",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY2026-Guidance aus Q2 bestätigt.",
+              "url": "https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/",
+              "publisher": "GEA IR",
+              "published_at": "2026-08-10"
+            }
+          ],
+          "catalysts": "Q3-Auftragsdynamik",
+          "invalidations": "Abschwächung Auftragseingang; ungünstiger Spread oder Guidance-Revision"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ",
+        "summary": "Kein verifizierter Fill, neue Marke nicht gefunden",
+        "base_scenario": "Nicht belastbar",
+        "bull_scenario": "Nicht verifiziert",
+        "bear_scenario": "Nicht verifiziert",
+        "key_risk": "Fehlende Kursmarke und tatsächliche Ausführung",
+        "planned_exit": "Nur nach vorher festgelegter und belegter Simulationsregel",
+        "as_of": "2026-11-09T15:09:16Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 09.11.2026, 16:09 MEZ\n\n## Kurzlage und Entscheidung\n**KEIN TRADE / 0 Fills.** Xetra regulär geöffnet. Keine authentifizierte Paper-Broker-Verbindung; keine nach Entscheidungszeitpunkt verifizierten handelbaren Bid/Ask-Quotes und keine überprüften Roundtrip-Kosten. 10.000 EUR sind fiktives Startkapital, keine bestätigte Equity. Die Konfiguration in positions.json nennt maximal 30 Positionen, 5x Modellhebel, 10–200 EUR Einsatz, 25 EUR geplantes Einzelrisiko; aktuelle Maximalmargin und maximales Bruttonotional stehen dort auf null (unbestimmt). Daher keine Positionsbuchung.\n\n## Neue Ergebnisse\n- [GEA Q3, Unternehmens-IR, 09.11.2026](https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/): Auftragseingang 1.650,7 Mio. EUR (+20,3%), Umsatz 1.461,2 Mio. EUR (+7,0%), EBITDA vor Restrukturierung 260,9 Mio. EUR (+12,6%), Free Cashflow 134,7 Mio. EUR (Vorjahr 52,2 Mio.). Prognose 2026 bestätigt: organisches Wachstum 6–8%, EBITDA-Marge 17,0–17,4%. Positiv: Auftragsdynamik, Cashflow. Negativ: Großaufträge 294,9 Mio. EUR können schwanken; Prognose nicht erneut erhöht.\n- [GEA Q2, Unternehmens-IR, 10.08.2026](https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/): Prognose zuvor auf 6–8% organisches Wachstum und 17,0–17,4% Marge angehoben. Q3-Bestätigung ist kein endgültiger Ist-gegen-Guidance-Erfüllungsnachweis für FY2026.\n- [Hannover Rück IR-Kalender, geprüft 09.11.2026](https://www.hannover-re.com/en/investors/events-and-presentations/): Q3-Veröffentlichung am 09.11.; weitere Originalzahlen und Analystenkonsens nicht ausreichend gegengeprüft.\n- [DAX Earnings Kalender, geprüft 09.11.2026](https://quarterlyearnings.info/earnings/index/dax): Infineon und Henkel 10.11.; Siemens Energy, E.ON, RWE, Brenntag 11.11.; Siemens und Allianz 12.11. Termine sind Pipeline, nicht vollständiges Screening.\n\n## Screening / Watch\nGEA (G1A) WATCH, positive fundamentale Tendenz 1–10 Handelstage, aber keine kostenbereinigte Entry-Qualifikation. Infineon (IFX), Henkel (HEN3), Siemens Energy (ENR), Allianz (ALV) DISCOVERED: Earnings-Termine geprüft, Spread, Konsens, aktuelle Quotes und Management-Track-Record nicht verifiziert. Kein Pair-Trade ohne 60–252 datierte Kurse und Korrelation.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister vor Recherche gelesen: IREN (OPEN_SIMULATED, 18,05 USD ausdrücklich nur historische Referenz, kein bestätigter Fill), HFG (OPEN_UNVERIFIED), PTON (OPEN_UNVERIFIED). DEUTZ bereits CLOSED_REPORTED. Für keinen offenen Titel konnte in diesem Lauf ein hinreichend aktueller, zeitgestempelter öffentlicher Quote mit eindeutigem Marktsegment/Bid/Ask belegt werden. **Kursmarke: NICHT GEFUNDEN; neue PnL: NICHT BERECHENBAR.** HFG/PTON-Turbos fehlen Produkt-ISIN, Einstieg und KO. Keine Änderungen oder Schließungen gebucht. IREN bleibt hypothetische Referenz, kein realisierter Ertrag.\n\n## Forschungslücken und Methodik\nTatsächlich inhaltlich geprüfte eigenständige Publikationen: 4 (GEA Q3, GEA Q2, Hannover Rück IR-Kalender, DAX-Earnings-Kalender). Kein vollständiges 50-Quellen-Master-Dossier; kein belegter Analysten-Zielpreisvergleich, keine regulatorisch geprüften Fondsbestandsvergleiche, keine ausreichend geprüften EPS-/Umsatz-Konsensüberraschungen. Vorbörsliche Opening-Order müsste vor dem nächsten Handelsstart feststehen; Opening-Print erst danach bekannt. Kein rückwirkender Fill. TradingView-Widget nicht als verifizierter PnL-Feed verwendet."
     }
   ],
   "deep_dives": {
@@ -10975,17 +11061,16 @@
       "institutional_holdings": [],
       "holdings_note": "Keine zwei originalen Stimmrechtsmeldungen/13F für Vergleich verifiziert.",
       "key_unknowns": [
-        "Aktueller handelbarer Xetra Bid/Ask mit Zeit",
-        "Aktueller Analystenkonsens und zwei namentliche Updates",
-        "Bewertung und aktuelle institutionelle Veränderungen",
-        "Abschluss FY2026 Guidance-Ist"
+        "Verifizierter Spread",
+        "Analystenkonsens",
+        "historische Guidance-Erfüllung"
       ],
-      "method_note": "Quellen URLs dedupliziert; Guidance 2026 noch nicht als erfüllt bewertet.",
+      "method_note": "Original-IR-Dokumente, keine Duplikate",
       "analyst_coverage": "Aktuelle namentliche Analystenreports nicht verifiziert.",
-      "as_of": "2026-11-09T14:00:34Z",
-      "status": "DEEP_DIVE",
-      "stance": "WATCH LONG",
-      "summary": "Q3 operativ stark, aber Großaufträge und fehlende aktuelle Bewertung verhindern qualifizierten Trade."
+      "as_of": "2026-11-09T15:09:16Z",
+      "status": "IN_PROGRESS",
+      "stance": "WATCH_LONG",
+      "summary": "Q3 Auftragseingang stark; Kurs/Analysten nicht verifiziert"
     },
     "HYQ": {
       "ticker": "HYQ",
@@ -11057,8 +11142,8 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T14:34:45Z",
-    "method_note": "Vier einzeln qualitativ triagierte Titel; Kalenderlisten allein nicht als SCREENED gezählt; keine ausführbaren Quotes.",
+    "as_of": "2026-11-09T15:09:16Z",
+    "method_note": "Dieser Lauf: vier Publikationen; Termine allein zählen nicht als vollständig gescreente Titel. Bestehende andere Markt-Daten erhalten.",
     "coverage": {
       "universe_checked": 4,
       "earnings_events": 1,
