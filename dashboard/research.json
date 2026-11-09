@@ -1,6 +1,6 @@
 {
-  "version": 67,
-  "updated_at": "2026-11-09T22:32:56Z",
+  "version": 68,
+  "updated_at": "2026-11-09T23:34:39Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -11615,6 +11615,151 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261109T233439Z",
+      "market": "US",
+      "run_at": "2026-11-09T23:34:39Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Qualys Guidance-Anhebung; TTD Umsatz -0,5%; Markt-Rally trotz Nvidia-Schwäche",
+      "summary": "Nachbörse, kein Entry; QLYS/TTD vorläufig geprüft, alte Positionen nicht als neue Fills gebucht",
+      "source_status": "QLYS 2/50, TTD 1/50, NVDA 1/50; keine neuen verifizierten Quotes für offene Positionen",
+      "candidates": [
+        {
+          "ticker": "QLYS",
+          "name": "Qualys",
+          "tv": "NASDAQ:QLYS",
+          "side": "WATCH",
+          "thesis": "Q3 beat prior management guidance, FY guidance raised",
+          "risk": "After-hours selling and valuation/quotes not independently validated",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TTD",
+          "name": "The Trade Desk",
+          "tv": "NASDAQ:TTD",
+          "side": "WATCH",
+          "thesis": "Buyback authorization expanded despite flat sales",
+          "risk": "Sales -0.5% and net income decline",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "side": "WATCH",
+          "thesis": "Governance headline risk against broad semiconductor rebound",
+          "risk": "Unverified allegations and short squeeze",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Qualys Q3 results",
+          "published_at": "2026-11-09",
+          "ticker": "QLYS",
+          "publisher": "Qualys IR",
+          "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results",
+          "finding": "188m revenue, 2.12 non-GAAP EPS, FY guidance raised"
+        },
+        {
+          "title": "The Trade Desk Q3",
+          "published_at": "2026-11-09",
+          "ticker": "TTD",
+          "publisher": "TTD IR",
+          "url": "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "736m revenue, 1bn buyback authorization"
+        },
+        {
+          "title": "Global markets rally",
+          "published_at": "2026-11-09",
+          "ticker": "NVDA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/",
+          "finding": "S&P +2.35%, NVDA -4.2%"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "QLYS",
+          "name": "Qualys",
+          "tv": "NASDAQ:QLYS",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Beat vs Q2 guidance, FY guidance raised; no qualified entry",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue 188m USD and non-GAAP EPS 2.12 USD",
+              "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results",
+              "publisher": "Qualys IR",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "Previous Q3 revenue guide 185.5-187.5m USD",
+              "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-second-quarter-2026-financial-results",
+              "publisher": "Qualys IR",
+              "published_at": "2026-08-04"
+            }
+          ],
+          "catalysts": [
+            "Q4 execution"
+          ],
+          "invalidations": [
+            "Growth deceleration",
+            "Guidance reversal"
+          ]
+        },
+        {
+          "ticker": "TTD",
+          "name": "The Trade Desk",
+          "tv": "NASDAQ:TTD",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Revenue contraction, enlarged repurchase authorization",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Revenue 736m USD vs 739m prior year",
+              "url": "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "TTD IR",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Management call"
+          ],
+          "invalidations": [
+            "Reacceleration in ad demand"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Unverified historical reference, not a fill; no fresh mark verified this run",
+        "base_scenario": "No quantified opening prediction",
+        "bull_scenario": "Short benefits from decline",
+        "bear_scenario": "Short loses from rally",
+        "key_risk": "Gap and borrow risk",
+        "planned_exit": "Await independently verified regular opening and documented decision",
+        "as_of": "2026-11-09T23:34:39Z",
+        "mark_price": 21.69,
+        "mark_at": "2026-11-09T15:25:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/market-cap/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörse, 9. November 2026, 18:34 EST\n\n## Markt und Earnings\nReguläre NYSE/Nasdaq-Sitzung 09:30–16:00 EST beendet; 18:34 EST ist Nachbörse. Reuters meldet S&P 500 +2,35%, Nasdaq Composite +2,74%, Dow +2,15%, Brent 92,57 USD (-5,85%) und Nvidia rund -4,2%. [Reuters, 09.11.2026](https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/). Der [Earnings-Kalender, 09.11.2026](https://bullstory.io/en-us/investing/us-earnings-calendar/2026-11-09) listet 233 Events; das sind nur DISCOVERED-Einträge, keine 233 geprüften Aktien. Namentlich entdeckt: QLYS, TTD, OXY, TTWO, RKLB, ASTS, HIMS, NVDA. Individuell auf Ergebnis-/Nachrichtenebene geprüft: QLYS, TTD, NVDA; andere bleiben DISCOVERED. Konsens, Spread und Liquidität für Entry nicht ausreichend verifiziert.\n\n## Qualys (QLYS), WATCH, vorläufig 2/50 eigenständig gelesene Originalberichte\n[Q3-Bericht Qualys, 09.11.2026](https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results): Umsatz 188,0 Mio. USD (+11% YoY), non-GAAP EPS 2,12 USD, GAAP EPS 1,62 USD, operativer Cashflow 101,8 Mio. USD, GAAP operative Marge 35%. Q4-Umsatzziel 191–193 Mio. USD; Gesamtjahr 736,9–738,9 Mio. USD (zuvor 732–738 Mio.). [Q2-Bericht Qualys, 04.08.2026](https://investor.qualys.com/news-releases/news-release-details/qualys-announces-second-quarter-2026-financial-results) gab Q3-Umsatz 185,5–187,5 Mio. USD und non-GAAP EPS 1,91–1,98 USD vor. Beide Kennzahlen wurden im Q3 übertroffen (Umsatz +0,5 Mio. USD über oberem Band; EPS +0,14 USD). Das sind zwei Beobachtungen, keine belastbare Management-Trefferquote. Bull: Wachstumsstabilität, Cashflow, erhöhte Guidance. Bear: 83% statt 84% GAAP-Bruttomarge, Erwartungsniveau, gemeldete nachbörsliche Schwäche; unabhängige ausführbare Quotes nicht bestätigt. Tendenz 1–10 Tage: WATCH, keine qualifizierte Richtung. Analysten-Voten und 13F-Paarvergleich nicht verifiziert.\n\n## The Trade Desk (TTD), WATCH, vorläufig 1/50 Originalberichte\n[TTD Q3, 09.11.2026](https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx): Umsatz 736 Mio. USD gegenüber 739 Mio. USD im Vorjahr (-0,5%); GAAP Nettogewinn 38 Mio. USD gegenüber 116 Mio. USD; Rückkaufautorisierung um 731 Mio. USD auf 1 Mrd. USD erhöht. Bull: Rückkäufe, neue Produktinitiativen. Bear: Umsatzstagnation und Margendruck. Konsens und frühere Guidance noch nicht periodengleich gegengeprüft; keine statistisch belegte PEAD-These. 1–10 Tage: neutral bis vorsichtig bearisch, kein Trade.\n\n## Weitere Triage\nNVDA: Reuters beschreibt -4,2% trotz Halbleitersektor +6,9% wegen Governance-/Ermittlungsrisiko. Keine bestätigte Kurs- und Spread-Basis für Short. OXY, TTWO, RKLB, ASTS, HIMS: Earnings im Kalender, Ergebnisse/Valuation/Spread in diesem Lauf nicht eigenständig vollständig geprüft; daher DISCOVERED. Paarhandel: keine verifizierten 60–252 Tageskursreihen, Korrelation null. PRE-EARNINGS und PEAD ohne vollständige Konsenshistorie nicht handelbar; Guidance-Revision bei QLYS sachlich belegt, aber kein Edge nach Kosten.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister nur zur Bestandsprüfung, nicht als Marktdatenquelle: IREN SHORT 18,05 USD historische Referenz, kein dokumentierter Fill; zuletzt gespeicherte REGULAR-Marke 21,69 USD vom 09.11. 15:25 EST (StockAnalysis, https://stockanalysis.com/stocks/iren/market-cap/), **ALT** für 18:34, modellierte historische Referenz-PnL -100,83 EUR ohne FX/Kosten; keine heutige unabhängige Neuverifikation. HFG SHORT USER_REPORTED: gespeicherter Xetra-Schluss 3,029 EUR 09.11. 17:35 CET (https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/), Turbo-Einstand fehlt, PnL nicht berechenbar. PTON SHORT USER_REPORTED: gespeicherter REGULAR-Kurs 5,94 USD 09.11. 14:36 EST (https://stockanalysis.com/stocks/pton/), **ALT**, Produktkurs/KO fehlt, PnL nicht berechenbar. DEUTZ geschlossen laut Nutzer; kein eigener Fillbeleg. Alle Positionen unverändert, kein Exit.\n\n## Entscheidung und Kosten\n**KEIN TRADE.** 18:34 EST außerhalb autorisierter Entry-Zeit; keine Broker-Paper-Verbindung und keine belegten ausführbaren Bid/Ask-Kurse. Paper-Startbudget 10.000 EUR rein hypothetisch; Policy im Positionsregister: 10–200 EUR Margin, bevorzugt 50 EUR, 5× Hebel, Stoprisiko höchstens 25 EUR je Idee, R:R mindestens 1,8, Gesamtkosten maximal 0,5% Notional. Kosten/FX/Borrow für konkrete Entries nicht verifiziert. Kein Fill, keine neue PnL und keine Änderung an Mac-Dateien."
     }
   ],
   "deep_dives": {
@@ -13557,16 +13702,90 @@
       "summary": "Gesunkene EBITDA-Guidance, Margendruck; vorläufig, Kosten/Preis/Management-Track-Record unvollständig",
       "holdings_note": "Keine zwei 13F-Originalmeldungen verglichen",
       "method_note": "Quellen URL dedupliziert; vorläufig, nicht 50/50"
+    },
+    "QLYS": {
+      "ticker": "QLYS",
+      "name": "Qualys",
+      "tv": "NASDAQ:QLYS",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "QLYS-2026Q3",
+          "title": "Qualys Q3 2026 results",
+          "publisher": "Qualys IR",
+          "published_at": "2026-11-09",
+          "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results",
+          "finding": "Revenue 188.0m, non-GAAP EPS 2.12, raised FY guidance",
+          "checked_on": "2026-11-09T23:34:39Z",
+          "doc_type": "earnings_release"
+        },
+        {
+          "id": "QLYS-2026Q2",
+          "title": "Qualys Q2 2026 results and Q3 guidance",
+          "publisher": "Qualys IR",
+          "published_at": "2026-08-04",
+          "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-second-quarter-2026-financial-results",
+          "finding": "Q3 revenue guidance 185.5-187.5m, non-GAAP EPS 1.91-1.98",
+          "checked_on": "2026-11-09T23:34:39Z",
+          "doc_type": "earnings_release"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-09T23:34:39Z",
+      "status": "INCOMPLETE",
+      "stance": "WATCH",
+      "summary": "Q3 above previous guidance; FY raised",
+      "key_unknowns": [
+        "Analyst consensus and votes",
+        "Full historical filings",
+        "Independent time-stamped executable quotes",
+        "13F period-to-period verification"
+      ],
+      "method_note": "Only individually opened original documents counted"
+    },
+    "TTD": {
+      "ticker": "TTD",
+      "name": "The Trade Desk",
+      "tv": "NASDAQ:TTD",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "TTD-2026Q3",
+          "title": "TTD Q3 results",
+          "publisher": "TTD IR",
+          "published_at": "2026-11-09",
+          "url": "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Revenue 736m USD, net income 38m USD, buyback authorization 1bn USD",
+          "checked_on": "2026-11-09T23:34:39Z",
+          "doc_type": "earnings_release"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-09T23:34:39Z",
+      "status": "INCOMPLETE",
+      "stance": "WATCH",
+      "summary": "Revenue down slightly, buyback expanded",
+      "key_unknowns": [
+        "Analyst consensus and votes",
+        "Full historical filings",
+        "Independent time-stamped executable quotes",
+        "13F period-to-period verification"
+      ],
+      "method_note": "Only individually opened original documents counted"
     }
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T22:32:56Z",
-    "method_note": "Dieser Lauf 4 tatsächlich inhaltlich geprüfte Event-Ticker; 18 aus Kalender nur DISCOVERED, nicht gezählt. Andere Märkte erhalten.",
+    "as_of": "2026-11-09T23:34:39Z",
+    "method_note": "Calendar discovered 233 listings; only QLYS, TTD, NVDA examined individually this run; no inferred full-universe coverage.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 4,
-      "triaged": 4,
+      "universe_checked": 3,
+      "earnings_events": 2,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -14601,17 +14820,17 @@
         "name": "Nvidia",
         "tv": "NASDAQ:NVDA",
         "market": "US",
-        "sector": "Semiconductors",
-        "direction": "SHORT",
-        "reason": "Idiosyncratic governance pressure",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Governance headline risk against broad semiconductor rebound",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Idiosyncratic governance pressure",
+        "event": "Governance news",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/"
+          "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/"
         ],
-        "as_of": "2026-11-09T20:28:34Z"
+        "as_of": "2026-11-09T23:34:39Z"
       },
       {
         "ticker": "CRWV",
@@ -14732,6 +14951,41 @@
           "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
         ],
         "as_of": "2026-11-09T22:32:56Z"
+      },
+      {
+        "ticker": "QLYS",
+        "name": "Qualys",
+        "tv": "NASDAQ:QLYS",
+        "market": "US",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Q3 beat prior management guidance, FY guidance raised",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-09",
+        "event": "Q3 results",
+        "score": null,
+        "sources": [
+          "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results",
+          "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-second-quarter-2026-financial-results"
+        ],
+        "as_of": "2026-11-09T23:34:39Z"
+      },
+      {
+        "ticker": "TTD",
+        "name": "The Trade Desk",
+        "tv": "NASDAQ:TTD",
+        "market": "US",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Buyback authorization expanded despite flat sales",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-09",
+        "event": "Q3 results",
+        "score": null,
+        "sources": [
+          "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+        ],
+        "as_of": "2026-11-09T23:34:39Z"
       }
     ],
     "pairs": [
@@ -15217,6 +15471,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T223256Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 3,
+        "earnings_events": 2,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T233439Z"
       }
     ],
     "strategies": [
