@@ -1,6 +1,6 @@
 {
-  "version": 47,
-  "updated_at": "2026-11-09T09:04:32Z",
+  "version": 48,
+  "updated_at": "2026-11-09T10:06:43Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -7877,6 +7877,147 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research – 09.11.2026, 10:04 MEZ\n\n## Kurzlage\n**Keine neuen Paper-Fills.** Xetra ist regulär geöffnet; ein nach der Entscheidung verifizierter handelbarer Bid/Ask und eine authentifizierte Paper-Broker-Ausführung liegen nicht vor. 10.000 EUR sind ausschließlich virtuelles Startkapital, nicht verifizierte Equity.\n\n## Frische Unternehmensnachrichten\n- **GEA (G1A), WATCH LONG:** [EQS-Unternehmensmeldung, 09.11.2026, 07:30 MEZ](https://www.tradingview.com/news/eqs:31bd3e1ca094b:0-gea-delivers-strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/). Q3 Auftragseingang 1.651 Mio. EUR (+20,3%), Umsatz 1.461 Mio. EUR (+7,0%), bereinigtes EBITDA 261 Mio. EUR (+12,6%), Marge 17,9%, FCF 135 Mio. EUR. Jahresprognose organisches Wachstum 6–8%, EBITDA-Marge 17,0–17,4% bestätigt, nicht erneut erhöht. Bull: Auftragswachstum, Liquidität. Bear: hohe Erwartungen, Großaufträge nicht notwendigerweise wiederholbar. Invalidation: Rückgang der organischen Aufträge oder Margen unter Guidance.\n- **Hypoport (HYQ), WATCH:** [EQS-Unternehmensmeldung via MarketScreener, 09.11.2026, 07:10 MEZ](https://www.marketscreener.com/news/hypoport-delivers-solid-gross-profit-growth-and-an-increase-in-ebit-in-the-first-nine-months-of-2026-ce785fd3d980ff21). 9M Bruttoertrag 207 Mio. EUR (+5%), EBIT 30,1 Mio. EUR (+27%), EBIT-Marge 14,5% vs. 12%. Bull: operativer Hebel; Bear: schwache Finanzierungsnachfrage, Zinsen. Kein Konsens-Beat verifiziert.\n- **Earnings-Pipeline:** [ATLAS, Aktualisierung 09.11.2026 06:20 UTC](https://www.atlas-stocks.com/calendar/earnings/germany) nennt Hannover Rück und GEA am 09.11., Infineon am 10.11., Siemens Energy am 11.11., Siemens, Allianz, Munich Re am 12.11. Das sind Kalenderfunde, keine sieben vollständig geprüften Aktien.\n\n## Screening / Strategien\nZwei aktuelle Unternehmensmeldungen inhaltlich geprüft (GEA, Hypoport); sechs weitere Kalendernamen DISCOVERED (Hannover Rück, Infineon, Siemens Energy, Siemens, Allianz, Munich Re). Keine geprüften aktuellen Spreads, Börsenvolumina, aktualisierten namentlichen Analystenvoten oder 60–252 Tageskurs-Paare. PRE-EARNINGS nur Watch; PEAD nicht bestätigt (kein sauberer EPS- und Umsatz-Surprise-Vergleich); GUIDANCE-REVISION bei GEA keine neue Revision; PAIRS nur Hypothese, Korrelation nicht berechnet. Für GEA und Hypoport jeweils eine neue eigenständige Unternehmensmeldung geöffnet; 50-Quellen-Dossier nicht erreicht, historische Guidance-Ist-Scorecard, Institutionelle und Bewertung noch nicht verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT (REFERENZ, nicht nachgewiesener Fill):** 18,05 USD hypothetische Basis; [StockAnalysis, Nasdaq Afterhours 06.11.2026 19:59 EST](https://stockanalysis.com/stocks/iren/) 21,80 USD. Rein rechnerisch bei historischem 500-EUR-Exposure: 500×(1−21,80/18,05)=−103,88 EUR; ohne FX, Gebühren, KO, Finanzierung. Kein aktueller Montagspreis, kein bestätigter Exit. Basisszenario volatile Eröffnung; Bull für Short Rückgang, Bear weiterer Short-Squeeze. Vorab definierte Eröffnungsorder nicht belegt.\n- **HFG SHORT USER_REPORTED:** Einstieg/ISIN/KO fehlen. Vorheriger Xetra-Schluss 2,988 EUR am 06.11.2026 17:35 MEZ laut [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); Quelle in diesem Lauf erneut geöffnet, aber keine neue verlässliche Montagsmarke. PnL nicht berechenbar. Kein Exit.\n- **PTON SHORT USER_REPORTED:** Einstieg/ISIN/KO fehlen. [StockAnalysis, Nasdaq Afterhours 06.11.2026 19:58 EST](https://stockanalysis.com/stocks/pton/) 5,57 USD; kein Montagspreis. PnL nicht berechenbar. Kein Exit.\n\n## Risiko und Handelsentscheidung\nPaper-Konfiguration aus bestehender positions.json geprüft: 10.000 EUR virtuelles Startkapital, 10–200 EUR Margin, bevorzugt 50 EUR, 5x, max. 30 Positionen und 0,5% Notional Roundtrip-Kosten. Bei deutschen Aktien ist IBKR Tiered 2,50 EUR Mindestprovision Roundtrip, bei 250 EUR Notional bereits 1% vor Spread. [IBKR Gebühren] (https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe). Daher kein kostendeckender deutscher Microtrade mit diesem Gebührenmodell. Kein authentifizierter Paper-Broker, keine Ausführung. Keine Positionsdatei verändert.\n\n## Datenlücken\nAktuelle zeitgestempelte Xetra-Bid/Ask, belastbare Konsenszahlen vor Veröffentlichung, zwei namentliche Analystenupdates pro Titel, Management-Track-Record über mehrere Originalberichte, regulatorische Beteiligungsmeldungen, PEAD-Test und echte Paar-Korrelation nicht gefunden. TradingView-Widget ist kein verifizierter PnL-Feed. Quellenumfang dieses Laufs: 6 unterschiedliche tatsächlich geöffnete Webseiten, darunter 2 neue eigenständige Emittentenmeldungen; 1 Kalender, 3 Kursseiten. Keine unabhängigen Publikationen aus Syndikationen doppelt gezählt."
+    },
+    {
+      "id": "XETRA-20261109T100643Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T10:06:43Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Banken stark; Infineon und RWE vor Zahlen; kein verifizierbarer Fill",
+      "summary": "Earnings-Pipeline geprüft, 0 Paper-Fills; aktuelle Quotes und Ausführungsbelege fehlen.",
+      "source_status": "6 öffentliche Quellenseiten gesichtet; 0 aktuelle handelbare Bid/Ask verifiziert; keine 50-Dokumente-Dossiers",
+      "candidates": [
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "WATCH",
+          "thesis": "Zahlen am 10.11.",
+          "risk": "Guidance und Spread nicht verifiziert",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "Gaskraftwerkszuschlag und Earnings 11.11.",
+          "risk": "Kosten und Margenrisiko",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "European shares rise on banking boost",
+          "published_at": "2026-11-09",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/markets/europe/europe-shares-tread-water-investors-weigh-ai-trade-banks-focus-2026-11-09/",
+          "finding": "Banken outperformen; SAP nach Upgrade"
+        },
+        {
+          "title": "Germany awards gas plant contracts",
+          "published_at": "2026-11-03",
+          "ticker": "RWE",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/",
+          "finding": "RWE erhält 2,12 GW"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IFX",
+          "name": "Infineon Technologies",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1-3 Handelstage",
+          "summary": "Ergebnis am 10.11.; keine belastbare Überraschungsprognose.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ergebnis im öffentlichen DAX-Kalender für 10.11. gelistet",
+              "url": "https://quarterlyearnings.info/earnings/index/dax",
+              "publisher": "QuarterlyEarnings",
+              "published_at": null
+            },
+            {
+              "type": "FAKT",
+              "text": "Historischer Xetra-Schluss 06.11.: 45,76 EUR; kein heutiger Quote",
+              "url": "https://www.onvista.de/aktien/historische-kurse/Infineon-Aktie-DE0006231004",
+              "publisher": "onvista",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zeitnaher Spread, zwei Analystenvoten, verifizierter Konsens und Management-Scorecard",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Geschäftszahlen 10.11."
+          ],
+          "invalidations": [
+            "Schwache Guidance",
+            "Hoher Spread"
+          ]
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "stance": "WATCH",
+          "horizon": "1-3 Handelstage",
+          "summary": "Gaskraftwerkszuschlag; Ergebnis am 11.11.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "2,12 GW Zuschlag im Gaskraftwerksprogramm",
+              "url": "https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-03"
+            },
+            {
+              "type": "FAKT",
+              "text": "Ergebnistermin 11.11.",
+              "url": "https://quarterlyearnings.info/earnings/index/dax",
+              "publisher": "QuarterlyEarnings",
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Ergebnis 11.11."
+          ],
+          "invalidations": [
+            "Kostensteigerungen",
+            "Guidance-Enttäuschung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Historische Referenz, kein nachgewiesener Fill; Kursmarke veraltet",
+        "base_scenario": "Nicht prognostizierbar ohne aktuelle Quote",
+        "bull_scenario": null,
+        "bear_scenario": null,
+        "key_risk": "Short-Squeeze und Overnight-Gap",
+        "planned_exit": "Nur nach nachweisbarer vorheriger Orderentscheidung",
+        "as_of": "2026-11-09T10:06:43Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 09.11.2026, 11:06 MEZ\n\n## Markt und Nachrichten\nReuters berichtet am 09.11. über einen Anstieg europäischer Bankaktien, UniCredit-Zahlen und SAP nach Analystenaufwertung: [Reuters, 09.11.](https://www.reuters.com/markets/europe/europe-shares-tread-water-investors-weigh-ai-trade-banks-focus-2026-11-09/). Dies ist kein belastbarer individueller Xetra-Einstiegskurs.\n\n## Earnings-Pipeline und Triage\nDer öffentliche DAX-Terminkalender nennt GEA und Hannover Rück für 09.11., Infineon und Henkel für 10.11., Siemens Energy, RWE, E.ON und Brenntag für 11.11., Siemens und Allianz für 12.11.: [QuarterlyEarnings, Abruf 09.11.](https://quarterlyearnings.info/earnings/index/dax). Acht unterschiedliche Ticker wurden als terminbezogene WATCH/DISCOVERED-Kandidaten erfasst; **keiner** erfüllt nachweislich alle Anforderungen eines vollständigen handelbaren Screenings (Spread, Marktkapitalisierung, zeitnaher Quote, Kosten und Katalysator). Die bloße Kalendernennung ist kein qualifizierter Screen.\n\n**Infineon (IFX):** Q4/FY-Ergebnisereignis am 10.11.; letzter geprüfter historischer Xetra-Schlusskurs vom 06.11. 45,76 EUR, KEIN heutiger Kurs: [onvista, historischer Kursstand](https://www.onvista.de/aktien/historische-kurse/Infineon-Aktie-DE0006231004). Bull: positive Überraschung bei Automotive/Power; Bear: zyklische Halbleiternachfrage. Konsens-Vergleich, aktueller Spread und zwei Analystenvoten noch nicht verifiziert. WATCH, keine Richtung mit hinreichender Sicherheit.\n\n**RWE:** Reuters meldete am 03.11. einen Zuschlag von 2,12 GW im deutschen Gaskraftwerksprogramm: [Reuters, 03.11.](https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/). Bull: Kapazitätsvergütung und Pipeline; Bear: Investitionskosten, regulatorische Umsetzung. Ergebnisereignis am 11.11.; kurzfristiger Ertragseffekt und zeitnaher Quote nicht verifiziert. WATCH.\n\n**Hannover Rück, GEA, Henkel, Siemens Energy, E.ON, Brenntag, Siemens, Allianz:** Kalenderereignisse identifiziert, aber aktuelle Unternehmenszahlen, Guidance-Ist-Vergleiche, unabhängige Analystenstimmen und Bid/Ask nicht hinreichend geprüft. Kein QUALIFIED-Status.\n\n## Strategien und Kosten\nPre-Earnings, PEAD, Guidance-Revision und Pairs wurden konzeptionell gegeneinander geprüft; bestätigte Doppel-Surprise, belastbare Guidance-Scorecard oder 60–252 Tageskurse für Korrelation fehlen. Kein empirisch qualifiziertes Pair. Laut [IBKR-Ireland-Gebührenübersicht](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe) mindestens 2,50 EUR Roundtrip-Provision für deutsche Tiered-Aktien, vor Spread und Slippage; bei 250 EUR Notional bereits 1 % und damit über dem 0,5-%-Kostenlimit. Kein kostenkonformer Fill belegt.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister aus GitHub ausschließlich als Journal gelesen: IREN SHORT, Referenzbasis 18,05 USD, kein verifizierter Fill; letzter gespeicherter AFTERHOURS-Quote 21,68 USD vom 06.11. 19:24 EST, **ALT**, Referenz-PnL dort -100,55 EUR ohne Kosten/FX, keine aktuelle PnL. HFG SHORT und PTON SHORT sind USER_REPORTED-Turbos ohne ISIN, Produkt-Einstieg oder KO; ihre PnL ist nicht berechenbar. HFG zuletzt gespeicherter Underlying-Schlusskurs 2,988 EUR (06.11.), PTON 5,62 USD (06.11.), beide ALT. Keine neuere zeitgestempelte öffentliche Quote in diesem Lauf verifiziert, daher keine Änderung der Marken. Keine Position geschlossen. Eröffnungskurs-Ausführung müsste vor der Eröffnung festgelegt sein; nachträgliche Order nicht zulässig.\n\n## Entscheidung und Forschungslücken\n**KEIN TRADE, 0 Fills.** Die gewünschte Zielgröße 10 Trades/Tag ist kein Nachweis für 10 ausgeführte Trades. Paper-Broker ist nicht verbunden; Ausführungsbeleg, zeitnaher Bid/Ask, Short-Borrow, Kosten, Stop und Chance-Risiko-Verhältnis fehlen. Unbegrenztes hypothetisches Kapital ersetzt diese Nachweise nicht. 5 unterschiedliche öffentlich zugängliche Quelleninhalte für diesen Lauf berücksichtigt (Reuters Markt, Reuters RWE, Kalender, onvista, Gebühren); zusätzlich TipRanks-Kalender gesichtet: [TipRanks, Abruf 09.11.](https://www.tipranks.com/calendars/earnings/2026-11-10/germany). Keine 50-Quellen-Master-Dossiers abgeschlossen; keine neuen historischen Guidance- oder institutionellen Vergleichsfilings verifiziert."
     }
   ],
   "deep_dives": {
@@ -9379,12 +9520,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T09:04:32Z",
-    "method_note": "Nur G1A und HYQ anhand geöffneter Unternehmensmeldungen geprüft; weitere 6 nur Kalender DISCOVERED. Bestehende Daten erhalten.",
+    "as_of": "2026-11-09T10:06:43Z",
+    "method_note": "Kalender-Triage: 10 gelistete Titel, keine vollständige Spread/Kosten-Qualifikation; DISCOVERED nicht als SCREENED zählen.",
     "coverage": {
-      "universe_checked": 2,
-      "earnings_events": 2,
-      "triaged": 2,
+      "universe_checked": 0,
+      "earnings_events": 10,
+      "triaged": 0,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -10859,6 +11000,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261109T090432Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 0,
+        "earnings_events": 10,
+        "triaged": 0,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T100643Z"
       }
     ],
     "strategies": [
