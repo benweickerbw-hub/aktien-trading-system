@@ -1,6 +1,6 @@
 {
-  "version": 53,
-  "updated_at": "2026-11-09T14:00:34Z",
+  "version": 54,
+  "updated_at": "2026-11-09T14:34:45Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -9202,6 +9202,212 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra Research – 09.11.2026, 15:00 MEZ\n\n## HANDY-PUSH-UPDATE\nGEA Q3 Auftragseingang +20,3%; Fokus GEA, Siemens Energy, RWE. 0 Paper-Fills; aktuelle Portfolio-PnL nicht verifizierbar. Keine Orders.\n\n## Unternehmens- und Earnings-Lage\n**GEA (G1A), WATCH LONG:** Laut [GEA Q3-Mitteilung vom 09.11.2026](https://www.gea.com/de/news/corporate/2026/strong-third-quarter-order-intake-rises-substantially-revenue-and-profitability-further-improved/) stieg der Auftragseingang auf 1.650,7 Mio. EUR (+20,3%), der Umsatz auf 1.461,2 Mio. EUR (+7,0%) und der Free Cashflow auf 134,7 Mio. EUR. Die Großaufträge von 294,9 Mio. EUR sind ein wichtiges Gegenargument gegen eine lineare Fortschreibung. Das EBITDA vor Restrukturierung betrug 260,9 Mio. EUR. [GEA Ad-hoc 21.07.2026](https://www.gea.com/de/news/corporate/2026/ad-hoc-strong-second-quarter-gea-raises-full-year-guidance-for-2026/) hob die FY2026-Guidance auf 6–8% organisches Umsatzwachstum und 17,0–17,4% EBITDA-Marge an; am 09.11. bestätigt, **FY-Ist noch offen**, keine Trefferquote. [GEA Q2-Bericht 10.08.2026](https://www.gea.com/it/news/corporate/2026/double-digit-growth-in-order-intake-and-revenue-with-significantly-higher-profitability/) dokumentiert 1.442,5 Mio. EUR Umsatz und 151,1 Mio. EUR FCF; [GEA FY2025 vom 09.03.2026](https://www.gea.com/de/news/corporate/2026/gea-reports-profitable-growth-for-2025-and-expects-accelerated-revenue-growth/) rund 5,5 Mrd. EUR Umsatz. Tendenz 1–10 Handelstage vorsichtig positiv; Invalidierung durch schwächere Auftragstransformation, fallende Marge oder negative Kursreaktion. Aktuelle Bewertung, namentliche Analystenvoten und konsistente aktuelle Xetra-Spreads nicht verifiziert.\n\n**Siemens Energy (ENR), WATCH:** [Siemens Energy Finanzkalender, abgerufen 09.11.2026](https://www.siemensenergy.com/global/en/home/investor-relations.html) bestätigt FY2026-Termin 11.11.2026. [Offizielle Veranstaltungsankündigung](https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html) nennt 07:00 MEZ. Chancen: Stromnetz-/Gasturbinen-Nachfrage; Risiken: hohe Erwartungen, Gamesa und Ausführung. Kein qualifizierter Entry.\n\n**RWE (RWE), WATCH:** [Reuters vom 03.11.2026](https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/) berichtet 2,12 GW Zuschläge für Gaskraftwerkskapazität. Investitionsbedarf und tatsächliche Gewinnbeiträge nicht verifiziert; kein Entry.\n\n## Screening, Strategien und Quellenqualität\n3 Ticker mit eigenem dokumentierten Event/Originalquelle konkret triagiert; 0 QUALIFIED, 0 SIGNAL, 0 OPEN_SIMULATED. 7 unabhängig gezählte Inhaltsdokumente/Seiten in diesem Lauf: GEA Q3, GEA Ad-hoc Juli, GEA Q2, GEA FY2025, Siemens Energy IR-Kalender, Siemens Energy Veranstaltungsseite, Reuters RWE. GEA: 1 neue deduplizierte Dokument-URLs im Dossier, insgesamt 5/50 gespeicherte Dokumenteinträge (nicht automatisch vollständig geprüfte Originaldokumente). Infineon als weiterer Earnings-Kandidat aus Vorläufen bekannt, in diesem Lauf kein neues Originaldokument verifiziert. PRE-EARNINGS: Erwartungs-/Spreadvergleich fehlt. PEAD: EPS+Umsatzsurprise nicht paarweise verifiziert. GUIDANCE-REVISION: GEA FY2026 offen. PAIRS: keine 60–252 datierten Tageskurse, Korrelation null, kein Hedge-Nachweis. Aktuelle Analystenvoten, Insider-/Stimmrechtsmeldungen, Short Interest und institutionelle Änderungen: nicht gefunden.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN SHORT:** 18,05 USD historischer hypothetischer Referenzkurs, kein authentischer Fill; letzter im Register gespeicherter Mark 21,68 USD vom 06.11.2026 19:24 EST AFTERHOURS, Quelle [StockAnalysis](https://stockanalysis.com/stocks/iren/). Neue öffentlich sichtbare PREMARKET-Marke 20,64 USD vom 09.11.2026 07:31 EST laut [StockAnalysis](https://stockanalysis.com/stocks/iren/), beim Check 15:00 MEZ bereits ALT; kein aktueller PnL und keine Änderung im Positionsregister. Rein historischer hypothetischer Modellwert bei 20,64 USD: 500×(1−20,64/18,05)=−71,75 EUR, ohne FX/Kosten, **kein verifizierter Trade**. Exit nur nach vorher dokumentierter Order und bestätigtem Opening-Print, keine rückdatierte Order.\n\n**HFG USER_REPORTED Turbo SHORT:** Im Register 2,988 EUR Xetra CLOSE 06.11.2026 17:35 MEZ; [FinanzNachrichten Abruf 09.11.2026](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm) zeigt Xetra Last 3,126 EUR um 13:27 MEZ (ALT bei 15:00), daneben Geld/Brief anderer Börsenplätze; kein verifizierter Turbo-Kurs, keine ISIN/KO/Einstand, PnL **nicht berechenbar**. Kein Schließen.\n\n**PTON USER_REPORTED Turbo SHORT:** Im Register 5,62 USD NASDAQ CLOSE 06.11.2026 16:00 EST; [StockAnalysis Abruf 09.11.2026](https://stockanalysis.com/stocks/pton/) zeigt PREMARKET 5,57 USD 04:01 EST (ALT); kein verifizierter Turbo-Kurs, PnL **nicht berechenbar**. Kein Schließen.\n\n## Handelsentscheidung und Risikostatus\n**KEIN TRADE.** GitHub-Positionsregister vor Research eingelesen: hypothetisches 10.000-EUR-Startbudget, 10 tägliche Trades als Ziel, kein verbundener Paper-Broker. Keine verifizierte neue Ausführung, keine zeitnahe bid/ask-basierte Netto-Kostenrechnung, keine Änderungen an positions.json. Der nächste reguläre Entscheidungsslot ist 17:00 MEZ. Eine simulierte Eröffnungskursorder muss vor Börseneröffnung dokumentiert werden; Eröffnungskurs und eventuelle Referenzauswertung erst danach. TradingView-Widgets sind keine validierte aktuelle Kurs-/PnL-Quelle.\n"
+    },
+    {
+      "id": "US-20261109T143445Z",
+      "market": "US",
+      "run_at": "2026-11-09T14:34:45Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Nvidia-Governance-Risiko, IREN-Lieferverzögerung und CEG/KKR-Earnings",
+      "summary": "Vier Titel qualitativ triagiert; keine aktuelle ausführbare Quote, kein Paper-Broker, null Fills.",
+      "source_status": "4 eigenständig geöffnete relevante Texte; je Priorität 1/50 neu, vorläufig; keine aktuelle zeitgestempelte Mark-Quote verifiziert.",
+      "candidates": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "side": "SHORT",
+          "thesis": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+          "risk": "Kein verifizierter aktueller Bid/Ask, Kosten/Spread unbekannt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
+          "risk": "Kein verifizierter aktueller Bid/Ask, Kosten/Spread unbekannt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "SHORT",
+          "thesis": "Sektorrisiko ohne bestätigte eigene Ergebnisüberraschung",
+          "risk": "Kein verifizierter aktueller Bid/Ask, Kosten/Spread unbekannt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "side": "WATCH",
+          "thesis": "Earnings-Event ohne bestätigte Ist-Zahlen",
+          "risk": "Kein verifizierter aktueller Bid/Ask, Kosten/Spread unbekannt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "ticker": "NVDA",
+          "title": "US futures climb, Nvidia slides amid investigation",
+          "publisher": "Associated Press",
+          "published_at": "2026-11-09",
+          "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b",
+          "finding": "Nvidia etwa 5% schwächer vor Handelsbeginn; Board-Untersuchung, kein erwiesener Geheimnisabfluss."
+        },
+        {
+          "ticker": "IREN",
+          "title": "IREN delays Microsoft AI deliveries",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "Umsatz 228 Mio USD vs 221,28 Mio Konsens; Run-rate-Ziel zeitlich verschoben; hohe Kapitalzusagen."
+        },
+        {
+          "ticker": "CEG",
+          "title": "Earnings on November 9",
+          "publisher": "Investingly",
+          "published_at": "2026-11-09",
+          "url": "https://investingly.io/earnings-calendar/2026-11-09",
+          "finding": "CEG, KKR, B und FERG als Earnings-Termine; Konsenswerte kalenderbasiert, nicht mit Ist verwechselt."
+        },
+        {
+          "ticker": "CRWV",
+          "title": "Stocks to Watch: Nvidia, CoreWeave, KKR, Skydance",
+          "publisher": "Wall Street Journal",
+          "published_at": "2026-11-09",
+          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/stocks-to-watch-nvidia-coreweave-kkr-z3Xw3Fb0qxdhdyFK3li9",
+          "finding": "CRWV, NBIS und IREN wegen Nvidia-Abhängigkeit unter Druck."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Nvidia etwa 5% schwächer vor Handelsbeginn; Board-Untersuchung, kein erwiesener Geheimnisabfluss.",
+              "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b",
+              "publisher": "Associated Press",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Offizielle Earnings und IR-Mitteilungen"
+          ],
+          "invalidations": [
+            "Gegenteilige Unternehmensnachricht",
+            "Fehlende handelbare Quote"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz 228 Mio USD vs 221,28 Mio Konsens; Run-rate-Ziel zeitlich verschoben; hohe Kapitalzusagen.",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Offizielle Earnings und IR-Mitteilungen"
+          ],
+          "invalidations": [
+            "Gegenteilige Unternehmensnachricht",
+            "Fehlende handelbare Quote"
+          ]
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Sektorrisiko ohne bestätigte eigene Ergebnisüberraschung",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "CRWV, NBIS und IREN wegen Nvidia-Abhängigkeit unter Druck.",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/stocks-to-watch-nvidia-coreweave-kkr-z3Xw3Fb0qxdhdyFK3li9",
+              "publisher": "Wall Street Journal",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Offizielle Earnings und IR-Mitteilungen"
+          ],
+          "invalidations": [
+            "Gegenteilige Unternehmensnachricht",
+            "Fehlende handelbare Quote"
+          ]
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings-Event ohne bestätigte Ist-Zahlen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "CEG, KKR, B und FERG als Earnings-Termine; Konsenswerte kalenderbasiert, nicht mit Ist verwechselt.",
+              "url": "https://investingly.io/earnings-calendar/2026-11-09",
+              "publisher": "Investingly",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Offizielle Earnings und IR-Mitteilungen"
+          ],
+          "invalidations": [
+            "Gegenteilige Unternehmensnachricht",
+            "Fehlende handelbare Quote"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENZ",
+        "summary": "Kein bestätigter Fill, letzte gespeicherte Quote veraltet.",
+        "base_scenario": "Keine belastbare Opening-Prognose",
+        "bull_scenario": "Lieferfortschritt und positive Verträge",
+        "bear_scenario": "Finanzierung und weitere Verzögerungen",
+        "key_risk": "Kein echter Fill und kein frischer Quote",
+        "planned_exit": "Nur nach verifiziertem Opening-Print; ursprünglicher Termin verstrichen",
+        "as_of": "2026-11-09T14:34:45Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 9. November 2026, 09:34:45 EST\n\n## Markt und Ereignisse\nReguläre NYSE/Nasdaq-Sitzung 09:30–16:00 EST; Montag ist ein regulärer Handelstag. Nach der Eröffnung keine verifizierten zeitgestempelten handelbaren Bid/Ask-Quotes verfügbar. Daher **KEIN TRADE**, null simulierte Fills. Keine authentifizierte Paper-Brokerverbindung. Paper-Modellkapital 10.000 EUR laut bestehender Konfiguration; tatsächliche Broker-Equity unbekannt.\n\n[Associated Press, 09.11.2026](https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b): Nvidia verlor vorbörslich rund 5% im Umfeld einer Board-Untersuchung zu CEO Jensen Huang. Untersuchung ist keine Feststellung von Fehlverhalten. US-Futures vor Handelsbeginn im Plus; keine aktuelle Indexquote für 09:34 EST verifiziert. Inflationstermin am Dienstag ist ein zusätzlicher Risikofaktor.\n\n[Reuters, 05./06.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/): IREN meldete 228 Mio USD Quartalsumsatz gegenüber 221,28 Mio USD Analystenkonsens, AI-Cloud-Umsatz 200 Mio USD, Kapitalzusagen 18,95 Mrd USD; das Ziel von über 4 Mrd USD annualisierter Run-rate verschob sich von Jahresende auf Januar, möglicherweise Ende Februar. Umsatzüberraschung ist positiv, Ausführungs- und Finanzierungsrisiko negativ.\n\n[WSJ, 09.11.2026](https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/stocks-to-watch-nvidia-coreweave-kkr-z3Xw3Fb0qxdhdyFK3li9): CRWV, NBIS und IREN geraten im Zuge des Nvidia-Risikos unter Druck. Ein nachgewiesener statistischer Pair-Trade liegt mangels datierter Kursreihen nicht vor.\n\n## Screening und Watchlist\n[Investingly, 09.11.2026](https://investingly.io/earnings-calendar/2026-11-09) listet 19 US-Unternehmen mit mehr als 10 Mrd USD Marktkapitalisierung und Earnings am Montag, darunter CEG (EPS-Schätzung 3,90 USD), KKR (1,41 USD), Barrick B (0,74 USD) und FERG (3,28 USD). Diese vier sind DISCOVERED, nicht als vollständig geprüfte Titel gezählt. Individuell inhaltlich triagiert: NVDA (Governance-Risiko; WATCH/SHORT-Hypothese), IREN (Umsatzbeat versus Verzögerung; WATCH/SHORT-Hypothese), CRWV (Sektor-Ansteckung; WATCH), CEG (Earnings-Event; WATCH). Liquidität, aktuelle Spreads, Options-IV und 13F-Vergleiche nicht verifiziert.\n\nNVDA: SHORT-Hypothese wegen Governance-Unsicherheit; Gegenthese starke KI-Nachfrage und mögliche Entlastung durch Untersuchung. IREN: SHORT-Hypothese wegen Verschiebung, hoher Verpflichtungen; Gegenthese Umsatzbeat und langfristige Verträge. CEG: Ereignis-Watch ohne Richtung; Ergebnis-/Guidance-Reaktion erst nach offizieller Prüfung. CRWV: Sektorrisiko, aber keine unabhängige fundamentale Short-Qualifikation. Für keine dieser Aktien liegen 50 inhaltlich geprüfte Originaldokumente vor; neue eigenständig geöffnete Quellen dieses Laufs: NVDA 1/50, IREN 1/50, CRWV 1/50, CEG 1/50. Kein vollständiges Master-Dossier; Analystenpaare, historische Guidance-Scorecards und Fonds-13F-Vergleiche noch nicht verifiziert.\n\n## Strategien und Kosten\nPre-Earnings: CEG/KKR noch ohne verifizierte nachbörsliche Ist-Zahlen. PEAD: keine paarweise bestätigte EPS- und Umsatzsurprise plus datierte Marktantwort. Guidance-Revision: IREN zeitlich negativ, trotz Umsatzbeat; keine validierte historische Trefferquote. Pairs: IREN/CRWV gemeinsame AI-Infrastruktur-Exponierung, aber Korrelation, Cointegration und Hedge Ratio nicht berechnet. Ein möglicher IBKR-US-Roundtrip kostet mindestens 0,70 USD reine Provision; Spread, FX, Slippage und Borrow zusätzlich und aktuell nicht belegbar. Bei 50 EUR Margin und 5x Hebel ist ein Netto-Edge deshalb nicht bestätigt. Kein Entry um 09:34, nur Research; regulärer Entry-Entscheidungsslot ist 15:30 EST.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: 18,05 USD ausschließlich historische Referenz, kein bestätigter Fill; letzter im Register vorhandener AFTERHOURS-Kurs 21,68 USD am 06.11. 19:24 EST ([StockAnalysis](https://stockanalysis.com/stocks/iren/)), ALT, nicht neu validiert; die dort gespeicherte modellierte Referenz-PnL −100,55 EUR ist kein aktueller Handelsgewinn/-verlust. Planmäßiger Exit-Termin im Register liegt bereits zurück, ohne bestätigten Opening-Print keine Schließung.\nHFG SHORT USER_REPORTED: Register 2,988 EUR Xetra-Close 06.11. 17:35 CET, ALT; [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm). Produktpreis/ISIN/Einstand fehlen, PnL nicht berechenbar.\nPTON SHORT USER_REPORTED: Register 5,62 USD Nasdaq-Close 06.11. 16:00 EST, ALT; [StockAnalysis](https://stockanalysis.com/stocks/pton/). Produktpreis/ISIN/Einstand fehlen, PnL nicht berechenbar. Keine dieser Positionen stillschweigend geschlossen; neue zeitgestempelte Quote nicht verifiziert.\n\n## Entscheidung\n**KEIN TRADE.** 0 neue Fills, 0 überprüfbare aktuelle PnL-Updates. Watch-Trigger: Nvidia-Board-Mitteilung, IREN-Finanzierungs-/Lieferfortschritt, CEG/KKR-offizielle Zahlen. Gegenargumente und Stop-/Kostenprüfung vor jedem späteren Signal erneut verifizieren. TradingView-Widget ist kein geprüfter Ausführungsfeed."
     }
   ],
   "deep_dives": {
@@ -9209,10 +9415,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-07T00:32:23Z",
-      "status": "PRELIMINARY",
-      "stance": "REVIEW",
-      "summary": "AI cloud demand vs Childress delays; earlier short contradicted",
+      "as_of": "2026-11-09T14:34:45Z",
+      "status": "INCOMPLETE",
+      "stance": "SHORT",
+      "summary": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
       "source_goal": 50,
       "source_documents": [
         {
@@ -9455,13 +9661,13 @@
         }
       ],
       "institutional_holdings": [],
-      "holdings_note": "Keine zwei Original-13F-Filings für Manager-Vergleich geprüft",
+      "holdings_note": "13F-Vergleiche nicht neu verifiziert",
       "key_unknowns": [
-        "Historischer periodengleicher Guidance-Ist-Vergleich nicht verifiziert",
-        "Aktuelle 13F Originalfilings nicht paarweise geprüft",
-        "50 independent verified sources not yet reached; two original 13F filings not checked"
+        "Aktuelle handelbare Quote",
+        "Kosten und Spreads",
+        "Historische 13F-Vergleiche"
       ],
-      "method_note": "Nur tatsächlich geöffnete und geprüfte eindeutige URLs; keine 13F-Paarvergleichsdaten neu verifiziert.",
+      "method_note": "Nur geöffnete eindeutige URLs gezählt",
       "analyst_coverage": "Lewis/BTIG und Ng/Goldman 06.11.2026 via StockAnalysis/TipRanks; nicht Originalresearch"
     },
     "APP": {
@@ -10801,37 +11007,53 @@
       "status": "INCOMPLETE",
       "stance": "WATCH",
       "summary": "9M EBIT 30,1 Mio EUR"
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "tv": "NASDAQ:NVDA",
+      "as_of": "2026-11-09T14:34:45Z",
+      "status": "INCOMPLETE",
+      "stance": "SHORT",
+      "summary": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "NVDA-20261109-1",
+          "title": "US futures climb, Nvidia slides amid investigation",
+          "publisher": "Associated Press",
+          "published_at": "2026-11-09",
+          "url": "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b",
+          "finding": "Nvidia etwa 5% schwächer vor Handelsbeginn; Board-Untersuchung, kein erwiesener Geheimnisabfluss.",
+          "checked_on": "2026-11-09T14:34:45Z",
+          "doc_type": "news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "13F-Vergleiche nicht neu verifiziert",
+      "key_unknowns": [
+        "Aktuelle handelbare Quote",
+        "Kosten und Spreads",
+        "Historische 13F-Vergleiche"
+      ],
+      "method_note": "Nur geöffnete eindeutige URLs gezählt",
+      "analyst_coverage": []
     }
   },
   "screening": {
-    "status": "PARTIAL_VERIFIED",
-    "as_of": "2026-11-09T14:00:34Z",
-    "method_note": "Dieser Lauf 3 konkret triagierte Ticker, 0 qualifiziert. Andere Marktagenten-Einträge erhalten.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-09T14:34:45Z",
+    "method_note": "Vier einzeln qualitativ triagierte Titel; Kalenderlisten allein nicht als SCREENED gezählt; keine ausführbaren Quotes.",
     "coverage": {
-      "universe_checked": 3,
+      "universe_checked": 4,
       "earnings_events": 1,
-      "triaged": 3,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
     "candidates": [
-      {
-        "ticker": "IREN",
-        "name": "IREN Limited",
-        "tv": "NASDAQ:IREN",
-        "market": "US",
-        "sector": "AI infrastructure",
-        "direction": "REVIEW",
-        "reason": "AI cloud demand vs Childress delays; earlier short contradicted",
-        "stage": "DEEP_DIVE",
-        "earnings_at": null,
-        "event": "Q3 2026 earnings",
-        "score": null,
-        "sources": [
-          "https://www.businessinsider.com/iren-blames-microsoft-change-for-delay-to-texas-ai-center-2026-11"
-        ],
-        "as_of": "2026-11-06T23:28:38Z"
-      },
       {
         "ticker": "APP",
         "name": "AppLovin",
@@ -11184,23 +11406,6 @@
         "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
         "stage": "DISCOVERED",
         "earnings_at": "2026-11-12",
-        "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
-        "score": null,
-        "sources": [
-          "https://portfolio-terminal.com/earnings-calendar/november-2026"
-        ],
-        "as_of": "2026-11-05T21:02:00+01:00"
-      },
-      {
-        "ticker": "NVDA",
-        "name": "NVIDIA",
-        "tv": "NASDAQ:NVDA",
-        "market": "US",
-        "sector": "Halbleiter / AI",
-        "direction": "NEUTRAL",
-        "reason": "Termin in frei zugänglichem Earnings-Kalender entdeckt; Original-IR-Termin, Marktkapitalisierung, Liquidität, Konsens und Signalqualität noch NICHT einzeln geprüft.",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-17",
         "event": "Möglicher Quartalsbericht AMC (Kalenderhinweis, noch nicht offiziell bestätigt)",
         "score": null,
         "sources": [
@@ -11826,23 +12031,6 @@
         "as_of": "2026-11-09T14:00:34Z"
       },
       {
-        "ticker": "CEG",
-        "name": "Constellation Energy",
-        "tv": "NYSE:CEG",
-        "market": "US",
-        "sector": "Energy",
-        "direction": "WATCH",
-        "reason": "Earningskalender 09.11.2026",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-09",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://investingly.io/earnings-calendar/2026-11-09"
-        ],
-        "as_of": "2026-11-09T13:30:32Z"
-      },
-      {
         "ticker": "KKR",
         "name": "KKR & Co",
         "tv": "NYSE:KKR",
@@ -11909,6 +12097,74 @@
           "https://investingly.io/earnings-calendar/2026-11-09"
         ],
         "as_of": "2026-11-09T13:30:32Z"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "tv": "NASDAQ:NVDA",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Governance-Untersuchung; fundamentale AI-Nachfrage Gegenargument",
+        "score": null,
+        "sources": [
+          "https://apnews.com/article/stocks-markets-ai-trump-oil-d938f8e6ff42b3706e1d36e6245ec56b"
+        ],
+        "as_of": "2026-11-09T14:34:45Z"
+      },
+      {
+        "ticker": "IREN",
+        "name": "IREN Limited",
+        "tv": "NASDAQ:IREN",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Run-rate-Verzögerung, Umsatzbeat, hohe Kapitalzusagen",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
+        ],
+        "as_of": "2026-11-09T14:34:45Z"
+      },
+      {
+        "ticker": "CRWV",
+        "name": "CoreWeave",
+        "tv": "NASDAQ:CRWV",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Sektorrisiko ohne bestätigte eigene Ergebnisüberraschung",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Sektorrisiko ohne bestätigte eigene Ergebnisüberraschung",
+        "score": null,
+        "sources": [
+          "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/stocks-to-watch-nvidia-coreweave-kkr-z3Xw3Fb0qxdhdyFK3li9"
+        ],
+        "as_of": "2026-11-09T14:34:45Z"
+      },
+      {
+        "ticker": "CEG",
+        "name": "Constellation Energy",
+        "tv": "NASDAQ:CEG",
+        "market": "US",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Earnings-Event ohne bestätigte Ist-Zahlen",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Earnings-Event ohne bestätigte Ist-Zahlen",
+        "score": null,
+        "sources": [
+          "https://investingly.io/earnings-calendar/2026-11-09"
+        ],
+        "as_of": "2026-11-09T14:34:45Z"
       }
     ],
     "pairs": [],
@@ -12283,6 +12539,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261109T140034Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": 1,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T143445Z"
       }
     ],
     "strategies": [
