@@ -1,6 +1,6 @@
 {
-  "version": 65,
-  "updated_at": "2026-11-09T20:28:34Z",
+  "version": 66,
+  "updated_at": "2026-11-09T21:25:49Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -11137,6 +11137,215 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261109T212549Z",
+      "market": "US",
+      "run_at": "2026-11-09T21:25:49Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CEG-Guidance, TTWO-Bookings-Miss; nach Börsenschluss keine Entries",
+      "summary": "Sechs Einzeltitel triagiert, drei vorläufig priorisiert, keine Fills; alle drei offenen Thesen überwacht.",
+      "source_status": "7 unterschiedliche Publikationen inhaltlich geöffnet; 50/50 je Aktie nicht erreicht",
+      "candidates": [
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "side": "LONG",
+          "thesis": "Guidance-Anhebung, Q3 Earnings",
+          "risk": "Kursreaktion eingepreist",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TTWO",
+          "name": "Take-Two Interactive",
+          "tv": "NASDAQ:TTWO",
+          "side": "SHORT",
+          "thesis": "Bookings-Guidance unter Konsens",
+          "risk": "GTA VI und Jahresguidance stabil",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "WATCH",
+          "thesis": "Analysten-Kürzungen und Verwässerung",
+          "risk": "Short squeeze / AI-Aufträge",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Constellation Reports Third Quarter 2026 Results",
+          "published_at": "2026-11-09T06:49:00-05:00",
+          "ticker": "CEG",
+          "publisher": "Constellation Energy IR",
+          "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+          "finding": "GAAP EPS 5,19 USD, adjusted EPS 5,06 USD; neue FY26 adjusted EPS-Guidance 12,50–12,80 USD."
+        },
+        {
+          "title": "Take-Two projects third-quarter bookings below estimates",
+          "published_at": "2026-11-09",
+          "ticker": "TTWO",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+          "finding": "Q3-Bookings-Guidance 3,35–3,50 Mrd. USD vs 3,51 Mrd. Analystenschätzung; Jahresprognose 8–8,2 Mrd. unverändert."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "stance": "LONG",
+          "horizon": "1-10 Handelstage",
+          "summary": "Guidance-Anhebung, Q3 Earnings; vorläufig",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "GAAP EPS 5,19 USD, adjusted EPS 5,06 USD; neue FY26 adjusted EPS-Guidance 12,50–12,80 USD.",
+              "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+              "publisher": "Constellation Energy IR",
+              "published_at": "2026-11-09T06:49:00-05:00"
+            }
+          ],
+          "catalysts": [
+            "Guidance-Anhebung, Q3 Earnings"
+          ],
+          "invalidations": [
+            "Kursreaktion eingepreist"
+          ]
+        },
+        {
+          "ticker": "TTWO",
+          "name": "Take-Two Interactive",
+          "tv": "NASDAQ:TTWO",
+          "stance": "SHORT",
+          "horizon": "1-10 Handelstage",
+          "summary": "Bookings-Guidance unter Konsens; vorläufig",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Bookings-Guidance 3,35–3,50 Mrd. USD vs 3,51 Mrd. Analystenschätzung; Jahresprognose 8–8,2 Mrd. unverändert.",
+              "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Bookings-Guidance unter Konsens"
+          ],
+          "invalidations": [
+            "GTA VI und Jahresguidance stabil"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Analysten-Kürzungen und Verwässerung; vorläufig",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Richard Choe JPMorgan Ziel 65 auf 55 USD am 09.11.; Joseph Vafi Canaccord 79 USD am 06.11.",
+              "url": "https://stockanalysis.com/stocks/iren/ratings/",
+              "publisher": "StockAnalysis/TipRanks",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "424,36 Mio. Aktien, +30,69% YoY; EV rund 15,99 Mrd. USD, negative FCF-Rendite.",
+              "url": "https://stockanalysis.com/stocks/iren/statistics/",
+              "publisher": "StockAnalysis/S&P Global",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "06.11 Schluss 21,64 USD nach +20,02%; 05.11 Schluss 18,03 USD.",
+              "url": "https://stockanalysis.com/stocks/iren/history/",
+              "publisher": "StockAnalysis/S&P Global",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Analysten-Kürzungen und Verwässerung"
+          ],
+          "invalidations": [
+            "Short squeeze / AI-Aufträge"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT_REFERENCE",
+        "summary": "Hypothetische Short-Referenz, kein Fill",
+        "base_scenario": "Volatilität nach Earnings",
+        "bull_scenario": "Kursanstieg belastet Short",
+        "bear_scenario": "Kursrückgang entlastet Short",
+        "key_risk": "Short-Squeeze und Datenlücken",
+        "planned_exit": "Nur gesonderter Opening-Print-Check",
+        "as_of": "2026-11-09T21:25:49Z",
+        "mark_price": 21.69,
+        "mark_at": "2026-11-09T15:25:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/market-cap/",
+        "pnl_eur": -100.83,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch — 9. November 2026, 16:25 EST\n\n**Entscheidung: KEIN TRADE.** Die reguläre NYSE-/Nasdaq-Sitzung endete um 16:00 EST. Es wurden keine Paper-Orders und keine neuen Fills ausgeführt. Paperkonto: 10.000 EUR Modellstartkapital, kein verbundener Paper-Broker. Die aktuelle Ausführungsrichtlinie aus dem Positionsregister verlangt einen authentischen Simulations-Fill und belegten Spread; daher nur Beobachtungssignale.\n\n## Markt und Ereignisse\n[Reuters, 09.11.2026](https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/): Morgan Stanley, UBS, HSBC und Jefferies sehen die AI-Korrektur als teilweise überzogen; die Beurteilung ist eine Analysteneinschätzung, kein bewiesener kurzfristiger Renditevorteil. Nvidia-Zahlen für den 17.11. angekündigt. [TipRanks Earnings-Kalender, abgerufen 09.11.](https://www.tipranks.com/calendars/earnings/2026-11-9) listet 202 Veröffentlichungen am 09.11.; diese Liste ist DISCOVERED, nicht 202 einzeln geprüfte Unternehmen. Individuell geprüft wurden IREN, PTON, HFG, CEG, TTWO und NRG; NRG nur Kurztriage.\n\n## Prioritäten / Watchlist\n**CEG – WATCH LONG, vorläufig.** [Originalmeldung 09.11. 06:49 EST](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results): GAAP EPS 5,19 USD; adjusted EPS 5,06 USD, neue FY26 adjusted EPS-Spanne 12,50–12,80 USD. Analysten-Konsens, historische Guidance-Trefferquote, 13F und Spread nicht vollständig unabhängig geprüft. Starker positiver Kursreaktionshinweis im [TipRanks-Kalender](https://www.tipranks.com/calendars/earnings/2026-11-9), jedoch kein PEAD-Signal ohne konsistente Umsatz- und EPS-Surprise.\n\n**TTWO – WATCH SHORT, vorläufig.** [Reuters, 09.11.](https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/): Prognose der Quartals-Net-Bookings 3,35–3,50 Mrd. USD vs Marktschätzung 3,51 Mrd.; Gesamtjahresausblick 8–8,2 Mrd. beibehalten. Bärisch: kurzfristiger Guidance-Miss. Bullisch: GTA-VI-Launch und bestätigte Jahresguidance. Meldung nachbörslich: ausdrücklich KEIN regulärer Closing-Fill.\n\n**IREN – WATCH, Short-Referenz mit hohem Squeeze-Risiko.** [StockAnalysis Ratings, geprüft 09.11.](https://stockanalysis.com/stocks/iren/ratings/): JPMorgan/Richard Choe reduzierte Kursziel 65 auf 55 USD; Canaccord/Joseph Vafi bestätigte 79 USD. [StockAnalysis Statistik, 09.11.](https://stockanalysis.com/stocks/iren/statistics/): Aktienzahl 424,36 Mio., +30,69% zum Vorjahr; Finanzierung/Verwässerung gegen AI-Cloud-Wachstum. [IREN Kurs-Historie, 09.11.](https://stockanalysis.com/stocks/iren/history/): 06.11. Schluss 21,64 USD. Für einen echten Trade fehlen aktuelle Geld/Brief-Spanne, Borrow und Fill.\n\n**PTON – USER_REPORTED SHORT:** zuletzt im Register 5,94 USD, 09.11. 14:36 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/); Turbo-ISIN, Produktkurs, KO und Einstand fehlen. Keine belastbare derivative PnL.\n\n**HFG – USER_REPORTED SHORT:** zuletzt im Register 3,126 EUR, 09.11. 13:27 CET, [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm); nicht als aktueller US-Abendkurs interpretieren. Turbo-ISIN und Einstand fehlen.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT, rein hypothetische Referenz: 18,05 USD, 100 EUR ×5 = 500 EUR nominell; [StockAnalysis, 09.11. 15:25 EST](https://stockanalysis.com/stocks/iren/market-cap/) 21,69 USD REGULAR Last, Seitenverzögerung nicht unabhängig geklärt. Referenz-PnL = 500 × (1 − 21,69/18,05) = **−100,83 EUR**, ohne FX, Spread, Gebühren, KO; **kein nachgewiesener Fill und kein realer Verlust**. Voriger Registerstand 21,76 USD um 15:10 EST. IREN-Referenz nicht ohne verifizierten Open-Print als geschlossen behandeln. HFG SHORT und PTON SHORT: nutzerberichtete Turbos, keine Produkt-PnL berechenbar; bisherige Marken wie oben. Alle Positionen offen, keine Exit-Buchung.\n\n## Researchqualität und Methodik\nIn diesem Lauf eigenständig inhaltlich geöffnet: Reuters AI, TipRanks Earnings-Kalender, CEG IR, IREN Ratings, IREN Statistik, IREN History und Reuters TTWO; sieben unterschiedliche Publikationen, keine Aktie erreicht 50/50, sämtliche Dossiers **vorläufig**. IREN drei neue geprüfte Dokumenttypen; CEG ein Originaldokument; TTWO eine Reuters-Meldung. Keine validierten zwei 13F-Originalfilings, keine periodengleiche historische Guidance-Ist-Serie, keine 60–252-Tages-Pair-Korrelation, keine vollständige Bid/Ask-/FX-/Borrow-Kostenrechnung. Pre-Earnings, PEAD, Guidance-Revision und Pairs wurden als Hypothesen gegeneinander abgewogen; kein Ansatz aktuell ausführungsreif. Nächste Prüfung: neuer US-Open am 10.11., vorher keine rückwirkenden Entries. TradingView-Widgets sind keine eigenständige PnL-Quelle.",
+      "report_sections": [
+        {
+          "heading": "Entscheidung",
+          "summary": "KEIN TRADE; Markt geschlossen",
+          "bullets": []
+        },
+        {
+          "heading": "Prioritäten",
+          "summary": "CEG, TTWO, IREN; vorläufig",
+          "bullets": [
+            {
+              "text": "GAAP EPS 5,19 USD, adjusted EPS 5,06 USD; neue FY26 adjusted EPS-Guidance 12,50–12,80 USD.",
+              "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+              "publisher": "Constellation Energy IR",
+              "checked_at": "2026-11-09T21:25:49Z"
+            },
+            {
+              "text": "Richard Choe JPMorgan Ziel 65 auf 55 USD am 09.11.; Joseph Vafi Canaccord 79 USD am 06.11.",
+              "url": "https://stockanalysis.com/stocks/iren/ratings/",
+              "publisher": "StockAnalysis/TipRanks",
+              "checked_at": "2026-11-09T21:25:49Z"
+            },
+            {
+              "text": "424,36 Mio. Aktien, +30,69% YoY; EV rund 15,99 Mrd. USD, negative FCF-Rendite.",
+              "url": "https://stockanalysis.com/stocks/iren/statistics/",
+              "publisher": "StockAnalysis/S&P Global",
+              "checked_at": "2026-11-09T21:25:49Z"
+            },
+            {
+              "text": "Q3-Bookings-Guidance 3,35–3,50 Mrd. USD vs 3,51 Mrd. Analystenschätzung; Jahresprognose 8–8,2 Mrd. unverändert.",
+              "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-09T21:25:49Z"
+            },
+            {
+              "text": "06.11 Schluss 21,64 USD nach +20,02%; 05.11 Schluss 18,03 USD.",
+              "url": "https://stockanalysis.com/stocks/iren/history/",
+              "publisher": "StockAnalysis/S&P Global",
+              "checked_at": "2026-11-09T21:25:49Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -11144,10 +11353,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-09T20:28:34Z",
-      "status": "VORLÄUFIG",
-      "stance": "SHORT",
-      "summary": "AI cloud growth versus delayed Microsoft rollout and capex",
+      "as_of": "2026-11-09T21:25:49Z",
+      "status": "PROVISIONAL",
+      "stance": "WATCH",
+      "summary": "Analysten-Kürzungen und Verwässerung",
       "source_goal": 50,
       "source_documents": [
         {
@@ -11319,6 +11528,26 @@
           "finding": "AI cloud 200m revenue, mining contraction",
           "checked_on": "2026-11-09T20:28:34Z",
           "doc_type": "NEWS"
+        },
+        {
+          "id": "IREN-20261109-1",
+          "title": "IREN valuation statistics",
+          "publisher": "StockAnalysis/S&P Global",
+          "published_at": "2026-11-09",
+          "url": "https://stockanalysis.com/stocks/iren/statistics/",
+          "finding": "424,36 Mio. Aktien, +30,69% YoY; EV rund 15,99 Mrd. USD, negative FCF-Rendite.",
+          "checked_on": "2026-11-09T21:25:49Z",
+          "doc_type": "financial_statistics"
+        },
+        {
+          "id": "IREN-20261109-2",
+          "title": "IREN daily price history",
+          "publisher": "StockAnalysis/S&P Global",
+          "published_at": "2026-11-09",
+          "url": "https://stockanalysis.com/stocks/iren/history/",
+          "finding": "06.11 Schluss 21,64 USD nach +20,02%; 05.11 Schluss 18,03 USD.",
+          "checked_on": "2026-11-09T21:25:49Z",
+          "doc_type": "price_history"
         }
       ],
       "financial_history": [
@@ -11402,12 +11631,11 @@
       "institutional_holdings": [],
       "holdings_note": "Zwei periodengleiche SEC 13F Originalfilings nicht geprüft; keine Fondsänderung behauptet",
       "key_unknowns": [
-        "Verifizierter aktueller Bid/Ask und tatsächliche Gebühren",
-        "Zwei aktuelle Analystenrevisionen",
-        "SEC 13F zwei Quartale",
-        "Valider Forecast-vs-Actual Scorecard Nenner"
+        "13F-Vergleich nicht verifiziert",
+        "Guidance-Scorecard unvollständig",
+        "Spread/Borrow nicht geprüft"
       ],
-      "method_note": "Dokument-URLs dedupliziert; keine Snippets als geöffnete Dokumente gezählt; 50/50 nicht erreicht",
+      "method_note": "Nur tatsächlich geöffnete eindeutige Dokument-URLs; keine Treffer als gelesene Quellen gezählt.",
       "analyst_coverage": "Nicht ausreichend geprüft"
     },
     "APP": {
@@ -12948,30 +13176,61 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-09T20:28:34Z",
-      "status": "VORLÄUFIG",
+      "as_of": "2026-11-09T21:25:49Z",
+      "status": "PROVISIONAL",
       "stance": "LONG",
       "source_goal": 50,
-      "summary": "Q3 adjusted EPS beat, guidance raised",
+      "summary": "Guidance-Anhebung, Q3 Earnings",
       "holdings_note": "Zwei periodengleiche SEC 13F Originalfilings nicht geprüft; keine Fondsänderung behauptet",
       "key_unknowns": [
-        "Verifizierter aktueller Bid/Ask und tatsächliche Gebühren",
-        "Zwei aktuelle Analystenrevisionen",
-        "SEC 13F zwei Quartale",
-        "Valider Forecast-vs-Actual Scorecard Nenner"
+        "13F-Vergleich nicht verifiziert",
+        "Guidance-Scorecard unvollständig",
+        "Spread/Borrow nicht geprüft"
       ],
-      "method_note": "Dokument-URLs dedupliziert; keine Snippets als geöffnete Dokumente gezählt; 50/50 nicht erreicht",
+      "method_note": "Nur tatsächlich geöffnete eindeutige Dokument-URLs; keine Treffer als gelesene Quellen gezählt.",
       "analyst_coverage": "Nicht ausreichend geprüft"
+    },
+    "TTWO": {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive",
+      "tv": "NASDAQ:TTWO",
+      "source_documents": [
+        {
+          "id": "TTWO-20261109-1",
+          "title": "Take-Two projects third-quarter bookings below estimates",
+          "publisher": "Reuters",
+          "published_at": "2026-11-09",
+          "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+          "finding": "Q3-Bookings-Guidance 3,35–3,50 Mrd. USD vs 3,51 Mrd. Analystenschätzung; Jahresprognose 8–8,2 Mrd. unverändert.",
+          "checked_on": "2026-11-09T21:25:49Z",
+          "doc_type": "news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "analyst_coverage": [],
+      "as_of": "2026-11-09T21:25:49Z",
+      "status": "PROVISIONAL",
+      "stance": "SHORT",
+      "summary": "Bookings-Guidance unter Konsens",
+      "source_goal": 50,
+      "key_unknowns": [
+        "13F-Vergleich nicht verifiziert",
+        "Guidance-Scorecard unvollständig",
+        "Spread/Borrow nicht geprüft"
+      ],
+      "method_note": "Nur tatsächlich geöffnete eindeutige Dokument-URLs; keine Treffer als gelesene Quellen gezählt."
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-09T20:28:34Z",
-    "method_note": "US run screened 6 distinct event/position tickers with directly checked source, not 258 calendar-listed names; 4 additional discovered only; no validated spreads",
+    "status": "PROVISIONAL",
+    "as_of": "2026-11-09T21:25:49Z",
+    "method_note": "Earnings-Kalender nur DISCOVERED; sechs konkrete Ticker mit unterschiedlicher Prüftiefe triagiert, nicht 202 gescreent.",
     "coverage": {
-      "universe_checked": 0,
-      "earnings_events": 4,
-      "triaged": 0,
+      "universe_checked": 6,
+      "earnings_events": 3,
+      "triaged": 6,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -13983,23 +14242,6 @@
         "as_of": "2026-11-09T20:28:34Z"
       },
       {
-        "ticker": "TTWO",
-        "name": "Take-Two Interactive",
-        "tv": "NASDAQ:TTWO",
-        "market": "US",
-        "sector": "Gaming",
-        "direction": "WATCH",
-        "reason": "Earningskalender 09.11.2026",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-09",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://investingly.io/earnings-calendar/2026-11-09"
-        ],
-        "as_of": "2026-11-09T13:30:32Z"
-      },
-      {
         "ticker": "RKLB",
         "name": "Rocket Lab",
         "tv": "NASDAQ:RKLB",
@@ -14034,23 +14276,6 @@
         "as_of": "2026-11-09T20:28:34Z"
       },
       {
-        "ticker": "IREN",
-        "name": "IREN Limited",
-        "tv": "NASDAQ:IREN",
-        "market": "US",
-        "sector": "AI Infrastructure",
-        "direction": "SHORT",
-        "reason": "Capital spending and delayed delivery",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Capital spending and delayed delivery",
-        "score": null,
-        "sources": [
-          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
-        ],
-        "as_of": "2026-11-09T20:28:34Z"
-      },
-      {
         "ticker": "CRWV",
         "name": "CoreWeave",
         "tv": "NASDAQ:CRWV",
@@ -14066,23 +14291,6 @@
           "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/stocks-to-watch-nvidia-coreweave-kkr-z3Xw3Fb0qxdhdyFK3li9"
         ],
         "as_of": "2026-11-09T14:34:45Z"
-      },
-      {
-        "ticker": "CEG",
-        "name": "Constellation Energy",
-        "tv": "NASDAQ:CEG",
-        "market": "US",
-        "sector": "Utilities/Energy",
-        "direction": "LONG",
-        "reason": "Earnings beat and raised outlook",
-        "stage": "DEEP_DIVE",
-        "earnings_at": "2026-11-09",
-        "event": "Earnings beat and raised outlook",
-        "score": null,
-        "sources": [
-          "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results"
-        ],
-        "as_of": "2026-11-09T20:28:34Z"
       },
       {
         "ticker": "UTDI",
@@ -14134,6 +14342,59 @@
           "https://www.ad-hoc-news.de/boerse/news/vorboerse/leg-immobilien-stock-at-eur-51-23-up-0-65-prozent-pre-market/70479396"
         ],
         "as_of": "2026-11-09T16:03:20Z"
+      },
+      {
+        "ticker": "CEG",
+        "name": "Constellation Energy",
+        "tv": "NASDAQ:CEG",
+        "market": "US",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Guidance-Anhebung, Q3 Earnings",
+        "stage": "DEEP_DIVE",
+        "earnings_at": null,
+        "event": "Guidance-Anhebung, Q3 Earnings",
+        "score": null,
+        "sources": [
+          "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results"
+        ],
+        "as_of": "2026-11-09T21:25:49Z"
+      },
+      {
+        "ticker": "TTWO",
+        "name": "Take-Two Interactive",
+        "tv": "NASDAQ:TTWO",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Bookings-Guidance unter Konsens",
+        "stage": "DEEP_DIVE",
+        "earnings_at": null,
+        "event": "Bookings-Guidance unter Konsens",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/"
+        ],
+        "as_of": "2026-11-09T21:25:49Z"
+      },
+      {
+        "ticker": "IREN",
+        "name": "IREN Limited",
+        "tv": "NASDAQ:IREN",
+        "market": "US",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Analysten-Kürzungen und Verwässerung",
+        "stage": "DEEP_DIVE",
+        "earnings_at": null,
+        "event": "Analysten-Kürzungen und Verwässerung",
+        "score": null,
+        "sources": [
+          "https://stockanalysis.com/stocks/iren/ratings/",
+          "https://stockanalysis.com/stocks/iren/statistics/",
+          "https://stockanalysis.com/stocks/iren/history/"
+        ],
+        "as_of": "2026-11-09T21:25:49Z"
       }
     ],
     "pairs": [
@@ -14599,6 +14860,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T202834Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 6,
+        "earnings_events": 3,
+        "triaged": 6,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T212549Z"
       }
     ],
     "strategies": [
