@@ -1,6 +1,6 @@
 {
-  "version": 64,
-  "updated_at": "2026-11-09T19:30:08Z",
+  "version": 65,
+  "updated_at": "2026-11-09T20:28:34Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -10848,6 +10848,295 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261109T202834Z",
+      "market": "US",
+      "run_at": "2026-11-09T20:28:34Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "NRG/CEG Earnings und NRG Asset-Verkauf; kein neuer Paper-Fill",
+      "summary": "NRG und CEG fundamental positiv; IREN weiterhin riskante Short-Referenz. Drei offene Registerpositionen überprüft. Keine neue authentische Papierausführung.",
+      "source_status": "NRG 5/50, CEG 2/50, IREN 2/50 neue geöffnete Texte; NVDA 1; keine Vollständigkeit",
+      "candidates": [
+        {
+          "ticker": "NRG",
+          "name": "NRG Energy",
+          "tv": "NYSE:NRG",
+          "side": "LONG",
+          "thesis": "Positive earnings and asset monetization",
+          "risk": "Deal execution, 2027 outlook, missing spread",
+          "sources_checked": 5,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "side": "LONG",
+          "thesis": "Earnings beat and raised outlook",
+          "risk": "Valuation and project risks",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Capital spending and delayed delivery",
+          "risk": "AI growth, short squeeze",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "side": "SHORT",
+          "thesis": "Idiosyncratic governance pressure",
+          "risk": "Broad chip rebound",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "NRG Q3 adjusted EPS $4.68 and 2027 guidance",
+          "published_at": "2026-11-09",
+          "ticker": "NRG",
+          "publisher": "NRG Investor Relations",
+          "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-third-quarter-2026-results-reaffirms-2026",
+          "finding": "2026 outlook reaffirmed; 2027 initiated"
+        },
+        {
+          "title": "NRG $4 billion generation asset sale",
+          "published_at": "2026-11-09",
+          "ticker": "NRG",
+          "publisher": "NRG Investor Relations",
+          "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-announces-4-billion-asset-sale",
+          "finding": "4.9 GW sale to LS Power, closing subject to approvals"
+        },
+        {
+          "title": "Constellation Q3 earnings and raised 2026 outlook",
+          "published_at": "2026-11-09",
+          "ticker": "CEG",
+          "publisher": "Constellation Investor Relations",
+          "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+          "finding": "Adjusted EPS $5.06; guidance $12.50-$12.80"
+        },
+        {
+          "title": "US broad rebound, Nvidia exception",
+          "published_at": "2026-11-09",
+          "ticker": "NVDA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/",
+          "finding": "Broad market gains while Nvidia fell amid governance uncertainty"
+        },
+        {
+          "title": "IREN Microsoft timing delay",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "Run-rate revenue timeline shifted"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "NRG",
+          "name": "NRG Energy",
+          "tv": "NYSE:NRG",
+          "stance": "VORLÄUFIG LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Positive earnings and asset monetization; nicht handelsqualifiziert",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "2026 outlook reaffirmed; 2027 initiated",
+              "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-third-quarter-2026-results-reaffirms-2026",
+              "publisher": "NRG Investor Relations",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "4.9 GW sale to LS Power, closing subject to approvals",
+              "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-announces-4-billion-asset-sale",
+              "publisher": "NRG Investor Relations",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle namentliche Analystenvoten, nachprüfbarer Bid/Ask, vollständige Kosten und institutioneller Zwei-Quartals-Vergleich fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Positive earnings and asset monetization"
+          ],
+          "invalidations": [
+            "Deal execution, 2027 outlook, missing spread"
+          ]
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "stance": "VORLÄUFIG LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings beat and raised outlook; nicht handelsqualifiziert",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Adjusted EPS $5.06; guidance $12.50-$12.80",
+              "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+              "publisher": "Constellation Investor Relations",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle namentliche Analystenvoten, nachprüfbarer Bid/Ask, vollständige Kosten und institutioneller Zwei-Quartals-Vergleich fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings beat and raised outlook"
+          ],
+          "invalidations": [
+            "Valuation and project risks"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "VORLÄUFIG SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Capital spending and delayed delivery; nicht handelsqualifiziert",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Run-rate revenue timeline shifted",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle namentliche Analystenvoten, nachprüfbarer Bid/Ask, vollständige Kosten und institutioneller Zwei-Quartals-Vergleich fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Capital spending and delayed delivery"
+          ],
+          "invalidations": [
+            "AI growth, short squeeze"
+          ]
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "stance": "VORLÄUFIG SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Idiosyncratic governance pressure; nicht handelsqualifiziert",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Broad market gains while Nvidia fell amid governance uncertainty",
+              "url": "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Zwei aktuelle namentliche Analystenvoten, nachprüfbarer Bid/Ask, vollständige Kosten und institutioneller Zwei-Quartals-Vergleich fehlen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Idiosyncratic governance pressure"
+          ],
+          "invalidations": [
+            "Broad chip rebound"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT REFERENZ",
+        "summary": "Kein nachgewiesener Fill, hohe Volatilität und Liefer-/Finanzierungsrisiko",
+        "base_scenario": "Volatilität ohne gerichtete Gewissheit",
+        "bull_scenario": "Short profitiert bei erneuten Kursrückgängen",
+        "bear_scenario": "Short verliert bei AI-Erholung/Short-Squeeze",
+        "key_risk": "Finanzierung und Markt-Squeeze",
+        "planned_exit": "Nur nach überprüftem regulärem Open-Print, alter Plan nicht bestätigt",
+        "as_of": "2026-11-09T20:28:34Z",
+        "mark_price": 21.76,
+        "mark_at": "2026-11-09T15:10:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": -102.77,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch — 9. November 2026, 15:28 EST (20:28 UTC)\n\n**Entscheidung: KEIN TRADE, keine neuen Fills.** Regulärer US-Handelstag; Zeitpunkt unmittelbar vor dem autorisierten 15:30-EST-Entscheidungsfenster. Kein authentifizierter Paper-Broker und keine bestätigte Ausführungsquittung; daher auch bei Signalen kein OPEN_SIMULATED. Das Kapital von 10.000 EUR ist rein virtuell; je Signal 10–200 EUR Margin, bevorzugt 50 EUR, Hebel 5. Kostenobergrenze 0,5 % vom Bruttonotional; tatsächliche Bid/Ask, FX, Borrow, Slippage und verfügbare Short-Stückelung nicht vollständig nachgewiesen. Die im aktuellen Positionsregister gespeicherte execution_policy ist maßgeblich; dort sind max_new_trades_per_session=10 und die Gesamtmargin-/Notionalgrenzen null, daher keine falsche Behauptung, diese Limits seien dort bereits gespeichert.\n\n## Markt und Earnings-Triage\n[Reuters, 09.11.2026](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/) berichtet breite US-Erholung bei sinkendem Ölpreis; zum berichteten Snapshot Dow +2,21 %, S&P 500 +2,41 %, Nasdaq +2,67 %, während Nvidia etwa 6 % verliert. Kein zeitgleicher eigener Schlusskurs-Snapshot. Der [Yahoo-Earningskalender, Abruf 09.11.2026](https://finance.yahoo.com/calendar/earnings/) listet 258 Meldungen für den Tag, aber das ist **kein** Nachweis, 258 Titel einzeln geprüft zu haben. Tatsächlich mit konkretem Unternehmensereignis geprüft: NRG, CEG, IREN, NVDA, PTON, HFG (6 Namen; HFG unter 2-Mrd.-EUR-Market-Cap-Schwelle, nur Bestandskontrolle). Weitere Eventnamen OXY, TTWO, KKR, VST aus Kalender nur DISCOVERED, nicht SCREENED.\n\n## Neue Master-Dossiers und Watchlist\n**NRG (WATCH/DEEP_DIVE, Long-Tendenz unter Vorbehalt, 5 neu geöffnete Unternehmens-Originaldokumente/50):** [Q3 2026 IR, 09.11.](https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-third-quarter-2026-results-reaffirms-2026): bereinigtes EPS 4,68 USD nach 2,78 USD im Vorjahresquartal, bereinigtes EBITDA 2,013 Mrd. USD nach 1,205 Mrd.; 2026 EPS-Guidance 7,90–9,90 USD beibehalten, 2027 8,05–10,05 USD neu. [Verkaufsmeldung, 09.11.](https://investors.nrg.com/news-releases/news-release-details/nrg-energy-announces-4-billion-asset-sale): sechs Gaswerke/4,9 GW für 4 Mrd. USD an LS Power, geplanter Vollzug Q2 2027 und regulatorische Genehmigung offen; 2027 implizit 8x EV/adjusted EBITDA. [Q2 2026 IR, 04.08.](https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-second-quarter-2026-results-and-reaffirms) und [Guidance 02.02.](https://investors.nrg.com/node/45156) bestätigen den 2026-Zielkorridor bereits vor Q3, daher keine neue Erhöhung. [Q3 2025 IR](https://investors.nrg.com/news-releases/news-release-details/nrg-energy-inc-reports-third-quarter-results-reaffirms-2025) belegt Vorjahresvergleich, aber kein periodengleicher vollständiger Guidance-Ist-Trefferquoten-Nachweis. Bull: Kapitalrückführung und EBITDA-Wachstum. Bear: steigende Finanzierungskosten, Deal-Abschlussrisiko und 2027-Prognose ohne Verkaufseffekt; Aktie könnte positive Überraschung eingepreist haben. Zwei aktuelle namentliche Analystenrevisionen, belastbarer Spread und 13F-Vergleich: **nicht gefunden**.\n\n**CEG (WATCH, Long-Tendenz unter Vorbehalt, 2 neu geöffnete IR-Originaldokumente/50):** [Q3-Release, 09.11., 06:49 EST](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results) meldet 5,06 USD adjusted operating EPS gegenüber 3,04 USD in Q3 2025 und angehobene 2026-Guidance 12,50–12,80 USD; langfristige Stromabnahme-/Nuklearprojekte und bis zu 5 Mrd. USD bedingte DOE-Kreditzusage. [Q3-Release 2025](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2025-results) bestätigt damaligen Vergleichswert. Bull: steigender Gewinn und Nachfrage nach Strom für Rechenzentren. Bear: Bewertung, Genehmigungs- und Projektlaufzeitrisiken. Zwei namentliche Analysten, verifizierte 13F-Paare und heutiger handelbarer Bid/Ask: **nicht gefunden**.\n\n**IREN (bestehende Short-REFERENZ, bearishe fundamentale Risiken, 2 neu geöffnete unabhängige Medienquellen/50):** [Reuters 05./06.11.](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/) dokumentiert Q3-Umsatz 228 Mio. USD vs LSEG-Konsens 221,28 Mio. USD, aber >4-Mrd.-USD annualisiertes Run-rate-Ziel vom Jahresende auf Januar bis möglicherweise Ende Februar verschoben, 18,95 Mrd. USD Kapitalverpflichtungen und ca. 15 Mrd. USD geplante Investitionen. [The Block, 05./06.11.](https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783) meldet 200 Mio. USD AI-Cloud-Umsatz und schrumpfendes Bitcoin-Mining. Bull-Gegenthese: schnelles AI-Wachstum und langfristige Verträge. Bear: Finanzierung, Verwässerung, Liefertermine. Ohne unabhängige Borrow-Kosten und frische Bid/Ask kein neuer Short.\n\n**NVDA:** [Reuters 09.11.](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/) berichtet eine gegenläufige Kursreaktion zum breiten Chipsektor und Untersuchung um den CEO. Ungeprüfte Governance-Folgen, deshalb nur WATCH, nicht SHORT-QUALIFIED. **PTON:** Underlying-Quote geprüft, keine neue fundierte Earnings-These und kein Turbo-Produktpreis. **HFG:** nur Underlying-Marke und Bestandskontrolle; keine neue Short-These.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT, REFERENZSIMULATION, kein nachgewiesener Fill:** historischer Referenzpreis 18,05 USD, 100 EUR Modellmargin ×5 = 500 EUR synthetische Exposure. [StockAnalysis NASDAQ-Last](https://stockanalysis.com/stocks/iren/) 21,76 USD am 09.11. 15:10 EST, REGULAR, Feed-Delay nicht unabhängig verifiziert. Reine Referenzrechnung 500 × (1 − 21,76/18,05) = **−102,77 EUR**, OHNE Gebühren, USD/EUR, KO, Borrow und Slippage. Geplanter ursprünglicher Next-Open-Exit am 06.11. ist **nicht** als ausgeführt belegt; Position nicht stillschweigend geschlossen. Basisszenario: hohe Volatilität; positives Short-Szenario: Rückgang nach Finanzierungssorgen, negatives: Short-Squeeze nach positiven AI-Aufträgen. Invalidation für Short: verifizierte beschleunigte Lieferungen/Finanzierung.\n- **PTON SHORT, USER_REPORTED Turbo:** [StockAnalysis NASDAQ-Last](https://stockanalysis.com/stocks/pton/) 5,94 USD am 09.11. 14:36 EST, REGULAR, Verzögerung unklar. Produkt-ISIN, Einstand, Knock-out, Turbo-Bid/Ask fehlen; PnL **nicht berechenbar**. Exit nur mit tatsächlichem Produktkurs und Nutzer-/Brokerbeleg.\n- **HFG SHORT, USER_REPORTED Turbo:** [FinanzNachrichten Xetra-Last](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm) 3,126 EUR am 09.11. 13:27 CET, REGULAR, bei US-Check ALT; kein Turbo-Kurs, PnL **nicht berechenbar**. Exit nicht verifiziert.\n- **DEUTZ LONG:** vom Nutzer als geschlossen gemeldet, etwa +11 EUR, keine bestätigte Broker-Ausführung; keine offene Position.\n\n## Strategie, Kosten, Lücken und Entscheidung\nPRE-EARNINGS: OXY/TTWO nur Kalenderfund, kein qualifiziertes Erwartungsabweichungsmodell. PEAD: NRG/CEG positive Ergebnisdaten, aber nicht vollständige vorab datierte EPS- UND Umsatz-Konsensüberraschung plus Kostenanalyse. GUIDANCE-REVISION: CEG erhöhte, NRG bestätigte 2026; Kausalität des heutigen Kursimpulses nicht isoliert. PAIRS: NRG/CEG als thematische Strom-Paarhypothese, keine 60–252 datierten täglichen Preisreihen, Korrelation=null, kein Hedge-Nachweis. **KEIN TRADE:** fehlende authentifizierte Paper-Ausführung, handelbarer Spread, Short-Borrow, korrekte FX und nach Signalentscheidung verifizierter Preis; Mindest-Netto-RR 1,8 und Kostenobergrenze nicht belegt. Keine 13F-Zwei-Quartals-Vergleiche, keine belastbaren aktuellen zwei Analystenrevisionen pro Titel, keine wissenschaftlich kalibrierte Erfolgswahrscheinlichkeit. Die heute geprüften neuen Dokumente reichen nicht für 50/50; keine behauptete Vollständigkeit.",
+      "report_sections": [
+        {
+          "heading": "NRG und CEG Earnings",
+          "summary": "NRG Q3 adjusted EPS 4.68; CEG 5.06",
+          "bullets": [
+            {
+              "text": "NRG Q3 2026 Originalbericht",
+              "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-third-quarter-2026-results-reaffirms-2026",
+              "publisher": "NRG IR",
+              "checked_at": "2026-11-09T20:28:34Z"
+            },
+            {
+              "text": "CEG Q3 2026 Originalbericht",
+              "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+              "publisher": "Constellation IR",
+              "checked_at": "2026-11-09T20:28:34Z"
+            }
+          ]
+        },
+        {
+          "heading": "Alle offenen Positionen",
+          "summary": "IREN reference −102.77 EUR; HFG/PTON turbo PnL unknown",
+          "bullets": [
+            {
+              "text": "IREN dated 15:10 EST quote",
+              "url": "https://stockanalysis.com/stocks/iren/",
+              "publisher": "StockAnalysis",
+              "checked_at": "2026-11-09T20:28:34Z"
+            },
+            {
+              "text": "PTON dated 14:36 EST quote",
+              "url": "https://stockanalysis.com/stocks/pton/",
+              "publisher": "StockAnalysis",
+              "checked_at": "2026-11-09T20:28:34Z"
+            },
+            {
+              "text": "HFG dated 13:27 CET quote",
+              "url": "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm",
+              "publisher": "FinanzNachrichten",
+              "checked_at": "2026-11-09T20:28:34Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -10855,10 +11144,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-09T17:34:41Z",
-      "status": "PRELIMINARY",
-      "stance": "WATCH",
-      "summary": "AI cloud growth versus funding risk",
+      "as_of": "2026-11-09T20:28:34Z",
+      "status": "VORLÄUFIG",
+      "stance": "SHORT",
+      "summary": "AI cloud growth versus delayed Microsoft rollout and capex",
       "source_goal": 50,
       "source_documents": [
         {
@@ -11020,6 +11309,16 @@
           "finding": "After-hours quote 21.68 USD 19:24 EST",
           "checked_on": "2026-11-07T00:32:23Z",
           "doc_type": "webpage"
+        },
+        {
+          "id": "IREN-2026-11-05-17",
+          "title": "IREN AI transition",
+          "publisher": "The Block",
+          "published_at": "2026-11-05",
+          "url": "https://www.theblock.co/news/business/2026-11-05-irens-mining-revenue-drops-435783",
+          "finding": "AI cloud 200m revenue, mining contraction",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "NEWS"
         }
       ],
       "financial_history": [
@@ -11101,14 +11400,15 @@
         }
       ],
       "institutional_holdings": [],
-      "holdings_note": "13F-Vergleiche nicht neu verifiziert",
+      "holdings_note": "Zwei periodengleiche SEC 13F Originalfilings nicht geprüft; keine Fondsänderung behauptet",
       "key_unknowns": [
-        "historical guidance verification",
-        "13F comparisons",
-        "borrow/spread/cost"
+        "Verifizierter aktueller Bid/Ask und tatsächliche Gebühren",
+        "Zwei aktuelle Analystenrevisionen",
+        "SEC 13F zwei Quartale",
+        "Valider Forecast-vs-Actual Scorecard Nenner"
       ],
-      "method_note": "Only individually opened documents counted; index snippets excluded",
-      "analyst_coverage": "Lewis/BTIG und Ng/Goldman 06.11.2026 via StockAnalysis/TipRanks; nicht Originalresearch"
+      "method_note": "Dokument-URLs dedupliziert; keine Snippets als geöffnete Dokumente gezählt; 50/50 nicht erreicht",
+      "analyst_coverage": "Nicht ausreichend geprüft"
     },
     "APP": {
       "ticker": "APP",
@@ -12544,12 +12844,130 @@
       ],
       "method_note": "Nur geöffnete eigenständige Dokumente gezählt",
       "analyst_coverage": "Nicht ausreichend verifiziert"
+    },
+    "NRG": {
+      "ticker": "NRG",
+      "name": "NRG Energy",
+      "tv": "NYSE:NRG",
+      "source_documents": [
+        {
+          "id": "NRG-2026-11-09-1",
+          "title": "Q3 2026 results",
+          "publisher": "NRG Investor Relations",
+          "published_at": "2026-11-09",
+          "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-third-quarter-2026-results-reaffirms-2026",
+          "finding": "Q3 adjusted EPS 4.68 USD; 2026 guidance reaffirmed; 2027 initiated",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "COMPANY_IR"
+        },
+        {
+          "id": "NRG-2026-11-09-2",
+          "title": "4 billion asset sale",
+          "publisher": "NRG Investor Relations",
+          "published_at": "2026-11-09",
+          "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-announces-4-billion-asset-sale",
+          "finding": "4.9GW sale for $4bn, expected Q2 2027",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "COMPANY_IR"
+        },
+        {
+          "id": "NRG-2026-08-04-3",
+          "title": "Q2 2026 results",
+          "publisher": "NRG Investor Relations",
+          "published_at": "2026-08-04",
+          "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-second-quarter-2026-results-and-reaffirms",
+          "finding": "Adjusted EPS 1.49, 2026 guidance reaffirmed",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "COMPANY_IR"
+        },
+        {
+          "id": "NRG-2026-02-02-4",
+          "title": "2026 updated guidance",
+          "publisher": "NRG Investor Relations",
+          "published_at": "2026-02-02",
+          "url": "https://investors.nrg.com/node/45156",
+          "finding": "2026 adjusted EPS 7.90-9.90",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "COMPANY_IR"
+        },
+        {
+          "id": "NRG-2025-11-06-5",
+          "title": "Q3 2025 results",
+          "publisher": "NRG Investor Relations",
+          "published_at": "2025-11-06",
+          "url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-inc-reports-third-quarter-results-reaffirms-2025",
+          "finding": "Q3 2025 adjusted EPS 2.78",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "COMPANY_IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-09T20:28:34Z",
+      "status": "VORLÄUFIG",
+      "stance": "LONG",
+      "source_goal": 50,
+      "summary": "Q3 EPS beat, 2026 guidance unchanged, $4bn asset sale",
+      "holdings_note": "Zwei periodengleiche SEC 13F Originalfilings nicht geprüft; keine Fondsänderung behauptet",
+      "key_unknowns": [
+        "Verifizierter aktueller Bid/Ask und tatsächliche Gebühren",
+        "Zwei aktuelle Analystenrevisionen",
+        "SEC 13F zwei Quartale",
+        "Valider Forecast-vs-Actual Scorecard Nenner"
+      ],
+      "method_note": "Dokument-URLs dedupliziert; keine Snippets als geöffnete Dokumente gezählt; 50/50 nicht erreicht",
+      "analyst_coverage": "Nicht ausreichend geprüft"
+    },
+    "CEG": {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "tv": "NASDAQ:CEG",
+      "source_documents": [
+        {
+          "id": "CEG-2026-11-09-1",
+          "title": "Q3 2026 results",
+          "publisher": "Constellation Investor Relations",
+          "published_at": "2026-11-09",
+          "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+          "finding": "Adjusted operating EPS 5.06; 2026 guidance 12.50-12.80",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "COMPANY_IR"
+        },
+        {
+          "id": "CEG-2025-11-07-2",
+          "title": "Q3 2025 results",
+          "publisher": "Constellation Investor Relations",
+          "published_at": "2025-11-07",
+          "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2025-results",
+          "finding": "Q3 2025 adjusted operating EPS 3.04",
+          "checked_on": "2026-11-09T20:28:34Z",
+          "doc_type": "COMPANY_IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-09T20:28:34Z",
+      "status": "VORLÄUFIG",
+      "stance": "LONG",
+      "source_goal": 50,
+      "summary": "Q3 adjusted EPS beat, guidance raised",
+      "holdings_note": "Zwei periodengleiche SEC 13F Originalfilings nicht geprüft; keine Fondsänderung behauptet",
+      "key_unknowns": [
+        "Verifizierter aktueller Bid/Ask und tatsächliche Gebühren",
+        "Zwei aktuelle Analystenrevisionen",
+        "SEC 13F zwei Quartale",
+        "Valider Forecast-vs-Actual Scorecard Nenner"
+      ],
+      "method_note": "Dokument-URLs dedupliziert; keine Snippets als geöffnete Dokumente gezählt; 50/50 nicht erreicht",
+      "analyst_coverage": "Nicht ausreichend geprüft"
     }
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T19:30:08Z",
-    "method_note": "14:30 EST: zwei Watch-Kandidaten, nicht vollqualifiziert; keine unbelegten Screen-Zähler.",
+    "as_of": "2026-11-09T20:28:34Z",
+    "method_note": "US run screened 6 distinct event/position tickers with directly checked source, not 258 calendar-listed names; 4 additional discovered only; no validated spreads",
     "coverage": {
       "universe_checked": 0,
       "earnings_events": 4,
@@ -13551,17 +13969,18 @@
         "name": "NRG Energy",
         "tv": "NYSE:NRG",
         "market": "US",
-        "sector": "Energy",
-        "direction": "WATCH",
-        "reason": "Earningskalender 09.11.2026",
-        "stage": "DISCOVERED",
+        "sector": "Utilities/Energy",
+        "direction": "LONG",
+        "reason": "Positive earnings and asset monetization",
+        "stage": "DEEP_DIVE",
         "earnings_at": "2026-11-09",
-        "event": "Earnings",
+        "event": "Positive earnings and asset monetization",
         "score": null,
         "sources": [
-          "https://investingly.io/earnings-calendar/2026-11-09"
+          "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-third-quarter-2026-results-reaffirms-2026",
+          "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-announces-4-billion-asset-sale"
         ],
-        "as_of": "2026-11-09T13:30:32Z"
+        "as_of": "2026-11-09T20:28:34Z"
       },
       {
         "ticker": "TTWO",
@@ -13599,38 +14018,37 @@
       },
       {
         "ticker": "NVDA",
-        "name": "NVIDIA",
+        "name": "Nvidia",
         "tv": "NASDAQ:NVDA",
         "market": "US",
-        "sector": null,
+        "sector": "Semiconductors",
         "direction": "SHORT",
-        "reason": "Governance and regulatory uncertainty",
+        "reason": "Idiosyncratic governance pressure",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Governance and regulatory uncertainty",
+        "event": "Idiosyncratic governance pressure",
         "score": null,
         "sources": [
-          "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-          "https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/"
+          "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/"
         ],
-        "as_of": "2026-11-09T17:34:41Z"
+        "as_of": "2026-11-09T20:28:34Z"
       },
       {
         "ticker": "IREN",
         "name": "IREN Limited",
         "tv": "NASDAQ:IREN",
         "market": "US",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "AI cloud growth versus funding risk",
+        "sector": "AI Infrastructure",
+        "direction": "SHORT",
+        "reason": "Capital spending and delayed delivery",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "AI cloud growth versus funding risk",
+        "event": "Capital spending and delayed delivery",
         "score": null,
         "sources": [
-          "https://www.globenewswire.com/news-release/2026/11/05/3397020/0/en/iren-reports-q1-fy27-results.html"
+          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
         ],
-        "as_of": "2026-11-09T17:34:41Z"
+        "as_of": "2026-11-09T20:28:34Z"
       },
       {
         "ticker": "CRWV",
@@ -13654,17 +14072,17 @@
         "name": "Constellation Energy",
         "tv": "NASDAQ:CEG",
         "market": "US",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Earnings-Event ohne bestätigte Ist-Zahlen",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Earnings-Event ohne bestätigte Ist-Zahlen",
+        "sector": "Utilities/Energy",
+        "direction": "LONG",
+        "reason": "Earnings beat and raised outlook",
+        "stage": "DEEP_DIVE",
+        "earnings_at": "2026-11-09",
+        "event": "Earnings beat and raised outlook",
         "score": null,
         "sources": [
-          "https://investingly.io/earnings-calendar/2026-11-09"
+          "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results"
         ],
-        "as_of": "2026-11-09T14:34:45Z"
+        "as_of": "2026-11-09T20:28:34Z"
       },
       {
         "ticker": "UTDI",
@@ -13718,7 +14136,18 @@
         "as_of": "2026-11-09T16:03:20Z"
       }
     ],
-    "pairs": [],
+    "pairs": [
+      {
+        "long": "NRG",
+        "short": "CEG",
+        "relationship": "Power sector relative value hypothesis",
+        "status": "UNVERIFIED",
+        "evidence": "Common energy/power theme only; no price-series backtest",
+        "lookback_days": null,
+        "correlation": null,
+        "source_url": "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-reports-third-quarter-2026-results-reaffirms-2026"
+      }
+    ],
     "daily_stats": [
       {
         "date": "2026-11-05",
@@ -14160,6 +14589,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T193008Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 6,
+        "earnings_events": 2,
+        "triaged": 6,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T202834Z"
       }
     ],
     "strategies": [
