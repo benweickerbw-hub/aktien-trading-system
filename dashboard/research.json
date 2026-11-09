@@ -1,6 +1,6 @@
 {
-  "version": 43,
-  "updated_at": "2026-11-08T23:57:00+01:00",
+  "version": 44,
+  "updated_at": "2026-11-09T07:04:04Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -7342,6 +7342,232 @@
         }
       ],
       "report_markdown": "# Wochenend-Check: neues 10.000-€-Paperkonto – Sonntag, 08.11.2026\n\n## Handelsstatus\nUS und Xetra geschlossen. **0 neue tatsächliche oder simulierte Fills**. Ein am Sonntag erdachter Einstieg darf nicht als Börsenausführung am Freitag oder Montag gebucht werden.\n\n## Neue Kapitalregeln\n- **10.000 € Paper-Startkapital**, nicht echt und nicht brokerverbunden.\n- **Variable Einsätze 10–200 €**, bevorzugt ~50 €, modelliertes Exposure 5× je Position. Kein künstliches Erzwingen von 10-€-Trades.\n- Höchstens 30 gleichzeitig offene Papierpositionen, insgesamt höchstens 3.000 € Modell-Margin bzw. 15.000 € Brutto-Exposure. Maximal 12 neue vollständig dokumentierte Papiertrades pro Handelssitzung.\n- Geplanter Stop-Risikoanteil je Position höchstens 25 €, aggregiert 150 €; modellierter Tagesverluststopp 200 €. Gaps können diese Schwellen überschreiten.\n- Vollständige Roundtrip-Handelskosten einschließlich Provision, Spread, Slippage, FX und Borrow (falls relevant) sollen maximal 0,5 % des Notionals ausmachen; erwartete Brutto-Edge mindestens 2,5× erwartete Kosten; Netto-CRV ≥ 1,8.\n\n## Warum Gebühren kleine Trades verhindern\nIBKR Ireland veröffentlicht im US-Tiered-Plan eine Mindestprovision von 0,35 USD je Seite, zusammen mindestens 0,70 USD, ohne Spread, FX oder Slippage. Deutschland-Tiered kostet mindestens 1,25 € pro Richtung, zusammen mindestens 2,50 €. Bei **10 € Margin und 5× = 50 € Notional** entsprechen 2,50 € deutschen Mindestgebühren allein **5 % des Notionals**. 10 € ist somit nur bei einem tatsächlich sehr günstigen Broker und enger Spanne sinnvoll. [IBKR-Tarife](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe)\n\nAlpaca unterstützt Fractional-Long-Orders, aber keine Fractional-Shorts, daher müssen kleinteilige Shorts mit ganzzahligen Stücken und Borrow-Fähigkeit vereinbar sein. [Alpaca Dokumentation](https://docs.alpaca.markets/us/docs/fractional-trading)\n\n## Watchlist für Montag 09.11.2026\nVor US-Börsenöffnung laut Kalender: KKR, CEG, NRG, Barrick B, FERG, ROIV, RBA. Nach Schluss: OXY, TTWO, RKLB, ASTS, MARA, HIMS, ZETA. Termine einzeln mit Unternehmens-IR bestätigen; **keine dieser Kalenderentdeckungen ist ein ausgeführter Trade oder qualifiziertes Signal**. [StockTitan Wochenübersicht](https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026)\n\n## Bestehende Trades\nIREN historische, möglicherweise veraltete Referenz-Simulation ohne nachgewiesenen Einstieg; HFG/PTON als vom Nutzer gemeldete offene Turbo-Shorts ohne Broker-Produktspezifikation; DEUTZ vom Nutzer als geschlossen berichtet. Keine der älteren Positionen rückwirkend an den neuen 10.000-€-Start angepasst.\n\n## Nächster Check\nAb Montag Börsenöffnung frische Geld-/Briefkurse und Spread/volumenbasierte Preisqualität überprüfen, historische Überraschungen vergleichen, 10–200 € Einsatz wählen, erwartete Kosten abziehen, verfügbare Margin und korrelierte Risiken prüfen. **Bei fehlendem nach-Entscheidung belegten Fill bleibt es ein PENDING-Signal.**\n\nQuellen: [Nasdaq-Handelskalender](https://www.nasdaqtrader.com/Trader.aspx?id=Calendar), [Xetra-Zeiten](https://www.cashmarket.deutsche-boerse.com/cash-de/Handelskalender-und-zeiten-4302078), [Brokergebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe), [Alpaca Fractional](https://docs.alpaca.markets/us/docs/fractional-trading), [Earnings 09.11.](https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026)."
+    },
+    {
+      "id": "XETRA-20261109T070404Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T07:04:04Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Vorbörse: Hannover Rück heute, Infineon morgen, Siemens Energy Mittwoch",
+      "summary": "5 Eventnamen triagiert, keine qualifizierten Paper-Fills; 10000 EUR Modellkapital",
+      "source_status": "8 unterschiedliche Seiten geprüft; aktuelle Quotes und Broker-Fills nicht vorhanden",
+      "candidates": [
+        {
+          "ticker": "IFX",
+          "name": "Infineon Technologies",
+          "tv": "XETR:IFX",
+          "side": "WATCH",
+          "thesis": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "risk": "Konsens/Spread/aktuelle Kurse nicht ausreichend geprüft",
+          "sources_checked": 4,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "side": "WATCH",
+          "thesis": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "risk": "Konsens/Spread/aktuelle Kurse nicht ausreichend geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "risk": "Konsens/Spread/aktuelle Kurse nicht ausreichend geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz",
+          "tv": "XETR:ALV",
+          "side": "WATCH",
+          "thesis": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "risk": "Konsens/Spread/aktuelle Kurse nicht ausreichend geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "SIE",
+          "name": "Siemens",
+          "tv": "XETR:SIE",
+          "side": "WATCH",
+          "thesis": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "risk": "Konsens/Spread/aktuelle Kurse nicht ausreichend geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Infineon FY26 Q4 Ergebnisse 10.11. 07:30",
+          "published_at": "2026-11-09",
+          "ticker": "IFX",
+          "publisher": "Infineon",
+          "url": "https://www.infineon.com/de/about/events",
+          "finding": "Infineon FY26 Q4 Ergebnisse 10.11. 07:30"
+        },
+        {
+          "title": "Q3 Umsatz 4,172 Mrd. EUR; Q4 Ziel rund 4,7 Mrd.",
+          "published_at": "2026-08-05",
+          "ticker": "IFX",
+          "publisher": "Infineon",
+          "url": "https://www.infineon.com/de/press-release/2026/infpr202608-125",
+          "finding": "Q3 Umsatz 4,172 Mrd. EUR; Q4 Ziel rund 4,7 Mrd."
+        },
+        {
+          "title": "Q2 Umsatz 3,812 Mrd.; angehobene Jahresprognose",
+          "published_at": "2026-05-06",
+          "ticker": "IFX",
+          "publisher": "Infineon",
+          "url": "https://www.infineon.com/de/press-release/2026/infxx202605-082",
+          "finding": "Q2 Umsatz 3,812 Mrd.; angehobene Jahresprognose"
+        },
+        {
+          "title": "Q1 Umsatz 3,662 Mrd.; KI-Investitionen",
+          "published_at": "2026-02-04",
+          "ticker": "IFX",
+          "publisher": "Infineon",
+          "url": "https://www.infineon.com/de/press-release/2026/infxx202602-042",
+          "finding": "Q1 Umsatz 3,662 Mrd.; KI-Investitionen"
+        },
+        {
+          "title": "Q3 Zwischenmitteilung 09.11.",
+          "published_at": "2026-11-09",
+          "ticker": "HNR1",
+          "publisher": "Hannover Rück",
+          "url": "https://www.hannover-re.com/de/investoren/events-und-praesentationen/",
+          "finding": "Q3 Zwischenmitteilung 09.11."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IFX",
+          "name": "Infineon Technologies",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Infineon FY26 Q4 Ergebnisse 10.11. 07:30",
+              "url": "https://www.infineon.com/de/about/events",
+              "publisher": "Infineon",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 4,172 Mrd. EUR; Q4 Ziel rund 4,7 Mrd.",
+              "url": "https://www.infineon.com/de/press-release/2026/infpr202608-125",
+              "publisher": "Infineon",
+              "published_at": "2026-08-05"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q2 Umsatz 3,812 Mrd.; angehobene Jahresprognose",
+              "url": "https://www.infineon.com/de/press-release/2026/infxx202605-082",
+              "publisher": "Infineon",
+              "published_at": "2026-05-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q1 Umsatz 3,662 Mrd.; KI-Investitionen",
+              "url": "https://www.infineon.com/de/press-release/2026/infxx202602-042",
+              "publisher": "Infineon",
+              "published_at": "2026-02-04"
+            }
+          ],
+          "catalysts": [
+            "Ergebnisbericht"
+          ],
+          "invalidations": [
+            "Schwache Guidance oder abweichender Konsens"
+          ]
+        },
+        {
+          "ticker": "HNR1",
+          "name": "Hannover Rück",
+          "tv": "XETR:HNR1",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Zwischenmitteilung 09.11.",
+              "url": "https://www.hannover-re.com/de/investoren/events-und-praesentationen/",
+              "publisher": "Hannover Rück",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Ergebnisbericht"
+          ],
+          "invalidations": [
+            "Schwache Guidance oder abweichender Konsens"
+          ]
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "points": [],
+          "catalysts": [
+            "Ergebnisbericht"
+          ],
+          "invalidations": [
+            "Schwache Guidance oder abweichender Konsens"
+          ]
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz",
+          "tv": "XETR:ALV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+          "points": [],
+          "catalysts": [
+            "Ergebnisbericht"
+          ],
+          "invalidations": [
+            "Schwache Guidance oder abweichender Konsens"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZSIMULATION",
+        "summary": "Nicht verifizierter Einstieg, letzte Marke alt",
+        "base_scenario": "Eröffnungsquote abwarten",
+        "bull_scenario": "Kursrückgang wäre günstig für Short",
+        "bear_scenario": "Kursanstieg/Short squeeze",
+        "key_risk": "Kein authentischer Fill",
+        "planned_exit": "Historischer Plan 06.11.; nicht bestätigt",
+        "as_of": "2026-11-09T07:04:04Z",
+        "mark_price": 21.68,
+        "mark_at": "2026-11-06T19:24:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Vorbörsenresearch – 09.11.2026, 08:04 CET\n\n## Kurzfazit\nXetra öffnet regulär um 09:00 CET. Dies ist ein Vorbörsenlauf: **KEIN TRADE**, keine rückwirkenden Fills. Paper-Modellkapital 10.000 EUR, kein Paper-Broker verbunden. Kostenregel: Roundtrip ≤0,5% des Bruttonotionals; für kleine deutsche Orders sind Mindestprovisionen kritisch.\n\n## Earnings-Pipeline\n- **Hannover Rück (HNR1):** Zwischenmitteilung Q3 für 09.11. angekündigt; Zahlen zum Prüfzeitpunkt noch nicht verifiziert. [Hannover Rück, Finanzkalender](https://www.hannover-re.com/de/investoren/events-und-praesentationen/).\n- **Infineon (IFX):** Q4/FY26-Bericht 10.11., 07:30 CET, Termin vorläufig. [Infineon Events](https://www.infineon.com/de/about/events). Q1 Umsatz 3,662 Mrd. EUR, Q2 3,812 Mrd., Q3 4,172 Mrd. EUR. Q4-Umsatzziel rund 4,7 Mrd. EUR bei ~23% Segmentmarge; Veröffentlichung des Ist-Werts steht aus. [Q1 04.02.](https://www.infineon.com/de/press-release/2026/infxx202602-042), [Q2 06.05.](https://www.infineon.com/de/press-release/2026/infxx202605-082), [Q3 05.08.](https://www.infineon.com/de/press-release/2026/infpr202608-125). Bull: KI-Stromversorgung; Bear: Automotive-Zyklus, hohe Investitionen. Tendenz 1–10 Handelstage: WATCH, keine ausreichend abgesicherte Richtung.\n- **Siemens Energy (ENR):** FY26-Veröffentlichung 11.11. um 07:00 CET. [Siemens Energy, Terminseite](https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html). Erwartungs-/Bewertungsrisiko, kein qualifizierter Entry.\n- **Allianz (ALV):** Q3-Zahlen 12.11. um 07:00 CET. [Allianz IR](https://www.allianz.com/de/investor_relations/ergebnisse-berichte/ergebnisse.html). Konsensrevision und Bewertung noch nicht geprüft.\n- **Siemens (SIE):** Kalender weist 12.11. aus; Primär-IR und Prognosevergleich in diesem Lauf nicht verifiziert. [TipRanks Kalender](https://www.tipranks.com/calendars/earnings/2026-11-12/germany).\n\n## Screening und Strategie\n5 namentlich überprüfte Event-Kandidaten, davon 4 mit geprüfter Original-IR-Terminseite, 0 QUALIFIED, 0 neue Signale. Breitere Kalenderlisten nicht als vollständig gescreente Aktien gezählt. PRE-EARNINGS: Erwartungen ohne belastbare Spread-/Quote-Daten nicht handelbar. PEAD: noch keine bestätigte aktuelle EPS- und Umsatzüberraschung. GUIDANCE: Infineon Q4-Prognose noch ohne Ist-Wert. PAIRS: keine datierten 60–252 Tageskursreihen, Korrelation nicht berechenbar. Analystenvoten, Insider-/Stimmrechtsvergleiche, Konsensrevisionen und Intraday-Liquidität: nicht verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT, PAPER/REFERENZ:** 18,05 USD historische, nicht ausgeführte Entry-Referenz; letzte im Positionsregister gespeicherte Markierung 21,68 USD, 06.11.2026 19:24 EST AFTERHOURS, [StockAnalysis](https://stockanalysis.com/stocks/iren/). ALT, kein aktueller 09.11.-Quote. Historischer linearer Referenzwert ca. −100,55 EUR bei 100 EUR ×5, ohne Gebühren/FX; **kein realer Fill oder bestätigter Exit**. Geplanter Exit war 06.11.; Ausführung nicht belegt.\n- **HFG SHORT, USER_REPORTED Turbo:** Aktie zuletzt gespeichert 2,988 EUR Xetra-Close 06.11. 17:35 CET, [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm). ALT; Produkt-ISIN/Einstand fehlen, Turbo-PnL nicht berechenbar.\n- **PTON SHORT, USER_REPORTED Turbo:** Aktie zuletzt gespeichert 5,62 USD Nasdaq-Close 06.11. 16:00 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/). ALT; Produkt-ISIN/Einstand fehlen, Turbo-PnL nicht berechenbar.\nKeine neueren überprüften, mit Zeitstempel versehenen Quotes in diesem Vorbörsenlauf. Keine Position geschlossen oder geändert.\n\n## Ausführung und Risiko\n10.000 EUR rein fiktives Startkapital, keine authentifizierte Paper-Broker-Ausführung. Keine neuen Fills vor 09:00. Für eine morgendliche Opening-Order muss die Entscheidung **vor** der Eröffnung dokumentiert sein; der tatsächliche Eröffnungskurs wird erst danach bekannt. Mindestgebühren nach [IBKR Ireland](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe): Deutschland Tiered mindestens 1,25 EUR je Richtung; bei 50 EUR Notional schon mindestens 5% Roundtrip. Kosten- und Quote-Nachweise für neue Trades fehlen.\n\n## Quellenumfang und Lücken\n8 eindeutige in diesem Lauf überprüfte öffentliche Dokumentseiten (davon 6 Unternehmens-IR/Originalbörsenquellen; keine 50-Dokumente-Vollständigkeit). Keine aktuellen namentlichen Analystenpaare, keine regulatorischen Bestandsvergleiche, keine belastbaren Intraday-Bid/Ask-Marken. TradingView-Widgets sind kein verifizierter PnL-Feed."
     }
   ],
   "deep_dives": {
@@ -8588,22 +8814,52 @@
           "finding": "Q2 Umsatz 3,812 Mrd EUR; bereinigter FCF Jahresprognose 1,65 Mrd EUR",
           "checked_on": "2026-11-06",
           "doc_type": "IR"
+        },
+        {
+          "id": "IFX-2026-11-09",
+          "title": "Infineon FY26 Q4 Ergebnisse 10.11. 07:30",
+          "publisher": "Infineon",
+          "published_at": "2026-11-09",
+          "url": "https://www.infineon.com/de/about/events",
+          "finding": "Infineon FY26 Q4 Ergebnisse 10.11. 07:30",
+          "checked_on": "2026-11-09",
+          "doc_type": "IR"
+        },
+        {
+          "id": "IFX-2026-08-05",
+          "title": "Q3 Umsatz 4,172 Mrd. EUR; Q4 Ziel rund 4,7 Mrd.",
+          "publisher": "Infineon",
+          "published_at": "2026-08-05",
+          "url": "https://www.infineon.com/de/press-release/2026/infpr202608-125",
+          "finding": "Q3 Umsatz 4,172 Mrd. EUR; Q4 Ziel rund 4,7 Mrd.",
+          "checked_on": "2026-11-09",
+          "doc_type": "IR"
+        },
+        {
+          "id": "IFX-2026-02-04",
+          "title": "Q1 Umsatz 3,662 Mrd.; KI-Investitionen",
+          "publisher": "Infineon",
+          "published_at": "2026-02-04",
+          "url": "https://www.infineon.com/de/press-release/2026/infxx202602-042",
+          "finding": "Q1 Umsatz 3,662 Mrd.; KI-Investitionen",
+          "checked_on": "2026-11-09",
+          "doc_type": "IR"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-06T12:04:34Z",
+      "as_of": "2026-11-09T07:04:04Z",
       "status": "IN_PROGRESS",
       "stance": "WATCH",
-      "summary": "Q4/FY am 10.11.; Q2-FCF-Guidance historische Ausgangsbasis",
+      "summary": "Q4 FY26 am 10.11.; Q4 Umsatzprognose ca. 4,7 Mrd. EUR, Ist offen",
       "key_unknowns": [
-        "Aktueller datierter Kurs",
-        "Analystenkonsens und zwei Analystenvoten",
-        "Historischer Guidance-Ist-Abgleich",
-        "Institutionelle Meldungen"
+        "Q4 Ist-Wert",
+        "Aktueller Analystenkonsens",
+        "Bid/Ask/Spread",
+        "Institutionelle Originalmeldungen"
       ],
-      "method_note": "Nur tatsächlich gelesene URL dedupliziert; 50-Dokumente-Ziel nicht erreicht"
+      "method_note": "Nur eigenständig geprüfte URLs, keine doppelte Syndikation"
     },
     "MRNA": {
       "ticker": "MRNA",
@@ -8745,13 +9001,13 @@
     }
   },
   "screening": {
-    "status": "Wochenend-Discovery; Börse geschlossen, 0 neue Trades",
-    "as_of": "2026-11-08T23:57:00+01:00",
-    "method_note": "Dieser US-Lauf: Kalender entdeckt, aber keine neu vollständig qualifizierten Screener-Ticker; vorhandene andere Markt-/Tagesdaten beibehalten.",
+    "status": "PREMARKET_RESEARCH",
+    "as_of": "2026-11-09T07:04:04Z",
+    "method_note": "Dieser Lauf: 5 Eventnamen triagiert; keine intraday Quote, keine Qualified Trades. Vorhandene andere Markt-/Tagesdaten erhalten.",
     "coverage": {
-      "universe_checked": 3,
-      "earnings_events": 3,
-      "triaged": 3,
+      "universe_checked": 5,
+      "earnings_events": 5,
+      "triaged": 5,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -9373,20 +9629,23 @@
       },
       {
         "ticker": "IFX",
-        "name": "Infineon",
+        "name": "Infineon Technologies",
         "tv": "XETR:IFX",
         "market": "XETRA",
         "sector": null,
         "direction": "WATCH",
-        "reason": "Q3 Umsatz 4,172 Mrd EUR; Q4 Ziel etwa 4,7 Mrd EUR",
+        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
         "stage": "WATCH",
-        "earnings_at": "2026-08-05",
-        "event": "Q3 und Q4-Ausblick vor FY-Zahlen am 10.11.",
+        "earnings_at": null,
+        "event": "Ergebnisbericht 09.–12.11.2026",
         "score": null,
         "sources": [
-          "https://www.infineon.com/de/press-release/2026/infpr202608-125"
+          "https://www.infineon.com/de/about/events",
+          "https://www.infineon.com/de/press-release/2026/infpr202608-125",
+          "https://www.infineon.com/de/press-release/2026/infxx202605-082",
+          "https://www.infineon.com/de/press-release/2026/infxx202602-042"
         ],
-        "as_of": "2026-11-06T15:55:56Z"
+        "as_of": "2026-11-09T07:04:04Z"
       },
       {
         "ticker": "AMS",
@@ -9492,20 +9751,20 @@
       },
       {
         "ticker": "HNR1",
-        "name": "Hannover Rueck",
+        "name": "Hannover Rück",
         "tv": "XETR:HNR1",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "GEA/Hannover Rueck 09.11.; Infineon 10.11.; weitere Termine bis 12.11.",
+        "direction": "WATCH",
+        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
         "stage": "WATCH",
-        "earnings_at": "2026-11-09",
-        "event": "DAX Earnings Calendar",
+        "earnings_at": null,
+        "event": "Ergebnisbericht 09.–12.11.2026",
         "score": null,
         "sources": [
-          "https://quarterlyearnings.info/earnings/index/dax"
+          "https://www.hannover-re.com/de/investoren/events-und-praesentationen/"
         ],
-        "as_of": "2026-11-06T14:56:31Z"
+        "as_of": "2026-11-09T07:04:04Z"
       },
       {
         "ticker": "RHM",
@@ -9710,6 +9969,51 @@
         ],
         "as_of": "2026-11-08T23:57:00+01:00",
         "score": null
+      },
+      {
+        "ticker": "ENR",
+        "name": "Siemens Energy",
+        "tv": "XETR:ENR",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Ergebnisbericht 09.–12.11.2026",
+        "score": null,
+        "sources": [],
+        "as_of": "2026-11-09T07:04:04Z"
+      },
+      {
+        "ticker": "ALV",
+        "name": "Allianz",
+        "tv": "XETR:ALV",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Ergebnisbericht 09.–12.11.2026",
+        "score": null,
+        "sources": [],
+        "as_of": "2026-11-09T07:04:04Z"
+      },
+      {
+        "ticker": "SIE",
+        "name": "Siemens",
+        "tv": "XETR:SIE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Anstehender Ergebnisbericht; Erwartungsabweichung erst nach Prüfung bewertbar",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Ergebnisbericht 09.–12.11.2026",
+        "score": null,
+        "sources": [],
+        "as_of": "2026-11-09T07:04:04Z"
       }
     ],
     "pairs": [],
@@ -9994,6 +10298,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261107T003223Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 5,
+        "earnings_events": 5,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T070404Z"
       }
     ],
     "strategies": [
