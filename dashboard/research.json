@@ -1,6 +1,6 @@
 {
-  "version": 44,
-  "updated_at": "2026-11-09T07:04:04Z",
+  "version": 45,
+  "updated_at": "2026-11-09T08:08:06Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -7568,6 +7568,160 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Vorbörsenresearch – 09.11.2026, 08:04 CET\n\n## Kurzfazit\nXetra öffnet regulär um 09:00 CET. Dies ist ein Vorbörsenlauf: **KEIN TRADE**, keine rückwirkenden Fills. Paper-Modellkapital 10.000 EUR, kein Paper-Broker verbunden. Kostenregel: Roundtrip ≤0,5% des Bruttonotionals; für kleine deutsche Orders sind Mindestprovisionen kritisch.\n\n## Earnings-Pipeline\n- **Hannover Rück (HNR1):** Zwischenmitteilung Q3 für 09.11. angekündigt; Zahlen zum Prüfzeitpunkt noch nicht verifiziert. [Hannover Rück, Finanzkalender](https://www.hannover-re.com/de/investoren/events-und-praesentationen/).\n- **Infineon (IFX):** Q4/FY26-Bericht 10.11., 07:30 CET, Termin vorläufig. [Infineon Events](https://www.infineon.com/de/about/events). Q1 Umsatz 3,662 Mrd. EUR, Q2 3,812 Mrd., Q3 4,172 Mrd. EUR. Q4-Umsatzziel rund 4,7 Mrd. EUR bei ~23% Segmentmarge; Veröffentlichung des Ist-Werts steht aus. [Q1 04.02.](https://www.infineon.com/de/press-release/2026/infxx202602-042), [Q2 06.05.](https://www.infineon.com/de/press-release/2026/infxx202605-082), [Q3 05.08.](https://www.infineon.com/de/press-release/2026/infpr202608-125). Bull: KI-Stromversorgung; Bear: Automotive-Zyklus, hohe Investitionen. Tendenz 1–10 Handelstage: WATCH, keine ausreichend abgesicherte Richtung.\n- **Siemens Energy (ENR):** FY26-Veröffentlichung 11.11. um 07:00 CET. [Siemens Energy, Terminseite](https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html). Erwartungs-/Bewertungsrisiko, kein qualifizierter Entry.\n- **Allianz (ALV):** Q3-Zahlen 12.11. um 07:00 CET. [Allianz IR](https://www.allianz.com/de/investor_relations/ergebnisse-berichte/ergebnisse.html). Konsensrevision und Bewertung noch nicht geprüft.\n- **Siemens (SIE):** Kalender weist 12.11. aus; Primär-IR und Prognosevergleich in diesem Lauf nicht verifiziert. [TipRanks Kalender](https://www.tipranks.com/calendars/earnings/2026-11-12/germany).\n\n## Screening und Strategie\n5 namentlich überprüfte Event-Kandidaten, davon 4 mit geprüfter Original-IR-Terminseite, 0 QUALIFIED, 0 neue Signale. Breitere Kalenderlisten nicht als vollständig gescreente Aktien gezählt. PRE-EARNINGS: Erwartungen ohne belastbare Spread-/Quote-Daten nicht handelbar. PEAD: noch keine bestätigte aktuelle EPS- und Umsatzüberraschung. GUIDANCE: Infineon Q4-Prognose noch ohne Ist-Wert. PAIRS: keine datierten 60–252 Tageskursreihen, Korrelation nicht berechenbar. Analystenvoten, Insider-/Stimmrechtsvergleiche, Konsensrevisionen und Intraday-Liquidität: nicht verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT, PAPER/REFERENZ:** 18,05 USD historische, nicht ausgeführte Entry-Referenz; letzte im Positionsregister gespeicherte Markierung 21,68 USD, 06.11.2026 19:24 EST AFTERHOURS, [StockAnalysis](https://stockanalysis.com/stocks/iren/). ALT, kein aktueller 09.11.-Quote. Historischer linearer Referenzwert ca. −100,55 EUR bei 100 EUR ×5, ohne Gebühren/FX; **kein realer Fill oder bestätigter Exit**. Geplanter Exit war 06.11.; Ausführung nicht belegt.\n- **HFG SHORT, USER_REPORTED Turbo:** Aktie zuletzt gespeichert 2,988 EUR Xetra-Close 06.11. 17:35 CET, [FinanzNachrichten](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm). ALT; Produkt-ISIN/Einstand fehlen, Turbo-PnL nicht berechenbar.\n- **PTON SHORT, USER_REPORTED Turbo:** Aktie zuletzt gespeichert 5,62 USD Nasdaq-Close 06.11. 16:00 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/). ALT; Produkt-ISIN/Einstand fehlen, Turbo-PnL nicht berechenbar.\nKeine neueren überprüften, mit Zeitstempel versehenen Quotes in diesem Vorbörsenlauf. Keine Position geschlossen oder geändert.\n\n## Ausführung und Risiko\n10.000 EUR rein fiktives Startkapital, keine authentifizierte Paper-Broker-Ausführung. Keine neuen Fills vor 09:00. Für eine morgendliche Opening-Order muss die Entscheidung **vor** der Eröffnung dokumentiert sein; der tatsächliche Eröffnungskurs wird erst danach bekannt. Mindestgebühren nach [IBKR Ireland](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe): Deutschland Tiered mindestens 1,25 EUR je Richtung; bei 50 EUR Notional schon mindestens 5% Roundtrip. Kosten- und Quote-Nachweise für neue Trades fehlen.\n\n## Quellenumfang und Lücken\n8 eindeutige in diesem Lauf überprüfte öffentliche Dokumentseiten (davon 6 Unternehmens-IR/Originalbörsenquellen; keine 50-Dokumente-Vollständigkeit). Keine aktuellen namentlichen Analystenpaare, keine regulatorischen Bestandsvergleiche, keine belastbaren Intraday-Bid/Ask-Marken. TradingView-Widgets sind kein verifizierter PnL-Feed."
+    },
+    {
+      "id": "XETRA-20261109T080806Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T08:08:06Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Continental-Guidance und HelloFresh-Q3-Nachlauf; keine neuen Paper-Fills",
+      "summary": "09:08 MEZ: historische Freitagsschlüsse verifiziert, keine heutigen zeitnahen Quotes. Kein Paper-Broker; Kostenfilter verhindert Microtrades.",
+      "source_status": "7 unterschiedliche öffentliche Publikationen geprüft; 0 neue Primär-IR-Dokumente; heutige zeitnahe Quotes nicht gefunden.",
+      "candidates": [
+        {
+          "ticker": "CON",
+          "name": "Continental AG",
+          "tv": "XETR:CON",
+          "side": "WATCH LONG",
+          "thesis": "Guidance-Erhöhung",
+          "risk": "Rohstoffkosten, fehlender zeitnaher Spread",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh SE",
+          "tv": "XETR:HFG",
+          "side": "WATCH SHORT",
+          "thesis": "Q3-Nachlauf, Kursdruck",
+          "risk": "Short squeeze; Marktkapitalisierung unter Filter",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Continental erhöht 2026-Margenausblick",
+          "published_at": "2026-11-04",
+          "ticker": "CON",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/continental-raises-2026-outlook-tyre-business-strength-2026-11-04/",
+          "finding": "13,4–14,0 % statt 12–13,5 %, Q3 EBIT 514 Mio. EUR vs 480 Mio. Konsens"
+        },
+        {
+          "title": "DAX schließt Freitag unter 26.000",
+          "published_at": "2026-11-07",
+          "ticker": null,
+          "publisher": "Welt",
+          "url": "https://www.welt.de/finanzen/boerse/article6aee194447b5fce02f87aa29/dax-wieder-unter-26-000punkten.html",
+          "finding": "06.11. Schluss 25.820,36, −1,92 %"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh SE",
+          "tv": "XETR:HFG",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Schwacher Schluss nach Q3; zu geringe Marktkapitalisierung und fehlende zeitnahe Quote verhindern Fill.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "06.11. Xetra-Schluss 2,988 EUR, −10,38 %",
+              "url": "https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm",
+              "publisher": "FinanzNachrichten",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Marktkapitalisierung ca. 433 Mio. EUR, unter 2-Mrd.-Filter",
+              "url": "https://finance.yahoo.com/quote/HFG.DE/",
+              "publisher": "Yahoo Finance",
+              "published_at": "2026-11-06"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Spread, Analysten-Updates und Primärbericht nicht verifiziert",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Q3-Folgereaktionen"
+          ],
+          "invalidations": [
+            "Nachhaltige Guidance-Verbesserung"
+          ]
+        },
+        {
+          "ticker": "CON",
+          "name": "Continental AG",
+          "tv": "XETR:CON",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Guidance-Erhöhung; Rohstoffkosten als Gegenthese.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 EBIT 514 Mio. EUR gegen 480 Mio. Konsens",
+              "url": "https://www.reuters.com/business/continental-raises-2026-outlook-tyre-business-strength-2026-11-04/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "FAKT",
+              "text": "2026-Margenausblick auf 13,4–14,0 % erhöht",
+              "url": "https://www.reuters.com/business/continental-raises-2026-outlook-tyre-business-strength-2026-11-04/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-04"
+            }
+          ],
+          "catalysts": [
+            "Rohstoffpreise",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Marge durch Rohstoffkosten belastet"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Nicht verifizierter historischer Entry; keine aktuelle PnL",
+        "base_scenario": "Volatiler Handel, keine belastbare Richtung",
+        "bull_scenario": "Kursrückgang verbessert Short-Referenz",
+        "bear_scenario": "Erneuter Kursanstieg verschlechtert Short-Referenz",
+        "key_risk": "Short squeeze und ungesicherter Entry",
+        "planned_exit": "Ursprünglicher Termin verstrichen; keine rückwirkende Order",
+        "as_of": "2026-11-09T08:08:06Z",
+        "mark_price": 21.8,
+        "mark_at": "2026-11-06T19:59:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 09.11.2026, 09:08 MEZ\n\n## Markt- und Earnings-Lage\nAm Freitag, 06.11., schloss der DAX laut Welt bei 25.820,36 Punkten (−1,92 %). Das ist ein historischer Schlussstand, **kein** heutiger Livekurs. [Welt, 07.11.](https://www.welt.de/finanzen/boerse/article6aee194447b5fce02f87aa29/dax-wieder-unter-26-000punkten.html). Die aktuelle Xetra-Eröffnungsphase und heutige DAX-/Einzelkurse sind aus den geprüften Quellen noch nicht zeitgenau verifiziert.\n\n## Screening und Kandidaten\n**HFG / HelloFresh (WATCH, keine Order):** Xetra-Schlusskurs 06.11. 17:35:27 MEZ 2,988 EUR, −10,38 %, Umsatz 1.378.315 Stück laut [FinanzNachrichten, Kurs vom 06.11.](https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm) und [Yahoo Finance, Abruf 09.11.](https://finance.yahoo.com/quote/HFG.DE/). Marktkapitalisierung etwa 433 Mio. EUR; damit unter der regulären 2-Mrd.-EUR-Schwelle. Q3-Ergebnisse wurden am 05.11. veröffentlicht; vollständiger Primärbericht, Guidance-Scorecard, zwei aktuelle namentliche Analystenvoten und heute zeitnaher Spread noch nicht verifiziert. These: Short nur als Beobachtung nach schwacher Kursreaktion; Gegenargument: hoher Rebound-/Short-Squeeze-Risiko nach −10,38 %. Invalidierung: nachhaltige Erholung mit belastbarer Verbesserung der Guidance.\n\n**CON / Continental (WATCH):** [Reuters, 04.11.](https://www.reuters.com/business/continental-raises-2026-outlook-tyre-business-strength-2026-11-04/) berichtet Q3 adjusted EBIT 514 Mio. EUR gegenüber Konsens 480 Mio. EUR und angehobene 2026-Margenprognose 13,4–14,0 % statt 12–13,5 %. Bull: Preissetzung/hochwertige Reifen. Bear: Rohstoffinflation und mögliche Margennormalisierung. Heutige Xetra-Quote, aktueller Spread, zwei Analystenstimmen und Original-IR-Dokument nicht verifiziert. Keine Entry-Qualifikation.\n\n**IREN (Bestands-REFERENZ, US):** [StockAnalysis, Schlusskurs 06.11. 16:00 EST](https://stockanalysis.com/stocks/iren/) 21,64 USD, Afterhours 21,80 USD um 19:59 EST. Das sind ältere, zeitgestempelte Marken und kein Kurs am 09.11. Referenzeinstieg 18,05 USD ist **kein nachgewiesener Fill**. Bei 500 EUR synthetischem Short-Notional wäre die rein hypothetische PnL zum 21,80-USD-Afterhours-Preis −103,88 EUR ohne FX, Spread, KO, Gebühren. Kein Echtgeld- oder bestätigtes Paper-Ergebnis.\n\n**PTON (USER_REPORTED, US):** [StockAnalysis, 06.11.](https://stockanalysis.com/stocks/pton/) 5,61 USD regulärer Schluss, 5,57 USD Afterhours 19:58 EST. Turbo-Einstand, ISIN und Produktpreis unbekannt; PnL nicht berechenbar.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: Referenz 18,05 USD, letzte heute recherchierte zeitgestempelte Marke 21,80 USD am 06.11. 19:59 EST, AFTERHOURS; historische Referenz-PnL −103,88 EUR bei 500 EUR Notional, kein Fill. Geplanter ursprünglicher Exit 06.11. 09:30 EST ist abgelaufen, tatsächliche Ausführung nicht verifiziert. HFG SHORT USER_REPORTED: Aktien-Schluss 2,988 EUR vom 06.11. 17:35 MEZ, Turbo-PnL nicht berechenbar, Exit offen. PTON SHORT USER_REPORTED: Aktien-AH 5,57 USD vom 06.11. 19:58 EST, Turbo-PnL nicht berechenbar, Exit offen. Keine Position stillschweigend geschlossen. DEUTZ ist bereits als CLOSED_REPORTED geführt.\n\n## Handelsentscheidung und Kosten\n**KEIN NEUER FILL** um 09:08 MEZ. Es gibt keine authentifizierte Paper-Brokerverbindung; außerdem keine nach Signalentscheidung verifizierten aktuellen Bid-/Ask-Kurse, Stückelungs- und Borrow-Prüfung. Maßgebliches virtuelles Startkapital 10.000 EUR, bevorzugte Margin 50 EUR, 5× Notional; maximal 30 dokumentierte Positionen, 3.000 EUR Margin und 15.000 EUR Notional. [IBKR-Gebührenliste](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe): Deutschland mindestens 1,25 EUR je Richtung (2,50 EUR Roundtrip), bei 250 EUR Notional bereits 1 % nur Provision und damit über dem 0,5-%-Gesamtkostenlimit. Selbst 100 EUR Margin / 500 EUR Notional verbraucht die volle 0,5-%-Grenze vor Spread und Slippage. Deshalb kein deutsches Microtrade-Signal als netto profitabel qualifiziert.\n\n## Methoden und Forschungslücken\nVier Ansätze erwogen: Pre-Earnings, Post-Earnings-Drift, Guidance-Revision und Sektor-/Pairs. Keine valide EPS- plus Umsatz-Surprise-Reihe, 60–252 Tageskurse oder Kointegrationsrechnung; Pair-Korrelation nicht gefunden. Neue eigenständig inhaltlich geprüfte Primär-IR-Dokumente: **0**; konkret geprüfte unterschiedliche öffentliche Publikationen für diesen Bericht: **7** (Welt, FinanzNachrichten, Yahoo, Reuters, StockAnalysis IREN, StockAnalysis PTON, IBKR). Kein 50-Dokumente-Meilenstein behauptet. Aktuelle Analysten-Voten, vollständige historische Prognose-Ist-Vergleiche, Fonds-Stimmrechtsmeldungen und heutige Handelskurse nicht verifiziert. Für eine simulierte Eröffnungsorder müsste das Signal vor Eröffnung feststehen; den tatsächlichen Opening-Print darf man erst danach überprüfen, nicht rückwirkend als Fill eintragen.\n",
+      "report_sections": [
+        {
+          "heading": "Handelsentscheidung",
+          "summary": "Kein neuer Fill",
+          "bullets": [
+            {
+              "text": "IBKR-Mindestgebühr für Deutschland 2,50 EUR Roundtrip",
+              "url": "https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe",
+              "publisher": "IBKR",
+              "checked_at": "2026-11-09"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -9001,13 +9155,13 @@
     }
   },
   "screening": {
-    "status": "PREMARKET_RESEARCH",
-    "as_of": "2026-11-09T07:04:04Z",
-    "method_note": "Dieser Lauf: 5 Eventnamen triagiert; keine intraday Quote, keine Qualified Trades. Vorhandene andere Markt-/Tagesdaten erhalten.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-09T08:08:06Z",
+    "method_note": "Nur zwei Xetra-Unternehmen mit Event-Eignung grob geprüft; keine aktuelle Spread-Verifikation; alte Markt-/US-Daten nicht als heutige Kurse.",
     "coverage": {
-      "universe_checked": 5,
-      "earnings_events": 5,
-      "triaged": 5,
+      "universe_checked": 2,
+      "earnings_events": 2,
+      "triaged": 2,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -9559,23 +9713,6 @@
         "as_of": "2026-11-06T10:00:00Z"
       },
       {
-        "ticker": "HFG",
-        "name": "HelloFresh",
-        "tv": "XETR:HFG",
-        "market": "XETRA",
-        "sector": "Meal kits",
-        "direction": "REVIEW",
-        "reason": "User open Turbo, verified Xetra close",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "User open Turbo, verified Xetra close",
-        "score": null,
-        "sources": [
-          "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm"
-        ],
-        "as_of": "2026-11-06T22:29:47Z"
-      },
-      {
         "ticker": "TEP",
         "name": "Teleperformance",
         "tv": "EURONEXT:TEP",
@@ -10014,6 +10151,41 @@
         "score": null,
         "sources": [],
         "as_of": "2026-11-09T07:04:04Z"
+      },
+      {
+        "ticker": "HFG",
+        "name": "HelloFresh SE",
+        "tv": "XETR:HFG",
+        "market": "XETRA",
+        "sector": "Consumer",
+        "direction": "SHORT WATCH",
+        "reason": "Q3-Reaktion; unter 2-Mrd.-EUR-Filter",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-05",
+        "event": "Q3-Nachlauf",
+        "score": null,
+        "sources": [
+          "https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm",
+          "https://finance.yahoo.com/quote/HFG.DE/"
+        ],
+        "as_of": "2026-11-09T08:08:06Z"
+      },
+      {
+        "ticker": "CON",
+        "name": "Continental AG",
+        "tv": "XETR:CON",
+        "market": "XETRA",
+        "sector": "Automotive",
+        "direction": "LONG WATCH",
+        "reason": "Guidance-Erhöhung",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-04",
+        "event": "Q3-Guidance",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/continental-raises-2026-outlook-tyre-business-strength-2026-11-04/"
+        ],
+        "as_of": "2026-11-09T08:08:06Z"
       }
     ],
     "pairs": [],
@@ -10308,6 +10480,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261109T070404Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 2,
+        "earnings_events": 2,
+        "triaged": 2,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T080806Z"
       }
     ],
     "strategies": [
