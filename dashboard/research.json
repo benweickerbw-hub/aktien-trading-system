@@ -1,6 +1,6 @@
 {
-  "version": 57,
-  "updated_at": "2026-11-09T15:32:03Z",
+  "version": 58,
+  "updated_at": "2026-11-09T16:03:20Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -9659,6 +9659,207 @@
         "reference_only": true
       },
       "report_markdown": "# US-Research – 9. November 2026, 10:32 EST\n\n## Markt- und Ereignislage\nRegulärer NYSE/Nasdaq-Handel, kein Feiertag. Reuters meldete um 09:46 EST S&P 500 +1,48%, Nasdaq Composite +1,87%, Dow +1,27%; NVDA -5,6% im Kontext einer unabhängigen Untersuchung. Das sind historische Intraday-Snapshots, keine aktuellen Quotes. Quelle: [Reuters, 09.11.2026](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/). Morgan Stanley und UBS hielten den vorangegangenen AI-Ausverkauf für überzogen; das ist Analystenmeinung, keine bestätigte Kursprognose. [Reuters, 09.11.2026](https://www.reuters.com/business/finance/wall-st-brokerages-say-ai-selloff-overdone-downplay-democrat-regulation-risks-2026-11-09/).\n\n## Screening und Watchlist\nGezielt thematisch gesichtet: NVDA, IREN, IONS, PTON, HFG; keine vollständige Prüfung von Liquidität, Spread und Bewertung für alle fünf. NVDA: Governance-/Regulierungsrisiko gegen Erholung des Halbleitersektors; WATCH, kein Einstieg. IREN: Umsatz im Septemberquartal 228 Mio. USD gegenüber LSEG-Schätzung 221,28 Mio. USD, AI-Cloud-Umsatz 200 Mio. USD; >4 Mrd. USD annualisierte Umsatz-Run-Rate auf Januar bzw. möglicherweise Februar verschoben, 15 Mrd. USD geplante zusätzliche Investitionen. Risiko Finanzierung/Projektzeitplan; WATCH, keine belastbare aktuelle Quote. [Reuters, 05./06.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/). IONS: Medikamenten-Umsatzprognose gekürzt; Primärmeldung und aktueller Spread nicht vollständig geprüft; WATCH. [Barron's, 09.11.2026](https://www.barrons.com/articles/ionis-earnings-stock-price-dea3238e). PTON: Schlusskurs 06.11. 5,61 USD und vorbörslicher Kurs 09.11. 04:01 EST 5,57 USD; beides keine aktuelle reguläre Marke. [StockAnalysis, abgerufen 09.11.](https://stockanalysis.com/stocks/pton/). HFG: Xetra-Kursseite mit Zeitangaben, aber keine Turbo-Produktnotierung. [Finanznachrichten, 09.11.](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm).\n\n## Strategieprüfung\nPre-Earnings: konsistente datierte Konsenszeitreihe nicht verifiziert. PEAD: keine vollständig validierte kombinierte EPS-/Umsatzüberraschung mit Entry-/Kostenbeleg. Guidance-Revision: IREN kritisch, aber noch ohne hinreichend belegte Ausführungskalkulation. Pair-Trading: keine 60–252 Kursreihen, keine verifizierte Korrelation oder Hedge-Ratio. Analysten- und 13F-Vergleiche sowie Management-Guidance-Trefferquote: nicht verifiziert. Dossiers NVDA 2/50 geöffnete, IREN 1/50, IONS 1/50, PTON 1/50, HFG 1/50; sämtliche vorläufig, Quellen können mehrere Ticker betreffen.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN: als OPEN_SIMULATED registrierte **unverbindliche Referenz**, historischer Basiswert 18,05 USD, kein authentischer Fill. Aktuelle reguläre zeitgestempelte Quote nicht verifiziert; PnL nicht berechenbar, keine Schließung. HFG Short und PTON Short: USER_REPORTED / OPEN_UNVERIFIED, Produkt-ISIN, KO, Einstand und aktuelle Turbo-Quotes fehlen; PnL nicht berechenbar. DEUTZ: CLOSED_REPORTED, unverändert. Keine Position als neu eröffnet oder geschlossen erfasst. Nächster Exit nur mit überprüfbarem Open-Print und gesondertem Check.\n\n## Entscheidung und Paper-Risiko\n**KEIN TRADE**: 10.000 EUR fiktives Ausgangskapital laut Positionsregister, keine authentifizierte Paper-Broker-Verbindung; keine nach Signal erhobenen Bid/Ask, Spread-/FX-/Borrow-/Kostenbelege. Null neue Fills, null nachgewiesene neue Kursmarken. Keine Echtzeit-PnL. Die vorhandenen historischen Positionen bleiben unverändert."
+    },
+    {
+      "id": "XETRA-20261109T160320Z",
+      "market": "XETRA",
+      "run_at": "2026-11-09T16:03:20Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "HFG Profitabilität gegen Umsatzrückgang; UTDI/LEG berichten 12.11.",
+      "summary": "Vier Titel triagiert; keine verifizierten post-decision Quotes und kein Paper-Broker-Fill.",
+      "source_status": "5 Nachrichten-/Quellendokumente geprüft; kein Live-Bid/Ask; Dossiers unvollständig",
+      "candidates": [
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "NEUTRAL",
+          "thesis": "Umsatzrückgang vs. EBITDA-Stabilisierung",
+          "risk": "Nachfrage und revidierte Guidance",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "UTDI",
+          "name": "United Internet",
+          "tv": "XETR:UTDI",
+          "side": "WATCH",
+          "thesis": "Bericht 12.11.",
+          "risk": "Investitionen und Überraschungsrisiko",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "KGX",
+          "name": "KION",
+          "tv": "XETR:KGX",
+          "side": "WATCH",
+          "thesis": "Automation wächst",
+          "risk": "Schwache Stapleraufträge",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "LEG",
+          "name": "LEG Immobilien",
+          "tv": "XETR:LEG",
+          "side": "WATCH",
+          "thesis": "Bericht 12.11.",
+          "risk": "Zinsen und Finanzierung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "HelloFresh Q3 2026 Ergebnis",
+          "published_at": "2026-11-05T07:00:00+01:00",
+          "ticker": "HFG",
+          "publisher": "HelloFresh/EQS via MarketScreener",
+          "url": "https://www.marketscreener.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments-ce785fdcd881f121",
+          "finding": "Umsatz währungsbereinigt -11,3%, AEBITDA 50,9 Mio EUR."
+        },
+        {
+          "title": "HelloFresh Prognoserevision",
+          "published_at": "2026-09-24T20:29:00+02:00",
+          "ticker": "HFG",
+          "publisher": "HelloFresh/EQS via TradingView",
+          "url": "https://www.tradingview.com/news/eqs:72be29c8c094b:0-hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the-financial-year-2026/",
+          "finding": "Q3-AEBITDA-Prognose 45–55 Mio EUR, späterer Ist-Wert 50,9 Mio EUR innerhalb der Spanne."
+        },
+        {
+          "title": "United Internet Ergebnisbericht am 12. November",
+          "published_at": "2026-11-09T11:59:00+01:00",
+          "ticker": "UTDI",
+          "publisher": "AD HOC NEWS",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/united-internet-stock-faces-november-12-results-test/70480403",
+          "finding": "Ergebnisereignis am 12.11.; keine geprüfte 17-Uhr-Quote."
+        },
+        {
+          "title": "KION Automation vs. Industrial Trucks",
+          "published_at": "2026-11-09T12:01:00+01:00",
+          "ticker": "KGX",
+          "publisher": "AD HOC NEWS",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/kion-stock-gains-as-automation-growth-offsets-truck-weakness/70480415",
+          "finding": "Q3 Umsatz 2,8 Mrd EUR, +4,8%; Automationssegment +15,8%, Guidance gesenkt."
+        },
+        {
+          "title": "LEG Berichtstermin 12. November",
+          "published_at": "2026-11-09T08:13:00+01:00",
+          "ticker": "LEG",
+          "publisher": "AD HOC NEWS",
+          "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/leg-immobilien-stock-at-eur-51-23-up-0-65-prozent-pre-market/70479396",
+          "finding": "Bericht am 12.11.; nur veralteter vorbörslicher Quote."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzrückgang vs. EBITDA-Stabilisierung; Nachfrage und revidierte Guidance",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz währungsbereinigt -11,3%, AEBITDA 50,9 Mio EUR.",
+              "url": "https://www.marketscreener.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments-ce785fdcd881f121",
+              "publisher": "HelloFresh/EQS via MarketScreener",
+              "published_at": "2026-11-05T07:00:00+01:00"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3-AEBITDA-Prognose 45–55 Mio EUR, späterer Ist-Wert 50,9 Mio EUR innerhalb der Spanne.",
+              "url": "https://www.tradingview.com/news/eqs:72be29c8c094b:0-hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the-financial-year-2026/",
+              "publisher": "HelloFresh/EQS via TradingView",
+              "published_at": "2026-09-24T20:29:00+02:00"
+            }
+          ],
+          "catalysts": "Neue Unternehmensmeldungen",
+          "invalidations": "Neue verifizierte Guidance/Kurse widersprechen der These"
+        },
+        {
+          "ticker": "UTDI",
+          "name": "United Internet",
+          "tv": "XETR:UTDI",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Bericht 12.11.; Investitionen und Überraschungsrisiko",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ergebnisereignis am 12.11.; keine geprüfte 17-Uhr-Quote.",
+              "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/united-internet-stock-faces-november-12-results-test/70480403",
+              "publisher": "AD HOC NEWS",
+              "published_at": "2026-11-09T11:59:00+01:00"
+            }
+          ],
+          "catalysts": "Ergebnisse 12.11.",
+          "invalidations": "Neue verifizierte Guidance/Kurse widersprechen der These"
+        },
+        {
+          "ticker": "KGX",
+          "name": "KION",
+          "tv": "XETR:KGX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Automation wächst; Schwache Stapleraufträge",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 2,8 Mrd EUR, +4,8%; Automationssegment +15,8%, Guidance gesenkt.",
+              "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/kion-stock-gains-as-automation-growth-offsets-truck-weakness/70480415",
+              "publisher": "AD HOC NEWS",
+              "published_at": "2026-11-09T12:01:00+01:00"
+            }
+          ],
+          "catalysts": "Neue Unternehmensmeldungen",
+          "invalidations": "Neue verifizierte Guidance/Kurse widersprechen der These"
+        },
+        {
+          "ticker": "LEG",
+          "name": "LEG Immobilien",
+          "tv": "XETR:LEG",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Bericht 12.11.; Zinsen und Finanzierung",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Bericht am 12.11.; nur veralteter vorbörslicher Quote.",
+              "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/leg-immobilien-stock-at-eur-51-23-up-0-65-prozent-pre-market/70479396",
+              "publisher": "AD HOC NEWS",
+              "published_at": "2026-11-09T08:13:00+01:00"
+            }
+          ],
+          "catalysts": "Ergebnisse 12.11.",
+          "invalidations": "Neue verifizierte Guidance/Kurse widersprechen der These"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": null,
+        "id": null,
+        "stance": "KEIN TRADE",
+        "summary": "Keine verifizierten Paper-Fills",
+        "base_scenario": null,
+        "bull_scenario": null,
+        "bear_scenario": null,
+        "key_risk": "Kurs-/Ausführungslücken",
+        "planned_exit": null,
+        "as_of": "2026-11-09T16:03:20Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 09.11.2026, 17:03 CET\n\n**Entscheidung: KEIN TRADE.** Keine authentifizierte Paper-Broker-Verbindung, keine nach Entscheidung verifizierten handelbaren Bid/Ask-Quotes. Keine rückdatierten simulierten Fills. Das Paperkonto enthält modellhaft 10.000 EUR Startkapital; keine verifizierte Broker-Equity. Aus der gelesenen positions.json wurden im Feld positions[] keine offenen Einträge gefunden; andere mögliche Schemafelder und externe Nutzerpositionen wurden nicht als geschlossen interpretiert. Daher keine belastbare PnL.\n\n## Screening und Nachrichten\nVier europäische Titel gezielt triagiert: HFG, UTDI, KGX, LEG. Keine dieser Aktien ist mit vollständigem Spread-, Konsens-, Kosten- und Kursnachweis QUALIFIED. Weitere Kalenderlisten sind nur DISCOVERED, nicht als geprüft gezählt.\n\n- **HFG**: [HelloFresh/EQS Q3-Mitteilung vom 05.11.2026](https://www.marketscreener.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments-ce785fdcd881f121): Q3-Umsatz währungsbereinigt rund 1,4 Mrd. EUR, -11,3% gegenüber Vorjahr; AEBITDA 50,9 Mio EUR. [EQS-Ad-hoc vom 24.09.2026](https://www.tradingview.com/news/eqs:72be29c8c094b:0-hellofresh-se-expects-revenue-for-q3-2026-below-market-expectations-and-adjusts-outlook-for-the-financial-year-2026/) erwartete 45–55 Mio EUR: **ERREICHT** (innerhalb revidierter Spanne), keine historische Trefferquote aus einem Fall. Bull: Profitabilitätsverbesserung; Bear: rückläufige Nachfrage und Umsatz. Tendenz 1–10 Tage neutral/fragil. Aktuelle Analystenvoten, Bewertung und 17-Uhr-Spread nicht verifiziert.\n- **UTDI**: [AD HOC NEWS, 09.11.2026](https://www.ad-hoc-news.de/boerse/news/corporate-news/united-internet-stock-faces-november-12-results-test/70480403): Bericht 12.11. Bull: mögliche positive Überraschung; Bear: Investitions- und Kapitalallokationsrisiko. Kein Konsens oder zeitnaher Quote geprüft; WATCH.\n- **KGX**: [AD HOC NEWS, 09.11.2026](https://www.ad-hoc-news.de/boerse/news/corporate-news/kion-stock-gains-as-automation-growth-offsets-truck-weakness/70480415): Q3-Umsatz 2,8 Mrd EUR (+4,8%), Automation +15,8%, Schwäche bei Staplern und reduzierte Jahresprognose. Bull: Automationswachstum; Bear: Auftragsrisiko. WATCH, kein Fill.\n- **LEG**: [AD HOC NEWS, 09.11.2026](https://www.ad-hoc-news.de/boerse/news/vorboerse/leg-immobilien-stock-at-eur-51-23-up-0-65-prozent-pre-market/70479396): Bericht 12.11. Zins- und Finanzierungssensitivität; Vorbörsenkurs 08:09 ist **ALT**, kein Entry-Quote. WATCH.\n\n## Strategie, Kosten, Lücken\nPre-Earnings für UTDI/LEG nur Beobachtung; PEAD für HFG mangels verifizierter EPS- und Umsatzsurprise nicht aktiviert; Guidance-Revision bei HFG qualitativ negativ, revidiertes Q3-AEBITDA-Ziel erreicht; KION/HFG als Paar ohne Kursreihen/Korrelation **nicht qualifiziert**. Deutsche IBKR-Mindestprovision 2,50 EUR Roundtrip vor Spread, FX, Slippage: bei 50 EUR Margin und 5x = 250 EUR Notional bereits 1,0% und damit über dem 0,5%-Kostenlimit ([IBKR-Gebührenliste](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe)).\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIm aktuell ausgelesenen positions[]-Array keine offenen Einträge; keine aktuelle Markierung und keine modellierte PnL. IREN 18,05 USD bleibt bloße hypothetische Referenz, kein verifizierter Fill. Für HFG/PTON-Nutzerturbos sind Einstand, Produkt-ISIN und handelbare Produktquotes nicht verifiziert; **PnL nicht berechenbar**. Keine Position geschlossen. Ein Opening-Order-Signal muss vor der Eröffnung feststehen; der tatsächliche Eröffnungspreis ist erst danach bekannt.\n\n## Quellenstand\nFünf konkrete Nachrichten-/Quellendokumente plus Gebührenliste inhaltlich berücksichtigt; keine 50-Quellen-Dossiers, keine zwei unabhängigen aktuellen Analystenstimmen je Aktie, keine geprüften institutionellen Quartalsvergleiche, keine vollständige historische Guidance-Scorecard. Xetra-17-Uhr-Bid/Ask, Feed-Verzögerung, Konsens, Spread, Borrow, Volumen und präzise aktuelle PnL: **nicht gefunden/verifiziert**. TradingView-Widget ist kein verifizierter PnL-Feed."
     }
   ],
   "deep_dives": {
@@ -11294,11 +11495,11 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T15:09:16Z",
-    "method_note": "Dieser Lauf: vier Publikationen; Termine allein zählen nicht als vollständig gescreente Titel. Bestehende andere Markt-Daten erhalten.",
+    "as_of": "2026-11-09T16:03:20Z",
+    "method_note": "Vier gezielt recherchierte EU-Titel; weitere Kalendertitel nicht als screened gezählt.",
     "coverage": {
       "universe_checked": 4,
-      "earnings_events": 1,
+      "earnings_events": 2,
       "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
@@ -12089,21 +12290,20 @@
       },
       {
         "ticker": "HFG",
-        "name": "HelloFresh SE",
+        "name": "HelloFresh",
         "tv": "XETR:HFG",
         "market": "XETRA",
-        "sector": "Consumer",
-        "direction": "SHORT WATCH",
-        "reason": "Q3-Reaktion; unter 2-Mrd.-EUR-Filter",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Umsatzrückgang vs. EBITDA-Stabilisierung",
         "stage": "WATCH",
-        "earnings_at": "2026-11-05",
-        "event": "Q3-Nachlauf",
+        "earnings_at": null,
+        "event": "Umsatzrückgang vs. EBITDA-Stabilisierung",
         "score": null,
         "sources": [
-          "https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm",
-          "https://finance.yahoo.com/quote/HFG.DE/"
+          "https://www.marketscreener.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments-ce785fdcd881f121"
         ],
-        "as_of": "2026-11-09T08:08:06Z"
+        "as_of": "2026-11-09T16:03:20Z"
       },
       {
         "ticker": "HYQ",
@@ -12415,6 +12615,57 @@
           "https://investingly.io/earnings-calendar/2026-11-09"
         ],
         "as_of": "2026-11-09T14:34:45Z"
+      },
+      {
+        "ticker": "UTDI",
+        "name": "United Internet",
+        "tv": "XETR:UTDI",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Bericht 12.11.",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-12",
+        "event": "Bericht 12.11.",
+        "score": null,
+        "sources": [
+          "https://www.ad-hoc-news.de/boerse/news/corporate-news/united-internet-stock-faces-november-12-results-test/70480403"
+        ],
+        "as_of": "2026-11-09T16:03:20Z"
+      },
+      {
+        "ticker": "KGX",
+        "name": "KION",
+        "tv": "XETR:KGX",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Automation wächst",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Automation wächst",
+        "score": null,
+        "sources": [
+          "https://www.ad-hoc-news.de/boerse/news/corporate-news/kion-stock-gains-as-automation-growth-offsets-truck-weakness/70480415"
+        ],
+        "as_of": "2026-11-09T16:03:20Z"
+      },
+      {
+        "ticker": "LEG",
+        "name": "LEG Immobilien",
+        "tv": "XETR:LEG",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Bericht 12.11.",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-12",
+        "event": "Bericht 12.11.",
+        "score": null,
+        "sources": [
+          "https://www.ad-hoc-news.de/boerse/news/vorboerse/leg-immobilien-stock-at-eur-51-23-up-0-65-prozent-pre-market/70479396"
+        ],
+        "as_of": "2026-11-09T16:03:20Z"
       }
     ],
     "pairs": [],
@@ -12799,6 +13050,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T143445Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "XETRA",
+        "universe_checked": 4,
+        "earnings_events": 2,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261109T160320Z"
       }
     ],
     "strategies": [
