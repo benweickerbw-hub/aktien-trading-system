@@ -1,6 +1,6 @@
 {
-  "version": 66,
-  "updated_at": "2026-11-09T21:25:49Z",
+  "version": 67,
+  "updated_at": "2026-11-09T22:32:56Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -11346,6 +11346,275 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261109T223256Z",
+      "market": "US",
+      "run_at": "2026-11-09T22:32:56Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "HIMS EBITDA-Guidance gesenkt; TTWO gemischte Bookings und GTA-VI-Nachbörse",
+      "summary": "Vier Event-Aktien geprüft; kein nachbörslicher Fill; offene IREN/HFG/PTON geprüft; 10.000 EUR Modellbudget.",
+      "source_status": "11 geöffnete Dokumente/Seiten einschließlich Kalender, Kursseiten und Marktbericht; Dossiers vorläufig, keine 50/50.",
+      "candidates": [
+        {
+          "ticker": "HIMS",
+          "name": "Hims & Hers",
+          "tv": "NASDAQ:HIMS",
+          "side": "SHORT",
+          "thesis": "Gesunkene EBITDA-Guidance, Margendruck",
+          "risk": "Wachstum/Erholung",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TTWO",
+          "name": "Take-Two Interactive",
+          "tv": "NASDAQ:TTWO",
+          "side": "WATCH",
+          "thesis": "Q2 Bookings unter Konsens, Q3-Prognose knapp darunter",
+          "risk": "GTA VI, starke Nachbörse",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "side": "LONG",
+          "thesis": "EPS-Wachstum, Guidance-Anhebung",
+          "risk": "+10% bereits eingepreist",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Verzögerung und Capex",
+          "risk": "AI Nachfrage, Squeeze",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "ticker": "CEG",
+          "title": "Constellation Reports Third Quarter 2026 Results",
+          "publisher": "Constellation Energy IR",
+          "published_at": "2026-11-09T06:49:00-05:00",
+          "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+          "finding": "Q3 adjusted EPS 5.06 USD vs 3.04 Vorjahr; FY26 guidance 12.50–12.80 USD; 715 Mio USD RISEC Erwerb"
+        },
+        {
+          "ticker": "TTWO",
+          "title": "Take-Two lifts annual revenue, profit forecasts ahead of GTA VI launch",
+          "publisher": "Reuters",
+          "published_at": "2026-11-09T21:12:00Z",
+          "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+          "finding": "Q2 bookings 1.60 Mrd vs 1.67 Mrd Konsens; Q3 guidance 3.35–3.50 Mrd vs 3.51 Mrd; FY Umsatzprognose angehoben, Aktien nachbörslich +7%"
+        },
+        {
+          "ticker": "HIMS",
+          "title": "Hims & Hers Health, Inc. Reports Third Quarter 2026 Financial Results",
+          "publisher": "Hims & Hers IR",
+          "published_at": "2026-11-09",
+          "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q3 Umsatz rund 890 Mio USD +49%; FY EBITDA guidance auf 257–277 Mio USD gesenkt; Abonnenten knapp 2.8 Mio"
+        },
+        {
+          "ticker": "HIMS",
+          "title": "Hims & Hers cuts 2026 profit forecast as margins contract",
+          "publisher": "Reuters",
+          "published_at": "2026-11-09T21:15:00Z",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-narrows-2026-revenue-forecast-margins-contract-2026-11-09/",
+          "finding": "Bruttomarge 57% statt 74%; Umsatz 890.4 Mio vs 892.9 Mio USD Konsens; afterhours minus 2%"
+        },
+        {
+          "ticker": "IREN",
+          "title": "AI data center firm IREN delays Microsoft AI deliveries, plans $15 billion spending push",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "Q1 Umsatz 228 Mio vs Konsens 221.28 Mio USD; 4 Mrd annualisiertes Umsatz-Ziel auf Jan/Feb verschoben; hohe Investitionen"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "HIMS",
+          "name": "Hims & Hers",
+          "tv": "NASDAQ:HIMS",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Gesunkene EBITDA-Guidance, Margendruck",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz rund 890 Mio USD +49%; FY EBITDA guidance auf 257–277 Mio USD gesenkt; Abonnenten knapp 2.8 Mio",
+              "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "Hims & Hers IR",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "FAKT",
+              "text": "Bruttomarge 57% statt 74%; Umsatz 890.4 Mio vs 892.9 Mio USD Konsens; afterhours minus 2%",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-narrows-2026-revenue-forecast-margins-contract-2026-11-09/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09T21:15:00Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3 Earnings am 9.11. nach Börsenschluss angekündigt",
+              "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Third-Quarter-2026-Financial-Results-on-November-9-2026/default.aspx",
+              "publisher": "Hims & Hers IR",
+              "published_at": "2026-10-12"
+            }
+          ],
+          "catalysts": [
+            "Gesunkene EBITDA-Guidance, Margendruck"
+          ],
+          "invalidations": [
+            "Wachstum/Erholung"
+          ]
+        },
+        {
+          "ticker": "TTWO",
+          "name": "Take-Two Interactive",
+          "tv": "NASDAQ:TTWO",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q2 Bookings unter Konsens, Q3-Prognose knapp darunter",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q2 bookings 1.60 Mrd vs 1.67 Mrd Konsens; Q3 guidance 3.35–3.50 Mrd vs 3.51 Mrd; FY Umsatzprognose angehoben, Aktien nachbörslich +7%",
+              "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-09T21:12:00Z"
+            },
+            {
+              "type": "FAKT",
+              "text": "Historischer FY26 Q3 bookings 1.76 Mrd USD; nicht mit FY27 Q2 direkt vergleichbar",
+              "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-third-4",
+              "publisher": "Take-Two IR",
+              "published_at": "2026-02-03"
+            }
+          ],
+          "catalysts": [
+            "Q2 Bookings unter Konsens, Q3-Prognose knapp darunter"
+          ],
+          "invalidations": [
+            "GTA VI, starke Nachbörse"
+          ]
+        },
+        {
+          "ticker": "CEG",
+          "name": "Constellation Energy",
+          "tv": "NASDAQ:CEG",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "EPS-Wachstum, Guidance-Anhebung",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 adjusted EPS 5.06 USD vs 3.04 Vorjahr; FY26 guidance 12.50–12.80 USD; 715 Mio USD RISEC Erwerb",
+              "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+              "publisher": "Constellation Energy IR",
+              "published_at": "2026-11-09T06:49:00-05:00"
+            }
+          ],
+          "catalysts": [
+            "EPS-Wachstum, Guidance-Anhebung"
+          ],
+          "invalidations": [
+            "+10% bereits eingepreist"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Verzögerung und Capex",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q1 Umsatz 228 Mio vs Konsens 221.28 Mio USD; 4 Mrd annualisiertes Umsatz-Ziel auf Jan/Feb verschoben; hohe Investitionen",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Verzögerung und Capex"
+          ],
+          "invalidations": [
+            "AI Nachfrage, Squeeze"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT_REFERENCE_ONLY",
+        "summary": "Keine bestätigte Ausführung; bestehende Kursmarke veraltet",
+        "base_scenario": "Hohe Schwankungen",
+        "bull_scenario": "Kursrückgang bei Finanzierungsbedenken",
+        "bear_scenario": "AI-Rebound/Short-Squeeze",
+        "key_risk": "Kein echter Fill; Kosten/FX unbekannt",
+        "planned_exit": "Nur separater Opening-Check; kein rückdatierter Exit",
+        "as_of": "2026-11-09T22:32:56Z",
+        "mark_price": 21.69,
+        "mark_at": "2026-11-09T15:25:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/market-cap/",
+        "pnl_eur": -100.83,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörsenresearch — 09.11.2026, 17:32 EST\n\n**Entscheidung: KEIN TRADE.** Markt seit 16:00 EST regulär geschlossen; kein authentifizierter Paper-Broker, keine nachträglichen Fills. Paper-Startkapital laut Positionsregister 10.000 EUR, 5x Modellhebel; nicht als realer Kontostand interpretieren.\n\n## Markt- und Earnings-Lage\nReuters (09.11.) meldet S&P 500 +2,35%, Nasdaq +2,74%, NVDA −4,2%, CEG mehr als +10% und eine breite Erholung nach fallendem Ölpreis. [Reuters Marktbericht](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/). Der Earnings-Kalender nennt für den 09.11. 18 US-Unternehmen >10 Mrd USD als gelistet; dies ist **keine** Behauptung, dass 18 Unternehmen einzeln gescreent wurden: [Investingly Kalender](https://investingly.io/earnings-calendar/2026-11-09).\n\n## Verifizierte Triage und Long/Short-Gegenargumente\n- **HIMS — SHORT-WATCH, Guidance-Revision:** Das Unternehmen senkt seine FY26 Adjusted-EBITDA-Prognose auf 257–277 Mio USD; Q3-Umsatz rund 890 Mio USD, +49% YoY. Reuters: Bruttomarge 57% statt 74%, Konsensumsatz 892,9 Mio USD und Afterhours −2%. Bärisch: Margendruck und niedrigere Guidance. Bullisch: +13% Abonnentenwachstum auf knapp 2,8 Mio und Internationalisierung. Invalidierung einer Short-These: belastbare Margenerholung/Guidance-Anhebung. [HIMS IR, 09.11.](https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx), [Reuters, 09.11.](https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-narrows-2026-revenue-forecast-margins-contract-2026-11-09/).\n- **TTWO — BEIDSEITIG, vorläufig:** Q2 Bookings 1,60 Mrd USD unter LSEG-Konsens 1,67 Mrd; Prognose für Q3 3,35–3,50 Mrd unter 3,51 Mrd Konsens. Gleichzeitig hebt Take-Two FY-Umsatzprognose auf 7,98–8,18 Mrd USD an, hält FY Bookings bei 8,0–8,2 Mrd und meldet außergewöhnliche GTA-VI-Vorbestellungen. Reuters berichtet nahezu +7% nachbörslich: eine reflexhafte Short-These widerspricht der Kursreaktion. [Reuters, 09.11.](https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/). Historischer Q3 FY26 IR-Bericht [Take-Two, 03.02.](https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-third-4).\n- **CEG — LONG-WATCH, aber +10% Tagesreaktion:** Q3 adjusted EPS 5,06 USD nach 3,04 USD im Vorjahr, FY26 Guidance 12,50–12,80 USD, geplante RISEC-Übernahme 715 Mio USD und zusätzliche Energiekapazität. Risiken: Bewertung, bereits erfolgte Reaktion, Projektausführung und Finanzierung. [Constellation IR, 09.11., 06:49 EST](https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results).\n- **IREN — SHORT-REFERENZ:** Reuters 05.11. Q1 Umsatz 228 Mio USD vs LSEG 221,28 Mio, Microsoft-bezogene Terminverschiebung des >4 Mrd USD annualisierten Run-Rate-Ziels auf Jan/Feb und rund 15 Mrd USD geplante Investitionen. Bullisch: starkes Cloudwachstum und Kundenverträge; bärisch: Kapitalbedarf/Execution. [Reuters, 05.11.](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/).\n\n## Screening und Methodik\nVier Unternehmensereignisse (HIMS, TTWO, CEG, IREN) inhaltlich geprüft, dazu HFG/PTON nur als Kursüberwachung. 18 Namen aus dem Earnings-Kalender lediglich DISCOVERED, nicht SCREENED. Quellenstand dieses Laufs: HIMS 3 geöffnete unabhängige Texte, TTWO 2, CEG 1, IREN 1, HFG 1, PTON 1, Marktbericht 1, Kalender 1. Alle Dossiers deutlich unter 50 geprüften Quellen und daher VORLÄUFIG. Zwei unabhängige zeitgleiche 13F-Filings, historischer Management-Guidance-Score, zwei aktuelle namentliche Analystenstimmen je Aktie, echte Spread-/Borrow-Kosten, 60–252 tägliche Paar-Kurse und implizite Volatilität **nicht verifiziert / noch nicht gefunden**. PRE-EARNINGS/PEAD/Guidance/Paare: Guidance-Revision bei HIMS dokumentiert, PEAD nicht ohne vollständig datierte EPS- und Umsatzsurprises bestätigt; Paarhandel ohne Korrelation nicht qualifiziert. Keine positive Nettoerwartung nach Kosten belegt.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT, REINE REFERENZ**, 18,05 USD historischer Vergleichswert, kein Fill. Im Positionsregister 21,69 USD vom 09.11. 15:25 EST, Quelle https://stockanalysis.com/stocks/iren/market-cap/ . **ALT** zum Laufzeitpunkt; theoretisch bei 500 EUR synthetischem Exposure 500×(1−21,69/18,05)=−100,83 EUR, ohne FX/Spread/Finanzierung/KO; keine echte Handelsperformance. Nächster regulärer Open nur mit separatem verifizierten Print bewerten. Risiko: AI-Rebound und Short-Squeeze.\n- **HFG SHORT, USER_REPORTED Turbo**, Einstand/ISIN/KO unbekannt. Xetra-Schluss 3,029 EUR am 09.11. 17:35:29 CET, https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/ ; **Aktienkurs, kein Derivatepreis**. PnL nicht berechenbar, Exit unbekannt.\n- **PTON SHORT, USER_REPORTED Turbo**, Einstand/ISIN/KO unbekannt. Gespeicherte 5,94 USD 09.11. 14:36 EST; heute im erneut geöffneten https://stockanalysis.com/stocks/pton/history/ nur 5,95 USD um 14:25 EST, also ältere Marke, keine Aktualisierung. PnL nicht berechenbar, Exit unbekannt.\n\n## Handelsentscheidung und Datenstatus\n**KEIN TRADE / 0 neue Fills.** Der nachbörsliche TTWO-Anstieg zeigt, warum ein Short ohne neue reguläre Kursmarke und dokumentierte Kosten nicht gerechtfertigt ist. Für HIMS erst Reaktion bei regulärer Eröffnung, Bid/Ask, Liquidität und konkrete Stop-/Zielbedingungen prüfen. TradingView-Widgets sind kein verifizierter PnL-Feed. Keine realen Orders, keine Mac-Datei geändert.",
+      "report_sections": [
+        {
+          "heading": "Neue Ereignisse",
+          "summary": "HIMS, TTWO, CEG und IREN",
+          "bullets": [
+            {
+              "text": "Q3 adjusted EPS 5.06 USD vs 3.04 Vorjahr; FY26 guidance 12.50–12.80 USD; 715 Mio USD RISEC Erwerb",
+              "url": "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results",
+              "publisher": "Constellation Energy IR",
+              "checked_at": "2026-11-09T22:32:56Z"
+            },
+            {
+              "text": "Q2 bookings 1.60 Mrd vs 1.67 Mrd Konsens; Q3 guidance 3.35–3.50 Mrd vs 3.51 Mrd; FY Umsatzprognose angehoben, Aktien nachbörslich +7%",
+              "url": "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-09T22:32:56Z"
+            },
+            {
+              "text": "Q3 Umsatz rund 890 Mio USD +49%; FY EBITDA guidance auf 257–277 Mio USD gesenkt; Abonnenten knapp 2.8 Mio",
+              "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+              "publisher": "Hims & Hers IR",
+              "checked_at": "2026-11-09T22:32:56Z"
+            },
+            {
+              "text": "Bruttomarge 57% statt 74%; Umsatz 890.4 Mio vs 892.9 Mio USD Konsens; afterhours minus 2%",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-narrows-2026-revenue-forecast-margins-contract-2026-11-09/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-09T22:32:56Z"
+            },
+            {
+              "text": "Q1 Umsatz 228 Mio vs Konsens 221.28 Mio USD; 4 Mrd annualisiertes Umsatz-Ziel auf Jan/Feb verschoben; hohe Investitionen",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-09T22:32:56Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -13176,18 +13445,19 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-09T21:25:49Z",
-      "status": "PROVISIONAL",
+      "as_of": "2026-11-09T22:32:56Z",
+      "status": "DEEP_DIVE",
       "stance": "LONG",
       "source_goal": 50,
-      "summary": "Guidance-Anhebung, Q3 Earnings",
+      "summary": "EPS-Wachstum, Guidance-Anhebung; vorläufig, Kosten/Preis/Management-Track-Record unvollständig",
       "holdings_note": "Zwei periodengleiche SEC 13F Originalfilings nicht geprüft; keine Fondsänderung behauptet",
       "key_unknowns": [
-        "13F-Vergleich nicht verifiziert",
-        "Guidance-Scorecard unvollständig",
-        "Spread/Borrow nicht geprüft"
+        "13F Vergleich",
+        "Guidance-Ist-Track-Record",
+        "Spread und Finanzierungskosten",
+        "Aktuelle Analystenpaare"
       ],
-      "method_note": "Nur tatsächlich geöffnete eindeutige Dokument-URLs; keine Treffer als gelesene Quellen gezählt.",
+      "method_note": "Quellen URL dedupliziert; vorläufig, nicht 50/50",
       "analyst_coverage": "Nicht ausreichend geprüft"
     },
     "TTWO": {
@@ -13204,33 +13474,99 @@
           "finding": "Q3-Bookings-Guidance 3,35–3,50 Mrd. USD vs 3,51 Mrd. Analystenschätzung; Jahresprognose 8–8,2 Mrd. unverändert.",
           "checked_on": "2026-11-09T21:25:49Z",
           "doc_type": "news"
+        },
+        {
+          "id": "TTWO-2",
+          "title": "Take-Two Interactive Software Reports Fiscal Third Quarter 2026",
+          "publisher": "Take-Two IR",
+          "published_at": "2026-02-03",
+          "url": "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-third-4",
+          "finding": "Historischer FY26 Q3 bookings 1.76 Mrd USD; nicht mit FY27 Q2 direkt vergleichbar",
+          "checked_on": "2026-11-09T22:32:56Z",
+          "doc_type": "company_ir"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
       "analyst_coverage": [],
-      "as_of": "2026-11-09T21:25:49Z",
-      "status": "PROVISIONAL",
-      "stance": "SHORT",
-      "summary": "Bookings-Guidance unter Konsens",
+      "as_of": "2026-11-09T22:32:56Z",
+      "status": "DEEP_DIVE",
+      "stance": "WATCH",
+      "summary": "Q2 Bookings unter Konsens, Q3-Prognose knapp darunter; vorläufig, Kosten/Preis/Management-Track-Record unvollständig",
       "source_goal": 50,
       "key_unknowns": [
-        "13F-Vergleich nicht verifiziert",
-        "Guidance-Scorecard unvollständig",
-        "Spread/Borrow nicht geprüft"
+        "13F Vergleich",
+        "Guidance-Ist-Track-Record",
+        "Spread und Finanzierungskosten",
+        "Aktuelle Analystenpaare"
       ],
-      "method_note": "Nur tatsächlich geöffnete eindeutige Dokument-URLs; keine Treffer als gelesene Quellen gezählt."
+      "method_note": "Quellen URL dedupliziert; vorläufig, nicht 50/50",
+      "holdings_note": "Keine zwei 13F-Originalmeldungen verglichen"
+    },
+    "HIMS": {
+      "ticker": "HIMS",
+      "name": "Hims & Hers",
+      "tv": "NASDAQ:HIMS",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "HIMS-1",
+          "title": "Hims & Hers Health, Inc. Reports Third Quarter 2026 Financial Results",
+          "publisher": "Hims & Hers IR",
+          "published_at": "2026-11-09",
+          "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+          "finding": "Q3 Umsatz rund 890 Mio USD +49%; FY EBITDA guidance auf 257–277 Mio USD gesenkt; Abonnenten knapp 2.8 Mio",
+          "checked_on": "2026-11-09T22:32:56Z",
+          "doc_type": "company_ir"
+        },
+        {
+          "id": "HIMS-2",
+          "title": "Hims & Hers cuts 2026 profit forecast as margins contract",
+          "publisher": "Reuters",
+          "published_at": "2026-11-09T21:15:00Z",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-narrows-2026-revenue-forecast-margins-contract-2026-11-09/",
+          "finding": "Bruttomarge 57% statt 74%; Umsatz 890.4 Mio vs 892.9 Mio USD Konsens; afterhours minus 2%",
+          "checked_on": "2026-11-09T22:32:56Z",
+          "doc_type": "news"
+        },
+        {
+          "id": "HIMS-3",
+          "title": "Hims & Hers to Announce Third Quarter 2026 Financial Results",
+          "publisher": "Hims & Hers IR",
+          "published_at": "2026-10-12",
+          "url": "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Third-Quarter-2026-Financial-Results-on-November-9-2026/default.aspx",
+          "finding": "Q3 Earnings am 9.11. nach Börsenschluss angekündigt",
+          "checked_on": "2026-11-09T22:32:56Z",
+          "doc_type": "company_ir"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "analyst_coverage": [],
+      "key_unknowns": [
+        "13F Vergleich",
+        "Guidance-Ist-Track-Record",
+        "Spread und Finanzierungskosten",
+        "Aktuelle Analystenpaare"
+      ],
+      "as_of": "2026-11-09T22:32:56Z",
+      "status": "DEEP_DIVE",
+      "stance": "SHORT",
+      "summary": "Gesunkene EBITDA-Guidance, Margendruck; vorläufig, Kosten/Preis/Management-Track-Record unvollständig",
+      "holdings_note": "Keine zwei 13F-Originalmeldungen verglichen",
+      "method_note": "Quellen URL dedupliziert; vorläufig, nicht 50/50"
     }
   },
   "screening": {
-    "status": "PROVISIONAL",
-    "as_of": "2026-11-09T21:25:49Z",
-    "method_note": "Earnings-Kalender nur DISCOVERED; sechs konkrete Ticker mit unterschiedlicher Prüftiefe triagiert, nicht 202 gescreent.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-09T22:32:56Z",
+    "method_note": "Dieser Lauf 4 tatsächlich inhaltlich geprüfte Event-Ticker; 18 aus Kalender nur DISCOVERED, nicht gezählt. Andere Märkte erhalten.",
     "coverage": {
-      "universe_checked": 6,
-      "earnings_events": 3,
-      "triaged": 6,
+      "universe_checked": 4,
+      "earnings_events": 4,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -13971,19 +14307,21 @@
       },
       {
         "ticker": "HIMS",
-        "name": "Hims & Hers Health",
-        "tv": "NYSE:HIMS",
+        "name": "Hims & Hers",
+        "tv": "NASDAQ:HIMS",
         "market": "US",
-        "sector": "Telehealth",
-        "stage": "DISCOVERED",
-        "direction": "NEUTRAL",
-        "reason": "Öffentliches Wochen-Earningskalender-Screening vom 08.11.2026; individuelle IR-Terminbestätigung, historische Guidance, Konsens und Kurs-/Spread-Gate fehlen noch. Noch KEIN Handelssignal.",
-        "event": "Geplante Quartalszahlen 09.11.2026 · nach US-Börsenschluss; Kalenderzeit nicht als Unternehmensbestätigung interpretieren",
+        "sector": null,
+        "stage": "WATCH",
+        "direction": "SHORT",
+        "reason": "Gesunkene EBITDA-Guidance, Margendruck",
+        "event": "Q3/Q2 Earnings",
         "earnings_at": "2026-11-09",
         "sources": [
-          "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-9-2026"
+          "https://investors.hims.com/news/news-details/2026/Hims--Hers-Health-Inc--Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+          "https://www.reuters.com/business/healthcare-pharmaceuticals/hims-hers-narrows-2026-revenue-forecast-margins-contract-2026-11-09/",
+          "https://investors.hims.com/news/news-details/2026/Hims--Hers-to-Announce-Third-Quarter-2026-Financial-Results-on-November-9-2026/default.aspx"
         ],
-        "as_of": "2026-11-08T23:57:00+01:00",
+        "as_of": "2026-11-09T22:32:56Z",
         "score": null
       },
       {
@@ -14350,15 +14688,15 @@
         "market": "US",
         "sector": null,
         "direction": "LONG",
-        "reason": "Guidance-Anhebung, Q3 Earnings",
-        "stage": "DEEP_DIVE",
-        "earnings_at": null,
-        "event": "Guidance-Anhebung, Q3 Earnings",
+        "reason": "EPS-Wachstum, Guidance-Anhebung",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-09",
+        "event": "Q3/Q2 Earnings",
         "score": null,
         "sources": [
           "https://investors.constellationenergy.com/news-releases/news-release-details/constellation-reports-third-quarter-2026-results"
         ],
-        "as_of": "2026-11-09T21:25:49Z"
+        "as_of": "2026-11-09T22:32:56Z"
       },
       {
         "ticker": "TTWO",
@@ -14366,16 +14704,17 @@
         "tv": "NASDAQ:TTWO",
         "market": "US",
         "sector": null,
-        "direction": "SHORT",
-        "reason": "Bookings-Guidance unter Konsens",
-        "stage": "DEEP_DIVE",
-        "earnings_at": null,
-        "event": "Bookings-Guidance unter Konsens",
+        "direction": "WATCH",
+        "reason": "Q2 Bookings unter Konsens, Q3-Prognose knapp darunter",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-09",
+        "event": "Q3/Q2 Earnings",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/"
+          "https://www.reuters.com/business/take-two-projects-third-quarter-bookings-below-estimates-2026-11-09/",
+          "https://www.take2games.com/ir/news/take-two-interactive-software-inc-reports-results-fiscal-third-4"
         ],
-        "as_of": "2026-11-09T21:25:49Z"
+        "as_of": "2026-11-09T22:32:56Z"
       },
       {
         "ticker": "IREN",
@@ -14383,18 +14722,16 @@
         "tv": "NASDAQ:IREN",
         "market": "US",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Analysten-Kürzungen und Verwässerung",
-        "stage": "DEEP_DIVE",
-        "earnings_at": null,
-        "event": "Analysten-Kürzungen und Verwässerung",
+        "direction": "SHORT",
+        "reason": "Verzögerung und Capex",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-09",
+        "event": "Q3/Q2 Earnings",
         "score": null,
         "sources": [
-          "https://stockanalysis.com/stocks/iren/ratings/",
-          "https://stockanalysis.com/stocks/iren/statistics/",
-          "https://stockanalysis.com/stocks/iren/history/"
+          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
         ],
-        "as_of": "2026-11-09T21:25:49Z"
+        "as_of": "2026-11-09T22:32:56Z"
       }
     ],
     "pairs": [
@@ -14870,6 +15207,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T212549Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": 4,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261109T223256Z"
       }
     ],
     "strategies": [
