@@ -1,6 +1,6 @@
 {
-  "version": 68,
-  "updated_at": "2026-11-09T23:34:39Z",
+  "version": 69,
+  "updated_at": "2026-11-10T00:25:10Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -11760,6 +11760,192 @@
         "reference_only": true
       },
       "report_markdown": "# US-Nachbörse, 9. November 2026, 18:34 EST\n\n## Markt und Earnings\nReguläre NYSE/Nasdaq-Sitzung 09:30–16:00 EST beendet; 18:34 EST ist Nachbörse. Reuters meldet S&P 500 +2,35%, Nasdaq Composite +2,74%, Dow +2,15%, Brent 92,57 USD (-5,85%) und Nvidia rund -4,2%. [Reuters, 09.11.2026](https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/). Der [Earnings-Kalender, 09.11.2026](https://bullstory.io/en-us/investing/us-earnings-calendar/2026-11-09) listet 233 Events; das sind nur DISCOVERED-Einträge, keine 233 geprüften Aktien. Namentlich entdeckt: QLYS, TTD, OXY, TTWO, RKLB, ASTS, HIMS, NVDA. Individuell auf Ergebnis-/Nachrichtenebene geprüft: QLYS, TTD, NVDA; andere bleiben DISCOVERED. Konsens, Spread und Liquidität für Entry nicht ausreichend verifiziert.\n\n## Qualys (QLYS), WATCH, vorläufig 2/50 eigenständig gelesene Originalberichte\n[Q3-Bericht Qualys, 09.11.2026](https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results): Umsatz 188,0 Mio. USD (+11% YoY), non-GAAP EPS 2,12 USD, GAAP EPS 1,62 USD, operativer Cashflow 101,8 Mio. USD, GAAP operative Marge 35%. Q4-Umsatzziel 191–193 Mio. USD; Gesamtjahr 736,9–738,9 Mio. USD (zuvor 732–738 Mio.). [Q2-Bericht Qualys, 04.08.2026](https://investor.qualys.com/news-releases/news-release-details/qualys-announces-second-quarter-2026-financial-results) gab Q3-Umsatz 185,5–187,5 Mio. USD und non-GAAP EPS 1,91–1,98 USD vor. Beide Kennzahlen wurden im Q3 übertroffen (Umsatz +0,5 Mio. USD über oberem Band; EPS +0,14 USD). Das sind zwei Beobachtungen, keine belastbare Management-Trefferquote. Bull: Wachstumsstabilität, Cashflow, erhöhte Guidance. Bear: 83% statt 84% GAAP-Bruttomarge, Erwartungsniveau, gemeldete nachbörsliche Schwäche; unabhängige ausführbare Quotes nicht bestätigt. Tendenz 1–10 Tage: WATCH, keine qualifizierte Richtung. Analysten-Voten und 13F-Paarvergleich nicht verifiziert.\n\n## The Trade Desk (TTD), WATCH, vorläufig 1/50 Originalberichte\n[TTD Q3, 09.11.2026](https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx): Umsatz 736 Mio. USD gegenüber 739 Mio. USD im Vorjahr (-0,5%); GAAP Nettogewinn 38 Mio. USD gegenüber 116 Mio. USD; Rückkaufautorisierung um 731 Mio. USD auf 1 Mrd. USD erhöht. Bull: Rückkäufe, neue Produktinitiativen. Bear: Umsatzstagnation und Margendruck. Konsens und frühere Guidance noch nicht periodengleich gegengeprüft; keine statistisch belegte PEAD-These. 1–10 Tage: neutral bis vorsichtig bearisch, kein Trade.\n\n## Weitere Triage\nNVDA: Reuters beschreibt -4,2% trotz Halbleitersektor +6,9% wegen Governance-/Ermittlungsrisiko. Keine bestätigte Kurs- und Spread-Basis für Short. OXY, TTWO, RKLB, ASTS, HIMS: Earnings im Kalender, Ergebnisse/Valuation/Spread in diesem Lauf nicht eigenständig vollständig geprüft; daher DISCOVERED. Paarhandel: keine verifizierten 60–252 Tageskursreihen, Korrelation null. PRE-EARNINGS und PEAD ohne vollständige Konsenshistorie nicht handelbar; Guidance-Revision bei QLYS sachlich belegt, aber kein Edge nach Kosten.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister nur zur Bestandsprüfung, nicht als Marktdatenquelle: IREN SHORT 18,05 USD historische Referenz, kein dokumentierter Fill; zuletzt gespeicherte REGULAR-Marke 21,69 USD vom 09.11. 15:25 EST (StockAnalysis, https://stockanalysis.com/stocks/iren/market-cap/), **ALT** für 18:34, modellierte historische Referenz-PnL -100,83 EUR ohne FX/Kosten; keine heutige unabhängige Neuverifikation. HFG SHORT USER_REPORTED: gespeicherter Xetra-Schluss 3,029 EUR 09.11. 17:35 CET (https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/), Turbo-Einstand fehlt, PnL nicht berechenbar. PTON SHORT USER_REPORTED: gespeicherter REGULAR-Kurs 5,94 USD 09.11. 14:36 EST (https://stockanalysis.com/stocks/pton/), **ALT**, Produktkurs/KO fehlt, PnL nicht berechenbar. DEUTZ geschlossen laut Nutzer; kein eigener Fillbeleg. Alle Positionen unverändert, kein Exit.\n\n## Entscheidung und Kosten\n**KEIN TRADE.** 18:34 EST außerhalb autorisierter Entry-Zeit; keine Broker-Paper-Verbindung und keine belegten ausführbaren Bid/Ask-Kurse. Paper-Startbudget 10.000 EUR rein hypothetisch; Policy im Positionsregister: 10–200 EUR Margin, bevorzugt 50 EUR, 5× Hebel, Stoprisiko höchstens 25 EUR je Idee, R:R mindestens 1,8, Gesamtkosten maximal 0,5% Notional. Kosten/FX/Borrow für konkrete Entries nicht verifiziert. Kein Fill, keine neue PnL und keine Änderung an Mac-Dateien."
+    },
+    {
+      "id": "US-20261110T002510Z",
+      "market": "US",
+      "run_at": "2026-11-10T00:25:10Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "US-Rally trotz Nvidia-Rückgang; CRWV-Earnings im Fokus",
+      "summary": "S&P +2,35%; Nasdaq +2,74%; vier gezielte Ticker geprüft, null neue Paper-Fills. Referenz-IREN nicht als echter Fill.",
+      "source_status": "7 eigenständig geöffnete Webtexte (2 Reuters, 2 CRWV, 1 PTON, 1 HFG, 1 IREN); 50er-Dossiers vorläufig. Keine Original-SEC/IR-Quelle neu verifiziert.",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH",
+          "thesis": "Q3-Earnings-Pipeline; Termin aus Sekundärquelle",
+          "risk": "Verschuldung, Guidance, nicht bestätigter IR-Termin",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "KI-Infrastruktur und hohe Volatilität",
+          "risk": "Short-Squeeze, Finanzierungsbedarf",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "side": "REVIEW",
+          "thesis": "Nutzer-Short beobachten",
+          "risk": "Turbo-Einstand fehlt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "REVIEW",
+          "thesis": "Nutzer-Short beobachten",
+          "risk": "Turbo-Einstand fehlt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Wall St jumps as oil slide cools inflation worries; Nvidia slumps",
+          "published_at": "2026-11-09",
+          "ticker": "NVDA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/",
+          "finding": "S&P +2,35%, Nasdaq +2,74%, NVDA -4,2%"
+        },
+        {
+          "title": "Stocks jump as oil tumbles",
+          "published_at": "2026-11-09",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/",
+          "finding": "Brent -5,85% auf 92,57 USD"
+        },
+        {
+          "title": "CoreWeave earnings calendar",
+          "published_at": "2026-11-09",
+          "ticker": "CRWV",
+          "publisher": "ATLAS Stocks",
+          "url": "https://www.atlas-stocks.com/calendar/earnings/CRWV",
+          "finding": "Q3-Termin 10.11. nachbörslich laut Sekundärquelle"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Earnings-Pipeline; Termin aus Sekundärquelle",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "ATLAS nennt Q3 am 10.11. nach Börsenschluss",
+              "url": "https://www.atlas-stocks.com/calendar/earnings/CRWV",
+              "publisher": "ATLAS Stocks",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Original-IR/SEC und ausführbare Quotes fehlen"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "KI-Infrastruktur und hohe Volatilität",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Regulärer Schluss 21,39 USD am 09.11.",
+              "url": "https://stockanalysis.com/stocks/iren/history/",
+              "publisher": "StockAnalysis",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Original-IR/SEC und ausführbare Quotes fehlen"
+          ]
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Nutzer-Short beobachten",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Regulärer Schluss 5,96 USD am 09.11.",
+              "url": "https://stockanalysis.com/stocks/pton/history/",
+              "publisher": "StockAnalysis",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Original-IR/SEC und ausführbare Quotes fehlen"
+          ]
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Nutzer-Short beobachten",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Xetra 3,029 EUR am 09.11., 17:35 CET",
+              "url": "https://stockanalysis.com/quote/etr/HFG/history/",
+              "publisher": "StockAnalysis",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Original-IR/SEC und ausführbare Quotes fehlen"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Kein verifizierter Fill, Referenzshort 18,05 USD",
+        "base_scenario": "Volatilität bleibt hoch",
+        "bull_scenario": "Short profitiert von Rückgang",
+        "bear_scenario": "Short verliert bei KI-Rally",
+        "key_risk": "Short-Squeeze",
+        "planned_exit": "Kein Broker-Exit; nur separate Referenzbewertung",
+        "as_of": "2026-11-10T00:25:10Z",
+        "mark_price": 21.39,
+        "mark_at": "2026-11-09T16:00:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/history/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörsenresearch — 09.11.2026, 19:25 EST\n\n## Markt und Makro\nReguläre US-Sitzung beendet (09:30–16:00 EST). Reuters meldet S&P 500 +2,35%, Nasdaq Composite +2,74%, Dow +2,15%; Halbleiterindex +6,9%, während NVDA -4,2% verlor. Brent fiel 5,85% auf 92,57 USD. US-CPI für Oktober ist am 10.11. vorgesehen. Quellen: [Reuters US-Markt, 09.11.](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/); [Reuters Weltmärkte, 09.11.](https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/).\n\n## Screening und Kandidaten\nGezielt inhaltlich geprüfte Ticker: IREN, PTON, HFG, CRWV; NVDA/AMD/AVGO nur als marktbezogene Reuters-Triage, nicht als vollständig gescreent. **CRWV WATCH**: ATLAS nennt Q3-Bericht für 10.11. nachbörslich und erwartetes EPS -1,55 USD; ein anderer Kalender nennt nur eine Schätzung für 09.11., deshalb IR-Terminbestätigung aus Originalquelle noch nicht gefunden. Historie laut Tickerfilings: Q2 2026 Umsatz 2,575 Mrd. USD, EPS -1,14 USD. Gegenargument zur Long-These: hohe Finanzierungskosten, Kapazitäts- und Ausführungsrisiko; gegen Short: starke KI-Nachfrage. [ATLAS, aktualisiert 09.11.](https://www.atlas-stocks.com/calendar/earnings/CRWV); [Tickerfilings, abgerufen 09.11.](https://tickerfilings.com/stock/CRWV/earnings). Zwei eigenständig geöffnete Texte /50, vorläufig.\n\n**IREN REVIEW / Referenz-Short**: Nasdaq-Schluss am 09.11. laut StockAnalysis 21,39 USD, 16:00 EST, nach 21,64 USD am 06.11. Historische 18,05 USD sind nur hypothetische Short-Basis, kein verifizierter Fill. Bei rein illustrativen 100 EUR Margin ×5 ergäbe sich 500×(1−21,39/18,05)=−92,52 EUR vor Kosten/FX; **nicht** als tatsächliche Performance verbuchen. Kapitalbedarf und verwässernde Finanzierung sind zu prüfen; positiver KI-Infrastrukturimpuls ist Gegenargument. [StockAnalysis, Kursdaten 09.11.](https://stockanalysis.com/stocks/iren/history/). Ein neu geöffneter Text /50, vorläufig.\n\n**PTON REVIEW**: Nasdaq-Schluss 5,96 USD um 16:00 EST, nachbörslich 5,93 USD um 18:18 EST. Kein verifizierter Turbo-Einstand/ISIN/KO, deshalb kein Produkt-PnL. [StockAnalysis, 09.11.](https://stockanalysis.com/stocks/pton/history/). Ein Text /50, vorläufig.\n\n**HFG REVIEW**: Xetra 3,029 EUR um 17:35 CET (verzögert), Schlusswert gerundet 3,03 EUR. Ohne Produktidentifikation kein Turbo-PnL. [StockAnalysis, 09.11.](https://stockanalysis.com/quote/etr/HFG/history/). Ein Text /50, vorläufig.\n\n## Strategievergleich und Datenlücken\nPre-Earnings: CRWV möglich, aber Vorabkonsens nur EPS aus Sekundärquelle. PEAD: ohne bestätigte aktuelle EPS- und Umsatzsurprise nicht anwendbar. Guidance-Revision: Originalprognose und Ist-Vergleich noch nicht geprüft. Pairs: keine belastbaren 60–252 Tagesrenditen/Korrelation, daher kein qualifiziertes Paar. 13F-Vergleiche, namentliche aktuelle Analystenberichte, Bid/Ask-Spreads und Short-Borrow nicht verifiziert. Vier symbolbezogene Prüffälle, null qualifizierte Trades. Quellenziel 50 pro Priorität nicht erreicht.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nAus Positionsregister vor Research: IREN PAPER-Referenz SHORT, hypothetische Basis 18,05 USD, letzter neu geprüfter regulärer Schluss 21,39 USD 16:00 EST; illustrativ -92,52 EUR für 500 EUR Exposure ohne Gebühren/FX, kein Broker-Fill. HFG SHORT USER_REPORTED: Aktienkurs 3,029 EUR 17:35 CET, verzögert, Produkt-PnL nicht berechenbar. PTON SHORT USER_REPORTED: 5,96 USD 16:00 EST, Afterhours 5,93 USD 18:18 EST; Produkt-PnL nicht berechenbar. Ausstieg für Nutzerprodukte nicht ohne Produktdetails festgelegt; IREN nur Referenz, keine echte Exit-Order. Quellen wie oben. Ältere Repository-Marken nicht ohne eindeutig neuere verifizierte Zeit überschreiben.\n\n## Handelsentscheidung und Paper-Risiko\n**KEIN TRADE / 0 neue Fills.** Nach 16:00 EST sind reguläre Overnight-Entries nicht autorisiert. Kein authentifizierter Paper-Broker verbunden. Paper-Ausgangsbudget 10.000 EUR nur Modell; verfügbare Equity nicht bestätigt. Maximalrisiken und Roundtrip-Kosten für neue Trades mangels Bid/Ask/Borrow nicht berechenbar. Nächster Check: CRWV-Earnings-Termin und IR-Originaldokumente verifizieren, neue IREN-/PTON-Quotes mit Zeit prüfen, CPI-Risiko berücksichtigen. Keine Änderung am Mac oder TradingView-Widget."
     }
   ],
   "deep_dives": {
@@ -13780,12 +13966,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-09T23:34:39Z",
-    "method_note": "Calendar discovered 233 listings; only QLYS, TTD, NVDA examined individually this run; no inferred full-universe coverage.",
+    "as_of": "2026-11-10T00:25:10Z",
+    "method_note": "US 19:25 EST afterhours: 4 individuell geprüfte Ticker; Reuters-Breitentriage separat, keine Vollabdeckung.",
     "coverage": {
-      "universe_checked": 3,
-      "earnings_events": 2,
-      "triaged": 3,
+      "universe_checked": 4,
+      "earnings_events": 1,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -14407,20 +14593,20 @@
       },
       {
         "ticker": "PTON",
-        "name": "Peloton Interactive",
+        "name": "Peloton",
         "tv": "NASDAQ:PTON",
         "market": "US",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Refinancing and earnings reset",
-        "stage": "WATCH",
+        "direction": "REVIEW",
+        "reason": "Nutzer-Short beobachten",
+        "stage": "SCREENED",
         "earnings_at": null,
-        "event": "Refinancing and earnings reset",
+        "event": "Position review",
         "score": null,
         "sources": [
-          "https://stockanalysis.com/stocks/pton/"
+          "https://stockanalysis.com/stocks/pton/history/"
         ],
-        "as_of": "2026-11-09T17:34:41Z"
+        "as_of": "2026-11-10T00:25:10Z"
       },
       {
         "ticker": "B",
@@ -14581,16 +14767,16 @@
         "tv": "XETR:HFG",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Umsatzrückgang vs. EBITDA-Stabilisierung",
-        "stage": "WATCH",
+        "direction": "REVIEW",
+        "reason": "Nutzer-Short beobachten",
+        "stage": "SCREENED",
         "earnings_at": null,
-        "event": "Umsatzrückgang vs. EBITDA-Stabilisierung",
+        "event": "Position review",
         "score": null,
         "sources": [
-          "https://www.marketscreener.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments-ce785fdcd881f121"
+          "https://stockanalysis.com/quote/etr/HFG/history/"
         ],
-        "as_of": "2026-11-09T16:03:20Z"
+        "as_of": "2026-11-10T00:25:10Z"
       },
       {
         "ticker": "HYQ",
@@ -14838,16 +15024,16 @@
         "tv": "NASDAQ:CRWV",
         "market": "US",
         "sector": null,
-        "direction": "SHORT",
-        "reason": "Sektorrisiko ohne bestätigte eigene Ergebnisüberraschung",
+        "direction": "WATCH",
+        "reason": "Q3-Earnings-Pipeline; Termin aus Sekundärquelle",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Sektorrisiko ohne bestätigte eigene Ergebnisüberraschung",
+        "earnings_at": "2026-11-10",
+        "event": "Earnings expected",
         "score": null,
         "sources": [
-          "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-09-2026/card/stocks-to-watch-nvidia-coreweave-kkr-z3Xw3Fb0qxdhdyFK3li9"
+          "https://www.atlas-stocks.com/calendar/earnings/CRWV"
         ],
-        "as_of": "2026-11-09T14:34:45Z"
+        "as_of": "2026-11-10T00:25:10Z"
       },
       {
         "ticker": "UTDI",
@@ -14941,16 +15127,16 @@
         "tv": "NASDAQ:IREN",
         "market": "US",
         "sector": null,
-        "direction": "SHORT",
-        "reason": "Verzögerung und Capex",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-09",
-        "event": "Q3/Q2 Earnings",
+        "direction": "REVIEW",
+        "reason": "KI-Infrastruktur und hohe Volatilität",
+        "stage": "SCREENED",
+        "earnings_at": null,
+        "event": "Position review",
         "score": null,
         "sources": [
-          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
+          "https://stockanalysis.com/stocks/iren/history/"
         ],
-        "as_of": "2026-11-09T22:32:56Z"
+        "as_of": "2026-11-10T00:25:10Z"
       },
       {
         "ticker": "QLYS",
@@ -15481,6 +15667,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261109T233439Z"
+      },
+      {
+        "date": "2026-11-09",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": 1,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261110T002510Z"
       }
     ],
     "strategies": [
