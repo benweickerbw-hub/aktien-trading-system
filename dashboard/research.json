@@ -1,6 +1,6 @@
 {
-  "version": 82,
-  "updated_at": "2026-11-10T14:38:28Z",
+  "version": 83,
+  "updated_at": "2026-11-10T15:03:16Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -13638,6 +13638,90 @@
       "candidates": [],
       "news": [],
       "report_markdown": "# USA Overnight-Auswertung – 10.11.2026, 09:38 EST\n\n**Entscheidung: KEIN BESTÄTIGTER EXIT / KEINE NEUE ORDER.** Der reguläre US-Handel ist eröffnet, aber der offizielle, zeitgestempelte Nasdaq-Open-Print vom 10.11.2026 für die zu prüfenden Titel ist in den überprüften öffentlichen Quellen noch nicht nachweisbar. Der vorangegangene US-Research-Lauf am 10.11. um 09:34 EST meldete ausdrücklich 0 neue Paper-Entries; es liegt kein verifizierter eigener Overnight-Fill vor.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT, PAPER-REFERENZ**: 18,05 USD am 05.11.2026 um 12:40:24 EST, eine Stunde vor der Chat-Entscheidung; **kein belegter Fill**. Letzte gespeicherte Marke 21,39 USD (09.11.2026, REGULAR CLOSE), https://stockanalysis.com/stocks/iren/history/ . Hypothetische Mark-to-reference-Rechnung: 500 EUR × (1−21,39/18,05) = **−92,52 EUR**, ohne Spread, Slippage, FX, Borrow, Finanzierung und Gebühren. Kein aktueller Kurs vom 10.11. bestätigt; historisches Referenzergebnis, nicht tatsächlicher Trade-PnL. Für die ursprünglich am 06.11. geplante Referenz-Abrechnung lässt Yahoo Finance den historischen 06.11.-Open 21,15 USD erkennen (https://finance.yahoo.com/quote/IREN/history/), was rein hypothetisch 500×(1−21,15/18,05)=−85,87 EUR bedeutet. Auch das ist KEIN nachweislich ausführbarer Fill; keine Position rückwirkend schließen.\n- **PTON SHORT, USER_REPORTED**: letzter gespeicherter Aktienkurs 5,93 USD, 09.11.2026 18:18 EST AFTERHOURS, https://stockanalysis.com/stocks/pton/history/ . Yahoo/Investing zeigen 09.11.-Close 5,95 USD: https://www.investing.com/equities/peloton-interactive-inc-historical-data . Keine heutige verifizierte neue Kursmarke, kein Turbo-ISIN/Einstand/KO; Produkt-PnL **nicht berechenbar**.\n- **HFG SHORT, USER_REPORTED**: letzte gespeicherte Marke 3,029 EUR vom 09.11.2026 Xetra-Close, https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/ . Öffentlicher historischer Schlusskurs rund 3,03 EUR: https://tickerlandia.com/de/aktien/hellofresh-hfg . Keine heutige frische belegte Marke; Turbo-PnL **nicht berechenbar**.\n- **DEUTZ LONG, CLOSED_REPORTED**: vom Nutzer gemeldete ca. +11 EUR, ohne verifizierte Fills, nicht neu verändert.\n\n## Research- und Ausführungsstatus\nDie öffentliche Yahoo-IREN-Historie zeigt am 09.11. 21,39 USD Open und 21,41 USD Close und am 06.11. 21,15 USD Open. Die Web-Suchindizes zeigen teils widersprüchliche ältere Snapshots, daher sind sie **nicht** als heutiger Open-Print geeignet. Keine Position wurde geschlossen; alle drei offenen Positionen bleiben unverändert. Keine Paper-Broker-Verbindung; 10.000 EUR nur hypothetisches Kapital. Kein Stop/Take-Profit oder Ausführungskurs erfunden.\n\nQuellen: https://finance.yahoo.com/quote/IREN/history/ ; https://www.investing.com/equities/peloton-interactive-inc-historical-data ; https://tickerlandia.com/de/aktien/hellofresh-hfg ; https://stockanalysis.com/stocks/iren/history/ .\n"
+    },
+    {
+      "id": "XETRA-20261110T150316Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T15:03:16Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Infineon hebt Wachstumsperspektive; kein belegbarer Paper-Fill",
+      "summary": "IFX FY2027 Umsatzguidance ca. 20 Mrd. EUR. Acht Ticker in Triage, nur IFX vertieft; keine verifizierten neuen Fill-Quotes.",
+      "source_status": "3 unterschiedliche Infineon-Originalmeldungen geprüft; 50er-Dossier offen; kein frischer Bid/Ask",
+      "candidates": [
+        {
+          "ticker": "IFX",
+          "name": "Infineon Technologies",
+          "tv": "XETR:IFX",
+          "side": "LONG",
+          "thesis": "Wachstum Rechenzentren und FY2027 Guidance",
+          "risk": "AI-Bewertung, Capex, Margen",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Infineon FY2026 und FY2027 Guidance",
+          "published_at": "2026-11-10",
+          "ticker": "IFX",
+          "publisher": "Infineon IR",
+          "url": "https://www.infineon.com/press-release/2026/infpr202611-025",
+          "finding": "FY2027 Umsatz ca. 20 Mrd. EUR, FCF ca. 1,8 Mrd. EUR"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "IFX",
+          "name": "Infineon Technologies",
+          "tv": "XETR:IFX",
+          "stance": "WATCH LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Wachstums-Guidance positiv, aber Kurs und Kosten nicht ausreichend verifiziert",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q4 Umsatz 4,706 Mrd. EUR; Segmentmarge 23,8 %",
+              "url": "https://www.infineon.com/press-release/2026/infpr202611-025",
+              "publisher": "Infineon",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY2027 Umsatzprognose ca. 20 Mrd. EUR",
+              "url": "https://www.infineon.com/press-release/2026/infpr202611-025",
+              "publisher": "Infineon",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": [
+            "FY2027 AI-Nachfrage"
+          ],
+          "invalidations": [
+            "Nachfrageschwäche",
+            "Margendruck"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Kein verifizierter Fill, kein aktueller Quote",
+        "base_scenario": "Hohe Volatilität",
+        "bull_scenario": "Rückgang",
+        "bear_scenario": "Short-Squeeze",
+        "key_risk": "Gap und AI-Nachrichten",
+        "planned_exit": "Nur nach vorherigem belegtem Signal und Opening-Print",
+        "as_of": "2026-11-10T15:03:16Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research — 10.11.2026, 16:03 CET\n\n## Markt und wichtigste Nachrichten\n**Infineon (IFX):** Originalmeldung vom 10.11.2026: Q4-Umsatz 4,706 Mrd. EUR, Segmentergebnis 1,119 Mrd. EUR, Segmentmarge 23,8 %. GJ 2026 Umsatz 16,353 Mrd. EUR, FCF 993 Mio. EUR. GJ 2027 Prognose ca. 20 Mrd. EUR Umsatz, rund 4 Mrd. EUR Rechenzentrums-Stromversorgungen, FCF ca. 1,8 Mrd. EUR. [Infineon IR, 10.11.2026](https://www.infineon.com/press-release/2026/infpr202611-025). Gegenargument: höhere Investitionen von 3,0–3,5 Mrd. EUR und hohe AI-Erwartungen. [WSJ, 10.11.2026](https://www.wsj.com/business/earnings/chip-maker-infineon-lifts-ai-sales-goal-signaling-confidence-in-demand-80ba33f3).\n\n**Guidance-Track-Record:** Im Februar 2026 wurden für GJ 2026 ca. 1,0 Mrd. EUR FCF erwartet; tatsächlich 993 Mio. EUR (annähernd erreicht, Rundungs-/Definitionsprüfung erforderlich). [Infineon, 04.02.2026](https://www.infineon.com/press-release/2026/infxx202602-042) versus [Infineon, 10.11.2026](https://www.infineon.com/press-release/2026/infpr202611-025). Im Mai 2026 wurden die Erwartungen angehoben; [Infineon, 06.05.2026](https://www.infineon.com/de/press-release/2026/infxx202605-082). Keine statistische Management-Trefferquote aus einem Fall.\n\n**Earnings-Pipeline:** 11.11. Siemens Energy, E.ON, RWE, Brenntag; 12.11. Siemens und Allianz. Terminsekundärquelle [ATLAS, abgerufen 10.11.2026](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026); Unternehmens-IR-Terminbestätigung noch offen.\n\n## Screening und Watchlist\nIn diesem Lauf individuell recherchiert: IFX, ENR, EOAN, RWE, BNR, HFG, IREN, PTON; nur IFX mit inhaltlich vertiefter Originalquellenprüfung. Keine behauptete Vollprüfung von acht Aktien hinsichtlich Liquidität, Spread und Konsens. IFX: WATCH, vorsichtig positiv für 1–10 Handelstage; Invalidierung: unerwartete Nachfrageabschwächung oder Margendruck. ENR/EOAN/RWE/BNR: DISCOVERED, Earnings-Katalysator, noch keine ausreichend geprüfte Überraschungs- oder Kostenthese. HFG: USER_REPORTED, kein neuer Trade. PEAD mangels verifiziertem Vorab-EPS- und Umsatzkonsens nicht qualifiziert. Pairs-Korrelation nicht berechnet, kein Hedge-Nachweis.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister zu Laufbeginn gelesen. IREN: PAPER-Referenz SHORT 18,05 USD, kein belegter Fill; gespeicherte Marke 21,39 USD vom 09.11.2026, modelliert ca. -92,52 EUR auf 500 EUR synthetischem Notional, **nicht echte Performance**. Neue verifizierte zeitnahe Marke fehlt; keine Positionsänderung. [IREN historische Kurse, StockAnalysis](https://stockanalysis.com/stocks/iren/history/). HFG: USER_REPORTED SHORT-Turbo, Einstand/ISIN fehlen, Aktien-Schlusskurs 3,029 EUR vom 09.11.2026 17:35 CET; Turbo-PnL nicht berechenbar. [Yahoo Finance](https://finance.yahoo.com/quote/HFG.DE/). PTON: USER_REPORTED SHORT-Turbo, Einstand/ISIN fehlen; historischer Schlusskurs 5,95 USD vom 09.11.2026; Turbo-PnL nicht berechenbar. [StockAnalysis](https://stockanalysis.com/stocks/pton/history/). Kein belegter aktueller intraday Last/Bid/Ask mit eindeutiger Quote-Zeit; keine Marken rückwirkend aktualisiert. DEUTZ ist als vom Nutzer geschlossen gemeldet.\n\n## Entscheidung, Kosten und Grenzen\n**KEIN TRADE / 0 Fills.** Paper-Startkapital laut Register 10.000 EUR, keine Broker-Verbindung. Modellpolitik verlangt verifizierte Post-Signal-Quotes, Bid/Ask, realistische Gesamtkosten unter 0,5 % des Notionals und Fill-Beleg. Nicht vorhanden. IFX ist Beobachtungssignal, kein ausgeführter Kauf. Keine neue Order vorgetäuscht. Ein Opening-Order-Signal muss vor der Eröffnung feststehen; der tatsächliche Opening-Print wird erst danach bekannt. Für vollständiges IFX-Masterdossier fehlen historische Analystenreports, Fonds-Stimmrechtsvergleiche, vollständige Bewertung und weitere Originalquellen. In diesem Lauf 3 unterschiedliche Infineon-Originalmeldungen plus weitere öffentliche Quellen geprüft, Ziel 50 noch nicht erreicht.\n"
     }
   ],
   "deep_dives": {
@@ -14990,14 +15074,14 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-10T14:03:37Z",
+      "as_of": "2026-11-10T15:03:16Z",
       "status": "IN_PROGRESS",
       "stance": "WATCH",
-      "summary": "FY2027 Guidance stark, Quote fehlt",
+      "summary": "FY2027 Wachstumsguidance; weitere Bewertungs- und Konsensprüfung nötig",
       "key_unknowns": [
-        "Aktuelle Analysten-Voten",
-        "Verifizierte aktuelle Bid/Ask",
-        "Institutionelle Filings"
+        "aktueller Analystenkonsens",
+        "institutionelle Originalmeldungen",
+        "aktueller handelbarer Spread"
       ],
       "method_note": "Nur unabhängig geprüfte Originaldokumente; keine Duplikate",
       "holdings_note": "Nicht verifiziert",
@@ -15922,12 +16006,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-10T14:34:07Z",
-    "method_note": "Kalender-Discovery; keine 11 Titel als vollständig geprüft gezählt",
+    "as_of": "2026-11-10T15:03:16Z",
+    "method_note": "Acht Namen triagiert; IFX Originalmeldungen geprüft; übrige Earnings-Kandidaten DISCOVERED, nicht voll gescreent",
     "coverage": {
-      "universe_checked": 0,
-      "earnings_events": 11,
-      "triaged": 3,
+      "universe_checked": 1,
+      "earnings_events": 5,
+      "triaged": 8,
       "qualified": 0,
       "trade_signals": 0
     },
