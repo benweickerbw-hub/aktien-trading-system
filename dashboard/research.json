@@ -1,6 +1,6 @@
 {
-  "version": 80,
-  "updated_at": "2026-11-10T14:03:37Z",
+  "version": 81,
+  "updated_at": "2026-11-10T14:34:07Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -13471,6 +13471,160 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research – 10.11.2026, 15:03 MEZ\n\n## Markt und Earnings\nRegulärer Dienstagshandel; aktueller DAX-Stand und verlässliche zeitgestempelte Bid/Ask-Kurse nicht verifiziert. In der laufenden Zahlenwoche stehen am 11.11. Siemens Energy, E.ON, RWE und Brenntag sowie am 12.11. Siemens, Allianz, Merck und Münchener Rück im Fokus. US-Inflation ist ebenfalls ein wesentlicher Makrofaktor. Quelle: [Investing.com, 06.11.2026](https://de.investing.com/news/stock-market-news/daxzahlenwoche-infineon-siemens-allianz-und-usinflation--alle-termine-3752206).\n\n## Priorität 1: Infineon (IFX) – WATCH, leicht positive fundamentale Tendenz\n[Infineon, 10.11.2026](https://www.infineon.com/press-release/2026/infpr202611-025): Q4-Umsatz 4,706 Mrd. EUR, Segmentergebnis 1,119 Mrd. EUR, Marge 23,8 %. FY2026 Umsatz 16,353 Mrd. EUR (+12 %), Free Cash Flow 993 Mio. EUR. FY2027 plant das Management ca. 20 Mrd. EUR Umsatz, Segmentmarge im mittleren 20%-Bereich und FCF 1,8 Mrd. EUR; Rechenzentrumsstromversorgung soll fast 4 Mrd. EUR beitragen. Guidance-Scorecard: [Prognose vom 05.08.2026](https://www.infineon.com/de/press-release/2026/infpr202608-125) für Q4-Umsatz ca. 4,7 Mrd. EUR und Marge ca. 23 % versus Ist 4,706 Mrd. EUR / 23,8 %: Umsatz erreicht, Marge übertroffen. Das ist eine einzelne vergleichbare Prognose, keine Management-Trefferquote. Bull: AI-Stromversorgung und verbesserte Margen. Bear: Investitionen 3,0–3,5 Mrd. EUR FY2027, Konjunktur-/Währungsrisiko, möglicher bereits eingepreister Optimismus. Invalidation: deutliche Abschwächung der Rechenzentrumsnachfrage oder Margenziele.\n\n## Priorität 2: Henkel (HEN3) – WATCH, neutral bis positiv\n[Henkel, 10.11.2026](https://www.henkel.com/press-and-media/press-releases-and-kits/2026-11-10-henkel-posts-very-strong-sales-growth-in-the-third-quarter-2274626): Q3-Umsatz 5,713 Mrd. EUR (+11 % nominal), organisch +6,5 %; Adhesives +7,9 % organisch, Consumer Brands +4,8 %. Die FY2026-Prognose lautet organisches Wachstum 3–4 % und bereinigte Umsatzrendite rund 15 %. Die Revision wurde [bereits am 29.10.](https://www.henkel.com/press-and-media/press-releases-and-kits/2026-10-29-henkel-achieves-very-strong-organic-sales-growth-in-the-third-quarter-and-updates-outlook-for-2026-2272318) vorab gemeldet, ist daher heute kein vollständig neuer Überraschungskatalysator. Bull: Preise und Volumen steigen. Bear: höhere Rohstoffkosten, Integrationsrisiken, wenig neue Überraschung gegenüber Vorabzahlen. Invalidation: Volumenrückgang oder Margendruck.\n\n## Weitere Triage\nUniper (UN0): [Reuters, 10.11.](https://www.reuters.com/business/energy/uniper-reports-60-increase-nine-month-core-profit-2026-11-10/) meldet knapp 60 % Zuwachs beim Kernergebnis der ersten neun Monate; Eigentümerwechsel-Szenario unsicher. Siemens Energy (ENR), E.ON (EOAN), RWE (RWE), Brenntag (BNR), Siemens (SIE) und Allianz (ALV): Earnings-Kalender geprüft, noch keine individuell verifizierten aktuellen Fundamentaldossiers. Diese Namen sind DISCOVERED, nicht vollständig SCREENED. Analysten-Kursziele, zwei aktuelle Analystenvoten pro Titel, institutionelle Originalfilings, historische Bewertung, konsistente Kurszeitreihen und handelbare Spreads: nicht verifiziert.\n\n## Strategien und Entscheidung\nPre-Earnings, Post-Earnings Drift, Guidance-Revision und Pairs wurden konzeptionell verglichen. Für PEAD fehlen belastbare vorab datierte EPS-/Umsatz-Konsenswerte und Nachreaktion; für Pairs fehlen 60–252 Tageskursreihen. IFX-Guidance-Ist ist das stärkste untersuchte Signal, doch ein positiver Nettovorteil nach Spread, Gebühren und Slippage ist nicht belegt. **KEIN TRADE; 0 neue Paper-Fills.** Ohne authentifizierten Paper-Broker, zeitnahe Bid/Ask-Quotes und Ausführungsbeleg keine OPEN_SIMULATED-Buchung. Modellbudget 10.000 EUR, 5x nur hypothetisch. Die 17:00-Entscheidung bleibt separat.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nDas Positionsregister wurde eingelesen; im aktuellen Registerauszug wurde keine positions[]-Liste zurückgegeben. HFG/PTON gelten laut früheren Nutzermeldungen als offene, nicht verifizierte Turbo-Brokerpositionen; ISIN, Produkt-Einstieg und handelbarer Produktkurs fehlen, deshalb PnL nicht berechenbar. IREN 18,05 USD ist ausschließlich eine hypothetische Referenz und kein bestätigter Fill. Neue zeitgestempelte Quotes und belastbare Eröffnungspreise wurden für diese Instrumente in diesem Lauf nicht verifiziert. Kein Exit fingiert. Eine morgendliche Opening-Order müsste bereits vor Handelsstart feststehen; der tatsächliche Eröffnungskurs ist erst danach bekannt.\n\n## Quellenabdeckung und Lücken\nSieben unterscheidbare öffentliche Veröffentlichungen als Quellenbasis geprüft, davon vier unmittelbar unternehmensbezogene Originalmeldungen zu IFX/Henkel und eine weitere historische IFX-Originalmeldung. Keine 50-Dokumente-Vollständigkeit, keine unabhängige Fondsbestandsanalyse. Nicht nachgewiesene Analystenmeinungen, Kursdaten und Fondsbestände bleiben leer. TradingView-Widgets sind keine verifizierte PnL-Quelle."
+    },
+    {
+      "id": "US-20261110T143407Z",
+      "market": "US",
+      "run_at": "2026-11-10T14:34:07Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "US-Eröffnung: QLYS Earnings-Reaktion; CRWV nachbörslich im Fokus",
+      "summary": "Kalender-Triage und 3 vorläufige Kandidaten; keine neuen Fills und keine verifizierte aktuelle PnL.",
+      "source_status": "5 unterschiedliche öffentliche Seiten geöffnet; je Kandidat 1/50, vorläufig",
+      "candidates": [
+        {
+          "ticker": "QLYS",
+          "name": "Qualys",
+          "tv": "NASDAQ:QLYS",
+          "side": "NEUTRAL",
+          "thesis": "Ergebnis über Erwartungen, Kursreaktion negativ",
+          "risk": "Bewertung und Guidance nicht vollständig geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH",
+          "thesis": "Nachbörslicher Earnings-Katalysator",
+          "risk": "Finanzierung und Volatilität",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "side": "REVIEW",
+          "thesis": "Historischer Schlusskurs und bestehende Nutzerposition",
+          "risk": "Turbo-Produktdaten fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "US Earnings Calendar 10 November",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "Investingly",
+          "url": "https://investingly.io/earnings-calendar/2026-11-10",
+          "finding": "11 Einträge >10 Mrd USD, davon 5 vor und 6 nach der Glocke"
+        },
+        {
+          "title": "Qualys Q3 earnings beat",
+          "published_at": "2026-11-10",
+          "ticker": "QLYS",
+          "publisher": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/qualys-stock-q32026-earnings-qlys/",
+          "finding": "Bereinigtes EPS 2,12 USD, Umsatz 188 Mio USD"
+        },
+        {
+          "title": "Wall Street mixed and oil declines",
+          "published_at": "2026-11-10",
+          "ticker": null,
+          "publisher": "Associated Press",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-ffe205fbc4fddf65c3e8e64e740355b7",
+          "finding": "Ölpreisrückgang und Inflationsdaten dominieren"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "QLYS",
+          "name": "Qualys",
+          "tv": "NASDAQ:QLYS",
+          "stance": "NEUTRAL",
+          "horizon": "1-10 Handelstage",
+          "summary": "Ergebnis über Erwartungen, Kursreaktion negativ",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ergebnis über Erwartungen, Kursreaktion negativ",
+              "url": "https://www.investors.com/news/technology/qualys-stock-q32026-earnings-qlys/",
+              "publisher": "IBD",
+              "published_at": null
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Bewertung und Guidance nicht vollständig geprüft"
+          ]
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Nachbörslicher Earnings-Katalysator",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Nachbörslicher Earnings-Katalysator",
+              "url": "https://investingly.io/earnings-calendar/2026-11-10",
+              "publisher": "Investingly",
+              "published_at": null
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Finanzierung und Volatilität"
+          ]
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton",
+          "tv": "NASDAQ:PTON",
+          "stance": "REVIEW",
+          "horizon": "1-10 Handelstage",
+          "summary": "Historischer Schlusskurs und bestehende Nutzerposition",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Historischer Schlusskurs und bestehende Nutzerposition",
+              "url": "https://vva.marketminute.com/quote/NQ%3APTON/historical",
+              "publisher": "MarketMinute",
+              "published_at": null
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Turbo-Produktdaten fehlen"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Kein verifizierter Fill, keine aktuelle PnL",
+        "base_scenario": "Offen",
+        "bull_scenario": "Kurs fällt",
+        "bear_scenario": "Kurs steigt",
+        "key_risk": "Short-Squeeze und fehlende verifizierte Quote",
+        "planned_exit": "Nur bei belegtem Open-Print/Positionsevidenz",
+        "as_of": "2026-11-10T14:34:07Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Research 10.11.2026, 09:34 EST\n\n## Markt und Ereignisse\nReguläre US-Sitzung läuft (Dienstag, kein US-Börsenfeiertag). [Associated Press, 10.11.2026](https://apnews.com/article/stock-markets-ai-earnings-oil-ffe205fbc4fddf65c3e8e64e740355b7) berichtet über fallendes Öl, Inflationsrisiken und uneinheitlichen frühen Aktienhandel. Keine verifizierten Intraday-Bid/Ask-Quotes in diesem Lauf.\n\n## Earnings-Screening\n[Investingly, abgerufen 10.11.2026](https://investingly.io/earnings-calendar/2026-11-10) listet 11 Emittenten/ADR-Klassen über 10 Mrd. USD mit Termin am 10.11.: TDG, SE, VOD, VG, ONON vor der Eröffnung; PBR/PBR-A, ALC, EC, CRWV, VIV nach Schluss. Diese sind DISCOVERED, nicht einzeln fundamental vollständig geprüft. Widersprüchliche Kalendertermine bei anderen Anbietern erfordern IR-Bestätigung.\n\n## Kandidaten und Gegenthesen\n**QLYS WATCH, Richtung neutral:** [IBD, 10.11.2026](https://www.investors.com/news/technology/qualys-stock-q32026-earnings-qlys/) meldet Q3 bereinigtes EPS 2,12 USD und Umsatz 188 Mio. USD, über Markterwartung, aber frühe negative Kursreaktion. Bull: operative Verbesserung; Bear: Bewertung und enttäuschte Wachstumserwartung. Keine Original-IR-Guidance und keine vollständige Kosten-/Spread-Prüfung.\n**CRWV WATCH, neutral:** Earnings laut Kalender nach Schluss. Bull: AI-Infrastrukturnachfrage; Bear: Kapitalbedarf und Ausführungsrisiko. Kein bestätigter Konsens-Überraschungsvergleich.\n**PTON REVIEW, kein neuer Trade:** [MarketMinute, 10.11. Abruf](https://vva.marketminute.com/quote/NQ%3APTON/historical) nennt 5,95 USD als Schlusskurs vom 09.11.2026, kein heutiger Live-Kurs. Historische Bewegung ersetzt keinen aktuellen Fill.\n\n## Methodik und Lücken\nNeue vollständig geöffnete relevante Texte: QLYS 1/50, CRWV 1/50 (Kalender), PTON 1/50 (historische Kurstabelle). Keine 13F-Paarvergleiche, historischen Guidance-Scorecards, Analysten-Doppelvoten oder berechneten Pair-Korrelationen verifiziert. PRE-EARNINGS, PEAD, Guidance-Revision und Pairs bleiben mangels vergleichbarer Datensätze nur Hypothesen. Kein qualifizierter Trade; keine authentifizierte Paper-Broker-Verbindung.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister (nur Status, keine Researchquelle): IREN SHORT OPEN_SIMULATED, historischer Referenzeinstieg 18,05 USD, **kein nachgewiesener Fill**; aktuelle Marke nicht verifiziert, PnL nicht berechenbar. HFG SHORT und PTON SHORT sind USER_REPORTED/OPEN_UNVERIFIED ohne Produktausführung, ISIN und Einstand; jeweilige Turbo-PnL nicht berechenbar. PTON 5,95 USD vom 09.11. ist ALT/CLOSE. Keine Position geschlossen oder neu eröffnet. Exit nur nach verifizierter Handels-/Brokerbasis.\n\n## Entscheidung\n**KEIN TRADE** um 09:34 EST; dies ist Research-Zeitfenster, kein 15:30-Entry-Slot. 10.000 EUR sind rein hypothetisches Startkapital, nicht bestätigte Broker-Equity. Kosten-/Spread-/Borrow- und Stop-Risiken verhindern eine Fill-Buchung. TradingView-Widget nicht als verifizierter PnL-Feed genutzt."
     }
   ],
   "deep_dives": {
@@ -15755,12 +15909,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-10T14:03:37Z",
-    "method_note": "2 Titel inhaltlich geprüft; weitere Kalendernamen nur DISCOVERED; keine erfundene Vollabdeckung.",
+    "as_of": "2026-11-10T14:34:07Z",
+    "method_note": "Kalender-Discovery; keine 11 Titel als vollständig geprüft gezählt",
     "coverage": {
-      "universe_checked": 2,
-      "earnings_events": 2,
-      "triaged": 2,
+      "universe_checked": 0,
+      "earnings_events": 11,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -17598,6 +17752,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261110T140337Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "US",
+        "universe_checked": 0,
+        "earnings_events": 11,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261110T143407Z"
       }
     ],
     "strategies": [
