@@ -1,6 +1,6 @@
 {
-  "version": 73,
-  "updated_at": "2026-11-10T08:09:25Z",
+  "version": 74,
+  "updated_at": "2026-11-10T09:04:51Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -12513,6 +12513,104 @@
         }
       ],
       "report_markdown": "# Xetra Overnight-Auswertung – 10.11.2026, 09:09 MEZ\n\n**Entscheidung: KEIN TRADE / KEIN EXIT.** In den vorliegenden zeitgestempelten Xetra-Research-Journaleinträgen vom 09.11.2026 sind keine bestätigten virtuellen Entry-Fills vor Xetra-Schluss dokumentiert. Der Eintrag vom 09.11. 18:04 UTC ist nach Xetra-Schluss und lautet ausdrücklich KEIN TRADE. Daher keine belegbaren offenen Xetra-Overnight-Trades, keine simulierten Exits und kein realisierter PnL. Ein offizieller Xetra-Opening-Print vom 10.11. wurde in öffentlich zugänglichen Quellen nicht verifiziert; keinesfalls mit Vortageskursen ersetzen.\n\nRegulärer Xetra-Handel: 09:00–17:30 MEZ, Quelle: https://www.cashmarket.deutsche-boerse.com/cash-de/Handelskalender-und-zeiten-4302078\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT**, PAPER-REFERENZ, angeblicher Einstieg 18,05 USD (kein verifizierter Fill); letzte gespeicherte Marke 21,39 USD, 09.11. 16:00 EST, Quelle https://stockanalysis.com/stocks/iren/history/ . Die gespeicherten −100,83 EUR sind ausschließlich hypothetisch und **nicht** realisierte Performance. US-Aktie, kein Xetra-Exit. Eine neuere, für diesen Check zuverlässig zeitgestempelte Marke konnte nicht bestätigt werden.\n- **HelloFresh HFG SHORT**, USER_REPORTED Turbo, kein Produkt-Einstand/ISIN; letzte belegte Xetra-Marke 3,029 EUR vom 09.11. 17:35 MEZ (Schlussauktion), Quelle https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm . Marktphase: VORTAGESSCHLUSS; kein heutiger Open-Print; PnL **nicht berechenbar**, nicht schließen.\n- **Peloton PTON SHORT**, USER_REPORTED Turbo, keine Produktdaten; letzte gespeicherte Marke 5,93 USD vom 09.11. 18:18 EST, AFTERHOURS; zusätzlich öffentlich belegter 09.11. Nasdaq-Schluss 5,95 USD 16:00 EST, Quelle https://finance.yahoo.com/quote/PTON/ . Dieser reguläre Schlusskurs ist älter als die gespeicherte Afterhours-Marke und wird deshalb nicht überschrieben. PnL **nicht berechenbar**; kein Xetra-Exit.\n- DEUTZ USER_REPORTED bereits geschlossen, nicht Teil der offenen Positionen.\n\n**Modellformel nur für verifizierte Paper-Fills:** Long = Notional_EUR × (Exit/Entry − 1); Short = Notional_EUR × (1 − Exit/Entry). Notional = tatsächlicher Margin-Einsatz × synthetischer Hebel; Gebühren, Spread, Slippage, FX und mögliche Gaps separat. Ohne verifizierten Einstieg und offiziellen Open-Print keine Auswertung. IREN ist ausdrücklich eine historische Referenzsimulation.\n\n## Risiko und Research\nPaper-Startbudget laut Positionskonfiguration 10.000 EUR rein fiktiv, keine Brokerverbindung und keine verifizierten Equity-Salden. Kein neuer Entry. HFG/PTON-Turbos können nicht aus Aktienkursen allein bewertet werden; IREN trägt ein starkes Gap- und Finanzierungsrisiko. Vorbörslicher Xetra-Research-Check vom 10.11. nannte Jenoptik, Elmos und Uniper als WATCH, aber ohne Fill. Es gibt noch keine 50 verifizierten Quellen je Dossier. Der heutige Morgencheck ist kein neues Handelssignal.\n\n**Datenstatus:** Nur Vortagesmarken für HFG und PTON, IREN-Referenzmarke vom Vortag. Aktueller Xetra-Eröffnungskurs 10.11.: NICHT GEFUNDEN. Keine Position wurde geschlossen."
+    },
+    {
+      "id": "XETRA-20261110T090451Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T09:04:51Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "RWE und Siemens Energy berichten morgen; kein Paper-Fill",
+      "summary": "3 Ticker mit Originalquellen triagiert; keine aktuelle ausführbare Quote oder Broker-Fill-Bestätigung.",
+      "source_status": "10 Dokumentseiten, davon 6 Unternehmensquellen; keine Intraday-Bid/Ask-Verifikation",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "Jahreszahlen 11.11. um 07:00",
+          "risk": "Eventgap, Bewertung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "Q1-Q3 Zahlen 11.11.; höhere Guidance",
+          "risk": "Sondereffekte",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "BAYN",
+          "name": "Bayer AG",
+          "tv": "XETR:BAYN",
+          "side": "WATCH",
+          "thesis": "Q3 Guidance angehoben",
+          "risk": "Verschuldung, Rechtsrisiken",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "11.11.2026 Veröffentlichung 07:00 CET",
+          "published_at": null,
+          "ticker": "ENR",
+          "publisher": "Siemens Energy",
+          "url": "https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html",
+          "finding": "11.11.2026 Veröffentlichung 07:00 CET"
+        },
+        {
+          "title": "11.11.2026 Q1-Q3 Bericht 07:00 CET",
+          "published_at": null,
+          "ticker": "RWE",
+          "publisher": "RWE",
+          "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/2026-Q3/",
+          "finding": "11.11.2026 Q1-Q3 Bericht 07:00 CET"
+        },
+        {
+          "title": "28.07.2026 erhöhte EBITDA-Guidance 5,75–6,35 Mrd EUR",
+          "published_at": null,
+          "ticker": "RWE",
+          "publisher": "RWE",
+          "url": "https://www.rwe.com/investor-relations/finanzkalender-und-veroeffentlichungen/news-und-ad-hoc-mitteilungen/ad-hoc-mitteilungen/ad-hoc-2026-07-28/",
+          "finding": "28.07.2026 erhöhte EBITDA-Guidance 5,75–6,35 Mrd EUR"
+        },
+        {
+          "title": "03.11.2026 Q3 Umsatz 10,053 Mrd EUR, EBITDA bereinigt 1,615 Mrd EUR",
+          "published_at": null,
+          "ticker": "BAYN",
+          "publisher": "Bayer",
+          "url": "https://www.bayer.com/media/en-us/bayer-increases-sales-and-ebitda-before-special-items-in-the-third-quarter-improves-full-year-outlook",
+          "finding": "03.11.2026 Q3 Umsatz 10,053 Mrd EUR, EBITDA bereinigt 1,615 Mrd EUR"
+        }
+      ],
+      "watchlist_briefs": [],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Nicht belegter Referenz-Short; kein echter Fill",
+        "base_scenario": "Volatilität bleibt hoch",
+        "bull_scenario": "Kursrückgang begünstigt hypothetischen Short",
+        "bear_scenario": "Short-Squeeze erhöht Verlust",
+        "key_risk": "Gap und nicht belegter Fill",
+        "planned_exit": "Opening-Print erst nachträglich prüfbar, keine rückwirkende Order",
+        "as_of": "2026-11-10T09:04:51Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 10.11.2026, 10:04 CET\n\n## Push\nRWE und Siemens Energy berichten am 11.11.2026; Bayer hat am 03.11. die Jahresprognose verbessert. WATCH: RWE, Siemens Energy, Bayer. Keine neuen Paper-Fills; kein authentifizierter Paper-Broker.\n\n## Markt und Ereignisse\nXetra reguläre Sitzung 09:00–17:30 CET. Marktweite Indizes und aktuelle Bid/Ask-Spreads wurden nicht zeitnah verifiziert. Zwei wichtige morgige Ereignisse: Siemens Energy veröffentlicht Jahreszahlen um 07:00 CET, RWE Q1–Q3-Zahlen um circa 07:00 CET. Das sind Event-Risiken, keine gesicherten Long-Signale.\n\n## Screening und Watchlist\nDrei Ticker mit Originalquellen geprüft: ENR, RWE, BAYN. Keine vollständige Liquiditäts-/Spread-/Konsensvalidierung; daher WATCH statt QUALIFIED. Siemens Energy: Q3 Auftragseingang 17,9 Mrd EUR, Auftragsbestand 162 Mrd EUR; morgen Ergebnisrisiko, mögliche Gewinnmitnahmen. RWE: H1 bereinigtes EBITDA 3,0 Mrd EUR; Juli-Guidance 2026 5,75–6,35 Mrd EUR; morgen Abgleich mit 9M-Bericht, operative Sondereffekte beachten. Bayer: Q3 Umsatz 10,053 Mrd EUR, EBITDA vor Sondereinflüssen 1,615 Mrd EUR, Nettoverschuldung 31,083 Mrd EUR; verbessertes Jahresziel, aber Bilanz- und Rechtsrisiken. Namentlich verifizierte aktuelle Analystenziele: nicht gefunden. EPS/Umsatz-Konsens vor Veröffentlichungen: nicht verifiziert. Institutionelle Originalfilings und periodengleiche Guidance-Scorecards: nicht verifiziert. Keine 60–252-Tage-Paar-Korrelation berechnet.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: 18,05 USD historische Referenz, kein belegter Fill; Nasdaq-Schluss 09.11. 21,41 USD 16:00 EST laut Yahoo Finance; reine Referenzrechnung 500×(1−21,41/18,05)=−93,07 EUR ohne Gebühren/FX, keine reale Performance. Vorhandene Journal-Marke 21,39 USD vom 09.11. bleibt unverändert, da kein neuer zeitnaher Handelsmarkenbeleg. HFG SHORT USER_REPORTED: Xetra-Schluss 09.11. 3,029 EUR 17:35 CET; Turbo-Einstieg/ISIN unbekannt, PnL nicht berechenbar. PTON SHORT USER_REPORTED: Nasdaq-Schluss 09.11. 5,95 USD, keine Produktdaten, PnL nicht berechenbar. Alle genannten Kurse ALT, keine aktuellen Intraday-Marken. Ausstiege nicht rückwirkend buchen. Referenz-IREN-Exitdatum 06.11. verstrichen, Opening-Fill nicht verifiziert.\n\n## Risiko und Entscheidung\nPaper-Modellkapital 10.000 EUR laut Positionsregister, Broker nicht verbunden; kein FILL. 5x-Exposure und Gaps können den Einsatz übersteigen. Deutsche IBKR-Tiered-Mindestprovision 2,50 EUR Roundtrip vor Spreads: bei 250 EUR Notional bereits 1 %, über der 0,5%-Kostenobergrenze. PRE-EARNINGS und GUIDANCE-REVISION als Beobachtung; PEAD nicht ohne bestätigte doppelte Surprise; Pairs nicht ohne Kursreihen. Entscheidung REVIEW / KEIN NEUER TRADE. Eine Opening-Order muss vor Eröffnung feststehen, der Opening-Print erst danach überprüft werden.\n\n## Geprüfte Quellen\n- [Siemens Energy](https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html) – 11.11.2026 Veröffentlichung 07:00 CET\n- [RWE](https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/2026-Q3/) – 11.11.2026 Q1-Q3 Bericht 07:00 CET\n- [RWE](https://www.rwe.com/investor-relations/finanzkalender-und-veroeffentlichungen/news-und-ad-hoc-mitteilungen/ad-hoc-mitteilungen/ad-hoc-2026-07-28/) – 28.07.2026 erhöhte EBITDA-Guidance 5,75–6,35 Mrd EUR\n- [Bayer](https://www.bayer.com/media/en-us/bayer-increases-sales-and-ebitda-before-special-items-in-the-third-quarter-improves-full-year-outlook) – 03.11.2026 Q3 Umsatz 10,053 Mrd EUR, EBITDA bereinigt 1,615 Mrd EUR\n- [Siemens Energy](https://www.siemens-energy.com/de/de/home/investor-relations.html) – Q3 Auftragseingang 17,9 Mrd EUR, Auftragsbestand 162 Mrd EUR\n- [RWE](https://www.rwe.com/investor-relations/finanzkalender-und-veroeffentlichungen/news-und-ad-hoc-mitteilungen/news/news-2026-08-13/) – 13.08.2026 H1 bereinigtes EBITDA 3,0 Mrd EUR\n- [Yahoo IREN historische Preise](https://finance.yahoo.com/quote/IREN/history/) – 09.11.2026 Close 21,41 USD.\n- [Yahoo HFG](https://finance.yahoo.com/quote/HFG.DE/) – 09.11.2026 Close 3,029 EUR.\n- [StockAnalysis PTON](https://stockanalysis.com/stocks/pton/history/) – 09.11.2026 Close 5,95 USD.\n- [IBKR Ireland Gebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe) – Gebührenmodell, Abruf 10.11.2026.\n\nIn diesem Lauf 10 unterschiedliche öffentliche Dokumentseiten inhaltlich ausgewertet; davon sechs Unternehmens-Originalquellen, drei Kursseiten und eine Gebührenquelle. 50-Dokument-Dossiers nicht erreicht."
     }
   ],
   "deep_dives": {
@@ -14648,9 +14746,9 @@
     }
   },
   "screening": {
-    "status": "PARTIAL_PREMARKET",
-    "as_of": "2026-11-10T06:58:45Z",
-    "method_note": "3 Titel mit Original-Eventbelegen, kein universelles Screening; vorherige Kandidaten anderer Läufe erhalten",
+    "status": "PARTIAL",
+    "as_of": "2026-11-10T09:04:51Z",
+    "method_note": "Dieser Xetra-Lauf: drei IR-validierte Ereigniskandidaten, keine ausführbaren Intraday-Spreads; ältere marktübergreifende Daten erhalten.",
     "coverage": {
       "universe_checked": 3,
       "earnings_events": 2,
@@ -16396,6 +16494,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261110T065845Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 2,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261110T090451Z"
       }
     ],
     "strategies": [
