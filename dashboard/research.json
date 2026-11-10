@@ -1,7 +1,7 @@
 {
-  "version": 87,
-  "updated_at": "2026-11-10T18:25:39Z",
-  "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
+  "version": 88,
+  "updated_at": "2026-11-10T20:26:51Z",
+  "note": "US 15:26 EST: ETOR/IREN/CRWV Research, no fills; verified quote marks separately in positions.json.",
   "runs": [
     {
       "id": "US-20261105T183000Z",
@@ -14395,6 +14395,202 @@
         "reference_only": true
       },
       "report_markdown": "# US Research — 10.11.2026, 13:25 EST\n\n## Markt und Screening\nRegulärer US-Handelstag, 09:30–16:00 EST. [StockTitan, aktualisiert 13:12 EST](https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026) meldet Kerninflation +0,3% und SPY -0,91% um 13:02 EST. Kein umfassender liquiditäts- und kapitalisierungsgeprüfter Universe-Screen durchgeführt: 2 Einzeltitel thematisch geprüft, 0 QUALIFIED. Weitere Treffer nicht als geprüft gezählt.\n\n## Watchlist und Deep-Dive (vorläufig)\n**CRWV — WATCH, Long/Short offen.** [TradingKey, 10.11.](https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey): Wayve-Partnerschaft für GPU-Cloud, wirtschaftliches Volumen unbekannt; Q3 heute nach Schluss. [Benzinga via TradingView, 06.11.](https://de.tradingview.com/news/benzinga:d34ab4b1e094b:0-coreweave-stock-gains-friday-what-s-happening/): Q3-Umsatz-Guidance 3,45–3,60 Mrd USD, Zinsaufwand 860–940 Mio USD, erhebliche Capex-Belastung. Bull: Auftragswachstum. Bear: Finanzierung, Ausbau, regulatorische Verzögerungen. Guidance-Ist-Vergleich erst nach Veröffentlichung möglich. **2/50** in diesem Lauf geprüfte Dokumente; kumulierte unabhängige Dossier-Zahl nicht neu validiert.\n\n**PTON — WATCH, neutral bis vorsichtig bearisch.** [Benzinga, 05.11.](https://www.benzinga.com/trading-ideas/movers/26/11/62922644/whats-going-on-with-peloton-stock-thursday): Q1 FY27 Umsatz 559 Mio USD gegen Konsens 553,721 Mio; EPS 0,19 USD gegen 0,23 USD; bezahlte Connected-Fitness-Abos -9% auf 2,475 Mio; FCF 143 Mio USD. Q2-Umsatzziel 625–650 Mio USD. [Simply Wall St, 10.11.](https://simplywall.st/stocks/us/consumer-durables/nasdaq-pton/peloton-interactive/news/is-peloton-interactive-pton-reasonably-valued-after-its-earn/amp): gegensätzliche Bewertungsnarrative; keine bestätigten zwei namentlichen Analystenupdates. Bull: Cashflow und Schuldentilgung; Bear: Abonnentenrückgang. **2/50** neue geprüfte Texte.\n\nHistorische 10-K/10-Q-Originale, zwei periodengleiche Guidance-Ist-Belege, SEC-13F-Paarvergleiche, Borrow, Optionen-IV, Bid/Ask, datierte Echtzeitquotes und 60–252 Kursreihen: **nicht verifiziert / noch nicht gefunden**. PRE-EARNINGS CRWV nur Beobachtung; PEAD PTON nicht qualifiziert, da EPS-Konsens verfehlt; GUIDANCE-REVISION und PAIRS ohne belastbare Evidenz. Keine berechnete Korrelation.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister zum Laufstart geprüft (nur Register, keine Kursquelle). IREN SHORT: 18,05 USD historischer hypothetischer Referenzeinstieg, kein echter Paper-Fill; letzter gespeicherter 21,39 USD Nasdaq-Close 09.11. 16:00 EST, [StockAnalysis](https://stockanalysis.com/stocks/iren/history/), **ALT**, historisch modelliert -100,83 EUR bei 500 EUR Exposure ohne Kosten/FX, NICHT aktuelle PnL. PTON SHORT Nutzer-Turbo: gespeicherter 5,93 USD Afterhours 09.11. 18:18 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/), **ALT**, Turbo-PnL nicht berechenbar. HFG SHORT Nutzer-Turbo: gespeicherter 3,029 EUR Xetra-Close 09.11. 17:35 CET, [MarketScreener](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/), **ALT**, Turbo-PnL nicht berechenbar. Keine neuen verifizierten Quote-Marken; keine Position geändert oder geschlossen. Geplante historische IREN-Exit-Zeit ist überfällig, ohne verifizierten Open-Print keine Schließung.\n\n## Handelsentscheidung und Kosten\n**KEIN TRADE.** 13:25 EST ist kein 15:30-Entry-Slot. Zusätzlich keine authentifizierte Paper-Broker-Verbindung, kein verifizierter nach Entscheidung erhobener Bid/Ask und keine belegten Netto-Transaktionskosten ≤0,5% Notional. Maßgebliches Paper-Konto: 10.000 EUR Modellstartwert, kein Broker-Saldo; 5× nominal, bevorzugt 50 EUR Margin; keine Order und kein Fill. Nächster relevanter Katalysator CRWV Q3 nach Börsenschluss; positive Umsatz-/Backlog-Überraschung gegen Zins- und Capex-Risiko prüfen. Kein gesicherter Next-Open-Kurs oder PnL. TradingView-Widgets nicht als tickgenaue Quelle verwendet.\n"
+    },
+    {
+      "id": "US-20261110T202651Z",
+      "market": "US",
+      "run_at": "2026-11-10T20:26:51Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "ETOR Q3 schwach; IREN Referenzshort ohne Fill; CRWV nachbörsliche Earnings",
+      "summary": "5 Titel triagiert, kein verifizierbarer Paper-Fill. IREN hypothetische Referenz-PnL −32,96 EUR.",
+      "source_status": "Vorläufig: 1–2 geöffnete Dokumente je Kandidat; 50er-Ziel nicht erreicht",
+      "candidates": [
+        {
+          "ticker": "ETOR",
+          "name": "eToro Group",
+          "tv": "NASDAQ:ETOR",
+          "side": "SHORT",
+          "thesis": "Q3-Gewinnrückgang trotz Kontenwachstum",
+          "risk": "Rückkauf und Kontenwachstum",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "SHORT",
+          "thesis": "Microsoft-Projektverzögerung, Capex",
+          "risk": "AI-Cloud-Wachstum und hohe Volatilität",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH",
+          "thesis": "Q3 nach Handelsschluss",
+          "risk": "Konsens und Spread fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "PTON",
+          "name": "Peloton Interactive",
+          "tv": "NASDAQ:PTON",
+          "side": "REVIEW",
+          "thesis": "Offene Nutzerposition",
+          "risk": "Turbo-Produktdaten fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh SE",
+          "tv": "XETR:HFG",
+          "side": "REVIEW",
+          "thesis": "Offene Nutzerposition",
+          "risk": "Turbo-Produktdaten fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "eToro Q3 2026 Ergebnisse",
+          "published_at": "2026-11-10",
+          "ticker": "ETOR",
+          "publisher": "eToro Investor Relations",
+          "url": "https://investors.etoro.com/static-files/a849eb71-9013-4715-92fd-72e8e25f551e",
+          "finding": "4,39 Mio. finanzierte Konten (+18%); 250 Mio. USD Rückkauf"
+        },
+        {
+          "title": "IREN verzögert Microsoft AI-Infrastruktur",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "Verzögerungen und hoher Investitionsbedarf"
+        },
+        {
+          "title": "CoreWeave Earnings-Kalender",
+          "published_at": "2026-11-05",
+          "ticker": "CRWV",
+          "publisher": "Codema",
+          "url": "https://codema.ai/ai-earnings-calendar.html",
+          "finding": "Q3 nach US-Schluss am 10. November"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ETOR",
+          "name": "eToro Group",
+          "tv": "NASDAQ:ETOR",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Gewinnrückgang trotz Kontenwachstum",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3-Gewinnrückgang trotz Kontenwachstum",
+              "url": "https://investors.etoro.com/static-files/a849eb71-9013-4715-92fd-72e8e25f551e",
+              "publisher": "eToro IR",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": [
+            "Earnings und Guidance"
+          ],
+          "invalidations": [
+            "Gegenteilige neue Originaldaten oder nicht tragbare Kosten"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Microsoft-Projektverzögerung, Capex",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Microsoft-Projektverzögerung, Capex",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings und Guidance"
+          ],
+          "invalidations": [
+            "Gegenteilige neue Originaldaten oder nicht tragbare Kosten"
+          ]
+        },
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3 nach Handelsschluss",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 nach Handelsschluss",
+              "url": "https://codema.ai/ai-earnings-calendar.html",
+              "publisher": "Codema",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [
+            "Earnings und Guidance"
+          ],
+          "invalidations": [
+            "Gegenteilige neue Originaldaten oder nicht tragbare Kosten"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_SHORT",
+        "summary": "Kein historisch belegter Fill",
+        "base_scenario": "Weiter hohe Schwankungen",
+        "bull_scenario": "AI-Wachstum führt zur Erholung",
+        "bear_scenario": "Projektverzögerungen belasten",
+        "key_risk": "Short-Squeeze, Finanzierung und FX",
+        "planned_exit": "Nur nach dokumentierter neuer Entscheidung; historischer Open nicht rückdatieren",
+        "as_of": "2026-11-10T20:26:51Z",
+        "mark_price": 19.24,
+        "mark_at": "2026-11-10T15:04:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/history/",
+        "pnl_eur": -32.96,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 10.11.2026, 15:26 EST (20:26 UTC)\n\n## Markt und Earnings\nRegulärer US-Handelstag, NYSE/Nasdaq 09:30–16:00 EST. **KEIN TRADE**: 15:30-Entscheidungsfenster steht unmittelbar bevor, aber authentifizierter Paper-Broker, nach der Entscheidung belegter handelbarer Bid/Ask und Kosten-/Borrow-Nachweis fehlen. Keine rückdatierten Fills.\n\n**ETOR (WATCH, vorsichtig bearish):** [eToro Q3-Originalbericht, 10.11.2026](https://investors.etoro.com/static-files/a849eb71-9013-4715-92fd-72e8e25f551e) bestätigt +18% finanzierte Konten auf 4,39 Mio. und 250 Mio. USD Rückkauf. [Barron's, 10.11.2026](https://www.barrons.com/advisor/articles/etoro-earnings-stock-price-53db06d3) berichtet 74% Rückgang des Nettogewinns auf 15 Mio. USD und schwache Kryptoaktivität. Bear: operative Schwäche; Bull: Kundenwachstum/Rückkauf. Kein zeitnaher Spread-/Konsensvergleich.\n\n**IREN (REVIEW, keine neue Short-Ausführung):** [Reuters, 05.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/) berichtet Verzögerung bei Microsoft-Infrastruktur und hohen Investitionsbedarf; gleichzeitig 228 Mio. USD Quartalsumsatz und 200 Mio. USD AI-Cloud-Umsatz. [StockAnalysis, Kursstand 10.11.2026 15:04 EST](https://stockanalysis.com/stocks/iren/history/): 19,24 USD (REGULAR Last). Die alte Short-Referenz 18,05 USD war **kein Fill**. Hypothetische lineare Modell-PnL bei 500 EUR Exposure: 500×(1−19,24/18,05)=−32,96 EUR, ohne Gebühren, FX, Finanzierung und Knock-out. Kein Brokerergebnis.\n\n**PTON (USER_REPORTED):** [StockAnalysis, 10.11.2026 15:00 EST](https://stockanalysis.com/stocks/pton/history/) 5,79 USD REGULAR Last. Turbo-Einstieg, ISIN, KO, Produktpreis fehlen: PnL nicht berechenbar.\n\n**HFG (USER_REPORTED):** [Finanznachrichten, 10.11.2026 13:39 CET](https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm) Xetra 2,991 EUR; veraltet gegenüber US-Lauf, daher keine neuere bestätigte Marke und keine Turbo-PnL.\n\n**CRWV (WATCH):** [Codema Earnings-Kalender, Stand 05.11.2026](https://codema.ai/ai-earnings-calendar.html) meldet Q3-Zahlen am 10.11. nach regulärem Schluss und Call um 17:00 EST. Erwartungs-, Options- und Spread-Daten nicht verifiziert; Overnight-Richtung offen.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT, Referenzbasis 18,05 USD, 100 EUR Einsatz und 5× nur historisches Rechenmodell; letzter Kurs 19,24 USD 15:04 EST, modelliert −32,96 EUR, kein bestätigter Exit. PTON SHORT (Nutzer-Turbo), 5,79 USD 15:00 EST, PnL unbekannt. HFG SHORT (Nutzer-Turbo), zuletzt geprüfte Xetra-Quote 2,991 EUR 13:39 CET, PnL unbekannt. DEUTZ vom Nutzer bereits als geschlossen gemeldet. Kein neuer Entry, kein Exit.\n\n## Research-Grenzen\nHeute in diesem Lauf inhaltlich geöffnete eindeutige Quellen: ETOR 2/50 (IR und Barron's), IREN 2/50 (Reuters und Kursdokument), PTON 1/50, HFG 1/50, CRWV 1/50. Keine vollständigen Master-Dossiers; 13F-Vergleiche, namentliche Analystenziele, historisches Guidance-Scorecard, exakte aktuelle Spreads, Liquidität, Borrow, 60–252-Tage-Pair-Korrelation und Netto-Edge **nicht verifiziert**. Screening: 5 benannte Titel triagiert, 0 qualifiziert, 0 Fills. PEAD ohne verifizierte EPS- und Umsatzsurprise nicht freigegeben. Keine Paarkorrelation behauptet. 10.000 EUR sind nur hypothetisches Paper-Startbudget; kein Broker verbunden. TradingView-Widgets sind kein verifizierter PnL-Feed.\n\n**Entscheidung: KEIN TRADE.** Weiterbeobachtung von ETOR/IREN und CRWV nach dem Earnings-Release.",
+      "report_sections": [
+        {
+          "heading": "Handelsentscheidung",
+          "summary": "KEIN TRADE",
+          "bullets": [
+            {
+              "text": "Keine authentifizierte Paper-Ausführung oder nach Entscheidung verifizierte handelbare Quote",
+              "url": null,
+              "publisher": null,
+              "checked_at": "2026-11-10T20:26:51Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -14402,10 +14598,10 @@
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-09T21:25:49Z",
-      "status": "PROVISIONAL",
-      "stance": "WATCH",
-      "summary": "Analysten-Kürzungen und Verwässerung",
+      "as_of": "2026-11-10T20:26:51Z",
+      "status": "PRELIMINARY",
+      "stance": "SHORT",
+      "summary": "Microsoft-Projektverzögerung, Capex",
       "source_goal": 50,
       "source_documents": [
         {
@@ -14680,11 +14876,9 @@
       "institutional_holdings": [],
       "holdings_note": "Zwei periodengleiche SEC 13F Originalfilings nicht geprüft; keine Fondsänderung behauptet",
       "key_unknowns": [
-        "13F-Vergleich nicht verifiziert",
-        "Guidance-Scorecard unvollständig",
-        "Spread/Borrow nicht geprüft"
+        "Aktueller Analystenkonsens, Bid/Ask, 13F-Vergleiche, Guidance-Ist-Vergleich nicht verifiziert"
       ],
-      "method_note": "Nur tatsächlich geöffnete eindeutige Dokument-URLs; keine Treffer als gelesene Quellen gezählt.",
+      "method_note": "Nur tatsächlich geöffnete URLs neu ergänzt; 50 Quellen nicht erreicht.",
       "analyst_coverage": "Nicht ausreichend geprüft"
     },
     "APP": {
@@ -16720,24 +16914,31 @@
           "finding": "Q3 Umsatzguidance 3,45-3,60 Mrd USD; Zinskosten-Guidance 860-940 Mio USD.",
           "checked_on": "2026-11-10T18:25:39Z",
           "doc_type": "MEDIA"
+        },
+        {
+          "id": "US-20261110-CRWV",
+          "title": "Q3 nach Handelsschluss",
+          "publisher": "Codema",
+          "published_at": "2026-11-05",
+          "url": "https://codema.ai/ai-earnings-calendar.html",
+          "finding": "Q3 nach Handelsschluss",
+          "checked_on": "2026-11-10",
+          "doc_type": "NEWS"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-10T18:25:39Z",
-      "status": "VORLÄUFIG",
+      "as_of": "2026-11-10T20:26:51Z",
+      "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Wayve-Partnerschaft und Q3 nach Schluss",
+      "summary": "Q3 nach Handelsschluss",
       "source_goal": 50,
       "key_unknowns": [
-        "Originalberichte",
-        "Konsens",
-        "Bid/Ask",
-        "institutionelle 13F-Vergleiche"
+        "Aktueller Analystenkonsens, Bid/Ask, 13F-Vergleiche, Guidance-Ist-Vergleich nicht verifiziert"
       ],
       "holdings_note": "Nicht verifiziert",
-      "method_note": "Nur geöffnete URL als neue Quelle gezählt; Sekundärberichte ggf. eingeschränkt.",
+      "method_note": "Nur tatsächlich geöffnete URLs neu ergänzt; 50 Quellen nicht erreicht.",
       "analyst_coverage": "Nicht verifiziert"
     },
     "APPS": {
@@ -16807,15 +17008,44 @@
       "holdings_note": "Nicht verifiziert",
       "method_note": "Nur geöffnete URL als neue Quelle gezählt; Sekundärberichte ggf. eingeschränkt.",
       "analyst_coverage": "Nicht verifiziert"
+    },
+    "ETOR": {
+      "ticker": "ETOR",
+      "name": "eToro Group",
+      "tv": "NASDAQ:ETOR",
+      "source_documents": [
+        {
+          "id": "US-20261110-ETOR",
+          "title": "Q3-Gewinnrückgang trotz Kontenwachstum",
+          "publisher": "eToro IR",
+          "published_at": "2026-11-10",
+          "url": "https://investors.etoro.com/static-files/a849eb71-9013-4715-92fd-72e8e25f551e",
+          "finding": "Q3-Gewinnrückgang trotz Kontenwachstum",
+          "checked_on": "2026-11-10",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-10T20:26:51Z",
+      "status": "PRELIMINARY",
+      "stance": "SHORT",
+      "summary": "Q3-Gewinnrückgang trotz Kontenwachstum",
+      "source_goal": 50,
+      "key_unknowns": [
+        "Aktueller Analystenkonsens, Bid/Ask, 13F-Vergleiche, Guidance-Ist-Vergleich nicht verifiziert"
+      ],
+      "method_note": "Nur tatsächlich geöffnete URLs neu ergänzt; 50 Quellen nicht erreicht."
     }
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-10T18:25:39Z",
-    "method_note": "Aktueller Lauf: 2 thematisch überprüfte Titel; keine verifizierte Liquidität/Spread/Market-Cap-Vollprüfung, daher nicht als QUALIFIED gezählt. Frühere Screening-Daten erhalten.",
+    "as_of": "2026-11-10T20:26:51Z",
+    "method_note": "5 Titel anhand geöffneter Webquellen triagiert; kein vollständig qualifizierter Entry",
     "coverage": {
       "universe_checked": 5,
-      "earnings_events": 3,
+      "earnings_events": 2,
       "triaged": 5,
       "qualified": 0,
       "trade_signals": 0
@@ -18103,6 +18333,91 @@
           "https://www.wsj.com/business/earnings/german-defense-group-hensoldt-targets-more-than-10-billion-in-sales-by-2035-64232e21"
         ],
         "as_of": "2026-11-10T18:04:57Z"
+      },
+      {
+        "ticker": "ETOR",
+        "name": "eToro Group",
+        "tv": "NASDAQ:ETOR",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Q3-Gewinnrückgang trotz Kontenwachstum",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Q3-Gewinnrückgang trotz Kontenwachstum",
+        "score": null,
+        "sources": [
+          "https://investors.etoro.com/static-files/a849eb71-9013-4715-92fd-72e8e25f551e"
+        ],
+        "as_of": "2026-11-10T20:26:51Z"
+      },
+      {
+        "ticker": "IREN",
+        "name": "IREN Limited",
+        "tv": "NASDAQ:IREN",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Microsoft-Projektverzögerung, Capex",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Microsoft-Projektverzögerung, Capex",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
+        ],
+        "as_of": "2026-11-10T20:26:51Z"
+      },
+      {
+        "ticker": "CRWV",
+        "name": "CoreWeave",
+        "tv": "NASDAQ:CRWV",
+        "market": "US",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Q3 nach Handelsschluss",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-10 after close",
+        "event": "Q3 nach Handelsschluss",
+        "score": null,
+        "sources": [
+          "https://codema.ai/ai-earnings-calendar.html"
+        ],
+        "as_of": "2026-11-10T20:26:51Z"
+      },
+      {
+        "ticker": "PTON",
+        "name": "Peloton Interactive",
+        "tv": "NASDAQ:PTON",
+        "market": "US",
+        "sector": null,
+        "direction": "REVIEW",
+        "reason": "Offene Nutzerposition",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Offene Nutzerposition",
+        "score": null,
+        "sources": [
+          "https://stockanalysis.com/stocks/pton/history/"
+        ],
+        "as_of": "2026-11-10T20:26:51Z"
+      },
+      {
+        "ticker": "HFG",
+        "name": "HelloFresh SE",
+        "tv": "XETR:HFG",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "REVIEW",
+        "reason": "Offene Nutzerposition",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Offene Nutzerposition",
+        "score": null,
+        "sources": [
+          "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm"
+        ],
+        "as_of": "2026-11-10T20:26:51Z"
       }
     ],
     "pairs": [
@@ -18738,6 +19053,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261110T182539Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "US",
+        "universe_checked": 5,
+        "earnings_events": 2,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261110T202651Z"
       }
     ],
     "strategies": [
