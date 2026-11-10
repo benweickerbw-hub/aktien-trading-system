@@ -1,6 +1,6 @@
 {
-  "version": 70,
-  "updated_at": "2026-11-10T06:55:37Z",
+  "version": 71,
+  "updated_at": "2026-11-10T06:58:45Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -12202,6 +12202,189 @@
           "bullets": []
         }
       ]
+    },
+    {
+      "id": "XETRA-20261110T065845Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T06:58:45Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Vor Xetra-Eröffnung: Siemens 12.11., RWE 11.11.; keine Fills",
+      "summary": "Drei Event-Titel überprüft; alle Positionen aus Register geprüft, keine neuen verifizierten Marken oder Trades.",
+      "source_status": "4 unterschiedliche Originaldokumente und 1 Aktienkursquelle inhaltlich geprüft; keine 50-Quellen-Dossiers",
+      "candidates": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 12.11.; Richtung erst mit Guidance",
+          "risk": "Konsens, Spread und frische Kursmarke nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "side": "NEUTRAL",
+          "thesis": "Earnings 11.11.; vorerst Event-Watch",
+          "risk": "Konsens, Spread und frische Kursmarke nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon Technologies AG",
+          "tv": "XETR:IFX",
+          "side": "NEUTRAL",
+          "thesis": "KI-Rechenzentrumstrend, neuere Zahlen nicht originalverifiziert",
+          "risk": "Konsens, Spread und frische Kursmarke nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Q4/FY26 Veröffentlichung am 12. November",
+          "published_at": null,
+          "ticker": "SIE",
+          "publisher": "Siemens",
+          "url": "https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026",
+          "finding": "07:00 MEZ angekündigt"
+        },
+        {
+          "title": "RWE Q1–Q3 Zwischenmitteilung am 11. November",
+          "published_at": "2026-11-04",
+          "ticker": "RWE",
+          "publisher": "RWE",
+          "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/preliminary-announcements/vorabbekanntmachung-2026-11-04/",
+          "finding": "Pflichtvorankündigung"
+        },
+        {
+          "title": "Infineon KI-Rechenzentrumsausblick aus Q1 FY26",
+          "published_at": "2026-02-04",
+          "ticker": "IFX",
+          "publisher": "Infineon",
+          "url": "https://www.infineon.com/press-release/2026/infxx202602-042",
+          "finding": "Historischer Ausblick, nicht als aktuelle Guidance zu verwenden"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings 12.11.; Richtung erst mit Guidance",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Earnings 12.11.; Richtung erst mit Guidance",
+              "url": "https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026",
+              "publisher": "Siemens",
+              "published_at": null
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Konsens, zwei namentliche Analysten, Bid/Ask und valide Kursreaktion nicht verifiziert",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings 12.11.; Richtung erst mit Guidance",
+          "invalidations": "Widersprechende Guidance oder fehlende Nettoerwartung nach Kosten"
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings 11.11.; vorerst Event-Watch",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Earnings 11.11.; vorerst Event-Watch",
+              "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/preliminary-announcements/vorabbekanntmachung-2026-11-04/",
+              "publisher": "RWE",
+              "published_at": "2026-11-04"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Konsens, zwei namentliche Analysten, Bid/Ask und valide Kursreaktion nicht verifiziert",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Earnings 11.11.; vorerst Event-Watch",
+          "invalidations": "Widersprechende Guidance oder fehlende Nettoerwartung nach Kosten"
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon Technologies AG",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "KI-Rechenzentrumstrend, neuere Zahlen nicht originalverifiziert",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "KI-Rechenzentrumstrend, neuere Zahlen nicht originalverifiziert",
+              "url": "https://www.infineon.com/press-release/2026/infxx202602-042",
+              "publisher": "Infineon",
+              "published_at": "2026-02-04"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktueller Konsens, zwei namentliche Analysten, Bid/Ask und valide Kursreaktion nicht verifiziert",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "KI-Rechenzentrumstrend, neuere Zahlen nicht originalverifiziert",
+          "invalidations": "Widersprechende Guidance oder fehlende Nettoerwartung nach Kosten"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY_SHORT",
+        "summary": "Historischer hypothetischer Referenzeinstieg, kein Fill",
+        "base_scenario": "Volatilität bleibt hoch; kein verlässlicher Opening-Print",
+        "bull_scenario": "Kursrückgang begünstigt Short-Referenz",
+        "bear_scenario": "Short-Squeeze erhöht hypothetischen Verlust",
+        "key_risk": "Unbegrenztes Short-Gap-Risiko",
+        "planned_exit": "Überfällig, kein belegter Ausstieg",
+        "as_of": "2026-11-10T06:58:45Z",
+        "mark_price": 21.41,
+        "mark_at": "2026-11-09T16:00:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/history/",
+        "pnl_eur": -93.07,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Frühresearch – 10.11.2026, 07:58 MEZ\n\n## Markt und Entscheidung\nXetra regulär heute 09:00–17:30 MEZ geöffnet, um 07:58 noch vor der Eröffnung. Quelle: [Deutsche Börse](https://www.cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours), geprüft 10.11.2026. **REVIEW, kein Trade, keine simulierten Fills**. Keine vorab belegten Eröffnungsorders; tatsächliche Opening-Prints können erst nach 09:00 überprüft werden.\n\n## Earnings-Pipeline und geprüfte Titel\n- **Siemens (SIE)**: Q4/FY26 am 12.11.2026 um 07:00 MEZ. Offizielle [Siemens-Ankündigung](https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026), geprüft 10.11. Pre-Earnings WATCH; Zahlen, Konsens und Bid/Ask noch nicht verglichen. Long-These: positiver Ausblick; Short-Gegenthese: schwache Aufträge. Invalidierung erst nach Zahlen/Guidance.\n- **RWE (RWE)**: Q1–Q3-Zwischenmitteilung am 11.11.2026. [RWE-Pflichtvorankündigung vom 04.11.](https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/preliminary-announcements/vorabbekanntmachung-2026-11-04/), geprüft 10.11. WATCH, vor Zahlen keine Richtungsentscheidung. Risiken: Regulierung, Kapitalbedarf, Strompreise.\n- **Infineon (IFX)**: Historische [IR-Mitteilung vom 04.02.2026](https://www.infineon.com/press-release/2026/infxx202602-042) beschreibt KI-Rechenzentrumsgeschäft, geplante Investitionen von 2,7 Mrd. EUR und damalige FY27-Umsatzerwartung in diesem Bereich von ca. 2,5 Mrd. EUR. Neuere heute berichtete FY26-Zahlen sind nicht anhand der offiziellen Originalmitteilung verifiziert; kein periodengleicher Guidance-Ist-Vergleich. WATCH, kein belastbares Preis-Signal.\n\n**Screening:** Drei einzelne Ticker auf konkrete Ereignisse/Originalquellen geprüft; keine 100er-Abdeckung behauptet. Kein Kandidat QUALIFIED. Für weitere Unternehmen, aktuelle namentliche Analystenvoten, Unternehmens-Konsens, Volumen/Spreads, Kapitalisierung, 60–252 Tage Pair-Korrelation und Kosten fehlen in diesem Lauf ausreichende überprüfte Daten. Strategien PRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS geprüft als Methodik, aber ohne bestätigte Surprise-/Kursreihen kein Handelssignal.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister gelesen. **IREN SHORT**: ausdrücklich nur historische Referenzsimulation, 18,05 USD Referenz, 100 EUR ×5; gespeicherter Mark 21,39 USD am 09.11. 16:00 EST (CLOSE). [StockAnalysis Tageshistorie](https://stockanalysis.com/stocks/iren/history/), geprüft 10.11., weist Schlusskurs 21,41 USD aus; Datenabweichung 0,02 USD gegenüber gespeichertem Mark, daher kein neuer Portfolio-Mark gebucht. Bei 21,41 USD wäre die rein hypothetische lineare Short-PnL 500×(1−21,41/18,05)=−93,07 EUR; keine realisierte Rendite, ohne FX, Gebühren, Slippage und KO. Keine nachgewiesene Eröffnungskursorder, Exit nicht bestätigt.\n**HFG SHORT USER_REPORTED Turbo**: gespeicherter Aktien-Mark 3,029 EUR am 09.11. 17:35:29 MEZ, [MarketScreener](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/); Turbo-Einstand, ISIN, KO und Produktkurs fehlen. PnL nicht berechenbar, kein Exit bestätigt.\n**PTON SHORT USER_REPORTED Turbo**: gespeicherter Aktien-Mark 5,93 USD am 09.11. 18:18 EST (AFTERHOURS), [StockAnalysis](https://stockanalysis.com/stocks/pton/history/); Produktdetails fehlen, PnL nicht berechenbar. Kein Exit bestätigt.\nAlle Marks historisch, nicht live. Kein neuer zeitlich geprüfter Bid/Ask oder authentifizierter Paper-Broker-Fill. Alle offenen Status unverändert.\n\n## Risikobudget und Forschungsstand\nAus dem bestehenden Positionsregister: rein fiktives Startkapital 10.000 EUR; Broker nicht verbunden. Richtwerte Margin 10–200 EUR, bevorzugt 50 EUR, synthetisch 5×; Kostenobergrenze 0,5 % Notional und R/R mindestens 1,8. Die Mindestprovision von 2,50 EUR für deutsche Aktien-Roundtrips allein ist bei 250 EUR Notional bereits 1 %; für solche Microtrades ist das Kostenlimit nicht erfüllt. Neue Trades 0. Heute keine aktuellen verifizierten Bid/Ask, keine Spread-/Borrow-Prüfung, keine 50-Quellen-Dossiers. Neu im Lauf inhaltlich geprüfte unterschiedliche Originaldokumente: 4 (Deutsche Börse, Siemens, RWE, Infineon); dazu StockAnalysis IREN als Kursquelle. Fondsfilings und historische Guidance-Trefferquote nicht verifiziert.\n",
+      "report_sections": [
+        {
+          "heading": "Xetra Pre-Market",
+          "summary": "Keine Fills vor 09:00",
+          "bullets": [
+            {
+              "text": "Xetra regulär 09:00–17:30",
+              "url": "https://www.cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours",
+              "publisher": "Deutsche Börse",
+              "checked_at": "2026-11-10T06:58:45Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -13544,17 +13727,16 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-10T06:55:37Z",
-      "status": "IN_PROGRESS",
+      "as_of": "2026-11-10T06:58:45Z",
+      "status": "INCOMPLETE",
       "stance": "WATCH",
-      "summary": "Vorbörsliche Event-Prüfung; keine qualifizierte Entry-These",
+      "summary": "KI-Rechenzentrumstrend, neuere Zahlen nicht originalverifiziert",
       "key_unknowns": [
-        "Aktueller Konsens",
-        "Bid/Ask",
-        "Periodengleiche Guidance-Scorecard",
-        "Aktuelle Analystenvoten"
+        "Aktueller Konsens und Analystenvoten",
+        "Bid/Ask, Liquidität, Netto-Kosten",
+        "Periodengleiche historische Guidance-Ist-Vergleiche"
       ],
-      "method_note": "Neue Dokumente per eindeutiger URL dedupliziert; keine Syndikationen gezählt",
+      "method_note": "Vorläufiges Dossier; Dokumente URL-dedupliziert, Ziel 50 nicht erreicht",
       "holdings_note": "Nicht verifiziert",
       "analyst_coverage": "Nicht ausreichend verifiziert"
     },
@@ -14273,16 +14455,78 @@
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert",
       "analyst_coverage": "Nicht verifiziert"
+    },
+    "SIE": {
+      "ticker": "SIE",
+      "name": "Siemens AG",
+      "tv": "XETR:SIE",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "SIE-20261110-01",
+          "title": "Earnings 12.11.; Richtung erst mit Guidance",
+          "publisher": "Siemens",
+          "published_at": null,
+          "url": "https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026",
+          "finding": "Earnings 12.11.; Richtung erst mit Guidance",
+          "checked_on": "2026-11-10",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-10T06:58:45Z",
+      "status": "INCOMPLETE",
+      "stance": "WATCH",
+      "summary": "Earnings 12.11.; Richtung erst mit Guidance",
+      "key_unknowns": [
+        "Aktueller Konsens und Analystenvoten",
+        "Bid/Ask, Liquidität, Netto-Kosten",
+        "Periodengleiche historische Guidance-Ist-Vergleiche"
+      ],
+      "method_note": "Vorläufiges Dossier; Dokumente URL-dedupliziert, Ziel 50 nicht erreicht"
+    },
+    "RWE": {
+      "ticker": "RWE",
+      "name": "RWE AG",
+      "tv": "XETR:RWE",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "RWE-20261110-01",
+          "title": "Earnings 11.11.; vorerst Event-Watch",
+          "publisher": "RWE",
+          "published_at": "2026-11-04",
+          "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/preliminary-announcements/vorabbekanntmachung-2026-11-04/",
+          "finding": "Earnings 11.11.; vorerst Event-Watch",
+          "checked_on": "2026-11-10",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-10T06:58:45Z",
+      "status": "INCOMPLETE",
+      "stance": "WATCH",
+      "summary": "Earnings 11.11.; vorerst Event-Watch",
+      "key_unknowns": [
+        "Aktueller Konsens und Analystenvoten",
+        "Bid/Ask, Liquidität, Netto-Kosten",
+        "Periodengleiche historische Guidance-Ist-Vergleiche"
+      ],
+      "method_note": "Vorläufiges Dossier; Dokumente URL-dedupliziert, Ziel 50 nicht erreicht"
     }
   },
   "screening": {
-    "status": "PREMARKET",
-    "as_of": "2026-11-10T06:55:37Z",
-    "method_note": "7 konkrete Event-Ticker in diesem Lauf überprüft; nur vorbörsliche Unternehmens-IR, keine Quote-Qualifikation. Bestehende Kandidaten erhalten.",
+    "status": "PARTIAL_PREMARKET",
+    "as_of": "2026-11-10T06:58:45Z",
+    "method_note": "3 Titel mit Original-Eventbelegen, kein universelles Screening; vorherige Kandidaten anderer Läufe erhalten",
     "coverage": {
-      "universe_checked": 7,
-      "earnings_events": 6,
-      "triaged": 7,
+      "universe_checked": 3,
+      "earnings_events": 2,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -15176,20 +15420,20 @@
       },
       {
         "ticker": "IFX",
-        "name": "Infineon",
+        "name": "Infineon Technologies AG",
         "tv": "XETR:IFX",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Q2-Umsatz 3,812 Mrd EUR; FCF-Jahresziel 1,25 Mrd EUR",
+        "direction": "NEUTRAL",
+        "reason": "KI-Rechenzentrumstrend, neuere Zahlen nicht originalverifiziert",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Infineon Q2 FY26",
+        "event": "KI-Rechenzentrumstrend, neuere Zahlen nicht originalverifiziert",
         "score": null,
         "sources": [
-          "https://www.infineon.com/de/press-release/2026/infxx202605-082"
+          "https://www.infineon.com/press-release/2026/infxx202602-042"
         ],
-        "as_of": "2026-11-10T06:55:37Z"
+        "as_of": "2026-11-10T06:58:45Z"
       },
       {
         "ticker": "ENR",
@@ -15210,20 +15454,20 @@
       },
       {
         "ticker": "SIE",
-        "name": "Siemens",
+        "name": "Siemens AG",
         "tv": "XETR:SIE",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "Q4 FY26 am 12.11. 07:00 MEZ",
+        "direction": "NEUTRAL",
+        "reason": "Earnings 12.11.; Richtung erst mit Guidance",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Siemens Q4 Termin",
+        "earnings_at": "2026-11-12",
+        "event": "Earnings 12.11.; Richtung erst mit Guidance",
         "score": null,
         "sources": [
-          "https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026"
+          "https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026"
         ],
-        "as_of": "2026-11-10T06:55:37Z"
+        "as_of": "2026-11-10T06:58:45Z"
       },
       {
         "ticker": "CON",
@@ -15244,20 +15488,20 @@
       },
       {
         "ticker": "RWE",
-        "name": "RWE",
+        "name": "RWE AG",
         "tv": "XETR:RWE",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH",
-        "reason": "9M-Ergebnis am 11.11. 07:00 MEZ",
+        "direction": "NEUTRAL",
+        "reason": "Earnings 11.11.; vorerst Event-Watch",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "RWE Q3 Termin",
+        "earnings_at": "2026-11-11",
+        "event": "Earnings 11.11.; vorerst Event-Watch",
         "score": null,
         "sources": [
-          "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/2026-Q3/"
+          "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/preliminary-announcements/vorabbekanntmachung-2026-11-04/"
         ],
-        "as_of": "2026-11-10T06:55:37Z"
+        "as_of": "2026-11-10T06:58:45Z"
       },
       {
         "ticker": "KKR",
@@ -16014,6 +16258,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261110T065537Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 2,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261110T065845Z"
       }
     ],
     "strategies": [
