@@ -1,6 +1,6 @@
 {
-  "version": 69,
-  "updated_at": "2026-11-10T00:25:10Z",
+  "version": 70,
+  "updated_at": "2026-11-10T06:55:37Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -11946,6 +11946,262 @@
         "reference_only": true
       },
       "report_markdown": "# US-Nachbörsenresearch — 09.11.2026, 19:25 EST\n\n## Markt und Makro\nReguläre US-Sitzung beendet (09:30–16:00 EST). Reuters meldet S&P 500 +2,35%, Nasdaq Composite +2,74%, Dow +2,15%; Halbleiterindex +6,9%, während NVDA -4,2% verlor. Brent fiel 5,85% auf 92,57 USD. US-CPI für Oktober ist am 10.11. vorgesehen. Quellen: [Reuters US-Markt, 09.11.](https://www.reuters.com/business/wall-st-futures-rise-after-rough-week-nvidia-unsettles-investors-2026-11-09/); [Reuters Weltmärkte, 09.11.](https://www.reuters.com/world/asia-pacific/global-markets-global-markets-2026-11-09/).\n\n## Screening und Kandidaten\nGezielt inhaltlich geprüfte Ticker: IREN, PTON, HFG, CRWV; NVDA/AMD/AVGO nur als marktbezogene Reuters-Triage, nicht als vollständig gescreent. **CRWV WATCH**: ATLAS nennt Q3-Bericht für 10.11. nachbörslich und erwartetes EPS -1,55 USD; ein anderer Kalender nennt nur eine Schätzung für 09.11., deshalb IR-Terminbestätigung aus Originalquelle noch nicht gefunden. Historie laut Tickerfilings: Q2 2026 Umsatz 2,575 Mrd. USD, EPS -1,14 USD. Gegenargument zur Long-These: hohe Finanzierungskosten, Kapazitäts- und Ausführungsrisiko; gegen Short: starke KI-Nachfrage. [ATLAS, aktualisiert 09.11.](https://www.atlas-stocks.com/calendar/earnings/CRWV); [Tickerfilings, abgerufen 09.11.](https://tickerfilings.com/stock/CRWV/earnings). Zwei eigenständig geöffnete Texte /50, vorläufig.\n\n**IREN REVIEW / Referenz-Short**: Nasdaq-Schluss am 09.11. laut StockAnalysis 21,39 USD, 16:00 EST, nach 21,64 USD am 06.11. Historische 18,05 USD sind nur hypothetische Short-Basis, kein verifizierter Fill. Bei rein illustrativen 100 EUR Margin ×5 ergäbe sich 500×(1−21,39/18,05)=−92,52 EUR vor Kosten/FX; **nicht** als tatsächliche Performance verbuchen. Kapitalbedarf und verwässernde Finanzierung sind zu prüfen; positiver KI-Infrastrukturimpuls ist Gegenargument. [StockAnalysis, Kursdaten 09.11.](https://stockanalysis.com/stocks/iren/history/). Ein neu geöffneter Text /50, vorläufig.\n\n**PTON REVIEW**: Nasdaq-Schluss 5,96 USD um 16:00 EST, nachbörslich 5,93 USD um 18:18 EST. Kein verifizierter Turbo-Einstand/ISIN/KO, deshalb kein Produkt-PnL. [StockAnalysis, 09.11.](https://stockanalysis.com/stocks/pton/history/). Ein Text /50, vorläufig.\n\n**HFG REVIEW**: Xetra 3,029 EUR um 17:35 CET (verzögert), Schlusswert gerundet 3,03 EUR. Ohne Produktidentifikation kein Turbo-PnL. [StockAnalysis, 09.11.](https://stockanalysis.com/quote/etr/HFG/history/). Ein Text /50, vorläufig.\n\n## Strategievergleich und Datenlücken\nPre-Earnings: CRWV möglich, aber Vorabkonsens nur EPS aus Sekundärquelle. PEAD: ohne bestätigte aktuelle EPS- und Umsatzsurprise nicht anwendbar. Guidance-Revision: Originalprognose und Ist-Vergleich noch nicht geprüft. Pairs: keine belastbaren 60–252 Tagesrenditen/Korrelation, daher kein qualifiziertes Paar. 13F-Vergleiche, namentliche aktuelle Analystenberichte, Bid/Ask-Spreads und Short-Borrow nicht verifiziert. Vier symbolbezogene Prüffälle, null qualifizierte Trades. Quellenziel 50 pro Priorität nicht erreicht.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nAus Positionsregister vor Research: IREN PAPER-Referenz SHORT, hypothetische Basis 18,05 USD, letzter neu geprüfter regulärer Schluss 21,39 USD 16:00 EST; illustrativ -92,52 EUR für 500 EUR Exposure ohne Gebühren/FX, kein Broker-Fill. HFG SHORT USER_REPORTED: Aktienkurs 3,029 EUR 17:35 CET, verzögert, Produkt-PnL nicht berechenbar. PTON SHORT USER_REPORTED: 5,96 USD 16:00 EST, Afterhours 5,93 USD 18:18 EST; Produkt-PnL nicht berechenbar. Ausstieg für Nutzerprodukte nicht ohne Produktdetails festgelegt; IREN nur Referenz, keine echte Exit-Order. Quellen wie oben. Ältere Repository-Marken nicht ohne eindeutig neuere verifizierte Zeit überschreiben.\n\n## Handelsentscheidung und Paper-Risiko\n**KEIN TRADE / 0 neue Fills.** Nach 16:00 EST sind reguläre Overnight-Entries nicht autorisiert. Kein authentifizierter Paper-Broker verbunden. Paper-Ausgangsbudget 10.000 EUR nur Modell; verfügbare Equity nicht bestätigt. Maximalrisiken und Roundtrip-Kosten für neue Trades mangels Bid/Ask/Borrow nicht berechenbar. Nächster Check: CRWV-Earnings-Termin und IR-Originaldokumente verifizieren, neue IREN-/PTON-Quotes mit Zeit prüfen, CPI-Risiko berücksichtigen. Keine Änderung am Mac oder TradingView-Widget."
+    },
+    {
+      "id": "XETRA-20261110T065537Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T06:55:37Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Vorbörse: Henkel und Infineon vor 07:30-Ergebnissen; keine Paper-Orders",
+      "summary": "Sieben Titel mit Eventbezug geprüft, keine Fills; IREN nur Referenzsimulation, HFG/PTON Nutzer-Turbos ohne berechenbaren PnL.",
+      "source_status": "8 originäre Unternehmensseiten geprüft; aktuelle Bid/Ask, Analystenkonsens und 50-Quellen-Dossiers fehlen",
+      "candidates": [
+        {
+          "ticker": "HEN3",
+          "name": "Henkel",
+          "tv": "XETR:HEN3",
+          "side": "WATCH",
+          "thesis": "Umsatz 5,713 Mrd EUR; organisch +6,5%; Jahresausblick angehoben",
+          "risk": "Event- und Ausführungsrisiko; Spread/Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "side": "WATCH",
+          "thesis": "Q2-Umsatz 3,812 Mrd EUR; FCF-Jahresziel 1,25 Mrd EUR",
+          "risk": "Event- und Ausführungsrisiko; Spread/Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "side": "WATCH",
+          "thesis": "Währungsbereinigter Umsatz -11,3%; AEBITDA 50,9 Mio EUR",
+          "risk": "Event- und Ausführungsrisiko; Spread/Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "FY26 Ergebnis am 11.11. 07:00 MEZ",
+          "risk": "Event- und Ausführungsrisiko; Spread/Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "SIE",
+          "name": "Siemens",
+          "tv": "XETR:SIE",
+          "side": "WATCH",
+          "thesis": "Q4 FY26 am 12.11. 07:00 MEZ",
+          "risk": "Event- und Ausführungsrisiko; Spread/Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "9M-Ergebnis am 11.11. 07:00 MEZ",
+          "risk": "Event- und Ausführungsrisiko; Spread/Konsens nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Henkel Q3 2026 vorläufig",
+          "published_at": "2026-10-29",
+          "ticker": "HEN3",
+          "publisher": "Henkel",
+          "url": "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-10-29-henkel-achieves-very-strong-organic-sales-growth-in-the-third-quarter-and-updates-outlook-for-2026-2272318",
+          "finding": "Umsatz 5,713 Mrd EUR; organisch +6,5%; Jahresausblick angehoben"
+        },
+        {
+          "title": "Henkel Q3 Veröffentlichung",
+          "published_at": "2026-11-10",
+          "ticker": "HEN3",
+          "publisher": "Henkel",
+          "url": "https://www.henkel.com/investors-and-analysts/events/2026-q3",
+          "finding": "Q3-Mitteilung 07:30 MEZ, zum Check noch ausstehend"
+        },
+        {
+          "title": "Infineon Q2 FY26",
+          "published_at": "2026-05-06",
+          "ticker": "IFX",
+          "publisher": "Infineon",
+          "url": "https://www.infineon.com/de/press-release/2026/infxx202605-082",
+          "finding": "Q2-Umsatz 3,812 Mrd EUR; FCF-Jahresziel 1,25 Mrd EUR"
+        },
+        {
+          "title": "Infineon FY26 Termin",
+          "published_at": "2026-11-10",
+          "ticker": "IFX",
+          "publisher": "Infineon",
+          "url": "https://www.infineon.com/de/about/events",
+          "finding": "Q4/FY26 Zahlen 07:30 MEZ, zum Check noch ausstehend"
+        },
+        {
+          "title": "HelloFresh Q3 2026",
+          "published_at": "2026-11-05",
+          "ticker": "HFG",
+          "publisher": "HelloFresh IR",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-verbessert-profitabilitaet-ueber-produktsegmente-hinweg/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "finding": "Währungsbereinigter Umsatz -11,3%; AEBITDA 50,9 Mio EUR"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "HEN3",
+          "name": "Henkel",
+          "tv": "XETR:HEN3",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatz 5,713 Mrd EUR; organisch +6,5%; Jahresausblick angehoben",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz 5,713 Mrd EUR; organisch +6,5%; Jahresausblick angehoben",
+              "url": "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-10-29-henkel-achieves-very-strong-organic-sales-growth-in-the-third-quarter-and-updates-outlook-for-2026-2272318",
+              "publisher": "Henkel",
+              "published_at": "2026-10-29"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3-Mitteilung 07:30 MEZ, zum Check noch ausstehend",
+              "url": "https://www.henkel.com/investors-and-analysts/events/2026-q3",
+              "publisher": "Henkel",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Schwache Guidance, unerwartete Kosten oder negative Kursreaktion"
+        },
+        {
+          "ticker": "IFX",
+          "name": "Infineon",
+          "tv": "XETR:IFX",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q2-Umsatz 3,812 Mrd EUR; FCF-Jahresziel 1,25 Mrd EUR",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q2-Umsatz 3,812 Mrd EUR; FCF-Jahresziel 1,25 Mrd EUR",
+              "url": "https://www.infineon.com/de/press-release/2026/infxx202605-082",
+              "publisher": "Infineon",
+              "published_at": "2026-05-06"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q4/FY26 Zahlen 07:30 MEZ, zum Check noch ausstehend",
+              "url": "https://www.infineon.com/de/about/events",
+              "publisher": "Infineon",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Schwache Guidance, unerwartete Kosten oder negative Kursreaktion"
+        },
+        {
+          "ticker": "HFG",
+          "name": "HelloFresh",
+          "tv": "XETR:HFG",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Währungsbereinigter Umsatz -11,3%; AEBITDA 50,9 Mio EUR",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Währungsbereinigter Umsatz -11,3%; AEBITDA 50,9 Mio EUR",
+              "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-verbessert-profitabilitaet-ueber-produktsegmente-hinweg/eac3ad4c-1662-4015-a195-541a2089fcd4",
+              "publisher": "HelloFresh IR",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Schwache Guidance, unerwartete Kosten oder negative Kursreaktion"
+        },
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "FY26 Ergebnis am 11.11. 07:00 MEZ",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY26 Ergebnis am 11.11. 07:00 MEZ",
+              "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+              "publisher": "Siemens Energy",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Schwache Guidance, unerwartete Kosten oder negative Kursreaktion"
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "9M-Ergebnis am 11.11. 07:00 MEZ",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "9M-Ergebnis am 11.11. 07:00 MEZ",
+              "url": "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/2026-Q3/",
+              "publisher": "RWE",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Schwache Guidance, unerwartete Kosten oder negative Kursreaktion"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Short-Referenz 18,05 USD ohne Fill; Nasdaq-Schlusskurs 21,41 USD 09.11. 16:00:01 EST",
+        "base_scenario": "Erhöhte Volatilität",
+        "bull_scenario": "Kursrückgang entlastet Short",
+        "bear_scenario": "Weitere Kursanstiege belasten Short",
+        "key_risk": "Unbelegter Einstieg und Gap-Risiko",
+        "planned_exit": "Keine rückdatierte Order; erst nach verifizierter vorheriger Entscheidung",
+        "as_of": "2026-11-10T06:55:37Z",
+        "mark_price": 21.41,
+        "mark_at": "2026-11-09T16:00:01-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": -93.07,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Vorbörse, 10.11.2026, 07:55 MEZ\n\n**Entscheidung: KEIN TRADE.** Xetra öffnet regulär um 09:00 MEZ. Keine neuen Paper-Fills, kein authentifizierter Paper-Broker. Ein etwaiger Opening-Order-Auftrag müsste vor der Eröffnung festgelegt sein; der tatsächliche Opening-Print ist erst danach verfügbar.\n\n## Earnings-Pipeline und Screening\nSieben symbolbezogene Events wurden anhand öffentlich zugänglicher Quellen geprüft: HEN3 (Q3 heute 07:30), IFX (FY26 heute 07:30), ENR (11.11. 07:00), RWE (11.11. 07:00), SIE (12.11. 07:00), HFG (Q3 am 05.11.), PTON (US-Position, Quote-Review). Weitere Kalendereinträge nur entdeckt, nicht als vollständig gescreent gezählt. Zu diesem Check lagen die 07:30-Veröffentlichungen noch in der Zukunft.\n\n## Priorisierte Unternehmen\n**Henkel (HEN3), WATCH, bedingt positiv:** [Henkel, 29.10.2026](https://www.henkel.com/press-and-media/press-releases-and-kits/2026-10-29-henkel-achieves-very-strong-organic-sales-growth-in-the-third-quarter-and-updates-outlook-for-2026-2272318): vorläufiger Q3-Umsatz 5,713 Mrd EUR (+11,0% nominal), organisch +6,5%, Volumen +1,1%, Preise +5,4%; organischer FY26-Umsatzausblick auf 3–4% angehoben. [Henkel, Q3-Termin 10.11.2026](https://www.henkel.com/investors-and-analysts/events/2026-q3): vollständiger Bericht 07:30. Positiv: Volumen und Preis; negativ: Bewertung, Margen, bereits vorweggenommene Erwartungen. Invalidation: schwacher Ausblick oder unerwartet rückläufige Margen.\n\n**Infineon (IFX), WATCH, neutral bis positiv:** [Infineon, 06.05.2026](https://www.infineon.com/de/press-release/2026/infxx202605-082): Q2-Umsatz 3,812 Mrd EUR, Segmentmarge 17,1%, bereinigtes FCF-Ziel FY26 1,65 Mrd EUR, unbereinigtes FCF-Ziel 1,25 Mrd EUR. [Infineon-Terminseite, geprüft 10.11.](https://www.infineon.com/de/about/events): FY26-Ergebnisse 07:30. Positiv KI-Stromversorgung; negativ Zyklik Automotive, Investitionsbedarf und mögliche Guidance-Enttäuschung. Keine bestätigte neue Surprise vor 07:30.\n\n**HelloFresh (HFG), WATCH, vorsichtig negativ:** [IR-Meldung 05.11.2026](https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-verbessert-profitabilitaet-ueber-produktsegmente-hinweg/eac3ad4c-1662-4015-a195-541a2089fcd4): währungsbereinigter Umsatz ca. 1,4 Mrd EUR, -11,3%; AEBITDA 50,9 Mio EUR, +26,3%. Volumen-/Nachfragerisiko gegen verbesserte Marge; kein neues Short-Fill.\n\n**Siemens Energy (ENR), WATCH:** [IR-Termin 11.11.2026](https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html): FY26-Zahlen 07:00. Erwartungen und neuer Ausblick noch nicht verifiziert; keine Trade-Qualifikation.\n\n**RWE (RWE), WATCH:** [IR-Termin 11.11.2026](https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/2026-Q3/): 9M-Ergebnisse 07:00. Margen, Cashflow und Guidance noch zu prüfen; kein Trade.\n\n**Siemens (SIE), WATCH:** [IR-Termin 12.11.2026](https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026): Q4 FY26 07:00; noch keine aktuellen Ist-Werte.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister wurde nur als Positionsjournal gelesen, nicht als Kursquelle. IREN: REFERENZSIMULATION Short, Basis 18,05 USD, kein nachgewiesener Fill; [Yahoo Finance, 09.11.2026 16:00:01 EST](https://finance.yahoo.com/quote/IREN/history/) Schlusskurs 21,41 USD, Nasdaq REGULAR CLOSE. Reine Referenzrechnung bei hypothetischen 500 EUR Exposure: 500×(1−21,41/18,05)=−93,07 EUR, ohne FX/Kosten; **kein echter realisierter PnL**. Im Register vorhandene Marke 21,39 USD 09.11. 16:00 EST nicht rückwirkend ersetzt, da zeitliche Eindeutigkeit und Quote-Typ noch abzugleichen sind. HFG: USER_REPORTED Short-Turbo, letzter Registerwert 3,029 EUR vom 09.11. 17:35 MEZ, ALT; Einstand/ISIN/KO fehlen, PnL nicht berechenbar. PTON: USER_REPORTED Short-Turbo, [Yahoo Finance, 09.11. 16:00 EST](https://finance.yahoo.com/quote/PTON/) Aktien-Schlusskurs 5,95 USD, aber kein Turboproduktkurs, PnL nicht berechenbar. Keine Position geschlossen. Opening-Exit nur mit vorheriger Orderfestlegung und später überprüftem Print.\n\n## Strategien, Kosten, Unsicherheiten\nPRE-EARNINGS: IFX/HEN3 erst nach 07:30-Ergebnissen mit zuvor dokumentiertem Konsens bewerten. PEAD: ohne verifizierte EPS- und Umsatzsurprise keine Bestätigung. Guidance-Revision: Henkel positiver, Marktreaktion offen. Pairs: keine datierte 60–252-Tageskursreihe, Korrelation null. Keine verifizierten Bid/Ask-Spreads, keine neuen Analystenziele von zwei namentlich genannten Häusern, keine vergleichbaren Fonds-Filings, keine valide Guidance-Trefferquote, keine belastbaren Stop-/Netto-Kosten-Trades. IBKR-Mindestprovisionen für deutsche Aktien 2,50 EUR Roundtrip ([IBKR-Gebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe)), bei 250 EUR Notional schon 1% vor Spread; die 0,5%-Kostenregel ist so nicht erfüllt. Paper-Startkapital 10.000 EUR ist nur virtuell; keine Broker-Fills. TradingView-Widget ist kein verifizierter Live-PnL-Feed.\n\n## Quellen- und Dossierstand\n8 eigenständige Unternehmens-Originalseiten in diesem Durchlauf inhaltlich gesichtet (Henkel 2, Infineon 2, HelloFresh 1, Siemens Energy 1, RWE 1, Siemens 1), zusätzlich öffentliches Earnings-Kalender- und Quote-Material. Ziel 50 pro Dossier nicht erreicht; zwei unabhängige aktuelle Analystenvoten, periodengleiche Guidance-Ist-Paare, regulatorische Beteiligungsvergleiche und belastbare aktuelle Bid/Ask-Quotes fehlen.",
+      "report_sections": [
+        {
+          "heading": "Vorbörse",
+          "summary": "Noch keine 07:30-Firmenzahlen und keine Trades",
+          "bullets": []
+        }
+      ]
     }
   ],
   "deep_dives": {
@@ -12649,12 +12905,12 @@
     },
     "HFG": {
       "ticker": "HFG",
-      "name": "HelloFresh SE",
+      "name": "HelloFresh",
       "tv": "XETR:HFG",
-      "as_of": "2026-11-06T15:55:56Z",
+      "as_of": "2026-11-10T06:55:37Z",
       "status": "IN_PROGRESS",
-      "stance": "SHORT",
-      "summary": "Umsatz währungsbereinigt -11,3%; AEBITDA 50,9 Mio EUR; Bestellungen -17,9%",
+      "stance": "WATCH",
+      "summary": "Vorbörsliche Event-Prüfung; keine qualifizierte Entry-These",
       "source_goal": 50,
       "source_documents": [
         {
@@ -12706,6 +12962,16 @@
           "finding": "Q3-Umsatzprognose -11% bis -12%, Q3 AEBITDA 45–55 Mio EUR",
           "checked_on": "2026-11-06T09:03:04Z",
           "doc_type": "company_release"
+        },
+        {
+          "id": "HFG-2026-11-05",
+          "title": "HelloFresh Q3 2026",
+          "publisher": "HelloFresh IR",
+          "published_at": "2026-11-05",
+          "url": "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-verbessert-profitabilitaet-ueber-produktsegmente-hinweg/eac3ad4c-1662-4015-a195-541a2089fcd4",
+          "finding": "Währungsbereinigter Umsatz -11,3%; AEBITDA 50,9 Mio EUR",
+          "checked_on": "2026-11-10",
+          "doc_type": "company_IR"
         }
       ],
       "financial_history": [
@@ -12790,11 +13056,12 @@
       "institutional_holdings": [],
       "holdings_note": "Noch keine verifizierten, einzelnen Fonds-13F-Bestände mit Quartalsvergleich ermittelt. Kein Rückschluss auf Shortpositionen möglich.",
       "key_unknowns": [
-        "Aktuelle Xetra-Quotes",
-        "Konsens und Analystenrevisionen",
-        "50-Quellen-Vollprüfung"
+        "Aktueller Konsens",
+        "Bid/Ask",
+        "Periodengleiche Guidance-Scorecard",
+        "Aktuelle Analystenvoten"
       ],
-      "method_note": "Nur tatsächlich geöffnete unabhängige Dokumente zählen; 50 Quellen Ziel, keine Vollständigkeit behauptet",
+      "method_note": "Neue Dokumente per eindeutiger URL dedupliziert; keine Syndikationen gezählt",
       "analyst_coverage": []
     },
     "ABNB": {
@@ -13277,17 +13544,17 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-09T17:04:03Z",
-      "status": "INCOMPLETE",
+      "as_of": "2026-11-10T06:55:37Z",
+      "status": "IN_PROGRESS",
       "stance": "WATCH",
-      "summary": "Earnings laut Kalender 10.11.",
+      "summary": "Vorbörsliche Event-Prüfung; keine qualifizierte Entry-These",
       "key_unknowns": [
-        "Konsens",
-        "Guidance-Ist",
-        "Spread",
-        "Analysten"
+        "Aktueller Konsens",
+        "Bid/Ask",
+        "Periodengleiche Guidance-Scorecard",
+        "Aktuelle Analystenvoten"
       ],
-      "method_note": "Nur geöffnete eigenständige Dokumente gezählt",
+      "method_note": "Neue Dokumente per eindeutiger URL dedupliziert; keine Syndikationen gezählt",
       "holdings_note": "Nicht verifiziert",
       "analyst_coverage": "Nicht ausreichend verifiziert"
     },
@@ -13962,16 +14229,60 @@
         "13F period-to-period verification"
       ],
       "method_note": "Only individually opened original documents counted"
+    },
+    "HEN3": {
+      "ticker": "HEN3",
+      "name": "Henkel",
+      "tv": "XETR:HEN3",
+      "as_of": "2026-11-10T06:55:37Z",
+      "status": "IN_PROGRESS",
+      "stance": "WATCH",
+      "summary": "Vorbörsliche Event-Prüfung; keine qualifizierte Entry-These",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "HEN3-2026-10-29",
+          "title": "Henkel Q3 2026 vorläufig",
+          "publisher": "Henkel",
+          "published_at": "2026-10-29",
+          "url": "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-10-29-henkel-achieves-very-strong-organic-sales-growth-in-the-third-quarter-and-updates-outlook-for-2026-2272318",
+          "finding": "Umsatz 5,713 Mrd EUR; organisch +6,5%; Jahresausblick angehoben",
+          "checked_on": "2026-11-10",
+          "doc_type": "company_IR"
+        },
+        {
+          "id": "HEN3-2026-11-10",
+          "title": "Henkel Q3 Veröffentlichung",
+          "publisher": "Henkel",
+          "published_at": "2026-11-10",
+          "url": "https://www.henkel.com/investors-and-analysts/events/2026-q3",
+          "finding": "Q3-Mitteilung 07:30 MEZ, zum Check noch ausstehend",
+          "checked_on": "2026-11-10",
+          "doc_type": "company_IR"
+        }
+      ],
+      "key_unknowns": [
+        "Aktueller Konsens",
+        "Bid/Ask",
+        "Periodengleiche Guidance-Scorecard",
+        "Aktuelle Analystenvoten"
+      ],
+      "method_note": "Neue Dokumente per eindeutiger URL dedupliziert; keine Syndikationen gezählt",
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Nicht verifiziert",
+      "analyst_coverage": "Nicht verifiziert"
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-10T00:25:10Z",
-    "method_note": "US 19:25 EST afterhours: 4 individuell geprüfte Ticker; Reuters-Breitentriage separat, keine Vollabdeckung.",
+    "status": "PREMARKET",
+    "as_of": "2026-11-10T06:55:37Z",
+    "method_note": "7 konkrete Event-Ticker in diesem Lauf überprüft; nur vorbörsliche Unternehmens-IR, keine Quote-Qualifikation. Bestehende Kandidaten erhalten.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 1,
-      "triaged": 4,
+      "universe_checked": 7,
+      "earnings_events": 6,
+      "triaged": 7,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -14767,16 +15078,16 @@
         "tv": "XETR:HFG",
         "market": "XETRA",
         "sector": null,
-        "direction": "REVIEW",
-        "reason": "Nutzer-Short beobachten",
-        "stage": "SCREENED",
+        "direction": "WATCH",
+        "reason": "Währungsbereinigter Umsatz -11,3%; AEBITDA 50,9 Mio EUR",
+        "stage": "WATCH",
         "earnings_at": null,
-        "event": "Position review",
+        "event": "HelloFresh Q3 2026",
         "score": null,
         "sources": [
-          "https://stockanalysis.com/quote/etr/HFG/history/"
+          "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-verbessert-profitabilitaet-ueber-produktsegmente-hinweg/eac3ad4c-1662-4015-a195-541a2089fcd4"
         ],
-        "as_of": "2026-11-10T00:25:10Z"
+        "as_of": "2026-11-10T06:55:37Z"
       },
       {
         "ticker": "HYQ",
@@ -14869,16 +15180,16 @@
         "tv": "XETR:IFX",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Earnings laut Kalender 10.11.",
+        "direction": "WATCH",
+        "reason": "Q2-Umsatz 3,812 Mrd EUR; FCF-Jahresziel 1,25 Mrd EUR",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings laut Kalender 10.11.",
+        "event": "Infineon Q2 FY26",
         "score": null,
         "sources": [
-          "https://www.infineon.com/press-release/2026/infxx202602-042"
+          "https://www.infineon.com/de/press-release/2026/infxx202605-082"
         ],
-        "as_of": "2026-11-09T17:04:03Z"
+        "as_of": "2026-11-10T06:55:37Z"
       },
       {
         "ticker": "ENR",
@@ -14886,16 +15197,16 @@
         "tv": "XETR:ENR",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Earnings 11.11. 07:00",
+        "direction": "WATCH",
+        "reason": "FY26 Ergebnis am 11.11. 07:00 MEZ",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings 11.11. 07:00",
+        "event": "Siemens Energy FY26 Termin",
         "score": null,
         "sources": [
           "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html"
         ],
-        "as_of": "2026-11-09T17:04:03Z"
+        "as_of": "2026-11-10T06:55:37Z"
       },
       {
         "ticker": "SIE",
@@ -14904,16 +15215,15 @@
         "market": "XETRA",
         "sector": null,
         "direction": "WATCH",
-        "reason": "FY26 Earnings 12.11.",
+        "reason": "Q4 FY26 am 12.11. 07:00 MEZ",
         "stage": "WATCH",
-        "earnings_at": "2026-11-12T07:00:00+01:00",
-        "event": "FY26 Earnings 12.11.",
+        "earnings_at": null,
+        "event": "Siemens Q4 Termin",
         "score": null,
         "sources": [
-          "https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026",
-          "https://press.siemens.com/global/en/pressrelease/siemens-continues-path-profitable-growth"
+          "https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026"
         ],
-        "as_of": "2026-11-09T11:57:04Z"
+        "as_of": "2026-11-10T06:55:37Z"
       },
       {
         "ticker": "CON",
@@ -14937,17 +15247,17 @@
         "name": "RWE",
         "tv": "XETR:RWE",
         "market": "XETRA",
-        "sector": "Utilities",
+        "sector": null,
         "direction": "WATCH",
-        "reason": "Kapazitätszuschlag",
+        "reason": "9M-Ergebnis am 11.11. 07:00 MEZ",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Capacity award",
+        "event": "RWE Q3 Termin",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/energy/germany-awards-gas-plant-contracts-utilities-including-rwe-ephs-leag-2026-11-03/"
+          "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/2026-Q3/"
         ],
-        "as_of": "2026-11-09T14:00:34Z"
+        "as_of": "2026-11-10T06:55:37Z"
       },
       {
         "ticker": "KKR",
@@ -15172,6 +15482,23 @@
           "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
         ],
         "as_of": "2026-11-09T23:34:39Z"
+      },
+      {
+        "ticker": "HEN3",
+        "name": "Henkel",
+        "tv": "XETR:HEN3",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Umsatz 5,713 Mrd EUR; organisch +6,5%; Jahresausblick angehoben",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Henkel Q3 2026 vorläufig",
+        "score": null,
+        "sources": [
+          "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-10-29-henkel-achieves-very-strong-organic-sales-growth-in-the-third-quarter-and-updates-outlook-for-2026-2272318"
+        ],
+        "as_of": "2026-11-10T06:55:37Z"
       }
     ],
     "pairs": [
@@ -15677,6 +16004,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261110T002510Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "XETRA",
+        "universe_checked": 7,
+        "earnings_events": 6,
+        "triaged": 7,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261110T065537Z"
       }
     ],
     "strategies": [
