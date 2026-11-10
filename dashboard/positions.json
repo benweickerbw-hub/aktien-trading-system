@@ -1,6 +1,6 @@
 {
-  "version": 21,
-  "updated_at": "2026-11-09T22:32:56Z",
+  "version": 22,
+  "updated_at": "2026-11-10T00:25:10Z",
   "update_note": "Nutzerziel: 10 Paper-Trades je Xetra-Handelstag, unbegrenztes hypothetisches Forschungs-/Kapitalbudget; keine unbestätigten Fills. Bestehende Positionsdaten unverändert.",
   "trades": [
     {
@@ -17,17 +17,17 @@
       "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 21.69,
-      "mark_at": "2026-11-09T15:25:00-05:00",
-      "mark_source": "StockAnalysis/S&P Global market-cap page, regular-session displayed last; independent delay unknown",
+      "mark_price": 21.39,
+      "mark_at": "2026-11-09T16:00:00-05:00",
+      "mark_source": "https://stockanalysis.com/stocks/iren/history/",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
       "realized_pnl_eur": null,
       "planned_exit": "2026-11-06T09:30:00-05:00",
       "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
-      "mark_source_url": "https://stockanalysis.com/stocks/iren/market-cap/",
-      "mark_verified_at": "2026-11-09T21:25:49Z",
+      "mark_source_url": "https://stockanalysis.com/stocks/iren/history/",
+      "mark_verified_at": "2026-11-10T00:25:10Z",
       "model_unrealized_pnl_eur": -100.83,
       "reference_only": true,
       "previous_mark": {
@@ -36,7 +36,8 @@
         "source": "https://stockanalysis.com/stocks/iren/",
         "session": "REGULAR"
       },
-      "mark_type": "REGULAR"
+      "mark_type": "REGULAR_CLOSE",
+      "mark_currency": "USD"
     },
     {
       "id": "USER-HELLOFRESH",
@@ -78,13 +79,13 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 5.94,
+      "mark_price": 5.93,
       "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-09T14:36:00-05:00",
-      "mark_type": "REGULAR",
-      "mark_source": "StockAnalysis NASDAQ stock overview, Last, site labels real-time; independent exchange feed delay not established",
-      "mark_source_url": "https://stockanalysis.com/stocks/pton/",
-      "mark_verified_at": "2026-11-09T20:28:34Z",
+      "mark_at": "2026-11-09T18:18:00-05:00",
+      "mark_type": "AFTERHOURS_LAST",
+      "mark_source": "https://stockanalysis.com/stocks/pton/history/",
+      "mark_source_url": "https://stockanalysis.com/stocks/pton/history/",
+      "mark_verified_at": "2026-11-10T00:25:10Z",
       "model_unrealized_pnl_eur": null,
       "reference_only": false,
       "previous_mark": {
@@ -92,7 +93,8 @@
         "at": "2026-11-09T12:32:00-05:00",
         "source": "https://stockanalysis.com/stocks/pton/",
         "session": "REGULAR"
-      }
+      },
+      "mark_currency": "USD"
     },
     {
       "id": "USER-DEUTZ",
