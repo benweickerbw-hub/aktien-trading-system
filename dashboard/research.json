@@ -1,6 +1,6 @@
 {
-  "version": 84,
-  "updated_at": "2026-11-10T15:27:14Z",
+  "version": 85,
+  "updated_at": "2026-11-10T17:04:52Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -13925,6 +13925,96 @@
         "reference_only": true
       },
       "report_markdown": "# US-Aktienresearch – 10.11.2026, 10:27 EST (15:27 UTC)\n\n## Markt und Ereignisse\nNYSE/Nasdaq regulär geöffnet, 09:30–16:00 EST. Morgen, 11.11., Veterans Day, sind US-Aktienbörsen regulär geöffnet. [Reuters, 10.11.2026](https://www.reuters.com/business/sp-500-dow-futures-climb-oil-slide-lifts-sentiment-2026-11-10/) berichtet von einem schwächeren Handelsstart nach überraschend hoher Inflation. [Reuters, 10.11.2026](https://www.reuters.com/business/wells-fargo-upgrades-us-ai-infrastructure-view-after-chip-selloff-2026-11-10/) meldet Wells Fargos Hochstufung des AI-Infrastruktur-Sektors von negativ auf neutral; das ist kein Kaufsignal für jeden Einzeltitel.\n\n## Screening und Kandidaten\n**CRWV – WATCH, Richtung unentschieden:** [TradingKey, 10.11.2026](https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey) beschreibt die Wayve-Partnerschaft und für heute nachbörslich erwartete Q3-Zahlen. Bull: zusätzliche AI-Cloud-Nachfrage; Bear: Finanzierung, hohe Investitionen und nicht bezifferter Auftragswert. Erst Ergebnis, Guidance, Schulden und Spread prüfen.\n\n**APPS – WATCH/SHORT-Hypothese, nicht qualifiziert:** [Barron's, 10.11.2026](https://www.barrons.com/articles/digital-turbine-earnings-stock-price-ai-investments-7dc84eef) berichtet von einer negativen Marktreaktion trotz besserer Zahlen, ausgelöst durch geplante AI-Ausgaben. Bull: Umsatzwachstum; Bear: Margen- und Kostenrisiko. Der Artikel ist teilweise zugangsbeschränkt, daher keine vollständige Originalberichtprüfung.\n\n**GRPN – WATCH/SHORT-Hypothese, nicht qualifiziert:** [Seeking Alpha, 10.11.2026](https://seekingalpha.com/news/4669707-groupon-drops-17-in-premarket-after-earnings-miss) berichtet von verfehlten Gewinn- und Umsatzschätzungen und vorbörslichem Kursrückgang. Risiko: Gegenbewegung nach Gap und nicht geprüfte Liquidität.\n\n**Methodik:** Drei konkrete Event-Ticker triagiert, kein vollständig qualifizierter Titel. PRE-EARNINGS CRWV, PEAD GRPN/APPS nur hypothetisch, GUIDANCE-REVISION und PAIRS mangels belastbarer Daten nicht verifiziert. Konsensstände, zwei aktuelle Analysten je Titel, SEC-Originaldokumente, zwei 13F-Vergleichsfilings, 60–252 Kursbeobachtungen, Borrow und realistische Bid/Ask-Spreads: noch nicht gefunden. Dokumentenprüfung dieses Laufs: CRWV 1/50, APPS 1/50 (eingeschränkt), GRPN 1/50 (eingeschränkt); alle Dossiers vorläufig. Keine Management-Guidance-Trefferquote ableitbar.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nDie aktuelle GitHub-Positionsliste enthält **keine** Positionseinträge. Paper-Konto: 10.000 EUR rein hypothetisches Ausgangskapital, keine verifizierte Broker-Equity. Daher kein aktiver Positions-PnL. Frühere IREN-Referenz 18,05 USD ist kein nachgewiesener Fill; HFG/PTON-Produktpositionen sind in der aktuellen Datei nicht enthalten und werden nicht erfunden. TradingView-Widgetpreise sind kein verifizierter PnL-Feed.\n\n## Entscheidung und Risiko\n**KEIN TRADE / 0 neue Fills**: 10:27 EST ist kein autorisierter 15:30-Entscheidungsslot. Außerdem fehlen zeitnahe Bid/Ask, Spread, Borrow, Kostenprüfung und authentischer Paper-Broker-Fill. Keine rückdatierten Ein- oder Ausstiege. Risikobudget und 5x sind Modellannahmen, keine garantierten Verlustgrenzen. Für den späteren Slot nur neue, nach Entscheidung belegte Kursmarken berücksichtigen."
+    },
+    {
+      "id": "XETRA-20261110T170452Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T17:04:52Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Nachbörse: Siemens Energy, RWE und Allianz vor Zahlen; keine neuen Fills",
+      "summary": "Earnings-Pipeline geprüft; 3 unabhängige Publikationen, keine verifizierten neuen Marken oder Broker-Fills.",
+      "source_status": "3 öffentliche Publikationen gelesen; keine aktuellen Bid/Ask oder Unternehmens-Originalberichte.",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "Geschäftsjahreszahlen am 11.11.",
+          "risk": "Guidance und Quote nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "Zahlen am 11.11.",
+          "risk": "Earnings-Gap und fehlende Bid/Ask",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz",
+          "tv": "XETR:ALV",
+          "side": "WATCH",
+          "thesis": "Zahlen am 12.11.",
+          "risk": "Konsens und Guidance nicht original geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "DAX-Zahlenwoche: Termine 11.–12. November",
+          "published_at": "2026-11-06T15:48:00+01:00",
+          "ticker": null,
+          "publisher": "Investing.com",
+          "url": "https://de.investing.com/news/stock-market-news/daxzahlenwoche-infineon-siemens-allianz-und-usinflation--alle-termine-3752206",
+          "finding": "ENR/RWE/E.ON/Brenntag 11.11.; Allianz/Siemens/Merck/Munich Re 12.11."
+        },
+        {
+          "title": "Deutscher Earnings-Kalender",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "TipRanks",
+          "url": "https://www.tipranks.com/calendars/earnings/2026-11-10/germany",
+          "finding": "Deutsche Earnings-Events am 10. November gelistet."
+        },
+        {
+          "title": "RWE Handelsstart",
+          "published_at": "2026-11-10",
+          "ticker": "RWE",
+          "publisher": "Welt",
+          "url": "https://www.welt.de/article6af2eb718bbbd74e358816b0",
+          "finding": "Morgenkurs 58,88 EUR; nicht als Abendkurs verwendbar."
+        }
+      ],
+      "watchlist_briefs": [],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZSIMULATION",
+        "summary": "Kein verifizierter Fill, Marke vom Vortag veraltet.",
+        "base_scenario": "Nicht quantifizierbar",
+        "bull_scenario": "Kursrückgang wäre günstig für Short",
+        "bear_scenario": "Kursanstieg belastet Short",
+        "key_risk": "Gap/Short squeeze",
+        "planned_exit": "Nur anhand vorher festgelegter Order und belegtem Print",
+        "as_of": "2026-11-10T17:04:52Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Nachbörse – 10.11.2026, 18:04 MEZ\n\n## Lage und Termine\nXetra ist seit 17:30 MEZ geschlossen. Keine neuen simulierten Entries. [Investing.com, 06.11.2026](https://de.investing.com/news/stock-market-news/daxzahlenwoche-infineon-siemens-allianz-und-usinflation--alle-termine-3752206) nennt für 11.11. Siemens Energy, E.ON, RWE und Brenntag, für 12.11. Siemens, Allianz, Merck KGaA und Münchener Rück. Diese Termine sind Ereignisrisiken, keine Handelssignale. [TipRanks Earnings-Kalender, abgerufen 10.11.](https://www.tipranks.com/calendars/earnings/2026-11-10/germany) bestätigt eine breite deutsche Berichtswoche; dort sind einzelne Ist-Zahlen noch nicht vollständig eingetragen. [Welt, 10.11.](https://www.welt.de/article6af2eb718bbbd74e358816b0) meldete RWE am Morgen bei 58,88 EUR, gegenüber 58,60 EUR Vortagesschluss; KEIN aktueller 18-Uhr-Quote.\n\n## Screening und Watch\nEreignisse entdeckt: ENR, EOAN, RWE, BNR, SIE, ALV, MRK, MUV2, IFX, HEN. Das sind Kalenderfunde (DISCOVERED), kein vollständig geprüfter Liquiditäts-, Spread- und Bewertungs-Screen. Für ENR/RWE/ALV sind die kommenden Berichte relevant, aber Umsatz/EPS-Ist, Unternehmens-Guidance, zwei aktuelle Analystenstimmen, 60-252 Kursreihen und aktuelle Bid/Ask wurden in diesem Lauf nicht verifiziert. Deshalb keine QUALIFIED-These. PRE-EARNINGS: Überraschung noch unbekannt; PEAD: ohne bestätigte Surprise nicht anwendbar; GUIDANCE-REVISION: Originalvergleich fehlt; PAIRS: Korrelation nicht berechnet.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister gelesen, nur als Journal, nicht als Researchquelle. IREN SHORT: 18,05 USD historischer hypothetischer Einstieg, kein belegter Fill; letzte gespeicherte Marke 21,39 USD, 09.11. 16:00 EST, [StockAnalysis](https://stockanalysis.com/stocks/iren/history/), REGULAR_CLOSE; modelliert -100,83 EUR bei 100 EUR Margin und 5x, ausdrücklich REFERENZ und ALT, nicht aktuelles PnL. HFG SHORT (Nutzerturbo): gespeicherte Aktie 3,029 EUR, 09.11. 17:35 MEZ, [MarketScreener](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/), ALT; Produkt-PnL mangels ISIN, KO und Einstand nicht berechenbar. PTON SHORT (Nutzerturbo): gespeicherte Aktie 5,93 USD, 09.11. 18:18 EST, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/), AFTERHOURS, ALT; Produkt-PnL nicht berechenbar. Für keine Position wurde ein neuerer eindeutig zeitgestempelter Quote verifiziert; keine Marken überschrieben und kein Exit fingiert. Die ursprünglich vorgesehene IREN-Eröffnungsauswertung bleibt ohne vorher dokumentierte echte Eröffnungsorder eine Referenzanalyse.\n\n## Kapital, Entscheidung und Lücken\nPaper-Startbudget 10.000 EUR, keine verbundene Paper-Broker-Ausführung. Aktuelle execution_policy: bis 10 neue Trades als Ziel, nicht Pflicht; Spread-, Kosten-, Stop- und Fill-Nachweise fehlen. Keine Ausführung nach Xetra-Schluss. 0 neue Fills, 0 neue Closing-Fills. Tatsächlich inhaltlich gelesene externe Publikationen: 3 (Investing.com, TipRanks, Welt), davon 0 Unternehmens-Originalberichte; kein neues vollständiges 50-Dokumente-Master-Dossier. Noch nicht verifiziert: frische offizielle Ergebnisse, Analystenrevisionen, institutionelle Filings, 18-Uhr-Kurse, PnL und Kosten."
     }
   ],
   "deep_dives": {
@@ -16310,13 +16400,13 @@
     }
   },
   "screening": {
-    "status": "PRELIMINARY",
-    "as_of": "2026-11-10T15:27:14Z",
-    "method_note": "Nur drei tatsächlich titelbezogen geprüfte Eventmeldungen in diesem Lauf; keine universumsweite Vollprüfung.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-10T17:04:52Z",
+    "method_note": "Xetra 18:04 Nachbörse: 10 Kalenderfunde DISCOVERED, nicht als vollständig gescreent gezählt; 3 Publikationen gelesen.",
     "coverage": {
-      "universe_checked": 1,
-      "earnings_events": 5,
-      "triaged": 8,
+      "universe_checked": 0,
+      "earnings_events": 10,
+      "triaged": 0,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -18208,6 +18298,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261110T152714Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "XETRA",
+        "universe_checked": 0,
+        "earnings_events": 10,
+        "triaged": 0,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261110T170452Z"
       }
     ],
     "strategies": [
