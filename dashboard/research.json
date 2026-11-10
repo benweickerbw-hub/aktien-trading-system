@@ -1,6 +1,6 @@
 {
-  "version": 74,
-  "updated_at": "2026-11-10T09:04:51Z",
+  "version": 75,
+  "updated_at": "2026-11-10T09:55:20Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -12611,6 +12611,207 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra Research – 10.11.2026, 10:04 CET\n\n## Push\nRWE und Siemens Energy berichten am 11.11.2026; Bayer hat am 03.11. die Jahresprognose verbessert. WATCH: RWE, Siemens Energy, Bayer. Keine neuen Paper-Fills; kein authentifizierter Paper-Broker.\n\n## Markt und Ereignisse\nXetra reguläre Sitzung 09:00–17:30 CET. Marktweite Indizes und aktuelle Bid/Ask-Spreads wurden nicht zeitnah verifiziert. Zwei wichtige morgige Ereignisse: Siemens Energy veröffentlicht Jahreszahlen um 07:00 CET, RWE Q1–Q3-Zahlen um circa 07:00 CET. Das sind Event-Risiken, keine gesicherten Long-Signale.\n\n## Screening und Watchlist\nDrei Ticker mit Originalquellen geprüft: ENR, RWE, BAYN. Keine vollständige Liquiditäts-/Spread-/Konsensvalidierung; daher WATCH statt QUALIFIED. Siemens Energy: Q3 Auftragseingang 17,9 Mrd EUR, Auftragsbestand 162 Mrd EUR; morgen Ergebnisrisiko, mögliche Gewinnmitnahmen. RWE: H1 bereinigtes EBITDA 3,0 Mrd EUR; Juli-Guidance 2026 5,75–6,35 Mrd EUR; morgen Abgleich mit 9M-Bericht, operative Sondereffekte beachten. Bayer: Q3 Umsatz 10,053 Mrd EUR, EBITDA vor Sondereinflüssen 1,615 Mrd EUR, Nettoverschuldung 31,083 Mrd EUR; verbessertes Jahresziel, aber Bilanz- und Rechtsrisiken. Namentlich verifizierte aktuelle Analystenziele: nicht gefunden. EPS/Umsatz-Konsens vor Veröffentlichungen: nicht verifiziert. Institutionelle Originalfilings und periodengleiche Guidance-Scorecards: nicht verifiziert. Keine 60–252-Tage-Paar-Korrelation berechnet.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: 18,05 USD historische Referenz, kein belegter Fill; Nasdaq-Schluss 09.11. 21,41 USD 16:00 EST laut Yahoo Finance; reine Referenzrechnung 500×(1−21,41/18,05)=−93,07 EUR ohne Gebühren/FX, keine reale Performance. Vorhandene Journal-Marke 21,39 USD vom 09.11. bleibt unverändert, da kein neuer zeitnaher Handelsmarkenbeleg. HFG SHORT USER_REPORTED: Xetra-Schluss 09.11. 3,029 EUR 17:35 CET; Turbo-Einstieg/ISIN unbekannt, PnL nicht berechenbar. PTON SHORT USER_REPORTED: Nasdaq-Schluss 09.11. 5,95 USD, keine Produktdaten, PnL nicht berechenbar. Alle genannten Kurse ALT, keine aktuellen Intraday-Marken. Ausstiege nicht rückwirkend buchen. Referenz-IREN-Exitdatum 06.11. verstrichen, Opening-Fill nicht verifiziert.\n\n## Risiko und Entscheidung\nPaper-Modellkapital 10.000 EUR laut Positionsregister, Broker nicht verbunden; kein FILL. 5x-Exposure und Gaps können den Einsatz übersteigen. Deutsche IBKR-Tiered-Mindestprovision 2,50 EUR Roundtrip vor Spreads: bei 250 EUR Notional bereits 1 %, über der 0,5%-Kostenobergrenze. PRE-EARNINGS und GUIDANCE-REVISION als Beobachtung; PEAD nicht ohne bestätigte doppelte Surprise; Pairs nicht ohne Kursreihen. Entscheidung REVIEW / KEIN NEUER TRADE. Eine Opening-Order muss vor Eröffnung feststehen, der Opening-Print erst danach überprüft werden.\n\n## Geprüfte Quellen\n- [Siemens Energy](https://www.siemens-energy.com/content/siemensenergy-aem/global/en/home/press-releases/annual-press-conference-2026.html) – 11.11.2026 Veröffentlichung 07:00 CET\n- [RWE](https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/2026-Q3/) – 11.11.2026 Q1-Q3 Bericht 07:00 CET\n- [RWE](https://www.rwe.com/investor-relations/finanzkalender-und-veroeffentlichungen/news-und-ad-hoc-mitteilungen/ad-hoc-mitteilungen/ad-hoc-2026-07-28/) – 28.07.2026 erhöhte EBITDA-Guidance 5,75–6,35 Mrd EUR\n- [Bayer](https://www.bayer.com/media/en-us/bayer-increases-sales-and-ebitda-before-special-items-in-the-third-quarter-improves-full-year-outlook) – 03.11.2026 Q3 Umsatz 10,053 Mrd EUR, EBITDA bereinigt 1,615 Mrd EUR\n- [Siemens Energy](https://www.siemens-energy.com/de/de/home/investor-relations.html) – Q3 Auftragseingang 17,9 Mrd EUR, Auftragsbestand 162 Mrd EUR\n- [RWE](https://www.rwe.com/investor-relations/finanzkalender-und-veroeffentlichungen/news-und-ad-hoc-mitteilungen/news/news-2026-08-13/) – 13.08.2026 H1 bereinigtes EBITDA 3,0 Mrd EUR\n- [Yahoo IREN historische Preise](https://finance.yahoo.com/quote/IREN/history/) – 09.11.2026 Close 21,41 USD.\n- [Yahoo HFG](https://finance.yahoo.com/quote/HFG.DE/) – 09.11.2026 Close 3,029 EUR.\n- [StockAnalysis PTON](https://stockanalysis.com/stocks/pton/history/) – 09.11.2026 Close 5,95 USD.\n- [IBKR Ireland Gebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe) – Gebührenmodell, Abruf 10.11.2026.\n\nIn diesem Lauf 10 unterschiedliche öffentliche Dokumentseiten inhaltlich ausgewertet; davon sechs Unternehmens-Originalquellen, drei Kursseiten und eine Gebührenquelle. 50-Dokument-Dossiers nicht erreicht."
+    },
+    {
+      "id": "XETRA-20261110T095520Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T09:55:20Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Siemens Energy FY26 am 11.11.; RWE H1 stark; keine Fills",
+      "summary": "3 europäische Titel geprüft, 0 qualifiziert; alle drei offenen Referenz-/Nutzerpositionen mit Vortagsschlusskursen bewertet, keine neueren Quotes.",
+      "source_status": "9 öffentliche Seiten/Datensätze betrachtet; 6 Unternehmensseiten; keine frischen ausführbaren Bid/Ask-Kurse.",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "Q4/FY26 Ergebnisse 11.11; Q3 Rekordaufträge",
+          "risk": "Bewertung und Gamesa",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "H1 EBITDA-Wachstum",
+          "risk": "Investitionen und Strompreis",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "BAYN",
+          "name": "Bayer AG",
+          "tv": "XETR:BAYN",
+          "side": "NEUTRAL",
+          "thesis": "Q3-Berichtsprüfung",
+          "risk": "Unverifizierte aktuelle Kennzahlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Energy Q4/FY26 Termin",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-11-11",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+          "ticker": "ENR",
+          "finding": "Veröffentlichung 11.11. 07:00 MEZ"
+        },
+        {
+          "title": "Siemens Energy Q3 FY26 Zahlen",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-08-05",
+          "url": "https://www.siemens-energy.com/de/de/home/investor-relations.html",
+          "ticker": "ENR",
+          "finding": "Q3 Aufträge 17,9 Mrd. EUR; Umsatz 11,4 Mrd.; Auftragsbestand 162 Mrd."
+        },
+        {
+          "title": "RWE Halbjahreszahlen",
+          "publisher": "RWE",
+          "published_at": "2026-08-13",
+          "url": "https://uk.rwe.com/press-and-news/2026-08-13-rwe-delivers-strong-first-half-results/",
+          "ticker": "RWE",
+          "finding": "H1 bereinigtes EBITDA 3,0 Mrd. EUR, EPS 1,77 EUR"
+        },
+        {
+          "title": "RWE Geschäftsjahr 2025",
+          "publisher": "RWE",
+          "published_at": "2026-03-12",
+          "url": "https://benelux.rwe.com/en/press/2026-03-12-rwe-delivers-strong-financial-performance/",
+          "ticker": "RWE",
+          "finding": "2025 EBITDA 5,1 Mrd. EUR; Nettoinvestitionen 2026-31 geplant"
+        },
+        {
+          "title": "RWE Q1 2026",
+          "publisher": "RWE",
+          "published_at": "2026-05-13",
+          "url": "https://jp.rwe.com/en/press/2026-05-13-rwe-delivers-strong-start-to-the-year/",
+          "ticker": "RWE",
+          "finding": "Q1 EBITDA 1,6 Mrd. EUR"
+        },
+        {
+          "title": "Bayer Quartalsberichte",
+          "publisher": "Bayer",
+          "published_at": "2026-11-03",
+          "url": "https://www.bayer.com/de-de/investoren/finanzberichte/quartalsberichte",
+          "ticker": "BAYN",
+          "finding": "Q3 Berichtstermin, Details hier nicht separat validiert"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Q4/FY26 Ergebnisse 11.11; Q3 Rekordaufträge",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Veröffentlichung 11.11. 07:00 MEZ",
+              "url": "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+              "publisher": "Siemens Energy",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3 Aufträge 17,9 Mrd. EUR; Umsatz 11,4 Mrd.; Auftragsbestand 162 Mrd.",
+              "url": "https://www.siemens-energy.com/de/de/home/investor-relations.html",
+              "publisher": "Siemens Energy",
+              "published_at": "2026-08-05"
+            }
+          ],
+          "catalysts": [
+            "FY26 Zahlen 11.11. 07:00 MEZ"
+          ],
+          "invalidations": [
+            "Bewertung und Gamesa"
+          ]
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "H1 EBITDA-Wachstum",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "H1 bereinigtes EBITDA 3,0 Mrd. EUR, EPS 1,77 EUR",
+              "url": "https://uk.rwe.com/press-and-news/2026-08-13-rwe-delivers-strong-first-half-results/",
+              "publisher": "RWE",
+              "published_at": "2026-08-13"
+            },
+            {
+              "type": "FAKT",
+              "text": "2025 EBITDA 5,1 Mrd. EUR; Nettoinvestitionen 2026-31 geplant",
+              "url": "https://benelux.rwe.com/en/press/2026-03-12-rwe-delivers-strong-financial-performance/",
+              "publisher": "RWE",
+              "published_at": "2026-03-12"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q1 EBITDA 1,6 Mrd. EUR",
+              "url": "https://jp.rwe.com/en/press/2026-05-13-rwe-delivers-strong-start-to-the-year/",
+              "publisher": "RWE",
+              "published_at": "2026-05-13"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Investitionen und Strompreis"
+          ]
+        },
+        {
+          "ticker": "BAYN",
+          "name": "Bayer AG",
+          "tv": "XETR:BAYN",
+          "stance": "NEUTRAL",
+          "horizon": "1-10 Handelstage",
+          "summary": "Q3-Berichtsprüfung",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Berichtstermin, Details hier nicht separat validiert",
+              "url": "https://www.bayer.com/de-de/investoren/finanzberichte/quartalsberichte",
+              "publisher": "Bayer",
+              "published_at": "2026-11-03"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Unverifizierte aktuelle Kennzahlen"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Kein nachgewiesener Short-Fill; Nasdaq Schluss vom Vortag",
+        "base_scenario": "Weitere Volatilität, keine zuverlässige Richtungsprognose",
+        "bull_scenario": "Kursrückgang begünstigt hypothetischen Short",
+        "bear_scenario": "Kursanstieg belastet Short",
+        "key_risk": "Short squeeze und Gaps",
+        "planned_exit": "Nur dokumentierter vorab definierter Exit",
+        "as_of": "2026-11-10T09:55:20Z",
+        "mark_price": 21.41,
+        "mark_at": "2026-11-09T16:00:01-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": -93.07,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 10.11.2026 10:55 MEZ\n\n**Entscheidung: REVIEW / KEIN TRADE.** Xetra regulärer Handel; kein neuer Paper-Fill. 10.000 EUR sind ausschließlich hypothetisches Startkapital; Broker-Paper-Endpoint nicht verbunden. Ausführungskonfiguration: variable Margin 10–200 EUR, bevorzugt 50 EUR, 5x synthetischer Hebel, max. 10 neue Trades/Sitzung laut zuletzt gelesener positions.paper_account.execution_policy. Keine geprüften frischen Bid/Ask-Spreads und kein authentifizierter Fill; keine Order.\n\n## Earnings / Prioritäten\n\n**Siemens Energy (ENR), WATCH:** Am 11.11. um 07:00 MEZ werden FY26/Q4-Zahlen veröffentlicht ([Siemens Energy, Eventankündigung](https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html)). Q3 FY26: Auftragseingang 17,9 Mrd. EUR, Umsatz 11,4 Mrd. EUR, Auftragsbestand 162 Mrd. EUR, Ergebnis vor Sondereffekten 1,623 Mrd. EUR ([Siemens Energy IR, 05.08.2026](https://www.siemens-energy.com/de/de/home/investor-relations.html)). Bull: strukturelle Stromnetz- und Gasturbinennachfrage; Bear: hohe Erwartungen, Gamesa-Ausführungsrisiko, mögliche Sell-the-News-Reaktion. Kein validierter aktueller Analystenkonsens oder handelbarer Spread; Richtung WATCH, kein qualifizierter Fill.\n\n**RWE (RWE), WATCH:** H1 2026 bereinigtes EBITDA 3,0 Mrd. EUR gegenüber 2,1 Mrd. EUR Vorjahr, EPS 1,77 EUR gegenüber 1,08 EUR; Nettoinvestitionen H1 6,3 Mrd. EUR ([RWE, 13.08.2026](https://uk.rwe.com/press-and-news/2026-08-13-rwe-delivers-strong-first-half-results/)). Q1 EBITDA 1,6 Mrd. EUR ([RWE, 13.05.2026](https://jp.rwe.com/en/press/2026-05-13-rwe-delivers-strong-start-to-the-year/)). 2025 EBITDA 5,1 Mrd. EUR ([RWE, 12.03.2026](https://benelux.rwe.com/en/press/2026-03-12-rwe-delivers-strong-financial-performance/)). Bull: Kapazitätsausbau und Nachfrage; Bear: Verschuldung, hoher Investitionsbedarf, Strompreis-/Wetterrisiko. Die zuvor genannte 2026-EBITDA-Spanne 5,75–6,35 Mrd. EUR wurde in diesem Lauf nicht neu belegt und wird nicht als verifiziert wiederholt.\n\n**Bayer (BAYN), SCREENED:** Q3-Berichtsarchiv ([Bayer IR, 03.11.2026](https://www.bayer.com/de-de/investoren/finanzberichte/quartalsberichte)). Ohne separat überprüfte aktuelle Q3-Zahlen, Rechtsrisiken und Konsens keine gerichtete Handelsentscheidung.\n\n## Screening und Strategie\n\nDrei europäische Unternehmen einzeln geprüft (ENR, RWE, BAYN); weitere Treffer nur DISCOVERED, nicht als geprüft gezählt. Qualifiziert 0, Trade-Signale 0. PRE-EARNINGS: ENR Eventrisiko, keine belastbare Überraschungsprognose. PEAD: keine gemeinsam belegte Umsatz- und EPS-Surprise für aktuellen Event. GUIDANCE: historische Zahlen vorhanden, aber keine periodengleiche vollständige Forecast-Ist-Scorecard. PAIRS: keine datierten 60–252 Tageskursreihen, daher Korrelation null und kein Hedge-Nachweis. Zwei namentliche aktuelle Analystenvoten je Aktie, Insider-/Stimmrechtsfilings und institutionelle Vergleiche nicht verifiziert. Quellenziel 50 pro Dossier nicht erreicht; neun verschiedene inhaltlich betrachtete öffentliche Seiten/Datensätze in diesem Lauf, davon sechs Unternehmensseiten (RWE 3, Siemens 2, Bayer 1). Keine 50-Quellen-Behauptung.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n\n**IREN Short:** Referenzbasis 18,05 USD ist KEIN nachgewiesener Fill. Letzter regulärer Nasdaq-Schluss 09.11.2026 16:00 EST 21,41 USD ([Yahoo Finance](https://finance.yahoo.com/quote/IREN/history/)). Bei rein hypothetischen 500 EUR Notional: 500×(1−21,41/18,05)=−93,07 EUR, ohne FX/Spreads/Gebühren, NICHT tatsächliche Performance. Neue Overnight-Kurse nicht als Nasdaq-Regular-Preis verwenden. Exit nur nach dokumentiertem vorab festgelegtem Plan, nicht rückwirkend.\n\n**HFG Nutzer-Turbo Short:** Xetra Schluss 09.11.2026 17:35 MEZ 3,029 EUR ([Finanznachrichten](https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm)). Aktienkurs ist nicht Turbo-Produktkurs; Einstand, ISIN, KO und Produkt-Spread fehlen; PnL nicht berechenbar. Kein bestätigter Exit.\n\n**PTON Nutzer-Turbo Short:** Nasdaq Schluss 09.11.2026 16:00 EST 5,95 USD ([StockAnalysis](https://stockanalysis.com/stocks/pton/history/)). Produktdetails fehlen; PnL nicht berechenbar. Kein bestätigter Exit.\n\nAlle drei Markierungen sind Schlusskurse des Vortags, KEINE Live-Marken des 10.11.; kein neuerer verifizierter Markierungseintrag. Eine simulierte Eröffnungsorder muss vor Marktöffnung feststehen; der tatsächliche Opening-Print wird erst danach bekannt. Keine nachträglichen Orders. TradingView-Widgetdaten nicht als offizielle Echtzeitkurse oder PnL-Quelle verwendet.\n\n## Research-Lücken und nächster Katalysator\n\nENR-Ergebnis 11.11. 07:00 MEZ; danach tatsächliche Q4-Zahlen, Guidance, Cashflow und Konsens separat prüfen. RWE: nächste Quartalszahlen und Termin in diesem Lauf nicht unabhängig bestätigt. Bewertungsmultiplikatoren, neue Analystenrevisionen, Directors' Dealings, ausführbare Geld-/Brief-Kurse, Borrow-Kosten und ein nachweisbares Netto-Risiko-Ertrags-Verhältnis fehlen. **Kein neuer Trade, keine Position geschlossen, kein positions.json-Mark-Update.**"
     }
   ],
   "deep_dives": {
@@ -14318,10 +14519,10 @@
       "ticker": "ENR",
       "name": "Siemens Energy",
       "tv": "XETR:ENR",
-      "as_of": "2026-11-09T17:04:03Z",
-      "status": "INCOMPLETE",
+      "as_of": "2026-11-10T09:55:20Z",
+      "status": "IN_PROGRESS",
       "stance": "WATCH",
-      "summary": "Earnings 11.11. 07:00",
+      "summary": "Q4/FY26 Ergebnisse 11.11; Q3 Rekordaufträge",
       "source_goal": 50,
       "source_documents": [
         {
@@ -14333,6 +14534,16 @@
           "finding": "Earnings-Termin vor Xetra-Öffnung; Zahlen noch nicht verfügbar.",
           "checked_on": "2026-11-09",
           "doc_type": "IR"
+        },
+        {
+          "id": "ENR-2026-08-05",
+          "title": "Siemens Energy Q3 FY26 Zahlen",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-08-05",
+          "url": "https://www.siemens-energy.com/de/de/home/investor-relations.html",
+          "finding": "Q3 Aufträge 17,9 Mrd. EUR; Umsatz 11,4 Mrd.; Auftragsbestand 162 Mrd.",
+          "checked_on": "2026-11-10",
+          "doc_type": "company_ir"
         }
       ],
       "financial_history": [],
@@ -14340,12 +14551,12 @@
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert",
       "key_unknowns": [
-        "Konsens",
-        "Guidance-Ist",
-        "Spread",
-        "Analysten"
+        "Aktueller Konsens",
+        "2 Analystenrevisionen",
+        "Ausführbarer Spread",
+        "Guidance-Ist Vergleich"
       ],
-      "method_note": "Nur geöffnete eigenständige Dokumente gezählt",
+      "method_note": "Quellen dedupliziert; kein 50-Dokumente-Status",
       "analyst_coverage": "Nicht ausreichend verifiziert"
     },
     "NRG": {
@@ -14728,30 +14939,61 @@
           "finding": "Earnings 11.11.; vorerst Event-Watch",
           "checked_on": "2026-11-10",
           "doc_type": "IR"
+        },
+        {
+          "id": "RWE-2026-08-13",
+          "title": "RWE Halbjahreszahlen",
+          "publisher": "RWE",
+          "published_at": "2026-08-13",
+          "url": "https://uk.rwe.com/press-and-news/2026-08-13-rwe-delivers-strong-first-half-results/",
+          "finding": "H1 bereinigtes EBITDA 3,0 Mrd. EUR, EPS 1,77 EUR",
+          "checked_on": "2026-11-10",
+          "doc_type": "company_ir"
+        },
+        {
+          "id": "RWE-2026-03-12",
+          "title": "RWE Geschäftsjahr 2025",
+          "publisher": "RWE",
+          "published_at": "2026-03-12",
+          "url": "https://benelux.rwe.com/en/press/2026-03-12-rwe-delivers-strong-financial-performance/",
+          "finding": "2025 EBITDA 5,1 Mrd. EUR; Nettoinvestitionen 2026-31 geplant",
+          "checked_on": "2026-11-10",
+          "doc_type": "company_ir"
+        },
+        {
+          "id": "RWE-2026-05-13",
+          "title": "RWE Q1 2026",
+          "publisher": "RWE",
+          "published_at": "2026-05-13",
+          "url": "https://jp.rwe.com/en/press/2026-05-13-rwe-delivers-strong-start-to-the-year/",
+          "finding": "Q1 EBITDA 1,6 Mrd. EUR",
+          "checked_on": "2026-11-10",
+          "doc_type": "company_ir"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-10T06:58:45Z",
-      "status": "INCOMPLETE",
+      "as_of": "2026-11-10T09:55:20Z",
+      "status": "IN_PROGRESS",
       "stance": "WATCH",
-      "summary": "Earnings 11.11.; vorerst Event-Watch",
+      "summary": "H1 EBITDA-Wachstum",
       "key_unknowns": [
-        "Aktueller Konsens und Analystenvoten",
-        "Bid/Ask, Liquidität, Netto-Kosten",
-        "Periodengleiche historische Guidance-Ist-Vergleiche"
+        "Aktueller Konsens",
+        "2 Analystenrevisionen",
+        "Ausführbarer Spread",
+        "Guidance-Ist Vergleich"
       ],
-      "method_note": "Vorläufiges Dossier; Dokumente URL-dedupliziert, Ziel 50 nicht erreicht"
+      "method_note": "Quellen dedupliziert; kein 50-Dokumente-Status"
     }
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-10T09:04:51Z",
-    "method_note": "Dieser Xetra-Lauf: drei IR-validierte Ereigniskandidaten, keine ausführbaren Intraday-Spreads; ältere marktübergreifende Daten erhalten.",
+    "as_of": "2026-11-10T09:55:20Z",
+    "method_note": "Dieser Xetra-Lauf: 3 geprüfte eindeutige Titel; keine aktuellen ausführbaren Spreads",
     "coverage": {
       "universe_checked": 3,
-      "earnings_events": 2,
+      "earnings_events": 1,
       "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
@@ -15668,15 +15910,16 @@
         "market": "XETRA",
         "sector": null,
         "direction": "WATCH",
-        "reason": "FY26 Ergebnis am 11.11. 07:00 MEZ",
+        "reason": "Q4/FY26 Ergebnisse 11.11; Q3 Rekordaufträge",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Siemens Energy FY26 Termin",
+        "earnings_at": "2026-11-11T07:00:00+01:00",
+        "event": "Q4/FY26 Ergebnisse 11.11; Q3 Rekordaufträge",
         "score": null,
         "sources": [
-          "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html"
+          "https://www.siemens-energy.com/de/de/home/press-releases/bilanzpressekonferenz-2026.html",
+          "https://www.siemens-energy.com/de/de/home/investor-relations.html"
         ],
-        "as_of": "2026-11-10T06:55:37Z"
+        "as_of": "2026-11-10T09:55:20Z"
       },
       {
         "ticker": "SIE",
@@ -15718,16 +15961,18 @@
         "tv": "XETR:RWE",
         "market": "XETRA",
         "sector": null,
-        "direction": "NEUTRAL",
-        "reason": "Earnings 11.11.; vorerst Event-Watch",
+        "direction": "WATCH",
+        "reason": "H1 EBITDA-Wachstum",
         "stage": "WATCH",
-        "earnings_at": "2026-11-11",
-        "event": "Earnings 11.11.; vorerst Event-Watch",
+        "earnings_at": null,
+        "event": "H1 EBITDA-Wachstum",
         "score": null,
         "sources": [
-          "https://www.rwe.com/en/investor-relations/financial-calendar-and-publications/news-and-ad-hoc-announcements/preliminary-announcements/vorabbekanntmachung-2026-11-04/"
+          "https://uk.rwe.com/press-and-news/2026-08-13-rwe-delivers-strong-first-half-results/",
+          "https://benelux.rwe.com/en/press/2026-03-12-rwe-delivers-strong-financial-performance/",
+          "https://jp.rwe.com/en/press/2026-05-13-rwe-delivers-strong-start-to-the-year/"
         ],
-        "as_of": "2026-11-10T06:58:45Z"
+        "as_of": "2026-11-10T09:55:20Z"
       },
       {
         "ticker": "KKR",
@@ -15969,6 +16214,23 @@
           "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-10-29-henkel-achieves-very-strong-organic-sales-growth-in-the-third-quarter-and-updates-outlook-for-2026-2272318"
         ],
         "as_of": "2026-11-10T06:55:37Z"
+      },
+      {
+        "ticker": "BAYN",
+        "name": "Bayer AG",
+        "tv": "XETR:BAYN",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "NEUTRAL",
+        "reason": "Q3-Berichtsprüfung",
+        "stage": "SCREENED",
+        "earnings_at": null,
+        "event": "Q3-Berichtsprüfung",
+        "score": null,
+        "sources": [
+          "https://www.bayer.com/de-de/investoren/finanzberichte/quartalsberichte"
+        ],
+        "as_of": "2026-11-10T09:55:20Z"
       }
     ],
     "pairs": [
@@ -16504,6 +16766,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261110T090451Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 1,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261110T095520Z"
       }
     ],
     "strategies": [
