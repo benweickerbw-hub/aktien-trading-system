@@ -1,6 +1,6 @@
 {
-  "version": 78,
-  "updated_at": "2026-11-10T13:04:24Z",
+  "version": 79,
+  "updated_at": "2026-11-10T13:30:00Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -13211,6 +13211,124 @@
           "bullets": []
         }
       ]
+    },
+    {
+      "id": "US-20261110T133000Z",
+      "market": "US",
+      "run_at": "2026-11-10T13:30:00Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "VG hebt Prognose; TTD nach Earnings gemischt",
+      "summary": "08:30 EST Vorbörse: VG Long-Watch, TTD neutral; keine Fills.",
+      "source_status": "VORLÄUFIG: VG 3/50, TTD 2/50 geöffnete Quellen; keine vollständigen Master-Dossiers",
+      "candidates": [
+        {
+          "ticker": "VG",
+          "name": "Venture Global",
+          "tv": "NYSE:VG",
+          "side": "LONG",
+          "thesis": "Guidance-Revision und LNG-Wachstum",
+          "risk": "Vorbörsengap, Energiepreise, Kapitalbedarf",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "TTD",
+          "name": "The Trade Desk",
+          "tv": "NASDAQ:TTD",
+          "side": "WATCH",
+          "thesis": "Q4-Outlook vs schwache Q3-GAAP-Gewinne",
+          "risk": "Adtech-Wettbewerb, mögliche Rally-Übertreibung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Venture Global hebt FY26 EBITDA-Guidance",
+          "published_at": "2026-11-10",
+          "ticker": "VG",
+          "publisher": "Venture Global IR",
+          "url": "https://investors.ventureglobal.com/news/news-details/2026/Venture-Global-Reports-Third-Quarter-2026-Results/default.aspx",
+          "finding": "10,0–10,3 Mrd. USD statt 8,7–9,1 Mrd. USD"
+        },
+        {
+          "title": "The Trade Desk 10-Q Q3 2026",
+          "published_at": "2026-11-09",
+          "ticker": "TTD",
+          "publisher": "StockTitan/SEC filing",
+          "url": "https://www.stocktitan.net/sec-filings/TTD/10-q-trade-desk-inc-quarterly-earnings-report-56525e217622.html",
+          "finding": "Umsatz -0,5%, GAAP-Nettoergebnis -67%"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "VG",
+          "name": "Venture Global",
+          "tv": "NYSE:VG",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Guidance-Revision und LNG-Wachstum",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY26-EBITDA-Guidance 10,0–10,3 Mrd USD",
+              "url": "https://investors.ventureglobal.com/news/news-details/2026/Venture-Global-Reports-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "Venture Global IR",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": [
+            "Guidance-Revision und LNG-Wachstum"
+          ],
+          "invalidations": [
+            "Vorbörsengap, Energiepreise, Kapitalbedarf"
+          ]
+        },
+        {
+          "ticker": "TTD",
+          "name": "The Trade Desk",
+          "tv": "NASDAQ:TTD",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q4-Outlook vs schwache Q3-GAAP-Gewinne",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 GAAP-Nettoergebnis 38,05 Mio USD (-67%)",
+              "url": "https://www.stocktitan.net/sec-filings/TTD/10-q-trade-desk-inc-quarterly-earnings-report-56525e217622.html",
+              "publisher": "StockTitan/SEC filing",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Q4-Outlook vs schwache Q3-GAAP-Gewinne"
+          ],
+          "invalidations": [
+            "Adtech-Wettbewerb, mögliche Rally-Übertreibung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Kein verifizierter Fill; keine echte PnL",
+        "base_scenario": "Volatilität bleibt hoch",
+        "bull_scenario": "Aktie fällt",
+        "bear_scenario": "Aktie steigt",
+        "key_risk": "Short-Squeeze",
+        "planned_exit": "Nur nach separater verifizierter Entscheidung; kein rückdatierter Fill",
+        "as_of": "2026-11-10T13:30:00Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Vorbörsenresearch – 10.11.2026, 08:30 EST\n\n**Entscheidung: KEIN TRADE.** NYSE/Nasdaq öffnen regulär 09:30 EST. Auch am Veterans Day 11.11. bleiben Aktienbörsen regulär geöffnet; Bondmarkt geschlossen. Vorbörse: keine Paper-Fills, keine echten Orders. Das 10.000-EUR-Paperbudget ist hypothetisch, Broker nicht verbunden.\n\n## Markt- und Earnings-Lage\n**Venture Global (VG), WATCH/LONG-Hypothese:** [Unternehmensbericht, 10.11.2026](https://investors.ventureglobal.com/news/news-details/2026/Venture-Global-Reports-Third-Quarter-2026-Results/default.aspx): Q3-Umsatz 4,756 Mrd. USD (+43%), bereinigtes konsolidiertes EBITDA 2,583 Mrd. USD (+69%), Nettoergebnis 2,546 Mrd. USD. FY26-EBITDA-Guidance 10,0–10,3 Mrd. USD statt 8,7–9,1 Mrd. USD; 509–518 Cargos prognostiziert. [Reuters, 10.11.2026 11:34 UTC](https://www.reuters.com/business/energy/venture-global-raises-profit-forecast-expands-push-into-ai-data-center-power-2026-11-10/): LSEG-Konsens zuvor 9,2 Mrd. USD, Vorbörse +8,2% (kein zeitgestempelter handelbarer Bid/Ask). Chancen: Guidance-Revision, LNG-Volumen, AI-Stromprojekt; Gegenargumente: Energiepreisrisiko, kapitalintensiver Ausbau, mögliche Einpreisung durch Gap. [8-K-Darstellung, 10.11.2026 06:31 EST](https://www.stocktitan.net/sec-filings/VG/8-k-venture-global-inc-reports-material-event-6143025e4cf9.html) gesichtet. Historischer Guidance-Ist-Vergleich und 13F-Zweiquartalsvergleich noch nicht verifiziert.\n\n**The Trade Desk (TTD), WATCH/NEUTRAL:** [10-Q-Darstellung, SEC-Einreichung 09.11.2026](https://www.stocktitan.net/sec-filings/TTD/10-q-trade-desk-inc-quarterly-earnings-report-56525e217622.html): Q3-Umsatz 735,965 Mio. USD (-0,5%), GAAP-Nettoergebnis 38,05 Mio. USD (-67%), Adjusted EBITDA 265,837 Mio. USD (-16%); 9M-Operating-Cashflow 803,668 Mio. USD. [Barron's, 10.11.2026](https://www.barrons.com/articles/trade-desk-earnings-stock-price-7ac7ae25): gemeldeter Q4-Umsatz-Ausblick mindestens 755 Mio. USD, nachbörslicher Kurssprung. Bull: mögliche operative Stabilisierung; Bear: struktureller Wettbewerbsdruck und schrumpfender Gewinn. Earnings-Surprise und PEAD noch nicht vollständig mit zeitgenössischem Vorkonsens abgeglichen.\n\n## Screening, Strategien und Quellenqualität\nZwei Aktien (VG, TTD) mit ereignisbezogenen Original-/Filing-Informationen triagiert, nicht als vollständig QUALIFIED. Weitere Marktbewegungen nur entdeckt, nicht als geprüft gezählt. Neu inhaltlich geöffnete unabhängige Quellen: VG 3/50 (Unternehmens-IR, Reuters, Filing-Darstellung; IR und 8-K betreffen denselben Bericht und sind nicht drei unabhängige Unternehmensereignisse); TTD 2/50 (10-Q-Darstellung und Barron's). Primäre 13F-Paarvergleiche, namentliche aktuelle Analystenvoten, Options-IV, verifizierte Spreads, 60–252 Tageskurs-Pair-Korrelationen, verlässliche Short-Borrow-Kosten: **nicht verifiziert**. PRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS als konkurrierende Ansätze geprüft; Guidance-Revision bei VG aktuell am stärksten, aber keine Netto-Edge nach Kosten belegt.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister aus GitHub vor Research gelesen (nur Portfoliojournal, keine Researchquelle): IREN Referenz-Short, 18,05 USD historischer hypothetischer Basispreis, **kein bestätigter Fill**. [Yahoo Finance, Schlusskurs 09.11.2026 16:00 EST](https://au.finance.yahoo.com/quote/IREN/history/) 21,41 USD; Quelle teils Rate-Limit, daher nicht als neuer verifizierter Mark-Write verwendet. Modellvergleich bei 500 EUR Notional: 500×(1−21,41/18,05)=−93,07 EUR **nur hypothetisch**, nicht Portfolio-PnL. HFG: USER_REPORTED Turbo-Short, Einstand/ISIN/KO fehlen; PnL nicht berechenbar. PTON: USER_REPORTED Turbo-Short; [StockAnalysis, Schlusskurs 09.11.2026 16:00 EST](https://stockanalysis.com/stocks/pton/history/) 5,95 USD und Vorbörse 10.11. 07:33 EST 5,94 USD; Aktienkurs ist kein Turbo-Produktkurs, PnL nicht berechenbar. Keine Schließung oder neues Mark-Update ohne sichere Neuheitsprüfung. DEZ im Register bereits CLOSED_REPORTED. Geplanter Exit nur für nachgewiesene Paper-Fills nach gesondertem Opening-Check; für die Referenz IREN keine rückdatierte Schließung.\n\n## Entscheidung und Risiken\n**KEIN TRADE** um 08:30 EST: kein erlaubter Einstiegsslot, kein verbundener Paperbroker, keine nach Signalentscheidung belegte ausführbare Bid/Ask-Quote und kein Kosten-/Stop-Plan mit Netto-RR ≥1,8. VG und TTD im regulären Handel nach 09:30 erneut prüfen. Datenqualität: keine tickgenauen Live-Quotes, keine aktuelle bestätigte PnL."
     }
   ],
   "deep_dives": {
@@ -15248,22 +15366,41 @@
           "finding": "Revenue 736m USD, net income 38m USD, buyback authorization 1bn USD",
           "checked_on": "2026-11-09T23:34:39Z",
           "doc_type": "earnings_release"
+        },
+        {
+          "id": "TTD-2",
+          "url": "https://www.stocktitan.net/sec-filings/TTD/10-q-trade-desk-inc-quarterly-earnings-report-56525e217622.html",
+          "title": "Q3 2026 10-Q presentation",
+          "publisher": "StockTitan",
+          "published_at": "2026-11-09",
+          "finding": "Net income down 67%",
+          "checked_on": "2026-11-10",
+          "doc_type": "filing_or_ir"
+        },
+        {
+          "id": "TTD-3",
+          "url": "https://www.barrons.com/articles/trade-desk-earnings-stock-price-7ac7ae25",
+          "title": "Earnings beat coverage",
+          "publisher": "Barrons",
+          "published_at": "2026-11-10",
+          "finding": "Q4 revenue outlook and competitive risks",
+          "checked_on": "2026-11-10",
+          "doc_type": "filing_or_ir"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-09T23:34:39Z",
-      "status": "INCOMPLETE",
+      "as_of": "2026-11-10T13:30:00Z",
+      "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Revenue down slightly, buyback expanded",
+      "summary": "Q3 profit decline despite Q4 outlook",
       "key_unknowns": [
-        "Analyst consensus and votes",
-        "Full historical filings",
-        "Independent time-stamped executable quotes",
-        "13F period-to-period verification"
+        "Verifizierte aktuelle Analystenziele",
+        "Zwei aufeinanderfolgende originale 13F",
+        "Nachvollziehbare Kosten und Bid/Ask"
       ],
-      "method_note": "Only individually opened original documents counted"
+      "method_note": "Nur geöffnete Quellen; gleiche IR/8-K-Ereignisse nicht als unabhängige Ereignisse zählen"
     },
     "HEN3": {
       "ticker": "HEN3",
@@ -15419,16 +15556,67 @@
         "Guidance-Ist Vergleich"
       ],
       "method_note": "Quellen dedupliziert; kein 50-Dokumente-Status"
+    },
+    "VG": {
+      "ticker": "VG",
+      "name": "Venture Global",
+      "tv": "NYSE:VG",
+      "source_documents": [
+        {
+          "id": "VG-1",
+          "url": "https://investors.ventureglobal.com/news/news-details/2026/Venture-Global-Reports-Third-Quarter-2026-Results/default.aspx",
+          "title": "Q3 2026 results",
+          "publisher": "Venture Global IR",
+          "published_at": "2026-11-10",
+          "finding": "FY26 EBITDA guidance increased",
+          "checked_on": "2026-11-10",
+          "doc_type": "filing_or_ir"
+        },
+        {
+          "id": "VG-2",
+          "url": "https://www.reuters.com/business/energy/venture-global-raises-profit-forecast-expands-push-into-ai-data-center-power-2026-11-10/",
+          "title": "Profit forecast and AI power",
+          "publisher": "Reuters",
+          "published_at": "2026-11-10",
+          "finding": "LSEG consensus 9.2bn",
+          "checked_on": "2026-11-10",
+          "doc_type": "news"
+        },
+        {
+          "id": "VG-3",
+          "url": "https://www.stocktitan.net/sec-filings/VG/8-k-venture-global-inc-reports-material-event-6143025e4cf9.html",
+          "title": "8-K filing presentation",
+          "publisher": "StockTitan",
+          "published_at": "2026-11-10",
+          "finding": "8-K accepted 06:31 EST",
+          "checked_on": "2026-11-10",
+          "doc_type": "filing_or_ir"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-10T13:30:00Z",
+      "status": "PRELIMINARY",
+      "stance": "WATCH LONG",
+      "summary": "FY26 EBITDA guidance increased; execution and valuation risks",
+      "source_goal": 50,
+      "key_unknowns": [
+        "Verifizierte aktuelle Analystenziele",
+        "Zwei aufeinanderfolgende originale 13F",
+        "Nachvollziehbare Kosten und Bid/Ask"
+      ],
+      "method_note": "Nur geöffnete Quellen; gleiche IR/8-K-Ereignisse nicht als unabhängige Ereignisse zählen"
     }
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-10T12:04:39Z",
-    "method_note": "Aktueller Xetra-Lauf: 3 Einzeltitel mit Unternehmens-IR geprüft; Kalendernamen DISCOVERED, nicht als geprüft gezählt.",
+    "as_of": "2026-11-10T13:30:00Z",
+    "method_note": "US 08:30 EST: zwei konkret geprüfte Earnings-Events; keine vollständige breite Universe-Abdeckung",
     "coverage": {
-      "universe_checked": 3,
-      "earnings_events": 3,
-      "triaged": 3,
+      "universe_checked": 2,
+      "earnings_events": 2,
+      "triaged": 2,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -16621,17 +16809,17 @@
         "name": "The Trade Desk",
         "tv": "NASDAQ:TTD",
         "market": "US",
-        "sector": null,
+        "sector": "Communication Services",
         "direction": "WATCH",
-        "reason": "Buyback authorization expanded despite flat sales",
+        "reason": "Q4-Outlook vs schwache Q3-GAAP-Gewinne",
         "stage": "WATCH",
         "earnings_at": "2026-11-09",
-        "event": "Q3 results",
+        "event": "Q3 earnings",
         "score": null,
         "sources": [
-          "https://investors.thetradedesk.com/news-and-events/news/news-details/2026/The-Trade-Desk-Reports-Third-Quarter-2026-Financial-Results/default.aspx"
+          "https://www.stocktitan.net/sec-filings/TTD/10-q-trade-desk-inc-quarterly-earnings-report-56525e217622.html"
         ],
-        "as_of": "2026-11-09T23:34:39Z"
+        "as_of": "2026-11-10T13:30:00Z"
       },
       {
         "ticker": "HEN3",
@@ -16667,6 +16855,23 @@
           "https://www.bayer.com/de-de/investoren/finanzberichte/quartalsberichte"
         ],
         "as_of": "2026-11-10T09:55:20Z"
+      },
+      {
+        "ticker": "VG",
+        "name": "Venture Global",
+        "tv": "NYSE:VG",
+        "market": "US",
+        "sector": "Energy",
+        "direction": "LONG",
+        "reason": "Guidance-Revision und LNG-Wachstum",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-10",
+        "event": "Q3 earnings",
+        "score": null,
+        "sources": [
+          "https://investors.ventureglobal.com/news/news-details/2026/Venture-Global-Reports-Third-Quarter-2026-Results/default.aspx"
+        ],
+        "as_of": "2026-11-10T13:30:00Z"
       }
     ],
     "pairs": [
@@ -17232,6 +17437,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261110T120439Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "US",
+        "universe_checked": 2,
+        "earnings_events": 2,
+        "triaged": 2,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261110T133000Z"
       }
     ],
     "strategies": [
