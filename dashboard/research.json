@@ -1,6 +1,6 @@
 {
-  "version": 72,
-  "updated_at": "2026-11-10T07:55:56Z",
+  "version": 73,
+  "updated_at": "2026-11-10T08:09:25Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -12475,6 +12475,44 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research 10.11.2026, 08:55 CET\n\n## Markt und Earnings\nVor Xetra-Eröffnung (09:00 CET): kein frischer Xetra-Opening-Print, keine nachträgliche Order. Recherche-Entscheidung REVIEW, keine neue Paper-Position. Prioritäten: Jenoptik (Neunmonatsbericht 10.11., frühere EBITDA-Margenaussicht rund 22%), Elmos (Quartalsbericht 10.11., Dortmund-Waferkapazität bis mindestens 2028), Uniper (Neunmonatsbericht 10.11. und Capital Markets Day 16.11.). Die Ereignisse wurden in öffentlich zugänglichen Sekundärmeldungen identifiziert; Primär-IR, genaue aktuelle Ist-Zahlen, Analystenkonsens und mindestens zwei aktuelle Analystenvoten wurden nicht verifiziert. Daher kein qualifiziertes Long-/Short-Signal.\n\n## Screening\nDrei Event-Kandidaten entdeckt, null vollständig nach Kapitalisierung, Spread, Konsens und Kosten gescreent; null qualifiziert. PRE-EARNINGS, PEAD, Guidance-Revision und Pairs bleiben mangels hinreichender Datensätze offen. Keine belastbare 60–252-Tage-Korrelation. Drei eigenständige Event-Meldungen inhaltlich gesichtet; 50-Dokumente-Dossiers nicht erreicht. Keine bestätigten historischen Guidance-Ist-Paare oder regulatorischen Fondsbestandsvergleiche.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: nur Referenzsimulation, 18,05 USD hypothetischer Einstieg, 100 EUR × 5; letzte gespeicherte Marke 21,39 USD am 09.11. 16:00 EST, Referenz-PnL −100,83 EUR ohne Kosten/FX; Quelle https://stockanalysis.com/stocks/iren/history/ . Kein nachgewiesener Fill, kein bestätigter Exit; Kursmarke in diesem Lauf nicht erneuert. HFG SHORT USER_REPORTED: Turbo-Einstieg und Produktdaten fehlen, PnL nicht berechenbar; Xetra-Schluss 09.11. 17:35 CET 3,029 EUR, https://stockanalysis.com/quote/etr/HFG/history/ . PTON SHORT USER_REPORTED: Turbo-Einstieg fehlt, PnL nicht berechenbar; Nasdaq-Schluss 09.11. 5,95 USD, https://stockanalysis.com/stocks/pton/history/ ; zuletzt gespeicherte Afterhours-Marke 5,93 USD um 18:18 EST, nicht als neu verifiziert. Keine Schließung. Morgen-Exit nur bei vor Eröffnung dokumentierter Order und danach überprüftem Opening-Print.\n\n## Paper-Risiko und Kosten\nIm Positionsregister 10.000 EUR hypothetisches Ausgangskapital, keine Broker-Paperverbindung. Deshalb keine ausführbaren Fills. Deutsche Mindestgebühren nach gespeichertem IBKR-Beispiel 2,50 EUR Roundtrip zzgl. Spread/Slippage: Bei 50 EUR Margin ×5 =250 EUR Notional bereits 1% und damit über dem 0,5%-Kostenlimit. Kein künstlicher Trade.\n\n## Quellen (öffentlich; geprüft am 10.11.2026)\n- [Jenoptik: Neunmonatsbericht 10. November](https://www.ad-hoc-news.de/boerse/news/vorboerse/jenoptik-stock-at-eur-39-47-down-0-18-before-results/70454642) – AD HOC NEWS, 2026-11-04\n- [Elmos: Quartalsbericht 10. November](https://www.ad-hoc-news.de/boerse/news/vorboerse/elmos-stock-at-eur-111-10-down-0-45-pre-market/70468160) – AD HOC NEWS, 2026-11-06\n- [Uniper: Neunmonatsbericht 10. November](https://www.ad-hoc-news.de/boerse/news/corporate-news/uniper-stock-trades-0-41-above-prior-xetra-close/70450327) – AD HOC NEWS, 2026-11-03\n- [HelloFresh Xetra Schlusskurs 9. November](https://stockanalysis.com/quote/etr/HFG/history/) – StockAnalysis, 2026-11-09\n- [Peloton Nasdaq Schlusskurs 9. November](https://stockanalysis.com/stocks/pton/history/) – StockAnalysis, 2026-11-09\n\n## Fehlende Nachweise\nPrimär-IR, vollständige Historie, unabhängige aktuelle Analystenupdates, regulatorische Holdings, verifizierte heutige Bid/Ask-Kurse und aktuelle Turbo-Produktpreise nicht gefunden bzw. nicht überprüft. TradingView-Widget nicht als Live-PnL-Quelle verwendet."
+    },
+    {
+      "id": "XETRA-20261110T080925Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T08:09:25Z",
+      "task": "Xetra Overnight-Auswertung",
+      "decision": "KEIN TRADE",
+      "headline": "Keine belegbaren Xetra-Overnight-Entries vom 09.11.; kein Exit am 10.11.",
+      "summary": "0 belegte Overnight-Trades, 0 Exits; heutige Opening-Prints nicht verifiziert. IREN Referenz, HFG/PTON Nutzer-Turbos unverändert; kein realisierter PnL.",
+      "source_status": "Öffentliche Webquellen geprüft; nur Vortagesschlusskurse verifiziert, kein Xetra-Opening-Print vom 10.11.; keine neueren validierten Marken.",
+      "candidates": [],
+      "news": [
+        {
+          "title": "Xetra Handelszeiten und Kalender",
+          "published_at": null,
+          "ticker": null,
+          "publisher": "Deutsche Börse",
+          "url": "https://www.cashmarket.deutsche-boerse.com/cash-de/Handelskalender-und-zeiten-4302078",
+          "finding": "Reguläre Kernhandelszeit 09:00–17:30 MEZ"
+        },
+        {
+          "title": "HelloFresh Xetra-Orderbuch",
+          "published_at": "2026-11-09T17:35:29+01:00",
+          "ticker": "HFG",
+          "publisher": "FinanzNachrichten",
+          "url": "https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm",
+          "finding": "3,029 EUR Vortagesschluss, kein aktueller Opening-Print"
+        },
+        {
+          "title": "Peloton Aktienkurs",
+          "published_at": "2026-11-09T16:00:00-05:00",
+          "ticker": "PTON",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/PTON/",
+          "finding": "5,95 USD regulärer Schlusskurs 09.11., keine Turbo-Bewertung"
+        }
+      ],
+      "report_markdown": "# Xetra Overnight-Auswertung – 10.11.2026, 09:09 MEZ\n\n**Entscheidung: KEIN TRADE / KEIN EXIT.** In den vorliegenden zeitgestempelten Xetra-Research-Journaleinträgen vom 09.11.2026 sind keine bestätigten virtuellen Entry-Fills vor Xetra-Schluss dokumentiert. Der Eintrag vom 09.11. 18:04 UTC ist nach Xetra-Schluss und lautet ausdrücklich KEIN TRADE. Daher keine belegbaren offenen Xetra-Overnight-Trades, keine simulierten Exits und kein realisierter PnL. Ein offizieller Xetra-Opening-Print vom 10.11. wurde in öffentlich zugänglichen Quellen nicht verifiziert; keinesfalls mit Vortageskursen ersetzen.\n\nRegulärer Xetra-Handel: 09:00–17:30 MEZ, Quelle: https://www.cashmarket.deutsche-boerse.com/cash-de/Handelskalender-und-zeiten-4302078\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- **IREN SHORT**, PAPER-REFERENZ, angeblicher Einstieg 18,05 USD (kein verifizierter Fill); letzte gespeicherte Marke 21,39 USD, 09.11. 16:00 EST, Quelle https://stockanalysis.com/stocks/iren/history/ . Die gespeicherten −100,83 EUR sind ausschließlich hypothetisch und **nicht** realisierte Performance. US-Aktie, kein Xetra-Exit. Eine neuere, für diesen Check zuverlässig zeitgestempelte Marke konnte nicht bestätigt werden.\n- **HelloFresh HFG SHORT**, USER_REPORTED Turbo, kein Produkt-Einstand/ISIN; letzte belegte Xetra-Marke 3,029 EUR vom 09.11. 17:35 MEZ (Schlussauktion), Quelle https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm . Marktphase: VORTAGESSCHLUSS; kein heutiger Open-Print; PnL **nicht berechenbar**, nicht schließen.\n- **Peloton PTON SHORT**, USER_REPORTED Turbo, keine Produktdaten; letzte gespeicherte Marke 5,93 USD vom 09.11. 18:18 EST, AFTERHOURS; zusätzlich öffentlich belegter 09.11. Nasdaq-Schluss 5,95 USD 16:00 EST, Quelle https://finance.yahoo.com/quote/PTON/ . Dieser reguläre Schlusskurs ist älter als die gespeicherte Afterhours-Marke und wird deshalb nicht überschrieben. PnL **nicht berechenbar**; kein Xetra-Exit.\n- DEUTZ USER_REPORTED bereits geschlossen, nicht Teil der offenen Positionen.\n\n**Modellformel nur für verifizierte Paper-Fills:** Long = Notional_EUR × (Exit/Entry − 1); Short = Notional_EUR × (1 − Exit/Entry). Notional = tatsächlicher Margin-Einsatz × synthetischer Hebel; Gebühren, Spread, Slippage, FX und mögliche Gaps separat. Ohne verifizierten Einstieg und offiziellen Open-Print keine Auswertung. IREN ist ausdrücklich eine historische Referenzsimulation.\n\n## Risiko und Research\nPaper-Startbudget laut Positionskonfiguration 10.000 EUR rein fiktiv, keine Brokerverbindung und keine verifizierten Equity-Salden. Kein neuer Entry. HFG/PTON-Turbos können nicht aus Aktienkursen allein bewertet werden; IREN trägt ein starkes Gap- und Finanzierungsrisiko. Vorbörslicher Xetra-Research-Check vom 10.11. nannte Jenoptik, Elmos und Uniper als WATCH, aber ohne Fill. Es gibt noch keine 50 verifizierten Quellen je Dossier. Der heutige Morgencheck ist kein neues Handelssignal.\n\n**Datenstatus:** Nur Vortagesmarken für HFG und PTON, IREN-Referenzmarke vom Vortag. Aktueller Xetra-Eröffnungskurs 10.11.: NICHT GEFUNDEN. Keine Position wurde geschlossen."
     }
   ],
   "deep_dives": {
