@@ -1,6 +1,6 @@
 {
-  "version": 88,
-  "updated_at": "2026-11-10T20:26:51Z",
+  "version": 89,
+  "updated_at": "2026-11-10T22:27:32Z",
   "note": "US 15:26 EST: ETOR/IREN/CRWV Research, no fills; verified quote marks separately in positions.json.",
   "runs": [
     {
@@ -14591,6 +14591,133 @@
           ]
         }
       ]
+    },
+    {
+      "id": "US-20261110T222732Z",
+      "market": "US",
+      "run_at": "2026-11-10T22:27:32Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave Q3-Umsatz über Konsens; Qualys hebt Guidance",
+      "summary": "Nachbörse: CRWV und QLYS vorläufig; kein Paper-Fill. IREN Referenzmarke 19,61 USD 15:44 EST, PTON 5,82 USD 16:00 EST.",
+      "source_status": "Vorläufig: CRWV 1/50 Originaltexte, QLYS 1/50; kein vollständiger Screener, keine verifizierten Analystenpaare",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH",
+          "thesis": "Umsatzsurprise und höhere Guidance",
+          "risk": "Finanzierung und Verschuldung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "QLYS",
+          "name": "Qualys",
+          "tv": "NASDAQ:QLYS",
+          "side": "WATCH",
+          "thesis": "Profitabilität und Guidance-Anhebung",
+          "risk": "Bewertung und zurückhaltende Q4-Aussichten",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Qualys Q3 2026 financial results",
+          "publisher": "Qualys IR",
+          "published_at": "2026-11-09",
+          "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results",
+          "ticker": "QLYS",
+          "finding": "Umsatz 188,0 Mio. USD (+11%), non-GAAP EPS 2,12 USD, Jahresumsatzguidance 736,9–738,9 Mio. USD"
+        },
+        {
+          "title": "CoreWeave Q3 2026 revenue beats estimates",
+          "publisher": "Reuters",
+          "published_at": "2026-11-10",
+          "url": "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/",
+          "ticker": "CRWV",
+          "finding": "Q3-Umsatz 3,66 Mrd. USD versus Konsens 3,55 Mrd.; Jahresumsatzguidance 13,0–13,3 Mrd. USD"
+        },
+        {
+          "title": "CoreWeave quarterly results archive",
+          "publisher": "CoreWeave IR",
+          "published_at": null,
+          "url": "https://investors.coreweave.com/financials/quarterly-results/",
+          "ticker": "CRWV",
+          "finding": "Archiv geöffnet, aktueller Bericht nicht im extrahierten Text verfügbar"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzbeat, aber hohe Finanzierungssensitivität",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "3,66 Mrd. USD Q3-Umsatz vs 3,55 Mrd. Konsens",
+              "url": "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": [
+            "Guidance",
+            "Finanzierung"
+          ],
+          "invalidations": [
+            "Anhaltende Finanzierungskosten"
+          ]
+        },
+        {
+          "ticker": "QLYS",
+          "name": "Qualys",
+          "tv": "NASDAQ:QLYS",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Umsatzwachstum und erhöhte Guidance, Kursreaktion unbestätigt",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "188,0 Mio. USD Umsatz und 736,9–738,9 Mio. USD FY-Guidance",
+              "url": "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results",
+              "publisher": "Qualys IR",
+              "published_at": "2026-11-09"
+            }
+          ],
+          "catalysts": [
+            "Q4-Guidance"
+          ],
+          "invalidations": [
+            "Abschwächung des Wachstums"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_SHORT",
+        "summary": "Nicht ausgeführte Referenzsimulation; kein neuer Trade",
+        "base_scenario": "Volatilität",
+        "bull_scenario": "Kursrückgang verbessert Referenzshort",
+        "bear_scenario": "Short-Squeeze verschlechtert Referenzshort",
+        "key_risk": "Unverifizierter historischer Einstieg",
+        "planned_exit": "Nicht rückdatieren; gesonderter verifizierter Open-Check",
+        "as_of": "2026-11-10T22:27:32Z",
+        "mark_price": 19.61,
+        "mark_at": "2026-11-10T15:44:00-05:00",
+        "mark_source_url": "https://www.financialcontent.com/quote/NQ:IREN/historical",
+        "pnl_eur": -43.21,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 10. November 2026, 17:27 EST\n\n**Entscheidung: KEIN TRADE.** Reguläre US-Sitzung endete 16:00 EST. Nachbörslicher Research, keine neuen Fills. 10.000 EUR virtuelles Startkapital, kein verbundener Paper-Broker. Aktuelle Brokerkosten, Spreads und Borrow nicht vollständig geprüft.\n\n## Earnings und Markt\nCoreWeave (CRWV): Reuters vom 10.11. meldet Q3-Umsatz **3,66 Mrd. USD** gegenüber **3,55 Mrd. USD** Konsens und erhöhte Umsatzprognose 2026 von **13,0–13,3 Mrd. USD**. Bull: Nachfrage nach AI-Cloud-Kapazität und große Kundenverträge. Bear: Fremdfinanzierung, Zinskosten, Margen und Verwässerung. Kein Overnight-Entry, da Nachbörse und kein bestätigter Bid/Ask/Fill. [Reuters, 10.11.2026](https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/). [CoreWeave IR, geprüft 10.11.2026](https://investors.coreweave.com/financials/quarterly-results/) – Archiv dynamisch, aktuelle Quartalszahlen dort nicht unabhängig extrahierbar.\n\nQualys (QLYS): offizieller Q3-Umsatz **188,0 Mio. USD**, +11% YoY; non-GAAP EPS **2,12 USD**; operative Cashflows **101,8 Mio. USD**; Umsatzguidance Gesamtjahr auf **736,9–738,9 Mio. USD** erhöht. Bull: profitable Cybersecurity, angehobene Guidance. Bear: Markt hatte viel Wachstum eingepreist, Q4-Guidance nur 191–193 Mio. USD; positive Überraschung garantiert keine Drift. [Qualys IR, 09.11.2026](https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results).\n\n## Screening und Dossierfortschritt\nCRWV und QLYS als WATCH/DEEP_DIVE vorläufig. Neu vollständig geöffnete und geprüfte Originalunterlagen: QLYS 1/50, CRWV 1/50 (IR-Archiv ohne vollständig extrahierbaren aktuellen Report); Reuters als unabhängige Zusatzmeldung, nicht als Originaldokument. Kein belegter 13F-Vorher/Nachher-Vergleich, keine geprüften Analystenpaare, keine periodengleiche Guidance-Trefferquote. PRE-EARNINGS, PEAD, Guidance-Revision und Pair-Ansätze bleiben ohne ausreichende Preis-/Konsensreihen unqualifiziert. Keine 50-Quellen-Vollständigkeit behauptet.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: Referenz **18,05 USD**, ausdrücklich **kein belegter Fill**. Nasdaq-Last **19,61 USD um 15:44 EST** [FinancialContent, 10.11.2026](https://www.financialcontent.com/quote/NQ:IREN/historical); 100 EUR ×5 Referenzexposure ergibt **−43,21 EUR** hypothetisch, ohne FX, Kosten, KO und Slippage. Kein bestätigter Exit, ursprünglicher geplanter Exit überfällig; neuer Exit nicht rückdatiert.\nPTON SHORT: Nutzer-Turbo ohne Produkt-ISIN/Einstand; Nasdaq-Close **5,82 USD um 16:00 EST** [StockAnalysis, 10.11.2026](https://stockanalysis.com/stocks/pton/history/); Turbo-PnL **nicht berechenbar**. HFG SHORT: Nutzer-Turbo, zuletzt gespeicherter Xetra-Aktienkurs 3,029 EUR vom 09.11.2026 17:35 CET, heute kein neuer belastbarer Quote geprüft; PnL **nicht berechenbar**. Weitere Repo-Positionen werden unverändert erhalten.\n\n## Next Open / Risiken\nCRWV: Basisszenario volatile Neubewertung, bullisch bei nachhaltig bestätigter Guidance und günstiger Finanzierung, bärisch bei Kapitalbedarf/Spread-Ausweitung. QLYS: neutrale bis leicht positive Fundamentalbewertung, aber negatives Kursmomentum kann anhalten. Vor dem nächsten Open keine Ausführung und kein PnL-Exit. Für Short-Positionen sind Gaps und Squeezes unbegrenzt riskant. TradingView-Widget nicht als PnL-Quote genutzt.\n\n**Quellenstatus:** Nur die verlinkten Dokumente/Preisquellen dieses Durchlaufs geprüft; keine vollumfängliche Marktuniversumsprüfung."
     }
   ],
   "deep_dives": {
@@ -16620,17 +16747,16 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-09T23:34:39Z",
-      "status": "INCOMPLETE",
+      "as_of": "2026-11-10T22:27:32Z",
+      "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Q3 above previous guidance; FY raised",
+      "summary": "Q3 Umsatz 188 Mio USD, EPS 2,12 non-GAAP, erhöhte Jahresguidance",
       "key_unknowns": [
-        "Analyst consensus and votes",
-        "Full historical filings",
-        "Independent time-stamped executable quotes",
-        "13F period-to-period verification"
+        "Verifizierte 13F-Vergleiche",
+        "Aktuelle Analysten-Konsenshistorie",
+        "Bid/Ask und Ausführungskosten"
       ],
-      "method_note": "Only individually opened original documents counted"
+      "method_note": "Vorläufig, keine vollständigen 50 geprüften Dokumente"
     },
     "TTD": {
       "ticker": "TTD",
@@ -16924,21 +17050,33 @@
           "finding": "Q3 nach Handelsschluss",
           "checked_on": "2026-11-10",
           "doc_type": "NEWS"
+        },
+        {
+          "id": "CRWV-20261110-IR",
+          "title": "CRWV IR source",
+          "publisher": "CoreWeave IR",
+          "published_at": null,
+          "url": "https://investors.coreweave.com/financials/quarterly-results/",
+          "finding": "Quartalsarchiv geöffnet, aktuelle Detaildaten dynamisch nicht extrahiert",
+          "checked_on": "2026-11-10T22:27:32Z",
+          "doc_type": "IR"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-10T20:26:51Z",
+      "as_of": "2026-11-10T22:27:32Z",
       "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Q3 nach Handelsschluss",
+      "summary": "Quartalsarchiv geöffnet, aktuelle Detaildaten dynamisch nicht extrahiert",
       "source_goal": 50,
       "key_unknowns": [
-        "Aktueller Analystenkonsens, Bid/Ask, 13F-Vergleiche, Guidance-Ist-Vergleich nicht verifiziert"
+        "Verifizierte 13F-Vergleiche",
+        "Aktuelle Analysten-Konsenshistorie",
+        "Bid/Ask und Ausführungskosten"
       ],
       "holdings_note": "Nicht verifiziert",
-      "method_note": "Nur tatsächlich geöffnete URLs neu ergänzt; 50 Quellen nicht erreicht.",
+      "method_note": "Vorläufig, keine vollständigen 50 geprüften Dokumente",
       "analyst_coverage": "Nicht verifiziert"
     },
     "APPS": {
@@ -17041,12 +17179,12 @@
   },
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-10T20:26:51Z",
-    "method_note": "5 Titel anhand geöffneter Webquellen triagiert; kein vollständig qualifizierter Entry",
+    "as_of": "2026-11-10T22:27:32Z",
+    "method_note": "Dieser Lauf: 2 individuell nach Ereignis geprüfte Titel, keine umfassende Universe-Prüfung",
     "coverage": {
-      "universe_checked": 5,
+      "universe_checked": 2,
       "earnings_events": 2,
-      "triaged": 5,
+      "triaged": 2,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -18010,23 +18148,6 @@
         "as_of": "2026-11-09T23:34:39Z"
       },
       {
-        "ticker": "CRWV",
-        "name": "CoreWeave",
-        "tv": "NASDAQ:CRWV",
-        "market": "US",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Wayve-Partnerschaft und Q3 nach Schluss",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "CoreWeave earnings preview and Wayve partnership",
-        "score": null,
-        "sources": [
-          "https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey"
-        ],
-        "as_of": "2026-11-10T15:27:14Z"
-      },
-      {
         "ticker": "UTDI",
         "name": "United Internet",
         "tv": "XETR:UTDI",
@@ -18128,24 +18249,6 @@
           "https://stockanalysis.com/stocks/iren/history/"
         ],
         "as_of": "2026-11-10T00:25:10Z"
-      },
-      {
-        "ticker": "QLYS",
-        "name": "Qualys",
-        "tv": "NASDAQ:QLYS",
-        "market": "US",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Q3 beat prior management guidance, FY guidance raised",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-09",
-        "event": "Q3 results",
-        "score": null,
-        "sources": [
-          "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results",
-          "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-second-quarter-2026-financial-results"
-        ],
-        "as_of": "2026-11-09T23:34:39Z"
       },
       {
         "ticker": "TTD",
@@ -18369,23 +18472,6 @@
         "as_of": "2026-11-10T20:26:51Z"
       },
       {
-        "ticker": "CRWV",
-        "name": "CoreWeave",
-        "tv": "NASDAQ:CRWV",
-        "market": "US",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Q3 nach Handelsschluss",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-10 after close",
-        "event": "Q3 nach Handelsschluss",
-        "score": null,
-        "sources": [
-          "https://codema.ai/ai-earnings-calendar.html"
-        ],
-        "as_of": "2026-11-10T20:26:51Z"
-      },
-      {
         "ticker": "PTON",
         "name": "Peloton Interactive",
         "tv": "NASDAQ:PTON",
@@ -18418,6 +18504,40 @@
           "https://www.finanznachrichten.de/aktienkurse-boersen/hellofresh-se.htm"
         ],
         "as_of": "2026-11-10T20:26:51Z"
+      },
+      {
+        "ticker": "QLYS",
+        "name": "Qualys",
+        "tv": "NASDAQ:QLYS",
+        "market": "US",
+        "sector": "Cybersecurity",
+        "direction": "WATCH",
+        "reason": "Aktuelle Q3-Ergebnisse",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-10",
+        "event": "Q3 results",
+        "score": null,
+        "sources": [
+          "https://investor.qualys.com/news-releases/news-release-details/qualys-announces-third-quarter-2026-financial-results"
+        ],
+        "as_of": "2026-11-10T22:27:32Z"
+      },
+      {
+        "ticker": "CRWV",
+        "name": "CoreWeave",
+        "tv": "NASDAQ:CRWV",
+        "market": "US",
+        "sector": "AI cloud",
+        "direction": "WATCH",
+        "reason": "Aktuelle Q3-Ergebnisse",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-10",
+        "event": "Q3 results",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/"
+        ],
+        "as_of": "2026-11-10T22:27:32Z"
       }
     ],
     "pairs": [
@@ -19063,6 +19183,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261110T202651Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "US",
+        "universe_checked": 2,
+        "earnings_events": 2,
+        "triaged": 2,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261110T222732Z"
       }
     ],
     "strategies": [
