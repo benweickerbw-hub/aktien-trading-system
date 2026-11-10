@@ -1,6 +1,6 @@
 {
-  "version": 83,
-  "updated_at": "2026-11-10T15:03:16Z",
+  "version": 84,
+  "updated_at": "2026-11-10T15:27:14Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -13722,6 +13722,209 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra Research — 10.11.2026, 16:03 CET\n\n## Markt und wichtigste Nachrichten\n**Infineon (IFX):** Originalmeldung vom 10.11.2026: Q4-Umsatz 4,706 Mrd. EUR, Segmentergebnis 1,119 Mrd. EUR, Segmentmarge 23,8 %. GJ 2026 Umsatz 16,353 Mrd. EUR, FCF 993 Mio. EUR. GJ 2027 Prognose ca. 20 Mrd. EUR Umsatz, rund 4 Mrd. EUR Rechenzentrums-Stromversorgungen, FCF ca. 1,8 Mrd. EUR. [Infineon IR, 10.11.2026](https://www.infineon.com/press-release/2026/infpr202611-025). Gegenargument: höhere Investitionen von 3,0–3,5 Mrd. EUR und hohe AI-Erwartungen. [WSJ, 10.11.2026](https://www.wsj.com/business/earnings/chip-maker-infineon-lifts-ai-sales-goal-signaling-confidence-in-demand-80ba33f3).\n\n**Guidance-Track-Record:** Im Februar 2026 wurden für GJ 2026 ca. 1,0 Mrd. EUR FCF erwartet; tatsächlich 993 Mio. EUR (annähernd erreicht, Rundungs-/Definitionsprüfung erforderlich). [Infineon, 04.02.2026](https://www.infineon.com/press-release/2026/infxx202602-042) versus [Infineon, 10.11.2026](https://www.infineon.com/press-release/2026/infpr202611-025). Im Mai 2026 wurden die Erwartungen angehoben; [Infineon, 06.05.2026](https://www.infineon.com/de/press-release/2026/infxx202605-082). Keine statistische Management-Trefferquote aus einem Fall.\n\n**Earnings-Pipeline:** 11.11. Siemens Energy, E.ON, RWE, Brenntag; 12.11. Siemens und Allianz. Terminsekundärquelle [ATLAS, abgerufen 10.11.2026](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026); Unternehmens-IR-Terminbestätigung noch offen.\n\n## Screening und Watchlist\nIn diesem Lauf individuell recherchiert: IFX, ENR, EOAN, RWE, BNR, HFG, IREN, PTON; nur IFX mit inhaltlich vertiefter Originalquellenprüfung. Keine behauptete Vollprüfung von acht Aktien hinsichtlich Liquidität, Spread und Konsens. IFX: WATCH, vorsichtig positiv für 1–10 Handelstage; Invalidierung: unerwartete Nachfrageabschwächung oder Margendruck. ENR/EOAN/RWE/BNR: DISCOVERED, Earnings-Katalysator, noch keine ausreichend geprüfte Überraschungs- oder Kostenthese. HFG: USER_REPORTED, kein neuer Trade. PEAD mangels verifiziertem Vorab-EPS- und Umsatzkonsens nicht qualifiziert. Pairs-Korrelation nicht berechnet, kein Hedge-Nachweis.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister zu Laufbeginn gelesen. IREN: PAPER-Referenz SHORT 18,05 USD, kein belegter Fill; gespeicherte Marke 21,39 USD vom 09.11.2026, modelliert ca. -92,52 EUR auf 500 EUR synthetischem Notional, **nicht echte Performance**. Neue verifizierte zeitnahe Marke fehlt; keine Positionsänderung. [IREN historische Kurse, StockAnalysis](https://stockanalysis.com/stocks/iren/history/). HFG: USER_REPORTED SHORT-Turbo, Einstand/ISIN fehlen, Aktien-Schlusskurs 3,029 EUR vom 09.11.2026 17:35 CET; Turbo-PnL nicht berechenbar. [Yahoo Finance](https://finance.yahoo.com/quote/HFG.DE/). PTON: USER_REPORTED SHORT-Turbo, Einstand/ISIN fehlen; historischer Schlusskurs 5,95 USD vom 09.11.2026; Turbo-PnL nicht berechenbar. [StockAnalysis](https://stockanalysis.com/stocks/pton/history/). Kein belegter aktueller intraday Last/Bid/Ask mit eindeutiger Quote-Zeit; keine Marken rückwirkend aktualisiert. DEUTZ ist als vom Nutzer geschlossen gemeldet.\n\n## Entscheidung, Kosten und Grenzen\n**KEIN TRADE / 0 Fills.** Paper-Startkapital laut Register 10.000 EUR, keine Broker-Verbindung. Modellpolitik verlangt verifizierte Post-Signal-Quotes, Bid/Ask, realistische Gesamtkosten unter 0,5 % des Notionals und Fill-Beleg. Nicht vorhanden. IFX ist Beobachtungssignal, kein ausgeführter Kauf. Keine neue Order vorgetäuscht. Ein Opening-Order-Signal muss vor der Eröffnung feststehen; der tatsächliche Opening-Print wird erst danach bekannt. Für vollständiges IFX-Masterdossier fehlen historische Analystenreports, Fonds-Stimmrechtsvergleiche, vollständige Bewertung und weitere Originalquellen. In diesem Lauf 3 unterschiedliche Infineon-Originalmeldungen plus weitere öffentliche Quellen geprüft, Ziel 50 noch nicht erreicht.\n"
+    },
+    {
+      "id": "US-20261110T152714Z",
+      "market": "US",
+      "run_at": "2026-11-10T15:27:14Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Inflationsdruck; CRWV Earnings heute nachbörslich; APPS und GRPN reagieren auf Zahlen",
+      "summary": "Drei Eventtitel vorläufig geprüft, keine qualifizierte Paper-Ausführung.",
+      "source_status": "3 titelbezogene Artikel geöffnet (2 nur eingeschränkt), 2 Reuters-Markttexte geöffnet; je Kandidat 1/50, keine SEC/13F-Originalverifikation.",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH",
+          "thesis": "Wayve-Partnerschaft und Q3 nach Schluss",
+          "risk": "Schulden/Capex und unbekannte Bewertung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "APPS",
+          "name": "Digital Turbine",
+          "tv": "NASDAQ:APPS",
+          "side": "SHORT",
+          "thesis": "Schwache Reaktion auf Ergebnisse",
+          "risk": "Gap-Reversal und Originalzahlen unvollständig",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "GRPN",
+          "name": "Groupon",
+          "tv": "NASDAQ:GRPN",
+          "side": "SHORT",
+          "thesis": "Earnings miss",
+          "risk": "Liquidität und Gap-Reversal",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "ticker": "CRWV",
+          "title": "CoreWeave earnings preview and Wayve partnership",
+          "publisher": "TradingKey",
+          "published_at": "2026-11-10",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey",
+          "finding": "Q3 results expected after US close; Wayve AI cloud partnership, financial terms undisclosed."
+        },
+        {
+          "ticker": "APPS",
+          "title": "Digital Turbine earnings and AI investment reaction",
+          "publisher": "Barron's",
+          "published_at": "2026-11-10",
+          "url": "https://www.barrons.com/articles/digital-turbine-earnings-stock-price-ai-investments-7dc84eef",
+          "finding": "Shares sold off despite stronger reported results as AI spending plans worried investors; full text paywalled."
+        },
+        {
+          "ticker": "GRPN",
+          "title": "Groupon falls after earnings miss",
+          "publisher": "Seeking Alpha",
+          "published_at": "2026-11-10",
+          "url": "https://seekingalpha.com/news/4669707-groupon-drops-17-in-premarket-after-earnings-miss",
+          "finding": "Reported EPS and revenue miss, premarket decline; full detailed filing not checked."
+        },
+        {
+          "ticker": null,
+          "title": "Wells Fargo upgrades US AI infrastructure outlook",
+          "publisher": "Reuters",
+          "published_at": "2026-11-10T13:29:00Z",
+          "url": "https://www.reuters.com/business/wells-fargo-upgrades-us-ai-infrastructure-view-after-chip-selloff-2026-11-10/",
+          "finding": "Sector stance raised negative to neutral; warns of potential 2028 capex slowdown."
+        },
+        {
+          "ticker": null,
+          "title": "Wall Street opens lower after hotter inflation",
+          "publisher": "Reuters",
+          "published_at": "2026-11-10",
+          "url": "https://www.reuters.com/business/sp-500-dow-futures-climb-oil-slide-lifts-sentiment-2026-11-10/",
+          "finding": "Hot inflation raises interest rate concerns; equities open lower."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Wayve-Partnerschaft und Q3 nach Schluss; vorläufig, kein Handelssignal.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 results expected after US close; Wayve AI cloud partnership, financial terms undisclosed.",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey",
+              "publisher": "TradingKey",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Original-Finanzberichte, zwei Analysten, aktuelle Bid/Ask und geprüfte Kosten fehlen.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Quartalszahlen",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Gegenläufige Guidance",
+            "fehlende positive Nettoerwartung"
+          ]
+        },
+        {
+          "ticker": "APPS",
+          "name": "Digital Turbine",
+          "tv": "NASDAQ:APPS",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Schwache Reaktion auf Ergebnisse; vorläufig, kein Handelssignal.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Shares sold off despite stronger reported results as AI spending plans worried investors; full text paywalled.",
+              "url": "https://www.barrons.com/articles/digital-turbine-earnings-stock-price-ai-investments-7dc84eef",
+              "publisher": "Barron's",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Original-Finanzberichte, zwei Analysten, aktuelle Bid/Ask und geprüfte Kosten fehlen.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Quartalszahlen",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Gegenläufige Guidance",
+            "fehlende positive Nettoerwartung"
+          ]
+        },
+        {
+          "ticker": "GRPN",
+          "name": "Groupon",
+          "tv": "NASDAQ:GRPN",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "Earnings miss; vorläufig, kein Handelssignal.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Reported EPS and revenue miss, premarket decline; full detailed filing not checked.",
+              "url": "https://seekingalpha.com/news/4669707-groupon-drops-17-in-premarket-after-earnings-miss",
+              "publisher": "Seeking Alpha",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Original-Finanzberichte, zwei Analysten, aktuelle Bid/Ask und geprüfte Kosten fehlen.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Quartalszahlen",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Gegenläufige Guidance",
+            "fehlende positive Nettoerwartung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": null,
+        "id": null,
+        "stance": "KEIN TRADE",
+        "summary": "Keine registrierten offenen Positionen und keine Ausführung.",
+        "base_scenario": "Nachbörsliche CRWV-Zahlen prüfen",
+        "bull_scenario": "Bessere Guidance",
+        "bear_scenario": "Schwächere Guidance und höhere Kapitalkosten",
+        "key_risk": "Fehlende verifizierte Kurse und Kosten",
+        "planned_exit": null,
+        "as_of": "2026-11-10T15:27:14Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 10.11.2026, 10:27 EST (15:27 UTC)\n\n## Markt und Ereignisse\nNYSE/Nasdaq regulär geöffnet, 09:30–16:00 EST. Morgen, 11.11., Veterans Day, sind US-Aktienbörsen regulär geöffnet. [Reuters, 10.11.2026](https://www.reuters.com/business/sp-500-dow-futures-climb-oil-slide-lifts-sentiment-2026-11-10/) berichtet von einem schwächeren Handelsstart nach überraschend hoher Inflation. [Reuters, 10.11.2026](https://www.reuters.com/business/wells-fargo-upgrades-us-ai-infrastructure-view-after-chip-selloff-2026-11-10/) meldet Wells Fargos Hochstufung des AI-Infrastruktur-Sektors von negativ auf neutral; das ist kein Kaufsignal für jeden Einzeltitel.\n\n## Screening und Kandidaten\n**CRWV – WATCH, Richtung unentschieden:** [TradingKey, 10.11.2026](https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey) beschreibt die Wayve-Partnerschaft und für heute nachbörslich erwartete Q3-Zahlen. Bull: zusätzliche AI-Cloud-Nachfrage; Bear: Finanzierung, hohe Investitionen und nicht bezifferter Auftragswert. Erst Ergebnis, Guidance, Schulden und Spread prüfen.\n\n**APPS – WATCH/SHORT-Hypothese, nicht qualifiziert:** [Barron's, 10.11.2026](https://www.barrons.com/articles/digital-turbine-earnings-stock-price-ai-investments-7dc84eef) berichtet von einer negativen Marktreaktion trotz besserer Zahlen, ausgelöst durch geplante AI-Ausgaben. Bull: Umsatzwachstum; Bear: Margen- und Kostenrisiko. Der Artikel ist teilweise zugangsbeschränkt, daher keine vollständige Originalberichtprüfung.\n\n**GRPN – WATCH/SHORT-Hypothese, nicht qualifiziert:** [Seeking Alpha, 10.11.2026](https://seekingalpha.com/news/4669707-groupon-drops-17-in-premarket-after-earnings-miss) berichtet von verfehlten Gewinn- und Umsatzschätzungen und vorbörslichem Kursrückgang. Risiko: Gegenbewegung nach Gap und nicht geprüfte Liquidität.\n\n**Methodik:** Drei konkrete Event-Ticker triagiert, kein vollständig qualifizierter Titel. PRE-EARNINGS CRWV, PEAD GRPN/APPS nur hypothetisch, GUIDANCE-REVISION und PAIRS mangels belastbarer Daten nicht verifiziert. Konsensstände, zwei aktuelle Analysten je Titel, SEC-Originaldokumente, zwei 13F-Vergleichsfilings, 60–252 Kursbeobachtungen, Borrow und realistische Bid/Ask-Spreads: noch nicht gefunden. Dokumentenprüfung dieses Laufs: CRWV 1/50, APPS 1/50 (eingeschränkt), GRPN 1/50 (eingeschränkt); alle Dossiers vorläufig. Keine Management-Guidance-Trefferquote ableitbar.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nDie aktuelle GitHub-Positionsliste enthält **keine** Positionseinträge. Paper-Konto: 10.000 EUR rein hypothetisches Ausgangskapital, keine verifizierte Broker-Equity. Daher kein aktiver Positions-PnL. Frühere IREN-Referenz 18,05 USD ist kein nachgewiesener Fill; HFG/PTON-Produktpositionen sind in der aktuellen Datei nicht enthalten und werden nicht erfunden. TradingView-Widgetpreise sind kein verifizierter PnL-Feed.\n\n## Entscheidung und Risiko\n**KEIN TRADE / 0 neue Fills**: 10:27 EST ist kein autorisierter 15:30-Entscheidungsslot. Außerdem fehlen zeitnahe Bid/Ask, Spread, Borrow, Kostenprüfung und authentischer Paper-Broker-Fill. Keine rückdatierten Ein- oder Ausstiege. Risikobudget und 5x sind Modellannahmen, keine garantierten Verlustgrenzen. Für den späteren Slot nur neue, nach Entscheidung belegte Kursmarken berücksichtigen."
     }
   ],
   "deep_dives": {
@@ -16002,12 +16205,114 @@
         "Nachvollziehbare Kosten und Bid/Ask"
       ],
       "method_note": "Nur geöffnete Quellen; gleiche IR/8-K-Ereignisse nicht als unabhängige Ereignisse zählen"
+    },
+    "CRWV": {
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "tv": "NASDAQ:CRWV",
+      "source_documents": [
+        {
+          "id": "US-20261110-CRWV",
+          "title": "CoreWeave earnings preview and Wayve partnership",
+          "publisher": "TradingKey",
+          "published_at": "2026-11-10",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey",
+          "finding": "Q3 results expected after US close; Wayve AI cloud partnership, financial terms undisclosed.",
+          "checked_on": "2026-11-10T15:27:14Z",
+          "doc_type": "secondary_news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-10T15:27:14Z",
+      "status": "DEEP_DIVE_PRELIMINARY",
+      "stance": "WATCH",
+      "summary": "Wayve-Partnerschaft und Q3 nach Schluss",
+      "source_goal": 50,
+      "key_unknowns": [
+        "Originalberichte",
+        "Konsens",
+        "Bid/Ask",
+        "institutionelle 13F-Vergleiche"
+      ],
+      "holdings_note": "Nicht verifiziert",
+      "method_note": "Nur geöffnete URL als neue Quelle gezählt; Sekundärberichte ggf. eingeschränkt.",
+      "analyst_coverage": "Nicht verifiziert"
+    },
+    "APPS": {
+      "ticker": "APPS",
+      "name": "Digital Turbine",
+      "tv": "NASDAQ:APPS",
+      "source_documents": [
+        {
+          "id": "US-20261110-APPS",
+          "title": "Digital Turbine earnings and AI investment reaction",
+          "publisher": "Barron's",
+          "published_at": "2026-11-10",
+          "url": "https://www.barrons.com/articles/digital-turbine-earnings-stock-price-ai-investments-7dc84eef",
+          "finding": "Shares sold off despite stronger reported results as AI spending plans worried investors; full text paywalled.",
+          "checked_on": "2026-11-10T15:27:14Z",
+          "doc_type": "secondary_news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-10T15:27:14Z",
+      "status": "DEEP_DIVE_PRELIMINARY",
+      "stance": "SHORT",
+      "summary": "Schwache Reaktion auf Ergebnisse",
+      "source_goal": 50,
+      "key_unknowns": [
+        "Originalberichte",
+        "Konsens",
+        "Bid/Ask",
+        "institutionelle 13F-Vergleiche"
+      ],
+      "holdings_note": "Nicht verifiziert",
+      "method_note": "Nur geöffnete URL als neue Quelle gezählt; Sekundärberichte ggf. eingeschränkt.",
+      "analyst_coverage": "Nicht verifiziert"
+    },
+    "GRPN": {
+      "ticker": "GRPN",
+      "name": "Groupon",
+      "tv": "NASDAQ:GRPN",
+      "source_documents": [
+        {
+          "id": "US-20261110-GRPN",
+          "title": "Groupon falls after earnings miss",
+          "publisher": "Seeking Alpha",
+          "published_at": "2026-11-10",
+          "url": "https://seekingalpha.com/news/4669707-groupon-drops-17-in-premarket-after-earnings-miss",
+          "finding": "Reported EPS and revenue miss, premarket decline; full detailed filing not checked.",
+          "checked_on": "2026-11-10T15:27:14Z",
+          "doc_type": "secondary_news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-10T15:27:14Z",
+      "status": "DEEP_DIVE_PRELIMINARY",
+      "stance": "SHORT",
+      "summary": "Earnings miss",
+      "source_goal": 50,
+      "key_unknowns": [
+        "Originalberichte",
+        "Konsens",
+        "Bid/Ask",
+        "institutionelle 13F-Vergleiche"
+      ],
+      "holdings_note": "Nicht verifiziert",
+      "method_note": "Nur geöffnete URL als neue Quelle gezählt; Sekundärberichte ggf. eingeschränkt.",
+      "analyst_coverage": "Nicht verifiziert"
     }
   },
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-10T15:03:16Z",
-    "method_note": "Acht Namen triagiert; IFX Originalmeldungen geprüft; übrige Earnings-Kandidaten DISCOVERED, nicht voll gescreent",
+    "status": "PRELIMINARY",
+    "as_of": "2026-11-10T15:27:14Z",
+    "method_note": "Nur drei tatsächlich titelbezogen geprüfte Eventmeldungen in diesem Lauf; keine universumsweite Vollprüfung.",
     "coverage": {
       "universe_checked": 1,
       "earnings_events": 5,
@@ -17049,15 +17354,15 @@
         "market": "US",
         "sector": null,
         "direction": "WATCH",
-        "reason": "Q3-Earnings-Pipeline; Termin aus Sekundärquelle",
+        "reason": "Wayve-Partnerschaft und Q3 nach Schluss",
         "stage": "WATCH",
-        "earnings_at": "2026-11-10",
-        "event": "Earnings expected",
+        "earnings_at": null,
+        "event": "CoreWeave earnings preview and Wayve partnership",
         "score": null,
         "sources": [
-          "https://www.atlas-stocks.com/calendar/earnings/CRWV"
+          "https://www.tradingkey.com/analysis/stocks/us-stocks/262298780-coreweave-premarket-down-wayve-ai-cloud-partnership-q3-earnings-tradingkey"
         ],
-        "as_of": "2026-11-10T00:25:10Z"
+        "as_of": "2026-11-10T15:27:14Z"
       },
       {
         "ticker": "UTDI",
@@ -17264,6 +17569,40 @@
           "https://www.henkel.com/press-and-media/press-releases-and-kits/2026-11-10-henkel-posts-very-strong-sales-growth-in-the-third-quarter-2274626"
         ],
         "as_of": "2026-11-10T14:03:37Z"
+      },
+      {
+        "ticker": "APPS",
+        "name": "Digital Turbine",
+        "tv": "NASDAQ:APPS",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Schwache Reaktion auf Ergebnisse",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Digital Turbine earnings and AI investment reaction",
+        "score": null,
+        "sources": [
+          "https://www.barrons.com/articles/digital-turbine-earnings-stock-price-ai-investments-7dc84eef"
+        ],
+        "as_of": "2026-11-10T15:27:14Z"
+      },
+      {
+        "ticker": "GRPN",
+        "name": "Groupon",
+        "tv": "NASDAQ:GRPN",
+        "market": "US",
+        "sector": null,
+        "direction": "SHORT",
+        "reason": "Earnings miss",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Groupon falls after earnings miss",
+        "score": null,
+        "sources": [
+          "https://seekingalpha.com/news/4669707-groupon-drops-17-in-premarket-after-earnings-miss"
+        ],
+        "as_of": "2026-11-10T15:27:14Z"
       }
     ],
     "pairs": [
@@ -17859,6 +18198,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261110T143407Z"
+      },
+      {
+        "date": "2026-11-10",
+        "market": "US",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261110T152714Z"
       }
     ],
     "strategies": [
