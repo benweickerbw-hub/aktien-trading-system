@@ -1,6 +1,6 @@
 {
-  "version": 71,
-  "updated_at": "2026-11-10T06:58:45Z",
+  "version": 72,
+  "updated_at": "2026-11-10T07:55:56Z",
   "note": "US 11:25 EST: geprüfte Reuters-Nachrichten, kein Trade; alte Marken transparent.",
   "runs": [
     {
@@ -12385,6 +12385,96 @@
           ]
         }
       ]
+    },
+    {
+      "id": "XETRA-20261110T075556Z",
+      "market": "XETRA",
+      "run_at": "2026-11-10T07:55:56Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Vor Xetra-Start: Jenoptik, Elmos, Uniper mit Berichtsereignissen; kein Fill",
+      "summary": "Drei Eventkandidaten entdeckt, nicht vollqualifiziert; alte Positionen ohne neue Kursmarken.",
+      "source_status": "5 öffentliche Seiten geprüft; 3 Eventmeldungen, 2 Kurs-Historien; 0 vollständige Dossiers",
+      "candidates": [
+        {
+          "ticker": "JEN",
+          "name": "Jenoptik",
+          "tv": "XETR:JEN",
+          "side": "WATCH",
+          "thesis": "Neunmonatszahlen am 10.11.",
+          "risk": "Konsens und frische Quote fehlen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ELG",
+          "name": "Elmos",
+          "tv": "XETR:ELG",
+          "side": "WATCH",
+          "thesis": "Quartalszahlen am 10.11.",
+          "risk": "Konsens fehlt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "UN0",
+          "name": "Uniper",
+          "tv": "XETR:UN0",
+          "side": "WATCH",
+          "thesis": "Neunmonatsbericht am 10.11.",
+          "risk": "Bewertung/Spread nicht geprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Jenoptik: Neunmonatsbericht 10. November",
+          "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/jenoptik-stock-at-eur-39-47-down-0-18-before-results/70454642",
+          "published_at": "2026-11-04",
+          "ticker": "JEN",
+          "publisher": "AD HOC NEWS",
+          "finding": "Berichtstermin laut Sekundärquelle"
+        },
+        {
+          "title": "Elmos: Quartalsbericht 10. November",
+          "url": "https://www.ad-hoc-news.de/boerse/news/vorboerse/elmos-stock-at-eur-111-10-down-0-45-pre-market/70468160",
+          "published_at": "2026-11-06",
+          "ticker": "ELG",
+          "publisher": "AD HOC NEWS",
+          "finding": "Berichtstermin laut Sekundärquelle"
+        },
+        {
+          "title": "Uniper: Neunmonatsbericht 10. November",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/uniper-stock-trades-0-41-above-prior-xetra-close/70450327",
+          "published_at": "2026-11-03",
+          "ticker": "UN0",
+          "publisher": "AD HOC NEWS",
+          "finding": "Berichtstermin laut Sekundärquelle"
+        }
+      ],
+      "watchlist_briefs": [],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Kein verifizierter Fill, ältere gespeicherte Kursmarke",
+        "base_scenario": "Offen",
+        "bull_scenario": "Kursrückgang begünstigt Short",
+        "bear_scenario": "Kursanstieg schadet Short",
+        "key_risk": "Gap und fehlender echter Fill",
+        "planned_exit": "Nicht nachträglich buchen",
+        "as_of": "2026-11-10T07:55:56Z",
+        "mark_price": 21.39,
+        "mark_at": "2026-11-09T16:00:00-05:00",
+        "mark_source_url": "https://stockanalysis.com/stocks/iren/history/",
+        "pnl_eur": -100.83,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research 10.11.2026, 08:55 CET\n\n## Markt und Earnings\nVor Xetra-Eröffnung (09:00 CET): kein frischer Xetra-Opening-Print, keine nachträgliche Order. Recherche-Entscheidung REVIEW, keine neue Paper-Position. Prioritäten: Jenoptik (Neunmonatsbericht 10.11., frühere EBITDA-Margenaussicht rund 22%), Elmos (Quartalsbericht 10.11., Dortmund-Waferkapazität bis mindestens 2028), Uniper (Neunmonatsbericht 10.11. und Capital Markets Day 16.11.). Die Ereignisse wurden in öffentlich zugänglichen Sekundärmeldungen identifiziert; Primär-IR, genaue aktuelle Ist-Zahlen, Analystenkonsens und mindestens zwei aktuelle Analystenvoten wurden nicht verifiziert. Daher kein qualifiziertes Long-/Short-Signal.\n\n## Screening\nDrei Event-Kandidaten entdeckt, null vollständig nach Kapitalisierung, Spread, Konsens und Kosten gescreent; null qualifiziert. PRE-EARNINGS, PEAD, Guidance-Revision und Pairs bleiben mangels hinreichender Datensätze offen. Keine belastbare 60–252-Tage-Korrelation. Drei eigenständige Event-Meldungen inhaltlich gesichtet; 50-Dokumente-Dossiers nicht erreicht. Keine bestätigten historischen Guidance-Ist-Paare oder regulatorischen Fondsbestandsvergleiche.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT: nur Referenzsimulation, 18,05 USD hypothetischer Einstieg, 100 EUR × 5; letzte gespeicherte Marke 21,39 USD am 09.11. 16:00 EST, Referenz-PnL −100,83 EUR ohne Kosten/FX; Quelle https://stockanalysis.com/stocks/iren/history/ . Kein nachgewiesener Fill, kein bestätigter Exit; Kursmarke in diesem Lauf nicht erneuert. HFG SHORT USER_REPORTED: Turbo-Einstieg und Produktdaten fehlen, PnL nicht berechenbar; Xetra-Schluss 09.11. 17:35 CET 3,029 EUR, https://stockanalysis.com/quote/etr/HFG/history/ . PTON SHORT USER_REPORTED: Turbo-Einstieg fehlt, PnL nicht berechenbar; Nasdaq-Schluss 09.11. 5,95 USD, https://stockanalysis.com/stocks/pton/history/ ; zuletzt gespeicherte Afterhours-Marke 5,93 USD um 18:18 EST, nicht als neu verifiziert. Keine Schließung. Morgen-Exit nur bei vor Eröffnung dokumentierter Order und danach überprüftem Opening-Print.\n\n## Paper-Risiko und Kosten\nIm Positionsregister 10.000 EUR hypothetisches Ausgangskapital, keine Broker-Paperverbindung. Deshalb keine ausführbaren Fills. Deutsche Mindestgebühren nach gespeichertem IBKR-Beispiel 2,50 EUR Roundtrip zzgl. Spread/Slippage: Bei 50 EUR Margin ×5 =250 EUR Notional bereits 1% und damit über dem 0,5%-Kostenlimit. Kein künstlicher Trade.\n\n## Quellen (öffentlich; geprüft am 10.11.2026)\n- [Jenoptik: Neunmonatsbericht 10. November](https://www.ad-hoc-news.de/boerse/news/vorboerse/jenoptik-stock-at-eur-39-47-down-0-18-before-results/70454642) – AD HOC NEWS, 2026-11-04\n- [Elmos: Quartalsbericht 10. November](https://www.ad-hoc-news.de/boerse/news/vorboerse/elmos-stock-at-eur-111-10-down-0-45-pre-market/70468160) – AD HOC NEWS, 2026-11-06\n- [Uniper: Neunmonatsbericht 10. November](https://www.ad-hoc-news.de/boerse/news/corporate-news/uniper-stock-trades-0-41-above-prior-xetra-close/70450327) – AD HOC NEWS, 2026-11-03\n- [HelloFresh Xetra Schlusskurs 9. November](https://stockanalysis.com/quote/etr/HFG/history/) – StockAnalysis, 2026-11-09\n- [Peloton Nasdaq Schlusskurs 9. November](https://stockanalysis.com/stocks/pton/history/) – StockAnalysis, 2026-11-09\n\n## Fehlende Nachweise\nPrimär-IR, vollständige Historie, unabhängige aktuelle Analystenupdates, regulatorische Holdings, verifizierte heutige Bid/Ask-Kurse und aktuelle Turbo-Produktpreise nicht gefunden bzw. nicht überprüft. TradingView-Widget nicht als Live-PnL-Quelle verwendet."
     }
   ],
   "deep_dives": {
