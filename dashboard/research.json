@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "updated_at": "2026-11-11T14:03:53Z",
+  "version": 6,
+  "updated_at": "2026-11-11T14:30:09Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -1042,12 +1042,161 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research – 11.11.2026, 15:03 MEZ\n\n## Markt- und Earnings-Lage\nXetra regulärer Mittwoch; Unternehmenszahlen von Siemens Energy, RWE und E.ON dominieren. Der europäische STOXX 600 lag laut Reuters im Tagesverlauf bei 660,06 Punkten (+0,2 %), kein tickgenauer Kurs. Siemens Energy meldete 44,2 Mrd. EUR Jahresumsatz, 4,1 Mrd. EUR Nettogewinn und 164 Mrd. EUR Auftragsbestand. RWE meldete 4,58 Mrd. EUR bereinigtes EBITDA für neun Monate gegenüber 4,43 Mrd. EUR Analystenerwartung. E.ON bestätigte die Jahresprognose (bereinigtes EBITDA 9,4–9,6 Mrd. EUR).\n\n## Screening und Watchlist\nFünf Eventtitel aus dem öffentlich datierten Kalender betrachtet: ENR, RWE, EOAN, BNR und GBF. Davon drei mit in diesem Lauf konkreten Ergebnisinformationen; BNR/GBF nur Kalender-Discovery, nicht qualifiziert. ENR: bullisch aufgrund Auftragsbestand und ambitionierter 2027/2030-Ziele; Gegenargument Bewertung, bereits starke Kursreaktion. RWE: leicht bullisch nach EBITDA-Überraschung; Risiko Wetterabhängigkeit und Commodity-Preise. EOAN: neutral nach Prognosebestätigung; Risiko hoher Investitionsbedarf. Analysten-Zielrevisionen, exakte historische Guidance-Ist-Paare, 60–252 Tageskurse, Short-Interest, verifizierte Fondsfilings und aktuelle Bid/Ask-Spreads: nicht gefunden. Kein PEAD-Nachweis ohne gemeinsam verifizierte Umsatz- und EPS-Surprises. Kein statistisch abgesichertes Pair.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister geprüft: IREN (OPEN_SIMULATED, historischer Referenzkurs 18,05 USD, kein bestätigter Fill), HFG (OPEN_UNVERIFIED), PTON (OPEN_UNVERIFIED). Für keine dieser drei Positionen wurde in diesem Lauf ein ausreichend aktueller zeitgestempelter öffentlicher Quote mit Kursart und Handelsphase bestätigt. Deshalb keine neuen Marks, keine berechenbare aktuelle PnL. HFG/PTON sind Nutzerprodukte ohne verifizierten Einstand/ISIN/KO; Aktienkurse wären kein valider Turbo-PnL-Ersatz. Keine Position geschlossen. Exit nur nach zuvor belegtem Plan und tatsächlichem Opening-Print; eine Opening-Order muss vor Markteröffnung feststehen.\n\n## Handelsentscheidung und Kosten\nKEIN TRADE: 15-Uhr-Slot ist Research, kein neuer Fill; zudem keine authentifizierte Paper-Broker-Ausführung, keine frischen Bid/Ask-Belege, keine validierte Gesamtkosten- und Risiko-Rechnung. Fiktives Startkapital laut Positionsregister 10.000 EUR, keine verifizierte Equity. Der gespeicherte Policy-Stand verlangt einen Ausführungsbeleg. Bei deutschen Aktien mindestens 2,50 EUR Roundtrip-Provision im IBKR-Tiered-Beispiel zuzüglich Spread/Slippage; 50 EUR Margin ×5 = 250 EUR Notional, Mindestprovision allein 1 % des Notionals und damit über 0,5 %-Kostenlimit.\n\n## Quellen und Lücken\nIn diesem Lauf fünf voneinander verschiedene öffentliche Veröffentlichungen inhaltlich ausgewertet, davon keine neue Firmen-IR-Originalpublikation tief gelesen. Keine 50-Quellen-Vollständigkeit behauptet. Für ein Master-Dossier fehlen historische Originalberichte, Konsenszeitreihen, Analystenvoten, Guidance-Scorecards, regulatorische Bestände, Kurs- und Kostenbelege. Quellen (11.11.2026, Abruf 11.11.2026):\n- [Siemens Energy Rekordgewinn und Ausblick](https://www.welt.de/newsticker/dpa_nt/infoline_nt/wirtschaft_nt/article6af404c6f0b67a4b246650a7/4-1-milliarden-euro-rekordgewinn-bei-siemens-energy.html) – Welt/dpa\n- [RWE Neunmonats-EBITDA über Konsens](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/) – Reuters\n- [E.ON bestätigt Jahresprognose](https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b) – WSJ\n- [Europäische Märkte und Sektorreaktion](https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/) – Reuters\n- [Unternehmenstermine 11. November](https://www.onvista.de/news/2026/11-11-tagesvorschau-termine-am-11-november-2026-0-10-26574860) – onvista/dpa-AFX"
+    },
+    {
+      "id": "US-20261111T143009Z",
+      "market": "US",
+      "run_at": "2026-11-11T14:30:09Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave Q3 über Erwartungen; AI-Infrastruktur erholt sich, aber Finanzierung bleibt Risiko",
+      "summary": "09:30 EST Research. CRWV Q3 3.661 Mrd USD Umsatz, 709 Mio USD Nettoverlust; NBIS Earnings morgen. Kein Fill; veraltete Positionsmarken.",
+      "source_status": "Vorläufig: 4 unabhängige geöffnete Quellen insgesamt; CRWV 4/50 inkl. Sekundärquellen, 1 neue Originalquelle. Keine neuen verifizierten Position-Quotes.",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH",
+          "thesis": "Umsatz- und Guidance-Beat",
+          "risk": "Schulden, Zinsen, Capex, Gap nach +15.6% Premarket",
+          "sources_checked": 4,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "side": "WATCH",
+          "thesis": "Q3 Earnings 12.11. vor Börse",
+          "risk": "Peer-Finanzierung und hohe Erwartungen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CSCO",
+          "name": "Cisco",
+          "tv": "NASDAQ:CSCO",
+          "side": "WATCH",
+          "thesis": "12.11. Earnings",
+          "risk": "Margendruck und Konsens",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "AMAT",
+          "name": "Applied Materials",
+          "tv": "NASDAQ:AMAT",
+          "side": "WATCH",
+          "thesis": "12.11. Earnings",
+          "risk": "Halbleiterzyklus",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "ticker": "CRWV",
+          "title": "CoreWeave Reports Strong Third Quarter 2026 Results",
+          "publisher": "CoreWeave Investor Relations",
+          "published_at": "2026-11-10",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "finding": "Q3 revenue $3.661bn, net loss $709m, interest expense $846m; FY26 revenue guidance $13.0-13.3bn"
+        },
+        {
+          "ticker": "CRWV",
+          "title": "Wall Street set for higher open as CoreWeave results temper AI spending concerns",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "finding": "08:26 ET Nasdaq futures +1.98%; CRWV +15.6% premarket; NBIS/APLD positive"
+        },
+        {
+          "ticker": "CRWV",
+          "title": "5 Things Investors Need to Know About Wednesday's Markets",
+          "publisher": "Investopedia",
+          "published_at": "2026-11-11",
+          "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-11-2026-12246542",
+          "finding": "CRWV Q3 revenue nearly $3.7bn and revised FY26 forecast; US equity market open on Veterans Day"
+        },
+        {
+          "ticker": "NBIS",
+          "title": "Earnings Calendar and Analysis for This Week",
+          "publisher": "Kiplinger",
+          "published_at": "2026-11-07",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+          "finding": "NBIS earnings scheduled Nov 12 before market open; CSCO and AMAT after close Nov 12"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Starker Umsatz und angehobene Prognose, aber erhebliche Zins- und Finanzierungslast",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 3.661 Mrd USD, GAAP-Nettoverlust 709 Mio USD, Zinsaufwand 846 Mio USD",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY26 Umsatz-Guidance 13.0-13.3 Mrd USD; Capex 37-39 Mrd USD",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Bewertung und Finanzierungskosten können Umsatz-Beat überlagern",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "NBIS Earnings 12.11.",
+            "Finanzierungsbedingungen"
+          ],
+          "invalidations": [
+            "Abschwächung AI-Aufträge",
+            "steigende Finanzierungskosten"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Kein nachgewiesener Fill, letzte gespeicherte Marke veraltet",
+        "base_scenario": "Hohe Volatilität und Peer-Rally",
+        "bull_scenario": "AI-Rally belastet Short",
+        "bear_scenario": "Finanzierungsängste drücken Aktie",
+        "key_risk": "Short squeeze und Overnight-Gap",
+        "planned_exit": "Ursprünglicher Termin 06.11., mangels Open-Print nicht gebucht",
+        "as_of": "2026-11-11T14:30:09Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US Research – 11.11.2026, 09:30 EST\n\n## Markt und Ereignisse\nVeterans Day: US-Aktienbörsen regulär geöffnet, US-Anleihemarkt geschlossen. Reuters meldete um 08:26 EST Nasdaq-100-Futures +1,98%, S&P-500-Futures +0,96%, Dow-Futures +0,29%. Diese Werte sind VORBÖRSLICH, keine aktuellen 09:30-Quotes. Quelle: [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n## Screening und Prioritäten\nIm geöffneten Earnings-Kalender wurden CRWV (bereits Q3 gemeldet), NBIS (12.11. vor Börse), CSCO und AMAT (12.11. nach Börse) als Ereigniskandidaten identifiziert. CRWV ist der einzige heute anhand einer geöffneten Original-Firmenmeldung vertieft geprüfte Titel. Andere Kalendernamen sind DISCOVERED, nicht vollständig SCREENED. [Kiplinger, 07.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks).\n\n## CRWV – vorläufiger Deep Dive (1 neue Originalpublikation / Ziel 50)\n[CoreWeave IR, 10.11.2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx): Q3-Umsatz 3,661 Mrd. USD (Vorjahr 1,365 Mrd.), operatives GAAP-Ergebnis +207 Mio. USD, GAAP-Nettoverlust 709 Mio. USD, Nettozinsaufwand 846 Mio. USD. Backlog rund 132,5 Mrd. USD; 2026er Umsatzprognose auf 13,0–13,3 Mrd. USD angehoben, Investitionsausgaben 37–39 Mrd. USD. Die Bilanz weist hohe Schulden und potenzielle Verwässerung durch ein ATM-Programm bis 35 Mio. Aktien auf. Positiv: Umsatzwachstum, Auftragsbestand und Guidance. Negativ: Kapitalintensität, Finanzierung, Kundennachfrage und regulatorische Risiken. [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/) meldete +15,6% in der Vorbörse; damit kann ein positiver Earnings-Effekt bereits eingepreist sein. Historischer Guidance-Ist-Vergleich aus zwei separaten Originalmeldungen: noch nicht verifiziert. Analysten: Oppenheimer Param Singh laut [Kiplinger, 07.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) optimistisch; zweiter unabhängig überprüfter aktueller Analystenbericht nicht gefunden. 13F-Zwei-Quartalsvergleich nicht verifiziert. Tendenz 1–10 Tage: WATCH, nicht qualifiziert.\n\n## NBIS, CSCO, AMAT\nNBIS: Earnings am 12.11. vor Eröffnung; KI-Infrastruktur-Peer von CRWV, Long bei positivem Ausblick denkbar, Short bei Finanzierungssorgen; Original-Q3-Zahlen noch ausstehend. CSCO: erwarteter EPS 1,32 USD und Umsatz 18,1 Mrd. USD laut [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks); Morgan Stanley/Meta Marshall vor Zahlen auf Equal Weight gesenkt. AMAT: Ergebnisse 12.11. nach Börsenschluss; Konsens und historischer Track Record noch nicht verifiziert. Alle drei: 0 neue geprüfte Originaldokumente /50; vorläufig.\n\n## Strategievergleich\nPre-Earnings: NBIS/CSCO/AMAT WATCH, Konsensrisiko hoch. PEAD: CRWV Umsatz- und EPS-Vergleich in [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) positiv, aber kein verifizierter 09:30-Handelskurs oder kostengerechter Einstieg. Guidance-Revision: CRWV positiv, allerdings hoher Capex. Pairs CRWV/NBIS: gleiche Risikofaktoren, keine 60–252 verifizierten Kursreihen, Korrelation null, keine Hedge-Qualifikation.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister zuletzt gelesen: IREN PAPER SHORT, historischer Referenzwert 18,05 USD, KEIN nachgewiesener Fill; letzte gespeicherte Marke 19,61 USD am 10.11. 15:44 EST, ALT. Daraus keine aktuelle PnL; hypothetisch bei dieser ALT-Marke -43,21 EUR vor Kosten/FX. [Yahoo Finance IREN Historie, abgerufen 11.11.2026](https://finance.yahoo.com/quote/IREN/history/) zeigt 10.11.-Close 19,73 USD und 11.11. 07:16:40 EST Pre-Market 21,17 USD; nicht als 09:30-Kurs oder als bestätigter Trade-Fill verwenden. HFG USER_REPORTED SHORT: letzter gespeicherter Aktienkurs 3,029 EUR, 09.11. 17:35 CET, ALT; Produkt-Einstand/ISIN fehlen, PnL nicht berechenbar. PTON USER_REPORTED SHORT: letzter gespeicherter Aktienkurs 5,82 USD, 10.11. 16:00 EST, ALT; Turbo-Einstand/ISIN fehlen, PnL nicht berechenbar. Keine verifizierten neuen, jüngeren zeitgestempelten Marken für alle drei. Kein automatischer Exit. Die geplante IREN-Exit-Zeit 06.11. ist historisch überschritten, aber nicht mit einem Opening-Print belegt.\n\n## Entscheidung und Kosten\n09:30 EST ist Research-Slot, kein autorisierter Overnight-Einstieg (nur 15:30 EST). Paper-Konfiguration 10.000 EUR fiktives Startbudget, kein verbundener Paper-Broker, daher **KEIN TRADE, 0 Fills**. Variable Margin 10–200 EUR, bevorzugt 50 EUR, 5× synthetisch; bei 250 EUR Notional allein US-IBKR-Mindestprovision 0,70 USD zuzüglich Spread, FX und Slippage, Gesamtkostenobergrenze 0,5% nicht geprüft. [IBKR-Gebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe). Keine neuen positions.json-Marken ohne neueren belegten Quote-Zeitstempel.\n\n## Forschungsstand\nCRWV 1 neu geöffnete Originalpublikation und 3 weitere unabhängige inhaltlich geöffnete Sekundärtexte/Kalender; 4/50 als konservativer laufbezogener Quellenstand (teilweise übergreifende Texte). NBIS/CSCO/AMAT jeweils 1 Kalendertext, keine eigenständigen Originalberichte. Weitere SEC-10-Q, Guidance-Vergleiche, 13F und Analysten-Originale nicht verifiziert."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T14:03:53Z",
-    "method_note": "Nur 3 Titel mit konkreten Ergebnissen überprüft; 2 weitere kalenderbasiert DISCOVERED; keine Kurs-/Spread-Qualifikation.",
+    "as_of": "2026-11-11T14:30:09Z",
+    "method_note": "Dieser Lauf: vier ereignisbezogene Kandidaten im Kalender entdeckt, nur CRWV mit geöffnetem IR-Bericht vertieft; keine vollständige quantitative Eignungsprüfung aller vier.",
     "coverage": {
       "universe_checked": 3,
       "earnings_events": 3,
@@ -1147,17 +1296,18 @@
         "name": "CoreWeave",
         "tv": "NASDAQ:CRWV",
         "market": "US",
-        "sector": "Technology",
-        "direction": "LONG",
-        "reason": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "AI infrastructure sector event",
+        "sector": "AI Infrastructure",
+        "direction": "WATCH",
+        "reason": "Umsatz- und Guidance-Beat",
+        "stage": "DEEP_DIVE",
+        "earnings_at": "2026-11-10",
+        "event": "Earnings",
         "score": null,
         "sources": [
-          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
         ],
-        "as_of": "2026-11-11T13:25:15Z"
+        "as_of": "2026-11-11T14:30:09Z"
       },
       {
         "ticker": "IREN",
@@ -1198,17 +1348,51 @@
         "name": "Nebius",
         "tv": "NASDAQ:NBIS",
         "market": "US",
-        "sector": "Technology",
-        "direction": "REVIEW",
-        "reason": "Peer-Rally und bevorstehender Bericht",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "AI infrastructure sector event",
+        "sector": "AI Infrastructure",
+        "direction": "WATCH",
+        "reason": "Q3 Earnings 12.11. vor Börse",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-12",
+        "event": "Earnings",
         "score": null,
         "sources": [
-          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
         ],
-        "as_of": "2026-11-11T13:25:15Z"
+        "as_of": "2026-11-11T14:30:09Z"
+      },
+      {
+        "ticker": "CSCO",
+        "name": "Cisco",
+        "tv": "NASDAQ:CSCO",
+        "market": "US",
+        "sector": "Networking",
+        "direction": "WATCH",
+        "reason": "12.11. Earnings",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-12",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        ],
+        "as_of": "2026-11-11T14:30:09Z"
+      },
+      {
+        "ticker": "AMAT",
+        "name": "Applied Materials",
+        "tv": "NASDAQ:AMAT",
+        "market": "US",
+        "sector": "Semiconductor Equipment",
+        "direction": "WATCH",
+        "reason": "12.11. Earnings",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-12",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        ],
+        "as_of": "2026-11-11T14:30:09Z"
       }
     ],
     "pairs": [],
@@ -1262,6 +1446,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261111T140353Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 1,
+        "earnings_events": 4,
+        "triaged": 1,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T143009Z"
       }
     ],
     "strategies": []
@@ -1347,10 +1541,10 @@
       "ticker": "CRWV",
       "name": "CoreWeave",
       "tv": "NASDAQ:CRWV",
-      "as_of": "2026-11-11T13:25:15Z",
-      "status": "PRELIMINARY",
-      "stance": "LONG",
-      "summary": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
+      "as_of": "2026-11-11T14:30:09Z",
+      "status": "DEEP_DIVE_PRELIMINARY",
+      "stance": "WATCH",
+      "summary": "Q3 Umsatz 3.661bn USD; Finanzierung und Capex Risiken",
       "source_goal": 50,
       "source_documents": [
         {
@@ -1362,6 +1556,16 @@
           "finding": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
           "checked_on": "2026-11-11T13:25:15Z",
           "doc_type": "news"
+        },
+        {
+          "id": "CRWV-IR-Q3-2026",
+          "title": "CoreWeave Reports Strong Third Quarter 2026 Results",
+          "publisher": "CoreWeave Investor Relations",
+          "published_at": "2026-11-10",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "finding": "Q3 revenue $3.661bn, net loss $709m, interest expense $846m; FY26 revenue guidance $13.0-13.3bn",
+          "checked_on": "2026-11-11T14:30:09Z",
+          "doc_type": "IR_EARNINGS_RELEASE"
         }
       ],
       "financial_history": [],
@@ -1369,10 +1573,12 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "Verschuldung und Kapazitätszyklus",
-        "Aktuelle Bid/Ask, SEC-Originale, Konsens und Kosten"
+        "Historische Guidance-Ist-Paare",
+        "Zwei SEC-13F-Filings pro Manager",
+        "vollständige aktuelle Analystenberichte",
+        "zeitnahe Bid/Ask-Quotes"
       ],
-      "method_note": "Nur inhaltlich geöffnete einzigartige Dokumente zählen.",
+      "method_note": "Neue Originalquelle 1; keine Quellenzahl aus bloßen Treffern abgeleitet.",
       "analyst_coverage": []
     },
     "IREN": {
