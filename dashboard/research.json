@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated_at": "2026-11-11T10:59:12Z",
+  "version": 2,
+  "updated_at": "2026-11-11T11:55:43Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -186,16 +186,236 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra Research – 11.11.2026, 11:59 CET\n\n## Markt- und Earnings-Lage\n**RWE:** Neunmonats-EBITDA bereinigt 4,58 Mrd. EUR gegenüber Analystenkonsens 4,43 Mrd. EUR; Windbedingungen positiv. [Reuters, 11.11.2026](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/). **Siemens Energy:** Rekord-Auftragsbestand 164 Mrd. EUR; FY2027-Umsatzwachstum 14–16%, Margenziel 14–16%, langfristiges Margenziel 20–22%; Aktienrückkaufpläne bis 2030. [WSJ, 11.11.2026](https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1). **E.ON:** Bestätigte EBITDA-Jahresguidance 9,4–9,6 Mrd. EUR, Neunmonatsinvestitionen 5,2 Mrd. EUR. [WSJ, 11.11.2026](https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b). Der öffentliche [Wochenkalender, Investing.com, 06.11.2026](https://de.investing.com/news/stock-market-news/daxzahlenwoche-infineon-siemens-allianz-und-usinflation--alle-termine-3752206) nennt weitere Berichte von Siemens und Allianz; genaue nächste Veröffentlichungstermine hier nicht einzeln verifiziert.\n\n## Screening und Strategie\nDrei europäische Eventtitel thematisch triagiert (RWE, ENR, EOAN), aber keine vollständig auf Marktkapitalisierung, Spread, Liquidität und Event-Überraschung überprüfte qualifizierte Handelschance. RWE WATCH, ENR WATCH, EOAN WATCH. Pre-Earnings, PEAD, Guidance-Revision und Pairs geprüft als Ansätze, jedoch keine zeitgestempelte Konsensrevision, Bid/Ask-Reihe, historische Paar-Korrelation oder robuste Nettokostenkalkulation. Kein qualifiziertes Entry-Signal. Long-These: starke Nachfrage und bessere Guidance; Short-Gegenthese: Erwartungen bereits eingepreist, Bewertungs-/Zinsrisiko. Historische Management-Guidance-Ist-Paare, namentliche aktuelle Analystenziele und regulatorische Fondsvergleiche: nicht verifiziert. Keine erfundenen Trefferquoten.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN Short:** Referenz-Einstieg 18,05 USD, kein belegter Fill. [Yahoo Finance, Kurs vom 10.11.2026 16:00 EST: 19,73 USD](https://finance.yahoo.com/quote/IREN/history/); hypothetische PnL bei 100 EUR ×5 = 500 × (1 − 19,73/18,05) = −46,54 EUR, ohne Kosten/FX, **keine echte Paper-Performance**. Das Positionsjournal enthält einen älteren 19,61-USD-Marker; ohne zweifelsfreie Verifikation der neuen Kursmarke keine Änderung an positions.json.\n**HFG Short Turbo (USER_REPORTED):** letzter belegbarer Xetra-Schluss 10.11.2026 17:35 CET 2,990 EUR [Finanznachrichten](https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm); 11.11. Orderbuch-Snapshot 08:00 CET, kein belastbarer 11:59-Last. Produkt-ISIN, Turbo-Einstieg und KO fehlen: PnL nicht berechenbar.\n**PTON Short Turbo (USER_REPORTED):** [StockAnalysis, Schlusskurs 10.11.2026 16:00 EST: 5,81 USD](https://stockanalysis.com/stocks/pton/history/); 5,82 USD Afterhours 19:59 EST. Produktdaten fehlen, PnL nicht berechenbar. Kein Ausstieg oder Positionswechsel.\n\n## Kosten, Risiken und Entscheidung\nDas GitHub-Positionsregister weist 10.000 EUR hypothetisches Anfangskapital, 5× Modellhebel, 10 Trades/Tag als Ziel (keine Fill-Pflicht) und **keinen verbundenen Paper-Broker** aus. Die Mindestprovision von 2,50 EUR für deutschen IBKR-Tiered-Roundtrip übersteigt bereits bei 50 EUR Margin/250 EUR Notional die 0,5%-Kostenobergrenze (1,25 EUR), ohne Spread. Daher **KEIN TRADE**, 0 neue Fills, keine rückdatierten simulierten Orders. Eine Eröffnungskursorder muss vor dem Open feststehen; der tatsächliche Eröffnungspreis ist erst danach bekannt.\n\n## Quellenstatus und Lücken\nSieben unterschiedliche öffentliche Quellen in diesem Lauf ausgewertet, davon drei aktuelle Ergebnisberichte, ein Earnings-Wochenkalender und drei Kursseiten. Kein 50-Dokumente-Dossier abgeschlossen; keine neuen Original-IR-Dokumente im Master-Dossier verifiziert. Analystenkonsens außer RWE-EBITDA, namentliche Analysten, 13F/Stimmrechte, aktueller Xetra-Bid/Ask, Borrow, Stop/Target und vollständige Kostenschätzung: nicht gefunden bzw. nicht verifiziert. Research-Zeitpunkt 11.11.2026 11:59 CET."
+    },
+    {
+      "id": "XETRA-20261111T115543Z",
+      "market": "XETRA",
+      "run_at": "2026-11-11T11:55:43Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Energy, RWE und E.ON mit Ergebniskatalysatoren; keine verifizierten Fills",
+      "summary": "Vier aktuelle Publikationen geprüft; ohne zeitnahe Bid/Ask- und Broker-Fill-Belege keine Orders.",
+      "source_status": "4 unterschiedliche aktuelle Publikationen gelesen; IR-Originaldossiers und Livequotes unvollständig",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "LONG",
+          "thesis": "Rekordauftragsbestand und neue Ziele",
+          "risk": "Kursanstieg kann Erwartungen vorwegnehmen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "side": "LONG",
+          "thesis": "EBITDA über Konsens",
+          "risk": "Wettergetriebener Effekt möglicherweise nicht nachhaltig",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "EOAN",
+          "name": "E.ON SE",
+          "tv": "XETR:EOAN",
+          "side": "LONG",
+          "thesis": "Ergebnis über Konsens, Guidance bestätigt",
+          "risk": "Investitions- und Finanzierungsrisiken",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "8TRA",
+          "name": "TRATON SE",
+          "tv": "XETR:8TRA",
+          "side": "WATCH",
+          "thesis": "US-Zollzulassung",
+          "risk": "Ausmaß des Q4-Effekts unklar",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Energy erhöht mittelfristige Ziele nach Rekordjahr",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "publisher": "Wall Street Journal",
+          "url": "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1",
+          "finding": "Auftragsbestand 164 Mrd. EUR, mittelfristiges Margenziel 20–22%, starke Kursreaktion"
+        },
+        {
+          "title": "RWE Neunmonats-EBITDA über Konsens",
+          "published_at": "2026-11-11",
+          "ticker": "RWE",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+          "finding": "4,58 Mrd. EUR adjusted EBITDA versus 4,43 Mrd. EUR Analystenerwartung"
+        },
+        {
+          "title": "E.ON bestätigt Jahresausblick",
+          "published_at": "2026-11-11",
+          "ticker": "EOAN",
+          "publisher": "Wall Street Journal",
+          "url": "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b",
+          "finding": "Q3 bereinigtes Nettoergebnis 278 Mio. EUR versus Konsens 268 Mio. EUR"
+        },
+        {
+          "title": "TRATON US-Zollzulassung beeinflusst Q4",
+          "published_at": "2026-11-11",
+          "ticker": "8TRA",
+          "publisher": "AD HOC NEWS",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/traton-stock-trades-0-20-above-xetra-close-after-u-s-approval/70491162",
+          "finding": "Section-232-Zulassung, Jahresguidance unverändert"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Rekordauftragsbestand und neue Ziele",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Rekordauftragsbestand und neue Ziele",
+              "url": "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1",
+              "publisher": "Wall Street Journal",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Kursanstieg kann Erwartungen vorwegnehmen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Ergebnis- und Guidance-Reaktion",
+          "invalidations": "Kursanstieg kann Erwartungen vorwegnehmen"
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "EBITDA über Konsens",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "EBITDA über Konsens",
+              "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Wettergetriebener Effekt möglicherweise nicht nachhaltig",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Ergebnis- und Guidance-Reaktion",
+          "invalidations": "Wettergetriebener Effekt möglicherweise nicht nachhaltig"
+        },
+        {
+          "ticker": "EOAN",
+          "name": "E.ON SE",
+          "tv": "XETR:EOAN",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Ergebnis über Konsens, Guidance bestätigt",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ergebnis über Konsens, Guidance bestätigt",
+              "url": "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b",
+              "publisher": "Wall Street Journal",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Investitions- und Finanzierungsrisiken",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": "Ergebnis- und Guidance-Reaktion",
+          "invalidations": "Investitions- und Finanzierungsrisiken"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZSIMULATION",
+        "summary": "Kein nachgewiesener Fill; alte Kursmarke nicht live",
+        "base_scenario": "Nicht belastbar",
+        "bull_scenario": "Kursrückgang begünstigt hypothetischen Short",
+        "bear_scenario": "Kursanstieg schadet hypothetischem Short",
+        "key_risk": "Gap und veraltete Marke",
+        "planned_exit": "Kein nachträglich behaupteter Exit",
+        "as_of": "2026-11-11T11:55:43Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra Research – 11.11.2026, 12:55 CET\n\n## Markt und Earnings\nMittwoch, reguläre Xetra-Sitzung. Vier aktuelle, unterschiedliche Publikationen inhaltlich geprüft; kein umfassender Markt- oder Kursfeed. Siemens Energy meldet Rekord-Auftragsbestand von 164 Mrd. EUR und Ziel einer Marge vor Sondereffekten von 20–22% bis 2030; die Aktie reagierte deutlich positiv. [WSJ, 11.11.2026](https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1). RWE meldet bereinigtes Neunmonats-EBITDA von 4,58 Mrd. EUR versus 4,43 Mrd. EUR Konsens. [Reuters, 11.11.2026](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/). E.ON bestätigt die Guidance, Q3 bereinigtes Nettoergebnis 278 Mio. EUR versus 268 Mio. EUR erwartet. [WSJ, 11.11.2026](https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b). TRATON meldet US-Zollzulassung, Guidance unverändert. [AD HOC NEWS, 11.11.2026](https://www.ad-hoc-news.de/boerse/news/corporate-news/traton-stock-trades-0-20-above-xetra-close-after-u-s-approval/70491162).\n\n## Screening und Watchlist\nVier Ereignistitel inhaltlich triagiert: ENR WATCH (positive Guidance, aber nach Kursanstieg Gefahr des Hinterherlaufens); RWE WATCH (positiver Ergebnisabstand, jedoch Wind-/Wettereffekte); EOAN WATCH (leicht über Konsens, kein starker Guidance-Impuls); 8TRA DISCOVERED (regulatorische Meldung, operative Quantifizierung fehlt). Marktkapitalisierung, aktueller Bid/Ask, Spreads und exakte aktuelle Kurszeiten wurden nicht für alle vier unabhängig verifiziert; daher kein QUALIFIED. Keine vollständige PEAD-Prüfung, da historische Vorab-EPS- und Umsatzkonsense fehlen. Guidance-Track-Record, 13F/Stimmrechte, Analystenziele und 60–252-Tage-Pair-Korrelationen nicht verifiziert. Quellenstand: 4 inhaltlich gelesene unterschiedliche Publikationen; 0 neue vollständige Original-IR-Dossiers, Ziel 50 je Aktie nicht erreicht.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister gelesen: IREN SHORT ist ausdrücklich nur historische Referenzsimulation, 18,05 USD, kein belegter Fill. Letzter gespeicherter Referenzkurs 19,61 USD vom 10.11.2026 15:44 EST, nicht aktueller Kurs; keine neue verifizierte Marke und kein neuer PnL. HFG SHORT und PTON SHORT sind USER_REPORTED-Turbos ohne Einstand/ISIN/KO, PnL nicht berechenbar. HFG letzte gespeicherte Marke 3,029 EUR (09.11.2026), PTON 5,82 USD (10.11.2026), jeweils ALT; keine Schließung. DEUTZ bereits als CLOSED_REPORTED geführt. Eine Opening-Order muss vor Eröffnung festgelegt sein; kein nachträglicher Fill.\n\n## Handelsentscheidung und Kosten\nKEIN TRADE / 0 neue Paper-Fills. 10.000 EUR rein hypothetisches Ausgangskapital, kein verbundener Paper-Broker. Konfiguration im Positionsregister verlangt einen authentischen Fill-Beleg, nach Entscheidung beobachteten Bid/Ask, realistische Kosten, R/R >=1,8 und Kosten <=0,5% Notional. Dies ist hier nicht nachgewiesen. Keine aktuelle modellierte Netto-Performance aus veralteten Kursen behauptet. Keine GitHub-Quelle für Research verwendet.",
+      "report_sections": [
+        {
+          "heading": "Earnings",
+          "summary": "Vier Ereignistitel geprüft",
+          "bullets": [
+            {
+              "text": "Auftragsbestand 164 Mrd. EUR, mittelfristiges Margenziel 20–22%, starke Kursreaktion",
+              "url": "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1",
+              "publisher": "Wall Street Journal",
+              "checked_at": "2026-11-11T11:55:43Z"
+            },
+            {
+              "text": "4,58 Mrd. EUR adjusted EBITDA versus 4,43 Mrd. EUR Analystenerwartung",
+              "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+              "publisher": "Reuters",
+              "checked_at": "2026-11-11T11:55:43Z"
+            },
+            {
+              "text": "Q3 bereinigtes Nettoergebnis 278 Mio. EUR versus Konsens 268 Mio. EUR",
+              "url": "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b",
+              "publisher": "Wall Street Journal",
+              "checked_at": "2026-11-11T11:55:43Z"
+            },
+            {
+              "text": "Section-232-Zulassung, Jahresguidance unverändert",
+              "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/traton-stock-trades-0-20-above-xetra-close-after-u-s-approval/70491162",
+              "publisher": "AD HOC NEWS",
+              "checked_at": "2026-11-11T11:55:43Z"
+            }
+          ]
+        }
+      ]
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T10:59:12Z",
-    "method_note": "Drei Eventtitel nur triagiert; kein vollständiges Liquiditäts-/Spread-Screening",
+    "as_of": "2026-11-11T11:55:43Z",
+    "method_note": "4 aktuelle Ereignistitel geprüft; keine vollständige Liquiditäts-/Spreadprüfung; kein qualifizierter Fill",
     "coverage": {
-      "universe_checked": 0,
+      "universe_checked": 3,
       "earnings_events": 3,
-      "triaged": 3,
+      "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -250,6 +470,74 @@
           "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b"
         ],
         "as_of": "2026-11-11T10:59:12Z"
+      },
+      {
+        "ticker": "ENR",
+        "name": "Siemens Energy",
+        "tv": "XETR:ENR",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Rekordauftragsbestand und neue Ziele",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Rekordauftragsbestand und neue Ziele",
+        "score": null,
+        "sources": [
+          "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1"
+        ],
+        "as_of": "2026-11-11T11:55:43Z"
+      },
+      {
+        "ticker": "RWE",
+        "name": "RWE AG",
+        "tv": "XETR:RWE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "EBITDA über Konsens",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "EBITDA über Konsens",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T11:55:43Z"
+      },
+      {
+        "ticker": "EOAN",
+        "name": "E.ON SE",
+        "tv": "XETR:EOAN",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Ergebnis über Konsens, Guidance bestätigt",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Ergebnis über Konsens, Guidance bestätigt",
+        "score": null,
+        "sources": [
+          "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b"
+        ],
+        "as_of": "2026-11-11T11:55:43Z"
+      },
+      {
+        "ticker": "8TRA",
+        "name": "TRATON SE",
+        "tv": "XETR:8TRA",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "US-Zollzulassung",
+        "stage": "DISCOVERED",
+        "earnings_at": null,
+        "event": "US-Zollzulassung",
+        "score": null,
+        "sources": [
+          "https://www.ad-hoc-news.de/boerse/news/corporate-news/traton-stock-trades-0-20-above-xetra-close-after-u-s-approval/70491162"
+        ],
+        "as_of": "2026-11-11T11:55:43Z"
       }
     ],
     "pairs": [],
@@ -263,6 +551,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261111T105912Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261111T115543Z"
       }
     ],
     "strategies": []
