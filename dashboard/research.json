@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "updated_at": "2026-11-11T17:04:29Z",
+  "version": 13,
+  "updated_at": "2026-11-11T17:30:06Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -2068,16 +2068,135 @@
           "bullets": []
         }
       ]
+    },
+    {
+      "id": "US-20261111T173006Z",
+      "market": "US",
+      "run_at": "2026-11-11T17:30:06Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CRWV Earnings stark, Zinslast hoch; IREN Lieferverzögerungen",
+      "summary": "12:30 EST Research, kein autorisiertes Entry-Fenster; 0 Fills; 2 Aktien inhaltlich triagiert.",
+      "source_status": "CRWV 4/50, IREN 1/50; vorläufig; keine frischen verifizierten Kursmarken",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "LONG",
+          "thesis": "Umsatzüberraschung, Guidance-Anhebung",
+          "risk": "Zinslast, Verschuldung, Capex",
+          "sources_checked": 4,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "AI-Cloud-Wachstum",
+          "risk": "Microsoft-Verzögerung und Finanzierungsrisiko",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "CoreWeave Q3 2026 results",
+          "published_at": "2026-11-10",
+          "ticker": "CRWV",
+          "publisher": "CoreWeave Investor Relations",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "finding": "3.661 Mrd USD Umsatz; 132.5 Mrd USD Backlog; FY26 Guidance erhöht"
+        },
+        {
+          "title": "CoreWeave targets 2028 profitability",
+          "published_at": "2026-11-10",
+          "ticker": "CRWV",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/",
+          "finding": "Hohe Verschuldung und Finanzierung durch Kundenanzahlungen"
+        },
+        {
+          "title": "IREN delays Microsoft AI deliveries",
+          "published_at": "2026-11-05",
+          "ticker": "IREN",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "finding": "ARR-Ziel zeitlich verschoben"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH_LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Wachstum vs Finanzierung",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 3.661 Mrd USD, Nettoverlust 709 Mio USD",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY26 Umsatzguidance 13.0–13.3 Mrd USD",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "Gesamtverschuldung 46.9 Mrd USD laut Reuters",
+              "url": "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": [
+            "Earnings-Nachreaktion",
+            "Finanzierung"
+          ],
+          "invalidations": [
+            "Finanzierungskosten steigen",
+            "Kapazitätsausbau verzögert"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Keine nachgewiesene eigene Ausführung; aktuelle PnL nicht verifiziert",
+        "base_scenario": "Volatilität nach Lieferverzögerung",
+        "bull_scenario": "AI-Nachfrage stützt Kurs",
+        "bear_scenario": "Capex und Liefertermine belasten",
+        "key_risk": "Nicht nachgewiesener Fill",
+        "planned_exit": "Kein Exit ohne überprüfbaren Print",
+        "as_of": "2026-11-11T17:30:06Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Research – 11.11.2026, 12:30 EST\n\n**Entscheidung: KEIN TRADE.** Veterans Day: NYSE/Nasdaq regulär 09:30–16:00 EST geöffnet, Anleihemarkt geschlossen ([Investopedia, 09.11.2026](https://www.investopedia.com/is-the-stock-market-open-on-veterans-day-2026-trading-holidays-12239907)). Kein 15:30-Entscheidungsfenster und keine authentifizierte Paper-Broker-Fill-Schnittstelle.\n\n## Earnings und Marktlage\n**CRWV (vorläufig LONG-Watch, 4/50 inhaltlich geprüfte Dokumente):** CoreWeave meldete für Q3 2026 3,661 Mrd. USD Umsatz (Vorjahr 1,365 Mrd.), operatives Ergebnis 207 Mio. USD, Zinsaufwand netto 846 Mio. USD und Nettoverlust 709 Mio. USD. FY26-Umsatzprognose 13,0–13,3 Mrd. USD, Backlog 132,5 Mrd. USD, erwartete Capex 37–39 Mrd. USD. Quellen: [CoreWeave IR, 10.11.2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx); [Reuters, 10.11.2026](https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/); [Investing.com Transkript, 10.11.2026](https://www.investing.com/news/transcripts/earnings-call-transcript-coreweave-tops-q3-2026-forecast-and-shares-rise-57-93CH-5017354). Reuters nennt LSEG-Konsens von 3,55 Mrd. USD Umsatz, tatsächliche positive Überraschung rund 3,1%. Bull: Nachfrage, Kundenanzahlungen und Prognoseanhebung. Bear: Schulden, Zinslast, Finanzierungsbedarf, Verwässerung und Capex. Kein verifizierter aktueller Bid/Ask, kein qualifiziertes Handelssignal. Analysten-Einzelvoten, zwei historische 13F-Originalfilings und periodengleiche Guidance-Scorecard: nicht verifiziert.\n\n**IREN (vorläufig REVIEW, 1/50 inhaltlich geprüfte Dokumente):** Reuters vom 05./06.11.2026 meldet 228 Mio. USD Quartalsumsatz, davon 200 Mio. USD AI Cloud, und Verschiebung des >4-Mrd.-USD-ARR-Ziels auf Januar bis möglicherweise Ende Februar. Bull: starkes AI-Umsatzwachstum; Bear: Lieferverzögerungen, 15 Mrd. USD geplante Investitionen und Finanzierung. [Reuters](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/). Referenz-Einstieg 18,05 USD ist kein nachgewiesener eigener Fill.\n\n## Screening und Strategie\nTatsächlich inhaltlich geprüfte Einzeltitel: CRWV und IREN (2). Keine Dutzende oder Hunderte Aktien als gescreent ausgegeben. PRE-EARNINGS: CRWV bereits berichtet; PEAD: EPS-Vergleich nach GAAP/adjusted noch nicht sauber standardisiert; GUIDANCE: FY26 angehoben, aber historischer Ist-Abgleich offen; PAIRS CRWV/IREN nur Hypothese, Korrelation und Hedge Ratio nicht berechnet. Weitere aktuelle Analystenvoten und belastbare zeitgestempelte Börsenquotes: nicht gefunden.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister: IREN OPEN_SIMULATED nur **unverbindliche Referenzsimulation** (18,05 USD), HFG und PTON OPEN_UNVERIFIED als Nutzermeldungen ohne verifizierten Produkt-Einstand. Keine neueren vollständigen öffentlichen Kursmarken mit exakter Börsenzeit in diesem Lauf bestätigt. Daher **keine aktuelle PnL berechenbar**, keine Position geschlossen, keine Mark-Updates. Für HFG/PTON fehlen insbesondere ISIN, Knock-out und Zertifikatkurs. Nächster Ausstieg ausschließlich nach dokumentiertem Kursbeleg; kein vorgetäuschter Fill.\n\n## Risiko und Ausführung\nFiktives Startbudget laut zuletzt gelesenem Register 10.000 EUR, Broker nicht verbunden. Aktuelle Konfiguration verlangt Fill-Receipt, verifizierten Spread und Quote nach Entscheidung. Kein Paper-Fill, keine echte Order. Kostenschwelle und Stop-Risiko mangels handelbarem Bid/Ask nicht überprüfbar. TradingView-Widgets sind kein verifizierter PnL-Feed. 50-Quellen-Meilenstein für beide Titel noch nicht erreicht."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T17:04:29Z",
-    "method_note": "Nachbörsliche gezielte Triage von fünf Titeln; keine vollumfängliche Liquiditätsprüfung",
+    "as_of": "2026-11-11T17:30:06Z",
+    "method_note": "Dieser US-Lauf: 2 inhaltlich triagierte Titel; kein breiter quantitativer Screener verifiziert.",
     "coverage": {
-      "universe_checked": 5,
-      "earnings_events": 2,
-      "triaged": 5,
+      "universe_checked": 2,
+      "earnings_events": 1,
+      "triaged": 2,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -2106,15 +2225,15 @@
         "market": "US",
         "sector": "Technology",
         "direction": "REVIEW",
-        "reason": "Peer-Rally nach CRWV",
+        "reason": "Microsoft delivery delay",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "AI infrastructure sector event",
+        "earnings_at": "2026-11-05",
+        "event": "Q1 report",
         "score": null,
         "sources": [
-          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+          "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
         ],
-        "as_of": "2026-11-11T13:25:15Z"
+        "as_of": "2026-11-11T17:30:06Z"
       },
       {
         "ticker": "NVDA",
@@ -2240,18 +2359,18 @@
         "name": "CoreWeave",
         "tv": "NASDAQ:CRWV",
         "market": "US",
-        "sector": null,
-        "direction": "WATCH LONG",
-        "reason": "Umsatzbeat und Sektorrebound",
+        "sector": "Technology",
+        "direction": "LONG",
+        "reason": "Q3 Earnings",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Earnings/AI sector",
+        "earnings_at": "2026-11-10",
+        "event": "Q3 report",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
-          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/"
         ],
-        "as_of": "2026-11-11T16:27:39Z"
+        "as_of": "2026-11-11T17:30:06Z"
       },
       {
         "ticker": "CSCO",
@@ -2381,6 +2500,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261111T170429Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 2,
+        "earnings_events": 1,
+        "triaged": 2,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T173006Z"
       }
     ],
     "strategies": []
@@ -2466,10 +2595,10 @@
       "ticker": "CRWV",
       "name": "CoreWeave",
       "tv": "NASDAQ:CRWV",
-      "as_of": "2026-11-11T16:27:39Z",
+      "as_of": "2026-11-11T17:30:06Z",
       "status": "PRELIMINARY",
-      "stance": "WATCH LONG",
-      "summary": "Umsatzbeat und Sektorrebound; Schulden und bereits starke Kursreaktion",
+      "stance": "WATCH_LONG",
+      "summary": "Starkes Umsatzwachstum bei hoher Zinslast",
       "source_goal": 50,
       "source_documents": [
         {
@@ -2511,6 +2640,26 @@
           "finding": "Earnings und Konsens",
           "checked_on": "2026-11-11T16:27:39Z",
           "doc_type": "earnings_calendar"
+        },
+        {
+          "url": "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/",
+          "title": "CoreWeave targets 2028 profitability",
+          "publisher": "Reuters",
+          "published_at": "2026-11-10",
+          "finding": "Debt 46.9 Mrd USD",
+          "doc_type": "news",
+          "id": "CRWV-4",
+          "checked_on": "2026-11-11T17:30:06Z"
+        },
+        {
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-coreweave-tops-q3-2026-forecast-and-shares-rise-57-93CH-5017354",
+          "title": "CoreWeave Q3 earnings transcript",
+          "publisher": "Investing.com",
+          "published_at": "2026-11-10",
+          "finding": "Management call",
+          "doc_type": "transcript",
+          "id": "CRWV-5",
+          "checked_on": "2026-11-11T17:30:06Z"
         }
       ],
       "financial_history": [],
@@ -2518,21 +2667,21 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "Aktuelle Quotes/Spreads",
-        "13F-Vergleiche",
-        "Guidance-Ist-Vergleiche"
+        "aktuelle Bid/Ask",
+        "13F-Originalvergleich",
+        "Analysten-Einzelvoten"
       ],
-      "method_note": "Vorläufig; Quellenzahl nicht mit 50 gleichsetzen.",
+      "method_note": "Nur tatsächlich geöffnete Texte ergänzt; keine Vollständigkeit behauptet",
       "analyst_coverage": []
     },
     "IREN": {
       "ticker": "IREN",
       "name": "IREN Limited",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-11T13:25:15Z",
+      "as_of": "2026-11-11T17:30:06Z",
       "status": "PRELIMINARY",
       "stance": "REVIEW",
-      "summary": "Peer-Rally nach CRWV",
+      "summary": "AI-Cloud-Wachstum mit verzögertem ARR-Ziel",
       "source_goal": 50,
       "source_documents": [
         {
@@ -2544,6 +2693,16 @@
           "finding": "Peer-Rally nach CRWV",
           "checked_on": "2026-11-11T13:25:15Z",
           "doc_type": "news"
+        },
+        {
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "title": "IREN delays Microsoft AI deliveries",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "finding": "ARR timeline deferred",
+          "doc_type": "news",
+          "id": "IREN-1",
+          "checked_on": "2026-11-11T17:30:06Z"
         }
       ],
       "financial_history": [],
@@ -2551,10 +2710,11 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "Historische Short-Referenz, Short-Squeeze",
-        "Aktuelle Bid/Ask, SEC-Originale, Konsens und Kosten"
+        "aktuelle Bid/Ask",
+        "13F-Originalvergleich",
+        "Analysten-Einzelvoten"
       ],
-      "method_note": "Nur inhaltlich geöffnete einzigartige Dokumente zählen.",
+      "method_note": "Nur tatsächlich geöffnete Texte ergänzt; keine Vollständigkeit behauptet",
       "analyst_coverage": []
     },
     "NVDA": {
