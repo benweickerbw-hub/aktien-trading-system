@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "updated_at": "2026-11-11T15:03:40Z",
+  "version": 9,
+  "updated_at": "2026-11-11T15:30:00Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -1516,16 +1516,182 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra Research – 11.11.2026, 16:03 CET\n\n## Markt und Ereignisse\nReuters berichtet am 11.11. über einen STOXX 600 nahe Rekordhoch und eine starke Reaktion auf Siemens Energy; das ist kein zeitgenauer Xetra-Kursbeleg. [Reuters, 11.11.2026](https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/).\n\n## Geprüfte Event-Kandidaten\n- **Siemens Energy (ENR), WATCH/Long-Hypothese:** Rekordjahr; FY2026-Marge vor Sondereffekten 12,4%, FY2027-Ziel 14–16%, Umsatzwachstum 14–16%; 2030-Marge 20–22%. Auftragsbestand 164 Mrd. EUR. Positiv: Netzinfrastruktur/Datacenter; negativ: hohe Erwartungen und Gap-Risiko. [WSJ, 11.11.2026](https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1).\n- **RWE (RWE), WATCH/Long-Hypothese:** bereinigtes EBITDA 9M 4,58 Mrd. EUR statt Konsens 4,43 Mrd.; bessere Windbedingungen können temporär sein. [Reuters, 11.11.2026](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/).\n- **Hapag-Lloyd (HLAG), WATCH/Long-Hypothese:** EBIT-Jahresziel auf 2,0–2,4 Mrd. USD erhöht, zuvor 1,25–1,75 Mrd. USD; Frachtraten und geopolitische Engpässe können rasch drehen. [Reuters, 11.11.2026](https://www.reuters.com/business/hapag-lloyd-raises-outlook-third-time-strong-freight-rates-2026-11-11/).\n- **E.ON (EOAN), WATCH/neutral:** Q3 bereinigter Nettogewinn 278 Mio. EUR vs. 268 Mio. Konsens, unveränderte Jahresprognose. [WSJ, 11.11.2026](https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b).\n- **Traton (8TRA), WATCH/neutral:** US-Zollgenehmigung beeinflusst Q4, Prognose unverändert. [AD HOC NEWS, 11.11.2026](https://www.ad-hoc-news.de/boerse/news/corporate-news/traton-stock-trades-0-20-above-xetra-close-after-u-s-approval/70491162).\n\n## Screening, Methoden und Lücken\nFünf individuelle Event-Aktien aus datierten Artikeln triagiert; Liquidität, aktuelle Xetra-Bid/Ask-Spreads, aktuelle Analystenziele, vollständige historische Management-Guidance-Scorecards, verifizierte institutionelle Filings und 60–252-Tage-Pair-Korrelationen **nicht verifiziert**. Keine Aktie ist QUALIFIED. Strategien: Pre-Earnings ohne zeitgestempelten Vorabkonsens nicht testbar; PEAD ohne beidseitig geprüfte EPS- und Umsatzsurprise nicht bestätigt; Guidance-Revision bei HLAG/ENR interessant, aber bereits eingepreiste Kursreaktion unklar; Sektor-Pair RWE/E.ON nur Hypothese, keine berechnete Korrelation. Fünf unabhängige Nachrichtenpublikationen/Artikel geprüft, keine 50-Dokumenten-Dossiers behauptet.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nLaut zu Beginn gelesenem Positionsregister: IREN SHORT ist nur eine **Referenzsimulation** mit 18,05 USD, kein verifizierter Fill; letzter gespeicherter Mark vom 10.11., kein neuer zeitgestempelter Quote verifiziert, daher keine aktuelle PnL. HFG SHORT und PTON SHORT sind USER_REPORTED mit unbekanntem Zertifikats-Einstieg, ISIN/KO und Produktkurs: PnL **nicht berechenbar**. DEUTZ ist bereits CLOSED_REPORTED. Keine Position geändert oder geschlossen. Alle neuen Kursmarken: NICHT GEFUNDEN. TradingView-Widget ist kein verifizierter PnL-Feed.\n\n## Entscheidung und Risiko\n**KEIN TRADE**, null neue Fills. Paper-Konfiguration laut GitHub-Positionsregister: Modellstart 10.000 EUR, keine Brokerverbindung, nominal 5x, variable Einsätze; maßgebliche execution_policy verlangt authentischen Fill-Beleg und verifizierte zeitnahe Bid/Ask. Daher weder rückdatierte noch erfundene Entries. Für Overnight-Auswertung muss eine simulierte Opening-Order vor Markteröffnung feststehen; Opening-Print ist erst danach bekannt. Kurs-, Spread-, Kosten- und Borrow-Nachweise fehlen."
+    },
+    {
+      "id": "US-20261111T153000Z",
+      "market": "US",
+      "run_at": "2026-11-11T15:30:00Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave hebt AI-Infrastruktur; keine validierte Execution",
+      "summary": "CRWV/NBIS/CSCO Watch; keine neuen Paper-Fills",
+      "source_status": "Vorläufig; 4 unterschiedliche vollständige Webtexte geöffnet, keine 50 je Kandidat",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "LONG",
+          "thesis": "WATCH",
+          "risk": "Unverifizierte Spread-/Kosten- und Bewertungsannahmen",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "side": "LONG",
+          "thesis": "WATCH",
+          "risk": "Unverifizierte Spread-/Kosten- und Bewertungsannahmen",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CSCO",
+          "name": "Cisco Systems",
+          "tv": "NASDAQ:CSCO",
+          "side": "NEUTRAL",
+          "thesis": "WATCH",
+          "risk": "Unverifizierte Spread-/Kosten- und Bewertungsannahmen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "CoreWeave earnings trigger AI infrastructure rebound",
+          "published_at": "2026-11-11",
+          "ticker": "CRWV",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "finding": "Guidance-Anhebung; Risiko hoher Finanzierung"
+        },
+        {
+          "title": "US stocks rise, bond market closed",
+          "published_at": "2026-11-11",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "finding": "S&P und Nasdaq im frühen Handel positiv"
+        },
+        {
+          "title": "Earnings calendar and Cisco analyst downgrade",
+          "published_at": "2026-11-07",
+          "ticker": "CSCO",
+          "publisher": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+          "finding": "CSCO und AMAT am 12.11. nachbörslich"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "WATCH",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ereignis- und Earnings-Triage, kein qualifizierter Fill",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [
+            "Earnings",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Finanzierungsrisiko",
+            "Unbestätigte Bewertung"
+          ]
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "WATCH",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ereignis- und Earnings-Triage, kein qualifizierter Fill",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [
+            "Earnings",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Finanzierungsrisiko",
+            "Unbestätigte Bewertung"
+          ]
+        },
+        {
+          "ticker": "CSCO",
+          "name": "Cisco Systems",
+          "tv": "NASDAQ:CSCO",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "WATCH",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ereignis- und Earnings-Triage, kein qualifizierter Fill",
+              "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+              "publisher": "Kiplinger",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [
+            "Earnings",
+            "Guidance"
+          ],
+          "invalidations": [
+            "Finanzierungsrisiko",
+            "Unbestätigte Bewertung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Kein belegter Fill; letzte gespeicherte Marke ALT",
+        "base_scenario": "Hohe Volatilität",
+        "bull_scenario": "AI-Rebound",
+        "bear_scenario": "Finanzierungsdruck",
+        "key_risk": "Short-Squeeze",
+        "planned_exit": "Nicht belegter Open-Exit; gesondert verifizieren",
+        "as_of": "2026-11-11T15:30:00Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Research — 11.11.2026, 10:30 EST\n\n## Markt und Kalender\nVeterans Day: US-Aktienhandel regulär, Anleihemarkt geschlossen. Reuters meldete um 09:49 EST S&P 500 +0,76%, Nasdaq +1,16%, VIX 18,48. Momentaufnahme, kein aktueller Tick. Quelle: [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n## Screening und Ereignisse\n[Reuters, 11.11.](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/): CoreWeave (CRWV) hebt die Umsatzprognose an und erwartet adjustierte Profitabilität H1 2028; Nachfrage und Finanzierung stützen den AI-Infrastrukturkomplex. CRWV, NBIS, IREN, NVDA und APLD als Ereignis-Triage, nicht vollständig nach Marktkapitalisierung, Bid/Ask und Konsens geprüft. [Kiplinger, geprüft 11.11.](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks): NBIS vorbörsliche Zahlen 12.11.; CSCO und AMAT nachbörslich 12.11.; Morgan-Stanley-Analystin Meta Marshall stufte CSCO auf Equal Weight ab. [TipRanks, geprüft 11.11.](https://www.tipranks.com/calendars/earnings/2026-11-11) listet weitere Earnings; bloße Kalenderlistungen zählen nicht als geprüftes Screening.\n\n## Kandidaten und Gegenthese\n**CRWV – WATCH, vorläufig (2/50 inhaltlich geöffnete unabhängige Texte):** Positiv: Quartalsumsatz rund 3,66 Mrd. USD und verbesserte Jahresguidance; negativ: erhebliche Fremdfinanzierung, hohe Capex und mögliche Datacenter-Beschränkungen. Quellen: [Reuters](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/), [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks). Keine periodengleiche historische Guidance-Scorecard oder 13F-Paarvergleiche verifiziert.\n**NBIS – WATCH, vorläufig (2/50):** Zahlen vor der nächsten Eröffnung, Rückenwind aus CRWV; Gegenargument: hohes Gap- und Bewertungsrisiko. [Reuters](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/), [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks).\n**CSCO – WATCH, vorläufig (1/50):** Konsensvorschau EPS 1,32 USD/Umsatz 18,1 Mrd. USD; Meta Marshall (Morgan Stanley) sieht begrenztes Überraschungspotenzial. [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks). Zweites aktuelles Analystenvotum nicht verifiziert.\n**IREN/NVDA/APLD:** Branchenreaktion laut [Reuters](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/); keine eigenständigen vollständigen Dossiers in diesem Lauf. Historische Finanzdaten, neue 13F-Originalfilings, Borrow, aktuelle Spreads und rollierende Pair-Korrelationen: nicht verifiziert.\n\n## Strategieprüfung\nPre-Earnings: NBIS/CSCO nur Watch; PEAD: EPS- und Umsatzsurprise nicht paarweise validiert; Guidance-Revision: CRWV positiv, Finanzierung als Gegenargument; Pair-Trade: kein 60–252-Tage-Korrelationsnachweis. Daher kein qualifizierter Handel. 10.000 EUR virtuelles Startbudget laut zuletzt gelesenem Positionsregister, kein authentifizierter Paper-Broker. Kosten, Stops, Borrow und nach Entscheidung überprüfte Bid/Ask fehlen. **KEIN TRADE, keine neuen Fills.**\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister zu Beginn gelesen, ausschließlich als Positionsregister, nicht als Kursquelle. IREN SHORT: 18,05 USD rein hypothetischer Referenzeinstieg, kein verifizierter Fill; letzter gespeicherter 19,61 USD vom 10.11. 15:44 EST (ALT); heute kein belastbarer zeitgestempelter Quote für eine neue Markierung geprüft; PnL heute nicht verifiziert. HFG SHORT Turbo: letzter gespeicherter Aktienkurs 3,029 EUR vom 09.11., ALT, Produkt-ISIN/KO/Einstand fehlen, Turbo-PnL nicht berechenbar. PTON SHORT Turbo: letzter gespeicherter Aktienkurs 5,82 USD vom 10.11. 16:00 EST, ALT; Turbo-PnL nicht berechenbar. Keine Position geschlossen; bisherige geplante IREN-Exitzeit verstrichen, kein belegter Open-Print/Exit. Quellen historischer Marken nur aus Register, nicht als neu geprüft ausgewiesen. Keine Live-PnL.\n\n## Datenlücken\nSEC/IR-Originalberichte, 13F-Quartalsvergleich, namentlich zwei aktuelle Analystenvoten je Titel, Bid/Ask, Quote-Timestamps, Kurskorrelationen und Gebührenkomplettmodell: noch nicht verifiziert. Alle Dossiers unter 50 Quellen und ausdrücklich vorläufig."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T15:03:40Z",
-    "method_note": "Nur fünf durch datierte öffentliche Berichte tatsächlich triagierte Titel; fehlende Quote- und Liquiditätsprüfung verhindert Qualifizierung.",
+    "as_of": "2026-11-11T15:30:00Z",
+    "method_note": "Event-Triage; nicht als vollständige Liquiditäts-/Spreadprüfung zählen",
     "coverage": {
-      "universe_checked": 5,
-      "earnings_events": 5,
-      "triaged": 5,
+      "universe_checked": 0,
+      "earnings_events": 3,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -1546,24 +1712,6 @@
           "https://corporate.brenntag.com/de/investor-relations/veroeffentlichungen-and-events/finanzpublikationen/"
         ],
         "as_of": "2026-11-11T13:04:50Z"
-      },
-      {
-        "ticker": "CRWV",
-        "name": "CoreWeave",
-        "tv": "NASDAQ:CRWV",
-        "market": "US",
-        "sector": "AI Infrastructure",
-        "direction": "WATCH",
-        "reason": "Umsatz- und Guidance-Beat",
-        "stage": "DEEP_DIVE",
-        "earnings_at": "2026-11-10",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
-          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
-        ],
-        "as_of": "2026-11-11T14:30:09Z"
       },
       {
         "ticker": "IREN",
@@ -1598,40 +1746,6 @@
           "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
         ],
         "as_of": "2026-11-11T13:25:15Z"
-      },
-      {
-        "ticker": "NBIS",
-        "name": "Nebius",
-        "tv": "NASDAQ:NBIS",
-        "market": "US",
-        "sector": "AI Infrastructure",
-        "direction": "WATCH",
-        "reason": "Q3 Earnings 12.11. vor Börse",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-12",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-        ],
-        "as_of": "2026-11-11T14:30:09Z"
-      },
-      {
-        "ticker": "CSCO",
-        "name": "Cisco",
-        "tv": "NASDAQ:CSCO",
-        "market": "US",
-        "sector": "Networking",
-        "direction": "WATCH",
-        "reason": "12.11. Earnings",
-        "stage": "DISCOVERED",
-        "earnings_at": "2026-11-12",
-        "event": "Earnings",
-        "score": null,
-        "sources": [
-          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
-        ],
-        "as_of": "2026-11-11T14:30:09Z"
       },
       {
         "ticker": "AMAT",
@@ -1734,6 +1848,57 @@
           "https://www.ad-hoc-news.de/boerse/news/corporate-news/traton-stock-trades-0-20-above-xetra-close-after-u-s-approval/70491162"
         ],
         "as_of": "2026-11-11T15:03:40Z"
+      },
+      {
+        "ticker": "CRWV",
+        "name": "CoreWeave",
+        "tv": "NASDAQ:CRWV",
+        "market": "US",
+        "sector": "Technology",
+        "direction": "LONG",
+        "reason": "Event-Triage, nicht qualifiziert",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Earnings / AI cloud",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T15:30:00Z"
+      },
+      {
+        "ticker": "NBIS",
+        "name": "Nebius",
+        "tv": "NASDAQ:NBIS",
+        "market": "US",
+        "sector": "Technology",
+        "direction": "LONG",
+        "reason": "Event-Triage, nicht qualifiziert",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Earnings / AI cloud",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T15:30:00Z"
+      },
+      {
+        "ticker": "CSCO",
+        "name": "Cisco Systems",
+        "tv": "NASDAQ:CSCO",
+        "market": "US",
+        "sector": "Technology",
+        "direction": "NEUTRAL",
+        "reason": "Event-Triage, nicht qualifiziert",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Earnings / AI cloud",
+        "score": null,
+        "sources": [
+          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        ],
+        "as_of": "2026-11-11T15:30:00Z"
       }
     ],
     "pairs": [],
@@ -1892,10 +2057,10 @@
       "ticker": "CRWV",
       "name": "CoreWeave",
       "tv": "NASDAQ:CRWV",
-      "as_of": "2026-11-11T14:30:09Z",
-      "status": "DEEP_DIVE_PRELIMINARY",
+      "as_of": "2026-11-11T15:30:00Z",
+      "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Q3 Umsatz 3.661bn USD; Finanzierung und Capex Risiken",
+      "summary": "11.11.2026 Event-Triage; unvollständige Primärquellenprüfung",
       "source_goal": 50,
       "source_documents": [
         {
@@ -1924,12 +2089,12 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "Historische Guidance-Ist-Paare",
-        "Zwei SEC-13F-Filings pro Manager",
-        "vollständige aktuelle Analystenberichte",
-        "zeitnahe Bid/Ask-Quotes"
+        "Originalfilings",
+        "Spread",
+        "13F",
+        "Analystenkonsens"
       ],
-      "method_note": "Neue Originalquelle 1; keine Quellenzahl aus bloßen Treffern abgeleitet.",
+      "method_note": "Keine Suchtreffer als gelesene Originalquellen gezählt",
       "analyst_coverage": []
     },
     "IREN": {
@@ -1995,6 +2160,52 @@
       ],
       "method_note": "Nur inhaltlich geöffnete einzigartige Dokumente zählen.",
       "analyst_coverage": []
+    },
+    "NBIS": {
+      "ticker": "NBIS",
+      "name": "Nebius",
+      "tv": "NASDAQ:NBIS",
+      "as_of": "2026-11-11T15:30:00Z",
+      "status": "PRELIMINARY",
+      "stance": "WATCH",
+      "summary": "11.11.2026 Event-Triage; unvollständige Primärquellenprüfung",
+      "source_goal": 50,
+      "source_documents": [],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Nicht verifiziert",
+      "key_unknowns": [
+        "Originalfilings",
+        "Spread",
+        "13F",
+        "Analystenkonsens"
+      ],
+      "method_note": "Keine Suchtreffer als gelesene Originalquellen gezählt",
+      "analyst_coverage": null
+    },
+    "CSCO": {
+      "ticker": "CSCO",
+      "name": "Cisco Systems",
+      "tv": "NASDAQ:CSCO",
+      "as_of": "2026-11-11T15:30:00Z",
+      "status": "PRELIMINARY",
+      "stance": "WATCH",
+      "summary": "11.11.2026 Event-Triage; unvollständige Primärquellenprüfung",
+      "source_goal": 50,
+      "source_documents": [],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Nicht verifiziert",
+      "key_unknowns": [
+        "Originalfilings",
+        "Spread",
+        "13F",
+        "Analystenkonsens"
+      ],
+      "method_note": "Keine Suchtreffer als gelesene Originalquellen gezählt",
+      "analyst_coverage": null
     }
   }
 }
