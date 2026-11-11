@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "updated_at": "2026-11-11T15:30:00Z",
+  "version": 10,
+  "updated_at": "2026-11-11T16:03:46Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -1682,12 +1682,121 @@
         "reference_only": true
       },
       "report_markdown": "# US-Research — 11.11.2026, 10:30 EST\n\n## Markt und Kalender\nVeterans Day: US-Aktienhandel regulär, Anleihemarkt geschlossen. Reuters meldete um 09:49 EST S&P 500 +0,76%, Nasdaq +1,16%, VIX 18,48. Momentaufnahme, kein aktueller Tick. Quelle: [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n## Screening und Ereignisse\n[Reuters, 11.11.](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/): CoreWeave (CRWV) hebt die Umsatzprognose an und erwartet adjustierte Profitabilität H1 2028; Nachfrage und Finanzierung stützen den AI-Infrastrukturkomplex. CRWV, NBIS, IREN, NVDA und APLD als Ereignis-Triage, nicht vollständig nach Marktkapitalisierung, Bid/Ask und Konsens geprüft. [Kiplinger, geprüft 11.11.](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks): NBIS vorbörsliche Zahlen 12.11.; CSCO und AMAT nachbörslich 12.11.; Morgan-Stanley-Analystin Meta Marshall stufte CSCO auf Equal Weight ab. [TipRanks, geprüft 11.11.](https://www.tipranks.com/calendars/earnings/2026-11-11) listet weitere Earnings; bloße Kalenderlistungen zählen nicht als geprüftes Screening.\n\n## Kandidaten und Gegenthese\n**CRWV – WATCH, vorläufig (2/50 inhaltlich geöffnete unabhängige Texte):** Positiv: Quartalsumsatz rund 3,66 Mrd. USD und verbesserte Jahresguidance; negativ: erhebliche Fremdfinanzierung, hohe Capex und mögliche Datacenter-Beschränkungen. Quellen: [Reuters](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/), [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks). Keine periodengleiche historische Guidance-Scorecard oder 13F-Paarvergleiche verifiziert.\n**NBIS – WATCH, vorläufig (2/50):** Zahlen vor der nächsten Eröffnung, Rückenwind aus CRWV; Gegenargument: hohes Gap- und Bewertungsrisiko. [Reuters](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/), [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks).\n**CSCO – WATCH, vorläufig (1/50):** Konsensvorschau EPS 1,32 USD/Umsatz 18,1 Mrd. USD; Meta Marshall (Morgan Stanley) sieht begrenztes Überraschungspotenzial. [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks). Zweites aktuelles Analystenvotum nicht verifiziert.\n**IREN/NVDA/APLD:** Branchenreaktion laut [Reuters](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/); keine eigenständigen vollständigen Dossiers in diesem Lauf. Historische Finanzdaten, neue 13F-Originalfilings, Borrow, aktuelle Spreads und rollierende Pair-Korrelationen: nicht verifiziert.\n\n## Strategieprüfung\nPre-Earnings: NBIS/CSCO nur Watch; PEAD: EPS- und Umsatzsurprise nicht paarweise validiert; Guidance-Revision: CRWV positiv, Finanzierung als Gegenargument; Pair-Trade: kein 60–252-Tage-Korrelationsnachweis. Daher kein qualifizierter Handel. 10.000 EUR virtuelles Startbudget laut zuletzt gelesenem Positionsregister, kein authentifizierter Paper-Broker. Kosten, Stops, Borrow und nach Entscheidung überprüfte Bid/Ask fehlen. **KEIN TRADE, keine neuen Fills.**\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister zu Beginn gelesen, ausschließlich als Positionsregister, nicht als Kursquelle. IREN SHORT: 18,05 USD rein hypothetischer Referenzeinstieg, kein verifizierter Fill; letzter gespeicherter 19,61 USD vom 10.11. 15:44 EST (ALT); heute kein belastbarer zeitgestempelter Quote für eine neue Markierung geprüft; PnL heute nicht verifiziert. HFG SHORT Turbo: letzter gespeicherter Aktienkurs 3,029 EUR vom 09.11., ALT, Produkt-ISIN/KO/Einstand fehlen, Turbo-PnL nicht berechenbar. PTON SHORT Turbo: letzter gespeicherter Aktienkurs 5,82 USD vom 10.11. 16:00 EST, ALT; Turbo-PnL nicht berechenbar. Keine Position geschlossen; bisherige geplante IREN-Exitzeit verstrichen, kein belegter Open-Print/Exit. Quellen historischer Marken nur aus Register, nicht als neu geprüft ausgewiesen. Keine Live-PnL.\n\n## Datenlücken\nSEC/IR-Originalberichte, 13F-Quartalsvergleich, namentlich zwei aktuelle Analystenvoten je Titel, Bid/Ask, Quote-Timestamps, Kurskorrelationen und Gebührenkomplettmodell: noch nicht verifiziert. Alle Dossiers unter 50 Quellen und ausdrücklich vorläufig."
+    },
+    {
+      "id": "XETRA-20261111T160346Z",
+      "market": "XETRA",
+      "run_at": "2026-11-11T16:03:46Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Energy Ausblick, RWE über Erwartungen; keine belegbaren Paper-Fills",
+      "summary": "Fünf Publikationen geprüft; vier Watch-Kandidaten, keine zeitnahen handelbaren Quotes oder Broker-Fills.",
+      "source_status": "5 unabhängige Publikationen geprüft; keine aktuelle Bid/Ask-Verifikation",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "Angehobener Margenausblick",
+          "risk": "Gap und Bewertung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "EBITDA über Erwartung",
+          "risk": "Wind/Strompreise",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "EOAN",
+          "name": "E.ON",
+          "tv": "XETR:EOAN",
+          "side": "WATCH",
+          "thesis": "Guidance bestätigt",
+          "risk": "Finanzierungskosten",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "SIE",
+          "name": "Siemens",
+          "tv": "XETR:SIE",
+          "side": "WATCH",
+          "thesis": "Ergebnis 12.11.",
+          "risk": "Earnings-Gap",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Energy hebt Ausblick an",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "url": "https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/",
+          "ticker": "ENR",
+          "finding": "Siemens Energy hebt Ausblick an"
+        },
+        {
+          "title": "RWE Neunmonats-EBITDA über Erwartungen",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+          "ticker": "RWE",
+          "finding": "RWE Neunmonats-EBITDA über Erwartungen"
+        },
+        {
+          "title": "E.ON bestätigt Prognose",
+          "publisher": "WSJ",
+          "published_at": "2026-11-11",
+          "url": "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b",
+          "ticker": "EOAN",
+          "finding": "E.ON bestätigt Prognose"
+        },
+        {
+          "title": "Siemens Ergebnis-Termin 12.11.",
+          "publisher": "Siemens IR",
+          "published_at": null,
+          "url": "https://www.siemens.com/sr-rs/company/investor-relations/financial-calendar/",
+          "ticker": "SIE",
+          "finding": "Siemens Ergebnis-Termin 12.11."
+        }
+      ],
+      "watchlist_briefs": [],
+      "trade_outlook": {
+        "ticker": null,
+        "id": null,
+        "stance": "KEIN TRADE",
+        "summary": "Keine verifizierten offenen Paper-Positionen",
+        "base_scenario": null,
+        "bull_scenario": null,
+        "bear_scenario": null,
+        "key_risk": "Fehlende handelbare Quotes",
+        "planned_exit": null,
+        "as_of": "2026-11-11T16:03:46Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 11.11.2026, 17:03 MEZ\n\n## Markt und Earnings\nDer DAX lag laut dpa-AFX um 13:25 rund 0,7% höher bei 26.534 Punkten; das ist **kein aktueller 17-Uhr-Kurs**. Die europäischen Märkte profitierten von AI-Optimismus, während US-Inflation und Ölpreis Risiken darstellen.\n\n## Geprüfte Ereignisse und Kandidaten\n- **Siemens Energy (ENR), WATCH, neutral bis positiv:** Reuters meldet am 11.11. eine angehobene Erwartung für die Gewinnmarge 2027 und Dividendenausweitung. Starkes Momentum, aber Gap-/Bewertungsrisiko; kein verifizierter zeitnaher Bid/Ask.\n- **RWE (RWE), WATCH, vorsichtig positiv:** Reuters meldet bereinigtes EBITDA von 4,58 Mrd. EUR für neun Monate versus 4,43 Mrd. EUR Erwartung, günstiger Wind als Treiber. Wetter- und Strompreisrisiko.\n- **E.ON (EOAN), WATCH, neutral:** WSJ meldet bestätigte Jahresprognose; bereinigtes EBITDA Q3 1,7 Mrd. EUR und 5,2 Mrd. EUR Investitionen in neun Monaten. Regulierungs- und Finanzierungskostenrisiko.\n- **Siemens (SIE), WATCH, Event-Risiko:** Laut Siemens-IR sind die Q4/FY26-Zahlen am 12.11. vorgesehen. Konsens/Spread nicht hinreichend verifiziert.\n- **Brenntag (BNR), DISCOVERED:** Ergebnisereignis heute im öffentlich publizierten Terminkalender; fundamentale Überraschung und verlässlicher Quote noch nicht geprüft.\n\n## Methoden und Forschungslücken\nFünf eigenständige Veröffentlichungen inhaltlich geprüft; davon eine Firmen-IR, zwei Reuters-Artikel, eine WSJ-Meldung, eine dpa-AFX-Meldung. Keine 50-Dokumente-Dossiers, keine historischen Guidance-Ist-Paare, keine zwei namentlich verifizierten aktuellen Analystenstimmen pro Aktie, keine Fondsfiling-Paare. Pre-Earnings, PEAD, Guidance-Revision und Pair-Trades bleiben ohne hinreichende Quote-/Konsens-/Zeitreihendaten nur Hypothesen. Korrelation nicht berechnet.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nDas zu Laufbeginn gelesene GitHub-Positionsregister enthält **keine Position mit OPEN/USER_REPORTED-Status**. Keine aktuelle modellierte PnL. Historische Nutzerangaben zu HFG/PTON und IREN sind keine bestätigten Paper-Fills und wurden nicht als solche gebucht.\n\n## Entscheidung und Kosten\n**KEIN TRADE, 0 Fills.** Xetra ist noch regulär geöffnet, jedoch fehlen nach der Entscheidung belegte zeitnahe Bid/Ask-Quotes, Spread, Stop- und Netto-Kostennachweis; kein authentifizierter Paper-Broker. Das konfigurierte Paper-Modell startet mit 10.000 EUR, ohne verifizierte Broker-Equity. IBKR-Beispiel Deutschland mindestens 2,50 EUR Roundtrip vor Spread/Slippage; bei 250 EUR Notional bereits 1% und damit über der 0,5%-Kostengrenze. Keine Orders rückdatieren. Eine Eröffnungsorder müsste vor der nächsten Markteröffnung feststehen; der Eröffnungskurs wäre erst danach überprüfbar.\n\n## Quellen (Abruf 11.11.2026)\n- [Siemens Energy hebt Ausblick an](https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/) — Reuters, 11.11.2026\n- [RWE Neunmonats-EBITDA über Erwartungen](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/) — Reuters, 11.11.2026\n- [E.ON bestätigt Prognose](https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b) — WSJ, 11.11.2026\n- [Siemens Ergebnis-Termin 12.11.](https://www.siemens.com/sr-rs/company/investor-relations/financial-calendar/) — Siemens IR, Terminstand\n- [Xetra-Marktüberblick](https://www.onvista.de/news/2026/11-11-aktien-frankfurt-dax-bleibt-vorerst-auf-erfolgskurs-tech-erholung-stuetzt-0-10-26575139) — dpa-AFX/onvista, 11.11.2026\n- [IBKR Gebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe) — Gebührenreferenz, geprüft 11.11.2026.\n"
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T15:30:00Z",
-    "method_note": "Event-Triage; nicht als vollständige Liquiditäts-/Spreadprüfung zählen",
+    "as_of": "2026-11-11T16:03:46Z",
+    "method_note": "Xetra 17-Uhr-Lauf: vier Ticker-Ereignisse aus öffentlich geprüften Publikationen; keine Liquiditäts-/Spread-Qualifikation, keine Fills.",
     "coverage": {
       "universe_checked": 0,
       "earnings_events": 3,
