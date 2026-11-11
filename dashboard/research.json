@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updated_at": "2026-11-11T11:55:43Z",
+  "version": 3,
+  "updated_at": "2026-11-11T13:04:50Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -406,122 +406,229 @@
           ]
         }
       ]
+    },
+    {
+      "id": "XETRA-20261111T130450Z",
+      "market": "XETRA",
+      "run_at": "2026-11-11T13:04:50Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Energy Rekordjahr; RWE starke Neunmonatszahlen",
+      "summary": "Vier Unternehmensnamen mit Einzelbelegen geprüft, kein zeitnaher ausführbarer Quote/kein Paper-Fill.",
+      "source_status": "6 unterschiedliche Web-Dokumente betrachtet; 0 zeitnahe ausführbare Quotes; 50er-Dossiers unvollständig",
+      "news": [
+        {
+          "title": "Siemens Energy FY2026 und 2030 Ziele",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html",
+          "finding": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%"
+        },
+        {
+          "title": "Siemens Energy Q4 FY2026",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html",
+          "finding": "Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%"
+        },
+        {
+          "title": "RWE 9M 2026",
+          "publisher": "RWE",
+          "published_at": "2026-11-11",
+          "ticker": "RWE",
+          "url": "https://www.rwe.com/en/press/rwe-ag/2026-11-11-rwe-delivers-an-excellent-earnings-performance-in-the-first-three-quarters/",
+          "finding": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende"
+        },
+        {
+          "title": "E.ON nine months",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "ticker": "EOAN",
+          "url": "https://www.reuters.com/business/energy/eon-meets-nine-month-forecasts-grid-investment-ramps-up-2026-11-11/",
+          "finding": "Ergebnis im Rahmen der Erwartungen"
+        },
+        {
+          "title": "Brenntag Finanzpublikationen",
+          "publisher": "Brenntag",
+          "published_at": "2026-11-11",
+          "ticker": "BNR",
+          "url": "https://corporate.brenntag.com/de/investor-relations/veroeffentlichungen-and-events/finanzpublikationen/",
+          "finding": "Q3 Dokumente veröffentlicht"
+        },
+        {
+          "title": "Tagesvorschau",
+          "publisher": "dpa-AFX/onvista",
+          "published_at": "2026-11-11",
+          "ticker": null,
+          "url": "https://www.onvista.de/news/2026/11-11-tagesvorschau-termine-am-11-november-2026-0-10-26574860",
+          "finding": "Breite Ergebnis-Pipeline mit Siemens Energy, RWE, E.ON, Brenntag, Bilfinger und weiteren"
+        }
+      ],
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH",
+          "thesis": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%; Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+          "risk": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+          "risk": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "EOAN",
+          "name": "E.ON",
+          "tv": "XETR:EOAN",
+          "side": "WATCH",
+          "thesis": "Ergebnis im Rahmen der Erwartungen",
+          "risk": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "BNR",
+          "name": "Brenntag",
+          "tv": "XETR:BNR",
+          "side": "WATCH",
+          "thesis": "Q3 Dokumente veröffentlicht",
+          "risk": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH / fundamental positiv",
+          "horizon": "1-10 Handelstage",
+          "summary": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%; Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%",
+              "url": "https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html",
+              "publisher": "Siemens Energy",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+              "url": "https://www.siemens-energy.com/de/de/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html",
+              "publisher": "Siemens Energy",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung"
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "stance": "WATCH / fundamental positiv",
+          "horizon": "1-10 Handelstage",
+          "summary": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+              "url": "https://www.rwe.com/en/press/rwe-ag/2026-11-11-rwe-delivers-an-excellent-earnings-performance-in-the-first-three-quarters/",
+              "publisher": "RWE",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung"
+        },
+        {
+          "ticker": "EOAN",
+          "name": "E.ON",
+          "tv": "XETR:EOAN",
+          "stance": "WATCH / neutral",
+          "horizon": "1-10 Handelstage",
+          "summary": "Ergebnis im Rahmen der Erwartungen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Ergebnis im Rahmen der Erwartungen",
+              "url": "https://www.reuters.com/business/energy/eon-meets-nine-month-forecasts-grid-investment-ramps-up-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung"
+        },
+        {
+          "ticker": "BNR",
+          "name": "Brenntag",
+          "tv": "XETR:BNR",
+          "stance": "WATCH / neutral",
+          "horizon": "1-10 Handelstage",
+          "summary": "Q3 Dokumente veröffentlicht",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Dokumente veröffentlicht",
+              "url": "https://corporate.brenntag.com/de/investor-relations/veroeffentlichungen-and-events/finanzpublikationen/",
+              "publisher": "Brenntag",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Negative Prognoserevision oder fehlende Nettokosten-/Quote-Bestätigung"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZSIMULATION",
+        "summary": "Historischer 18,05-USD-Referenzwert ist kein bestätigter Fill; aktuelle PnL nicht belegbar.",
+        "base_scenario": "Keine Prognose ohne aktuelle US-Quote",
+        "bull_scenario": null,
+        "bear_scenario": null,
+        "key_risk": "Short-Squeeze, Gaps, fehlende Fill-Belege",
+        "planned_exit": "Nur bei vorab dokumentierter Opening-Order und verifiziertem Print",
+        "as_of": "2026-11-11T13:04:50Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research 11.11.2026, 14:04 CET\n\n**Entscheidung: KEIN TRADE.** Xetra regulär geöffnet; 14-Uhr-Slot dient Research, kein Paper-Broker-Fill. Das 10.000-EUR-Paperbudget ist Modellkapital, keine Broker-Einzahlung. GitHub-Positionsregister zeigt IREN als historische, nicht ausgeführte Referenzsimulation sowie HFG/PTON als Nutzerberichte ohne belegte Produkt-Einstiege. Für diese drei Positionen wurde kein neuer, ausreichend zeitgestempelter aktueller Marktquote nachgewiesen; PnL deshalb nicht berechenbar bzw. bei IREN nicht als realisierte oder ausgeführte Performance ausweisbar. Keine Positionsänderung.\n\n## Earnings-Triage\nÖffentlicher Tageskalender nennt Siemens Energy, RWE, E.ON, Brenntag, Bilfinger, Grand City Properties, Swiss Life, ABN Amro, Vestas, Voestalpine, KWS Saat, SFC Energy, Einhell und weitere. Dies ist eine DISCOVERED-Liste, kein vollständig geprüfter Liquiditäts-/Spread-Screen. Individuell anhand konkreter Veröffentlichungen betrachtet: ENR, RWE, EOAN, BNR. Keine Aktie QUALIFIED, da aktuelle handelbare Bid/Ask-Quotes, Netto-Kosten, Bewertungs- und Analystenkonsensabgleich fehlen.\n\n## Priorität 1 Siemens Energy (ENR) – WATCH, leicht positiv fundamental, kein Entry\n[IR-Jahresmeldung vom 11.11.2026](https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html): Umsatz 44,2 Mrd EUR (+15,5% vergleichbar), Ergebnismarge vor Sondereffekten 12,4%, FCF vor Steuern 8,8 Mrd EUR, Auftragsbestand 164 Mrd EUR. [Q4-Meldung vom 11.11.2026](https://www.siemens-energy.com/de/de/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html): Q4-Umsatz 12,8 Mrd EUR, Q4-Gewinn nach Steuern 1,36 Mrd EUR; 2027-Ziele 14–16% Umsatzwachstum und 14–16% Ergebnismarge vor Sondereffekten. Bis 2030 20–22% Margenziel. Bull: Netz- und Turbinennachfrage, Gamesa-Break-even. Bear: hohe Erwartungen, Projekt- und Ausführungsrisiken, mögliche Vorwegnahme im Kurs. Kein sauberer historischer periodengleicher Forecast-Ist-Paarvergleich durchgeführt; keine Trefferquote. Zwei aktuelle individuelle Analystenstudien nicht gefunden.\n\n## Priorität 2 RWE – WATCH, leicht positiv fundamental\n[RWE IR vom 11.11.2026](https://www.rwe.com/en/press/rwe-ag/2026-11-11-rwe-delivers-an-excellent-earnings-performance-in-the-first-three-quarters/): 9M adjusted EBITDA 4,6 Mrd EUR (Vorjahr 3,4), adjusted EPS 2,52 EUR (Vorjahr 1,77); EBITDA-Guidance 2026 5,75–6,35 Mrd EUR, Management erwartet oberes Ende. Nettoinvestitionen 10,7 Mrd EUR, Nettoschulden zum 30.09. 17,0 Mrd EUR. Bull: bessere Windbedingungen, zusätzliche Kapazität. Bear: Verschuldung, Kapitalbedarf und Wetterabhängigkeit. Aktueller Spread und Analystenziele nicht verifiziert.\n\n## Weitere Kandidaten\nE.ON: [Reuters 11.11.2026](https://www.reuters.com/business/energy/eon-meets-nine-month-forecasts-grid-investment-ramps-up-2026-11-11/) meldet 9M-Ergebnis im Rahmen der Prognosen und steigende Netzinvestitionen. Neutral; Netzausbau versus Regulierung/Kapitalbedarf. Brenntag: [IR-Publikationsübersicht, abgerufen 11.11.2026](https://corporate.brenntag.com/de/investor-relations/veroeffentlichungen-and-events/finanzpublikationen/) weist Q3-Unterlagen aus; Zahlen noch nicht separat validiert, daher WATCH ohne Richtung. [Tagesvorschau dpa-AFX vom 11.11.2026](https://www.onvista.de/news/2026/11-11-tagesvorschau-termine-am-11-november-2026-0-10-26574860) belegt weitere Events, nicht deren Ergebnisse.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN: SHORT-Referenzbasis 18,05 USD, **kein verifizierter Fill**; letzte gespeicherte Marke vom 10.11.2026, nicht als aktuelle Quote verifiziert; neue PnL nicht ausgewiesen. HFG: USER_REPORTED Short-Turbo, ISIN/Einstand/KO fehlen, PnL nicht berechenbar. PTON: USER_REPORTED Short-Turbo, ISIN/Einstand/KO fehlen, PnL nicht berechenbar. DEZ: bereits CLOSED_REPORTED, nicht neu geschlossen. Kein Exit fingiert. Für einen Opening-Exit müsste die Order vor Eröffnung festgelegt sein; der tatsächliche Opening-Print ist erst danach bekannt.\n\n## Methodik und Lücken\nSechs unterschiedliche Quellen-Einträge inhaltlich betrachtet, davon vier Unternehmen/IR- oder Medienquellen und eine Tagesvorschau; Siemens Energy zwei eigenständige IR-Mitteilungen zum gleichen Event, nicht zwei unabhängige Publisher. Keine 50-Quellen-Dossiers, keine verifizierten Fondsbestandsvergleiche, keine namentlich belegten aktuellen Analystenrevisionen, keine PEAD-Bestätigung durch EPS- und Umsatzsurprise, keine berechnete Pair-Korrelation, keine verlässlichen zeitnahen Bid/Ask-Quotes. Strategien PRE-EARNINGS, PEAD, Guidance-Revision und Pairs sind ohne diese Nachweise nicht ausführungsreif. Keine Paper-Orders."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T11:55:43Z",
-    "method_note": "4 aktuelle Ereignistitel geprüft; keine vollständige Liquiditäts-/Spreadprüfung; kein qualifizierter Fill",
+    "as_of": "2026-11-11T13:04:50Z",
+    "method_note": "Einzelbelege für ENR/RWE/EOAN/BNR, übrige Tageskalendernamen DISCOVERED, nicht als geprüft gezählt",
     "coverage": {
-      "universe_checked": 3,
-      "earnings_events": 3,
+      "universe_checked": 4,
+      "earnings_events": 4,
       "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
     },
     "candidates": [
-      {
-        "ticker": "RWE",
-        "name": "RWE AG",
-        "tv": "XETR:RWE",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Ergebnisereignis 11.11.2026",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-11",
-        "event": "Earnings/Guidance",
-        "score": null,
-        "sources": [
-          "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/"
-        ],
-        "as_of": "2026-11-11T10:59:12Z"
-      },
-      {
-        "ticker": "ENR",
-        "name": "Siemens Energy AG",
-        "tv": "XETR:ENR",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Ergebnisereignis 11.11.2026",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-11",
-        "event": "Earnings/Guidance",
-        "score": null,
-        "sources": [
-          "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1"
-        ],
-        "as_of": "2026-11-11T10:59:12Z"
-      },
-      {
-        "ticker": "EOAN",
-        "name": "E.ON SE",
-        "tv": "XETR:EOAN",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Ergebnisereignis 11.11.2026",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-11",
-        "event": "Earnings/Guidance",
-        "score": null,
-        "sources": [
-          "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b"
-        ],
-        "as_of": "2026-11-11T10:59:12Z"
-      },
-      {
-        "ticker": "ENR",
-        "name": "Siemens Energy",
-        "tv": "XETR:ENR",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "LONG",
-        "reason": "Rekordauftragsbestand und neue Ziele",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Rekordauftragsbestand und neue Ziele",
-        "score": null,
-        "sources": [
-          "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1"
-        ],
-        "as_of": "2026-11-11T11:55:43Z"
-      },
-      {
-        "ticker": "RWE",
-        "name": "RWE AG",
-        "tv": "XETR:RWE",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "LONG",
-        "reason": "EBITDA über Konsens",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "EBITDA über Konsens",
-        "score": null,
-        "sources": [
-          "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/"
-        ],
-        "as_of": "2026-11-11T11:55:43Z"
-      },
-      {
-        "ticker": "EOAN",
-        "name": "E.ON SE",
-        "tv": "XETR:EOAN",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "LONG",
-        "reason": "Ergebnis über Konsens, Guidance bestätigt",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Ergebnis über Konsens, Guidance bestätigt",
-        "score": null,
-        "sources": [
-          "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b"
-        ],
-        "as_of": "2026-11-11T11:55:43Z"
-      },
       {
         "ticker": "8TRA",
         "name": "TRATON SE",
@@ -538,6 +645,75 @@
           "https://www.ad-hoc-news.de/boerse/news/corporate-news/traton-stock-trades-0-20-above-xetra-close-after-u-s-approval/70491162"
         ],
         "as_of": "2026-11-11T11:55:43Z"
+      },
+      {
+        "ticker": "ENR",
+        "name": "Siemens Energy",
+        "tv": "XETR:ENR",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH / fundamental positiv",
+        "reason": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%; Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-11",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html",
+          "https://www.siemens-energy.com/de/de/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html"
+        ],
+        "as_of": "2026-11-11T13:04:50Z"
+      },
+      {
+        "ticker": "RWE",
+        "name": "RWE",
+        "tv": "XETR:RWE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH / fundamental positiv",
+        "reason": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-11",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://www.rwe.com/en/press/rwe-ag/2026-11-11-rwe-delivers-an-excellent-earnings-performance-in-the-first-three-quarters/"
+        ],
+        "as_of": "2026-11-11T13:04:50Z"
+      },
+      {
+        "ticker": "EOAN",
+        "name": "E.ON",
+        "tv": "XETR:EOAN",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH / neutral",
+        "reason": "Ergebnis im Rahmen der Erwartungen",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-11",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/energy/eon-meets-nine-month-forecasts-grid-investment-ramps-up-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T13:04:50Z"
+      },
+      {
+        "ticker": "BNR",
+        "name": "Brenntag",
+        "tv": "XETR:BNR",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH / neutral",
+        "reason": "Q3 Dokumente veröffentlicht",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-11",
+        "event": "Earnings",
+        "score": null,
+        "sources": [
+          "https://corporate.brenntag.com/de/investor-relations/veroeffentlichungen-and-events/finanzpublikationen/"
+        ],
+        "as_of": "2026-11-11T13:04:50Z"
       }
     ],
     "pairs": [],
@@ -561,9 +737,96 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261111T115543Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "XETRA",
+        "universe_checked": 4,
+        "earnings_events": 4,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261111T130450Z"
       }
     ],
     "strategies": []
   },
-  "deep_dives": {}
+  "deep_dives": {
+    "ENR": {
+      "ticker": "ENR",
+      "name": "Siemens Energy",
+      "tv": "XETR:ENR",
+      "as_of": "2026-11-11T13:04:50Z",
+      "status": "INCOMPLETE",
+      "stance": "WATCH / fundamental positiv",
+      "summary": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%; Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "ENR-01",
+          "title": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-11-11",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html",
+          "finding": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%",
+          "checked_on": "2026-11-11",
+          "doc_type": "IR"
+        },
+        {
+          "id": "ENR-11",
+          "title": "Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+          "publisher": "Siemens Energy",
+          "published_at": "2026-11-11",
+          "url": "https://www.siemens-energy.com/de/de/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html",
+          "finding": "Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+          "checked_on": "2026-11-11",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Regulatorische Vorher/Nachher-Bestände nicht verifiziert",
+      "key_unknowns": [
+        "Aktuelle Analystenstudien",
+        "Spread und Quote",
+        "Periodengleiche Guidance-Ist-Vergleiche"
+      ],
+      "method_note": "Nur tatsächlich geöffnete Quellen gezählt",
+      "analyst_coverage": "Nicht verifiziert"
+    },
+    "RWE": {
+      "ticker": "RWE",
+      "name": "RWE",
+      "tv": "XETR:RWE",
+      "as_of": "2026-11-11T13:04:50Z",
+      "status": "INCOMPLETE",
+      "stance": "WATCH / fundamental positiv",
+      "summary": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "RWE-01",
+          "title": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+          "publisher": "RWE",
+          "published_at": "2026-11-11",
+          "url": "https://www.rwe.com/en/press/rwe-ag/2026-11-11-rwe-delivers-an-excellent-earnings-performance-in-the-first-three-quarters/",
+          "finding": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+          "checked_on": "2026-11-11",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Regulatorische Vorher/Nachher-Bestände nicht verifiziert",
+      "key_unknowns": [
+        "Aktuelle Analystenstudien",
+        "Spread und Quote",
+        "Periodengleiche Guidance-Ist-Vergleiche"
+      ],
+      "method_note": "Nur tatsächlich geöffnete Quellen gezählt",
+      "analyst_coverage": "Nicht verifiziert"
+    }
+  }
 }
