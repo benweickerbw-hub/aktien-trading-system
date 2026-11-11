@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "updated_at": "2026-11-11T18:03:07Z",
+  "version": 15,
+  "updated_at": "2026-11-11T18:34:07Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -2431,12 +2431,220 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Abendresearch – 11.11.2026, 19:03 CET\n\n## Markt und Earnings\nXetra ist seit 17:30 CET geschlossen. Nachbörslich keine neuen Fills. Reuters meldet am 11.11. für [Siemens Energy](https://www.reuters.com/business/energy/siemens-energy-expects-margin-boost-2027-data-centres-fuel-turbine-grid-demand-2026-11-11/) höhere erwartete Margen 2027 durch Datacenter-Nachfrage und eine deutlich höhere geplante Dividende. [RWE](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/) meldet 4,58 Mrd. EUR bereinigtes EBITDA für neun Monate gegenüber 4,43 Mrd. EUR Analystenerwartung (Reuters, 11.11.). [CTS Eventim](https://www.ad-hoc-news.de/boerse/news/vorboerse/cts-eventim-stock-at-eur-62-33-up-0-53-premarket/70490541), [SMA Solar](https://www.ad-hoc-news.de/boerse/news/vorboerse/sma-solar-stock-at-eur-49-15-up-2-48-premarket/70490513) und [Allianz](https://www.ad-hoc-news.de/boerse/news/vorboerse/allianz-stock-gains-to-eur-460-60-up-0-79-pre-market/70484555) haben laut datierten Quellen am 12.11. Quartals-/Neunmonatsberichte. Makro: [Saxo Bank, 11.11.](https://www.home.saxo/en-ch/content/articles/macro/market-quick-take---us-treasury-yields-rip-higher---11-november-2026-11112026) beschreibt steigende US-Renditen nach CPI und Waller-Kommentaren.\n\n## Screening und Tendenzen\nSechs eindeutige Titel aus den Meldungen inhaltlich triagiert: ENR (WATCH, positiv, aber Bewertung und Kursreaktion ungeprüft), RWE (WATCH, positiv, Windabhängigkeit), EVD (WATCH, eventgetrieben, keine Vorab-Überraschung belegt), S92 (WATCH, eventgetrieben, Ausführungsrisiko), ALV (WATCH, eventgetrieben), Enel (DISCOVERED, Ergebnis am 12.11. 18 Uhr laut [AD HOC NEWS, 11.11.](https://www.ad-hoc-news.de/boerse/news/vorboerse/enel-stock-at-eur-9-89-up-0-61-before-xetra-open/70490479)). Nur fünf als WATCH; Enel nicht vollständig geprüft. Keine Qualifikation für Entry: Spread, zeitnahe Bid/Ask, aktuelle Konsenshistorie, Volumen, unabhängige Analystenrevisionen, Prognose-Ist-Scorecards und Finanzierungskosten nicht vollständig verifiziert. PEAD benötigt belegte Umsatz- und EPS-Surprises; Pair-Korrelation ohne Kursreihen nicht berechenbar. Keine Fonds- oder Insiderveränderungen verifiziert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister abgerufen: IREN SHORT PAPER, aber ausdrücklich **nur historische Referenz**, 18,05 USD; letzte gespeicherte Marke 19,61 USD, 10.11. 15:44 EST, Quelle https://www.financialcontent.com/quote/NQ:IREN/historical; ALT, nicht neu verifiziert. Historisch gespeicherte Referenz-PnL −43,21 EUR, **keine tatsächliche Paper-Performance**. HFG SHORT USER_REPORTED, letzte gespeicherte Aktienmarke 3,029 EUR vom 09.11. 17:35 CET (https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/), ALT, Turbo-Einstand/KO unbekannt, PnL nicht berechenbar. PTON SHORT USER_REPORTED, letzte gespeicherte Aktienmarke 5,82 USD vom 10.11. 16:00 EST (https://stockanalysis.com/stocks/pton/history/), ALT, Turbo-PnL nicht berechenbar. DEUTZ CLOSED_REPORTED unverändert, Nutzerangabe ca. +11 EUR, nicht brokerverifiziert. Keine neue ausreichend datierte Quote nachgewiesen, daher keine Positionsmarken aktualisiert. Geplanter Exit der Referenz IREN ist überfällig und **nicht** als ausgeführt zu betrachten. Morgen-Open-Orders müssten vor Eröffnung festgelegt sein; Opening-Print ist erst danach bekannt.\n\n## Kapital, Kosten, Entscheidung\nGitHub-Paperkonfiguration: 10.000 EUR rein hypothetischer Startwert, 5× Modellhebel, keine Paper-Broker-Verbindung. IBKR-Deutschland-Tiered Mindestprovisionen 2,50 EUR Roundtrip (https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe), zusätzliche Spreads und Slippage. Keine verifizierten aktuellen Quotes/Bid-Ask oder ausführbaren Fills. **KEIN TRADE, 0 neue Fills, keine PnL-Neuberechnung.** Dossierziel 50 unabhängige Dokumente je Priorität nicht erreicht: 0 neue vollständige Original-IR-Dokumente in diesem Kurzlauf, sechs unabhängige datierte Nachrichten-/Analysepublikationen inhaltlich geprüft; historische Guidance-/Ist- und 13F-Vergleiche noch offen."
+    },
+    {
+      "id": "US-20261111T183407Z",
+      "market": "US",
+      "run_at": "2026-11-11T18:34:07Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave-Rally hebt AI-Infrastruktur; IREN-Delivery-Risiko bleibt",
+      "summary": "Vier Aktien qualitativ triagiert; keine verifizierten frischen Quotes und keine Paper-Fills.",
+      "source_status": "6 Webseiten geöffnet; CRWV 2/50, IREN 1/50, NBIS 1/50, RGTI 1/50; vorläufig",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "LONG",
+          "thesis": "WATCH; weitere Originalquellen erforderlich",
+          "risk": "Event-/Kurs-/Finanzierungsrisiko, keine validierte Nettoausführung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN",
+          "tv": "NASDAQ:IREN",
+          "side": "NEUTRAL",
+          "thesis": "WATCH; weitere Originalquellen erforderlich",
+          "risk": "Event-/Kurs-/Finanzierungsrisiko, keine validierte Nettoausführung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "side": "LONG",
+          "thesis": "WATCH; weitere Originalquellen erforderlich",
+          "risk": "Event-/Kurs-/Finanzierungsrisiko, keine validierte Nettoausführung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RGTI",
+          "name": "Rigetti Computing",
+          "tv": "NASDAQ:RGTI",
+          "side": "SHORT",
+          "thesis": "WATCH; weitere Originalquellen erforderlich",
+          "risk": "Event-/Kurs-/Finanzierungsrisiko, keine validierte Nettoausführung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "CoreWeave sparks AI cloud stock rally",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "ticker": "CRWV",
+          "finding": "Höhere Umsatzprognose, geringere Abhängigkeit von unbesicherten Anleihen; Bernstein sieht zugleich Nachfragezyklusrisiko."
+        },
+        {
+          "title": "S&P 500, Nasdaq rise over 1%",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "ticker": "CRWV",
+          "finding": "11:44 ET: S&P +1,25%, Nasdaq +1,85%, CRWV +25,3%; historische Intraday-Momentaufnahme, kein aktueller Quote."
+        },
+        {
+          "title": "IREN delays Microsoft AI deliveries",
+          "publisher": "Reuters",
+          "published_at": "2026-11-05",
+          "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+          "ticker": "IREN",
+          "finding": "Q-Umsatz 228 Mio USD; >4 Mrd USD ARR-Zeitplan auf Jan/Feb verschoben; Capex ca. 15 Mrd USD."
+        },
+        {
+          "title": "Quantum Computing Stocks: Rigetti Signals Growing Pains",
+          "publisher": "Investor's Business Daily",
+          "published_at": "2026-11-11",
+          "url": "https://www.investors.com/news/technology/quantum-computing-stocks-rigetti-earnings-sales-miss-rgti/",
+          "ticker": "RGTI",
+          "finding": "Quartal mit Umsatz- und Ergebnisenttäuschung; zugänglicher Artikeltext nur teilweise."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "WATCH; weitere Originalquellen erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Höhere Umsatzprognose, geringere Abhängigkeit von unbesicherten Anleihen; Bernstein sieht zugleich Nachfragezyklusrisiko.",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "FAKT",
+              "text": "11:44 ET: S&P +1,25%, Nasdaq +1,85%, CRWV +25,3%; historische Intraday-Momentaufnahme, kein aktueller Quote.",
+              "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Keine ausreichend belegte handelbare Quote/Spread"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN",
+          "tv": "NASDAQ:IREN",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "WATCH; weitere Originalquellen erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q-Umsatz 228 Mio USD; >4 Mrd USD ARR-Zeitplan auf Jan/Feb verschoben; Capex ca. 15 Mrd USD.",
+              "url": "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Keine ausreichend belegte handelbare Quote/Spread"
+          ]
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "WATCH; weitere Originalquellen erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Höhere Umsatzprognose, geringere Abhängigkeit von unbesicherten Anleihen; Bernstein sieht zugleich Nachfragezyklusrisiko.",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "FAKT",
+              "text": "11:44 ET: S&P +1,25%, Nasdaq +1,85%, CRWV +25,3%; historische Intraday-Momentaufnahme, kein aktueller Quote.",
+              "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Keine ausreichend belegte handelbare Quote/Spread"
+          ]
+        },
+        {
+          "ticker": "RGTI",
+          "name": "Rigetti Computing",
+          "tv": "NASDAQ:RGTI",
+          "stance": "SHORT",
+          "horizon": "1–10 Handelstage",
+          "summary": "WATCH; weitere Originalquellen erforderlich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Quartal mit Umsatz- und Ergebnisenttäuschung; zugänglicher Artikeltext nur teilweise.",
+              "url": "https://www.investors.com/news/technology/quantum-computing-stocks-rigetti-earnings-sales-miss-rgti/",
+              "publisher": "Investor's Business Daily",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [],
+          "invalidations": [
+            "Keine ausreichend belegte handelbare Quote/Spread"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ",
+        "summary": "Historische 18,05-USD-Basis ist kein Fill; aktuelle PnL nicht belegbar.",
+        "base_scenario": "Schwankungsreiches AI-Sektorsentiment",
+        "bull_scenario": "Cloud-Nachfrage und Peer-Rally",
+        "bear_scenario": "Lieferverzögerungen und Finanzierungsrisiko",
+        "key_risk": "Große Capex und verzögerte Lieferungen",
+        "planned_exit": "Nur nach gesondert belegtem Open-Print",
+        "as_of": "2026-11-11T18:34:07Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US Research — 11. November 2026, 13:34 EST\n\n## Markt und Ereignisse\nNYSE/Nasdaq handeln am Veterans Day regulär, während der US-Anleihemarkt geschlossen ist ([Kiplinger, Kalender](https://www.kiplinger.com/investing/stocks/is-the-stock-market-open-on-veterans-day), abgerufen 11.11.2026). Reuters meldete um 11:44 EST S&P 500 +1,25%, Nasdaq +1,85% und CRWV +25,3%; diese Zahlen sind **keine** Kurse von 13:34 ([Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/)).\n\n## Screening und Kandidaten\nDer [TipRanks-Earnings-Kalender vom 11.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-11) listet zahlreiche Titel; eine bloße Listung ist keine individuelle Prüfung. Inhaltlich triagiert: CRWV, IREN, NBIS, RGTI. Keine nachgewiesene Spread-/Borrow-/IV-Validierung und daher keine QUALIFIED-Entries.\n\n**CRWV – WATCH, keine neue Long-Order:** Reuters berichtet über angehobene Umsatzprognose und Verzicht auf weitere unbesicherte Schuldenaufnahme; Bernstein (Madison Rezaei) sieht solide Quartalsdaten, warnt aber vor Kapazitätsüberschuss ([Reuters, 11.11.2026](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/)). Nach einer von Reuters um 11:44 EST gemeldeten Bewegung von +25,3% ist Chasing besonders riskant. Historische Guidance-Ist-Paare und zwei unabhängige Analystenberichte: nicht verifiziert.\n\n**IREN – WATCH, neutral bis vorsichtig:** Q-Umsatz 228 Mio USD gegenüber LSEG-Konsens 221,28 Mio USD, aber Verschiebung des >4-Mrd-USD-ARR-Ziels auf Januar, eventuell Februar, und etwa 15 Mrd USD weitere Investitionen ([Reuters, 05./06.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/)). Gegenargument zur Short-These: starkes Cloudwachstum und positive Sektorreaktion auf CRWV. Nicht mit einem nachgewiesenen eigenen IREN-Fill verwechseln.\n\n**NBIS – WATCH, ereignisgetrieben:** Reuters nennt Earnings vor Donnerstagseröffnung und positive Branchenreaktion; eigener Ergebnisbericht, aktueller Konsens und Quote fehlen ([Reuters, 11.11.2026](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/)).\n\n**RGTI – WATCH/SHORT-Hypothese:** Umsatz-/Ergebnisenttäuschung, aber starke Nasdaq-Gegenbewegung; vollständiger Originalbericht und Borrow-Kosten nicht geprüft ([Investor's Business Daily, 11.11.2026](https://www.investors.com/news/technology/quantum-computing-stocks-rigetti-earnings-sales-miss-rgti/)).\n\n## Methoden, Forschungsstand und Lücken\nIm aktuellen Lauf wurden 6 eigenständige Webseiten tatsächlich geöffnet, darunter vier Research-/Markttexte, ein Earnings-Kalender und ein Handelskalender. Kandidatenbezogen CRWV 2/50, IREN 1/50, NBIS 1/50 (gemeinsamer Reuters-Text), RGTI 1/50 (nur öffentlich sichtbarer Teil); alle vorläufig. SEC-Originalfilings, periodengleiche Guidance-Scorecards, 13F-Vergleiche, namentlich zwei Analystenvoten je Titel, 60–252 Tageskurse für Pairs und belastbare Kosten/Spreads: nicht verifiziert. PRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS bleiben Hypothesen ohne quantifizierten Netto-Edge.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister: IREN PAPER-Referenz OPEN_SIMULATED (18,05 USD ausdrücklich nur hypothetischer Basispreis, **kein nachgewiesener Fill**); HFG und PTON als OPEN_UNVERIFIED Nutzerturbos. Kein aktueller zeitgestempelter Bid/Ask-/Last-Kurs für diese drei im Lauf nachgewiesen, daher PnL **nicht berechenbar** und keine neue Marke gespeichert. DEZ ist CLOSED_REPORTED und wurde nicht verändert. IREN-Referenz wird nicht als echter Papergewinn/-verlust ausgewiesen. Geplanter Ausstieg nur nach künftig überprüftem Kurs/Opening-Print, keine rückwirkende Buchung.\n\n## Entscheidung und Paper-Risiko\n**KEIN TRADE** um 13:34 EST (kein 15:30-Entscheidungsslot). Kein authentifizierter Paper-Broker, keine belegten ausführbaren Quotes/Spreads. Konfiguration: 10.000 EUR hypothetisches Startkapital, 5× nominal, variable Margin; kein tatsächlicher Kontostand. Keine neuen Fills, keine Änderung an positions.json. TradingView-Widgetwerte sind kein verifizierter PnL-Feed."
     }
   ],
   "screening": {
     "status": "PARTIAL_AFTERHOURS",
-    "as_of": "2026-11-11T18:03:07Z",
-    "method_note": "6 Meldungstitel geprüft; keine Ausführungsqualifikation, keine Preis-/Spreadprüfung.",
+    "as_of": "2026-11-11T18:34:07Z",
+    "method_note": "2026-11-11: 4 individuell qualitativ triagiert; keine Spread-/Liquiditäts- oder Marketcap-Vollprüfung; keine als QUALIFIED gezählt.",
     "coverage": {
       "universe_checked": 5,
       "earnings_events": 3,
@@ -2464,20 +2672,20 @@
       },
       {
         "ticker": "IREN",
-        "name": "IREN Limited",
+        "name": "IREN",
         "tv": "NASDAQ:IREN",
         "market": "US",
-        "sector": "Technology",
-        "direction": "REVIEW",
-        "reason": "Microsoft delivery delay",
+        "sector": "AI infrastructure",
+        "direction": "NEUTRAL",
+        "reason": "WATCH; weitere Originalquellen erforderlich",
         "stage": "WATCH",
-        "earnings_at": "2026-11-05",
-        "event": "Q1 report",
+        "earnings_at": null,
+        "event": "Earnings/Sektorreaktion",
         "score": null,
         "sources": [
           "https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/"
         ],
-        "as_of": "2026-11-11T17:30:06Z"
+        "as_of": "2026-11-11T18:34:07Z"
       },
       {
         "ticker": "NVDA",
@@ -2569,18 +2777,18 @@
         "name": "CoreWeave",
         "tv": "NASDAQ:CRWV",
         "market": "US",
-        "sector": "Technology",
+        "sector": "AI infrastructure",
         "direction": "LONG",
-        "reason": "Q3 Earnings",
+        "reason": "WATCH; weitere Originalquellen erforderlich",
         "stage": "WATCH",
-        "earnings_at": "2026-11-10",
-        "event": "Q3 report",
+        "earnings_at": null,
+        "event": "Earnings/Sektorreaktion",
         "score": null,
         "sources": [
-          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
-          "https://www.reuters.com/business/coreweave-beats-quarterly-revenue-estimates-ai-demand-defies-growing-doubts-2026-11-10/"
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
         ],
-        "as_of": "2026-11-11T17:30:06Z"
+        "as_of": "2026-11-11T18:34:07Z"
       },
       {
         "ticker": "CSCO",
@@ -2605,18 +2813,18 @@
         "name": "Nebius",
         "tv": "NASDAQ:NBIS",
         "market": "US",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Earnings Donnerstag vorbörslich",
+        "sector": "AI infrastructure",
+        "direction": "LONG",
+        "reason": "WATCH; weitere Originalquellen erforderlich",
         "stage": "WATCH",
         "earnings_at": null,
-        "event": "Earnings/AI sector",
+        "event": "Earnings/Sektorreaktion",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
-          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
         ],
-        "as_of": "2026-11-11T16:27:39Z"
+        "as_of": "2026-11-11T18:34:07Z"
       },
       {
         "ticker": "ENR",
@@ -2702,6 +2910,23 @@
           "https://www.ad-hoc-news.de/boerse/news/vorboerse/allianz-stock-gains-to-eur-460-60-up-0-79-pre-market/70484555"
         ],
         "as_of": "2026-11-11T18:03:07Z"
+      },
+      {
+        "ticker": "RGTI",
+        "name": "Rigetti Computing",
+        "tv": "NASDAQ:RGTI",
+        "market": "US",
+        "sector": "Quantum computing",
+        "direction": "SHORT",
+        "reason": "WATCH; weitere Originalquellen erforderlich",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Earnings/Sektorreaktion",
+        "score": null,
+        "sources": [
+          "https://www.investors.com/news/technology/quantum-computing-stocks-rigetti-earnings-sales-miss-rgti/"
+        ],
+        "as_of": "2026-11-11T18:34:07Z"
       }
     ],
     "pairs": [],
@@ -2815,6 +3040,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261111T180307Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": null,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T183407Z"
       }
     ],
     "strategies": []
@@ -2900,10 +3135,10 @@
       "ticker": "CRWV",
       "name": "CoreWeave",
       "tv": "NASDAQ:CRWV",
-      "as_of": "2026-11-11T17:30:06Z",
+      "as_of": "2026-11-11T18:34:07Z",
       "status": "PRELIMINARY",
-      "stance": "WATCH_LONG",
-      "summary": "Starkes Umsatzwachstum bei hoher Zinslast",
+      "stance": "WATCH",
+      "summary": "Earnings-Rally, Finanzierungs- und Zyklusrisiko",
       "source_goal": 50,
       "source_documents": [
         {
@@ -2972,21 +3207,19 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "aktuelle Bid/Ask",
-        "13F-Originalvergleich",
-        "Analysten-Einzelvoten"
+        "Original-SEC-Dokumente, 13F-Vergleiche, historisches Guidance-Scoring, Quotes/Spreads fehlen"
       ],
-      "method_note": "Nur tatsächlich geöffnete Texte ergänzt; keine Vollständigkeit behauptet",
+      "method_note": "Nur tatsächlich geöffnete Dokumente hinzugefügt; alte Daten erhalten.",
       "analyst_coverage": []
     },
     "IREN": {
       "ticker": "IREN",
-      "name": "IREN Limited",
+      "name": "IREN",
       "tv": "NASDAQ:IREN",
-      "as_of": "2026-11-11T17:30:06Z",
+      "as_of": "2026-11-11T18:34:07Z",
       "status": "PRELIMINARY",
-      "stance": "REVIEW",
-      "summary": "AI-Cloud-Wachstum mit verzögertem ARR-Ziel",
+      "stance": "NEUTRAL",
+      "summary": "Lieferverzögerung, Capex und AI-Wachstum",
       "source_goal": 50,
       "source_documents": [
         {
@@ -3015,11 +3248,9 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "aktuelle Bid/Ask",
-        "13F-Originalvergleich",
-        "Analysten-Einzelvoten"
+        "Original-SEC-Dokumente, 13F-Vergleiche, historisches Guidance-Scoring, Quotes/Spreads fehlen"
       ],
-      "method_note": "Nur tatsächlich geöffnete Texte ergänzt; keine Vollständigkeit behauptet",
+      "method_note": "Nur tatsächlich geöffnete Dokumente hinzugefügt; alte Daten erhalten.",
       "analyst_coverage": []
     },
     "NVDA": {
