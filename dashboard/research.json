@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "updated_at": "2026-11-11T13:25:15Z",
+  "version": 5,
+  "updated_at": "2026-11-11T14:03:53Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -845,16 +845,213 @@
         "reference_only": true
       },
       "report_markdown": "# US-Vorbörsenresearch – 11.11.2026, 08:25 EST\n\n## Markt- und Earnings-Lage\nVeterans Day: NYSE und Nasdaq sind 09:30–16:00 EST regulär geöffnet, US-Anleihemarkt geschlossen ([StockTitan, 10.11.2026](https://www.stocktitan.net/articles/stock-market-open-veterans-day-2026)). [AP, 11.11.2026](https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e) meldet Nasdaq-Futures +1,9%, S&P-Futures +0,9% im veröffentlichten Vorbörsen-Snapshot, keine tickgenaue aktuelle Quote. [Reuters, 11.11.2026, 12:12 UTC](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/) beschreibt CoreWeaves angehobene Umsatzprognose, verbesserte Finanzierungsstrategie und positive Reaktion von IREN/NBIS/NVDA. Das AI-Kapazitäts- und Verschuldungsrisiko bleibt wesentlich.\n\n## Screening und Kandidaten\n[TipRanks Earnings-Kalender, Abruf 11.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-11) enthält 126 Einträge für heute; das sind DISCOVERED, nicht 126 geprüfte Aktien. Individuell thematisch geprüft: CRWV (WATCH, potenziell LONG nach Bestätigung), IREN (WATCH, Short-Referenz unter Peer-Rally-Druck), NVDA (WATCH, Governance-Risiko versus KI-Nachfrage), NBIS (WATCH, anstehende Zahlen). Die Berichte und Kalendereinträge ersetzen keine SEC-/IR-Originalprüfung. Für alle vier: Analystenziele, zwei unabhängig belegte Analystenvoten, zeitnahe Bid/Ask, Short-Interest, 13F-Vergleiche und historische Guidance-Ist-Paare **nicht verifiziert**. Keine QUALIFIED-Trades. Zusätzliche Kandidaten sind noch nicht geprüft.\n\n## Dossiers / Quellenfortschritt\nCRWV: 1 tatsächlich geöffneter spezifischer Reuters-Text /50, vorläufig. IREN: 1 gemeinsam relevanter Reuters-Text /50, vorläufig. NVDA: 2 geöffnete Texte (Reuters und AP) /50, vorläufig. NBIS: 1 Reuters-Text /50, vorläufig. Die Kalenderseite ist ein gesonderter Discovery-Beleg und zählt nicht als tiefes Unternehmensdokument. Keine neue verifizierte SEC-Originalquelle, kein verlässlicher Guidance-Score, keine 13F-Vergleichsreihe. PEAD erfordert bestätigte EPS- und Umsatzsurprises; Pair-Trading erfordert Kursreihen/Korrelation, hier nicht vorhanden.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister gelesen (ausschließlich Bestandsverwaltung): IREN SHORT, 18,05 USD historischer **Referenzeinstieg, kein Fill**, letzter gespeicherter Mark 19,61 USD vom 10.11.2026 15:44 EST; **ALT**, keine neue zeitnahe Quote belegt. Alte Referenzmodell-PnL −43,21 EUR ohne Gebühren/FX/KO, **nicht aktuelle PnL**. HFG SHORT Nutzer-Turbo: gespeicherter Aktienmark 3,029 EUR vom 09.11.2026 17:35 CET, ALT, Produkt-PnL mangels ISIN/Einstand nicht berechenbar. PTON SHORT Nutzer-Turbo: gespeicherter Aktienmark 5,82 USD vom 10.11.2026 16:00 EST, ALT; Produkt-PnL nicht berechenbar. Keine Position geschlossen; kein belegter neuer Open-Print. IREN-Referenz-Exitdatum im Register ist verstrichen, nicht als ausgeführt behandeln.\n\n## Handelsentscheidung und Risiko\n**KEIN TRADE**: 08:25 EST ist vor dem regulären Markt und außerhalb des 15:30-Entscheidungsfensters. 10.000 EUR virtuelles Startkapital laut Paper-Konfiguration, kein Broker verbunden, keine authentifizierten Fills. Keine neuen Positionen, keine aktuelle PnL. Kosten/Spread/Borrow und R:R nicht überprüfbar. Positives Szenario: CoreWeave-Ausblick unterstützt Infrastrukturwerte; negatives: Verschuldung, regulatorische Hürden und NVDA-Governance-Druck. Beobachtung zur nächsten Eröffnung; keine prognostizierte sichere Kursrichtung."
+    },
+    {
+      "id": "XETRA-20261111T140353Z",
+      "market": "XETRA",
+      "run_at": "2026-11-11T14:03:53Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Energy Rekordgewinn; RWE über Erwartungen; E.ON bestätigt Ausblick",
+      "summary": "Drei Ergebniswerte geprüft, keine verifizierten Paper-Fills oder frischen Positionsmarks.",
+      "source_status": "5 unabhängige Veröffentlichungen ausgewertet; keine neue Original-IR tief geprüft; Quote/Analystenlücken",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "LONG",
+          "thesis": "Rekordgewinn und langfristige Wachstumsziele",
+          "risk": "Kursreaktion und Bewertungsrisiko",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "side": "LONG",
+          "thesis": "EBITDA über Konsens",
+          "risk": "Wetter und Energiepreise",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "EOAN",
+          "name": "E.ON",
+          "tv": "XETR:EOAN",
+          "side": "NEUTRAL",
+          "thesis": "Guidance bestätigt",
+          "risk": "Investitions- und Finanzierungsbedarf",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Energy Rekordgewinn und Ausblick",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "publisher": "Welt/dpa",
+          "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/wirtschaft_nt/article6af404c6f0b67a4b246650a7/4-1-milliarden-euro-rekordgewinn-bei-siemens-energy.html",
+          "finding": "Siemens Energy Rekordgewinn und Ausblick"
+        },
+        {
+          "title": "RWE Neunmonats-EBITDA über Konsens",
+          "published_at": "2026-11-11",
+          "ticker": "RWE",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+          "finding": "RWE Neunmonats-EBITDA über Konsens"
+        },
+        {
+          "title": "E.ON bestätigt Jahresprognose",
+          "published_at": "2026-11-11",
+          "ticker": "EOAN",
+          "publisher": "WSJ",
+          "url": "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b",
+          "finding": "E.ON bestätigt Jahresprognose"
+        },
+        {
+          "title": "Europäische Märkte und Sektorreaktion",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/",
+          "finding": "Europäische Märkte und Sektorreaktion"
+        },
+        {
+          "title": "Unternehmenstermine 11. November",
+          "published_at": "2026-11-11",
+          "ticker": null,
+          "publisher": "onvista/dpa-AFX",
+          "url": "https://www.onvista.de/news/2026/11-11-tagesvorschau-termine-am-11-november-2026-0-10-26574860",
+          "finding": "Unternehmenstermine 11. November"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Rekordgewinn und langfristige Wachstumsziele; Risiko: Kursreaktion und Bewertungsrisiko",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Rekordgewinn und langfristige Wachstumsziele",
+              "url": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/wirtschaft_nt/article6af404c6f0b67a4b246650a7/4-1-milliarden-euro-rekordgewinn-bei-siemens-energy.html",
+              "publisher": "Welt/dpa",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktuelle Analystenziele, Spread, historische Guidance-Ist-Vergleiche und vollständige Originalberichte nicht verifiziert.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Ergebnisverarbeitung und Analystenrevisionen"
+          ],
+          "invalidations": [
+            "Kursreaktion und Bewertungsrisiko"
+          ]
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "EBITDA über Konsens; Risiko: Wetter und Energiepreise",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "EBITDA über Konsens",
+              "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktuelle Analystenziele, Spread, historische Guidance-Ist-Vergleiche und vollständige Originalberichte nicht verifiziert.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Ergebnisverarbeitung und Analystenrevisionen"
+          ],
+          "invalidations": [
+            "Wetter und Energiepreise"
+          ]
+        },
+        {
+          "ticker": "EOAN",
+          "name": "E.ON",
+          "tv": "XETR:EOAN",
+          "stance": "NEUTRAL",
+          "horizon": "1–10 Handelstage",
+          "summary": "Guidance bestätigt; Risiko: Investitions- und Finanzierungsbedarf",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Guidance bestätigt",
+              "url": "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b",
+              "publisher": "WSJ",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "DATEN FEHLEN",
+              "text": "Aktuelle Analystenziele, Spread, historische Guidance-Ist-Vergleiche und vollständige Originalberichte nicht verifiziert.",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Ergebnisverarbeitung und Analystenrevisionen"
+          ],
+          "invalidations": [
+            "Investitions- und Finanzierungsbedarf"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ",
+        "summary": "Historischer hypothetischer Einstieg, kein verifizierter Fill oder frischer Mark",
+        "base_scenario": "Unbestimmt ohne aktuelle Quote",
+        "bull_scenario": "Kursrückgang bei Short-Referenz",
+        "bear_scenario": "Short-Squeeze und Kursanstieg",
+        "key_risk": "Nicht verifizierte Ausführung und unbegrenzte Short-Gap-Risiken",
+        "planned_exit": "Nur vorab dokumentierter Eröffnungsplan",
+        "as_of": "2026-11-11T14:03:53Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 11.11.2026, 15:03 MEZ\n\n## Markt- und Earnings-Lage\nXetra regulärer Mittwoch; Unternehmenszahlen von Siemens Energy, RWE und E.ON dominieren. Der europäische STOXX 600 lag laut Reuters im Tagesverlauf bei 660,06 Punkten (+0,2 %), kein tickgenauer Kurs. Siemens Energy meldete 44,2 Mrd. EUR Jahresumsatz, 4,1 Mrd. EUR Nettogewinn und 164 Mrd. EUR Auftragsbestand. RWE meldete 4,58 Mrd. EUR bereinigtes EBITDA für neun Monate gegenüber 4,43 Mrd. EUR Analystenerwartung. E.ON bestätigte die Jahresprognose (bereinigtes EBITDA 9,4–9,6 Mrd. EUR).\n\n## Screening und Watchlist\nFünf Eventtitel aus dem öffentlich datierten Kalender betrachtet: ENR, RWE, EOAN, BNR und GBF. Davon drei mit in diesem Lauf konkreten Ergebnisinformationen; BNR/GBF nur Kalender-Discovery, nicht qualifiziert. ENR: bullisch aufgrund Auftragsbestand und ambitionierter 2027/2030-Ziele; Gegenargument Bewertung, bereits starke Kursreaktion. RWE: leicht bullisch nach EBITDA-Überraschung; Risiko Wetterabhängigkeit und Commodity-Preise. EOAN: neutral nach Prognosebestätigung; Risiko hoher Investitionsbedarf. Analysten-Zielrevisionen, exakte historische Guidance-Ist-Paare, 60–252 Tageskurse, Short-Interest, verifizierte Fondsfilings und aktuelle Bid/Ask-Spreads: nicht gefunden. Kein PEAD-Nachweis ohne gemeinsam verifizierte Umsatz- und EPS-Surprises. Kein statistisch abgesichertes Pair.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister geprüft: IREN (OPEN_SIMULATED, historischer Referenzkurs 18,05 USD, kein bestätigter Fill), HFG (OPEN_UNVERIFIED), PTON (OPEN_UNVERIFIED). Für keine dieser drei Positionen wurde in diesem Lauf ein ausreichend aktueller zeitgestempelter öffentlicher Quote mit Kursart und Handelsphase bestätigt. Deshalb keine neuen Marks, keine berechenbare aktuelle PnL. HFG/PTON sind Nutzerprodukte ohne verifizierten Einstand/ISIN/KO; Aktienkurse wären kein valider Turbo-PnL-Ersatz. Keine Position geschlossen. Exit nur nach zuvor belegtem Plan und tatsächlichem Opening-Print; eine Opening-Order muss vor Markteröffnung feststehen.\n\n## Handelsentscheidung und Kosten\nKEIN TRADE: 15-Uhr-Slot ist Research, kein neuer Fill; zudem keine authentifizierte Paper-Broker-Ausführung, keine frischen Bid/Ask-Belege, keine validierte Gesamtkosten- und Risiko-Rechnung. Fiktives Startkapital laut Positionsregister 10.000 EUR, keine verifizierte Equity. Der gespeicherte Policy-Stand verlangt einen Ausführungsbeleg. Bei deutschen Aktien mindestens 2,50 EUR Roundtrip-Provision im IBKR-Tiered-Beispiel zuzüglich Spread/Slippage; 50 EUR Margin ×5 = 250 EUR Notional, Mindestprovision allein 1 % des Notionals und damit über 0,5 %-Kostenlimit.\n\n## Quellen und Lücken\nIn diesem Lauf fünf voneinander verschiedene öffentliche Veröffentlichungen inhaltlich ausgewertet, davon keine neue Firmen-IR-Originalpublikation tief gelesen. Keine 50-Quellen-Vollständigkeit behauptet. Für ein Master-Dossier fehlen historische Originalberichte, Konsenszeitreihen, Analystenvoten, Guidance-Scorecards, regulatorische Bestände, Kurs- und Kostenbelege. Quellen (11.11.2026, Abruf 11.11.2026):\n- [Siemens Energy Rekordgewinn und Ausblick](https://www.welt.de/newsticker/dpa_nt/infoline_nt/wirtschaft_nt/article6af404c6f0b67a4b246650a7/4-1-milliarden-euro-rekordgewinn-bei-siemens-energy.html) – Welt/dpa\n- [RWE Neunmonats-EBITDA über Konsens](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/) – Reuters\n- [E.ON bestätigt Jahresprognose](https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b) – WSJ\n- [Europäische Märkte und Sektorreaktion](https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/) – Reuters\n- [Unternehmenstermine 11. November](https://www.onvista.de/news/2026/11-11-tagesvorschau-termine-am-11-november-2026-0-10-26574860) – onvista/dpa-AFX"
     }
   ],
   "screening": {
-    "status": "PREMARKET_PARTIAL",
-    "as_of": "2026-11-11T13:25:15Z",
-    "method_note": "4 einzeln thematisch geprüfte Titel aus Reuters/AP; Kalenderliste nicht als geprüft gezählt; keine qualifizierten Trades.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-11T14:03:53Z",
+    "method_note": "Nur 3 Titel mit konkreten Ergebnissen überprüft; 2 weitere kalenderbasiert DISCOVERED; keine Kurs-/Spread-Qualifikation.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 1,
-      "triaged": 4,
+      "universe_checked": 3,
+      "earnings_events": 3,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -882,17 +1079,17 @@
         "tv": "XETR:ENR",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH / fundamental positiv",
-        "reason": "Umsatz 44,2 Mrd EUR, FCF vor Steuern 8,8 Mrd EUR, 2030 Marge 20-22%; Q4 Umsatz 12,8 Mrd EUR, 2027 Umsatzwachstum 14-16%",
+        "direction": "LONG",
+        "reason": "Rekordgewinn und langfristige Wachstumsziele",
         "stage": "WATCH",
         "earnings_at": "2026-11-11",
-        "event": "Earnings",
+        "event": "Ergebnisbericht",
         "score": null,
         "sources": [
-          "https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html",
-          "https://www.siemens-energy.com/de/de/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html"
+          "https://www.welt.de/newsticker/dpa_nt/infoline_nt/wirtschaft_nt/article6af404c6f0b67a4b246650a7/4-1-milliarden-euro-rekordgewinn-bei-siemens-energy.html",
+          "https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/"
         ],
-        "as_of": "2026-11-11T13:04:50Z"
+        "as_of": "2026-11-11T14:03:53Z"
       },
       {
         "ticker": "RWE",
@@ -900,16 +1097,16 @@
         "tv": "XETR:RWE",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH / fundamental positiv",
-        "reason": "9M EBITDA 4,6 Mrd EUR, Ausblick oberes Ende",
+        "direction": "LONG",
+        "reason": "EBITDA über Konsens",
         "stage": "WATCH",
         "earnings_at": "2026-11-11",
-        "event": "Earnings",
+        "event": "Ergebnisbericht",
         "score": null,
         "sources": [
-          "https://www.rwe.com/en/press/rwe-ag/2026-11-11-rwe-delivers-an-excellent-earnings-performance-in-the-first-three-quarters/"
+          "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/"
         ],
-        "as_of": "2026-11-11T13:04:50Z"
+        "as_of": "2026-11-11T14:03:53Z"
       },
       {
         "ticker": "EOAN",
@@ -917,16 +1114,16 @@
         "tv": "XETR:EOAN",
         "market": "XETRA",
         "sector": null,
-        "direction": "WATCH / neutral",
-        "reason": "Ergebnis im Rahmen der Erwartungen",
+        "direction": "NEUTRAL",
+        "reason": "Guidance bestätigt",
         "stage": "WATCH",
         "earnings_at": "2026-11-11",
-        "event": "Earnings",
+        "event": "Ergebnisbericht",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/energy/eon-meets-nine-month-forecasts-grid-investment-ramps-up-2026-11-11/"
+          "https://www.wsj.com/business/earnings/e-on-backs-guidance-as-energy-infrastructure-investments-continue-9ec6d44b"
         ],
-        "as_of": "2026-11-11T13:04:50Z"
+        "as_of": "2026-11-11T14:03:53Z"
       },
       {
         "ticker": "BNR",
@@ -1055,6 +1252,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261111T132515Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261111T140353Z"
       }
     ],
     "strategies": []
