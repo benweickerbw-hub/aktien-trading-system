@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "updated_at": "2026-11-11T16:27:39Z",
+  "version": 12,
+  "updated_at": "2026-11-11T17:04:29Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -1912,16 +1912,172 @@
           "bullets": []
         }
       ]
+    },
+    {
+      "id": "XETRA-20261111T170429Z",
+      "market": "XETRA",
+      "run_at": "2026-11-11T17:04:29Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Energy Margenziele angehoben; RWE über Konsens",
+      "summary": "18:04 MEZ nach Xetra-Schluss. 0 neue Fills; fünf gezielt geprüfte Titel, unvollständige Quoten und Kosten.",
+      "source_status": "4 datierte Nachrichtenquellen, 3 Quote-Seiten; keine neuen vollständig gelesenen IR-Originalberichte",
+      "candidates": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "side": "WATCH LONG",
+          "thesis": "höhere Margenziele",
+          "risk": "Bewertung und Gap",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE",
+          "tv": "XETR:RWE",
+          "side": "WATCH",
+          "thesis": "EBITDA über Konsens",
+          "risk": "Wetterabhängigkeit",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Energy hebt langfristige Ziele an",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "url": "https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/",
+          "finding": "Siemens Energy +8,3%; optimistischere Profitabilitätsziele"
+        },
+        {
+          "title": "Siemens Energy Rekordergebnis und Ausblick",
+          "publisher": "WSJ",
+          "published_at": "2026-11-11",
+          "ticker": "ENR",
+          "url": "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1",
+          "finding": "FY2026 Marge 12,4%; FY2027 Ziel 14–16%; FY2030 20–22%; Auftragsbestand 164 Mrd EUR"
+        },
+        {
+          "title": "RWE Neunmonatszahlen",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "ticker": "RWE",
+          "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+          "finding": "Bereinigtes EBITDA 4,58 Mrd EUR versus Konsens 4,43 Mrd EUR"
+        },
+        {
+          "title": "Siemens Energy Aktienrückkäufe",
+          "publisher": "Reuters",
+          "published_at": "2026-11-10",
+          "ticker": "ENR",
+          "url": "https://www.reuters.com/business/energy/siemens-energy-expands-buyback-programme-with-up-9-billion-more-2026-11-10/",
+          "finding": "Zusätzlich bis zu 9 Mrd EUR bis FY2030"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "ENR",
+          "name": "Siemens Energy",
+          "tv": "XETR:ENR",
+          "stance": "WATCH LONG, kein Fill",
+          "horizon": "1–10 Handelstage",
+          "summary": "Guidance-Anhebung, hohe Erwartung bereits eingepreist",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "FY2027 Margenziel 14–16%; FY2030 20–22%",
+              "url": "https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1",
+              "publisher": "WSJ",
+              "published_at": "2026-11-11"
+            },
+            {
+              "type": "FAKT",
+              "text": "Zusätzliche Rückkäufe bis 9 Mrd EUR",
+              "url": "https://www.reuters.com/business/energy/siemens-energy-expands-buyback-programme-with-up-9-billion-more-2026-11-10/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Risiko Gewinnmitnahmen nach Kurssprung",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Umsetzung FY2027 Guidance"
+          ],
+          "invalidations": [
+            "Marge unter Guidance",
+            "Auftragsstornierungen"
+          ]
+        },
+        {
+          "ticker": "RWE",
+          "name": "RWE AG",
+          "tv": "XETR:RWE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Neunmonats-EBITDA über Konsens, Wettereffekt",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "4,58 Mrd EUR EBITDA vs 4,43 Mrd EUR Konsens",
+              "url": "https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [
+            "Guidance und Energiepreise"
+          ],
+          "invalidations": [
+            "Rückläufige Erzeugung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Kein nachgewiesener Fill, neuer Quote-Snapshot veraltet",
+        "base_scenario": "Volatilität",
+        "bull_scenario": "Kurs fällt",
+        "bear_scenario": "Short-Squeeze",
+        "key_risk": "Gap und nicht nachgewiesener Entry",
+        "planned_exit": "Nur nach verifiziertem Opening-Print",
+        "as_of": "2026-11-11T17:04:29Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Nachbörslicher Research – 11.11.2026, 18:04 MEZ\n## Markt- und Earnings-Lage\n**Kein neuer Trade:** Xetra regulär seit 17:30 MEZ geschlossen. Für diesen 18-Uhr-Lauf sind nur Nachbörsenrecherche und Vorbereitung zulässig.\n- [Reuters, 11.11.2026](https://www.reuters.com/business/europes-stoxx-600-near-record-high-siemens-energy-coreweave-outlooks-lift-2026-11-11/): Siemens Energy rund +8,3% nach höherem Margenausblick; STOXX 600 rund +0,2% zum Berichtszeitpunkt. Kurs nicht als 18:04-Live-Quote interpretieren.\n- [WSJ, 11.11.2026](https://www.wsj.com/business/earnings/siemens-energy-targets-steeper-profit-gains-through-2030-269212e1): Siemens Energy FY2026 Marge vor Sondereffekten 12,4%, FY2027 Ziel 14–16%, FY2030 Ziel 20–22%, Auftragsbestand 164 Mrd EUR. Zusätzliche Rückkäufe bis 9 Mrd EUR laut [Reuters, 10.11.2026](https://www.reuters.com/business/energy/siemens-energy-expands-buyback-programme-with-up-9-billion-more-2026-11-10/). Bull: Auftragsvisibilität/Netztechnik; Bear: anspruchsvolle Bewertung und Umsetzung.\n- [Reuters, 11.11.2026](https://www.reuters.com/business/energy/rwe-posts-9-month-core-earnings-above-expectations-favourable-conditions-2026-11-11/): RWE bereinigtes Neunmonats-EBITDA 4,58 Mrd EUR gegenüber Analystenkonsens 4,43 Mrd EUR. Bull: Windbedingungen; Bear: Wetterabhängigkeit.\n## Screening und Strategien\nGezielt recherchiert: ENR, RWE, HFG, IREN, PTON (5 Titel; keine Behauptung eines vollständigen Liquiditäts-/Kosten-Screenings). ENR und RWE WATCH, HFG/IREN/PTON Positionsmonitoring. Vor-Earnings, PEAD, Guidance-Revision und Pair-Trading verglichen; keine bestätigte zeitnahe Bid/Ask-Quote, Kostenkalkulation oder 60–252-Tages-Korrelation für eine neue handelbare Idee. Keine QUALIFIED-Neuorder.\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT: historische Referenz 18,05 USD, **kein bestätigter Fill**; letzter vorhandener Registerstand 19,61 USD am 10.11. 15:44 EST. Neuer öffentlich angezeigter [Yahoo-Finance-Snapshot](https://finance.yahoo.com/quote/IREN/history/) 20,88 USD, 11.11. 10:26:09 EST, bei Prüfung nicht zeitnah; nicht als aktuelle Marke gespeichert. Unverbindliche hypothetische lineare PnL auf 500 EUR Exposure: 500×(1−20,88/18,05)=−78,39 EUR, ohne Gebühren/FX/KO. Kein realisierter Verlust.\n- HFG SHORT (Nutzer-Turbo): Einstand/ISIN/KO unbekannt, PnL nicht berechenbar. [FinanzNachrichten Xetra](https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm) 2,929 EUR am 11.11. 14:02 MEZ, veralteter Intraday-Snapshot, keine aktuelle Marke.\n- PTON SHORT (Nutzer-Turbo): Einstand/Produktkurs unbekannt, PnL nicht berechenbar. [StockAnalysis](https://stockanalysis.com/stocks/pton/history/) 5,83 USD, 11.11. 09:47 EST, veraltet; keine aktuelle Marke.\nKeine Position geschlossen, keine neuen Positionen. Für den Morgencheck muss eine simulierte Eröffnungsorder vor Marktöffnung festgelegt werden; Opening-Print erst danach bekannt.\n## Forschungsstand und Lücken\nVier unterschiedliche datierte Nachrichtenpublikationen bzw. Dokumente geprüft, plus drei Quote-Webseiten (nicht als unabhängige IR-Originalquellen gezählt). 0 neue Unternehmens-Originalberichte vollständig gelesen, 0 neue 13F-/Stimmrechtsfilings; Guidance-Ist-Scorecard und namentliche Analystenupdates nicht verifiziert. Keine 50-Quellen-Dossier-Vollständigkeit. Broker-Paper-Endpunkt nicht verbunden; 10.000 EUR ausschließlich fiktives Startkapital. Mindestprovision Deutschland Tiered laut [IBKR-Gebührenliste](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe) 2,50 EUR Roundtrip vor Spread; ohne Kosten- und Fill-Nachweis kein Entry.",
+      "report_sections": [
+        {
+          "heading": "Handelsentscheidung",
+          "summary": "Kein Trade nach Xetra-Schluss",
+          "bullets": []
+        }
+      ]
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T16:27:39Z",
-    "method_note": "Nur drei anhand geöffneter Texte triagierte Titel, keine vollständig geprüften SCREENED-Titel.",
+    "as_of": "2026-11-11T17:04:29Z",
+    "method_note": "Nachbörsliche gezielte Triage von fünf Titeln; keine vollumfängliche Liquiditätsprüfung",
     "coverage": {
-      "universe_checked": 0,
-      "earnings_events": 3,
-      "triaged": 3,
+      "universe_checked": 5,
+      "earnings_events": 2,
+      "triaged": 5,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -2215,6 +2371,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261111T162739Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "XETRA",
+        "universe_checked": 5,
+        "earnings_events": 2,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261111T170429Z"
       }
     ],
     "strategies": []
