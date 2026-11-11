@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "updated_at": "2026-11-11T20:25:53Z",
+  "version": 18,
+  "updated_at": "2026-11-11T21:32:46Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -2997,14 +2997,200 @@
         "reference_only": true
       },
       "report_markdown": "# US-Research – 11.11.2026, 15:25 EST (20:25 UTC)\n\n## Markt- und Earnings-Lage\nNYSE/Nasdaq regulär geöffnet; Veterans Day schließt den US-Anleihemarkt, nicht den Aktienmarkt. Reuters vom 11.11. meldet nach CoreWeave-Ergebnissen eine deutliche AI-Infrastruktur-Erholung. CoreWeave hob die Umsatzprognose an, will auf unbesicherte neue Kredite verzichten und sieht vertragliche Cashflows als Schuldendienstquelle. Bernstein-Analysten um Madison Rezaei würdigen die Finanzierungsaussagen, warnen aber vor Überkapazität. [Reuters, 11.11.](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/). AP meldet CoreWeave +23,9%, Micron +12,8%, Broadcom +5,1% und S&P 500 rund +1,4% im Bericht; Momentaufnahme, keine eigenen Schlusskurse. [AP, 11.11.](https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e).\n\n## Screening und Ideen\nDer [TipRanks-Earnings-Kalender, abgerufen 11.11.](https://www.tipranks.com/calendars/earnings/2026-11-11) listet zahlreiche Unternehmen, aber eine Kalenderlistung allein ist kein geprüftes Screening. Explizit geprüft wurden CRWV (Earnings/Guidance, WATCH LONG), NBIS (Ergebnisse laut Reuters vor Donnerstag, WATCH ohne Fill), IREN (Peer-Rally und offene Referenz, WATCH SHORT-Risiko), PTON (offene Nutzerposition, REVIEW) und NVDA (Sektor-Rebound, WATCH). Keine 50 Dokumente pro Aktie in diesem Lauf geprüft; alle Dossiers vorläufig. Vollständige Konsens-Zeitreihen, zwei aktuelle namentliche Analysten je Aktie, Management-Guidance-Scorecard, zwei originale 13F-Meldungen, Short-Interest und Bid/Ask nicht verifiziert. PRE-EARNINGS, PEAD, Guidance-Revision und Pairs wurden qualitativ erwogen; keine belastbare Surprise-Kombination oder Korrelationsserie für ein handelbares Signal.\n\n## Kandidaten / Gegenargumente\nCRWV LONG-Watch: starke Umsatz- und Finanzierungsbotschaft; dagegen hoher Kapitalbedarf, Zinsen, regulatorische Datacenter-Risiken und mögliche AI-Überkapazität. NBIS WATCH: vor Ergebnis hohes Gap-Risiko; ohne verifizierte Guidance/Konsens keine Richtung. IREN SHORT-Referenz: der Sektor-Rebound widerspricht der Short-These; Short-Squeeze und hohe Volatilität. NVDA LONG-Watch: Chip-Sektor-Erholung, aber unternehmensspezifische Governance- und Bewertungsrisiken. Alle Überzeugungswerte nicht kalibriert; keine QUALIFIED-These.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister (nur Positionsstatus, keine Researchquelle): IREN PAPER OPEN_SIMULATED, ausdrücklich nur historische REFERENZ, SHORT 18,05 USD, 100 EUR ×5; neu geprüfter öffentlicher Nasdaq-Last 21,30 USD um 14:10 EST am 11.11. [MarketMinute, 11.11.](https://www.marketminute.com/quote/NQ:IREN/historical); hypothetische lineare PnL = 500 × (1−21,30/18,05) = −90,03 EUR, ohne FX/Spread/KO/Gebühren, KEIN verifizierter eigener Fill. Quote älter als 5 Minuten; daher kein zeitnaher Mark-to-Market-Eintrag. HFG SHORT USER_REPORTED: zuletzt gespeicherte Xetra-Marke 3,029 EUR vom 09.11., ALT, Turbo-Einstand/ISIN fehlen, PnL nicht berechenbar. PTON SHORT USER_REPORTED: zuletzt gespeicherte Marke 5,82 USD vom 10.11., ALT; [Yahoo-Historie, abgerufen 11.11.](https://finance.yahoo.com/quote/PTON/history/) nennt 5,81 USD für 10.11., aber kein verifizierter neuer Intraday-Print; Turbo-PnL nicht berechenbar. Keine Position geschlossen; Next-Open-Exit nur nach gesondertem nachgewiesenem Open-Print.\n\n## Entscheidung / Kosten\nKEIN TRADE. Keine authentifizierte Paper-Broker-Fillbestätigung, keine zeitnahe post-decision Bid/Ask-Kombination, keine überprüften vollständigen Kosten, keine R:R-Qualifikation. 10.000 EUR hypothetisches Startkapital, kein verifizierter Brokerbestand. 0 neue Fills, keine rückdatierten Entries. TradingView-Widget nicht als Kurs-/PnL-Quelle verwendet."
+    },
+    {
+      "id": "US-20261111T213246Z",
+      "market": "US",
+      "run_at": "2026-11-11T21:32:46Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave hebt Guidance; AI-Aktien erholen sich",
+      "summary": "Nachbörse: CRWV +24,7%, RGTI Umsatzschwäche; keine verifizierten Paper-Fills.",
+      "source_status": "8 unterschiedliche direkt geöffnete Hauptdokumente (davon 6 CRWV-Originale, 1 RGTI-Original, 1 Reuters); keine 50er-Vollständigkeit",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "LONG",
+          "thesis": "Guidance angehoben, hohe AI-Nachfrage",
+          "risk": "Zinslast, Finanzierung und Rally bereits eingepreist",
+          "sources_checked": 6,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "RGTI",
+          "name": "Rigetti Computing",
+          "tv": "NASDAQ:RGTI",
+          "side": "SHORT",
+          "thesis": "Schwacher Quartalsumsatz und operativer Verlust",
+          "risk": "Cashbestand und Short-Squeeze",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "CoreWeave Q3 2026",
+          "publisher": "CoreWeave IR",
+          "published_at": "2026-11-10",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "ticker": "CRWV",
+          "finding": "Umsatz 3,661 Mrd USD; Nettoverlust 709 Mio USD; FY-Umsatzziel 13,0–13,3 Mrd USD"
+        },
+        {
+          "title": "CoreWeave Q3 2025",
+          "publisher": "CoreWeave IR",
+          "published_at": "2025-11-10",
+          "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/",
+          "ticker": "CRWV",
+          "finding": "Umsatz 1,365 Mrd USD; Backlog 55,6 Mrd USD"
+        },
+        {
+          "title": "CoreWeave höhere Preise",
+          "publisher": "CoreWeave IR",
+          "published_at": "2026-09-17",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx",
+          "ticker": "CRWV",
+          "finding": "Kurzfristige Verträge circa 40 Mio USD annualisierter Umsatz je MW"
+        },
+        {
+          "title": "CoreWeave Outlook",
+          "publisher": "CoreWeave IR",
+          "published_at": "2026-11-10",
+          "url": "https://investors.coreweave.com/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf",
+          "ticker": "CRWV",
+          "finding": "FY26 Capex 37–39 Mrd USD, Q4 Zinsaufwand 1,05–1,15 Mrd USD"
+        },
+        {
+          "title": "Nvidia CoreWeave Kooperation",
+          "publisher": "CoreWeave IR",
+          "published_at": "2026-01-26",
+          "url": "https://investors.coreweave.com/news/news-details/2026/NVIDIA-and-CoreWeave-Strengthen-Collaboration-to-Accelerate-Buildout-of-AI-Factories/default.aspx",
+          "ticker": "CRWV",
+          "finding": "Nvidia investierte 2 Mrd USD zu 87,20 USD je Aktie"
+        },
+        {
+          "title": "Rigetti Q3",
+          "publisher": "Rigetti IR",
+          "published_at": "2026-11-10",
+          "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results",
+          "ticker": "RGTI",
+          "finding": "Q3 Umsatz 1,4 Mio USD; operativer Verlust 33,2 Mio USD"
+        },
+        {
+          "title": "US-Marktbericht",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "ticker": null,
+          "finding": "CRWV +24,7%, NBIS +15,4%, APLD +7,4%; S&P +1,31%"
+        },
+        {
+          "title": "US-Indizes",
+          "publisher": "Associated Press",
+          "published_at": "2026-11-11",
+          "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-027cd5f4583d1a11c1795150bf065afb",
+          "ticker": null,
+          "finding": "Nasdaq +1,6%; S&P 7619,38"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH_LONG",
+          "horizon": "1-10 Handelstage",
+          "summary": "Guidance angehoben, hohe AI-Nachfrage",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Umsatz 3,661 Mrd USD; Nettoverlust 709 Mio USD; FY-Umsatzziel 13,0–13,3 Mrd USD",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "Umsatz 1,365 Mrd USD; Backlog 55,6 Mrd USD",
+              "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/",
+              "publisher": "CoreWeave IR",
+              "published_at": "2025-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "Kurzfristige Verträge circa 40 Mio USD annualisierter Umsatz je MW",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-09-17"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY26 Capex 37–39 Mrd USD, Q4 Zinsaufwand 1,05–1,15 Mrd USD",
+              "url": "https://investors.coreweave.com/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "Nvidia investierte 2 Mrd USD zu 87,20 USD je Aktie",
+              "url": "https://investors.coreweave.com/news/news-details/2026/NVIDIA-and-CoreWeave-Strengthen-Collaboration-to-Accelerate-Buildout-of-AI-Factories/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-01-26"
+            }
+          ],
+          "catalysts": "Folgeguidance und Kursreaktion",
+          "invalidations": "Zinslast, Finanzierung und Rally bereits eingepreist"
+        },
+        {
+          "ticker": "RGTI",
+          "name": "Rigetti Computing",
+          "tv": "NASDAQ:RGTI",
+          "stance": "WATCH_SHORT",
+          "horizon": "1-10 Handelstage",
+          "summary": "Schwacher Quartalsumsatz und operativer Verlust",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 1,4 Mio USD; operativer Verlust 33,2 Mio USD",
+              "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results",
+              "publisher": "Rigetti IR",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": "Folgeguidance und Kursreaktion",
+          "invalidations": "Cashbestand und Short-Squeeze"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ",
+        "summary": "18,05 USD kein bestätigter Fill; letzter gespeicherter Kurs alt, PnL nicht aktuell verifizierbar",
+        "base_scenario": "Volatilität",
+        "bull_scenario": "Erholung",
+        "bear_scenario": "Weitere Schwäche",
+        "key_risk": "Unverifizierter Einstieg",
+        "planned_exit": "Kein neuer Exit ohne verifizierten Opening-Print",
+        "as_of": "2026-11-11T21:32:46Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Nachbörsenresearch – 11.11.2026, 16:32 EST\n\n**Entscheidung: KEIN TRADE.** NYSE/Nasdaq handelten am Veterans Day regulär bis 16:00 EST; Anleihemarkt geschlossen. Dieser Lauf findet nach regulärem Schluss statt. Keine nachträglichen oder nachbörslichen Fills. Kein authentifizierter Paper-Broker vorhanden.\n\n## Markt und Screening\nReuters meldet S&P 500 +1,31%, Nasdaq +1,60%, CRWV +24,7%, NBIS +15,4% und APLD +7,4%. Die KI-Infrastruktur-Rally wird von CoreWeaves Ergebnissen getragen; gleichzeitig bleiben Finanzierung, hohe Zinsen und Bewertung Risiken. Geöffneter Earnings-Kalender listet 128 Meldungen am 11.11., aber diese 128 wurden **nicht** einzeln geprüft. Tatsächlich titelbezogen geprüft: CRWV, RGTI, NBIS, APLD, NVDA (NBIS/APLD/NVDA nur Nachrichtentriage, nicht vollständig gescreent). Qualifizierte kostenbereinigte Setups: 0.\n\n## CRWV – vorläufig LONG-WATCH, kein Fill\nQ3-Umsatz 3,661 Mrd USD versus 1,365 Mrd USD im Q3 2025; Q3-2026-GAAP-Nettoverlust 709 Mio USD, Zinsaufwand netto 846 Mio USD. Backlog 132,5 Mrd USD. Neue FY26-Umsatzguidance 13,0–13,3 Mrd USD, Capex 37–39 Mrd USD. Q4-Zinsaufwand erwartet 1,05–1,15 Mrd USD. Bull: Nachfrage, Pricing, Backlog und Kapazitätsausbau. Bear: Schuldendienst, Verwässerung (ATM-Programm bis 35 Mio Aktien), Liefer-/Stromrisiko, +24,7%-Reaktion bereits eingepreist. Invalidation: rückläufiger Backlog oder deutlich höhere Finanzierungskosten. Guidance-Ist-Trefferquote nicht berechnet: periodengleiche Vorhersagebelege fehlen. **6 neue direkt geöffnete Originaldokumente / Ziel 50**, plus 1 Reuters-Markttext; bestehende Dossierdokumente nur nach URL-Deduplizierung.\n\n## RGTI – SHORT-WATCH, kein Fill\nQ3-Umsatz 1,4 Mio USD, operativer Verlust 33,2 Mio USD; 497,1 Mio USD Cash und Anlagen, keine Schulden laut IR. Management erwartet 2026 ca. 20 Mio USD Umsatz, abhängig von Q4-Kundenabnahme. Bull: Liquidität und technische Fidelity-Fortschritte. Bear: Umsatzlücke, stark spekulative Bewertung, unregelmäßige Umsatzerfassung. Nur **1 neu geöffnete Originalquelle /50**, deshalb kein qualifizierter Short.\n\n## Strategievergleich und Datenlücken\nPre-Earnings: für diese Kandidaten nach Veröffentlichung nicht mehr anwendbar. PEAD: EPS- und Umsatz-Konsens vor Meldung nicht für beide bestätigt. Guidance-Revision: CRWV positiv, aber Ist-Vergleich noch offen. Pairs CRWV/NBIS: gemeinsame KI-Infrastruktur-Faktoren, keine 60–252 verifizierten Tageskurse; Korrelation **null**, kein Hedge-Nachweis. Analystenziele, zwei unabhängige aktuelle Analystenvoten pro Titel, institutionelle 13F-Paarvergleiche, Bid/Ask, Borrow, Spread, FX und Roundtrip-Kosten: **nicht verifiziert**. Keine statistisch kalibrierte Wahrscheinlichkeit.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister zu Beginn gelesen: IREN (OPEN_SIMULATED, historischer Referenzkurs 18,05 USD; **kein bestätigter Fill**), HFG und PTON (OPEN_UNVERIFIED; Nutzerprodukte ohne Einstand/ISIN), DEZ bereits CLOSED_REPORTED. IREN letzter gespeicherter Mark vom 10.11.2026 15:44 EST ist ALT, kein neuer zeitgestempelter 11.11.-Quote verifiziert. PTON öffentliche Historie zeigt lediglich 10.11.-Close 5,81 USD; HFG öffentliche Quelle lediglich 10.11. 17:35 CET 2,99 EUR, ebenfalls ALT. Keine dieser Marken wird als aktuell oder neue PnL verbucht. HFG/PTON-Turbo-PnL ohne Produktdetails nicht berechenbar. Keine Position geschlossen. Nächste reguläre Sitzung: 12.11.2026, Opening-Print erst danach prüfbar.\n\n## Quellen (Original-URLs, Datum)\n- [CoreWeave Q3 2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx) — CoreWeave IR, 2026-11-10: Umsatz 3,661 Mrd USD; Nettoverlust 709 Mio USD; FY-Umsatzziel 13,0–13,3 Mrd USD.\n- [CoreWeave Q3 2025](https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/) — CoreWeave IR, 2025-11-10: Umsatz 1,365 Mrd USD; Backlog 55,6 Mrd USD.\n- [CoreWeave höhere Preise](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx) — CoreWeave IR, 2026-09-17: Kurzfristige Verträge circa 40 Mio USD annualisierter Umsatz je MW.\n- [CoreWeave Outlook](https://investors.coreweave.com/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) — CoreWeave IR, 2026-11-10: FY26 Capex 37–39 Mrd USD, Q4 Zinsaufwand 1,05–1,15 Mrd USD.\n- [Nvidia CoreWeave Kooperation](https://investors.coreweave.com/news/news-details/2026/NVIDIA-and-CoreWeave-Strengthen-Collaboration-to-Accelerate-Buildout-of-AI-Factories/default.aspx) — CoreWeave IR, 2026-01-26: Nvidia investierte 2 Mrd USD zu 87,20 USD je Aktie.\n- [Rigetti Q3](https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results) — Rigetti IR, 2026-11-10: Q3 Umsatz 1,4 Mio USD; operativer Verlust 33,2 Mio USD.\n- [US-Marktbericht](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/) — Reuters, 2026-11-11: CRWV +24,7%, NBIS +15,4%, APLD +7,4%; S&P +1,31%.\n- [US-Indizes](https://apnews.com/article/wall-street-stocks-dow-nasdaq-027cd5f4583d1a11c1795150bf065afb) — Associated Press, 2026-11-11: Nasdaq +1,6%; S&P 7619,38.\n- [PTON Historie](https://finance.yahoo.com/quote/PTON/history/) — Yahoo Finance, Abruf 11.11.2026, letzter sichtbarer Tagesdatensatz 10.11.\n- [HFG Xetra](https://www.boursorama.com/cours/1zHFG/) — Boursorama, Abruf 11.11.2026, letzter eindeutig datierter Stand 10.11.\n- [Earnings-Kalender](https://www.tipranks.com/calendars/earnings/2026-11-11) — TipRanks, Abruf 11.11.2026; Listung ist kein Titelscreening.\n\n**Paper-Kapital:** Modellstart 10.000 EUR; Equity nicht brokerverifiziert. Keine neuen Fills, keine Gebühren/PnL erfunden."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-11T20:25:53Z",
-    "method_note": "Nur 4 geöffnete Webdokumente; Kalenderlistung nicht als Screening zählen",
+    "as_of": "2026-11-11T21:32:46Z",
+    "method_note": "Earnings-Kalender listet 128, aber nur CRWV/RGTI vertieft; keine 128 geprüften Ticker behauptet.",
     "coverage": {
-      "universe_checked": 5,
+      "universe_checked": 2,
       "earnings_events": 2,
       "triaged": 5,
       "qualified": 0,
@@ -3131,24 +3317,6 @@
         "as_of": "2026-11-11T15:03:40Z"
       },
       {
-        "ticker": "CRWV",
-        "name": "CoreWeave",
-        "tv": "NASDAQ:CRWV",
-        "market": "US",
-        "sector": "AI infrastructure",
-        "direction": "LONG",
-        "reason": "WATCH; weitere Originalquellen erforderlich",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Earnings/Sektorreaktion",
-        "score": null,
-        "sources": [
-          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
-          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/"
-        ],
-        "as_of": "2026-11-11T18:34:07Z"
-      },
-      {
         "ticker": "CSCO",
         "name": "Cisco Systems",
         "tv": "NASDAQ:CSCO",
@@ -3270,21 +3438,42 @@
         "as_of": "2026-11-11T18:03:07Z"
       },
       {
+        "ticker": "CRWV",
+        "name": "CoreWeave",
+        "tv": "NASDAQ:CRWV",
+        "market": "US",
+        "sector": "AI infrastructure",
+        "direction": "LONG",
+        "reason": "Guidance angehoben, hohe AI-Nachfrage",
+        "stage": "DEEP_DIVE",
+        "earnings_at": "2026-11-10",
+        "event": "Q3 2026 results",
+        "score": null,
+        "sources": [
+          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/",
+          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx",
+          "https://investors.coreweave.com/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf",
+          "https://investors.coreweave.com/news/news-details/2026/NVIDIA-and-CoreWeave-Strengthen-Collaboration-to-Accelerate-Buildout-of-AI-Factories/default.aspx"
+        ],
+        "as_of": "2026-11-11T21:32:46Z"
+      },
+      {
         "ticker": "RGTI",
         "name": "Rigetti Computing",
         "tv": "NASDAQ:RGTI",
         "market": "US",
         "sector": "Quantum computing",
         "direction": "SHORT",
-        "reason": "WATCH; weitere Originalquellen erforderlich",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Earnings/Sektorreaktion",
+        "reason": "Schwacher Quartalsumsatz und operativer Verlust",
+        "stage": "DEEP_DIVE",
+        "earnings_at": "2026-11-10",
+        "event": "Q3 2026 results",
         "score": null,
         "sources": [
-          "https://www.investors.com/news/technology/quantum-computing-stocks-rigetti-earnings-sales-miss-rgti/"
+          "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results"
         ],
-        "as_of": "2026-11-11T18:34:07Z"
+        "as_of": "2026-11-11T21:32:46Z"
       }
     ],
     "pairs": [],
@@ -3428,6 +3617,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261111T202553Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 2,
+        "earnings_events": 2,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T213246Z"
       }
     ],
     "strategies": []
@@ -3513,10 +3712,10 @@
       "ticker": "CRWV",
       "name": "CoreWeave",
       "tv": "NASDAQ:CRWV",
-      "as_of": "2026-11-11T20:25:53Z",
-      "status": "VORLÄUFIG",
-      "stance": "WATCH",
-      "summary": "Q3 rapid growth, financing risk | 11.11.: Guidance und Finanzierungsargumente nach Earnings",
+      "as_of": "2026-11-11T21:32:46Z",
+      "status": "PRELIMINARY",
+      "stance": "LONG",
+      "summary": "Guidance angehoben, hohe AI-Nachfrage; Zinslast, Finanzierung und Rally bereits eingepreist",
       "source_goal": 50,
       "source_documents": [
         {
@@ -3588,6 +3787,46 @@
           "finding": "Q3 call scheduled Nov 10 17:00 ET",
           "checked_on": "2026-11-11T19:29:00Z",
           "doc_type": "IR notice"
+        },
+        {
+          "id": "CRWV-2025-11-10-7",
+          "title": "CoreWeave Q3 2025",
+          "publisher": "CoreWeave IR",
+          "published_at": "2025-11-10",
+          "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/",
+          "finding": "Umsatz 1,365 Mrd USD; Backlog 55,6 Mrd USD",
+          "checked_on": "2026-11-11T21:32:46Z",
+          "doc_type": "IR"
+        },
+        {
+          "id": "CRWV-2026-09-17-8",
+          "title": "CoreWeave höhere Preise",
+          "publisher": "CoreWeave IR",
+          "published_at": "2026-09-17",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx",
+          "finding": "Kurzfristige Verträge circa 40 Mio USD annualisierter Umsatz je MW",
+          "checked_on": "2026-11-11T21:32:46Z",
+          "doc_type": "IR"
+        },
+        {
+          "id": "CRWV-2026-11-10-9",
+          "title": "CoreWeave Outlook",
+          "publisher": "CoreWeave IR",
+          "published_at": "2026-11-10",
+          "url": "https://investors.coreweave.com/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf",
+          "finding": "FY26 Capex 37–39 Mrd USD, Q4 Zinsaufwand 1,05–1,15 Mrd USD",
+          "checked_on": "2026-11-11T21:32:46Z",
+          "doc_type": "Presentation"
+        },
+        {
+          "id": "CRWV-2026-01-26-10",
+          "title": "Nvidia CoreWeave Kooperation",
+          "publisher": "CoreWeave IR",
+          "published_at": "2026-01-26",
+          "url": "https://investors.coreweave.com/news/news-details/2026/NVIDIA-and-CoreWeave-Strengthen-Collaboration-to-Accelerate-Buildout-of-AI-Factories/default.aspx",
+          "finding": "Nvidia investierte 2 Mrd USD zu 87,20 USD je Aktie",
+          "checked_on": "2026-11-11T21:32:46Z",
+          "doc_type": "IR"
         }
       ],
       "financial_history": [],
@@ -3595,11 +3834,11 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "Original-SEC-Dokumente, 13F-Vergleiche, historisches Guidance-Scoring, Quotes/Spreads fehlen",
-        "Current bid/ask and analyst consensus not verified",
-        "Aktuelle Bid/Ask und datierte Analystenkonsenswerte nicht verifiziert"
+        "Analystenkonsens",
+        "Aktuelle Bid/Ask und Handelskosten",
+        "Periodengleiche Guidance-Ist-Scorecard"
       ],
-      "method_note": "Only opened distinct documents counted; no assumed 13F holdings.",
+      "method_note": "Nur inhaltlich geöffnete deduplizierte Originaldokumente",
       "analyst_coverage": []
     },
     "IREN": {
@@ -3779,6 +4018,39 @@
         "Current bid/ask and analyst consensus not verified"
       ],
       "method_note": "Only opened distinct documents counted; no assumed 13F holdings."
+    },
+    "RGTI": {
+      "ticker": "RGTI",
+      "name": "Rigetti Computing",
+      "tv": "NASDAQ:RGTI",
+      "as_of": "2026-11-11T21:32:46Z",
+      "status": "PRELIMINARY",
+      "stance": "SHORT",
+      "summary": "Schwacher Quartalsumsatz und operativer Verlust; Cashbestand und Short-Squeeze",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "RGTI-2026-11-10-0",
+          "title": "Rigetti Q3",
+          "publisher": "Rigetti IR",
+          "published_at": "2026-11-10",
+          "url": "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results",
+          "finding": "Q3 Umsatz 1,4 Mio USD; operativer Verlust 33,2 Mio USD",
+          "checked_on": "2026-11-11T21:32:46Z",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "13F-Vergleich nicht verifiziert",
+      "key_unknowns": [
+        "Analystenkonsens",
+        "Aktuelle Bid/Ask und Handelskosten",
+        "Periodengleiche Guidance-Ist-Scorecard"
+      ],
+      "method_note": "Nur inhaltlich geöffnete deduplizierte Originaldokumente",
+      "analyst_coverage": []
     }
   }
 }
