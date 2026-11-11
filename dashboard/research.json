@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "updated_at": "2026-11-11T13:04:50Z",
+  "version": 4,
+  "updated_at": "2026-11-11T13:25:15Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -615,15 +615,245 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research 11.11.2026, 14:04 CET\n\n**Entscheidung: KEIN TRADE.** Xetra regulär geöffnet; 14-Uhr-Slot dient Research, kein Paper-Broker-Fill. Das 10.000-EUR-Paperbudget ist Modellkapital, keine Broker-Einzahlung. GitHub-Positionsregister zeigt IREN als historische, nicht ausgeführte Referenzsimulation sowie HFG/PTON als Nutzerberichte ohne belegte Produkt-Einstiege. Für diese drei Positionen wurde kein neuer, ausreichend zeitgestempelter aktueller Marktquote nachgewiesen; PnL deshalb nicht berechenbar bzw. bei IREN nicht als realisierte oder ausgeführte Performance ausweisbar. Keine Positionsänderung.\n\n## Earnings-Triage\nÖffentlicher Tageskalender nennt Siemens Energy, RWE, E.ON, Brenntag, Bilfinger, Grand City Properties, Swiss Life, ABN Amro, Vestas, Voestalpine, KWS Saat, SFC Energy, Einhell und weitere. Dies ist eine DISCOVERED-Liste, kein vollständig geprüfter Liquiditäts-/Spread-Screen. Individuell anhand konkreter Veröffentlichungen betrachtet: ENR, RWE, EOAN, BNR. Keine Aktie QUALIFIED, da aktuelle handelbare Bid/Ask-Quotes, Netto-Kosten, Bewertungs- und Analystenkonsensabgleich fehlen.\n\n## Priorität 1 Siemens Energy (ENR) – WATCH, leicht positiv fundamental, kein Entry\n[IR-Jahresmeldung vom 11.11.2026](https://www.siemens-energy.com/de/de/home/press-releases/siemens-energy-reports-record-year-and-sets-ambitious-targets-fo.html): Umsatz 44,2 Mrd EUR (+15,5% vergleichbar), Ergebnismarge vor Sondereffekten 12,4%, FCF vor Steuern 8,8 Mrd EUR, Auftragsbestand 164 Mrd EUR. [Q4-Meldung vom 11.11.2026](https://www.siemens-energy.com/de/de/home/press-releases/earnings-release-q4-fy-2026--siemens-energy-reports-a-record-yea.html): Q4-Umsatz 12,8 Mrd EUR, Q4-Gewinn nach Steuern 1,36 Mrd EUR; 2027-Ziele 14–16% Umsatzwachstum und 14–16% Ergebnismarge vor Sondereffekten. Bis 2030 20–22% Margenziel. Bull: Netz- und Turbinennachfrage, Gamesa-Break-even. Bear: hohe Erwartungen, Projekt- und Ausführungsrisiken, mögliche Vorwegnahme im Kurs. Kein sauberer historischer periodengleicher Forecast-Ist-Paarvergleich durchgeführt; keine Trefferquote. Zwei aktuelle individuelle Analystenstudien nicht gefunden.\n\n## Priorität 2 RWE – WATCH, leicht positiv fundamental\n[RWE IR vom 11.11.2026](https://www.rwe.com/en/press/rwe-ag/2026-11-11-rwe-delivers-an-excellent-earnings-performance-in-the-first-three-quarters/): 9M adjusted EBITDA 4,6 Mrd EUR (Vorjahr 3,4), adjusted EPS 2,52 EUR (Vorjahr 1,77); EBITDA-Guidance 2026 5,75–6,35 Mrd EUR, Management erwartet oberes Ende. Nettoinvestitionen 10,7 Mrd EUR, Nettoschulden zum 30.09. 17,0 Mrd EUR. Bull: bessere Windbedingungen, zusätzliche Kapazität. Bear: Verschuldung, Kapitalbedarf und Wetterabhängigkeit. Aktueller Spread und Analystenziele nicht verifiziert.\n\n## Weitere Kandidaten\nE.ON: [Reuters 11.11.2026](https://www.reuters.com/business/energy/eon-meets-nine-month-forecasts-grid-investment-ramps-up-2026-11-11/) meldet 9M-Ergebnis im Rahmen der Prognosen und steigende Netzinvestitionen. Neutral; Netzausbau versus Regulierung/Kapitalbedarf. Brenntag: [IR-Publikationsübersicht, abgerufen 11.11.2026](https://corporate.brenntag.com/de/investor-relations/veroeffentlichungen-and-events/finanzpublikationen/) weist Q3-Unterlagen aus; Zahlen noch nicht separat validiert, daher WATCH ohne Richtung. [Tagesvorschau dpa-AFX vom 11.11.2026](https://www.onvista.de/news/2026/11-11-tagesvorschau-termine-am-11-november-2026-0-10-26574860) belegt weitere Events, nicht deren Ergebnisse.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN: SHORT-Referenzbasis 18,05 USD, **kein verifizierter Fill**; letzte gespeicherte Marke vom 10.11.2026, nicht als aktuelle Quote verifiziert; neue PnL nicht ausgewiesen. HFG: USER_REPORTED Short-Turbo, ISIN/Einstand/KO fehlen, PnL nicht berechenbar. PTON: USER_REPORTED Short-Turbo, ISIN/Einstand/KO fehlen, PnL nicht berechenbar. DEZ: bereits CLOSED_REPORTED, nicht neu geschlossen. Kein Exit fingiert. Für einen Opening-Exit müsste die Order vor Eröffnung festgelegt sein; der tatsächliche Opening-Print ist erst danach bekannt.\n\n## Methodik und Lücken\nSechs unterschiedliche Quellen-Einträge inhaltlich betrachtet, davon vier Unternehmen/IR- oder Medienquellen und eine Tagesvorschau; Siemens Energy zwei eigenständige IR-Mitteilungen zum gleichen Event, nicht zwei unabhängige Publisher. Keine 50-Quellen-Dossiers, keine verifizierten Fondsbestandsvergleiche, keine namentlich belegten aktuellen Analystenrevisionen, keine PEAD-Bestätigung durch EPS- und Umsatzsurprise, keine berechnete Pair-Korrelation, keine verlässlichen zeitnahen Bid/Ask-Quotes. Strategien PRE-EARNINGS, PEAD, Guidance-Revision und Pairs sind ohne diese Nachweise nicht ausführungsreif. Keine Paper-Orders."
+    },
+    {
+      "id": "US-20261111T132515Z",
+      "market": "US",
+      "run_at": "2026-11-11T13:25:15Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave-Ausblick stützt AI-Infrastruktur; Veterans Day regulärer Aktienhandel",
+      "summary": "Vorbörsenresearch; vier vorläufige WATCH-Titel, kein Fill und keine verifizierte neue Mark-to-Market-Quote.",
+      "source_status": "4 eigenständige öffentliche Seiten geöffnet; keine SEC-/IR-Originaldossiers; alle Dossiers vorläufig <50",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "LONG",
+          "thesis": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
+          "risk": "Verschuldung und Kapazitätszyklus",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "side": "REVIEW",
+          "thesis": "Peer-Rally nach CRWV",
+          "risk": "Historische Short-Referenz, Short-Squeeze",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "side": "REVIEW",
+          "thesis": "AI-Sektor-Erholung",
+          "risk": "Governance-Untersuchung",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "side": "REVIEW",
+          "thesis": "Peer-Rally und bevorstehender Bericht",
+          "risk": "Bewertung und Ergebnisrisiko",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "CoreWeave earnings lift AI infrastructure peers",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11T12:12:00Z",
+          "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "ticker": "CRWV",
+          "finding": "CoreWeave hebt Jahresumsatzprognose an; Finanzierungssorgen bleiben trotz verbessertem Schuldenplan."
+        },
+        {
+          "title": "US futures climb and Nvidia stabilizes",
+          "publisher": "Associated Press",
+          "published_at": "2026-11-11",
+          "url": "https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e",
+          "ticker": "NVDA",
+          "finding": "Nasdaq-Futures im Vorbörsenbericht +1,9%; Nvidia Governance-Untersuchung belastet."
+        },
+        {
+          "title": "Earnings Calendar November 11",
+          "publisher": "TipRanks",
+          "published_at": null,
+          "url": "https://www.tipranks.com/calendars/earnings/2026-11-11",
+          "ticker": null,
+          "finding": "Kalender nennt 126 Einträge; bloße Listung zählt nicht als überprüftes Screening."
+        },
+        {
+          "title": "Veterans Day stock exchange schedule",
+          "publisher": "StockTitan",
+          "published_at": "2026-11-10T14:27:00-05:00",
+          "url": "https://www.stocktitan.net/articles/stock-market-open-veterans-day-2026",
+          "ticker": null,
+          "finding": "NYSE/Nasdaq regulär geöffnet, Anleihemarkt geschlossen."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11T12:12:00Z"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Verschuldung und Kapazitätszyklus",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings und 09:30 Opening"
+          ],
+          "invalidations": [
+            "Gegenläufige Guidance und bestätigte Kursreaktion"
+          ]
+        },
+        {
+          "ticker": "IREN",
+          "name": "IREN Limited",
+          "tv": "NASDAQ:IREN",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Peer-Rally nach CRWV",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Peer-Rally nach CRWV",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11T12:12:00Z"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Historische Short-Referenz, Short-Squeeze",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings und 09:30 Opening"
+          ],
+          "invalidations": [
+            "Gegenläufige Guidance und bestätigte Kursreaktion"
+          ]
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "AI-Sektor-Erholung",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "AI-Sektor-Erholung",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11T12:12:00Z"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Governance-Untersuchung",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings und 09:30 Opening"
+          ],
+          "invalidations": [
+            "Gegenläufige Guidance und bestätigte Kursreaktion"
+          ]
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "stance": "REVIEW",
+          "horizon": "1–10 Handelstage",
+          "summary": "Peer-Rally und bevorstehender Bericht",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Peer-Rally und bevorstehender Bericht",
+              "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11T12:12:00Z"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Bewertung und Ergebnisrisiko",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings und 09:30 Opening"
+          ],
+          "invalidations": [
+            "Gegenläufige Guidance und bestätigte Kursreaktion"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "SHORT_REFERENZ",
+        "summary": "Nur historischer hypothetischer Referenzeinstieg, kein bestätigter Fill.",
+        "base_scenario": "Keine verlässliche Prognose vor Opening",
+        "bull_scenario": "AI-Peer-Rally belastet Short",
+        "bear_scenario": "Finanzierungsrisiko belastet Aktie",
+        "key_risk": "Gap und Short-Squeeze",
+        "planned_exit": "Erst nach verifiziertem Open-Print separat bewerten",
+        "as_of": "2026-11-11T13:25:15Z",
+        "mark_price": 19.61,
+        "mark_at": "2026-11-10T15:44:00-05:00",
+        "mark_source_url": "https://www.financialcontent.com/quote/NQ:IREN/historical",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Vorbörsenresearch – 11.11.2026, 08:25 EST\n\n## Markt- und Earnings-Lage\nVeterans Day: NYSE und Nasdaq sind 09:30–16:00 EST regulär geöffnet, US-Anleihemarkt geschlossen ([StockTitan, 10.11.2026](https://www.stocktitan.net/articles/stock-market-open-veterans-day-2026)). [AP, 11.11.2026](https://apnews.com/article/stock-markets-ai-earnings-oil-297d040c83844a9563327340b370c24e) meldet Nasdaq-Futures +1,9%, S&P-Futures +0,9% im veröffentlichten Vorbörsen-Snapshot, keine tickgenaue aktuelle Quote. [Reuters, 11.11.2026, 12:12 UTC](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/) beschreibt CoreWeaves angehobene Umsatzprognose, verbesserte Finanzierungsstrategie und positive Reaktion von IREN/NBIS/NVDA. Das AI-Kapazitäts- und Verschuldungsrisiko bleibt wesentlich.\n\n## Screening und Kandidaten\n[TipRanks Earnings-Kalender, Abruf 11.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-11) enthält 126 Einträge für heute; das sind DISCOVERED, nicht 126 geprüfte Aktien. Individuell thematisch geprüft: CRWV (WATCH, potenziell LONG nach Bestätigung), IREN (WATCH, Short-Referenz unter Peer-Rally-Druck), NVDA (WATCH, Governance-Risiko versus KI-Nachfrage), NBIS (WATCH, anstehende Zahlen). Die Berichte und Kalendereinträge ersetzen keine SEC-/IR-Originalprüfung. Für alle vier: Analystenziele, zwei unabhängig belegte Analystenvoten, zeitnahe Bid/Ask, Short-Interest, 13F-Vergleiche und historische Guidance-Ist-Paare **nicht verifiziert**. Keine QUALIFIED-Trades. Zusätzliche Kandidaten sind noch nicht geprüft.\n\n## Dossiers / Quellenfortschritt\nCRWV: 1 tatsächlich geöffneter spezifischer Reuters-Text /50, vorläufig. IREN: 1 gemeinsam relevanter Reuters-Text /50, vorläufig. NVDA: 2 geöffnete Texte (Reuters und AP) /50, vorläufig. NBIS: 1 Reuters-Text /50, vorläufig. Die Kalenderseite ist ein gesonderter Discovery-Beleg und zählt nicht als tiefes Unternehmensdokument. Keine neue verifizierte SEC-Originalquelle, kein verlässlicher Guidance-Score, keine 13F-Vergleichsreihe. PEAD erfordert bestätigte EPS- und Umsatzsurprises; Pair-Trading erfordert Kursreihen/Korrelation, hier nicht vorhanden.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister gelesen (ausschließlich Bestandsverwaltung): IREN SHORT, 18,05 USD historischer **Referenzeinstieg, kein Fill**, letzter gespeicherter Mark 19,61 USD vom 10.11.2026 15:44 EST; **ALT**, keine neue zeitnahe Quote belegt. Alte Referenzmodell-PnL −43,21 EUR ohne Gebühren/FX/KO, **nicht aktuelle PnL**. HFG SHORT Nutzer-Turbo: gespeicherter Aktienmark 3,029 EUR vom 09.11.2026 17:35 CET, ALT, Produkt-PnL mangels ISIN/Einstand nicht berechenbar. PTON SHORT Nutzer-Turbo: gespeicherter Aktienmark 5,82 USD vom 10.11.2026 16:00 EST, ALT; Produkt-PnL nicht berechenbar. Keine Position geschlossen; kein belegter neuer Open-Print. IREN-Referenz-Exitdatum im Register ist verstrichen, nicht als ausgeführt behandeln.\n\n## Handelsentscheidung und Risiko\n**KEIN TRADE**: 08:25 EST ist vor dem regulären Markt und außerhalb des 15:30-Entscheidungsfensters. 10.000 EUR virtuelles Startkapital laut Paper-Konfiguration, kein Broker verbunden, keine authentifizierten Fills. Keine neuen Positionen, keine aktuelle PnL. Kosten/Spread/Borrow und R:R nicht überprüfbar. Positives Szenario: CoreWeave-Ausblick unterstützt Infrastrukturwerte; negatives: Verschuldung, regulatorische Hürden und NVDA-Governance-Druck. Beobachtung zur nächsten Eröffnung; keine prognostizierte sichere Kursrichtung."
     }
   ],
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-11T13:04:50Z",
-    "method_note": "Einzelbelege für ENR/RWE/EOAN/BNR, übrige Tageskalendernamen DISCOVERED, nicht als geprüft gezählt",
+    "status": "PREMARKET_PARTIAL",
+    "as_of": "2026-11-11T13:25:15Z",
+    "method_note": "4 einzeln thematisch geprüfte Titel aus Reuters/AP; Kalenderliste nicht als geprüft gezählt; keine qualifizierten Trades.",
     "coverage": {
       "universe_checked": 4,
-      "earnings_events": 4,
+      "earnings_events": 1,
       "triaged": 4,
       "qualified": 0,
       "trade_signals": 0
@@ -714,6 +944,74 @@
           "https://corporate.brenntag.com/de/investor-relations/veroeffentlichungen-and-events/finanzpublikationen/"
         ],
         "as_of": "2026-11-11T13:04:50Z"
+      },
+      {
+        "ticker": "CRWV",
+        "name": "CoreWeave",
+        "tv": "NASDAQ:CRWV",
+        "market": "US",
+        "sector": "Technology",
+        "direction": "LONG",
+        "reason": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "AI infrastructure sector event",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T13:25:15Z"
+      },
+      {
+        "ticker": "IREN",
+        "name": "IREN Limited",
+        "tv": "NASDAQ:IREN",
+        "market": "US",
+        "sector": "Technology",
+        "direction": "REVIEW",
+        "reason": "Peer-Rally nach CRWV",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "AI infrastructure sector event",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T13:25:15Z"
+      },
+      {
+        "ticker": "NVDA",
+        "name": "Nvidia",
+        "tv": "NASDAQ:NVDA",
+        "market": "US",
+        "sector": "Technology",
+        "direction": "REVIEW",
+        "reason": "AI-Sektor-Erholung",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "AI infrastructure sector event",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T13:25:15Z"
+      },
+      {
+        "ticker": "NBIS",
+        "name": "Nebius",
+        "tv": "NASDAQ:NBIS",
+        "market": "US",
+        "sector": "Technology",
+        "direction": "REVIEW",
+        "reason": "Peer-Rally und bevorstehender Bericht",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "AI infrastructure sector event",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/"
+        ],
+        "as_of": "2026-11-11T13:25:15Z"
       }
     ],
     "pairs": [],
@@ -747,6 +1045,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261111T130450Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 4,
+        "earnings_events": 1,
+        "triaged": 4,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T132515Z"
       }
     ],
     "strategies": []
@@ -827,6 +1135,102 @@
       ],
       "method_note": "Nur tatsächlich geöffnete Quellen gezählt",
       "analyst_coverage": "Nicht verifiziert"
+    },
+    "CRWV": {
+      "ticker": "CRWV",
+      "name": "CoreWeave",
+      "tv": "NASDAQ:CRWV",
+      "as_of": "2026-11-11T13:25:15Z",
+      "status": "PRELIMINARY",
+      "stance": "LONG",
+      "summary": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "REUTERS-20261111-CRWV",
+          "title": "CoreWeave earnings lift AI infrastructure peers",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11T12:12:00Z",
+          "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "finding": "Erhöhte Umsatzprognose und Refinanzierungsansatz",
+          "checked_on": "2026-11-11T13:25:15Z",
+          "doc_type": "news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "13F-Paarvergleich nicht verifiziert",
+      "key_unknowns": [
+        "Verschuldung und Kapazitätszyklus",
+        "Aktuelle Bid/Ask, SEC-Originale, Konsens und Kosten"
+      ],
+      "method_note": "Nur inhaltlich geöffnete einzigartige Dokumente zählen.",
+      "analyst_coverage": []
+    },
+    "IREN": {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "tv": "NASDAQ:IREN",
+      "as_of": "2026-11-11T13:25:15Z",
+      "status": "PRELIMINARY",
+      "stance": "REVIEW",
+      "summary": "Peer-Rally nach CRWV",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "REUTERS-20261111-CRWV",
+          "title": "CoreWeave earnings lift AI infrastructure peers",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11T12:12:00Z",
+          "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "finding": "Peer-Rally nach CRWV",
+          "checked_on": "2026-11-11T13:25:15Z",
+          "doc_type": "news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "13F-Paarvergleich nicht verifiziert",
+      "key_unknowns": [
+        "Historische Short-Referenz, Short-Squeeze",
+        "Aktuelle Bid/Ask, SEC-Originale, Konsens und Kosten"
+      ],
+      "method_note": "Nur inhaltlich geöffnete einzigartige Dokumente zählen.",
+      "analyst_coverage": []
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "name": "Nvidia",
+      "tv": "NASDAQ:NVDA",
+      "as_of": "2026-11-11T13:25:15Z",
+      "status": "PRELIMINARY",
+      "stance": "REVIEW",
+      "summary": "AI-Sektor-Erholung",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "REUTERS-20261111-CRWV",
+          "title": "CoreWeave earnings lift AI infrastructure peers",
+          "publisher": "Reuters",
+          "published_at": "2026-11-11T12:12:00Z",
+          "url": "https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/",
+          "finding": "AI-Sektor-Erholung",
+          "checked_on": "2026-11-11T13:25:15Z",
+          "doc_type": "news"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "13F-Paarvergleich nicht verifiziert",
+      "key_unknowns": [
+        "Governance-Untersuchung",
+        "Aktuelle Bid/Ask, SEC-Originale, Konsens und Kosten"
+      ],
+      "method_note": "Nur inhaltlich geöffnete einzigartige Dokumente zählen.",
+      "analyst_coverage": []
     }
   }
 }
