@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "updated_at": "2026-11-11T18:34:07Z",
+  "version": 16,
+  "updated_at": "2026-11-11T19:29:00Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -2639,12 +2639,173 @@
         "reference_only": true
       },
       "report_markdown": "# US Research — 11. November 2026, 13:34 EST\n\n## Markt und Ereignisse\nNYSE/Nasdaq handeln am Veterans Day regulär, während der US-Anleihemarkt geschlossen ist ([Kiplinger, Kalender](https://www.kiplinger.com/investing/stocks/is-the-stock-market-open-on-veterans-day), abgerufen 11.11.2026). Reuters meldete um 11:44 EST S&P 500 +1,25%, Nasdaq +1,85% und CRWV +25,3%; diese Zahlen sind **keine** Kurse von 13:34 ([Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/)).\n\n## Screening und Kandidaten\nDer [TipRanks-Earnings-Kalender vom 11.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-11) listet zahlreiche Titel; eine bloße Listung ist keine individuelle Prüfung. Inhaltlich triagiert: CRWV, IREN, NBIS, RGTI. Keine nachgewiesene Spread-/Borrow-/IV-Validierung und daher keine QUALIFIED-Entries.\n\n**CRWV – WATCH, keine neue Long-Order:** Reuters berichtet über angehobene Umsatzprognose und Verzicht auf weitere unbesicherte Schuldenaufnahme; Bernstein (Madison Rezaei) sieht solide Quartalsdaten, warnt aber vor Kapazitätsüberschuss ([Reuters, 11.11.2026](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/)). Nach einer von Reuters um 11:44 EST gemeldeten Bewegung von +25,3% ist Chasing besonders riskant. Historische Guidance-Ist-Paare und zwei unabhängige Analystenberichte: nicht verifiziert.\n\n**IREN – WATCH, neutral bis vorsichtig:** Q-Umsatz 228 Mio USD gegenüber LSEG-Konsens 221,28 Mio USD, aber Verschiebung des >4-Mrd-USD-ARR-Ziels auf Januar, eventuell Februar, und etwa 15 Mrd USD weitere Investitionen ([Reuters, 05./06.11.2026](https://www.reuters.com/technology/neocloud-firm-iren-tops-quarterly-revenue-estimates-shares-jump-2026-11-05/)). Gegenargument zur Short-These: starkes Cloudwachstum und positive Sektorreaktion auf CRWV. Nicht mit einem nachgewiesenen eigenen IREN-Fill verwechseln.\n\n**NBIS – WATCH, ereignisgetrieben:** Reuters nennt Earnings vor Donnerstagseröffnung und positive Branchenreaktion; eigener Ergebnisbericht, aktueller Konsens und Quote fehlen ([Reuters, 11.11.2026](https://www.reuters.com/world/china/coreweave-sparks-ai-cloud-stock-rally-lifts-nvidia-results-ease-bubble-fears-2026-11-11/)).\n\n**RGTI – WATCH/SHORT-Hypothese:** Umsatz-/Ergebnisenttäuschung, aber starke Nasdaq-Gegenbewegung; vollständiger Originalbericht und Borrow-Kosten nicht geprüft ([Investor's Business Daily, 11.11.2026](https://www.investors.com/news/technology/quantum-computing-stocks-rigetti-earnings-sales-miss-rgti/)).\n\n## Methoden, Forschungsstand und Lücken\nIm aktuellen Lauf wurden 6 eigenständige Webseiten tatsächlich geöffnet, darunter vier Research-/Markttexte, ein Earnings-Kalender und ein Handelskalender. Kandidatenbezogen CRWV 2/50, IREN 1/50, NBIS 1/50 (gemeinsamer Reuters-Text), RGTI 1/50 (nur öffentlich sichtbarer Teil); alle vorläufig. SEC-Originalfilings, periodengleiche Guidance-Scorecards, 13F-Vergleiche, namentlich zwei Analystenvoten je Titel, 60–252 Tageskurse für Pairs und belastbare Kosten/Spreads: nicht verifiziert. PRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS bleiben Hypothesen ohne quantifizierten Netto-Edge.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister: IREN PAPER-Referenz OPEN_SIMULATED (18,05 USD ausdrücklich nur hypothetischer Basispreis, **kein nachgewiesener Fill**); HFG und PTON als OPEN_UNVERIFIED Nutzerturbos. Kein aktueller zeitgestempelter Bid/Ask-/Last-Kurs für diese drei im Lauf nachgewiesen, daher PnL **nicht berechenbar** und keine neue Marke gespeichert. DEZ ist CLOSED_REPORTED und wurde nicht verändert. IREN-Referenz wird nicht als echter Papergewinn/-verlust ausgewiesen. Geplanter Ausstieg nur nach künftig überprüftem Kurs/Opening-Print, keine rückwirkende Buchung.\n\n## Entscheidung und Paper-Risiko\n**KEIN TRADE** um 13:34 EST (kein 15:30-Entscheidungsslot). Kein authentifizierter Paper-Broker, keine belegten ausführbaren Quotes/Spreads. Konfiguration: 10.000 EUR hypothetisches Startkapital, 5× nominal, variable Margin; kein tatsächlicher Kontostand. Keine neuen Fills, keine Änderung an positions.json. TradingView-Widgetwerte sind kein verifizierter PnL-Feed."
+    },
+    {
+      "id": "US-20261111T192900Z",
+      "market": "US",
+      "run_at": "2026-11-11T19:29:00Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave Q3 Umsatz 3,661 Mrd. USD; AI-Rebound, aber kein qualifizierter Entry",
+      "summary": "14:29 EST: CRWV/NBIS AI-Infrastruktur-Rebound; CTVA Earnings nach Börsenschluss. Keine Broker-Paper-Fills und keine verifizierten ausführbaren Spreads.",
+      "source_status": "4 eigenständige Dokumente in diesem Lauf inhaltlich geöffnet/überprüft; 50er-Ziel nicht erreicht. Quotes zeitlich begrenzt, nicht live.",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH",
+          "thesis": "Starkes Q3-Wachstum, hohe Kundenanzahlungen",
+          "risk": "Zinsaufwand, Bewertung, Rally bereits eingepreist",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "side": "WATCH",
+          "thesis": "Sektorsympathie",
+          "risk": "Eigene Zahlen nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CTVA",
+          "name": "Corteva",
+          "tv": "NYSE:CTVA",
+          "side": "WATCH",
+          "thesis": "Q3 nach Börsenschluss",
+          "risk": "Überraschung unbekannt",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "CoreWeave Reports Strong Third Quarter 2026 Results",
+          "published_at": "2026-11-10",
+          "ticker": "CRWV",
+          "publisher": "CoreWeave Investor Relations",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "finding": "Q3 revenue $3.661bn, operating income $207m, net interest expense $846m, net loss $709m, backlog $132.5bn"
+        },
+        {
+          "title": "CoreWeave Q3 2026 earnings call announcement",
+          "published_at": "2026-10-27",
+          "ticker": "CRWV",
+          "publisher": "CoreWeave Investor Relations",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+          "finding": "Q3 call scheduled Nov 10 17:00 ET"
+        },
+        {
+          "title": "S&P 500, Nasdaq rise over 1% as CoreWeave results calm AI spending jitters",
+          "published_at": "2026-11-11",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "finding": "11:44 ET CRWV +25.3%, NBIS +17.4%, APLD +8.6%; rate risk"
+        },
+        {
+          "title": "Corteva news releases",
+          "published_at": "2026-10-06",
+          "ticker": "CTVA",
+          "publisher": "Corteva Investor Relations",
+          "url": "https://investors.corteva.com/news-events/news-releases",
+          "finding": "Corteva Q3 earnings scheduled Nov 11 after market close"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Umsatzwachstum stark, Finanzierung und Bewertung kritisch",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue $3.661bn, operating income $207m, net interest expense $846m, net loss $709m, backlog $132.5bn",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "CoreWeave Investor Relations",
+              "published_at": "2026-11-10"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q3 call scheduled Nov 10 17:00 ET",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+              "publisher": "CoreWeave Investor Relations",
+              "published_at": "2026-10-27"
+            },
+            {
+              "type": "FAKT",
+              "text": "11:44 ET CRWV +25.3%, NBIS +17.4%, APLD +8.6%; rate risk",
+              "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [
+            "Q3-Verarbeitung",
+            "Finanzierungsdetails"
+          ],
+          "invalidations": [
+            "Rücknahme der Wachstumsprognose",
+            "Finanzierungskosten höher als erwartet"
+          ]
+        },
+        {
+          "ticker": "CTVA",
+          "name": "Corteva",
+          "tv": "NYSE:CTVA",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Earnings nach Börsenschluss",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Corteva Q3 earnings scheduled Nov 11 after market close",
+              "url": "https://investors.corteva.com/news-events/news-releases",
+              "publisher": "Corteva Investor Relations",
+              "published_at": "2026-10-06"
+            }
+          ],
+          "catalysts": [
+            "Q3-Earnings"
+          ],
+          "invalidations": [
+            "Guidance-Enttäuschung"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_SHORT",
+        "summary": "Nicht belegter historischer Fill; nur hypothetische PnL",
+        "base_scenario": "Volatilität und Sektorrisiko",
+        "bull_scenario": "IREN-Kurs sinkt",
+        "bear_scenario": "AI-Rally hebt IREN weiter",
+        "key_risk": "Unbegrenztes Short-Gap-Risiko",
+        "planned_exit": "Kein rückdatierter Exit; separater verifizierter Opening-Check erforderlich",
+        "as_of": "2026-11-11T19:29:00Z",
+        "mark_price": 21.17,
+        "mark_at": "2026-11-11T12:33:50-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": -86.43,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 11.11.2026, 14:29 EST\n\n## Markt- und Earnings-Lage\nNYSE/Nasdaq regulär geöffnet am Veterans Day, 09:30–16:00 EST; US-Anleihemarkt geschlossen. Reuters meldete um 11:44 EST S&P 500 +1,25%, Nasdaq Composite +1,85%, VIX 17,7. Das sind historische Intraday-Snapshots, keine 14:29-Quotes. [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n## Screening und Watchlist\nQualitativ geprüft: CRWV, NBIS, CTVA, IREN und PTON als Event-/Positionskandidaten; nicht alle Liquiditäts-, Bewertungs- und Spread-Kriterien vollständig verifiziert, deshalb keine QUALIFIED-Einstufung. Weitere Aktien in Medienlisten wurden nicht als vollständig gescreent gezählt.\n\n**CRWV – WATCH / kurzfristig neutral nach starkem Kursanstieg.** Der Q3-Umsatz beträgt 3,661 Mrd. USD gegenüber 1,365 Mrd. USD im Vorjahresquartal; operativer GAAP-Gewinn 207 Mio. USD, Nettozinsaufwand 846 Mio. USD, Nettoverlust 709 Mio. USD, Backlog 132,5 Mrd. USD. Der Umsatzanstieg und angekündigte Kundenvorauszahlungen von etwa 9 Mrd. USD stützen die Wachstumsstory; Finanzierung, Verschuldung und Ausführung sind die Gegenthese. Reuters meldete +25,3% um 11:44 EST, kein aktueller Fill-Preis. [CoreWeave IR, 10.11.2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx); [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/). Historische Guidance-vs-Ist-Vergleiche und zwei Analysten-Updates nicht verifiziert.\n\n**NBIS – WATCH / neutral bis vorsichtig bullisch.** Reuters berichtete +17,4% um 11:44 EST im Sog von CRWV. Eigene neueste IR-Kennzahlen, Konsens und belastbare Ausführungskosten nicht verifiziert. Der Sektorschub kann sich umkehren. [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n**CTVA – WATCH / neutral vor Event.** Corteva kündigte Q3-Veröffentlichung für den 11.11. nach US-Börsenschluss an. Überraschung, Guidance und Kursreaktion sind vor dem Release unbekannt; keine vorweggenommene Ergebnisprognose. [Corteva IR, 06.10.2026](https://investors.corteva.com/news-events/news-releases).\n\n**IREN – REFERENZSHORT, kein bestätigter Fill.** Yahoo Finance zeigte 21,17 USD um 12:33:50 EST, verglichen mit dem historischen hypothetischen 18,05-USD-Einstieg. Rein modelliert: 500×(1−21,17/18,05)=−86,43 EUR ohne Gebühren/FX/KO; dies ist ausdrücklich KEIN realer oder bestätigter Paper-PnL. [Yahoo Finance, Abruf 11.11.2026](https://finance.yahoo.com/quote/IREN/history/). Keine verifizierte aktuelle 14:29-Kursmarke.\n\n**PTON – USER_REPORTED SHORT.** Letzter separat verifizierbarer Schlusskurs vom 10.11. laut Yahoo Finance 5,81 USD; heutiger zeitgestempelter Intraday-Kurs und Turbo-ISIN/Einstand fehlen, deshalb PnL nicht berechenbar. [Yahoo Finance, Abruf 11.11.2026](https://finance.yahoo.com/quote/PTON/history/).\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN: SHORT, OPEN_SIMULATED im Register, tatsächlich Referenzsimulation; 18,05 USD Referenz, 21,17 USD Stand 12:33:50 EST, theoretisch −86,43 EUR bei 100 EUR Modellmargin und 5×, nicht als bestätigter Fill. Exit nur nach separater belegter Entscheidung/Quote. PTON: SHORT USER_REPORTED, 5,81 USD Schlusskurs 10.11., Turbo-PnL unbekannt. HFG: SHORT USER_REPORTED, letzter registrierter Xetra-Stand 3,029 EUR vom 09.11. 17:35 CET ist ALT; heutige Quote nicht verifiziert, Turbo-PnL unbekannt. Alle unverändert offen, kein Exit dokumentiert.\n\n## Strategien und Entscheidung\nPre-Earnings CTVA: keine verifizierte Konsens-/Spread-Kalkulation. PEAD CRWV: Umsatzwachstum verifiziert, aber historische Pre-Release-EPS-/Umsatzkonsenswerte fehlen; kein bestätigter doppelter Surprise-Test. Guidance-Revision: keine periodengleiche historische Vergleichsreihe verifiziert. Sektor/Pairs CRWV–NBIS: gemeinsame AI-Infrastruktur-Faktoren, jedoch keine 60–252-Tage-Korrelation/Ko-Integration geprüft. Keine der vier Strategien ist handelbar qualifiziert. 13F-Managervergleich, aktuelle Analystenkursziele, Bid/Ask und Borrow nicht verifiziert.\n\n**Entscheidung: KEIN TRADE.** 14:29 EST ist nicht der autorisierte 15:30-Entry-Slot; zudem kein Paper-Broker-Fill-Receipt, keine nach Entscheidungszeitpunkt verifizierte Geld-/Brief-Spanne und keine vollständige Netto-Kostenrechnung. Kein Entry/Exit, kein Positions-JSON-Write. Paper-Modellbudget 10.000 EUR, keine nachgewiesene Broker-Equity. TradingView-Widgets nicht als PnL-Quote verwendet. Alle Dossiers vorläufig, keine 50 geöffneten eigenständigen Dokumente je Aktie."
     }
   ],
   "screening": {
     "status": "PARTIAL_AFTERHOURS",
-    "as_of": "2026-11-11T18:34:07Z",
-    "method_note": "2026-11-11: 4 individuell qualitativ triagiert; keine Spread-/Liquiditäts- oder Marketcap-Vollprüfung; keine als QUALIFIED gezählt.",
+    "as_of": "2026-11-11T19:29:00Z",
+    "method_note": "This US run examined CRWV, NBIS, CTVA, IREN, PTON; other listed names not counted as screened; no validated spreads.",
     "coverage": {
       "universe_checked": 5,
       "earnings_events": 3,
@@ -3050,6 +3211,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261111T183407Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 5,
+        "earnings_events": 2,
+        "triaged": 5,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T192900Z"
       }
     ],
     "strategies": []
@@ -3135,10 +3306,10 @@
       "ticker": "CRWV",
       "name": "CoreWeave",
       "tv": "NASDAQ:CRWV",
-      "as_of": "2026-11-11T18:34:07Z",
+      "as_of": "2026-11-11T19:29:00Z",
       "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Earnings-Rally, Finanzierungs- und Zyklusrisiko",
+      "summary": "Q3 rapid growth, financing risk",
       "source_goal": 50,
       "source_documents": [
         {
@@ -3200,6 +3371,16 @@
           "doc_type": "transcript",
           "id": "CRWV-5",
           "checked_on": "2026-11-11T17:30:06Z"
+        },
+        {
+          "id": "CRWV-20261111-1",
+          "title": "CoreWeave Q3 2026 earnings call announcement",
+          "publisher": "CoreWeave Investor Relations",
+          "published_at": "2026-10-27",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Announces-Date-of-Third-Quarter-2026-Financial-Results-and-Conference-Call/default.aspx",
+          "finding": "Q3 call scheduled Nov 10 17:00 ET",
+          "checked_on": "2026-11-11T19:29:00Z",
+          "doc_type": "IR notice"
         }
       ],
       "financial_history": [],
@@ -3207,9 +3388,10 @@
       "institutional_holdings": [],
       "holdings_note": "13F-Paarvergleich nicht verifiziert",
       "key_unknowns": [
-        "Original-SEC-Dokumente, 13F-Vergleiche, historisches Guidance-Scoring, Quotes/Spreads fehlen"
+        "Original-SEC-Dokumente, 13F-Vergleiche, historisches Guidance-Scoring, Quotes/Spreads fehlen",
+        "Current bid/ask and analyst consensus not verified"
       ],
-      "method_note": "Nur tatsächlich geöffnete Dokumente hinzugefügt; alte Daten erhalten.",
+      "method_note": "Only opened distinct documents counted; no assumed 13F holdings.",
       "analyst_coverage": []
     },
     "IREN": {
@@ -3360,6 +3542,32 @@
       ],
       "method_note": "Vorläufig; Quellenzahl nicht mit 50 gleichsetzen.",
       "analyst_coverage": []
+    },
+    "CTVA": {
+      "ticker": "CTVA",
+      "name": "Corteva",
+      "tv": "NYSE:CTVA",
+      "as_of": "2026-11-11T19:29:00Z",
+      "status": "PRELIMINARY",
+      "stance": "WATCH",
+      "summary": "Q3 scheduled after close",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "CTVA-20261111-0",
+          "title": "Corteva news releases",
+          "publisher": "Corteva Investor Relations",
+          "published_at": "2026-10-06",
+          "url": "https://investors.corteva.com/news-events/news-releases",
+          "finding": "Corteva Q3 earnings scheduled Nov 11 after market close",
+          "checked_on": "2026-11-11T19:29:00Z",
+          "doc_type": "IR calendar"
+        }
+      ],
+      "key_unknowns": [
+        "Current bid/ask and analyst consensus not verified"
+      ],
+      "method_note": "Only opened distinct documents counted; no assumed 13F holdings."
     }
   }
 }
