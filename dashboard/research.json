@@ -1,6 +1,6 @@
 {
-  "version": 19,
-  "updated_at": "2026-11-11T22:33:03Z",
+  "version": 20,
+  "updated_at": "2026-11-11T23:27:38Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -3343,12 +3343,118 @@
         "reference_only": true
       },
       "report_markdown": "# US-Aktienresearch – 11.11.2026, 17:33 EST\n\n## Markt- und Earnings-Lage\nVeterans Day: NYSE/Nasdaq regulär geöffnet, Anleihemarkt geschlossen. Nachbörslicher Research-Slot; keine Entry-Autorisierung. Reuters meldet S&P 500 +1,31%, Nasdaq +1,60%, Dow +0,49%; CoreWeave +24,7%, Nebius +15,4%, Applied Digital +7,4%, Halbleiterindex +5,7%. Die Erholung nach AI-Verkäufen ist kein belegter nachhaltiger Trend. [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n## Screening und Kandidaten\nÖffentlicher Kalender geprüft, aber keine behauptete vollständige Ticker-Einzelprüfung. Fokussiert CRWV (DEEP_DIVE), CSCO (WATCH), CTVA (DISCOVERED); NBIS, APLD, NVDA als sektorale Reaktionsbeobachtung, nicht als vollständig gescreent. [Kiplinger, 11.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks); [Portfolio Terminal, Abruf 11.11.2026](https://portfolio-terminal.com/earnings-calendar/november-2026).\n\n## CoreWeave CRWV – vorläufig LONG/WATCH, kein Einstieg\nQ3 2026 Umsatz 3,661 Mrd. USD versus 1,365 Mrd. Vorjahr, operatives Ergebnis 207 Mio., Nettoverlust 709 Mio., Nettozinsaufwand 846 Mio. USD, Backlog 132,5 Mrd. USD. Angepasste operative Marge 10% versus 16% Vorjahr. Prognose FY2026 Umsatz 13,0–13,3 Mrd. USD, Capex 37–39 Mrd. USD. Bull: Nachfrage, Kundenanzahlungen, Infrastrukturhochlauf. Bear: hohe Finanzierungskosten, Ausführungsrisiko, Margendruck und nach +24,7% Momentum-/Gap-Risiko. [CoreWeave IR, 10.11.2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx); [SEC EX-99.1, 10.11.2026](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) – gleicher Unternehmensinhalt, nicht doppelt als unabhängiges Dokument gezählt. Historischer Guidance-Ist-Vergleich, 13F-Paarvergleich, Analysten-Konsensrevision und 50 unabhängige Quellen nicht vollständig verifiziert.\n\n## Cisco CSCO – neutral/Watch vor Earnings\nOffizielle Veröffentlichung für 12.11.2026 nach Börsenschluss, Call 16:30 EST. Kiplinger nennt Konsens ca. 1,32 USD EPS und 18,1 Mrd. USD Umsatz. Morgan-Stanley-Analystin Meta Marshall senkte auf Equal Weight wegen AI-Hardware-Bruttomargenrisiko. Positive Alternative: AI-Netzwerkumsatz; negative: hohe Erwartungen bereits eingepreist. [Cisco IR, 03.11.2026](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html); [Kiplinger, 11.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks); [IBD, 05.11.2026](https://www.investors.com/news/technology/cisco-stock-csco-downgraded-morgan-stanley/). Zweites aktuelles namentliches Analystenvotum nicht verifiziert.\n\n## Corteva CTVA – entdeckt, noch nicht qualifiziert\nKalender listet Bericht nach Schluss am 11.11.; aktuelles Ergebnis zum Prüfzeitpunkt nicht aus Originalveröffentlichung bestätigt. Keine Direction ohne Zahlen und Guidance. [Kiplinger, 11.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks).\n\n## Strategievergleich\nPre-Earnings: CSCO hat Konsens, aber kein ausreichend belegtes asymmetrisches Setup. PEAD: CRWV Umsatz- und EPS-Konsens laut Kiplinger übertroffen, aber +24,7% Tagesreaktion und fehlender überprüfter Folgedrift-Edge. Guidance-Revision: CRWV positiv bei Umsatz, zugleich steigende Capex-/Zinslast. Pairs CRWV/NBIS: gemeinsamer AI-Infrastrukturfaktor, keine 60–252-Tage-Korrelation oder Hedge Ratio verifiziert. Kein belastbares kostendeckendes Signal.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister nur zur Bestandskontrolle gelesen: IREN PAPER-Referenz SHORT, Basis 18,05 USD (nicht verifizierter Fill), letzter Registermark 10.11.2026 15:44 EST; öffentliches Yahoo-Historien-Suchergebnis nennt 11.11.2026 Close 20,96 USD, aber Originalseite beim Öffnen HTTP 429 und kein separat belegter Quote-Zeitstempel; daher KEINE neue Mark/PnL-Buchung. [Yahoo Finance, Abruf 11.11.2026](https://finance.yahoo.com/quote/IREN/history/). HFG SHORT und PTON SHORT sind USER_REPORTED ohne Produkt-ISIN, Einstand/KO/Briefkurs: Zertifikate-PnL nicht berechenbar. Keine stillschweigende Schließung. DEUTZ im Register CLOSED_REPORTED. TradingView-Widget nicht als verifizierter Kursfeed verwendet.\n\n## Entscheidung und Risiken\n**KEIN TRADE, 0 Fills, 0 neue Positionsmarken.** Es ist 17:33 EST nach regulärem Handelsschluss; kein autorisierter Afterhours-Fill, kein Paper-Broker verbunden. Paper-Ausgangskapital laut Positionsregister 10.000 EUR, nicht bestätigter Broker-Saldo. Vor neuer Entscheidung Spread, FX, Kosten, Stückelung, Stop, Borrow und Marktdatenzeit prüfen. 13F, Insidertransaktionen, vollständige Guidance-Scorecards und zweite Analystenmeinungen: nicht verifiziert / noch nicht gefunden."
+    },
+    {
+      "id": "US-20261111T232738Z",
+      "market": "US",
+      "run_at": "2026-11-11T23:27:38Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "AI-Infrastruktur-Rally; Nvidia-Governance-Schlagzeile nachbörslich",
+      "summary": "CRWV +24,7%, NBIS +15,4%, NVDA nachbörslich unter Druck; kein autorisierter Fill.",
+      "source_status": "Vorläufig: 2 geöffnete Reuters-Nachrichtentexte; 0/50 Primärdokumente je Prioritätsaktie; Positionskurse nicht vollständig neu verifiziert.",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH_LONG",
+          "thesis": "Ausblick bereinigte Profitabilität 2028; +24,7% regulär",
+          "risk": "Schulden und bereits eingepreiste Reaktion",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NVDA",
+          "name": "Nvidia",
+          "tv": "NASDAQ:NVDA",
+          "side": "WATCH",
+          "thesis": "Governance-News nachbörslich",
+          "risk": "Medienbericht unbestätigt; Gap-Risiko",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "NBIS",
+          "name": "Nebius",
+          "tv": "NASDAQ:NBIS",
+          "side": "WATCH",
+          "thesis": "AI-Sektor-Sympathierally +15,4%",
+          "risk": "Sektorkorrelation und Bewertung ungeprüft",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "US stocks rise on CoreWeave outlook",
+          "published_at": "2026-11-11",
+          "ticker": "CRWV",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "finding": "CRWV +24,7%, NBIS +15,4%, APLD +7,4%"
+        },
+        {
+          "title": "Nvidia falls after hours on leadership report",
+          "published_at": "2026-11-11",
+          "ticker": "NVDA",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/",
+          "finding": "Nachbörslicher Rückgang laut Reuters ca. 8%; Medienbericht nicht als bestätigte Ablösung behandeln"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Rally nach 2028-Profitabilitätsziel, Überdehnung möglich",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Reuters meldet +24,7% am 11.11.",
+              "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [
+            "Folgende Guidance-/Finanzierungsupdates"
+          ],
+          "invalidations": [
+            "Unzureichende Finanzierung oder Nachfrage"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_SHORT",
+        "summary": "Nur hypothetische Referenz, kein belegter Fill",
+        "base_scenario": "Volatile Fortsetzung, Richtung offen",
+        "bull_scenario": "Short profitiert bei Rückgang",
+        "bear_scenario": "Short-Squeeze führt zu weiteren Verlusten",
+        "key_risk": "AI-Infrastruktur-Sektorrally",
+        "planned_exit": "Kein rückdatierter Exit; separater belegter Opening-Check",
+        "as_of": "2026-11-11T23:27:38Z",
+        "mark_price": 20.84,
+        "mark_at": "2026-11-11T16:00:01-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 11.11.2026, 18:27 EST\n\n## Markt und Nachrichten\nNYSE/Nasdaq reguläre Sitzung 09:30–16:00 EST beendet; Veterans Day schloss den US-Anleihemarkt, nicht den Aktienmarkt. S&P 500 +1,31%, Nasdaq +1,60%, Dow +0,49%. CoreWeave (CRWV) +24,7% nach Aussicht auf bereinigte Profitabilität im ersten Halbjahr 2028; Nebius (NBIS) +15,4%, Applied Digital (APLD) +7,4%. Quelle: [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/). Nvidia (NVDA) +2,9% regulär, danach laut Reuters ca. -8% nach Medienberichten über mögliche Ablösung des CEO. Bericht ist keine bestätigte Unternehmensentscheidung. Quelle: [Reuters, 11.11.2026](https://www.reuters.com/business/media-telecom/global-markets-global-markets-2026-11-11/).\n\n## Screening und Thesen\nTriage aus geöffneten Artikeln: CRWV LONG-WATCH wegen 2028-Ziel, Gegenargument hohe Verschuldung und bereits +24,7% Kursreaktion; NBIS WATCH, +15,4% und Sektorexposure; NVDA EVENT-WATCH, erhebliche unbestätigte Governance-Meldung und Afterhours-Gap; IREN SHORT-Referenz überprüfen; PTON USER_REPORTED überwachen. Diese fünf sind keine vollständig geprüften Screenings: Marktkapitalisierung, aktuelle Spreads, Analystenkonsens, Earnings-Überraschungen und Unternehmens-Originalberichte nicht ausreichend geprüft. Qualifizierte Trades: 0. Zwei Reuters-Texte inhaltlich geöffnet, ein weiterer Marktüberblick sowie historische Quote-Quellen eingesehen; pro Unternehmen 0/50 vollständig geprüfte eigenständige Primärdokumente. Historische Guidance-Ist-Scorecards, zwei datierte 13F-Vergleiche, Short-Interest und unabhängige Analystenstimmen: nicht verifiziert. Pre-Earnings, PEAD, Guidance-Revision und Pairs-Strategien nicht quantitativ qualifiziert; Pair-Korrelation null.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nIREN SHORT, PAPER-Referenz, historischer hypothetischer Einstieg 18,05 USD, 100 EUR Margin und 5x; kein nachgewiesener Fill. Yahoo Finance listet 11.11.2026 Nasdaq-Close 20,84 USD um 16:00:01 EST; [Yahoo Finance, 11.11.2026](https://finance.yahoo.com/quote/IREN/history/). Unverbindliche lineare Referenz-PnL 500*(1-20,84/18,05) = -77,29 EUR ohne FX, Spread, KO, Finanzierung und Gebühren; keine echte Paper-PnL. HFG SHORT USER_REPORTED: letzter verifizierter Repository-Stand 3,029 EUR vom 09.11., kein neuer öffentlicher zeitgestempelter Kurs geprüft; Turbo-PnL nicht berechenbar. PTON SHORT USER_REPORTED: letzter Repository-Stand 5,82 USD vom 10.11.; [StockAnalysis, 11.11.2026](https://stockanalysis.com/stocks/pton/history/) zeigte intraday 5,83 USD 09:47 EST, jedoch keinen neuen belastbaren Close; Turbo-PnL nicht berechenbar. Keine Position geschlossen; nächster Opening-Check separat.\n\n## Entscheidung und Risiken\nKEIN TRADE: 18:27 EST ist Nachbörse, kein autorisiertes Entry-Fenster. Kein Paper-Broker verbunden, kein verifizierter Post-Signal-Bid/Ask-Quote, keine vollständige Nettokosten-/Borrow-Prüfung. Paper-Konfiguration 10.000 EUR hypothetisch; kein echter Saldo. NVDA-Schlagzeile nur als unbestätigte Nachrichtenlage, nicht als bewiesene Tatsache über Beteiligte behandeln. Keine Änderungen an positions.json, da keine hinreichend neueren und vollständig prüfbaren Positionsmarken dokumentiert."
     }
   ],
   "screening": {
-    "status": "PARTIAL_AFTERHOURS",
-    "as_of": "2026-11-11T22:33:03Z",
-    "method_note": "Nur CRWV/CSCO einzeln anhand von Unternehmensquellen geprüft; weitere Titel Kalender/Markttriage DISCOVERED, nicht als gescreent zählen.",
+    "status": "PRELIMINARY",
+    "as_of": "2026-11-11T23:27:38Z",
+    "method_note": "Nur zwei Reuters-Nachrichten inhaltlich geöffnet; keine vollständige Einzeltitel-Eignungsprüfung; vorherige Screening-Daten erhalten.",
     "coverage": {
       "universe_checked": 2,
       "earnings_events": 2,
@@ -3809,6 +3915,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261111T223303Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 0,
+        "earnings_events": 0,
+        "triaged": 0,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T232738Z"
       }
     ],
     "strategies": []
