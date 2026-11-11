@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "updated_at": "2026-11-11T14:30:09Z",
+  "version": 7,
+  "updated_at": "2026-11-11T14:32:51Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -1191,6 +1191,52 @@
         "reference_only": true
       },
       "report_markdown": "# US Research – 11.11.2026, 09:30 EST\n\n## Markt und Ereignisse\nVeterans Day: US-Aktienbörsen regulär geöffnet, US-Anleihemarkt geschlossen. Reuters meldete um 08:26 EST Nasdaq-100-Futures +1,98%, S&P-500-Futures +0,96%, Dow-Futures +0,29%. Diese Werte sind VORBÖRSLICH, keine aktuellen 09:30-Quotes. Quelle: [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n## Screening und Prioritäten\nIm geöffneten Earnings-Kalender wurden CRWV (bereits Q3 gemeldet), NBIS (12.11. vor Börse), CSCO und AMAT (12.11. nach Börse) als Ereigniskandidaten identifiziert. CRWV ist der einzige heute anhand einer geöffneten Original-Firmenmeldung vertieft geprüfte Titel. Andere Kalendernamen sind DISCOVERED, nicht vollständig SCREENED. [Kiplinger, 07.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks).\n\n## CRWV – vorläufiger Deep Dive (1 neue Originalpublikation / Ziel 50)\n[CoreWeave IR, 10.11.2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx): Q3-Umsatz 3,661 Mrd. USD (Vorjahr 1,365 Mrd.), operatives GAAP-Ergebnis +207 Mio. USD, GAAP-Nettoverlust 709 Mio. USD, Nettozinsaufwand 846 Mio. USD. Backlog rund 132,5 Mrd. USD; 2026er Umsatzprognose auf 13,0–13,3 Mrd. USD angehoben, Investitionsausgaben 37–39 Mrd. USD. Die Bilanz weist hohe Schulden und potenzielle Verwässerung durch ein ATM-Programm bis 35 Mio. Aktien auf. Positiv: Umsatzwachstum, Auftragsbestand und Guidance. Negativ: Kapitalintensität, Finanzierung, Kundennachfrage und regulatorische Risiken. [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/) meldete +15,6% in der Vorbörse; damit kann ein positiver Earnings-Effekt bereits eingepreist sein. Historischer Guidance-Ist-Vergleich aus zwei separaten Originalmeldungen: noch nicht verifiziert. Analysten: Oppenheimer Param Singh laut [Kiplinger, 07.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) optimistisch; zweiter unabhängig überprüfter aktueller Analystenbericht nicht gefunden. 13F-Zwei-Quartalsvergleich nicht verifiziert. Tendenz 1–10 Tage: WATCH, nicht qualifiziert.\n\n## NBIS, CSCO, AMAT\nNBIS: Earnings am 12.11. vor Eröffnung; KI-Infrastruktur-Peer von CRWV, Long bei positivem Ausblick denkbar, Short bei Finanzierungssorgen; Original-Q3-Zahlen noch ausstehend. CSCO: erwarteter EPS 1,32 USD und Umsatz 18,1 Mrd. USD laut [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks); Morgan Stanley/Meta Marshall vor Zahlen auf Equal Weight gesenkt. AMAT: Ergebnisse 12.11. nach Börsenschluss; Konsens und historischer Track Record noch nicht verifiziert. Alle drei: 0 neue geprüfte Originaldokumente /50; vorläufig.\n\n## Strategievergleich\nPre-Earnings: NBIS/CSCO/AMAT WATCH, Konsensrisiko hoch. PEAD: CRWV Umsatz- und EPS-Vergleich in [Kiplinger](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks) positiv, aber kein verifizierter 09:30-Handelskurs oder kostengerechter Einstieg. Guidance-Revision: CRWV positiv, allerdings hoher Capex. Pairs CRWV/NBIS: gleiche Risikofaktoren, keine 60–252 verifizierten Kursreihen, Korrelation null, keine Hedge-Qualifikation.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nPositionsregister zuletzt gelesen: IREN PAPER SHORT, historischer Referenzwert 18,05 USD, KEIN nachgewiesener Fill; letzte gespeicherte Marke 19,61 USD am 10.11. 15:44 EST, ALT. Daraus keine aktuelle PnL; hypothetisch bei dieser ALT-Marke -43,21 EUR vor Kosten/FX. [Yahoo Finance IREN Historie, abgerufen 11.11.2026](https://finance.yahoo.com/quote/IREN/history/) zeigt 10.11.-Close 19,73 USD und 11.11. 07:16:40 EST Pre-Market 21,17 USD; nicht als 09:30-Kurs oder als bestätigter Trade-Fill verwenden. HFG USER_REPORTED SHORT: letzter gespeicherter Aktienkurs 3,029 EUR, 09.11. 17:35 CET, ALT; Produkt-Einstand/ISIN fehlen, PnL nicht berechenbar. PTON USER_REPORTED SHORT: letzter gespeicherter Aktienkurs 5,82 USD, 10.11. 16:00 EST, ALT; Turbo-Einstand/ISIN fehlen, PnL nicht berechenbar. Keine verifizierten neuen, jüngeren zeitgestempelten Marken für alle drei. Kein automatischer Exit. Die geplante IREN-Exit-Zeit 06.11. ist historisch überschritten, aber nicht mit einem Opening-Print belegt.\n\n## Entscheidung und Kosten\n09:30 EST ist Research-Slot, kein autorisierter Overnight-Einstieg (nur 15:30 EST). Paper-Konfiguration 10.000 EUR fiktives Startbudget, kein verbundener Paper-Broker, daher **KEIN TRADE, 0 Fills**. Variable Margin 10–200 EUR, bevorzugt 50 EUR, 5× synthetisch; bei 250 EUR Notional allein US-IBKR-Mindestprovision 0,70 USD zuzüglich Spread, FX und Slippage, Gesamtkostenobergrenze 0,5% nicht geprüft. [IBKR-Gebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe). Keine neuen positions.json-Marken ohne neueren belegten Quote-Zeitstempel.\n\n## Forschungsstand\nCRWV 1 neu geöffnete Originalpublikation und 3 weitere unabhängige inhaltlich geöffnete Sekundärtexte/Kalender; 4/50 als konservativer laufbezogener Quellenstand (teilweise übergreifende Texte). NBIS/CSCO/AMAT jeweils 1 Kalendertext, keine eigenständigen Originalberichte. Weitere SEC-10-Q, Guidance-Vergleiche, 13F und Analysten-Originale nicht verifiziert."
+    },
+    {
+      "id": "US-20261111T143251Z",
+      "market": "US",
+      "run_at": "2026-11-11T14:32:51Z",
+      "task": "USA Overnight-Auswertung",
+      "decision": "REVIEW",
+      "headline": "US-Opening: keine belegbaren Overnight-Fills oder Exits",
+      "summary": "Veterans Day: regulärer US-Handel. Kein verifizierter 11.11.-Open-Print für IREN/PTON, alle offenen Positionen unverändert. IREN nur alte Referenzsimulation; HFG/PTON Nutzer-Turbos ohne Produktdaten.",
+      "source_status": "Öffentliche Historien und Vorbörsenquotes geprüft; 11.11.-Nasdaq-Open-Print nicht gefunden; keine nachgewiesenen Vorabend-Fills.",
+      "candidates": [],
+      "news": [
+        {
+          "title": "Veterans Day: US-Aktienbörsen regulär geöffnet",
+          "published_at": "2026-11-10",
+          "ticker": null,
+          "publisher": "Kiplinger",
+          "url": "https://www.kiplinger.com/investing/stocks/is-the-stock-market-open-on-veterans-day",
+          "finding": "NYSE/Nasdaq 09:30–16:00 EST, Anleihemarkt geschlossen"
+        },
+        {
+          "title": "IREN historical prices",
+          "published_at": null,
+          "ticker": "IREN",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/IREN/history/",
+          "finding": "10.11. Close 19,73 USD, 11.11. Vorbörse 07:16:40 EST 21,17 USD; kein heutiger Open-Print"
+        },
+        {
+          "title": "Peloton historical prices",
+          "published_at": null,
+          "ticker": "PTON",
+          "publisher": "StockAnalysis",
+          "url": "https://stockanalysis.com/stocks/pton/history/",
+          "finding": "10.11. Close 5,81 USD; kein heutiger Open-Print"
+        },
+        {
+          "title": "HelloFresh Xetra Kurs",
+          "published_at": null,
+          "ticker": "HFG",
+          "publisher": "Finanznachrichten",
+          "url": "https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm",
+          "finding": "10.11. Close 2,990 EUR; keine Turbo-Produktquote"
+        }
+      ],
+      "report_markdown": "# US Overnight-Check — 11.11.2026, 09:32:51 EST\n\nNYSE/Nasdaq handeln am Veterans Day regulär 09:30–16:00 EST; US-Anleihemarkt geschlossen. Quelle: https://www.kiplinger.com/investing/stocks/is-the-stock-market-open-on-veterans-day\n\n## Vorherige Signale und Overnight-Exits\nIm vorherigen US-Research-Lauf vom 11.11. 09:30 EST wurde KEIN TRADE und null neue Paper-Fills dokumentiert. Ein überprüfbarer Entry aus dem letzten 15:30-ET-Lauf vom 10.11. konnte in den zugänglichen Research-Daten nicht bestätigt werden. Daher null bestätigte simulierte Market-on-Open-Exits. Für den 11.11. 09:30-Open von IREN und PTON ist kein verifizierter Nasdaq-Eröffnungskurs verfügbar. Status: UNABGERECHNET – aktueller Eröffnungskurs nicht verifiziert. Keine Position wird geschlossen.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT, REFERENZSIMULATION (kein Fill): 18,05 USD veralteter Referenzpreis vom 05.11. 12:40:24 EST, Entscheidung etwa eine Stunde später; 100 EUR hypothetischer Einsatz, 5× = 500 EUR Exposure. Im Dashboard letzter gespeicherter regulärer Kurs 19,61 USD vom 10.11. 15:44 EST (https://www.financialcontent.com/quote/NQ:IREN/historical), inzwischen ALT. Extern verifizierter 10.11. Nasdaq-Schlusskurs 19,73 USD (https://finance.yahoo.com/quote/IREN/history/), aber KEIN 11.11. Open-Print. Historische rein hypothetische Rechnung zum 10.11.-Close: 500*(1-19.73/18.05) = -46,54 EUR ohne Gebühren, FX, Spread, Slippage; NICHT aktuelle PnL und KEIN realisierter Verlust. Quelle meldet außerdem Vorbörsenkurs 21,17 USD am 11.11. 07:16:40 EST, nicht als Open verwendbar. Vorab geplanter Referenz-Exit 06.11. 09:30 EST; damals Yahoo-Historie Open 21,15 USD, rein retrospektiver hypothetischer Vergleich 500*(1-21.15/18.05)=-85,87 EUR; niemals echter Fill.\n- PTON SHORT, USER_REPORTED Turbo: letzter gespeicherter Kurs 5,82 USD vom 10.11. 16:00 EST; öffentlicher 10.11.-Schluss 5,81 USD https://stockanalysis.com/stocks/pton/history/ ; kein heutiger bestätigter Open, kein Turbo-Produkt-Einstieg, PnL nicht berechenbar. Kein automatischer Exit für Nutzer-Turbo.\n- HFG SHORT, USER_REPORTED Turbo: letzter gespeicherter Xetra-Kurs 3,029 EUR vom 09.11.; Xetra Schluss 10.11. 2,990 EUR laut https://aktienkurs-orderbuch.finanznachrichten.de/hfg.htm ; kein bestätigter heutiger Aktienmark- oder Turbo-Produktkurs, PnL nicht berechenbar. Keine Nutzerposition verändert.\n\n## Risiko und Paperkonto\nStartkapital nur hypothetisch 10.000 EUR, keine authentifizierte Broker-Paper-Execution, keine neuen Fills oder bestätigten Exits. Kosten-/Risikoregeln bleiben laut positions.paper_account.execution_policy maßgeblich. Bei echtem belegtem Long-Exit wäre PnL=Exposure*(Open/Entry-1), bei Short=Exposure*(1-Open/Entry), jeweils abzüglich Provision, Spread, Slippage, FX und ggf. Finanzierung. Ohne verifizierten Entry und Opening keine Buchung. Kursquellen können verzögert sein.\n\nDashboard-Persistenz ist keine Börsenorder und keine Bestätigung einer GitHub-Pages-Veröffentlichung."
     }
   ],
   "screening": {
