@@ -1,6 +1,6 @@
 {
-  "version": 18,
-  "updated_at": "2026-11-11T21:32:46Z",
+  "version": 19,
+  "updated_at": "2026-11-11T22:33:03Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -3183,16 +3183,176 @@
         "reference_only": true
       },
       "report_markdown": "# US-Nachbörsenresearch – 11.11.2026, 16:32 EST\n\n**Entscheidung: KEIN TRADE.** NYSE/Nasdaq handelten am Veterans Day regulär bis 16:00 EST; Anleihemarkt geschlossen. Dieser Lauf findet nach regulärem Schluss statt. Keine nachträglichen oder nachbörslichen Fills. Kein authentifizierter Paper-Broker vorhanden.\n\n## Markt und Screening\nReuters meldet S&P 500 +1,31%, Nasdaq +1,60%, CRWV +24,7%, NBIS +15,4% und APLD +7,4%. Die KI-Infrastruktur-Rally wird von CoreWeaves Ergebnissen getragen; gleichzeitig bleiben Finanzierung, hohe Zinsen und Bewertung Risiken. Geöffneter Earnings-Kalender listet 128 Meldungen am 11.11., aber diese 128 wurden **nicht** einzeln geprüft. Tatsächlich titelbezogen geprüft: CRWV, RGTI, NBIS, APLD, NVDA (NBIS/APLD/NVDA nur Nachrichtentriage, nicht vollständig gescreent). Qualifizierte kostenbereinigte Setups: 0.\n\n## CRWV – vorläufig LONG-WATCH, kein Fill\nQ3-Umsatz 3,661 Mrd USD versus 1,365 Mrd USD im Q3 2025; Q3-2026-GAAP-Nettoverlust 709 Mio USD, Zinsaufwand netto 846 Mio USD. Backlog 132,5 Mrd USD. Neue FY26-Umsatzguidance 13,0–13,3 Mrd USD, Capex 37–39 Mrd USD. Q4-Zinsaufwand erwartet 1,05–1,15 Mrd USD. Bull: Nachfrage, Pricing, Backlog und Kapazitätsausbau. Bear: Schuldendienst, Verwässerung (ATM-Programm bis 35 Mio Aktien), Liefer-/Stromrisiko, +24,7%-Reaktion bereits eingepreist. Invalidation: rückläufiger Backlog oder deutlich höhere Finanzierungskosten. Guidance-Ist-Trefferquote nicht berechnet: periodengleiche Vorhersagebelege fehlen. **6 neue direkt geöffnete Originaldokumente / Ziel 50**, plus 1 Reuters-Markttext; bestehende Dossierdokumente nur nach URL-Deduplizierung.\n\n## RGTI – SHORT-WATCH, kein Fill\nQ3-Umsatz 1,4 Mio USD, operativer Verlust 33,2 Mio USD; 497,1 Mio USD Cash und Anlagen, keine Schulden laut IR. Management erwartet 2026 ca. 20 Mio USD Umsatz, abhängig von Q4-Kundenabnahme. Bull: Liquidität und technische Fidelity-Fortschritte. Bear: Umsatzlücke, stark spekulative Bewertung, unregelmäßige Umsatzerfassung. Nur **1 neu geöffnete Originalquelle /50**, deshalb kein qualifizierter Short.\n\n## Strategievergleich und Datenlücken\nPre-Earnings: für diese Kandidaten nach Veröffentlichung nicht mehr anwendbar. PEAD: EPS- und Umsatz-Konsens vor Meldung nicht für beide bestätigt. Guidance-Revision: CRWV positiv, aber Ist-Vergleich noch offen. Pairs CRWV/NBIS: gemeinsame KI-Infrastruktur-Faktoren, keine 60–252 verifizierten Tageskurse; Korrelation **null**, kein Hedge-Nachweis. Analystenziele, zwei unabhängige aktuelle Analystenvoten pro Titel, institutionelle 13F-Paarvergleiche, Bid/Ask, Borrow, Spread, FX und Roundtrip-Kosten: **nicht verifiziert**. Keine statistisch kalibrierte Wahrscheinlichkeit.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister zu Beginn gelesen: IREN (OPEN_SIMULATED, historischer Referenzkurs 18,05 USD; **kein bestätigter Fill**), HFG und PTON (OPEN_UNVERIFIED; Nutzerprodukte ohne Einstand/ISIN), DEZ bereits CLOSED_REPORTED. IREN letzter gespeicherter Mark vom 10.11.2026 15:44 EST ist ALT, kein neuer zeitgestempelter 11.11.-Quote verifiziert. PTON öffentliche Historie zeigt lediglich 10.11.-Close 5,81 USD; HFG öffentliche Quelle lediglich 10.11. 17:35 CET 2,99 EUR, ebenfalls ALT. Keine dieser Marken wird als aktuell oder neue PnL verbucht. HFG/PTON-Turbo-PnL ohne Produktdetails nicht berechenbar. Keine Position geschlossen. Nächste reguläre Sitzung: 12.11.2026, Opening-Print erst danach prüfbar.\n\n## Quellen (Original-URLs, Datum)\n- [CoreWeave Q3 2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx) — CoreWeave IR, 2026-11-10: Umsatz 3,661 Mrd USD; Nettoverlust 709 Mio USD; FY-Umsatzziel 13,0–13,3 Mrd USD.\n- [CoreWeave Q3 2025](https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/) — CoreWeave IR, 2025-11-10: Umsatz 1,365 Mrd USD; Backlog 55,6 Mrd USD.\n- [CoreWeave höhere Preise](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx) — CoreWeave IR, 2026-09-17: Kurzfristige Verträge circa 40 Mio USD annualisierter Umsatz je MW.\n- [CoreWeave Outlook](https://investors.coreweave.com/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf) — CoreWeave IR, 2026-11-10: FY26 Capex 37–39 Mrd USD, Q4 Zinsaufwand 1,05–1,15 Mrd USD.\n- [Nvidia CoreWeave Kooperation](https://investors.coreweave.com/news/news-details/2026/NVIDIA-and-CoreWeave-Strengthen-Collaboration-to-Accelerate-Buildout-of-AI-Factories/default.aspx) — CoreWeave IR, 2026-01-26: Nvidia investierte 2 Mrd USD zu 87,20 USD je Aktie.\n- [Rigetti Q3](https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results) — Rigetti IR, 2026-11-10: Q3 Umsatz 1,4 Mio USD; operativer Verlust 33,2 Mio USD.\n- [US-Marktbericht](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/) — Reuters, 2026-11-11: CRWV +24,7%, NBIS +15,4%, APLD +7,4%; S&P +1,31%.\n- [US-Indizes](https://apnews.com/article/wall-street-stocks-dow-nasdaq-027cd5f4583d1a11c1795150bf065afb) — Associated Press, 2026-11-11: Nasdaq +1,6%; S&P 7619,38.\n- [PTON Historie](https://finance.yahoo.com/quote/PTON/history/) — Yahoo Finance, Abruf 11.11.2026, letzter sichtbarer Tagesdatensatz 10.11.\n- [HFG Xetra](https://www.boursorama.com/cours/1zHFG/) — Boursorama, Abruf 11.11.2026, letzter eindeutig datierter Stand 10.11.\n- [Earnings-Kalender](https://www.tipranks.com/calendars/earnings/2026-11-11) — TipRanks, Abruf 11.11.2026; Listung ist kein Titelscreening.\n\n**Paper-Kapital:** Modellstart 10.000 EUR; Equity nicht brokerverifiziert. Keine neuen Fills, keine Gebühren/PnL erfunden."
+    },
+    {
+      "id": "US-20261111T223303Z",
+      "market": "US",
+      "run_at": "2026-11-11T22:33:03Z",
+      "task": "Aktienresearch USA stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "CoreWeave-Rally nach Q3; Cisco vor Zahlen; nachbörslich kein Fill",
+      "summary": "CRWV +24,7% laut Reuters, CSCO Earnings 12.11.; kein belastbarer Entry, keine neue Quote-Marke.",
+      "source_status": "Vorläufig; CRWV 2/50 eigenständige Publikationen (IR/SEC derselbe Text nur einmal), CSCO 3/50, CTVA 1/50; weitere Sekundärquellen zur Markttriage.",
+      "candidates": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "side": "WATCH_LONG",
+          "thesis": "Starker Q3-Umsatz, erhöhte Umsatzguidance; Finanzierung kritisch",
+          "risk": "846 Mio. USD Nettozinsaufwand, 709 Mio. USD Nettoverlust, Kurs bereits +24,7%",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CSCO",
+          "name": "Cisco",
+          "tv": "NASDAQ:CSCO",
+          "side": "WATCH",
+          "thesis": "Earnings am 12.11. nach Schluss; AI-Networking",
+          "risk": "Bruttomargendruck und hohe Konsenserwartung",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "CTVA",
+          "name": "Corteva",
+          "tv": "NYSE:CTVA",
+          "side": "WATCH",
+          "thesis": "Earnings am 11.11. nach Schluss",
+          "risk": "Aktuelle Originalergebnisse noch nicht verifiziert",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Stocks end higher as CoreWeave results ease AI spending worries",
+          "published_at": "2026-11-11",
+          "ticker": "CRWV",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
+          "finding": "CRWV +24,7%, Nasdaq +1,60%"
+        },
+        {
+          "title": "CoreWeave Reports Strong Third Quarter 2026 Results",
+          "published_at": "2026-11-10",
+          "ticker": "CRWV",
+          "publisher": "CoreWeave IR",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "finding": "Umsatz 3,661 Mrd USD; Nettoverlust 709 Mio USD"
+        },
+        {
+          "title": "Cisco Schedules Conference Call",
+          "published_at": "2026-11-03",
+          "ticker": "CSCO",
+          "publisher": "Cisco",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+          "finding": "Q1 FY27 nach Handelsschluss 12.11."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "CRWV",
+          "name": "CoreWeave",
+          "tv": "NASDAQ:CRWV",
+          "stance": "WATCH_LONG",
+          "horizon": "1-10 Handelstage",
+          "summary": "Starker Q3-Umsatz, erhöhte Umsatzguidance; Finanzierung kritisch",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 Umsatz 3,661 Mrd USD, Nettoverlust 709 Mio USD",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+              "publisher": "CoreWeave IR",
+              "published_at": "2026-11-10"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "846 Mio. USD Nettozinsaufwand, 709 Mio. USD Nettoverlust, Kurs bereits +24,7%"
+          ]
+        },
+        {
+          "ticker": "CSCO",
+          "name": "Cisco",
+          "tv": "NASDAQ:CSCO",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Earnings am 12.11. nach Schluss; AI-Networking",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q1 FY27 Earnings 12.11. nach Börsenschluss",
+              "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+              "publisher": "Cisco",
+              "published_at": "2026-11-03"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Bruttomargendruck und hohe Konsenserwartung"
+          ]
+        },
+        {
+          "ticker": "CTVA",
+          "name": "Corteva",
+          "tv": "NYSE:CTVA",
+          "stance": "WATCH",
+          "horizon": "1-10 Handelstage",
+          "summary": "Earnings am 11.11. nach Schluss",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Earnings für 11.11. nach Börsenschluss gelistet",
+              "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+              "publisher": "Kiplinger",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Aktuelle Originalergebnisse noch nicht verifiziert"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_SHORT",
+        "summary": "Unverifizierter Referenzeinstieg; kein neues PnL",
+        "base_scenario": "Ungewiss, AI-Sektor volatil",
+        "bull_scenario": "Erneute AI-Schwäche",
+        "bear_scenario": "Short-Squeeze bei AI-Erholung",
+        "key_risk": "Nicht belegter Fill und veralteter Mark",
+        "planned_exit": "Nur nach verifizierter Quelle, kein rückdatierter Fill",
+        "as_of": "2026-11-11T22:33:03Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# US-Aktienresearch – 11.11.2026, 17:33 EST\n\n## Markt- und Earnings-Lage\nVeterans Day: NYSE/Nasdaq regulär geöffnet, Anleihemarkt geschlossen. Nachbörslicher Research-Slot; keine Entry-Autorisierung. Reuters meldet S&P 500 +1,31%, Nasdaq +1,60%, Dow +0,49%; CoreWeave +24,7%, Nebius +15,4%, Applied Digital +7,4%, Halbleiterindex +5,7%. Die Erholung nach AI-Verkäufen ist kein belegter nachhaltiger Trend. [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\n## Screening und Kandidaten\nÖffentlicher Kalender geprüft, aber keine behauptete vollständige Ticker-Einzelprüfung. Fokussiert CRWV (DEEP_DIVE), CSCO (WATCH), CTVA (DISCOVERED); NBIS, APLD, NVDA als sektorale Reaktionsbeobachtung, nicht als vollständig gescreent. [Kiplinger, 11.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks); [Portfolio Terminal, Abruf 11.11.2026](https://portfolio-terminal.com/earnings-calendar/november-2026).\n\n## CoreWeave CRWV – vorläufig LONG/WATCH, kein Einstieg\nQ3 2026 Umsatz 3,661 Mrd. USD versus 1,365 Mrd. Vorjahr, operatives Ergebnis 207 Mio., Nettoverlust 709 Mio., Nettozinsaufwand 846 Mio. USD, Backlog 132,5 Mrd. USD. Angepasste operative Marge 10% versus 16% Vorjahr. Prognose FY2026 Umsatz 13,0–13,3 Mrd. USD, Capex 37–39 Mrd. USD. Bull: Nachfrage, Kundenanzahlungen, Infrastrukturhochlauf. Bear: hohe Finanzierungskosten, Ausführungsrisiko, Margendruck und nach +24,7% Momentum-/Gap-Risiko. [CoreWeave IR, 10.11.2026](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx); [SEC EX-99.1, 10.11.2026](https://www.sec.gov/Archives/edgar/data/1769628/000176962826000461/coreweave3q26earningspress.htm) – gleicher Unternehmensinhalt, nicht doppelt als unabhängiges Dokument gezählt. Historischer Guidance-Ist-Vergleich, 13F-Paarvergleich, Analysten-Konsensrevision und 50 unabhängige Quellen nicht vollständig verifiziert.\n\n## Cisco CSCO – neutral/Watch vor Earnings\nOffizielle Veröffentlichung für 12.11.2026 nach Börsenschluss, Call 16:30 EST. Kiplinger nennt Konsens ca. 1,32 USD EPS und 18,1 Mrd. USD Umsatz. Morgan-Stanley-Analystin Meta Marshall senkte auf Equal Weight wegen AI-Hardware-Bruttomargenrisiko. Positive Alternative: AI-Netzwerkumsatz; negative: hohe Erwartungen bereits eingepreist. [Cisco IR, 03.11.2026](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html); [Kiplinger, 11.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks); [IBD, 05.11.2026](https://www.investors.com/news/technology/cisco-stock-csco-downgraded-morgan-stanley/). Zweites aktuelles namentliches Analystenvotum nicht verifiziert.\n\n## Corteva CTVA – entdeckt, noch nicht qualifiziert\nKalender listet Bericht nach Schluss am 11.11.; aktuelles Ergebnis zum Prüfzeitpunkt nicht aus Originalveröffentlichung bestätigt. Keine Direction ohne Zahlen und Guidance. [Kiplinger, 11.11.2026](https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks).\n\n## Strategievergleich\nPre-Earnings: CSCO hat Konsens, aber kein ausreichend belegtes asymmetrisches Setup. PEAD: CRWV Umsatz- und EPS-Konsens laut Kiplinger übertroffen, aber +24,7% Tagesreaktion und fehlender überprüfter Folgedrift-Edge. Guidance-Revision: CRWV positiv bei Umsatz, zugleich steigende Capex-/Zinslast. Pairs CRWV/NBIS: gemeinsamer AI-Infrastrukturfaktor, keine 60–252-Tage-Korrelation oder Hedge Ratio verifiziert. Kein belastbares kostendeckendes Signal.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister nur zur Bestandskontrolle gelesen: IREN PAPER-Referenz SHORT, Basis 18,05 USD (nicht verifizierter Fill), letzter Registermark 10.11.2026 15:44 EST; öffentliches Yahoo-Historien-Suchergebnis nennt 11.11.2026 Close 20,96 USD, aber Originalseite beim Öffnen HTTP 429 und kein separat belegter Quote-Zeitstempel; daher KEINE neue Mark/PnL-Buchung. [Yahoo Finance, Abruf 11.11.2026](https://finance.yahoo.com/quote/IREN/history/). HFG SHORT und PTON SHORT sind USER_REPORTED ohne Produkt-ISIN, Einstand/KO/Briefkurs: Zertifikate-PnL nicht berechenbar. Keine stillschweigende Schließung. DEUTZ im Register CLOSED_REPORTED. TradingView-Widget nicht als verifizierter Kursfeed verwendet.\n\n## Entscheidung und Risiken\n**KEIN TRADE, 0 Fills, 0 neue Positionsmarken.** Es ist 17:33 EST nach regulärem Handelsschluss; kein autorisierter Afterhours-Fill, kein Paper-Broker verbunden. Paper-Ausgangskapital laut Positionsregister 10.000 EUR, nicht bestätigter Broker-Saldo. Vor neuer Entscheidung Spread, FX, Kosten, Stückelung, Stop, Borrow und Marktdatenzeit prüfen. 13F, Insidertransaktionen, vollständige Guidance-Scorecards und zweite Analystenmeinungen: nicht verifiziert / noch nicht gefunden."
     }
   ],
   "screening": {
-    "status": "PARTIAL",
-    "as_of": "2026-11-11T21:32:46Z",
-    "method_note": "Earnings-Kalender listet 128, aber nur CRWV/RGTI vertieft; keine 128 geprüften Ticker behauptet.",
+    "status": "PARTIAL_AFTERHOURS",
+    "as_of": "2026-11-11T22:33:03Z",
+    "method_note": "Nur CRWV/CSCO einzeln anhand von Unternehmensquellen geprüft; weitere Titel Kalender/Markttriage DISCOVERED, nicht als gescreent zählen.",
     "coverage": {
       "universe_checked": 2,
       "earnings_events": 2,
-      "triaged": 5,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -3318,21 +3478,20 @@
       },
       {
         "ticker": "CSCO",
-        "name": "Cisco Systems",
+        "name": "Cisco",
         "tv": "NASDAQ:CSCO",
         "market": "US",
-        "sector": null,
+        "sector": "Networking",
         "direction": "WATCH",
-        "reason": "Earnings Donnerstag nachbörslich",
+        "reason": "Earnings am 12.11. nach Schluss; AI-Networking",
         "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Earnings/AI sector",
+        "earnings_at": "2026-11-12",
+        "event": "Q3/Q1 earnings",
         "score": null,
         "sources": [
-          "https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/",
-          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+          "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html"
         ],
-        "as_of": "2026-11-11T16:27:39Z"
+        "as_of": "2026-11-11T22:33:03Z"
       },
       {
         "ticker": "NBIS",
@@ -3443,20 +3602,16 @@
         "tv": "NASDAQ:CRWV",
         "market": "US",
         "sector": "AI infrastructure",
-        "direction": "LONG",
-        "reason": "Guidance angehoben, hohe AI-Nachfrage",
+        "direction": "WATCH_LONG",
+        "reason": "Starker Q3-Umsatz, erhöhte Umsatzguidance; Finanzierung kritisch",
         "stage": "DEEP_DIVE",
         "earnings_at": "2026-11-10",
-        "event": "Q3 2026 results",
+        "event": "Q3/Q1 earnings",
         "score": null,
         "sources": [
-          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
-          "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Third-Quarter-2025-Results/",
-          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx",
-          "https://investors.coreweave.com/files/content_files/CoreWeave-4Q-and-FY2026-Outlook-Presentation-_1_.pdf",
-          "https://investors.coreweave.com/news/news-details/2026/NVIDIA-and-CoreWeave-Strengthen-Collaboration-to-Accelerate-Buildout-of-AI-Factories/default.aspx"
+          "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
         ],
-        "as_of": "2026-11-11T21:32:46Z"
+        "as_of": "2026-11-11T22:33:03Z"
       },
       {
         "ticker": "RGTI",
@@ -3474,6 +3629,23 @@
           "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-third-quarter-2026-financial-results"
         ],
         "as_of": "2026-11-11T21:32:46Z"
+      },
+      {
+        "ticker": "CTVA",
+        "name": "Corteva",
+        "tv": "NYSE:CTVA",
+        "market": "US",
+        "sector": "Agriculture",
+        "direction": "WATCH",
+        "reason": "Earnings am 11.11. nach Schluss",
+        "stage": "DISCOVERED",
+        "earnings_at": "2026-11-11",
+        "event": "Q3/Q1 earnings",
+        "score": null,
+        "sources": [
+          "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+        ],
+        "as_of": "2026-11-11T22:33:03Z"
       }
     ],
     "pairs": [],
@@ -3627,6 +3799,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261111T213246Z"
+      },
+      {
+        "date": "2026-11-11",
+        "market": "US",
+        "universe_checked": 2,
+        "earnings_events": 2,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "US-20261111T223303Z"
       }
     ],
     "strategies": []
@@ -3712,10 +3894,10 @@
       "ticker": "CRWV",
       "name": "CoreWeave",
       "tv": "NASDAQ:CRWV",
-      "as_of": "2026-11-11T21:32:46Z",
+      "as_of": "2026-11-11T22:33:03Z",
       "status": "PRELIMINARY",
-      "stance": "LONG",
-      "summary": "Guidance angehoben, hohe AI-Nachfrage; Zinslast, Finanzierung und Rally bereits eingepreist",
+      "stance": "WATCH_LONG",
+      "summary": "Starker Q3-Umsatz, erhöhte Umsatzguidance; Finanzierung kritisch",
       "source_goal": 50,
       "source_documents": [
         {
@@ -3832,13 +4014,13 @@
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "holdings_note": "13F-Paarvergleich nicht verifiziert",
+      "holdings_note": "Neue 13F-Paarvergleiche in diesem Lauf nicht verifiziert",
       "key_unknowns": [
-        "Analystenkonsens",
-        "Aktuelle Bid/Ask und Handelskosten",
-        "Periodengleiche Guidance-Ist-Scorecard"
+        "Unabhängige 50-Dokumente-Abdeckung",
+        "Historische periodengleiche Guidance-Scorecard",
+        "Verifizierte aktuelle Analysten- und 13F-Vergleiche"
       ],
-      "method_note": "Nur inhaltlich geöffnete deduplizierte Originaldokumente",
+      "method_note": "IR und SEC-Kopie desselben Earnings-Releases als eine unabhängige Quelle zählen.",
       "analyst_coverage": []
     },
     "IREN": {
@@ -3962,12 +4144,12 @@
     },
     "CSCO": {
       "ticker": "CSCO",
-      "name": "Cisco Systems",
+      "name": "Cisco",
       "tv": "NASDAQ:CSCO",
-      "as_of": "2026-11-11T16:27:39Z",
+      "as_of": "2026-11-11T22:33:03Z",
       "status": "PRELIMINARY",
       "stance": "WATCH",
-      "summary": "Earnings Donnerstag nachbörslich; hohe Erwartungen, AI-Margen",
+      "summary": "Earnings am 12.11. nach Schluss; AI-Networking",
       "source_goal": 50,
       "source_documents": [
         {
@@ -3979,18 +4161,28 @@
           "finding": "Earnings und Konsens",
           "checked_on": "2026-11-11T16:27:39Z",
           "doc_type": "earnings_calendar"
+        },
+        {
+          "id": "CSCO-EARNINGS-SCHEDULE-2026",
+          "title": "Q1 FY27 earnings schedule",
+          "publisher": "Cisco",
+          "published_at": "2026-11-03",
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-schedules-conference-call-for-q1-fiscal-year-2027-financial-results.html",
+          "finding": "Results 12 Nov after close",
+          "checked_on": "2026-11-11T22:33:03Z",
+          "doc_type": "ir_release"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "holdings_note": "Nicht verifiziert",
+      "holdings_note": "Neue 13F-Paarvergleiche in diesem Lauf nicht verifiziert",
       "key_unknowns": [
-        "Aktuelle Quotes/Spreads",
-        "13F-Vergleiche",
-        "Guidance-Ist-Vergleiche"
+        "Unabhängige 50-Dokumente-Abdeckung",
+        "Historische periodengleiche Guidance-Scorecard",
+        "Verifizierte aktuelle Analysten- und 13F-Vergleiche"
       ],
-      "method_note": "Vorläufig; Quellenzahl nicht mit 50 gleichsetzen.",
+      "method_note": "IR und SEC-Kopie desselben Earnings-Releases als eine unabhängige Quelle zählen.",
       "analyst_coverage": []
     },
     "CTVA": {
