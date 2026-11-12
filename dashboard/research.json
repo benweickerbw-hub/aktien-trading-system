@@ -1,6 +1,6 @@
 {
-  "version": 26,
-  "updated_at": "2026-11-12T10:04:43Z",
+  "version": 27,
+  "updated_at": "2026-11-12T11:03:46Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -4251,12 +4251,120 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research 12.11.2026, 11:04 MEZ\n\n## Markt- und Earnings-Lage\nDer DAX war laut Reuters am Morgen rund 1% höher; STOXX 600 +0,3% um 08:06 GMT. Treiber: starke Quartalszahlen und Entspannung bei Öl-/Nahostrisiken. Kein tickgenauer Marktstand verifiziert. [Reuters, 12.11.2026](https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/).\n\n## Triage und Watchlist\nDrei Unternehmen anhand aktueller Originalberichte substanziell geprüft: Siemens (SIE), Allianz (ALV), Munich Re (MUV2). Andere Namen im [öffentlichen Terminkalender, Stand 11.11.](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026) sind lediglich entdeckt, nicht voll gescreent. Keine überprüfte aktuelle Bid/Ask-Spanne, vollständige Brokerkostenrechnung oder belastbare historische Kursreihen. Deshalb keine QUALIFIED-Order.\n\n### Siemens (SIE) – WATCH, Tendenz vorsichtig positiv 1–10 Handelstage\n[Siemens, Q4-Mitteilung vom 12.11.](https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026): Auftragseingang 34,8 Mrd EUR (+58%), Umsatz 23,7 Mrd EUR (+11%), Industrieergebnis 3,9 Mrd EUR (+22%), Quartals-FCF 5,6 Mrd EUR. [Siemens FY26, 12.11.](https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth): Gesamtjahres-FCF 12,1 Mrd EUR, Umsatz 83,4 Mrd EUR, FY27 Umsatzwachstum vergleichbar 9–11%. Bull: AI-Infrastruktur, Auftragsbestand, Margen. Bear: starker Kurssprung könnte Überraschung einpreisen, Healthineers-Transaktion und zyklische Risiken. Invalidierung: schwächerer Auftragstrend oder Guidance-Rücknahme. Zwei aktuelle unabhängige Analystenvoten nicht verifiziert.\n\n### Allianz (ALV) – WATCH, vorsichtig positiv\n[Allianz Q3/9M, 12.11.](https://www.allianz.com/en/mediacenter/news/media-releases/financials/261112-3q-2026-earnings-release.html): 9M operatives Ergebnis 14,1 Mrd EUR (+7,8%), Q3 4,7 Mrd EUR (+6,2%), Geschäftsvolumen Q3 44,4 Mrd EUR. [Allianz Prognose, 11.11.](https://www.allianz.com/en/investor_relations/announcements/ir_announcements/261111.html): obere Prognose nun rund 18,6 Mrd EUR. Bull: Asset-Management-Margen. Bear: Naturkatastrophen, Kapitalmarktvolatilität. Keine konsensbereinigte EPS-Surprise verifiziert; kein PEAD-Nachweis.\n\n### Munich Re (MUV2) – WATCH, vorsichtig positiv\n[Munich Re Q3, 12.11.](https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-3-2026.html): 9M Gewinn 5,7 Mrd EUR, neues Jahresziel 6,6 Mrd statt 6,3 Mrd EUR. Q3 Combined Ratio P/C 80,0%, Global Specialty 83,9%. [Munich Re Q1, 12.05.](https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-1-2026.item-d8c6664412a1cc541094e56984e541fa.html): damals Jahresziel 6,3 Mrd EUR. Guidance-Track: Prognose nach oben revidiert; endgültiges FY26-Ist NOCH OFFEN. Bear: Großschäden, Rückversicherungspreise, Kapitalmärkte.\n\n## Strategie und Lücken\nPre-Earnings: kein belastbarer vorab fixierter Konsensvergleich. PEAD: Umsatz- und EPS-Surprise zusammen nicht belegt. Guidance-Revision: bei ALV/MUV2 positiv dokumentiert, bei SIE FY27 ambitioniert. Pairs: keine 60–252 Kurstage/Korrelation/Spread-Statistik verifiziert. Institutionelle Bestandsänderungen, Directors' Dealings und zwei aktuelle namentliche Analystenvoten je Titel nicht gefunden. 6 eigenständige Unternehmensdokumente in diesem Lauf inhaltlich geprüft (SIE 2, ALV 2, MUV2 2); Ziel 50 je Dossier noch nicht erreicht.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister vor Research eingesehen: IREN PAPER-REFERENZ SHORT mit 18,05 USD als hypothetischer Basis (kein verifizierter Fill); letzte gespeicherte Marke 11.11.2026 16:00 EST, kein neuer gleichzeitiger US-Primärmarkt-Quote verifiziert. Kein aktueller PnL. HFG und PTON USER_REPORTED SHORT ohne ISIN/Produkt-Einstand: PnL nicht berechenbar. DEUTZ CLOSED_REPORTED, unverändert. Marktphase der US-Titel um 11:04 MEZ: vor regulärer US-Eröffnung; für Xetra-HFG regulärer Handel, aber kein belastbarer zeitgestempelter Quote. Keine Position geschlossen; kein neuer Entry. Exit erst nach vorheriger Festlegung und verifizierbarem Kurs; Opening-Order muss vor Eröffnung feststehen, Opening-Print wird erst danach bekannt.\n\n## Kapital und Entscheidung\nPositionsregister: hypothetischer Modellstart 10.000 EUR, keine authentifizierte Paper-Broker-Verbindung, require_order_or_simulation_fill_receipt=true. Ohne überprüften nachträglichen Bid/Ask, Broker-Fill, Spread, Finanzierung, Slippage und Netto-R/R keine Buchung. **KEIN TRADE**, null Fills. Keine neue Kursmarke in positions.json. TradingView-Widgets nicht als PnL-Feed auslesbar."
+    },
+    {
+      "id": "XETRA-20261112T110346Z",
+      "market": "XETRA",
+      "run_at": "2026-11-12T11:03:46Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens hebt mittelfristigen Ausblick nach Rekordaufträgen an",
+      "summary": "Siemens Q4 Auftragseingang +58%; keine validierten neuen Paper-Fills; offene IREN/HFG/PTON überprüft, keine frischen zeitnahen Kursmarken.",
+      "source_status": "4 unabhängige Markt/Earnings-Publikationen; 3 Kursquellen; keine 12.11. zeitnahe verifizierte Xetra-Quote",
+      "candidates": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "side": "WATCH",
+          "thesis": "Rekordaufträge und Guidance-Anhebung",
+          "risk": "Positive Erwartungen bereits eingepreist; Spread und Konsensvergleich fehlen",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Q4 FY2026",
+          "publisher": "Siemens IR",
+          "published_at": "2026-11-12",
+          "url": "https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026",
+          "ticker": "SIE",
+          "finding": "Aufträge +58% auf 34,8 Mrd EUR, Umsatz +11% auf 23,7 Mrd EUR."
+        },
+        {
+          "title": "Siemens lifts mid-term outlook",
+          "publisher": "Reuters",
+          "published_at": "2026-11-12",
+          "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+          "ticker": "SIE",
+          "finding": "Industriegewinn 3,89 Mrd EUR; mittelfristige Wachstumsprognose 7–11% statt 6–9%."
+        },
+        {
+          "title": "Europe STOXX 600 at record",
+          "publisher": "Reuters",
+          "published_at": "2026-11-12",
+          "url": "https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/",
+          "ticker": null,
+          "finding": "STOXX 600 +0,4% auf 665,61 im Bericht; breit positive Earnings-Stimmung."
+        },
+        {
+          "title": "German earnings calendar",
+          "publisher": "TipRanks",
+          "published_at": "2026-11-12",
+          "url": "https://www.tipranks.com/calendars/earnings/2026-11-12/germany",
+          "ticker": null,
+          "finding": "Siemens, Allianz und Munich Re als Event-Kandidaten gelistet."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Starke Aufträge und angehobene Guidance, kein qualifizierter Fill.",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Aufträge +58% auf 34,8 Mrd EUR, Umsatz +11% auf 23,7 Mrd EUR.",
+              "url": "https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026",
+              "publisher": "Siemens IR",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "FAKT",
+              "text": "Industriegewinn 3,89 Mrd EUR; mittelfristige Wachstumsprognose 7–11% statt 6–9%.",
+              "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-12"
+            }
+          ],
+          "catalysts": [
+            "Q4-Bericht und neue mittelfristige Guidance"
+          ],
+          "invalidations": [
+            "Auftragseingang schwächt sich ab",
+            "Guidance wird revidiert"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENCE_ONLY",
+        "summary": "Hypothetischer historischer Short, kein nachgewiesener Fill",
+        "base_scenario": "Hohe Schwankung; kein belegbarer Exit",
+        "bull_scenario": "Fallender Aktienkurs begünstigt hypothetischen Short",
+        "bear_scenario": "Short-Squeeze und Kursanstieg vergrößern Verlust",
+        "key_risk": "Hebel und Gaps",
+        "planned_exit": "Überfällig, nicht ausgeführt",
+        "as_of": "2026-11-12T11:03:46Z",
+        "mark_price": 20.84,
+        "mark_at": "2026-11-11T16:00:00-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": -77.29,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 12.11.2026, 12:03 MEZ\n\n**Entscheidung: KEIN TRADE.** Intraday-Research; keine authentifizierte Paper-Broker-Verbindung und kein nach Signalentscheidung verifizierter handelbarer Bid/Ask-Quote. 0 neue Fills, keine Echtgeldorders.\n\n## Markt und neue Ereignisse\n- Siemens meldete heute für Q4 FY2026 +58 % Auftragseingang auf rund 34,8 Mrd. EUR und +11 % Umsatz auf 23,7 Mrd. EUR. [Siemens IR, 12.11.2026](https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026).\n- Laut Reuters stieg der industrielle Gewinn auf 3,89 Mrd. EUR; mittelfristiges vergleichbares Umsatzwachstum nun 7–11 % statt 6–9 %. Gegenargument: positive Überraschung bereits im Kurs, erhöhte KI-/Datacenter-Erwartungen. [Reuters, 12.11.2026](https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/).\n- Reuters berichtet einen STOXX-600-Rekord von 665,61 (+0,4 %) bei robuster Berichtssaison; Makrorisiken und Bewertungsdruck bleiben. [Reuters, 12.11.2026](https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/).\n- [TipRanks-Earnings-Kalender, Abruf 12.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-12/germany) nennt Siemens, Allianz und Munich Re. Kalenderlistung allein ist kein vollständiges Screening.\n\n## Screening und Watchlist\nSIE: WATCH, fundamental positiv; Einstieg nach Kursreaktion und Kostenprüfung erst evaluieren. ALV und MUV2: DISCOVERED, Zahlen-/Konsensvergleich nicht geprüft. IFX und RWE: beobachtete Marktwerte, keine qualifizierte neue These. Nachgewiesen gründlich gescreente neue Ticker: 0; Event-Liste mit drei Namen, davon SIE anhand IR und Reuters vertieft. PRE-EARNINGS, PEAD, Guidance-Revision und Pair-Trade als Ansätze verglichen: nur Guidance-Revision für SIE ausreichend qualitativ belegt; EPS+Umsatzsurprise gegenüber vorherigem Konsens, 60–252 Tageskurs-Korrelation, Spread, Borrow und Nettokosten nicht verifiziert.\n\n## Dossier Siemens\n2 eigenständige inhaltlich ausgewertete Siemens-spezifische Publikationen (IR und Reuters), Ziel 50 kumulativ; frühere Dossier-Dokumente hier nicht neu als gelesen gezählt. Historische periodengleiche Guidance-vs-Ist-Paare, 2 namentliche Analystenvoten, institutionelle Stimmrechtsvergleiche, vollständige Cashflow-/Schuldenhistorie: nicht verifiziert. Bull: Auftragseingang und angehobener Ausblick. Bear: Bewertungs-/KI-Nachfragerisiko und mögliche Einpreisung. Invalidation: deutliche Abschwächung des Auftragsbestands oder Rücknahme der Guidance.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT: historische **unverbindliche Referenz** 18,05 USD, kein bestätigter Fill; letzter gespeicherter Nasdaq-Schluss 11.11.2026 16:00 EST 20,84 USD; theoretische lineare PnL bei 100 EUR ×5: −77,29 EUR, ohne Gebühren/FX/KO. [Yahoo Finance, Kursdatum 11.11.2026](https://finance.yahoo.com/quote/IREN/history/). Keine neue Marke.\n- HFG SHORT USER_REPORTED Turbo: letzter gespeicherter Xetra-Kurs 09.11.2026 17:35 CET 3,029 EUR, **ALT**. [MarketScreener](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/). Xetra-Schluss 11.11.2026 2,885 EUR separat belegt, aber keine zeitnahe 12.11.-Marke; [6ix, Kursdatum 11.11.2026](https://6ix.com/stock/dus-hfg/hellofresh-se). Turbo-PnL nicht berechenbar ohne ISIN/Produktpreis.\n- PTON SHORT USER_REPORTED Turbo: letzter gespeicherter Nasdaq-Schluss 11.11.2026 16:00 EST 5,72 USD; [StockAnalysis, Kursdatum 11.11.2026](https://stockanalysis.com/stocks/pton/history/). Turbo-PnL nicht berechenbar.\n\nKeine Position geschlossen. Eröffnungsorders müssen vor der Börseneröffnung feststehen; erst anschließend kann ein echter Opening-Print zur unabhängigen Referenzprüfung verwendet werden. Keine rückdatierten Fills. Der gespeicherte IREN-Ausstiegsplan liegt bereits in der Vergangenheit, ist aber nicht als ausgeführt belegt.\n\n## Paper-Risiko und Quellenlücken\nKonfiguriertes Startbudget 10.000 EUR virtuell; keine Broker-Verbindung. Kosten-/Spread-/Stückelungsprüfung nicht ausreichend, daher kein neues Signal oder Fill. Keine Kursmarke als tickgenau live bezeichnet. Vier unabhängige aktuelle Publikationen zu Markt/Earnings gelesen; zwei davon Siemens-spezifisch, weitere drei Kursquellen für offene Positionen geprüft. Es fehlen verlässliche zeitnahe Xetra-Quotes, umfassende Analystenkonsensdaten und regulatorische Holdings-Vergleiche."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-12T10:04:43Z",
-    "method_note": "Drei Titel anhand Original-IR geprüft; Kalendernamen nicht als SCREENED gezählt.",
+    "as_of": "2026-11-12T11:03:46Z",
+    "method_note": "12.11.2026 12:03 MEZ: Siemens IR und Reuters geprüft; ALV/MUV2 nur Kalender-Discovery; keine unbelegte vollständige Screening-Zahl.",
     "coverage": {
       "universe_checked": 3,
       "earnings_events": 3,
@@ -4839,6 +4947,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261112T100443Z"
+      },
+      {
+        "date": "2026-11-12",
+        "market": "XETRA",
+        "universe_checked": 0,
+        "earnings_events": 1,
+        "triaged": 1,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261112T110346Z"
       }
     ],
     "strategies": []
@@ -5278,10 +5396,10 @@
       "ticker": "SIE",
       "name": "Siemens AG",
       "tv": "XETR:SIE",
-      "as_of": "2026-11-12T10:04:43Z",
+      "as_of": "2026-11-12T11:03:46Z",
       "status": "IN_PROGRESS",
       "stance": "WATCH",
-      "summary": "Q4 Auftrag 34,8 Mrd EUR, Umsatz 23,7 Mrd, Industriebereich-Ergebnis 3,9 Mrd",
+      "summary": "12.11.2026: Q4-Aufträge +58% auf 34,8 Mrd EUR, Umsatz +11% auf 23,7 Mrd EUR; mittelfristige Guidance 7–11%.",
       "source_goal": 50,
       "source_documents": [
         {
@@ -5303,6 +5421,26 @@
           "finding": "FY FCF €12.1bn, comparable revenue €83.4bn; mid-term growth target raised to 7-11%.",
           "checked_on": "2026-11-12",
           "doc_type": "IR"
+        },
+        {
+          "id": "SIE-20261112-IR",
+          "title": "Siemens Q4 FY2026",
+          "publisher": "Siemens IR",
+          "published_at": "2026-11-12",
+          "url": "https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026",
+          "finding": "Aufträge +58% auf 34,8 Mrd EUR, Umsatz +11% auf 23,7 Mrd EUR.",
+          "checked_on": "2026-11-12",
+          "doc_type": "company_ir"
+        },
+        {
+          "id": "SIE-20261112-REUTERS",
+          "title": "Siemens lifts mid-term outlook",
+          "publisher": "Reuters",
+          "published_at": "2026-11-12",
+          "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+          "finding": "Industriegewinn 3,89 Mrd EUR; mittelfristige Wachstumsprognose 7–11% statt 6–9%.",
+          "checked_on": "2026-11-12",
+          "doc_type": "financial_news"
         }
       ],
       "financial_history": [
