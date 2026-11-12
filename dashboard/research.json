@@ -1,6 +1,6 @@
 {
-  "version": 22,
-  "updated_at": "2026-11-12T06:56:45Z",
+  "version": 23,
+  "updated_at": "2026-11-12T07:59:44Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -3675,15 +3675,193 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Vorbörsenresearch – 12.11.2026, 07:56 MEZ\n\n## Kurzlage\nXetra ist vorbörslich geschlossen, reguläre Handelszeit 09:00–17:30 MEZ laut [Deutsche Börse](https://www.xetra.com/xetra-de/handel/handelskalendar-und-zeiten/Handelskalender-und-zeiten-17870). **Keine neue Order, kein simulierter Fill.**\n\n## Ereignisse und Kandidaten\n**Siemens (SIE), WATCH / Long-Tendenz nur bedingt:** Siemens veröffentlichte heute Quartalszahlen; Reuters meldet Q4-Industriegewinn 3,89 Mrd. EUR (+22%), Umsatz 23,68 Mrd. EUR (+11%), Auftragseingang 34,77 Mrd. EUR (+58%) und eine angehobene mittelfristige Wachstumsprognose 7–11% statt 6–9%. [Siemens IR, 12.11.](https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026); [Reuters, 12.11.](https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/). Bull: Auftragseingang und Rechenzentrumnachfrage. Bear: mögliche hohe Erwartungen und Bewertung, vorbörslicher Spread nicht verifiziert. Keine Order ohne Quote und Kostenprüfung.\n\n**Deutsche Telekom (DTE), WATCH:** Offizielle Q3-Mitteilung nennt angehobene Guidance, geplante Dividende 1,10 EUR und Rückkaufprogramm 2027 bis 2 Mrd. EUR; deutsches Segment Q3-Umsatz 6,6 Mrd. EUR (+3,9%) und EBITDA AL 2,8 Mrd. EUR (+1,5%). [Deutsche Telekom IR, November 2026](https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend). Positiv: Cash-Return; Risiko: Finanzierung, Wettbewerb, Bewertung. Kein neuer Event-Entry.\n\n**HelloFresh (HFG), REJECTED für neue Paper-Position:** Letzter geprüfter Xetra-Schluss 11.11.2026 17:38:26: 2,885 EUR, [MarketScreener](https://it.marketscreener.com/quotazioni/azione/HELLOFRESH-SE-38533857/quotazioni/); Marktkapitalisierung unter bevorzugter 2-Mrd.-Schwelle laut öffentlicher Sekundärquelle. Vorhandenes Nutzerturbo bleibt unverändert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN:** Im Register als OPEN_SIMULATED geführte historische Short-Referenz 18,05 USD ist **kein nachgewiesener Fill**. Öffentlicher Schluss 11.11. 16:00 EST: 20,84 USD, [Yahoo Finance](https://finance.yahoo.com/quote/IREN/history/). Rein hypothetische Short-Modell-PnL bei 100 EUR Margin ×5: 500×(1−20,84/18,05)=−77,29 EUR, ohne FX, Gebühren, Borrow oder Spread; nicht als realisierte oder bestätigte Paper-Performance verbuchen. Bei neuerlicher Aufwärtsbewegung droht Short-Squeeze; kein automatischer Exit.\n**HFG:** Nutzerberichteter Turbo-Short ohne ISIN, Einstand und KO; Aktie 2,885 EUR am 11.11. Xetra-Schluss, [MarketScreener](https://it.marketscreener.com/quotazioni/azione/HELLOFRESH-SE-38533857/quotazioni/). Turbo-PnL nicht berechenbar.\n**PTON:** Nutzerberichteter Turbo-Short ohne Produktdaten; Nasdaq-Schluss 11.11. 16:00 EST 5,72 USD, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/); Turbo-PnL nicht berechenbar. Keine Position geschlossen.\n\n## Methodik und Lücken\nDrei Einzeltitel auf öffentlich datierte Ereignisse/Quotes geprüft (Siemens, Telekom, HFG); zusätzlich IREN und PTON zur Positionskontrolle. 7 unterschiedliche öffentliche Seiten geprüft, keine 50-Dokumente-Dossiers. Historische Guidance-Ist-Paare, zwei namentliche aktuelle Analystenvoten je Aktie, regulatorische Bestände, belastbare Spreads und PEAD-Surprise-Konsens fehlen. Vorbörse: kein handelbarer Xetra-Quote. 10.000 EUR virtuelles Ausgangsbudget laut Positionsregister, kein authentifizierter Paper-Broker. Modellkosten für Deutschland mindestens 2,50 EUR Roundtrip Provision laut [IBKR-Preisliste](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe), zuzüglich Spread und Slippage. PRE-EARNINGS/PEAD/GUIDANCE/PAIRS geprüft als Ansätze, aber mangels ausreichender Kursreihen und Konsensdaten keine qualifizierte Strategie. Eröffnungsorder müsste vor Eröffnung dokumentiert werden; Eröffnungskurs erst danach bekannt."
+    },
+    {
+      "id": "XETRA-20261112T075944Z",
+      "market": "XETRA",
+      "run_at": "2026-11-12T07:59:44Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "REVIEW",
+      "headline": "Siemens Q4 Rekordorders und höhere Ziele; Allianz hebt 2026er Ausblick",
+      "summary": "Drei Titel anhand Originalquellen triagiert; keine nachgewiesenen Paper-Fills oder aktuelle vollständige PnL.",
+      "source_status": "5 unabhängige Research-Publikationen geprüft; PTON-Kursquelle zusätzlich; keine belastbaren neuen Xetra-Fills.",
+      "candidates": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "side": "LONG",
+          "thesis": "Rekordorders und angehobene Wachstumsziele",
+          "risk": "Gap und hohe Bewertung",
+          "sources_checked": 3,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz SE",
+          "tv": "XETR:ALV",
+          "side": "LONG",
+          "thesis": "9M operativer Rekordgewinn, Outlook angehoben",
+          "risk": "Großschäden",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom AG",
+          "tv": "XETR:DTE",
+          "side": "LONG",
+          "thesis": "Q3-Wachstum und Guidance",
+          "risk": "Währung und Bewertung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "ticker": "SIE",
+          "title": "Q4 FY2026 results",
+          "publisher": "Siemens AG",
+          "published_at": "2026-11-12",
+          "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
+          "finding": "Q4 orders €34.8bn +58%, revenue €23.7bn +11%, industrial profit €3.9bn +22%, FY EPS pre PPA €11.76 above revised guidance €11.20-11.50."
+        },
+        {
+          "ticker": "SIE",
+          "title": "Outstanding fiscal 2026 performance",
+          "publisher": "Siemens AG",
+          "published_at": "2026-11-12",
+          "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth",
+          "finding": "FY FCF €12.1bn, comparable revenue €83.4bn; mid-term growth target raised to 7-11%."
+        },
+        {
+          "ticker": "ALV",
+          "title": "Allianz nine-month result and raised outlook",
+          "publisher": "Allianz SE",
+          "published_at": "2026-11-11",
+          "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html",
+          "finding": "9M operating profit €14.1bn versus €13.1bn; 2026 upper outlook about €18.6bn."
+        },
+        {
+          "ticker": "DTE",
+          "title": "Q3 growth and raised guidance",
+          "publisher": "Deutsche Telekom AG",
+          "published_at": "2026-11-05",
+          "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend",
+          "finding": "Q3 revenue €31.1bn, adjusted EBITDA AL €12.2bn; FY EBITDA AL outlook €47.6bn."
+        },
+        {
+          "ticker": "SIE",
+          "title": "Siemens lifts mid-term outlook",
+          "publisher": "Reuters",
+          "published_at": "2026-11-12",
+          "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+          "finding": "Industrial profit beats analyst forecast; preliminary Frankfurt reaction positive."
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Rekordorders und angehobene Wachstumsziele",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q4 orders €34.8bn +58%, revenue €23.7bn +11%, industrial profit €3.9bn +22%, FY EPS pre PPA €11.76 above revised guidance €11.20-11.50.",
+              "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
+              "publisher": "Siemens AG",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY FCF €12.1bn, comparable revenue €83.4bn; mid-term growth target raised to 7-11%.",
+              "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth",
+              "publisher": "Siemens AG",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "FAKT",
+              "text": "Industrial profit beats analyst forecast; preliminary Frankfurt reaction positive.",
+              "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-12"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Gap und hohe Bewertung"
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz SE",
+          "tv": "XETR:ALV",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "9M operativer Rekordgewinn, Outlook angehoben",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "9M operating profit €14.1bn versus €13.1bn; 2026 upper outlook about €18.6bn.",
+              "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html",
+              "publisher": "Allianz SE",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Großschäden"
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom AG",
+          "tv": "XETR:DTE",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q3-Wachstum und Guidance",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q3 revenue €31.1bn, adjusted EBITDA AL €12.2bn; FY EBITDA AL outlook €47.6bn.",
+              "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend",
+              "publisher": "Deutsche Telekom AG",
+              "published_at": "2026-11-05"
+            }
+          ],
+          "catalysts": "Earnings und Guidance",
+          "invalidations": "Währung und Bewertung"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ SHORT",
+        "summary": "Historischer Referenzeinstieg ohne nachgewiesenen Fill; aktuelle PnL nicht berechnet.",
+        "base_scenario": "Kursrisiko unklar",
+        "bull_scenario": "Kurs fällt",
+        "bear_scenario": "Short squeeze",
+        "key_risk": "Fehlender verifizierter Fill",
+        "planned_exit": "Nur nach überprüfbarem Signal und Quote",
+        "as_of": "2026-11-12T07:59:44Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 12.11.2026, 08:59 MEZ\n\n**Entscheidung: REVIEW / kein Trade.** Xetra steht unmittelbar vor regulärer Eröffnung. Keine authentifizierte Paper-Broker-Ausführung, keine neue simulierte Position, kein verifizierter Xetra-Opening-Print. Der spätere Eröffnungskurs kann nicht rückwirkend als vorbörsliche Order ausgegeben werden.\n\n## Neue Earnings und Marktbild\n- **Siemens (SIE):** [Siemens AG, Q4/FY2026, 12.11.2026](https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026): Q4 Auftragseingang 34,8 Mrd. EUR (+58%), Umsatz 23,7 Mrd. (+11%), Ergebnis industrielles Geschäft 3,9 Mrd. (+22%), Q4 Free Cashflow 5,6 Mrd. EUR. Geschäftsjahr: EPS pre PPA 11,76 EUR gegenüber zuvor erhöhter Guidance 11,20–11,50 EUR: **übertroffen** (im aktuellen Ergebnistext referenzierte frühere Prognose; separate frühere Originalmitteilung noch zu prüfen). [Siemens AG, 12.11.2026](https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth): Konzern-FCF 12,1 Mrd. EUR, mittelfristiges vergleichbares Wachstumsziel 7–11% statt 6–9%; 2027 Umsatzwachstum 9–11% erwartet. [Reuters, 12.11.2026](https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/) berichtet von Ergebnis über Markterwartung. **Tendenz 1–10 Tage: positiv, aber Gap-/Bewertungsrisiko; kein Entry ohne Xetra-Kurs, Spread und nach Kosten positiven Edge.**\n- **Allianz (ALV):** [Allianz SE, 11.11.2026](https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html): operatives 9M-Ergebnis 14,1 Mrd. EUR statt 13,1 Mrd. im Vorjahr; oberes Ende des 2026er Zielkorridors auf rund 18,6 Mrd. EUR angehoben. **Tendenz leicht positiv**, Risiko Großschäden/Kapitalmarkt; aktuelle Einzelanalysten und exakte Surprise nicht verifiziert.\n- **Deutsche Telekom (DTE):** [Deutsche Telekom, 05.11.2026](https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend): Q3 Umsatz 31,1 Mrd. EUR, adjusted EBITDA AL 12,2 Mrd.; Jahresprognose EBITDA AL etwa 47,6 Mrd. EUR. **Tendenz neutral bis positiv**, US-/Währungs- und Bewertungseinfluss.\n\n## Screening und Strategie\nDrei konkrete Ticker anhand aktueller Originalquellen geprüft (SIE, ALV, DTE), weitere Eventnamen nur entdeckt und nicht als geprüft gezählt. Drei Earnings-/Guidance-Ereignisse, null vollständig qualifizierte Ausführungen. PRE-EARNINGS, PEAD, GUIDANCE-REVISION und SEKTOR-/PAIRS-TRADE verglichen: Siemens Guidance-Revision stärkstes fundamentales Signal; PEAD ohne vollständige zeitgenössische EPS-/Umsatz-Konsensbasis nicht bestätigt. Pair-Korrelation und Cointegration nicht berechenbar. Zwei namentliche aktuelle Analystenvoten je Aktie, Bid/Ask, Liquidität, Borrow, belastbare Gesamtkosten und institutionelle Filings **nicht verifiziert**. Keine 50-Dokumente-Dossiers: Siemens zwei eigenständige Original-Publikationen und ein unabhängiger Reuters-Bericht; Allianz eine, Telekom eine. Deutsche/englische Siemens-Doppelveröffentlichung nicht doppelt gezählt. Keine statistische Konfidenz oder Guidance-Trefferquote behauptet.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister vor dem Research gelesen: IREN PAPER-Referenz SHORT 18,05 USD (kein nachgewiesener Fill; letzter gespeicherter Mark 10.11.2026 15:44 EST, **ALT**, keine neue verifizierte Quote, PnL hier nicht aktualisiert); HFG und PTON als OPEN_UNVERIFIED gemeldete Nutzer-Turbos ohne verifizierten Produkt-Einstand/ISIN/KO: **PnL nicht berechenbar**, keine Broker-Schließung. PTON öffentliche [StockAnalysis-Kurshistorie, abgerufen 12.11.2026](https://stockanalysis.com/stocks/pton/history/): Nasdaq-Schluss 11.11.2026 16:00 EST bei 5,72 USD, kein Produktkurs und keine verifizierte Turbo-PnL. Für IREN/HFG fehlt in diesem Lauf eine ausreichend belegte neue Quote; bestehende Markierungen nicht überschrieben. Keine Änderung an positions.json.\n\n## Paper-Risiko / Handelsentscheidung\nKonfiguration laut Positionsregister: fiktiver Startwert 10.000 EUR, Broker nicht verbunden, Ausführungsbeleg zwingend. Variable Einsätze, nominal 5×; maximal 10 neue Trades als Zielwert, **kein Ausführungszwang**. Deutsche Mindestprovision laut [IBKR Ireland Gebührenmodell](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe) bereits 2,50 EUR Roundtrip ohne Spread; bei 50 EUR Margin/250 EUR Notional 1% und damit über dem Kostenziel 0,5%. Kein simulierter Fill. Nächster Prüfpunkt: tatsächliche Xetra-Kursreaktion, Spread und Guidance-Konsens nach Eröffnung.\n\n**Quellenstatus:** 5 unterschiedliche tatsächlich geprüfte öffentliche Publikationen, darunter 4 Firmen-IR-Dokumente (Siemens 2, Allianz 1, Telekom 1) und Reuters 1; zusätzliche Kurs-Historienseite für PTON als separater Kursbeleg. Historische Prognose-Originalquelle, Analysten-Research-Volltexte, Fondsveränderungen, Volatilität und zeitnahe Xetra-Bid/Ask noch nicht gefunden."
     }
   ],
   "screening": {
-    "status": "PARTIAL_PREMARKET",
-    "as_of": "2026-11-12T06:56:45Z",
-    "method_note": "Xetra vorbörslich; nur SIE, DTE und HFG einzeln geprüft; keine vollumfängliche Marktbreite.",
+    "status": "PARTIAL",
+    "as_of": "2026-11-12T07:59:44Z",
+    "method_note": "Current XETRA run: three independently source-checked tickers, no executable quote; existing other-market records preserved.",
     "coverage": {
       "universe_checked": 3,
-      "earnings_events": 1,
+      "earnings_events": 3,
       "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
@@ -3912,23 +4090,6 @@
         "as_of": "2026-11-11T18:03:07Z"
       },
       {
-        "ticker": "ALV",
-        "name": "Allianz",
-        "tv": "XETR:ALV",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Q3 am 12.11.",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Q3 am 12.11.",
-        "score": null,
-        "sources": [
-          "https://www.ad-hoc-news.de/boerse/news/vorboerse/allianz-stock-gains-to-eur-460-60-up-0-79-pre-market/70484555"
-        ],
-        "as_of": "2026-11-11T18:03:07Z"
-      },
-      {
         "ticker": "CRWV",
         "name": "CoreWeave",
         "tv": "NASDAQ:CRWV",
@@ -3980,40 +4141,6 @@
         "as_of": "2026-11-11T22:33:03Z"
       },
       {
-        "ticker": "SIE",
-        "name": "Siemens AG",
-        "tv": "XETR:SIE",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "LONG",
-        "reason": "Rekordaufträge, positive Guidance-Revision",
-        "stage": "WATCH",
-        "earnings_at": "2026-11-12",
-        "event": "Rekordaufträge, positive Guidance-Revision",
-        "score": null,
-        "sources": [
-          "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/"
-        ],
-        "as_of": "2026-11-12T06:56:45Z"
-      },
-      {
-        "ticker": "DTE",
-        "name": "Deutsche Telekom AG",
-        "tv": "XETR:DTE",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH",
-        "reason": "Guidance und Ausschüttungen",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Guidance und Ausschüttungen",
-        "score": null,
-        "sources": [
-          "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend"
-        ],
-        "as_of": "2026-11-12T06:56:45Z"
-      },
-      {
         "ticker": "HFG",
         "name": "HelloFresh",
         "tv": "XETR:HFG",
@@ -4029,6 +4156,59 @@
           "https://it.marketscreener.com/quotazioni/azione/HELLOFRESH-SE-38533857/quotazioni/"
         ],
         "as_of": "2026-11-12T06:56:45Z"
+      },
+      {
+        "ticker": "SIE",
+        "name": "Siemens AG",
+        "tv": "XETR:SIE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Rekordorders und angehobene Wachstumsziele",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Results/guidance",
+        "score": null,
+        "sources": [
+          "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
+          "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth",
+          "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/"
+        ],
+        "as_of": "2026-11-12T07:59:44Z"
+      },
+      {
+        "ticker": "ALV",
+        "name": "Allianz SE",
+        "tv": "XETR:ALV",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "9M operativer Rekordgewinn, Outlook angehoben",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Results/guidance",
+        "score": null,
+        "sources": [
+          "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html"
+        ],
+        "as_of": "2026-11-12T07:59:44Z"
+      },
+      {
+        "ticker": "DTE",
+        "name": "Deutsche Telekom AG",
+        "tv": "XETR:DTE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Q3-Wachstum und Guidance",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Results/guidance",
+        "score": null,
+        "sources": [
+          "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend"
+        ],
+        "as_of": "2026-11-12T07:59:44Z"
       }
     ],
     "pairs": [],
@@ -4212,6 +4392,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261112T065645Z"
+      },
+      {
+        "date": "2026-11-12",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261112T075944Z"
       }
     ],
     "strategies": []
@@ -4646,6 +4836,60 @@
       ],
       "method_note": "Nur inhaltlich geöffnete deduplizierte Originaldokumente",
       "analyst_coverage": []
+    },
+    "SIE": {
+      "ticker": "SIE",
+      "name": "Siemens AG",
+      "tv": "XETR:SIE",
+      "as_of": "2026-11-12T07:59:44Z",
+      "status": "IN_PROGRESS",
+      "stance": "WATCH_LONG",
+      "summary": "Q4 orders +58%, revised targets; entry not verified",
+      "source_goal": 50,
+      "source_documents": [
+        {
+          "id": "SIE-20261112-1",
+          "title": "Q4 FY2026 results",
+          "publisher": "Siemens AG",
+          "published_at": "2026-11-12",
+          "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
+          "finding": "Q4 orders €34.8bn +58%, revenue €23.7bn +11%, industrial profit €3.9bn +22%, FY EPS pre PPA €11.76 above revised guidance €11.20-11.50.",
+          "checked_on": "2026-11-12",
+          "doc_type": "IR"
+        },
+        {
+          "id": "SIE-20261112-2",
+          "title": "Outstanding fiscal 2026 performance",
+          "publisher": "Siemens AG",
+          "published_at": "2026-11-12",
+          "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth",
+          "finding": "FY FCF €12.1bn, comparable revenue €83.4bn; mid-term growth target raised to 7-11%.",
+          "checked_on": "2026-11-12",
+          "doc_type": "IR"
+        }
+      ],
+      "financial_history": [
+        {
+          "period": "FY2026",
+          "metric": "Free cash flow",
+          "value": 12.1,
+          "unit": "EUR bn",
+          "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth",
+          "source_id": "SIE-20261112-2",
+          "note": "Group"
+        }
+      ],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "holdings_note": "Nicht verifiziert",
+      "key_unknowns": [
+        "Analystenkonsens vor Bericht",
+        "separate ursprüngliche FY2026 EPS-Guidance",
+        "institutionelle Filings",
+        "Quote/Spread"
+      ],
+      "method_note": "Only independently opened sources; no syndication duplicates",
+      "analyst_coverage": "Nicht verifiziert"
     }
   }
 }
