@@ -1,6 +1,6 @@
 {
-  "version": 27,
-  "updated_at": "2026-11-12T11:03:46Z",
+  "version": 28,
+  "updated_at": "2026-11-12T12:04:12Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -4359,12 +4359,193 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra-Research – 12.11.2026, 12:03 MEZ\n\n**Entscheidung: KEIN TRADE.** Intraday-Research; keine authentifizierte Paper-Broker-Verbindung und kein nach Signalentscheidung verifizierter handelbarer Bid/Ask-Quote. 0 neue Fills, keine Echtgeldorders.\n\n## Markt und neue Ereignisse\n- Siemens meldete heute für Q4 FY2026 +58 % Auftragseingang auf rund 34,8 Mrd. EUR und +11 % Umsatz auf 23,7 Mrd. EUR. [Siemens IR, 12.11.2026](https://press.siemens.com/global/de/event/geschaeftszahlen-zum-vierten-quartal-und-vorlaeufiges-ergebnis-des-geschaeftsjahres-2026).\n- Laut Reuters stieg der industrielle Gewinn auf 3,89 Mrd. EUR; mittelfristiges vergleichbares Umsatzwachstum nun 7–11 % statt 6–9 %. Gegenargument: positive Überraschung bereits im Kurs, erhöhte KI-/Datacenter-Erwartungen. [Reuters, 12.11.2026](https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/).\n- Reuters berichtet einen STOXX-600-Rekord von 665,61 (+0,4 %) bei robuster Berichtssaison; Makrorisiken und Bewertungsdruck bleiben. [Reuters, 12.11.2026](https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/).\n- [TipRanks-Earnings-Kalender, Abruf 12.11.2026](https://www.tipranks.com/calendars/earnings/2026-11-12/germany) nennt Siemens, Allianz und Munich Re. Kalenderlistung allein ist kein vollständiges Screening.\n\n## Screening und Watchlist\nSIE: WATCH, fundamental positiv; Einstieg nach Kursreaktion und Kostenprüfung erst evaluieren. ALV und MUV2: DISCOVERED, Zahlen-/Konsensvergleich nicht geprüft. IFX und RWE: beobachtete Marktwerte, keine qualifizierte neue These. Nachgewiesen gründlich gescreente neue Ticker: 0; Event-Liste mit drei Namen, davon SIE anhand IR und Reuters vertieft. PRE-EARNINGS, PEAD, Guidance-Revision und Pair-Trade als Ansätze verglichen: nur Guidance-Revision für SIE ausreichend qualitativ belegt; EPS+Umsatzsurprise gegenüber vorherigem Konsens, 60–252 Tageskurs-Korrelation, Spread, Borrow und Nettokosten nicht verifiziert.\n\n## Dossier Siemens\n2 eigenständige inhaltlich ausgewertete Siemens-spezifische Publikationen (IR und Reuters), Ziel 50 kumulativ; frühere Dossier-Dokumente hier nicht neu als gelesen gezählt. Historische periodengleiche Guidance-vs-Ist-Paare, 2 namentliche Analystenvoten, institutionelle Stimmrechtsvergleiche, vollständige Cashflow-/Schuldenhistorie: nicht verifiziert. Bull: Auftragseingang und angehobener Ausblick. Bear: Bewertungs-/KI-Nachfragerisiko und mögliche Einpreisung. Invalidation: deutliche Abschwächung des Auftragsbestands oder Rücknahme der Guidance.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n- IREN SHORT: historische **unverbindliche Referenz** 18,05 USD, kein bestätigter Fill; letzter gespeicherter Nasdaq-Schluss 11.11.2026 16:00 EST 20,84 USD; theoretische lineare PnL bei 100 EUR ×5: −77,29 EUR, ohne Gebühren/FX/KO. [Yahoo Finance, Kursdatum 11.11.2026](https://finance.yahoo.com/quote/IREN/history/). Keine neue Marke.\n- HFG SHORT USER_REPORTED Turbo: letzter gespeicherter Xetra-Kurs 09.11.2026 17:35 CET 3,029 EUR, **ALT**. [MarketScreener](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/). Xetra-Schluss 11.11.2026 2,885 EUR separat belegt, aber keine zeitnahe 12.11.-Marke; [6ix, Kursdatum 11.11.2026](https://6ix.com/stock/dus-hfg/hellofresh-se). Turbo-PnL nicht berechenbar ohne ISIN/Produktpreis.\n- PTON SHORT USER_REPORTED Turbo: letzter gespeicherter Nasdaq-Schluss 11.11.2026 16:00 EST 5,72 USD; [StockAnalysis, Kursdatum 11.11.2026](https://stockanalysis.com/stocks/pton/history/). Turbo-PnL nicht berechenbar.\n\nKeine Position geschlossen. Eröffnungsorders müssen vor der Börseneröffnung feststehen; erst anschließend kann ein echter Opening-Print zur unabhängigen Referenzprüfung verwendet werden. Keine rückdatierten Fills. Der gespeicherte IREN-Ausstiegsplan liegt bereits in der Vergangenheit, ist aber nicht als ausgeführt belegt.\n\n## Paper-Risiko und Quellenlücken\nKonfiguriertes Startbudget 10.000 EUR virtuell; keine Broker-Verbindung. Kosten-/Spread-/Stückelungsprüfung nicht ausreichend, daher kein neues Signal oder Fill. Keine Kursmarke als tickgenau live bezeichnet. Vier unabhängige aktuelle Publikationen zu Markt/Earnings gelesen; zwei davon Siemens-spezifisch, weitere drei Kursquellen für offene Positionen geprüft. Es fehlen verlässliche zeitnahe Xetra-Quotes, umfassende Analystenkonsensdaten und regulatorische Holdings-Vergleiche."
+    },
+    {
+      "id": "XETRA-20261112T120412Z",
+      "market": "XETRA",
+      "run_at": "2026-11-12T12:04:12Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Rekordaufträge, Merck hebt Guidance; keine belegten Fills",
+      "summary": "3 Titel triagiert, 11 weitere/inklusive Titel im Terminkalender entdeckt; 0 ausgeführte Paper-Trades.",
+      "source_status": "6 unterschiedliche öffentliche Dokumente/Artikel geprüft; keine historischen Primärdossiers vollständig",
+      "candidates": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens",
+          "tv": "XETR:SIE",
+          "side": "LONG",
+          "thesis": "Rekordaufträge und höhere Wachstumsziele",
+          "risk": "Bewertung und Cashflow",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MRK",
+          "name": "Merck KGaA",
+          "tv": "XETR:MRK",
+          "side": "LONG",
+          "thesis": "EBITDA-Guidance erhöht",
+          "risk": "FX/Akquisitionen",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz",
+          "tv": "XETR:ALV",
+          "side": "WATCH",
+          "thesis": "Analysten erwarten robuste Guidance",
+          "risk": "Schadenquote und Berichtsdaten",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens",
+          "published_at": "2026-11-12",
+          "ticker": "SIE",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+          "finding": "Siemens hebt Wachstumsausblick an"
+        },
+        {
+          "title": "Merck",
+          "published_at": "2026-11-12",
+          "ticker": "MRK",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/germanys-merck-raises-2026-guidance-third-time-2026-11-12/",
+          "finding": "Merck hebt EBITDA-Prognose an"
+        },
+        {
+          "title": "STOXX 600",
+          "published_at": "2026-11-12",
+          "ticker": null,
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/",
+          "finding": "Europäische Aktien auf Rekordhoch"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens",
+          "tv": "XETR:SIE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Rekordaufträge und höhere Wachstumsziele",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Rekordaufträge und höhere Wachstumsziele",
+              "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Gegenthese: Bewertung und Cashflow",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Bewertung und Cashflow"
+          ]
+        },
+        {
+          "ticker": "MRK",
+          "name": "Merck KGaA",
+          "tv": "XETR:MRK",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "EBITDA-Guidance erhöht",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "EBITDA-Guidance erhöht",
+              "url": "https://www.reuters.com/business/germanys-merck-raises-2026-guidance-third-time-2026-11-12/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Gegenthese: FX/Akquisitionen",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "FX/Akquisitionen"
+          ]
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz",
+          "tv": "XETR:ALV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Analysten erwarten robuste Guidance",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Analysten erwarten robuste Guidance",
+              "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/allianz-stock-faces-earnings-test-as-berenberg-backs-2026-outlook/70482435",
+              "publisher": "AD HOC NEWS",
+              "published_at": "2026-11-09"
+            },
+            {
+              "type": "EINSCHÄTZUNG",
+              "text": "Gegenthese: Schadenquote und Berichtsdaten",
+              "url": null,
+              "publisher": null,
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Earnings/Guidance"
+          ],
+          "invalidations": [
+            "Schadenquote und Berichtsdaten"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": null,
+        "id": null,
+        "stance": "KEIN TRADE",
+        "summary": "Keine offenen Positionen im Register; keine ausführbaren Kursmarken",
+        "base_scenario": null,
+        "bull_scenario": null,
+        "bear_scenario": null,
+        "key_risk": "Kurs- und Ausführungslücken",
+        "planned_exit": null,
+        "as_of": "2026-11-12T12:04:12Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research – 12.11.2026, 13:04 MEZ\n\n## Markt und Nachrichten\nReuters meldet am 12.11. neue Rekordstände bei STOXX 600 und DAX; im Reuters-Snapshot um 09:26 GMT lag STOXX 600 bei 665,61 (+0,4 %) und DAX +1,1 %. Dies sind **historische Momentaufnahmen**, keine aktuellen Handelskurse. Siemens meldete für Q4 Industriegewinn 3,89 Mrd. EUR (+22 %), Umsatz 23,68 Mrd. EUR (+11 %), Aufträge 34,77 Mrd. EUR (+58 %) und erhöhte die mittelfristige vergleichbare Umsatzwachstumsspanne von 6–9 % auf 7–11 %. Merck KGaA erhöhte die bereinigte EBITDA-Prognose 2026 von 5,9–6,3 auf 6,2–6,4 Mrd. EUR. Die unterschiedliche Basis von Industriegewinn und Konzernkennzahlen darf nicht vermischt werden.\n\n## Screening und Handel\nDer öffentliche dpa-AFX-Tageskalender nennt unter anderem Siemens (SIE), Allianz (ALV), Merck (MRK), Munich Re (MUV2), Talanx (TLX), Wienerberger (WIE), LEG (LEG), SMA Solar (S92), Grenke (GLJ), Ströer (SAX) und Cewe (CWC). Diese **11 Namen sind DISCOVERED**, nicht 11 vollständig geprüfte Handelschancen. Inhaltlich wurden Siemens, Merck und Allianz triagiert (3), jedoch keine überprüfbaren zeitnahen Bid/Ask, Borrow- und vollständigen Roundtrip-Kosten verifiziert. Deshalb 0 QUALIFIED, 0 Fills und **KEIN TRADE**. Die 10.000-EUR-Paper-Konfiguration verlangt eine authentische Paper-Ausführungsbestätigung; kein Broker verbunden. Ein 50-EUR-Einsatz mit 5x entspräche 250 EUR Notional; 2,50 EUR deutsche Mindest-Roundtrip-Provision wären bereits 1 % und damit über der 0,5-%-Kostenobergrenze, noch ohne Spread. Kein erfundener Fill.\n\n## Priorisierte Aktien\n**SIE – WATCH, 1–10 Tage neutral bis konstruktiv:** Aufträge und angehobene Wachstumsperspektive sind bullisch. Bear-These: Bewertungs- und Gewinnmitnahmerisiko nach starker Meldung, mögliche Normalisierung der Großaufträge. Invalidierung einer Long-These bei sinkender Auftragsqualität oder enttäuschendem Cashflow. Aktueller Konsens, zwei aktuelle Analystenziele, Bewertungsmultiples und frischer Spread: nicht verifiziert.\n\n**MRK – WATCH, 1–10 Tage konstruktiv mit Vorbehalt:** dritte Prognoseanhebung; höhere EBITDA-Bandbreite. Gegenargumente: FX- und Akquisitionseffekte sind nicht zwingend organische operative Beschleunigung. Konsens, Free Cashflow, Schulden und zwei Analystenberichte: nicht verifiziert.\n\n**ALV – WATCH, neutral:** Berenberg bekräftigte laut Sekundärbericht Buy und Ziel 684 EUR; Metzler erwartet laut Sekundärbericht Orientierung am oberen Prognoserand. Versicherungs-Schadenquote und Guidance sind Katalysatoren. Ergebnisdetails, Primärberichte, verifizierter Bid/Ask und zwei Original-Analystentexte: nicht gefunden.\n\n## Historische Dossiers und Strategien\nKein vollständiges 50-Dokumente-Dossier in diesem Lauf: 6 unterschiedliche journalistische/Terminquellen geprüft, davon 0 neue eigenständige historische IR-Originaldokumente. Guidance-Ist-Scorecards, quartalsweise Stimmrechtsvergleiche und 13F-Doppel-Filings: nicht verifiziert. PRE-EARNINGS, PEAD, GUIDANCE-REVISION und PAIRS wurden konzeptionell verglichen; ohne periodengleichen Konsens und verifizierte Überraschungen kein PEAD-Signal. Für Pairs fehlen 60–252 Kursbeobachtungen, Korrelation bleibt null.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nDas aktuelle GitHub-Positionsregister wurde vor der Recherche gelesen: **keine Position mit offenem Status in positions[]**. Somit keine belegbaren Einstands- oder aktuellen Marken und keine PnL. Die historische IREN-Referenz 18,05 USD ist kein Fill. HFG/PTON werden ohne nachgewiesenen Produkt-Einstand nicht bewertet. Keine Position geschlossen. Ein simulierter Opening-Auftrag muss vor Eröffnung feststehen; der Opening-Print ist erst danach bekannt.\n\n## Quellen (Publikation / Prüfung)\n- [Siemens](https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/) – Reuters, 2026-11-12, geprüft 12.11.2026\n- [Merck](https://www.reuters.com/business/germanys-merck-raises-2026-guidance-third-time-2026-11-12/) – Reuters, 2026-11-12, geprüft 12.11.2026\n- [STOXX 600](https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/) – Reuters, 2026-11-12, geprüft 12.11.2026\n- [Terminkalender](https://www.finanzen.net/nachricht/aktien/tagesvorschau-termine-am-12-november-2026-16056939) – dpa-AFX/finanzen.net, 2026-11-11, geprüft 12.11.2026\n- [Allianz Analysten](https://www.ad-hoc-news.de/boerse/news/corporate-news/allianz-stock-faces-earnings-test-as-berenberg-backs-2026-outlook/70482435) – AD HOC NEWS, 2026-11-09, geprüft 12.11.2026\n- [Allianz Metzler](https://www.ad-hoc-news.de/boerse/news/corporate-news/allianz-stock-faces-metzler-profit-test-before-november-12-results/70487745) – AD HOC NEWS, 2026-11-10, geprüft 12.11.2026\n\n## Datenlücken\nKeine aktuellen Primärbörse-Quotes mit exaktem Kurszeitpunkt und Bid/Ask, kein Broker-Fill, keine belastbare Spread-/Finanzierungskostenprüfung, keine vollständige Historie. TradingView-Widgetwerte sind keine nachgewiesenen Live-Quotes. Kein Mark-to-Market."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-12T11:03:46Z",
-    "method_note": "12.11.2026 12:03 MEZ: Siemens IR und Reuters geprüft; ALV/MUV2 nur Kalender-Discovery; keine unbelegte vollständige Screening-Zahl.",
+    "as_of": "2026-11-12T12:04:12Z",
+    "method_note": "12.11.2026 13:04 MEZ: 11 Kalendernamen DISCOVERED, 3 qualitativ triagiert, kein vollständiger Spread-/Liquiditätscheck",
     "coverage": {
       "universe_checked": 3,
       "earnings_events": 3,
@@ -4957,6 +5138,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261112T110346Z"
+      },
+      {
+        "date": "2026-11-12",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261112T120412Z"
       }
     ],
     "strategies": []
