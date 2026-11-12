@@ -1,6 +1,6 @@
 {
-  "version": 21,
-  "updated_at": "2026-11-12T00:33:27Z",
+  "version": 22,
+  "updated_at": "2026-11-12T06:56:45Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -3545,15 +3545,145 @@
         "reference_only": true
       },
       "report_markdown": "# US-Nachbörsenresearch – 11.11.2026, 19:33 EST\n\n**Entscheidung: KEIN TRADE.** Reguläre NYSE/Nasdaq-Sitzung beendet; Veterans Day schloss den US-Anleihemarkt, nicht den Aktienmarkt. Keine nachbörslichen Paper-Entries.\n\n## Markt und Ereignisse\nReuters meldet für den regulären Handel S&P 500 +1,31 %, Nasdaq +1,60 %, Dow +0,49 %. CoreWeave (CRWV) +24,7 % nach Aussagen über angestrebte bereinigte Profitabilität im ersten Halbjahr 2028; Nebius (NBIS) +15,4 %, Applied Digital (APLD) +7,4 %. AI-Infrastruktur-Rally kann fundamentale Risiken überdecken. Quelle: [Reuters, 11.11.2026](https://www.reuters.com/business/sp-500-nasdaq-futures-rise-after-coreweave-soothes-ai-spending-fears-2026-11-11/).\n\nRigetti (RGTI) meldete laut [Investors Business Daily, 11.11.2026](https://www.investors.com/news/technology/quantum-computing-stocks-rigetti-earnings-sales-miss-rgti/) enttäuschende Quartalszahlen; Artikeltext nur teilweise zugänglich, keine verifizierte SEC/IR-Abgleichung. Short-Hypothese wegen Umsatzschwäche, Gegenargument Sektor-Rebound.\n\n## Screening und vorläufige Watchlist\nCRWV WATCH/Long-Hypothese, NBIS WATCH/Long-Hypothese, RGTI WATCH/Short-Hypothese, IREN WATCH/Short-Referenz. Keine Titel vollständig SCREENED oder QUALIFIED: Spreads, Optionsvolatilität, Analystenkonsens, offizielle Guidance, 13F-Vergleiche und Transaktionskosten nicht vollständig nachgewiesen. CRWV 1/50, NBIS 1/50, RGTI 1/50 eigenständige in diesem Lauf inhaltlich geprüfte Nachrichtenpublikationen; IREN 0/50 neue Unternehmensdokumente. Kumulative Dossier-Vollständigkeit nicht verifiziert. Kein nachgewiesenes statistisches Pair.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister nur als Register gelesen, nicht als Marktdatenquelle. IREN: SHORT, Referenzbasis 18,05 USD vom 05.11., kein belegter Fill. [Yahoo Finance Kursübersicht, Abruf 11.11.2026](https://finance.yahoo.com/quote/IREN/history/) nennt regulären Schluss 20,84 USD um 16:00 EST; rechnerisch bei 100 EUR Margin ×5: 500×(1−20,84/18,05)=−77,29 EUR, ausschließlich unverbindliche Referenzrechnung ohne FX/Kosten, nicht verbuchte Performance. Nachbörslicher Kurs 20,01 USD um 17:46 EST, kein regulärer Close. PTON: Nutzer-Short-Turbo ohne ISIN/Einstand, PnL nicht berechenbar; [FinancialContent, 11.11.2026](https://www.financialcontent.com/quote/NQ:PTON/historical) zeigt 5,72 USD mit Last-Trade 18:14 EST, aber Abrufkonsistenz widersprüchlich, deshalb keine Positionsmarke fortgeschrieben. HFG: Nutzer-Short-Turbo, aktueller zeitgestempelter Xetra-Kurs nicht verifiziert, PnL nicht berechenbar. Keine Position geschlossen. Plan: neuer überprüfbarer Kurscheck im nächsten regulären Marktfenster, kein nachträglicher Fill.\n\n## Methoden- und Datenlücken\nPre-Earnings, PEAD, Guidance-Revision und Pair-Ansatz nur qualitativ verglichen; keine vorab datierten Konsenswerte oder 60–252 Tagesreihen vollständig geprüft. Keine 13F-Bestandsänderung oder Guidance-Trefferquote behauptet. Für qualifizierten Handel fehlen offizielle Originalberichte, Analysten-Voten, Bid/Ask, Borrow und realistische Roundtripkosten. Paper-Modellkapital laut Register 10.000 EUR, Broker nicht verbunden, daher null neue Fills. TradingView-Widgets sind kein verifizierter PnL-Feed."
+    },
+    {
+      "id": "XETRA-20261112T065645Z",
+      "market": "XETRA",
+      "run_at": "2026-11-12T06:56:45Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Rekordaufträge; Xetra vorbörslich",
+      "summary": "Siemens und Telekom im Fokus; HFG abgelehnt; IREN/HFG/PTON geprüft, keine bestätigten neuen Fills.",
+      "source_status": "7 öffentliche Seiten, unvollständiges Screening, keine handelbaren vorbörslichen Xetra-Quotes",
+      "candidates": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "side": "LONG",
+          "thesis": "Rekordaufträge, positive Guidance-Revision",
+          "risk": "Bewertung und Opening-Gap; Spread nicht geprüft",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom AG",
+          "tv": "XETR:DTE",
+          "side": "WATCH",
+          "thesis": "Guidance und Ausschüttungen",
+          "risk": "Wettbewerb und Bewertung",
+          "sources_checked": 1,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Q4: Rekordaufträge und höherer Wachstumsausblick",
+          "published_at": "2026-11-12",
+          "ticker": "SIE",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+          "finding": "Industriegewinn 3,89 Mrd. EUR, Aufträge 34,77 Mrd. EUR"
+        },
+        {
+          "title": "Siemens Q4 Veröffentlichung",
+          "published_at": "2026-11-12",
+          "ticker": "SIE",
+          "publisher": "Siemens IR",
+          "url": "https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026",
+          "finding": "Ergebnisveröffentlichung 07:00 MEZ"
+        },
+        {
+          "title": "Telekom Q3 und Guidance",
+          "published_at": null,
+          "ticker": "DTE",
+          "publisher": "Deutsche Telekom IR",
+          "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend",
+          "finding": "Angehobene Prognose und Dividendenvorschlag"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens AG",
+          "tv": "XETR:SIE",
+          "stance": "LONG",
+          "horizon": "1–10 Handelstage",
+          "summary": "Rekordaufträge, positive Guidance-Revision",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Rekordaufträge, positive Guidance-Revision",
+              "url": "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/",
+              "publisher": "Reuters",
+              "published_at": "2026-11-12"
+            }
+          ],
+          "catalysts": [
+            "Guidance",
+            "Kursreaktion nach Xetra-Start"
+          ],
+          "invalidations": [
+            "Schwacher Folgeausblick",
+            "Unzureichende Liquidität oder Kosten"
+          ]
+        },
+        {
+          "ticker": "DTE",
+          "name": "Deutsche Telekom AG",
+          "tv": "XETR:DTE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Guidance und Ausschüttungen",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Guidance und Ausschüttungen",
+              "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend",
+              "publisher": "Deutsche Telekom IR",
+              "published_at": null
+            }
+          ],
+          "catalysts": [
+            "Guidance",
+            "Kursreaktion nach Xetra-Start"
+          ],
+          "invalidations": [
+            "Schwacher Folgeausblick",
+            "Unzureichende Liquidität oder Kosten"
+          ]
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZ-SHORT",
+        "summary": "Kein nachgewiesener Fill; rein hypothetischer Verlust",
+        "base_scenario": "Volatile Eröffnung",
+        "bull_scenario": "Kursrückgang",
+        "bear_scenario": "Short-Squeeze",
+        "key_risk": "Gap und Borrow",
+        "planned_exit": "Nur nach vorab dokumentierter Entscheidung und überprüftem Print",
+        "as_of": "2026-11-12T06:56:45Z",
+        "mark_price": 20.84,
+        "mark_at": "2026-11-11T16:00:00-05:00",
+        "mark_source_url": "https://finance.yahoo.com/quote/IREN/history/",
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Vorbörsenresearch – 12.11.2026, 07:56 MEZ\n\n## Kurzlage\nXetra ist vorbörslich geschlossen, reguläre Handelszeit 09:00–17:30 MEZ laut [Deutsche Börse](https://www.xetra.com/xetra-de/handel/handelskalendar-und-zeiten/Handelskalender-und-zeiten-17870). **Keine neue Order, kein simulierter Fill.**\n\n## Ereignisse und Kandidaten\n**Siemens (SIE), WATCH / Long-Tendenz nur bedingt:** Siemens veröffentlichte heute Quartalszahlen; Reuters meldet Q4-Industriegewinn 3,89 Mrd. EUR (+22%), Umsatz 23,68 Mrd. EUR (+11%), Auftragseingang 34,77 Mrd. EUR (+58%) und eine angehobene mittelfristige Wachstumsprognose 7–11% statt 6–9%. [Siemens IR, 12.11.](https://press.siemens.com/global/en/event/fourth-quarter-and-preliminary-figures-fiscal-2026); [Reuters, 12.11.](https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/). Bull: Auftragseingang und Rechenzentrumnachfrage. Bear: mögliche hohe Erwartungen und Bewertung, vorbörslicher Spread nicht verifiziert. Keine Order ohne Quote und Kostenprüfung.\n\n**Deutsche Telekom (DTE), WATCH:** Offizielle Q3-Mitteilung nennt angehobene Guidance, geplante Dividende 1,10 EUR und Rückkaufprogramm 2027 bis 2 Mrd. EUR; deutsches Segment Q3-Umsatz 6,6 Mrd. EUR (+3,9%) und EBITDA AL 2,8 Mrd. EUR (+1,5%). [Deutsche Telekom IR, November 2026](https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend). Positiv: Cash-Return; Risiko: Finanzierung, Wettbewerb, Bewertung. Kein neuer Event-Entry.\n\n**HelloFresh (HFG), REJECTED für neue Paper-Position:** Letzter geprüfter Xetra-Schluss 11.11.2026 17:38:26: 2,885 EUR, [MarketScreener](https://it.marketscreener.com/quotazioni/azione/HELLOFRESH-SE-38533857/quotazioni/); Marktkapitalisierung unter bevorzugter 2-Mrd.-Schwelle laut öffentlicher Sekundärquelle. Vorhandenes Nutzerturbo bleibt unverändert.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN:** Im Register als OPEN_SIMULATED geführte historische Short-Referenz 18,05 USD ist **kein nachgewiesener Fill**. Öffentlicher Schluss 11.11. 16:00 EST: 20,84 USD, [Yahoo Finance](https://finance.yahoo.com/quote/IREN/history/). Rein hypothetische Short-Modell-PnL bei 100 EUR Margin ×5: 500×(1−20,84/18,05)=−77,29 EUR, ohne FX, Gebühren, Borrow oder Spread; nicht als realisierte oder bestätigte Paper-Performance verbuchen. Bei neuerlicher Aufwärtsbewegung droht Short-Squeeze; kein automatischer Exit.\n**HFG:** Nutzerberichteter Turbo-Short ohne ISIN, Einstand und KO; Aktie 2,885 EUR am 11.11. Xetra-Schluss, [MarketScreener](https://it.marketscreener.com/quotazioni/azione/HELLOFRESH-SE-38533857/quotazioni/). Turbo-PnL nicht berechenbar.\n**PTON:** Nutzerberichteter Turbo-Short ohne Produktdaten; Nasdaq-Schluss 11.11. 16:00 EST 5,72 USD, [StockAnalysis](https://stockanalysis.com/stocks/pton/history/); Turbo-PnL nicht berechenbar. Keine Position geschlossen.\n\n## Methodik und Lücken\nDrei Einzeltitel auf öffentlich datierte Ereignisse/Quotes geprüft (Siemens, Telekom, HFG); zusätzlich IREN und PTON zur Positionskontrolle. 7 unterschiedliche öffentliche Seiten geprüft, keine 50-Dokumente-Dossiers. Historische Guidance-Ist-Paare, zwei namentliche aktuelle Analystenvoten je Aktie, regulatorische Bestände, belastbare Spreads und PEAD-Surprise-Konsens fehlen. Vorbörse: kein handelbarer Xetra-Quote. 10.000 EUR virtuelles Ausgangsbudget laut Positionsregister, kein authentifizierter Paper-Broker. Modellkosten für Deutschland mindestens 2,50 EUR Roundtrip Provision laut [IBKR-Preisliste](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe), zuzüglich Spread und Slippage. PRE-EARNINGS/PEAD/GUIDANCE/PAIRS geprüft als Ansätze, aber mangels ausreichender Kursreihen und Konsensdaten keine qualifizierte Strategie. Eröffnungsorder müsste vor Eröffnung dokumentiert werden; Eröffnungskurs erst danach bekannt."
     }
   ],
   "screening": {
-    "status": "PRELIMINARY",
-    "as_of": "2026-11-11T23:27:38Z",
-    "method_note": "Nur zwei Reuters-Nachrichten inhaltlich geöffnet; keine vollständige Einzeltitel-Eignungsprüfung; vorherige Screening-Daten erhalten.",
+    "status": "PARTIAL_PREMARKET",
+    "as_of": "2026-11-12T06:56:45Z",
+    "method_note": "Xetra vorbörslich; nur SIE, DTE und HFG einzeln geprüft; keine vollumfängliche Marktbreite.",
     "coverage": {
-      "universe_checked": 2,
-      "earnings_events": 2,
+      "universe_checked": 3,
+      "earnings_events": 1,
       "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
@@ -3848,6 +3978,57 @@
           "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
         ],
         "as_of": "2026-11-11T22:33:03Z"
+      },
+      {
+        "ticker": "SIE",
+        "name": "Siemens AG",
+        "tv": "XETR:SIE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "LONG",
+        "reason": "Rekordaufträge, positive Guidance-Revision",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-12",
+        "event": "Rekordaufträge, positive Guidance-Revision",
+        "score": null,
+        "sources": [
+          "https://www.reuters.com/business/siemens-posts-q4-profit-above-forecasts-raises-mid-term-guidance-2026-11-12/"
+        ],
+        "as_of": "2026-11-12T06:56:45Z"
+      },
+      {
+        "ticker": "DTE",
+        "name": "Deutsche Telekom AG",
+        "tv": "XETR:DTE",
+        "market": "XETRA",
+        "sector": null,
+        "direction": "WATCH",
+        "reason": "Guidance und Ausschüttungen",
+        "stage": "WATCH",
+        "earnings_at": null,
+        "event": "Guidance und Ausschüttungen",
+        "score": null,
+        "sources": [
+          "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/more-growth-raised-guidance-record-dividend"
+        ],
+        "as_of": "2026-11-12T06:56:45Z"
+      },
+      {
+        "ticker": "HFG",
+        "name": "HelloFresh",
+        "tv": "XETR:HFG",
+        "market": "XETRA",
+        "sector": "Consumer",
+        "direction": "NONE",
+        "reason": "Marktkapitalisierung unter Präferenz; unvollständige Produktdaten",
+        "stage": "REJECTED",
+        "earnings_at": null,
+        "event": "Letzte Quartalszahlen",
+        "score": null,
+        "sources": [
+          "https://it.marketscreener.com/quotazioni/azione/HELLOFRESH-SE-38533857/quotazioni/"
+        ],
+        "as_of": "2026-11-12T06:56:45Z"
       }
     ],
     "pairs": [],
@@ -4021,6 +4202,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "US-20261111T232738Z"
+      },
+      {
+        "date": "2026-11-12",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 1,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261112T065645Z"
       }
     ],
     "strategies": []
