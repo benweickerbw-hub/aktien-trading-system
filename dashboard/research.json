@@ -1,6 +1,6 @@
 {
-  "version": 25,
-  "updated_at": "2026-11-12T08:57:01Z",
+  "version": 26,
+  "updated_at": "2026-11-12T10:04:43Z",
   "note": "Research journal initialized from empty existing GitHub file; previous history not available in file.",
   "runs": [
     {
@@ -4074,16 +4074,193 @@
         "reference_only": true
       },
       "report_markdown": "# Xetra Research – 12.11.2026, 09:57 MEZ\n\n## Markt- und Earnings-Lage\nReuters meldet um 08:11 UTC einen STOXX-600-Rekordstand (+0,3% um 08:04 UTC), unterstützt von Quartalszahlen und gesunkenen Energiepreisen: [Reuters, 12.11.2026](https://www.reuters.com/markets/us/european-shares-hit-record-high-helped-by-strong-earnings-lower-energy-prices-2026-11-12/). Kein zeitnaher Bid/Ask-Kurs für einen neuen Paper-Fill verifiziert.\n\n## Geprüfte Aktien und Kandidaten\n**Siemens (SIE, WATCH LONG):** [Siemens Q4, 12.11.](https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026): Q4-Aufträge +58% auf 34,8 Mrd. EUR, Umsatz +11% auf 23,7 Mrd. EUR, Industrial Profit +22% auf 3,9 Mrd. EUR. [Siemens FY2026, 12.11.](https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth): Jahres-FCF 12,1 Mrd. EUR; mittelfristiges vergleichbares Umsatzwachstumsziel auf 7–11% erhöht. Bull: strukturelle Rechenzentrums-/Industrienachfrage; Bear: Auftragsvolatilität, Bewertung und bereits positive Kursreaktion. Keine aktuelle Spread-/Konsensvalidierung.\n\n**Allianz (ALV, WATCH LONG):** [Allianz IR, 11.11.](https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html): 9M operativer Gewinn 14,1 Mrd. EUR gegenüber 13,1 Mrd. EUR; oberes Prognoseende rund 18,6 Mrd. EUR. Bull: erhöhte Guidance; Bear: Großschäden/Kapitalmarktrisiko. Analysten-Zieländerungen nicht unabhängig validiert.\n\n**Deutsche Telekom (DTE, WATCH LONG):** [Q3 IR, 05.11.](https://www.telekom.com/de/newsroom/aktuelles/medieninformationen/2026/11/mehr-wachstum-erhoehte-prognose-rekorddividende): Umsatz 31,1 Mrd. EUR, EBITDA AL 12,2 Mrd. EUR. [Vorergebnis-Konsens vom 23.10.](https://www.telekom.com/de/investor-relations/finanzpublikationen/consensus): Umsatz 30,379 Mrd., EBITDA AL 11,962 Mrd. EUR. Damit beide Werte über damaligem Konsens, aber kein vollständiger Guidance-Track-Record. Risiko: US-Dollar/T-Mobile-Exposure.\n\n**HelloFresh (HFG, WATCH):** [Q3 IR, 05.11.](https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4): Umsatz konstantwährungsbereinigt -11,3% auf ca. 1,4 Mrd. EUR; AEBITDA 50,9 Mio. EUR. Margenverbesserung steht schwacher Kundennachfrage gegenüber. Kein neuer Short-Entry.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\n**IREN Short:** ausschließlich hypothetische Referenz 18,05 USD, 100 EUR Margin ×5; Nasdaq-Schlusskurs 11.11. 16:00 EST 20,84 USD ([Yahoo Finance](https://finance.yahoo.com/quote/IREN/history/)); rein lineares Referenzmodell ca. -77,29 EUR, ohne FX, Gebühren, Spread, KO und Borrow; kein nachgewiesener Fill oder Exit. **HFG Short Turbo (USER_REPORTED):** letzter im Register gespeicherter Aktienkurs 3,029 EUR vom 09.11. 17:35 MEZ ([MarketScreener](https://www.marketscreener.com/quote/stock/HELLOFRESH-SE-38533857/quotes/)); ALT, Produkt-PnL mangels ISIN/Einstand nicht berechenbar. **PTON Short Turbo (USER_REPORTED):** Nasdaq-Schlusskurs 11.11. 16:00 EST 5,72 USD ([StockAnalysis](https://stockanalysis.com/stocks/pton/history/)); Produkt-PnL nicht berechenbar. Kein verifizierter Ausstieg. Für den separaten Morgen-Check muss eine simulierte Eröffnungsorder vor der Eröffnung feststehen; erst danach kann der tatsächliche Opening-Print geprüft werden.\n\n## Strategie, Kosten und Lücken\nPaper-Ausgangsbudget 10.000 EUR laut Register; keine authentifizierte Paper-Broker-Ausführung. Die deutschen IBKR-Tiered-Mindestprovisionen betragen 1,25 EUR je Seite, mindestens 2,50 EUR Roundtrip vor Spread/Slippage ([IBKR Gebühren](https://www.interactivebrokers.ie/de/pricing/commissions-stocks.php?region=europe)); bei 250 EUR Notional bereits mindestens 1%, über 0,5%-Kostenlimit. Deshalb **KEIN TRADE**, keine neuen Fills, keine rückdatierten Orders. PRE-EARNINGS, PEAD, Guidance und Pairs sind mangels vollständiger Zeitreihen/Kosten/Surprises noch keine qualifizierten Signale. Geprüft: 4 eindeutig symbolbezogene Unternehmen anhand 6 unabhängiger Primärdokumente; zusätzlich Reuters und zwei US-Kursquellen, HFG-Altquote. Analysten-Zielkurse, Insiderbestände, historische Management-Guidance-Vergleiche, 60–252 Tageskurs-Pairs, Echtzeit-Spreads und weitere Dossiers nicht verifiziert. 50 Dokumente je Aktie nicht erreicht."
+    },
+    {
+      "id": "XETRA-20261112T100443Z",
+      "market": "XETRA",
+      "run_at": "2026-11-12T10:04:43Z",
+      "task": "Aktienresearch Xetra stündlich",
+      "decision": "KEIN TRADE",
+      "headline": "Siemens Rekordaufträge; Allianz und Munich Re heben Ausblicke an",
+      "summary": "Drei Originalbericht-Titel geprüft; keine verifizierbare ausführbare Nettochance, keine Fills.",
+      "source_status": "6 unterschiedliche Originaldokumente inhaltlich geprüft; 3 Titel triagiert; Quotes/Analystenkonsens/Bid-Ask unvollständig",
+      "candidates": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens",
+          "tv": "XETR:SIE",
+          "side": "WATCH",
+          "thesis": "Q4 Auftrag 34,8 Mrd EUR, Umsatz 23,7 Mrd, Industriebereich-Ergebnis 3,9 Mrd",
+          "risk": "Event bereits teilweise eingepreist; kein zeitnaher Spread/Quote",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz",
+          "tv": "XETR:ALV",
+          "side": "WATCH",
+          "thesis": "9M operativer Gewinn 14,1 Mrd EUR",
+          "risk": "Event bereits teilweise eingepreist; kein zeitnaher Spread/Quote",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        },
+        {
+          "ticker": "MUV2",
+          "name": "Munich Re",
+          "tv": "XETR:MUV2",
+          "side": "WATCH",
+          "thesis": "Gewinnziel 2026 von 6,3 auf 6,6 Mrd EUR erhöht",
+          "risk": "Event bereits teilweise eingepreist; kein zeitnaher Spread/Quote",
+          "sources_checked": 2,
+          "sources_target": 50,
+          "confidence": null
+        }
+      ],
+      "news": [
+        {
+          "title": "Siemens Q4 FY26",
+          "published_at": "2026-11-12",
+          "ticker": "SIE",
+          "publisher": "Siemens",
+          "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
+          "finding": "Q4 Auftrag 34,8 Mrd EUR, Umsatz 23,7 Mrd, Industriebereich-Ergebnis 3,9 Mrd"
+        },
+        {
+          "title": "Siemens FY26 und Ausblick",
+          "published_at": "2026-11-12",
+          "ticker": "SIE",
+          "publisher": "Siemens",
+          "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth",
+          "finding": "FY26 FCF 12,1 Mrd EUR, FY27 organisches Umsatzwachstum 9-11%"
+        },
+        {
+          "title": "Allianz Q3 2026",
+          "published_at": "2026-11-12",
+          "ticker": "ALV",
+          "publisher": "Allianz",
+          "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261112-3q-2026-earnings-release.html",
+          "finding": "9M operativer Gewinn 14,1 Mrd EUR"
+        },
+        {
+          "title": "Munich Re Q3 2026",
+          "published_at": "2026-11-12",
+          "ticker": "MUV2",
+          "publisher": "Munich Re",
+          "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-3-2026.html",
+          "finding": "Gewinnziel 2026 von 6,3 auf 6,6 Mrd EUR erhöht"
+        }
+      ],
+      "watchlist_briefs": [
+        {
+          "ticker": "SIE",
+          "name": "Siemens",
+          "tv": "XETR:SIE",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Q4 Auftrag 34,8 Mrd EUR, Umsatz 23,7 Mrd, Industriebereich-Ergebnis 3,9 Mrd",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Q4 Auftrag 34,8 Mrd EUR, Umsatz 23,7 Mrd, Industriebereich-Ergebnis 3,9 Mrd",
+              "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
+              "publisher": "Siemens",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "FAKT",
+              "text": "FY26 FCF 12,1 Mrd EUR, FY27 organisches Umsatzwachstum 9-11%",
+              "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth",
+              "publisher": "Siemens",
+              "published_at": "2026-11-12"
+            }
+          ],
+          "catalysts": "Ergebnisreaktion und Analystenrevisionen",
+          "invalidations": "Guidance-Rücknahme; Spread und Kosten unattraktiv"
+        },
+        {
+          "ticker": "ALV",
+          "name": "Allianz",
+          "tv": "XETR:ALV",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "9M operativer Gewinn 14,1 Mrd EUR",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "9M operativer Gewinn 14,1 Mrd EUR",
+              "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261112-3q-2026-earnings-release.html",
+              "publisher": "Allianz",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "FAKT",
+              "text": "2026 operatives Ergebnis oberes Ziel rund 18,6 Mrd EUR",
+              "url": "https://www.allianz.com/en/investor_relations/announcements/ir_announcements/261111.html",
+              "publisher": "Allianz",
+              "published_at": "2026-11-11"
+            }
+          ],
+          "catalysts": "Ergebnisreaktion und Analystenrevisionen",
+          "invalidations": "Guidance-Rücknahme; Spread und Kosten unattraktiv"
+        },
+        {
+          "ticker": "MUV2",
+          "name": "Munich Re",
+          "tv": "XETR:MUV2",
+          "stance": "WATCH",
+          "horizon": "1–10 Handelstage",
+          "summary": "Gewinnziel 2026 von 6,3 auf 6,6 Mrd EUR erhöht",
+          "points": [
+            {
+              "type": "FAKT",
+              "text": "Gewinnziel 2026 von 6,3 auf 6,6 Mrd EUR erhöht",
+              "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-3-2026.html",
+              "publisher": "Munich Re",
+              "published_at": "2026-11-12"
+            },
+            {
+              "type": "FAKT",
+              "text": "Q1 Ergebnis 1,7 Mrd EUR; damaliges Jahresziel 6,3 Mrd EUR",
+              "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-1-2026.item-d8c6664412a1cc541094e56984e541fa.html",
+              "publisher": "Munich Re",
+              "published_at": "2026-05-12"
+            }
+          ],
+          "catalysts": "Ergebnisreaktion und Analystenrevisionen",
+          "invalidations": "Guidance-Rücknahme; Spread und Kosten unattraktiv"
+        }
+      ],
+      "trade_outlook": {
+        "ticker": "IREN",
+        "id": "PAPER-IREN-20261105-01",
+        "stance": "REFERENZSIMULATION",
+        "summary": "Kein verifizierter Fill, kein aktueller Primärmarktpreis, keine PnL",
+        "base_scenario": "Volatilität nach US-Eröffnung",
+        "bull_scenario": "Short profitiert bei Rückgang",
+        "bear_scenario": "Short-Squeeze",
+        "key_risk": "Gap und unbegrenztes Short-Risiko",
+        "planned_exit": "Nur vorab dokumentierte Exit-Entscheidung",
+        "as_of": "2026-11-12T10:04:43Z",
+        "mark_price": null,
+        "mark_at": null,
+        "mark_source_url": null,
+        "pnl_eur": null,
+        "reference_only": true
+      },
+      "report_markdown": "# Xetra-Research 12.11.2026, 11:04 MEZ\n\n## Markt- und Earnings-Lage\nDer DAX war laut Reuters am Morgen rund 1% höher; STOXX 600 +0,3% um 08:06 GMT. Treiber: starke Quartalszahlen und Entspannung bei Öl-/Nahostrisiken. Kein tickgenauer Marktstand verifiziert. [Reuters, 12.11.2026](https://www.reuters.com/business/europes-stoxx-600-hits-record-high-strong-earnings-easing-mideast-tensions-2026-11-12/).\n\n## Triage und Watchlist\nDrei Unternehmen anhand aktueller Originalberichte substanziell geprüft: Siemens (SIE), Allianz (ALV), Munich Re (MUV2). Andere Namen im [öffentlichen Terminkalender, Stand 11.11.](https://www.atlas-stocks.com/de/kalender/quartalszahlen-november-2026) sind lediglich entdeckt, nicht voll gescreent. Keine überprüfte aktuelle Bid/Ask-Spanne, vollständige Brokerkostenrechnung oder belastbare historische Kursreihen. Deshalb keine QUALIFIED-Order.\n\n### Siemens (SIE) – WATCH, Tendenz vorsichtig positiv 1–10 Handelstage\n[Siemens, Q4-Mitteilung vom 12.11.](https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026): Auftragseingang 34,8 Mrd EUR (+58%), Umsatz 23,7 Mrd EUR (+11%), Industrieergebnis 3,9 Mrd EUR (+22%), Quartals-FCF 5,6 Mrd EUR. [Siemens FY26, 12.11.](https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth): Gesamtjahres-FCF 12,1 Mrd EUR, Umsatz 83,4 Mrd EUR, FY27 Umsatzwachstum vergleichbar 9–11%. Bull: AI-Infrastruktur, Auftragsbestand, Margen. Bear: starker Kurssprung könnte Überraschung einpreisen, Healthineers-Transaktion und zyklische Risiken. Invalidierung: schwächerer Auftragstrend oder Guidance-Rücknahme. Zwei aktuelle unabhängige Analystenvoten nicht verifiziert.\n\n### Allianz (ALV) – WATCH, vorsichtig positiv\n[Allianz Q3/9M, 12.11.](https://www.allianz.com/en/mediacenter/news/media-releases/financials/261112-3q-2026-earnings-release.html): 9M operatives Ergebnis 14,1 Mrd EUR (+7,8%), Q3 4,7 Mrd EUR (+6,2%), Geschäftsvolumen Q3 44,4 Mrd EUR. [Allianz Prognose, 11.11.](https://www.allianz.com/en/investor_relations/announcements/ir_announcements/261111.html): obere Prognose nun rund 18,6 Mrd EUR. Bull: Asset-Management-Margen. Bear: Naturkatastrophen, Kapitalmarktvolatilität. Keine konsensbereinigte EPS-Surprise verifiziert; kein PEAD-Nachweis.\n\n### Munich Re (MUV2) – WATCH, vorsichtig positiv\n[Munich Re Q3, 12.11.](https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-3-2026.html): 9M Gewinn 5,7 Mrd EUR, neues Jahresziel 6,6 Mrd statt 6,3 Mrd EUR. Q3 Combined Ratio P/C 80,0%, Global Specialty 83,9%. [Munich Re Q1, 12.05.](https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-1-2026.item-d8c6664412a1cc541094e56984e541fa.html): damals Jahresziel 6,3 Mrd EUR. Guidance-Track: Prognose nach oben revidiert; endgültiges FY26-Ist NOCH OFFEN. Bear: Großschäden, Rückversicherungspreise, Kapitalmärkte.\n\n## Strategie und Lücken\nPre-Earnings: kein belastbarer vorab fixierter Konsensvergleich. PEAD: Umsatz- und EPS-Surprise zusammen nicht belegt. Guidance-Revision: bei ALV/MUV2 positiv dokumentiert, bei SIE FY27 ambitioniert. Pairs: keine 60–252 Kurstage/Korrelation/Spread-Statistik verifiziert. Institutionelle Bestandsänderungen, Directors' Dealings und zwei aktuelle namentliche Analystenvoten je Titel nicht gefunden. 6 eigenständige Unternehmensdokumente in diesem Lauf inhaltlich geprüft (SIE 2, ALV 2, MUV2 2); Ziel 50 je Dossier noch nicht erreicht.\n\n## Alle offenen Positionen – Kurs und modellierte PnL\nGitHub-Positionsregister vor Research eingesehen: IREN PAPER-REFERENZ SHORT mit 18,05 USD als hypothetischer Basis (kein verifizierter Fill); letzte gespeicherte Marke 11.11.2026 16:00 EST, kein neuer gleichzeitiger US-Primärmarkt-Quote verifiziert. Kein aktueller PnL. HFG und PTON USER_REPORTED SHORT ohne ISIN/Produkt-Einstand: PnL nicht berechenbar. DEUTZ CLOSED_REPORTED, unverändert. Marktphase der US-Titel um 11:04 MEZ: vor regulärer US-Eröffnung; für Xetra-HFG regulärer Handel, aber kein belastbarer zeitgestempelter Quote. Keine Position geschlossen; kein neuer Entry. Exit erst nach vorheriger Festlegung und verifizierbarem Kurs; Opening-Order muss vor Eröffnung feststehen, Opening-Print wird erst danach bekannt.\n\n## Kapital und Entscheidung\nPositionsregister: hypothetischer Modellstart 10.000 EUR, keine authentifizierte Paper-Broker-Verbindung, require_order_or_simulation_fill_receipt=true. Ohne überprüften nachträglichen Bid/Ask, Broker-Fill, Spread, Finanzierung, Slippage und Netto-R/R keine Buchung. **KEIN TRADE**, null Fills. Keine neue Kursmarke in positions.json. TradingView-Widgets nicht als PnL-Feed auslesbar."
     }
   ],
   "screening": {
     "status": "PARTIAL",
-    "as_of": "2026-11-12T08:57:01Z",
-    "method_note": "Vier einzeln mit Primärdokumenten geprüfte Aktien; keine Bid/Ask-/Liquiditätsqualifikation; keine neuen Fills.",
+    "as_of": "2026-11-12T10:04:43Z",
+    "method_note": "Drei Titel anhand Original-IR geprüft; Kalendernamen nicht als SCREENED gezählt.",
     "coverage": {
-      "universe_checked": 4,
-      "earnings_events": 4,
-      "triaged": 4,
+      "universe_checked": 3,
+      "earnings_events": 3,
+      "triaged": 3,
       "qualified": 0,
       "trade_signals": 0
     },
@@ -4362,41 +4539,6 @@
         "as_of": "2026-11-11T22:33:03Z"
       },
       {
-        "ticker": "SIE",
-        "name": "Siemens AG",
-        "tv": "XETR:SIE",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH LONG",
-        "reason": "Q4 Orders +58% auf 34,8 Mrd EUR; Umsatz 23,7 Mrd EUR; Industrial Profit 3,9 Mrd EUR.",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Q3/Q4 Unternehmenszahlen",
-        "score": null,
-        "sources": [
-          "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
-          "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth"
-        ],
-        "as_of": "2026-11-12T08:57:01Z"
-      },
-      {
-        "ticker": "ALV",
-        "name": "Allianz SE",
-        "tv": "XETR:ALV",
-        "market": "XETRA",
-        "sector": null,
-        "direction": "WATCH LONG",
-        "reason": "Operativer Gewinn 14,1 Mrd EUR, Vorjahr 13,1; Prognoseobergrenze auf ca. 18,6 Mrd EUR erhöht.",
-        "stage": "WATCH",
-        "earnings_at": null,
-        "event": "Q3/Q4 Unternehmenszahlen",
-        "score": null,
-        "sources": [
-          "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261111-announcement.html"
-        ],
-        "as_of": "2026-11-12T08:57:01Z"
-      },
-      {
         "ticker": "DTE",
         "name": "Deutsche Telekom AG",
         "tv": "XETR:DTE",
@@ -4430,6 +4572,60 @@
           "https://ir.hellofreshgroup.com/news/q3-2026-hellofresh-se-advances-profitability-across-product-segments/eac3ad4c-1662-4015-a195-541a2089fcd4"
         ],
         "as_of": "2026-11-12T08:57:01Z"
+      },
+      {
+        "ticker": "SIE",
+        "name": "Siemens",
+        "tv": "XETR:SIE",
+        "market": "XETRA",
+        "sector": "Industrials",
+        "direction": "WATCH",
+        "reason": "Q4 Auftrag 34,8 Mrd EUR, Umsatz 23,7 Mrd, Industriebereich-Ergebnis 3,9 Mrd",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-12",
+        "event": "Quartals-/Jahreszahlen",
+        "score": null,
+        "sources": [
+          "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2026",
+          "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth"
+        ],
+        "as_of": "2026-11-12T10:04:43Z"
+      },
+      {
+        "ticker": "ALV",
+        "name": "Allianz",
+        "tv": "XETR:ALV",
+        "market": "XETRA",
+        "sector": "Insurance",
+        "direction": "WATCH",
+        "reason": "9M operativer Gewinn 14,1 Mrd EUR",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-12",
+        "event": "Quartals-/Jahreszahlen",
+        "score": null,
+        "sources": [
+          "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261112-3q-2026-earnings-release.html",
+          "https://www.allianz.com/en/investor_relations/announcements/ir_announcements/261111.html"
+        ],
+        "as_of": "2026-11-12T10:04:43Z"
+      },
+      {
+        "ticker": "MUV2",
+        "name": "Munich Re",
+        "tv": "XETR:MUV2",
+        "market": "XETRA",
+        "sector": "Insurance",
+        "direction": "WATCH",
+        "reason": "Gewinnziel 2026 von 6,3 auf 6,6 Mrd EUR erhöht",
+        "stage": "WATCH",
+        "earnings_at": "2026-11-12",
+        "event": "Quartals-/Jahreszahlen",
+        "score": null,
+        "sources": [
+          "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-3-2026.html",
+          "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-1-2026.item-d8c6664412a1cc541094e56984e541fa.html"
+        ],
+        "as_of": "2026-11-12T10:04:43Z"
       }
     ],
     "pairs": [],
@@ -4633,6 +4829,16 @@
         "qualified": 0,
         "trade_signals": 0,
         "run_id": "XETRA-20261112T085701Z"
+      },
+      {
+        "date": "2026-11-12",
+        "market": "XETRA",
+        "universe_checked": 3,
+        "earnings_events": 3,
+        "triaged": 3,
+        "qualified": 0,
+        "trade_signals": 0,
+        "run_id": "XETRA-20261112T100443Z"
       }
     ],
     "strategies": []
@@ -5072,10 +5278,10 @@
       "ticker": "SIE",
       "name": "Siemens AG",
       "tv": "XETR:SIE",
-      "as_of": "2026-11-12T08:57:01Z",
+      "as_of": "2026-11-12T10:04:43Z",
       "status": "IN_PROGRESS",
-      "stance": "WATCH LONG",
-      "summary": "Q4 Orders +58% auf 34,8 Mrd EUR; Umsatz 23,7 Mrd EUR; Industrial Profit 3,9 Mrd EUR.",
+      "stance": "WATCH",
+      "summary": "Q4 Auftrag 34,8 Mrd EUR, Umsatz 23,7 Mrd, Industriebereich-Ergebnis 3,9 Mrd",
       "source_goal": 50,
       "source_documents": [
         {
@@ -5114,11 +5320,12 @@
       "institutional_holdings": [],
       "holdings_note": "Nicht verifiziert",
       "key_unknowns": [
-        "Aktuelle Bid/Ask und Bewertung",
-        "Vollständiger Guidance-Track-Record",
-        "Zwei aktuelle unabhängige Analystenstimmen"
+        "Zeitnahe Quotes/Spread",
+        "zwei namentliche Analystenupdates",
+        "vollständige Guidance-Ist-Scorecard",
+        "Institutionelle Originalmeldungen"
       ],
-      "method_note": "Nur tatsächlich geöffnete unterschiedliche Originaldokumente gezählt",
+      "method_note": "Nur inhaltlich geprüfte eigenständige Originaldokumente gezählt; 50 noch nicht erreicht.",
       "analyst_coverage": "Nicht verifiziert"
     },
     "ALV": {
@@ -5136,21 +5343,42 @@
           "finding": "Operativer Gewinn 14,1 Mrd EUR, Vorjahr 13,1; Prognoseobergrenze auf ca. 18,6 Mrd EUR erhöht.",
           "checked_on": "2026-11-12",
           "doc_type": "IR"
+        },
+        {
+          "id": "ALV-AllianzQ32026",
+          "title": "Allianz Q3 2026",
+          "publisher": "Allianz",
+          "published_at": "2026-11-12",
+          "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/261112-3q-2026-earnings-release.html",
+          "finding": "9M operativer Gewinn 14,1 Mrd EUR",
+          "checked_on": "2026-11-12",
+          "doc_type": "company_ir"
+        },
+        {
+          "id": "ALV-AllianzPrognoseanh",
+          "title": "Allianz Prognoseanhebung",
+          "publisher": "Allianz",
+          "published_at": "2026-11-11",
+          "url": "https://www.allianz.com/en/investor_relations/announcements/ir_announcements/261111.html",
+          "finding": "2026 operatives Ergebnis oberes Ziel rund 18,6 Mrd EUR",
+          "checked_on": "2026-11-12",
+          "doc_type": "company_ir"
         }
       ],
       "financial_history": [],
       "guidance_scorecard": [],
       "institutional_holdings": [],
-      "as_of": "2026-11-12T08:57:01Z",
+      "as_of": "2026-11-12T10:04:43Z",
       "status": "IN_PROGRESS",
-      "stance": "WATCH LONG",
-      "summary": "Operativer Gewinn 14,1 Mrd EUR, Vorjahr 13,1; Prognoseobergrenze auf ca. 18,6 Mrd EUR erhöht.",
+      "stance": "WATCH",
+      "summary": "9M operativer Gewinn 14,1 Mrd EUR",
       "key_unknowns": [
-        "Aktuelle Bid/Ask und Bewertung",
-        "Vollständiger Guidance-Track-Record",
-        "Zwei aktuelle unabhängige Analystenstimmen"
+        "Zeitnahe Quotes/Spread",
+        "zwei namentliche Analystenupdates",
+        "vollständige Guidance-Ist-Scorecard",
+        "Institutionelle Originalmeldungen"
       ],
-      "method_note": "Nur tatsächlich geöffnete unterschiedliche Originaldokumente gezählt"
+      "method_note": "Nur inhaltlich geprüfte eigenständige Originaldokumente gezählt; 50 noch nicht erreicht."
     },
     "DTE": {
       "ticker": "DTE",
@@ -5192,6 +5420,48 @@
         "Zwei aktuelle unabhängige Analystenstimmen"
       ],
       "method_note": "Nur tatsächlich geöffnete unterschiedliche Originaldokumente gezählt"
+    },
+    "MUV2": {
+      "ticker": "MUV2",
+      "name": "Munich Re",
+      "tv": "XETR:MUV2",
+      "source_documents": [
+        {
+          "id": "MUV2-MunichReQ32026",
+          "title": "Munich Re Q3 2026",
+          "publisher": "Munich Re",
+          "published_at": "2026-11-12",
+          "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-3-2026.html",
+          "finding": "Gewinnziel 2026 von 6,3 auf 6,6 Mrd EUR erhöht",
+          "checked_on": "2026-11-12",
+          "doc_type": "company_ir"
+        },
+        {
+          "id": "MUV2-MunichReQ12026",
+          "title": "Munich Re Q1 2026",
+          "publisher": "Munich Re",
+          "published_at": "2026-05-12",
+          "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2026/quarterly-statement-1-2026.item-d8c6664412a1cc541094e56984e541fa.html",
+          "finding": "Q1 Ergebnis 1,7 Mrd EUR; damaliges Jahresziel 6,3 Mrd EUR",
+          "checked_on": "2026-11-12",
+          "doc_type": "company_ir"
+        }
+      ],
+      "financial_history": [],
+      "guidance_scorecard": [],
+      "institutional_holdings": [],
+      "as_of": "2026-11-12T10:04:43Z",
+      "status": "IN_PROGRESS",
+      "stance": "WATCH",
+      "source_goal": 50,
+      "summary": "Gewinnziel 2026 von 6,3 auf 6,6 Mrd EUR erhöht",
+      "key_unknowns": [
+        "Zeitnahe Quotes/Spread",
+        "zwei namentliche Analystenupdates",
+        "vollständige Guidance-Ist-Scorecard",
+        "Institutionelle Originalmeldungen"
+      ],
+      "method_note": "Nur inhaltlich geprüfte eigenständige Originaldokumente gezählt; 50 noch nicht erreicht."
     }
   }
 }
