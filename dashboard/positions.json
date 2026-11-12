@@ -1,7 +1,7 @@
 {
-  "version": 24,
-  "updated_at": "2026-11-10T22:27:32Z",
-  "update_note": "US hourly public quote marks 10 Nov 2026 15:00/15:04 EST; no fills or exits. IREN reference-only.",
+  "version": 25,
+  "updated_at": "2026-11-12T08:10:00Z",
+  "update_note": "12 Nov 2026 Xetra opening check: verified 11 Nov Nasdaq closes for IREN reference and PTON user-reported underlying; no fills or exits; HFG quote stale.",
   "trades": [
     {
       "id": "PAPER-IREN-20261105-01",
@@ -17,28 +17,28 @@
       "entry_basis": "Historischer Kurs als Referenz zur Entscheidung; kein im Zeitpunkt dokumentierter tatsächlicher simulierter Fill.",
       "stake_eur": 100,
       "leverage": 5,
-      "mark_price": 19.61,
-      "mark_at": "2026-11-10T15:44:00-05:00",
-      "mark_source": "https://www.financialcontent.com/quote/NQ:IREN/historical",
+      "mark_price": 20.84,
+      "mark_at": "2026-11-11T16:00:00-05:00",
+      "mark_source": "https://au.finance.yahoo.com/quote/IREN/history/",
       "exit_price": null,
       "exit_at": null,
       "exit_source": null,
       "realized_pnl_eur": null,
       "planned_exit": "2026-11-06T09:30:00-05:00",
       "notes": "IREN Short historischer hypothetischer Referenzeinstieg 18,05 USD (NICHT verifizierter Decision-Time-Fill). +0,55 EUR zum vorigen Nasdaq-Close 18,03 USD, aber Vorbörse 06.11. 05:32 EST 20,83 USD zeigt modellierten VERLUST −77,01 EUR; 5× linear, kein Spread, FX, KO, Gebühren, Slippage oder Margin. Regulärer Nasdaq-Open und Ausstieg noch nicht verifiziert.",
-      "mark_source_url": "https://www.financialcontent.com/quote/NQ:IREN/historical",
-      "mark_verified_at": "2026-11-10T22:27:32Z",
-      "model_unrealized_pnl_eur": -43.21,
+      "mark_source_url": "https://au.finance.yahoo.com/quote/IREN/history/",
+      "mark_verified_at": "2026-11-12T08:10:00Z",
+      "model_unrealized_pnl_eur": -77.29,
       "reference_only": true,
       "previous_mark": {
-        "price": 19.24,
-        "at": "2026-11-10T15:04:00-05:00",
-        "source": "https://stockanalysis.com/stocks/iren/history/",
+        "price": 19.61,
+        "at": "2026-11-10T15:44:00-05:00",
+        "source": "https://www.financialcontent.com/quote/NQ:IREN/historical",
         "session": "REGULAR_LAST"
       },
-      "mark_type": "REGULAR_LAST",
+      "mark_type": "REGULAR_CLOSE",
       "mark_currency": "USD",
-      "mark_quote_type": "Last"
+      "mark_quote_type": "Close"
     },
     {
       "id": "USER-HELLOFRESH",
@@ -80,23 +80,23 @@
       "entry_price": null,
       "stake_eur": null,
       "leverage": null,
-      "mark_price": 5.82,
+      "mark_price": 5.72,
       "notes": "Turbo Short laut Nutzer offen und stark im Minus; Ausführungsdaten fehlen",
-      "mark_at": "2026-11-10T16:00:00-05:00",
+      "mark_at": "2026-11-11T16:00:00-05:00",
       "mark_type": "REGULAR_CLOSE",
       "mark_source": "https://stockanalysis.com/stocks/pton/history/",
       "mark_source_url": "https://stockanalysis.com/stocks/pton/history/",
-      "mark_verified_at": "2026-11-10T22:27:32Z",
+      "mark_verified_at": "2026-11-12T08:10:00Z",
       "model_unrealized_pnl_eur": null,
       "reference_only": false,
       "previous_mark": {
-        "price": 5.79,
-        "at": "2026-11-10T15:00:00-05:00",
+        "price": 5.82,
+        "at": "2026-11-10T16:00:00-05:00",
         "source": "https://stockanalysis.com/stocks/pton/history/",
-        "session": "REGULAR_LAST"
+        "session": "REGULAR_CLOSE"
       },
       "mark_currency": "USD",
-      "mark_quote_type": "Last"
+      "mark_quote_type": "Close"
     },
     {
       "id": "USER-DEUTZ",
